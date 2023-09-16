@@ -7,6 +7,10 @@ import pandas as pd
 elements_df = pd.read_csv('data/elements_simple.csv')
 WORDS = elements_df['Element'].str.lower().tolist()
 
+# Extract Period, Group, and Element symbol information
+PERIODIC_TABLE = elements_df.set_index('Element')[['Symbol', 'Period', 'Group', 'AtomicNumber']].to_dict(orient='index')
+
+
 # Determine the maximum word length for GUI adjustments
 MAX_WORD_LENGTH = max(map(len, WORDS))
 
@@ -37,13 +41,11 @@ def feedback(target, guess):
         if char in target and result[i] == 'gray':
             for idx, t_char in enumerate(target):
                 if char == t_char and idx not in used_indices:
-                    result[i] = 'yellow'
+                    result[i] = 'orange'
                     used_indices.append(idx)
                     break  # Exit once we've found a match that hasn't been used
                     
     return result
-
-
 
 class WordleGame(tk.Tk):
     def __init__(self):
@@ -55,6 +57,33 @@ class WordleGame(tk.Tk):
         self.target_word = random.choice(WORDS)
         self.attempts = 0
         self.max_attempts = 6
+
+        # Add the periodic table grid above the attempts label
+        self.pse_frame = tk.Frame(self)
+        self.pse_frame.pack(pady=20)
+        
+        self.element_labels = {}
+        # In the WordleGame's __init__ method, modify the loop for the periodic table grid like this:
+
+
+        # Calculate the offset to center lanthanides and actinides
+        offset = (18 - 15) // 2
+
+        for element, data in PERIODIC_TABLE.items():
+            row, col = data['Period'], data['Group']
+
+            # Check for lanthanides and actinides and adjust their positions
+            if 57 <= data['AtomicNumber'] <= 71:  # Lanthanides
+                row = 10  # A value that sets them below the main table and adds some space
+                col = data['AtomicNumber'] - 56 + offset  # Starts from 1 and adds the offset
+            elif 89 <= data['AtomicNumber'] <= 103:  # Actinides
+                row = 11  # Below lanthanides
+                col = data['AtomicNumber'] - 88 + offset  # Starts from 1 and adds the offset
+
+            lbl = tk.Label(self.pse_frame, text=data['Symbol'], width=3, height=1, borderwidth=1, relief="solid")
+            lbl.grid(row=row, column=col, padx=1, pady=1)
+
+            self.element_labels[element.lower()] = lbl
 
         self.label = tk.Label(self, text=f"Attempt {self.attempts + 1}/{self.max_attempts}")
         self.label.pack(pady=20)
@@ -75,12 +104,18 @@ class WordleGame(tk.Tk):
             for j, label in enumerate(row):
                 label.grid(row=i, column=j, padx=5, pady=5)
 
+
     def make_guess(self):
         guess = self.entry.get().lower()
 
         if guess not in WORDS:
             messagebox.showwarning("Warning", "The guessed word is not in the database!")
             return
+
+        # Highlight the guessed element in the periodic table
+        if guess in self.element_labels:
+            self.element_labels[guess].config(bg="blue")
+
 
         self.attempts += 1
         current_feedback = feedback(self.target_word, guess)

@@ -15,10 +15,18 @@ def feedback(target, guess):
     result = []
     used_indices = []  # Track indices in the target word that have already been matched
     
-    for i in range(len(target)):
+    # Use the length of the longest word for the loop to avoid out-of-range errors
+    for i in range(max(len(target), len(guess))):
+        # If the current position is out of range for the target but not for the guess, mark it as 'black'
+        if i >= len(target):
+            result.append('black')
+            continue
+        
         if i >= len(guess):
             result.append('white')
-        elif guess[i] == target[i]:
+            continue
+        
+        if guess[i] == target[i]:
             result.append('green')
             used_indices.append(i)
         else:
@@ -34,6 +42,7 @@ def feedback(target, guess):
                     break  # Exit once we've found a match that hasn't been used
                     
     return result
+
 
 
 class WordleGame(tk.Tk):

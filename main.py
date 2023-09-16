@@ -55,6 +55,9 @@ class WordleGame(tk.Tk):
         self.geometry(f"{50 * MAX_WORD_LENGTH}x450")
 
         self.target_word = random.choice(WORDS)
+        self.debug_label = tk.Label(self, text=f"Debug: {self.target_word}")
+        self.debug_label.pack(pady=20)
+
         self.attempts = 0
         self.max_attempts = 6
 
@@ -104,6 +107,10 @@ class WordleGame(tk.Tk):
             for j, label in enumerate(row):
                 label.grid(row=i, column=j, padx=5, pady=5)
 
+        # Additional attributes to hold arrow labels
+        self.arrow_labels = []
+
+
 
     def make_guess(self):
         guess = self.entry.get().lower()
@@ -116,13 +123,26 @@ class WordleGame(tk.Tk):
         if guess in self.element_labels:
             self.element_labels[guess].config(bg="blue")
 
+        # Get the positions of the guessed and target elements
+        guessed_row, guessed_col = PERIODIC_TABLE[guess.capitalize()]['Period'], PERIODIC_TABLE[guess.capitalize()]['Group']
+        target_row, target_col = PERIODIC_TABLE[self.target_word.capitalize()]['Period'], PERIODIC_TABLE[self.target_word.capitalize()]['Group']
 
-        self.attempts += 1
+        # Determine arrow direction
+        vertical_direction = "↓" if guessed_row < target_row else "↑" if guessed_row > target_row else ""
+        horizontal_direction = "→" if guessed_col < target_col else "←" if guessed_col > target_col else ""
+        arrow_text = vertical_direction + horizontal_direction
+
+        # Display arrow direction next to the guess
+        arrow_label = tk.Label(self.guess_frame, text=arrow_text, font=("Arial", 18))
+        arrow_label.grid(row=self.attempts, column=MAX_WORD_LENGTH + 1, padx=5, pady=5)  # Use current attempt value
+
         current_feedback = feedback(self.target_word, guess)
 
-        # Update the labels with guessed letters and their respective colors
+        # Update the labels with guessed letters and colors
         for i, color in enumerate(current_feedback):
-            self.guess_labels[self.attempts - 1][i].config(text=guess[i] if i < len(guess) else "", bg=color)
+            self.guess_labels[self.attempts][i].config(text=guess[i] if i < len(guess) else "", bg=color)
+
+        self.attempts += 1
 
         if guess == self.target_word:
             messagebox.showinfo("Congratulations", "You've guessed the word!")
@@ -133,16 +153,24 @@ class WordleGame(tk.Tk):
         else:
             self.label.config(text=f"Attempt {self.attempts + 1}/{self.max_attempts}")
 
+
     def restart_game(self):
-        self.target_word = random.choice(WORDS)
+        self.target_word = random.choice(WORDS)  # Update the target word first
+        self.debug_label.config(text=f"Debug: {self.target_word}")  # Then update the debug label with the new word
+
         self.attempts = 0
         self.label.config(text=f"Attempt {self.attempts + 1}/{self.max_attempts}")
         self.entry.delete(0, tk.END)
         
-        # Reset the colored labels
+        # Reset the periodic table color highlights
+        for element in self.element_labels:
+            self.element_labels[element].config(bg="white")
+
+        # Reset the colored labels for the guesses
         for row in self.guess_labels:
             for label in row:
                 label.config(text="", bg="white")
+
 
 if __name__ == "__main__":
     app = WordleGame()

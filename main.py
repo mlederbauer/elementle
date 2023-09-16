@@ -13,16 +13,28 @@ MAX_WORD_LENGTH = max(map(len, WORDS))
 def feedback(target, guess):
     """Provide feedback on the guessed word."""
     result = []
+    used_indices = []  # Track indices in the target word that have already been matched
+    
     for i in range(len(target)):
         if i >= len(guess):
             result.append('white')
         elif guess[i] == target[i]:
             result.append('green')
-        elif guess[i] in target:
-            result.append('yellow')
+            used_indices.append(i)
         else:
-            result.append('gray')
+            result.append('gray')  # Default to gray, might be updated to yellow later
+
+    # Check for yellow feedback, ensuring not to double-count letters
+    for i, char in enumerate(guess):
+        if char in target and result[i] == 'gray':
+            for idx, t_char in enumerate(target):
+                if char == t_char and idx not in used_indices:
+                    result[i] = 'yellow'
+                    used_indices.append(idx)
+                    break  # Exit once we've found a match that hasn't been used
+                    
     return result
+
 
 class WordleGame(tk.Tk):
     def __init__(self):

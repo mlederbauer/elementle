@@ -83,7 +83,7 @@ class WordleGame(tk.Tk):
                 row = 11  # Below lanthanides
                 col = data['AtomicNumber'] - 88 + offset  # Starts from 1 and adds the offset
 
-            lbl = tk.Label(self.pse_frame, text=data['Symbol'], width=3, height=1, borderwidth=1, relief="solid")
+            lbl = tk.Label(self.pse_frame, text="", width=3, height=1, borderwidth=1, relief="solid")
             lbl.grid(row=row, column=col, padx=1, pady=1)
 
             self.element_labels[element.lower()] = lbl
@@ -156,7 +156,7 @@ class WordleGame(tk.Tk):
 
     def restart_game(self):
         self.target_word = random.choice(WORDS)  # Update the target word first
-        self.debug_label.config(text=f"Debug: {self.target_word}")  # Then update the debug label with the new word
+        self.debug_label.config(text=f"Debug: {self.target_word}")  # DEBUG
 
         self.attempts = 0
         self.label.config(text=f"Attempt {self.attempts + 1}/{self.max_attempts}")

@@ -1,0 +1,946 @@
+[
+    {
+        "AtomicNumber": 1,
+        "Element": "Hydrogen",
+        "Symbol": "H",
+        "AtomicMass": 1.007,
+        "Period": 1,
+        "Group": 1
+    },
+    {
+        "AtomicNumber": 2,
+        "Element": "Helium",
+        "Symbol": "He",
+        "AtomicMass": 4.002,
+        "Period": 1,
+        "Group": 18
+    },
+    {
+        "AtomicNumber": 3,
+        "Element": "Lithium",
+        "Symbol": "Li",
+        "AtomicMass": 6.941,
+        "Period": 2,
+        "Group": 1
+    },
+    {
+        "AtomicNumber": 4,
+        "Element": "Beryllium",
+        "Symbol": "Be",
+        "AtomicMass": 9.012,
+        "Period": 2,
+        "Group": 2
+    },
+    {
+        "AtomicNumber": 5,
+        "Element": "Boron",
+        "Symbol": "B",
+        "AtomicMass": 10.811,
+        "Period": 2,
+        "Group": 13
+    },
+    {
+        "AtomicNumber": 6,
+        "Element": "Carbon",
+        "Symbol": "C",
+        "AtomicMass": 12.011,
+        "Period": 2,
+        "Group": 14
+    },
+    {
+        "AtomicNumber": 7,
+        "Element": "Nitrogen",
+        "Symbol": "N",
+        "AtomicMass": 14.007,
+        "Period": 2,
+        "Group": 15
+    },
+    {
+        "AtomicNumber": 8,
+        "Element": "Oxygen",
+        "Symbol": "O",
+        "AtomicMass": 15.999,
+        "Period": 2,
+        "Group": 16
+    },
+    {
+        "AtomicNumber": 9,
+        "Element": "Fluorine",
+        "Symbol": "F",
+        "AtomicMass": 18.998,
+        "Period": 2,
+        "Group": 17
+    },
+    {
+        "AtomicNumber": 10,
+        "Element": "Neon",
+        "Symbol": "Ne",
+        "AtomicMass": 20.18,
+        "Period": 2,
+        "Group": 18
+    },
+    {
+        "AtomicNumber": 11,
+        "Element": "Sodium",
+        "Symbol": "Na",
+        "AtomicMass": 22.99,
+        "Period": 3,
+        "Group": 1
+    },
+    {
+        "AtomicNumber": 12,
+        "Element": "Magnesium",
+        "Symbol": "Mg",
+        "AtomicMass": 24.305,
+        "Period": 3,
+        "Group": 2
+    },
+    {
+        "AtomicNumber": 13,
+        "Element": "Aluminum",
+        "Symbol": "Al",
+        "AtomicMass": 26.982,
+        "Period": 3,
+        "Group": 13
+    },
+    {
+        "AtomicNumber": 14,
+        "Element": "Silicon",
+        "Symbol": "Si",
+        "AtomicMass": 28.086,
+        "Period": 3,
+        "Group": 14
+    },
+    {
+        "AtomicNumber": 15,
+        "Element": "Phosphorus",
+        "Symbol": "P",
+        "AtomicMass": 30.974,
+        "Period": 3,
+        "Group": 15
+    },
+    {
+        "AtomicNumber": 16,
+        "Element": "Sulfur",
+        "Symbol": "S",
+        "AtomicMass": 32.065,
+        "Period": 3,
+        "Group": 16
+    },
+    {
+        "AtomicNumber": 17,
+        "Element": "Chlorine",
+        "Symbol": "Cl",
+        "AtomicMass": 35.453,
+        "Period": 3,
+        "Group": 17
+    },
+    {
+        "AtomicNumber": 18,
+        "Element": "Argon",
+        "Symbol": "Ar",
+        "AtomicMass": 39.948,
+        "Period": 3,
+        "Group": 18
+    },
+    {
+        "AtomicNumber": 19,
+        "Element": "Potassium",
+        "Symbol": "K",
+        "AtomicMass": 39.098,
+        "Period": 4,
+        "Group": 1
+    },
+    {
+        "AtomicNumber": 20,
+        "Element": "Calcium",
+        "Symbol": "Ca",
+        "AtomicMass": 40.078,
+        "Period": 4,
+        "Group": 2
+    },
+    {
+        "AtomicNumber": 21,
+        "Element": "Scandium",
+        "Symbol": "Sc",
+        "AtomicMass": 44.956,
+        "Period": 4,
+        "Group": 3
+    },
+    {
+        "AtomicNumber": 22,
+        "Element": "Titanium",
+        "Symbol": "Ti",
+        "AtomicMass": 47.867,
+        "Period": 4,
+        "Group": 4
+    },
+    {
+        "AtomicNumber": 23,
+        "Element": "Vanadium",
+        "Symbol": "V",
+        "AtomicMass": 50.942,
+        "Period": 4,
+        "Group": 5
+    },
+    {
+        "AtomicNumber": 24,
+        "Element": "Chromium",
+        "Symbol": "Cr",
+        "AtomicMass": 51.996,
+        "Period": 4,
+        "Group": 6
+    },
+    {
+        "AtomicNumber": 25,
+        "Element": "Manganese",
+        "Symbol": "Mn",
+        "AtomicMass": 54.938,
+        "Period": 4,
+        "Group": 7
+    },
+    {
+        "AtomicNumber": 26,
+        "Element": "Iron",
+        "Symbol": "Fe",
+        "AtomicMass": 55.845,
+        "Period": 4,
+        "Group": 8
+    },
+    {
+        "AtomicNumber": 27,
+        "Element": "Cobalt",
+        "Symbol": "Co",
+        "AtomicMass": 58.933,
+        "Period": 4,
+        "Group": 9
+    },
+    {
+        "AtomicNumber": 28,
+        "Element": "Nickel",
+        "Symbol": "Ni",
+        "AtomicMass": 58.693,
+        "Period": 4,
+        "Group": 10
+    },
+    {
+        "AtomicNumber": 29,
+        "Element": "Copper",
+        "Symbol": "Cu",
+        "AtomicMass": 63.546,
+        "Period": 4,
+        "Group": 11
+    },
+    {
+        "AtomicNumber": 30,
+        "Element": "Zinc",
+        "Symbol": "Zn",
+        "AtomicMass": 65.38,
+        "Period": 4,
+        "Group": 12
+    },
+    {
+        "AtomicNumber": 31,
+        "Element": "Gallium",
+        "Symbol": "Ga",
+        "AtomicMass": 69.723,
+        "Period": 4,
+        "Group": 13
+    },
+    {
+        "AtomicNumber": 32,
+        "Element": "Germanium",
+        "Symbol": "Ge",
+        "AtomicMass": 72.64,
+        "Period": 4,
+        "Group": 14
+    },
+    {
+        "AtomicNumber": 33,
+        "Element": "Arsenic",
+        "Symbol": "As",
+        "AtomicMass": 74.922,
+        "Period": 4,
+        "Group": 15
+    },
+    {
+        "AtomicNumber": 34,
+        "Element": "Selenium",
+        "Symbol": "Se",
+        "AtomicMass": 78.96,
+        "Period": 4,
+        "Group": 16
+    },
+    {
+        "AtomicNumber": 35,
+        "Element": "Bromine",
+        "Symbol": "Br",
+        "AtomicMass": 79.904,
+        "Period": 4,
+        "Group": 17
+    },
+    {
+        "AtomicNumber": 36,
+        "Element": "Krypton",
+        "Symbol": "Kr",
+        "AtomicMass": 83.798,
+        "Period": 4,
+        "Group": 18
+    },
+    {
+        "AtomicNumber": 37,
+        "Element": "Rubidium",
+        "Symbol": "Rb",
+        "AtomicMass": 85.468,
+        "Period": 5,
+        "Group": 1
+    },
+    {
+        "AtomicNumber": 38,
+        "Element": "Strontium",
+        "Symbol": "Sr",
+        "AtomicMass": 87.62,
+        "Period": 5,
+        "Group": 2
+    },
+    {
+        "AtomicNumber": 39,
+        "Element": "Yttrium",
+        "Symbol": "Y",
+        "AtomicMass": 88.906,
+        "Period": 5,
+        "Group": 3
+    },
+    {
+        "AtomicNumber": 40,
+        "Element": "Zirconium",
+        "Symbol": "Zr",
+        "AtomicMass": 91.224,
+        "Period": 5,
+        "Group": 4
+    },
+    {
+        "AtomicNumber": 41,
+        "Element": "Niobium",
+        "Symbol": "Nb",
+        "AtomicMass": 92.906,
+        "Period": 5,
+        "Group": 5
+    },
+    {
+        "AtomicNumber": 42,
+        "Element": "Molybdenum",
+        "Symbol": "Mo",
+        "AtomicMass": 95.96,
+        "Period": 5,
+        "Group": 6
+    },
+    {
+        "AtomicNumber": 43,
+        "Element": "Technetium",
+        "Symbol": "Tc",
+        "AtomicMass": 98.0,
+        "Period": 5,
+        "Group": 7
+    },
+    {
+        "AtomicNumber": 44,
+        "Element": "Ruthenium",
+        "Symbol": "Ru",
+        "AtomicMass": 101.07,
+        "Period": 5,
+        "Group": 8
+    },
+    {
+        "AtomicNumber": 45,
+        "Element": "Rhodium",
+        "Symbol": "Rh",
+        "AtomicMass": 102.906,
+        "Period": 5,
+        "Group": 9
+    },
+    {
+        "AtomicNumber": 46,
+        "Element": "Palladium",
+        "Symbol": "Pd",
+        "AtomicMass": 106.42,
+        "Period": 5,
+        "Group": 10
+    },
+    {
+        "AtomicNumber": 47,
+        "Element": "Silver",
+        "Symbol": "Ag",
+        "AtomicMass": 107.868,
+        "Period": 5,
+        "Group": 11
+    },
+    {
+        "AtomicNumber": 48,
+        "Element": "Cadmium",
+        "Symbol": "Cd",
+        "AtomicMass": 112.411,
+        "Period": 5,
+        "Group": 12
+    },
+    {
+        "AtomicNumber": 49,
+        "Element": "Indium",
+        "Symbol": "In",
+        "AtomicMass": 114.818,
+        "Period": 5,
+        "Group": 13
+    },
+    {
+        "AtomicNumber": 50,
+        "Element": "Tin",
+        "Symbol": "Sn",
+        "AtomicMass": 118.71,
+        "Period": 5,
+        "Group": 14
+    },
+    {
+        "AtomicNumber": 51,
+        "Element": "Antimony",
+        "Symbol": "Sb",
+        "AtomicMass": 121.76,
+        "Period": 5,
+        "Group": 15
+    },
+    {
+        "AtomicNumber": 52,
+        "Element": "Tellurium",
+        "Symbol": "Te",
+        "AtomicMass": 127.6,
+        "Period": 5,
+        "Group": 16
+    },
+    {
+        "AtomicNumber": 53,
+        "Element": "Iodine",
+        "Symbol": "I",
+        "AtomicMass": 126.904,
+        "Period": 5,
+        "Group": 17
+    },
+    {
+        "AtomicNumber": 54,
+        "Element": "Xenon",
+        "Symbol": "Xe",
+        "AtomicMass": 131.293,
+        "Period": 5,
+        "Group": 18
+    },
+    {
+        "AtomicNumber": 55,
+        "Element": "Cesium",
+        "Symbol": "Cs",
+        "AtomicMass": 132.905,
+        "Period": 6,
+        "Group": 1
+    },
+    {
+        "AtomicNumber": 56,
+        "Element": "Barium",
+        "Symbol": "Ba",
+        "AtomicMass": 137.327,
+        "Period": 6,
+        "Group": 2
+    },
+    {
+        "AtomicNumber": 57,
+        "Element": "Lanthanum",
+        "Symbol": "La",
+        "AtomicMass": 138.905,
+        "Period": 8,
+        "Group": 4
+    },
+    {
+        "AtomicNumber": 58,
+        "Element": "Cerium",
+        "Symbol": "Ce",
+        "AtomicMass": 140.116,
+        "Period": 8,
+        "Group": 5
+    },
+    {
+        "AtomicNumber": 59,
+        "Element": "Praseodymium",
+        "Symbol": "Pr",
+        "AtomicMass": 140.908,
+        "Period": 8,
+        "Group": 6
+    },
+    {
+        "AtomicNumber": 60,
+        "Element": "Neodymium",
+        "Symbol": "Nd",
+        "AtomicMass": 144.242,
+        "Period": 8,
+        "Group": 7
+    },
+    {
+        "AtomicNumber": 61,
+        "Element": "Promethium",
+        "Symbol": "Pm",
+        "AtomicMass": 145.0,
+        "Period": 8,
+        "Group": 8
+    },
+    {
+        "AtomicNumber": 62,
+        "Element": "Samarium",
+        "Symbol": "Sm",
+        "AtomicMass": 150.36,
+        "Period": 8,
+        "Group": 9
+    },
+    {
+        "AtomicNumber": 63,
+        "Element": "Europium",
+        "Symbol": "Eu",
+        "AtomicMass": 151.964,
+        "Period": 8,
+        "Group": 10
+    },
+    {
+        "AtomicNumber": 64,
+        "Element": "Gadolinium",
+        "Symbol": "Gd",
+        "AtomicMass": 157.25,
+        "Period": 8,
+        "Group": 11
+    },
+    {
+        "AtomicNumber": 65,
+        "Element": "Terbium",
+        "Symbol": "Tb",
+        "AtomicMass": 158.925,
+        "Period": 8,
+        "Group": 12
+    },
+    {
+        "AtomicNumber": 66,
+        "Element": "Dysprosium",
+        "Symbol": "Dy",
+        "AtomicMass": 162.5,
+        "Period": 8,
+        "Group": 13
+    },
+    {
+        "AtomicNumber": 67,
+        "Element": "Holmium",
+        "Symbol": "Ho",
+        "AtomicMass": 164.93,
+        "Period": 8,
+        "Group": 14
+    },
+    {
+        "AtomicNumber": 68,
+        "Element": "Erbium",
+        "Symbol": "Er",
+        "AtomicMass": 167.259,
+        "Period": 8,
+        "Group": 15
+    },
+    {
+        "AtomicNumber": 69,
+        "Element": "Thulium",
+        "Symbol": "Tm",
+        "AtomicMass": 168.934,
+        "Period": 8,
+        "Group": 16
+    },
+    {
+        "AtomicNumber": 70,
+        "Element": "Ytterbium",
+        "Symbol": "Yb",
+        "AtomicMass": 173.054,
+        "Period": 8,
+        "Group": 17
+    },
+    {
+        "AtomicNumber": 71,
+        "Element": "Lutetium",
+        "Symbol": "Lu",
+        "AtomicMass": 174.967,
+        "Period": 8,
+        "Group": 18
+    },
+    {
+        "AtomicNumber": 72,
+        "Element": "Hafnium",
+        "Symbol": "Hf",
+        "AtomicMass": 178.49,
+        "Period": 6,
+        "Group": 4
+    },
+    {
+        "AtomicNumber": 73,
+        "Element": "Tantalum",
+        "Symbol": "Ta",
+        "AtomicMass": 180.948,
+        "Period": 6,
+        "Group": 5
+    },
+    {
+        "AtomicNumber": 74,
+        "Element": "Tungsten",
+        "Symbol": "W",
+        "AtomicMass": 183.84,
+        "Period": 6,
+        "Group": 6
+    },
+    {
+        "AtomicNumber": 75,
+        "Element": "Rhenium",
+        "Symbol": "Re",
+        "AtomicMass": 186.207,
+        "Period": 6,
+        "Group": 7
+    },
+    {
+        "AtomicNumber": 76,
+        "Element": "Osmium",
+        "Symbol": "Os",
+        "AtomicMass": 190.23,
+        "Period": 6,
+        "Group": 8
+    },
+    {
+        "AtomicNumber": 77,
+        "Element": "Iridium",
+        "Symbol": "Ir",
+        "AtomicMass": 192.217,
+        "Period": 6,
+        "Group": 9
+    },
+    {
+        "AtomicNumber": 78,
+        "Element": "Platinum",
+        "Symbol": "Pt",
+        "AtomicMass": 195.084,
+        "Period": 6,
+        "Group": 10
+    },
+    {
+        "AtomicNumber": 79,
+        "Element": "Gold",
+        "Symbol": "Au",
+        "AtomicMass": 196.967,
+        "Period": 6,
+        "Group": 11
+    },
+    {
+        "AtomicNumber": 80,
+        "Element": "Mercury",
+        "Symbol": "Hg",
+        "AtomicMass": 200.59,
+        "Period": 6,
+        "Group": 12
+    },
+    {
+        "AtomicNumber": 81,
+        "Element": "Thallium",
+        "Symbol": "Tl",
+        "AtomicMass": 204.383,
+        "Period": 6,
+        "Group": 13
+    },
+    {
+        "AtomicNumber": 82,
+        "Element": "Lead",
+        "Symbol": "Pb",
+        "AtomicMass": 207.2,
+        "Period": 6,
+        "Group": 14
+    },
+    {
+        "AtomicNumber": 83,
+        "Element": "Bismuth",
+        "Symbol": "Bi",
+        "AtomicMass": 208.98,
+        "Period": 6,
+        "Group": 15
+    },
+    {
+        "AtomicNumber": 84,
+        "Element": "Polonium",
+        "Symbol": "Po",
+        "AtomicMass": 210.0,
+        "Period": 6,
+        "Group": 16
+    },
+    {
+        "AtomicNumber": 85,
+        "Element": "Astatine",
+        "Symbol": "At",
+        "AtomicMass": 210.0,
+        "Period": 6,
+        "Group": 17
+    },
+    {
+        "AtomicNumber": 86,
+        "Element": "Radon",
+        "Symbol": "Rn",
+        "AtomicMass": 222.0,
+        "Period": 6,
+        "Group": 18
+    },
+    {
+        "AtomicNumber": 87,
+        "Element": "Francium",
+        "Symbol": "Fr",
+        "AtomicMass": 223.0,
+        "Period": 7,
+        "Group": 1
+    },
+    {
+        "AtomicNumber": 88,
+        "Element": "Radium",
+        "Symbol": "Ra",
+        "AtomicMass": 226.0,
+        "Period": 7,
+        "Group": 2
+    },
+    {
+        "AtomicNumber": 89,
+        "Element": "Actinium",
+        "Symbol": "Ac",
+        "AtomicMass": 227.0,
+        "Period": 9,
+        "Group": 4
+    },
+    {
+        "AtomicNumber": 90,
+        "Element": "Thorium",
+        "Symbol": "Th",
+        "AtomicMass": 232.038,
+        "Period": 9,
+        "Group": 5
+    },
+    {
+        "AtomicNumber": 91,
+        "Element": "Protactinium",
+        "Symbol": "Pa",
+        "AtomicMass": 231.036,
+        "Period": 9,
+        "Group": 6
+    },
+    {
+        "AtomicNumber": 92,
+        "Element": "Uranium",
+        "Symbol": "U",
+        "AtomicMass": 238.029,
+        "Period": 9,
+        "Group": 7
+    },
+    {
+        "AtomicNumber": 93,
+        "Element": "Neptunium",
+        "Symbol": "Np",
+        "AtomicMass": 237.0,
+        "Period": 9,
+        "Group": 8
+    },
+    {
+        "AtomicNumber": 94,
+        "Element": "Plutonium",
+        "Symbol": "Pu",
+        "AtomicMass": 244.0,
+        "Period": 9,
+        "Group": 9
+    },
+    {
+        "AtomicNumber": 95,
+        "Element": "Americium",
+        "Symbol": "Am",
+        "AtomicMass": 243.0,
+        "Period": 9,
+        "Group": 10
+    },
+    {
+        "AtomicNumber": 96,
+        "Element": "Curium",
+        "Symbol": "Cm",
+        "AtomicMass": 247.0,
+        "Period": 9,
+        "Group": 11
+    },
+    {
+        "AtomicNumber": 97,
+        "Element": "Berkelium",
+        "Symbol": "Bk",
+        "AtomicMass": 247.0,
+        "Period": 9,
+        "Group": 12
+    },
+    {
+        "AtomicNumber": 98,
+        "Element": "Californium",
+        "Symbol": "Cf",
+        "AtomicMass": 251.0,
+        "Period": 9,
+        "Group": 13
+    },
+    {
+        "AtomicNumber": 99,
+        "Element": "Einsteinium",
+        "Symbol": "Es",
+        "AtomicMass": 252.0,
+        "Period": 9,
+        "Group": 14
+    },
+    {
+        "AtomicNumber": 100,
+        "Element": "Fermium",
+        "Symbol": "Fm",
+        "AtomicMass": 257.0,
+        "Period": 9,
+        "Group": 15
+    },
+    {
+        "AtomicNumber": 101,
+        "Element": "Mendelevium",
+        "Symbol": "Md",
+        "AtomicMass": 258.0,
+        "Period": 9,
+        "Group": 16
+    },
+    {
+        "AtomicNumber": 102,
+        "Element": "Nobelium",
+        "Symbol": "No",
+        "AtomicMass": 259.0,
+        "Period": 9,
+        "Group": 17
+    },
+    {
+        "AtomicNumber": 103,
+        "Element": "Lawrencium",
+        "Symbol": "Lr",
+        "AtomicMass": 262.0,
+        "Period": 9,
+        "Group": 18
+    },
+    {
+        "AtomicNumber": 104,
+        "Element": "Rutherfordium",
+        "Symbol": "Rf",
+        "AtomicMass": 261.0,
+        "Period": 7,
+        "Group": 4
+    },
+    {
+        "AtomicNumber": 105,
+        "Element": "Dubnium",
+        "Symbol": "Db",
+        "AtomicMass": 262.0,
+        "Period": 7,
+        "Group": 5
+    },
+    {
+        "AtomicNumber": 106,
+        "Element": "Seaborgium",
+        "Symbol": "Sg",
+        "AtomicMass": 266.0,
+        "Period": 7,
+        "Group": 6
+    },
+    {
+        "AtomicNumber": 107,
+        "Element": "Bohrium",
+        "Symbol": "Bh",
+        "AtomicMass": 264.0,
+        "Period": 7,
+        "Group": 7
+    },
+    {
+        "AtomicNumber": 108,
+        "Element": "Hassium",
+        "Symbol": "Hs",
+        "AtomicMass": 267.0,
+        "Period": 7,
+        "Group": 8
+    },
+    {
+        "AtomicNumber": 109,
+        "Element": "Meitnerium",
+        "Symbol": "Mt",
+        "AtomicMass": 268.0,
+        "Period": 7,
+        "Group": 9
+    },
+    {
+        "AtomicNumber": 110,
+        "Element": "Darmstadtium",
+        "Symbol": "Ds",
+        "AtomicMass": 271.0,
+        "Period": 7,
+        "Group": 10
+    },
+    {
+        "AtomicNumber": 111,
+        "Element": "Roentgenium",
+        "Symbol": "Rg",
+        "AtomicMass": 272.0,
+        "Period": 7,
+        "Group": 11
+    },
+    {
+        "AtomicNumber": 112,
+        "Element": "Copernicium",
+        "Symbol": "Cn",
+        "AtomicMass": 285.0,
+        "Period": 7,
+        "Group": 12
+    },
+    {
+        "AtomicNumber": 113,
+        "Element": "Nihonium",
+        "Symbol": "Nh",
+        "AtomicMass": 284.0,
+        "Period": 7,
+        "Group": 13
+    },
+    {
+        "AtomicNumber": 114,
+        "Element": "Flerovium",
+        "Symbol": "Fl",
+        "AtomicMass": 289.0,
+        "Period": 7,
+        "Group": 14
+    },
+    {
+        "AtomicNumber": 115,
+        "Element": "Moscovium",
+        "Symbol": "Mc",
+        "AtomicMass": 288.0,
+        "Period": 7,
+        "Group": 15
+    },
+    {
+        "AtomicNumber": 116,
+        "Element": "Livermorium",
+        "Symbol": "Lv",
+        "AtomicMass": 292.0,
+        "Period": 7,
+        "Group": 16
+    },
+    {
+        "AtomicNumber": 117,
+        "Element": "Tennessine",
+        "Symbol": "Ts",
+        "AtomicMass": 295.0,
+        "Period": 7,
+        "Group": 17
+    },
+    {
+        "AtomicNumber": 118,
+        "Element": "Oganesson",
+        "Symbol": "Og",
+        "AtomicMass": 294.0,
+        "Period": 7,
+        "Group": 18
+    }
+]

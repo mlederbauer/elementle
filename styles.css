@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#elementGrid {
+    display: grid;
+    grid-template-columns: repeat(18, 2em);  /* Width of each rectangle */
+    grid-gap: 3px 2px;  /* Vertical and horizontal gaps */
+    margin: 20px 0;
+}
+
+.rectangle {
+    width: 2em;  /* Width */
+    height: 3em;  /* Height (3 times the width for 1:3 ratio) */
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Target every rectangle from the 127th to the 144th */
+.rectangle:nth-child(n+127):nth-child(-n+144) {
+    margin-top: 5px;  /* Assuming the normal gap is 5px, so we add another 5px */
+}
+
+.incorrectGuess {
+    background-color: orange;
+}
+
+#guessedWordsContainer {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.letterRectangle {
+    display: inline-block;
+    background-color: grey;
+    padding: 5px 10px;
+    margin: 2px 2px 2px 0;
+    border-radius: 3px;
+    width: 10px;
+    text-align: center;
+}
+
+.wordDiv {
+    display: block;  /* Make each word start on a new line */
+}
+
+.sign {
+    display: inline-block;
+    width: 30px;  /* Adjust width as needed for spacing */
+    text-align: center;
+}
+
+.transparentPlaceholder {
+    opacity: 0;  /* Make it transparent */
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.arrow {
+    margin-left: 5px;  /* Space between the sign and the arrow */
+}
+
+.checkmark {
+    margin-left: 5px;  /* Space between the sign/arrow and the check mark */
+}
+
+.percentageBox {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 1px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.greenBox {
+    background-color: green;
+}
+
+.yellowBox {
+    background-color: yellow;
+}
+
+.infoRectangle {
+    display: inline-block;
+    background-color: grey;
+    padding: 5px 10px;
+    margin: 2px 2px 2px 0;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.transparentInfoRectangle {
+    opacity: 0;
+}

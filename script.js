@@ -14,12 +14,13 @@ function fetchData() {
         .then(data => {
             elementDataArray = data;
             elements = data.map(item => item.Element);
+            console.log(elements)
             populateGrid();
             initGame();
         })
-        .catch(error => {
-            console.error("Error fetching or parsing JSON data:", error);
-        });
+        //.catch(error => {
+        //    console.error("Error fetching or parsing JSON data:", error);
+        //});
 }
 
 function populateGrid() {
@@ -74,6 +75,11 @@ function checkGuess() {
         displayMessage("Try again!", "orange");
     }
     attemptsDisplay.textContent = `Attempts left: ${attempts}`;
+}
+
+function clearGuessInput() {
+    const guessInput = document.getElementById("guessInput");
+    guessInput.value = "";  // Clear the input field
 }
 
 function handleIncorrectGuess(guess) {
@@ -181,6 +187,8 @@ function appendLengthSign(parent, guess) {
 }
 
 function appendArrowsOrCheckmarks(parent, guessedElementData, selectedElementData) {
+    console.log(guessedElementData.Period, selectedElementData.Period);
+    console.log(guessedElementData.Group, selectedElementData.Group);
     appendPeriodIndicator(parent, guessedElementData.Period, selectedElementData.Period);
     appendGroupIndicator(parent, guessedElementData.Group, selectedElementData.Group);
 }
@@ -215,7 +223,7 @@ function appendPercentage(parent, guessedElementData, selectedElementData) {
     
     const percentageSpan = document.createElement("span");
     percentageSpan.textContent = `  ${percentage}%  `;
-    parent.appendChild(percentageSpan);
+    //parent.appendChild(percentageSpan);
 
     appendPercentageBoxes(parent, percentage);
 }

@@ -65,7 +65,8 @@ function checkGuess() {
 
     handleIncorrectGuess(guessInput.value);
     clearGuessInput();
-    decrementAttempts();
+    //decrementAttempts();
+    attempts--;
 
     if (attempts === 0) {
         displayMessage(`Sorry, you're out of attempts. The correct element was ${selectedElement}.`, "red");

@@ -14,7 +14,7 @@ function fetchData() {
         .then(data => {
             elementDataArray = data;
             elements = data.map(item => item.Element);
-            console.log(elements)
+            console.log("elements ", elements)
             populateGrid();
             initGame();
         })
@@ -67,8 +67,10 @@ function checkGuess() {
     clearGuessInput();
     //decrementAttempts();
     attempts--;
+    console.log(attempts)
 
     if (attempts === 0) {
+        attemptsDisplay.textContent = `Attempts left: ${attempts}`;
         displayMessage(`Sorry, you're out of attempts. The correct element was ${selectedElement}.`, "red");
         disableGuessInput();
         return;
@@ -155,13 +157,21 @@ function getGreenIndices(guessedArray, selectedArray) {
 
 function getYellowIndices(guessedArray, selectedArray, greenIndices) {
     const yellowIndices = [];
+    const matchedIndices = new Set(greenIndices);  // Keep track of indices that have already been matched
+
     for (let i = 0; i < guessedArray.length; i++) {
-        if (!greenIndices.includes(i) && selectedArray.includes(guessedArray[i])) {
-            yellowIndices.push(i);
-            const idx = selectedArray.indexOf(guessedArray[i]);
-            selectedArray[idx] = null;
+        if (!matchedIndices.has(i)) {
+            const letter = guessedArray[i];
+            for (let j = 0; j < selectedArray.length; j++) {
+                if (selectedArray[j] === letter && !matchedIndices.has(j)) {
+                    yellowIndices.push(i);
+                    matchedIndices.add(j);  // Mark this index as matched
+                    break;  // Break out of the inner loop once a match is found
+                }
+            }
         }
     }
+
     return yellowIndices;
 }
 
@@ -188,17 +198,17 @@ function appendLengthSign(parent, guess) {
 }
 
 function appendArrowsOrCheckmarks(parent, guessedElementData, selectedElementData) {
-    console.log(guessedElementData.Period, selectedElementData.Period);
-    console.log(guessedElementData.Group, selectedElementData.Group);
+    console.log("Period ", guessedElementData.Period, selectedElementData.Period);
+    console.log("Group ", guessedElementData.Group, selectedElementData.Group);
     appendPeriodIndicator(parent, guessedElementData.Period, selectedElementData.Period);
     appendGroupIndicator(parent, guessedElementData.Group, selectedElementData.Group);
 }
 
 function appendPeriodIndicator(parent, guessedPeriod, selectedPeriod) {
     const indicator = document.createElement("span");
-    if (guessedPeriod < selectedPeriod) {
+    if (guessedPeriod > selectedPeriod) {
         indicator.textContent = "\u2191";  // Upwards arrow
-    } else if (guessedPeriod > selectedPeriod) {
+    } else if (guessedPeriod < selectedPeriod) {
         indicator.textContent = "\u2193";  // Downwards arrow
     } else {
         indicator.textContent = "\u2713";  // Check mark
@@ -208,9 +218,9 @@ function appendPeriodIndicator(parent, guessedPeriod, selectedPeriod) {
 
 function appendGroupIndicator(parent, guessedGroup, selectedGroup) {
     const indicator = document.createElement("span");
-    if (guessedGroup < selectedGroup) {
+    if (guessedGroup > selectedGroup) {
         indicator.textContent = "\u2190";  // Leftwards arrow
-    } else if (guessedGroup > selectedGroup) {
+    } else if (guessedGroup < selectedGroup) {
         indicator.textContent = "\u2192";  // Rightwards arrow
     } else {
         indicator.textContent = "\u2713";  // Check mark
@@ -251,4 +261,15 @@ function appendPercentageBoxes(parent, percentage) {
         }
         parent.appendChild(box);
     }
+}
+
+function displayMessage(messageText, messageColor) {
+    const message = document.getElementById("message");
+    message.textContent = messageText;
+    message.style.color = messageColor;
+}
+
+function disableGuessInput() {
+    const guessInput = document.getElementById("guessInput");
+    guessInput.disabled = true;
 }

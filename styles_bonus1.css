@@ -1,0 +1,6 @@
+#loveMessage {
+    font-size: 48px;
+    color: purple;
+    text-align: center;
+    margin-top: 20%; /* Optional: to vertically center the message */
+}

@@ -41,6 +41,8 @@ function populateGrid() {
 function initGame() {
     selectedElement = elements[Math.floor(Math.random() * elements.length)];
     document.getElementById("debug").textContent = "Selected Element: " + selectedElement;
+    //localStorage.setItem('selectedElement', selectedElement);
+    saveSelectedElementToLocalStorage();
 }
 
 function checkGuess() {
@@ -59,7 +61,11 @@ function checkGuess() {
     if (guessInput.value === selectedElement) {
         displayMessage("Correct! Well done.", "green");
         disableGuessInput();
-        decrementAttempts();
+        //attempts--;
+
+        // Create and show the bonus page icon
+        showBonusPageIcon();
+
         return;
     }
 
@@ -272,4 +278,31 @@ function displayMessage(messageText, messageColor) {
 function disableGuessInput() {
     const guessInput = document.getElementById("guessInput");
     guessInput.disabled = true;
+}
+
+function showBonusPageIcon() {
+    const inputContainer = document.getElementById('inputContainer');
+    const bonusBlock = document.createElement('div');
+    bonusBlock.textContent = 'BONUS PAGE';
+    bonusBlock.style.backgroundColor = 'green';
+    bonusBlock.style.color = 'white';
+    bonusBlock.style.textAlign = 'center';
+    bonusBlock.style.padding = '10px';
+    bonusBlock.style.cursor = 'pointer';
+  
+    bonusBlock.addEventListener('click', () => {
+        window.location.href = 'bonuspage_1.html';  // replace with the path to your bonus page
+    });
+
+    inputContainer.innerHTML = '';
+    inputContainer.appendChild(bonusBlock);
+}
+
+function saveSelectedElementToLocalStorage() {
+    try {
+        localStorage.setItem('selectedElement', selectedElement);
+        console.log('Saved to localStorage:', selectedElement);
+    } catch (error) {
+        console.error('Failed to save to localStorage:', error);
+    }
 }

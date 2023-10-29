@@ -128,3 +128,7 @@ button:hover {
 .transparentInfoRectangle {
     opacity: 0;
 }
+
+#inputContainer {
+    display: inline-block;
+}

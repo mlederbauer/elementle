@@ -1,6 +1,74 @@
-#loveMessage {
-    font-size: 48px;
-    color: purple;
+.container {
     text-align: center;
-    margin-top: 20%; /* Optional: to vertically center the message */
+    padding: 20px;
+}
+
+#elementContainer {
+    display: grid;
+    grid-template-columns: 100px 100px 100px; /* 3 columns */
+    grid-template-rows: 120px 120px 120px; /* 3 rows, taller than columns */
+    justify-content: center;
+    align-items: center;
+    gap: 0; /* No gap between boxes */
+}
+
+.elementBox, .neighborBox {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Width of the boxes */
+    height: 120px; /* Height of the boxes, taller than width */
+    background-color: lightgrey;
+    color: white;
+    border: 1px solid black;
+    position: relative;
+}
+
+.elementBox {
+    background-color: green;
+}
+
+.atomicNumber {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: small;
+}
+
+#guessTable {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#guessForm {
+    margin-top: 40px; /* Increased space between boxes and form */
+}
+
+#resultMessage {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: large;
+    display: none; /* Initially hidden */
+}
+
+.correctGuess {
+    color: green;
+}
+
+.incorrectGuess {
+    color: red;
+}
+
+#nextBonusPage {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block; /* Make the div inline-block */
+    margin-top: 20px; /* Add some space above the div */
 }

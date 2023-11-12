@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bonuspage 1</title>
-<link rel="stylesheet" href="styles_bonus1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonuspage 1</title>
+    <link rel="stylesheet" href="styles_bonus1.css">
 </head>
 <body>
     <div class="container">
-        <!-- <div id="loveMessage">Love you Magdi</div> -->
         <p id="debug">Selected Element: N/A</p>
+        <div id="elementContainer"></div>
+        <form id="guessForm">
+            <input type="text" id="guessInput" placeholder="Guess an element">
+            <button type="submit">Guess</button>
+        </form>
+        <div id="resultMessage"></div>
+        <p id="remainingGuesses">Remaining Guesses: 8</p>
+        <p id="invalidGuessMessage"></p>
+        <table id="guessTable">
+            <tbody>
+                <!-- Guess rows will be added here dynamically -->
+            </tbody>
+        </table>
+        <div id="resultMessage"></div>
     </div>
     <script src="script_bonus1.js"></script>
 </body>

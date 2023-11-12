@@ -1,0 +1,7 @@
+##### TO-DO List with Features to implement in the long-term
+
+- In guess field, add drop down menu that actualizes itself with list of elements
+- make everything in upper case only
+- allow to share
+- collect statistics for each player
+- one puzzle each day

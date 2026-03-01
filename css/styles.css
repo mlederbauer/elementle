@@ -367,3 +367,44 @@ button:disabled { background: var(--grey); cursor: not-allowed; }
   transition: width 0.4s ease;
 }
 .dist-bar.highlight { background: var(--green); }
+
+/* ── Mobile responsive ── */
+@media (max-width: 640px) {
+  .game-header {
+    padding: 10px 16px;
+    margin-bottom: 10px;
+  }
+  .game-header h1 {
+    font-size: 1.4rem;
+  }
+  .header-actions {
+    right: 16px;
+  }
+  .container {
+    padding: 10px 8px 20px;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  #elementGrid {
+    zoom: 0.55;
+  }
+  .input-row {
+    flex-direction: column;
+    gap: 6px;
+  }
+  #guessInput {
+    width: 100%;
+    max-width: 340px;
+  }
+  #guessButton {
+    width: 100%;
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 420px) {
+  #elementGrid {
+    zoom: 0.43;
+  }
+}

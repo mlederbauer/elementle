@@ -237,3 +237,31 @@ body {
   transition: background 0.15s;
 }
 .btn-home:hover { background: #3d3d3d; }
+
+/* ── Mobile responsive ── */
+@media (max-width: 640px) {
+  .game-header {
+    padding: 10px 16px;
+    margin-bottom: 10px;
+  }
+  .game-header h1 {
+    font-size: 1.4rem;
+  }
+  .back-link {
+    left: 16px;
+    font-size: 0.75rem;
+    padding: 5px 8px;
+  }
+  .container {
+    padding: 14px 12px 24px;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .options-grid {
+    grid-template-columns: 1fr;
+  }
+}

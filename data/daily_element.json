@@ -2,5 +2,51 @@
   "date": "2026-02-28",
   "element": "Lead",
   "atomicNumber": 82,
-  "symbol": "Pb"
+  "symbol": "Pb",
+  "quiz": [
+    {
+      "question": "What is the melting point of Lead?",
+      "options": [
+        {
+          "text": "1768.2 \u00b0C",
+          "element": "Platinum"
+        },
+        {
+          "text": "2622.0 \u00b0C",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "327.5 \u00b0C",
+          "element": "Lead"
+        },
+        {
+          "text": "1538.0 \u00b0C",
+          "element": "Iron"
+        }
+      ],
+      "correct": "327.5 \u00b0C"
+    },
+    {
+      "question": "What is the boiling point of Lead?",
+      "options": [
+        {
+          "text": "444.6 \u00b0C",
+          "element": "Sulfur"
+        },
+        {
+          "text": "1749.0 \u00b0C",
+          "element": "Lead"
+        },
+        {
+          "text": "3825.0 \u00b0C",
+          "element": "Platinum"
+        },
+        {
+          "text": "2861.0 \u00b0C",
+          "element": "Iron"
+        }
+      ],
+      "correct": "1749.0 \u00b0C"
+    }
+  ]
 }

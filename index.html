@@ -4,21 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elementle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Guess the Element!</h1>
-        <div id="elementGrid"></div>
-        <div id="inputContainer">
-            <input type="text" id="guessInput" placeholder="Enter element name" list="elementsList" autocomplete="off">
-            <datalist id="elementsList"></datalist>
+
+    <header class="game-header">
+        <h1>Elementle</h1>
+        <div class="header-actions">
+            <button class="icon-btn" onclick="openStats()">Stats</button>
         </div>
-        <button id="guessButton" onclick="checkGuess()">Guess</button>
+    </header>
+
+    <main class="container">
+        <div id="elementGrid"></div>
+
+        <div class="input-row">
+            <div id="inputContainer">
+                <input type="text" id="guessInput" placeholder="Type an element…" list="elementsList" autocomplete="off">
+                <datalist id="elementsList"></datalist>
+            </div>
+            <button id="guessButton" onclick="checkGuess()">Guess</button>
+        </div>
+
         <p id="message"></p>
         <p id="attempts">Attempts left: 6</p>
+        <button id="shareBtn" onclick="shareResult()">Share result</button>
+        <p id="shareToast">Copied to clipboard!</p>
         <div id="guessedWordsContainer"></div>
+    </main>
+
+    <!-- Stats modal -->
+    <div id="statsModal" class="modal-overlay" onclick="closeStatsOnOverlay(event)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeStats()">✕</button>
+            <h2>Statistics</h2>
+            <div class="stats-summary">
+                <div class="stat"><span id="statPlayed">0</span><label>Played</label></div>
+                <div class="stat"><span id="statWinPct">0</span><label>Win %</label></div>
+                <div class="stat"><span id="statStreak">0</span><label>Current Streak</label></div>
+                <div class="stat"><span id="statMaxStreak">0</span><label>Max Streak</label></div>
+            </div>
+            <h3>Guess Distribution</h3>
+            <div id="statsBars"></div>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>

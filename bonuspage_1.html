@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elementle – Bonus Round 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles_bonus1.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Bonus Round: Guess the Neighbors!</h2>
-        <p>Guess the elements neighboring today's element in the periodic table.</p>
+
+    <header class="game-header">
+        <h1>Elementle</h1>
+        <a href="index.html" class="back-link">← Back</a>
+    </header>
+
+    <main class="container">
+        <h2>Bonus Round 1 — Neighbors</h2>
+        <p class="round-desc">Guess the elements neighboring today's element in the periodic table.</p>
         <div id="elementContainer"></div>
         <form id="guessForm">
-            <input type="text" id="guessInput" placeholder="Guess a neighboring element" list="elementsList" autocomplete="off">
+            <input type="text" id="guessInput" placeholder="Type a neighboring element" list="elementsList" autocomplete="off">
             <datalist id="elementsList"></datalist>
             <button type="submit">Guess</button>
         </form>
@@ -22,7 +30,8 @@
             <tbody></tbody>
         </table>
         <div id="resultMessage"></div>
-    </div>
+    </main>
+
     <script src="script_bonus1.js"></script>
 </body>
 </html>

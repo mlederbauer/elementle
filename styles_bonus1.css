@@ -1,74 +1,201 @@
-.container {
-    text-align: center;
-    padding: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+:root {
+  --green:  #538d4e;
+  --grey:   #787c7e;
+  --bg:     #f8f9fa;
+  --surface:#ffffff;
+  --text:   #1a1a1b;
+  --border: #d3d6da;
+  --radius: 6px;
 }
 
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ── Header ── */
+.game-header {
+  width: 100%;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  position: relative;
+  margin-bottom: 24px;
+}
+.game-header h1 {
+  font-size: 1.9rem;
+  font-weight: 800;
+  letter-spacing: 0.18rem;
+  text-transform: uppercase;
+}
+.back-link {
+  position: absolute;
+  left: 24px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--grey);
+  text-decoration: none;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: color 0.15s, background 0.15s;
+}
+.back-link:hover { color: var(--text); background: var(--bg); }
+
+/* ── Container ── */
+.container {
+  background: var(--surface);
+  padding: 24px 32px 36px;
+  border-radius: 12px;
+  box-shadow: 0 2px 14px rgba(0,0,0,0.07);
+  text-align: center;
+  max-width: 560px;
+  width: 94%;
+  margin-bottom: 24px;
+}
+.container h2 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.container p.round-desc {
+  font-size: 0.9rem;
+  color: var(--grey);
+  margin-bottom: 24px;
+}
+
+/* ── Element + neighbors grid ── */
 #elementContainer {
-    display: grid;
-    grid-template-columns: 100px 100px 100px; /* 3 columns */
-    grid-template-rows: 120px 120px 120px; /* 3 rows, taller than columns */
-    justify-content: center;
-    align-items: center;
-    gap: 0; /* No gap between boxes */
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 120px 120px 120px;
+  justify-content: center;
+  gap: 0;
+  margin: 0 auto 28px;
 }
 
 .elementBox, .neighborBox {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px; /* Width of the boxes */
-    height: 120px; /* Height of the boxes, taller than width */
-    background-color: lightgrey;
-    color: white;
-    border: 1px solid black;
-    position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 120px;
+  border: 1px solid var(--border);
+  position: relative;
+  background: #eef0f3;
 }
 
 .elementBox {
-    background-color: green;
+  background: var(--green);
+  color: #fff;
+  border-color: #3a6b37;
+  font-size: 1.6rem;
+  font-weight: 800;
 }
+.elementBox p { margin: 0; }
+
+.neighborBox { background: #eef0f3; }
 
 .atomicNumber {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    font-size: small;
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  opacity: 0.75;
 }
 
-#guessTable {
-    margin-top: 20px;
-    width: 100%;
-    text-align: center;
-}
-
+/* ── Form ── */
 #guessForm {
-    margin-top: 40px; /* Increased space between boxes and form */
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+#guessInput {
+  padding: 10px 14px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  width: 220px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+#guessInput:focus { border-color: var(--text); }
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background: var(--text);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 700;
+  transition: background 0.15s;
+}
+button[type="submit"]:hover { background: #3d3d3d; }
+
+#remainingGuesses {
+  font-size: 0.85rem;
+  color: var(--grey);
+  margin-bottom: 8px;
+}
+#invalidGuessMessage {
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-height: 1.2em;
+  margin-bottom: 12px;
 }
 
+/* ── Guess history table ── */
+#guessTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 0.9rem;
+}
+#guessTable td {
+  padding: 7px 10px;
+  border-bottom: 1px solid #eee;
+  font-weight: 600;
+}
+.correctGuess td, .correctGuess { color: var(--green); }
+.incorrectGuess td, .incorrectGuess { color: #c0392b; }
+
+/* ── Result / next page ── */
 #resultMessage {
-    background-color: green;
-    color: white;
-    padding: 10px;
-    margin-top: 20px;
-    font-size: large;
-    display: none; /* Initially hidden */
+  background: var(--green);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: var(--radius);
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  display: none;
+  cursor: pointer;
+  transition: background 0.15s;
 }
-
-.correctGuess {
-    color: green;
-}
-
-.incorrectGuess {
-    color: red;
-}
-
+#resultMessage:hover { background: #406e3c; }
 #nextBonusPage {
-    background-color: green;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    text-align: center;
-    display: inline-block; /* Make the div inline-block */
-    margin-top: 20px; /* Add some space above the div */
+  font-weight: 700;
+  letter-spacing: 0.05em;
 }

@@ -3,48 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elementle – Complete!</title>
-    <link rel="stylesheet" href="styles_bonus1.css">
-    <style>
-        .completion-box {
-            background-color: green;
-            color: white;
-            padding: 30px 40px;
-            border-radius: 8px;
-            display: inline-block;
-            margin-top: 40px;
-        }
-        .completion-box h2 {
-            margin: 0 0 10px 0;
-            font-size: 2em;
-        }
-        .completion-box p {
-            margin: 0;
-            font-size: 1.1em;
-        }
-        .back-link {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 10px 20px;
-            background-color: #333;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .back-link:hover {
-            background-color: #555;
-        }
-    </style>
+    <title>Elementle – Bonus Round 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_bonus2.css">
 </head>
 <body>
-    <div class="container">
-        <div class="completion-box">
-            <h2>You did it!</h2>
-            <p>You've completed all of today's Elementle puzzles.</p>
-            <p>Come back tomorrow for a new element!</p>
+
+    <header class="game-header">
+        <h1>Elementle</h1>
+        <a href="index.html" class="back-link">← Back</a>
+    </header>
+
+    <main class="container">
+        <h2 class="round-title">Bonus Round 2 — Atomic Mass</h2>
+        <p class="round-desc">Guess the atomic mass of today's element (in atomic mass units, u).</p>
+
+        <!-- Element card — atomic mass hidden until game ends -->
+        <div id="elementCard" class="element-card">
+            <span id="cardNumber" class="card-number"></span>
+            <span id="cardSymbol" class="card-symbol"></span>
+            <span id="cardName"   class="card-name"></span>
+            <span id="cardMass"   class="card-mass">? u</span>
         </div>
-        <br>
-        <a href="index.html" class="back-link">Back to main game</a>
-    </div>
+
+        <form id="guessForm" class="guess-form">
+            <input type="number" id="guessInput" placeholder="e.g. 207.2" step="any" min="0" autocomplete="off">
+            <button type="submit">Guess</button>
+        </form>
+
+        <p id="attemptsLeft" class="attempts-text">Attempts left: 6</p>
+        <p id="errorMessage" class="error-msg"></p>
+
+        <table id="guessTable" class="guess-table">
+            <thead>
+                <tr>
+                    <th>Your guess (u)</th>
+                    <th>Direction</th>
+                    <th>Warmth</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div id="result" class="result-area"></div>
+    </main>
+
+    <script src="script_bonus2.js"></script>
 </body>
 </html>

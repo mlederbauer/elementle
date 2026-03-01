@@ -123,7 +123,7 @@ try:
     random.shuffle(templates)
     quiz = []
     for attr, question, fmt_fn, valid_fn in templates:
-        if len(quiz) == 2:
+        if len(quiz) == 3:
             break
         q = make_question(attr, question, fmt_fn, valid_fn)
         if q:

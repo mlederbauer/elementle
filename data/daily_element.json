@@ -5,48 +5,70 @@
   "symbol": "Bi",
   "quiz": [
     {
-      "question": "Who discovered Bismuth?",
-      "options": [
-        {
-          "text": "RIKEN",
-          "element": "Nihonium"
-        },
-        {
-          "text": "Sir Humphrey Davy",
-          "element": "Potassium"
-        },
-        {
-          "text": "Known to the ancients.",
-          "element": "Bismuth"
-        },
-        {
-          "text": "A. Crawford",
-          "element": "Strontium"
-        }
-      ],
-      "correct": "Known to the ancients."
-    },
-    {
       "question": "What is the boiling point of Bismuth?",
       "options": [
         {
-          "text": "1377.0 \u00b0C",
-          "element": "Strontium"
-        },
-        {
-          "text": "-153.4 \u00b0C",
-          "element": "Krypton"
-        },
-        {
-          "text": "759.0 \u00b0C",
-          "element": "Potassium"
-        },
-        {
           "text": "1564.0 \u00b0C",
           "element": "Bismuth"
+        },
+        {
+          "text": "3695.0 \u00b0C",
+          "element": "Rhodium"
+        },
+        {
+          "text": "-268.9 \u00b0C",
+          "element": "Helium"
+        },
+        {
+          "text": "2560.0 \u00b0C",
+          "element": "Copper"
         }
       ],
       "correct": "1564.0 \u00b0C"
+    },
+    {
+      "question": "What is the density of Bismuth?",
+      "options": [
+        {
+          "text": "0.000164 g/cm\u00b3",
+          "element": "Helium"
+        },
+        {
+          "text": "9.79 g/cm\u00b3",
+          "element": "Bismuth"
+        },
+        {
+          "text": "8.96 g/cm\u00b3",
+          "element": "Copper"
+        },
+        {
+          "text": "9.9 g/cm\u00b3",
+          "element": "Nobelium"
+        }
+      ],
+      "correct": "9.79 g/cm\u00b3"
+    },
+    {
+      "question": "What is the atomic radius of Bismuth?",
+      "options": [
+        {
+          "text": "160.0 pm",
+          "element": "Bismuth"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Copper"
+        },
+        {
+          "text": "120.0 pm",
+          "element": "Helium"
+        },
+        {
+          "text": "130.0 pm",
+          "element": "Gallium"
+        }
+      ],
+      "correct": "160.0 pm"
     }
   ]
 }

@@ -104,10 +104,11 @@ function showResult() {
     const result = document.getElementById('result');
     const msgs = [
         'Better luck tomorrow!',
-        'One right — not bad!',
+        'One right — keep going!',
+        'Two out of three — not bad!',
         'Perfect score! You know your elements.',
     ];
-    const colorClass = score === 2 ? 'result-win' : score === 1 ? 'result-mid' : 'result-lose';
+    const colorClass = score === quiz.length ? 'result-win' : score >= 1 ? 'result-mid' : 'result-lose';
     result.innerHTML = `
         <p class="${colorClass}">${score}/${quiz.length} correct — ${msgs[score]}</p>
         <p class="result-sub">Come back tomorrow for a new element.</p>

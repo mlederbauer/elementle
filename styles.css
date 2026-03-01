@@ -54,6 +54,11 @@ button:hover {
     background-color: orange;
 }
 
+.correctGuess {
+    background-color: green;
+    color: white;
+}
+
 #guessedWordsContainer {
     margin-top: 20px;
     text-align: left;

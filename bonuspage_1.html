@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bonuspage 1</title>
+    <title>Elementle – Bonus Round 1</title>
     <link rel="stylesheet" href="styles_bonus1.css">
 </head>
 <body>
     <div class="container">
-        <p id="debug">Selected Element: N/A</p>
+        <h2>Bonus Round: Guess the Neighbors!</h2>
+        <p>Guess the elements neighboring today's element in the periodic table.</p>
         <div id="elementContainer"></div>
         <form id="guessForm">
-            <input type="text" id="guessInput" placeholder="Guess an element">
+            <input type="text" id="guessInput" placeholder="Guess a neighboring element" list="elementsList" autocomplete="off">
+            <datalist id="elementsList"></datalist>
             <button type="submit">Guess</button>
         </form>
-        <div id="resultMessage"></div>
         <p id="remainingGuesses">Remaining Guesses: 8</p>
         <p id="invalidGuessMessage"></p>
         <table id="guessTable">
-            <tbody>
-                <!-- Guess rows will be added here dynamically -->
-            </tbody>
+            <tbody></tbody>
         </table>
         <div id="resultMessage"></div>
     </div>

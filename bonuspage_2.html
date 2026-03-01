@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bonuspage 1</title>
+    <title>Elementle – Complete!</title>
     <link rel="stylesheet" href="styles_bonus1.css">
+    <style>
+        .completion-box {
+            background-color: green;
+            color: white;
+            padding: 30px 40px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 40px;
+        }
+        .completion-box h2 {
+            margin: 0 0 10px 0;
+            font-size: 2em;
+        }
+        .completion-box p {
+            margin: 0;
+            font-size: 1.1em;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-link:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <div class="completion-box">
+            <h2>You did it!</h2>
+            <p>You've completed all of today's Elementle puzzles.</p>
+            <p>Come back tomorrow for a new element!</p>
+        </div>
+        <br>
+        <a href="index.html" class="back-link">Back to main game</a>
+    </div>
 </body>
 </html>

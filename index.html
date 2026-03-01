@@ -11,12 +11,12 @@
         <h1>Guess the Element!</h1>
         <div id="elementGrid"></div>
         <div id="inputContainer">
-            <input type="text" id="guessInput" placeholder="Enter element name">
-        </div>        
-        <button onclick="checkGuess()">Guess</button>
+            <input type="text" id="guessInput" placeholder="Enter element name" list="elementsList" autocomplete="off">
+            <datalist id="elementsList"></datalist>
+        </div>
+        <button id="guessButton" onclick="checkGuess()">Guess</button>
         <p id="message"></p>
         <p id="attempts">Attempts left: 6</p>
-        <p id="debug">Selected Element: N/A</p>
         <div id="guessedWordsContainer"></div>
     </div>
     <script src="script.js"></script>

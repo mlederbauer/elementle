@@ -6,7 +6,16 @@ let attempts = MAX_ATTEMPTS;
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchData();
+    document.getElementById("guessInput").addEventListener("keydown", function (e) {
+        if (e.key === "Enter") checkGuess();
+    });
 });
+
+function normalizeName(name) {
+    const trimmed = name.trim();
+    if (!trimmed) return "";
+    return trimmed.charAt(0).toUpperCase() + trimmed.slice(1).toLowerCase();
+}
 
 function fetchData() {
     fetch('data/elements_simple.json')
@@ -14,13 +23,36 @@ function fetchData() {
         .then(data => {
             elementDataArray = data;
             elements = data.map(item => item.Element);
-            console.log("elements ", elements)
             populateGrid();
-            initGame();
+            populateDatalist();
+            return fetch('data/daily_element.json');
         })
-        //.catch(error => {
-        //    console.error("Error fetching or parsing JSON data:", error);
-        //});
+        .then(response => response.json())
+        .then(daily => {
+            const today = new Date();
+            const todayStr = today.getUTCFullYear() + '-' +
+                String(today.getUTCMonth() + 1).padStart(2, '0') + '-' +
+                String(today.getUTCDate()).padStart(2, '0');
+            if (daily.date === todayStr && elements.includes(daily.element)) {
+                selectedElement = daily.element;
+            } else {
+                selectedElement = getDailyElement();
+            }
+            saveSelectedElementToLocalStorage();
+        })
+        .catch(() => {
+            selectedElement = getDailyElement();
+            saveSelectedElementToLocalStorage();
+        });
+}
+
+function getDailyElement() {
+    const startDate = Date.UTC(2024, 0, 1); // 2024-01-01 UTC
+    const now = new Date();
+    const todayUtc = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+    const dayIndex = Math.floor((todayUtc - startDate) / (1000 * 60 * 60 * 24));
+    const index = ((dayIndex % elements.length) + elements.length) % elements.length;
+    return elements[index];
 }
 
 function populateGrid() {
@@ -31,76 +63,70 @@ function populateGrid() {
             const rectangle = document.createElement("div");
             rectangle.classList.add("rectangle");
             if (!element) {
-                rectangle.style.opacity = 0;  // Make the rectangle transparent where no elements are
+                rectangle.style.opacity = 0;
             }
             grid.appendChild(rectangle);
         }
     }
 }
 
-function initGame() {
-    selectedElement = elements[Math.floor(Math.random() * elements.length)];
-    document.getElementById("debug").textContent = "Selected Element: " + selectedElement;
-    //localStorage.setItem('selectedElement', selectedElement);
-    saveSelectedElementToLocalStorage();
+function populateDatalist() {
+    const datalist = document.getElementById("elementsList");
+    elements.forEach(name => {
+        const option = document.createElement("option");
+        option.value = name;
+        datalist.appendChild(option);
+    });
 }
 
 function checkGuess() {
     const guessInput = document.getElementById("guessInput");
-    const message = document.getElementById("message");
-    const attemptsDisplay = document.getElementById("attempts");
-    const guessedWordsContainer = document.getElementById("guessedWordsContainer");
+    const normalizedGuess = normalizeName(guessInput.value);
 
-    const isElementPresent = elements.includes(guessInput.value);
-    if (!isElementPresent) {
-        displayMessage("Your guess is not valid. Please enter a valid chemical element.", "red");
+    if (!normalizedGuess) return;
+
+    if (!elements.includes(normalizedGuess)) {
+        displayMessage("Not a valid element. Please enter a valid chemical element name.", "red");
         clearGuessInput();
         return;
     }
 
-    if (guessInput.value === selectedElement) {
+    if (normalizedGuess === selectedElement) {
         displayMessage("Correct! Well done.", "green");
+        colorCorrectElementGrid();
         disableGuessInput();
-        //attempts--;
-
-        // Create and show the bonus page icon
         showBonusPageIcon();
-
         return;
     }
 
-    handleIncorrectGuess(guessInput.value);
+    handleIncorrectGuess(normalizedGuess);
     clearGuessInput();
-    //decrementAttempts();
     attempts--;
-    console.log(attempts)
 
+    const attemptsDisplay = document.getElementById("attempts");
     if (attempts === 0) {
         attemptsDisplay.textContent = `Attempts left: ${attempts}`;
-        displayMessage(`Sorry, you're out of attempts. The correct element was ${selectedElement}.`, "red");
+        displayMessage(`Out of attempts! The element was ${selectedElement}.`, "red");
         disableGuessInput();
-        return;
     } else {
         displayMessage("Try again!", "orange");
+        attemptsDisplay.textContent = `Attempts left: ${attempts}`;
     }
-    attemptsDisplay.textContent = `Attempts left: ${attempts}`;
 }
 
 function clearGuessInput() {
-    const guessInput = document.getElementById("guessInput");
-    guessInput.value = "";  // Clear the input field
+    document.getElementById("guessInput").value = "";
 }
 
 function handleIncorrectGuess(guess) {
     const guessedElementData = getElementData(guess);
     const selectedElementData = getElementData(selectedElement);
-
     colorGuessedElementGrid(guessedElementData);
     displayGuessedWordFeedback(guess, guessedElementData, selectedElementData);
 }
 
 function getElementData(elementName) {
-    return elementDataArray.find(el => el.Element === elementName);
+    return elementDataArray.find(el => el.Element.toLowerCase() === elementName.toLowerCase());
 }
 
 function colorGuessedElementGrid(guessedElementData) {
@@ -112,23 +138,32 @@ function colorGuessedElementGrid(guessedElementData) {
     }
 }
 
+function colorCorrectElementGrid() {
+    const selectedElementData = getElementData(selectedElement);
+    if (!selectedElementData) return;
+    const gridIndex = (selectedElementData.Period - 1) * 18 + selectedElementData.Group;
+    const gridElement = document.querySelector(`#elementGrid .rectangle:nth-child(${gridIndex})`);
+    if (gridElement) {
+        gridElement.classList.remove("incorrectGuess");
+        gridElement.classList.add("correctGuess");
+        gridElement.textContent = selectedElementData.Symbol;
+    }
+}
+
 function displayGuessedWordFeedback(guess, guessedElementData, selectedElementData) {
     const guessedWordsContainer = document.getElementById("guessedWordsContainer");
     const wordDiv = createWordDiv(guess, guessedElementData, selectedElementData);
-
     guessedWordsContainer.appendChild(wordDiv);
 }
 
 function createWordDiv(guess, guessedElementData, selectedElementData) {
     const wordDiv = document.createElement("div");
     wordDiv.classList.add("wordDiv");
-
     appendColoredLetters(wordDiv, guess, selectedElement);
     appendPlaceholders(wordDiv, guess);
     appendLengthSign(wordDiv, guess);
     appendArrowsOrCheckmarks(wordDiv, guessedElementData, selectedElementData);
     appendPercentage(wordDiv, guessedElementData, selectedElementData);
-
     return wordDiv;
 }
 
@@ -163,7 +198,7 @@ function getGreenIndices(guessedArray, selectedArray) {
 
 function getYellowIndices(guessedArray, selectedArray, greenIndices) {
     const yellowIndices = [];
-    const matchedIndices = new Set(greenIndices);  // Keep track of indices that have already been matched
+    const matchedIndices = new Set(greenIndices);
 
     for (let i = 0; i < guessedArray.length; i++) {
         if (!matchedIndices.has(i)) {
@@ -171,13 +206,12 @@ function getYellowIndices(guessedArray, selectedArray, greenIndices) {
             for (let j = 0; j < selectedArray.length; j++) {
                 if (selectedArray[j] === letter && !matchedIndices.has(j)) {
                     yellowIndices.push(i);
-                    matchedIndices.add(j);  // Mark this index as matched
-                    break;  // Break out of the inner loop once a match is found
+                    matchedIndices.add(j);
+                    break;
                 }
             }
         }
     }
-
     return yellowIndices;
 }
 
@@ -194,18 +228,16 @@ function appendLengthSign(parent, guess) {
     const signSpan = document.createElement("span");
     signSpan.classList.add("sign");
     if (selectedElement.length > guess.length) {
-        signSpan.textContent = "\u2795";  // Plus sign
+        signSpan.textContent = "\u2795";
     } else if (selectedElement.length < guess.length) {
-        signSpan.textContent = "\u2796";  // Minus sign
+        signSpan.textContent = "\u2796";
     } else {
-        signSpan.textContent = "🟰";  // Neutral sign
+        signSpan.textContent = "🟰";
     }
     parent.appendChild(signSpan);
 }
 
 function appendArrowsOrCheckmarks(parent, guessedElementData, selectedElementData) {
-    console.log("Period ", guessedElementData.Period, selectedElementData.Period);
-    console.log("Group ", guessedElementData.Group, selectedElementData.Group);
     appendPeriodIndicator(parent, guessedElementData.Period, selectedElementData.Period);
     appendGroupIndicator(parent, guessedElementData.Group, selectedElementData.Group);
 }
@@ -213,11 +245,11 @@ function appendArrowsOrCheckmarks(parent, guessedElementData, selectedElementDat
 function appendPeriodIndicator(parent, guessedPeriod, selectedPeriod) {
     const indicator = document.createElement("span");
     if (guessedPeriod > selectedPeriod) {
-        indicator.textContent = "\u2191";  // Upwards arrow
+        indicator.textContent = "\u2191";
     } else if (guessedPeriod < selectedPeriod) {
-        indicator.textContent = "\u2193";  // Downwards arrow
+        indicator.textContent = "\u2193";
     } else {
-        indicator.textContent = "\u2713";  // Check mark
+        indicator.textContent = "\u2713";
     }
     parent.appendChild(indicator);
 }
@@ -225,11 +257,11 @@ function appendPeriodIndicator(parent, guessedPeriod, selectedPeriod) {
 function appendGroupIndicator(parent, guessedGroup, selectedGroup) {
     const indicator = document.createElement("span");
     if (guessedGroup > selectedGroup) {
-        indicator.textContent = "\u2190";  // Leftwards arrow
+        indicator.textContent = "\u2190";
     } else if (guessedGroup < selectedGroup) {
-        indicator.textContent = "\u2192";  // Rightwards arrow
+        indicator.textContent = "\u2192";
     } else {
-        indicator.textContent = "\u2713";  // Check mark
+        indicator.textContent = "\u2713";
     }
     parent.appendChild(indicator);
 }
@@ -237,11 +269,6 @@ function appendGroupIndicator(parent, guessedGroup, selectedGroup) {
 function appendPercentage(parent, guessedElementData, selectedElementData) {
     const manhattanDistance = calculateManhattanDistance(guessedElementData, selectedElementData);
     const percentage = calculatePercentage(manhattanDistance);
-    
-    const percentageSpan = document.createElement("span");
-    percentageSpan.textContent = `  ${percentage}%  `;
-    //parent.appendChild(percentageSpan);
-
     appendPercentageBoxes(parent, percentage);
 }
 
@@ -252,14 +279,13 @@ function calculateManhattanDistance(guessedElementData, selectedElementData) {
 }
 
 function calculatePercentage(manhattanDistance) {
-    return 100 - 4 * manhattanDistance;
+    return Math.max(0, 100 - 4 * manhattanDistance);
 }
 
 function appendPercentageBoxes(parent, percentage) {
     for (let i = 1; i <= 5; i++) {
         const box = document.createElement("span");
         box.classList.add("percentageBox");
-
         if (percentage >= i * 20) {
             box.classList.add("greenBox");
         } else if (percentage >= (i - 1) * 20 + 10) {
@@ -276,8 +302,8 @@ function displayMessage(messageText, messageColor) {
 }
 
 function disableGuessInput() {
-    const guessInput = document.getElementById("guessInput");
-    guessInput.disabled = true;
+    document.getElementById("guessInput").disabled = true;
+    document.getElementById("guessButton").disabled = true;
 }
 
 function showBonusPageIcon() {
@@ -289,11 +315,9 @@ function showBonusPageIcon() {
     bonusBlock.style.textAlign = 'center';
     bonusBlock.style.padding = '10px';
     bonusBlock.style.cursor = 'pointer';
-  
     bonusBlock.addEventListener('click', () => {
-        window.location.href = 'bonuspage_1.html';  // replace with the path to your bonus page
+        window.location.href = 'bonuspage_1.html';
     });
-
     inputContainer.innerHTML = '';
     inputContainer.appendChild(bonusBlock);
 }
@@ -301,7 +325,6 @@ function showBonusPageIcon() {
 function saveSelectedElementToLocalStorage() {
     try {
         localStorage.setItem('selectedElement', selectedElement);
-        console.log('Saved to localStorage:', selectedElement);
     } catch (error) {
         console.error('Failed to save to localStorage:', error);
     }

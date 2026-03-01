@@ -5,14 +5,14 @@ Uses the same deterministic algorithm as the client-side JS fallback:
   index = (days_since_2024-01-01) % num_elements
 """
 import json
-from datetime import date
+from datetime import datetime, timezone
 
-START_DATE = date(2024, 1, 1)
+START_DATE = datetime(2024, 1, 1, tzinfo=timezone.utc).date()
 
 with open('data/elements_simple.json', 'r') as f:
     elements = json.load(f)
 
-today = date.today()
+today = datetime.now(timezone.utc).date()
 day_index = (today - START_DATE).days
 index = day_index % len(elements)
 

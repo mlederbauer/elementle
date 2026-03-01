@@ -1,52 +1,52 @@
 {
-  "date": "2026-02-28",
-  "element": "Lead",
-  "atomicNumber": 82,
-  "symbol": "Pb",
+  "date": "2026-03-01",
+  "element": "Bismuth",
+  "atomicNumber": 83,
+  "symbol": "Bi",
   "quiz": [
     {
-      "question": "What is the melting point of Lead?",
+      "question": "Who discovered Bismuth?",
       "options": [
         {
-          "text": "1768.2 \u00b0C",
-          "element": "Platinum"
+          "text": "RIKEN",
+          "element": "Nihonium"
         },
         {
-          "text": "2622.0 \u00b0C",
-          "element": "Molybdenum"
+          "text": "Sir Humphrey Davy",
+          "element": "Potassium"
         },
         {
-          "text": "327.5 \u00b0C",
-          "element": "Lead"
+          "text": "Known to the ancients.",
+          "element": "Bismuth"
         },
         {
-          "text": "1538.0 \u00b0C",
-          "element": "Iron"
+          "text": "A. Crawford",
+          "element": "Strontium"
         }
       ],
-      "correct": "327.5 \u00b0C"
+      "correct": "Known to the ancients."
     },
     {
-      "question": "What is the boiling point of Lead?",
+      "question": "What is the boiling point of Bismuth?",
       "options": [
         {
-          "text": "444.6 \u00b0C",
-          "element": "Sulfur"
+          "text": "1377.0 \u00b0C",
+          "element": "Strontium"
         },
         {
-          "text": "1749.0 \u00b0C",
-          "element": "Lead"
+          "text": "-153.4 \u00b0C",
+          "element": "Krypton"
         },
         {
-          "text": "3825.0 \u00b0C",
-          "element": "Platinum"
+          "text": "759.0 \u00b0C",
+          "element": "Potassium"
         },
         {
-          "text": "2861.0 \u00b0C",
-          "element": "Iron"
+          "text": "1564.0 \u00b0C",
+          "element": "Bismuth"
         }
       ],
-      "correct": "1749.0 \u00b0C"
+      "correct": "1564.0 \u00b0C"
     }
   ]
 }

@@ -82,6 +82,7 @@ body {
   grid-template-columns: repeat(18, 2.1em);
   gap: 3px 2px;
   margin: 4px auto 18px;
+  width: fit-content;
   overflow-x: auto;
 }
 
@@ -170,7 +171,7 @@ button:disabled { background: var(--grey); cursor: not-allowed; }
 /* ── Share button (hidden until game ends) ── */
 #shareBtn {
   display: none;
-  margin: 10px auto 0;
+  margin: 18px auto 0;
   background: var(--green);
 }
 #shareBtn:hover { background: #406e3c; }
@@ -179,7 +180,7 @@ button:disabled { background: var(--grey); cursor: not-allowed; }
   font-size: 0.8rem;
   color: var(--green);
   font-weight: 600;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 /* ── Bonus page link ── */

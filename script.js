@@ -343,7 +343,10 @@ const STATS_KEY = 'elementle-stats';
 
 function loadStats() {
     try {
-        return JSON.parse(localStorage.getItem(STATS_KEY)) || defaultStats();
+        const stored = JSON.parse(localStorage.getItem(STATS_KEY));
+        if (!stored) return defaultStats();
+        if (!Array.isArray(stored.distribution)) stored.distribution = [0,0,0,0,0,0];
+        return stored;
     } catch { return defaultStats(); }
 }
 

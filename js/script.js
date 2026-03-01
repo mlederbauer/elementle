@@ -292,7 +292,7 @@ function showBonusPageIcon() {
     const bonusBlock = document.createElement('div');
     bonusBlock.classList.add('bonus-link');
     bonusBlock.textContent = 'Bonus Round →';
-    bonusBlock.addEventListener('click', () => { window.location.href = 'bonuspage_1.html'; });
+    bonusBlock.addEventListener('click', () => { window.location.href = 'bonus/bonuspage_1.html'; });
     inputContainer.innerHTML = '';
     inputContainer.appendChild(bonusBlock);
     document.getElementById('guessButton').style.display = 'none';

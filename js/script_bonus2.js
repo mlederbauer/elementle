@@ -11,7 +11,7 @@ async function main() {
     if (!storedName) { showNoElement(); return; }
 
     try {
-        const resp = await fetch('data/elements_simple.json');
+        const resp = await fetch('../data/elements_simple.json');
         const data = await resp.json();
         targetElement = data.find(el => el.Element.toLowerCase() === storedName.toLowerCase());
     } catch (e) {
@@ -119,5 +119,5 @@ function setError(msg) {
 function showNoElement() {
     document.querySelector('.container').innerHTML = `
         <p style="margin-bottom:16px">No element found — please play the main game first.</p>
-        <a href="index.html" class="btn-home">Go to main game</a>`;
+        <a href="../index.html" class="btn-home">Go to main game</a>`;
 }

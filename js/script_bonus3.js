@@ -12,8 +12,8 @@ async function main() {
 
     try {
         const [elemResp, dailyResp] = await Promise.all([
-            fetch('data/elements_simple.json'),
-            fetch('data/daily_element.json'),
+            fetch('../data/elements_simple.json'),
+            fetch('../data/daily_element.json'),
         ]);
         const elemData  = await elemResp.json();
         const dailyData = await dailyResp.json();
@@ -112,11 +112,11 @@ function showResult() {
     result.innerHTML = `
         <p class="${colorClass}">${score}/${quiz.length} correct — ${msgs[score]}</p>
         <p class="result-sub">Come back tomorrow for a new element.</p>
-        <a href="index.html" class="btn-home">Back to main game</a>`;
+        <a href="../index.html" class="btn-home">Back to main game</a>`;
 }
 
 function showNoElement() {
     document.querySelector('.container').innerHTML = `
         <p style="margin-bottom:16px">No element found — please play the main game first.</p>
-        <a href="index.html" class="btn-home">Go to main game</a>`;
+        <a href="../index.html" class="btn-home">Go to main game</a>`;
 }

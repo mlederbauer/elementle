@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function fetchData() {
     try {
-        const response = await fetch('data/elements_simple.json');
+        const response = await fetch('../data/elements_simple.json');
         const data = await response.json();
         elementDataArray = data;
         return data;
@@ -179,7 +179,7 @@ async function main() {
     if (!storedSelectedElement) {
         document.querySelector('.container').innerHTML =
             '<p>No element found. Please play the main game first.</p>' +
-            '<a href="index.html">Back to main game</a>';
+            '<a href="../index.html">Back to main game</a>';
         return;
     }
 

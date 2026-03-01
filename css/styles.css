@@ -79,7 +79,7 @@ body {
 /* ── Periodic table grid ── */
 #elementGrid {
   display: grid;
-  grid-template-columns: repeat(18, 2.1em);
+  grid-template-columns: repeat(18, 2.8rem);
   gap: 3px 2px;
   margin: 4px auto 18px;
   width: fit-content;
@@ -87,18 +87,58 @@ body {
 }
 
 .rectangle {
-  width: 2.1em;
-  height: 2.6em;
+  width: 2.8rem;
+  height: 3.2rem;
   background: #eef0f3;
   border: 1px solid #cdd0d6;
   border-radius: 3px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 0.52em;
-  font-weight: 700;
+  padding: 2px 1px 2px;
   color: var(--text);
   transition: background 0.2s, color 0.2s;
+  overflow: hidden;
+}
+
+.rect-num,
+.rect-sym,
+.rect-name {
+  display: none;
+}
+
+.incorrectGuess .rect-num,
+.correctGuess .rect-num {
+  display: block;
+  font-size: 0.58rem;
+  font-weight: 600;
+  opacity: 0.8;
+  line-height: 1;
+  align-self: flex-start;
+  padding-left: 2px;
+}
+
+.incorrectGuess .rect-sym,
+.correctGuess .rect-sym {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.incorrectGuess .rect-name,
+.correctGuess .rect-name {
+  display: block;
+  font-size: 0.38rem;
+  font-weight: 400;
+  line-height: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  text-align: center;
+  opacity: 0.9;
 }
 
 /* visual gap before lanthanide / actinide rows */

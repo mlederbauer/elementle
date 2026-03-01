@@ -67,7 +67,11 @@ function populateGrid() {
             const element = elementDataArray.find(el => el.Period === period && el.Group === group);
             const rect = document.createElement("div");
             rect.classList.add("rectangle");
-            if (!element) rect.style.opacity = 0;
+            if (!element) {
+                rect.style.opacity = 0;
+            } else {
+                rect.innerHTML = `<span class="rect-num">${element.AtomicNumber}</span><span class="rect-sym">${element.Symbol}</span><span class="rect-name">${element.Element}</span>`;
+            }
             grid.appendChild(rect);
         }
     }
@@ -159,7 +163,7 @@ function getElementData(elementName) {
 function colorGuessedElementGrid(data) {
     const idx = (data.Period - 1) * 18 + data.Group;
     const el = document.querySelector(`#elementGrid .rectangle:nth-child(${idx})`);
-    if (el) { el.classList.add("incorrectGuess"); el.textContent = data.Symbol; }
+    if (el) { el.classList.add("incorrectGuess"); }
 }
 
 function colorCorrectElementGrid() {
@@ -170,7 +174,6 @@ function colorCorrectElementGrid() {
     if (el) {
         el.classList.remove("incorrectGuess");
         el.classList.add("correctGuess");
-        el.textContent = data.Symbol;
     }
 }
 

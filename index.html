@@ -32,8 +32,10 @@
 
         <div class="input-row">
             <div id="inputContainer">
-                <input type="text" id="guessInput" placeholder="Type an element…" list="elementsList" autocomplete="off">
-                <datalist id="elementsList"></datalist>
+                <div class="autocomplete-wrapper">
+                    <input type="text" id="guessInput" placeholder="Type an element…" autocomplete="off">
+                    <ul id="autocompleteList" class="autocomplete-list" role="listbox" aria-label="Element suggestions"></ul>
+                </div>
             </div>
             <button id="guessButton" onclick="checkGuess()">Guess</button>
         </div>

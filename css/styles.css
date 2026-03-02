@@ -208,13 +208,48 @@ body {
 }
 #inputContainer { display: contents; }
 
+/* ── Autocomplete ── */
+.autocomplete-wrapper {
+  position: relative;
+  width: 230px;
+}
+.autocomplete-list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 var(--radius) var(--radius);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 50;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+.autocomplete-list.open { display: block; }
+.autocomplete-list li {
+  padding: 9px 14px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+}
+.autocomplete-list li:last-child { border-bottom: none; }
+.autocomplete-list li:hover,
+.autocomplete-list li.active { background: var(--bg); }
+
 #guessInput {
   padding: 10px 14px;
   font-size: 1rem;
   font-family: inherit;
   border: 2px solid var(--border);
   border-radius: var(--radius);
-  width: 230px;
+  width: 100%;
   outline: none;
   transition: border-color 0.2s;
   background: var(--surface);
@@ -415,7 +450,7 @@ button:disabled { background: var(--grey); cursor: not-allowed; }
 @media (max-width: 600px) {
   .game-header h1 { font-size: 1.4rem; }
   .container { padding: 14px 14px 24px; }
-  #guessInput { width: 100%; }
+  .autocomplete-wrapper { width: 100%; }
   .input-row { flex-wrap: wrap; }
 }
 

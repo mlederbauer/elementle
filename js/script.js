@@ -8,8 +8,30 @@ let guessHistory = []; // array of color arrays per guess: ('green'|'yellow'|'gr
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchData();
-    document.getElementById("guessInput").addEventListener("keydown", function (e) {
-        if (e.key === "Enter") checkGuess();
+    const input = document.getElementById("guessInput");
+    input.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {
+            const active = document.querySelector('#autocompleteList li.active');
+            if (active) {
+                input.value = active.textContent;
+                closeAutocomplete();
+            }
+            checkGuess();
+        } else if (e.key === "ArrowDown") {
+            e.preventDefault();
+            moveAutocompleteSelection(1);
+        } else if (e.key === "ArrowUp") {
+            e.preventDefault();
+            moveAutocompleteSelection(-1);
+        } else if (e.key === "Escape") {
+            closeAutocomplete();
+        }
+    });
+    input.addEventListener("input", function () {
+        filterAutocomplete(this.value);
+    });
+    document.addEventListener("click", function (e) {
+        if (!e.target.closest('.autocomplete-wrapper')) closeAutocomplete();
     });
 });
 
@@ -83,12 +105,49 @@ function populateGrid() {
 }
 
 function populateDatalist() {
-    const datalist = document.getElementById("elementsList");
-    elements.forEach(name => {
-        const option = document.createElement("option");
-        option.value = name;
-        datalist.appendChild(option);
+    // Sort elements alphabetically once for use in filterAutocomplete()
+    elements.sort((a, b) => a.localeCompare(b));
+}
+
+function filterAutocomplete(query) {
+    const list = document.getElementById('autocompleteList');
+    list.innerHTML = '';
+    const q = query.trim().toLowerCase();
+    if (!q) { closeAutocomplete(); return; }
+    const matches = elements
+        .filter(name => name.toLowerCase().startsWith(q));
+    if (matches.length === 0) { closeAutocomplete(); return; }
+    matches.forEach(name => {
+        const li = document.createElement('li');
+        li.textContent = name;
+        li.setAttribute('role', 'option');
+        li.addEventListener('mousedown', function (e) {
+            e.preventDefault(); // prevent blur before click
+            document.getElementById('guessInput').value = name;
+            closeAutocomplete();
+            checkGuess();
+        });
+        list.appendChild(li);
     });
+    list.classList.add('open');
+}
+
+function closeAutocomplete() {
+    const list = document.getElementById('autocompleteList');
+    list.classList.remove('open');
+    list.innerHTML = '';
+}
+
+function moveAutocompleteSelection(dir) {
+    const list = document.getElementById('autocompleteList');
+    const items = Array.from(list.querySelectorAll('li'));
+    if (!items.length) return;
+    const active = list.querySelector('li.active');
+    let idx = items.indexOf(active);
+    if (active) active.classList.remove('active');
+    idx = (idx + dir + items.length) % items.length;
+    items[idx].classList.add('active');
+    items[idx].scrollIntoView({ block: 'nearest' });
 }
 
 // ── Core game logic ───────────────────────────────────────────────────────────
@@ -152,6 +211,7 @@ function recordGuessColors(guess) {
 
 function clearGuessInput() {
     document.getElementById("guessInput").value = "";
+    closeAutocomplete();
 }
 
 function handleIncorrectGuess(guess) {

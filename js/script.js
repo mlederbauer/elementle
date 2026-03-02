@@ -135,8 +135,18 @@ function endGame(won, usedAttempts) {
     gameOver = true;
     disableGuessInput();
     updateStats(won, usedAttempts);
-    document.getElementById("shareBtn").style.display = "inline-block";
+    saveGameResultToLocalStorage(won);
     if (won) showBonusPageIcon();
+}
+
+function saveGameResultToLocalStorage(won) {
+    try {
+        const now = new Date();
+        const dateStr = now.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+        localStorage.setItem('elementle-guessHistory', JSON.stringify(guessHistory));
+        localStorage.setItem('elementle-won', JSON.stringify(won));
+        localStorage.setItem('elementle-gameDate', dateStr);
+    } catch (e) { console.error('Failed to save game result:', e); }
 }
 
 function recordGuessColors(guess) {
@@ -309,40 +319,6 @@ function showBonusPageIcon() {
 function saveSelectedElementToLocalStorage() {
     try { localStorage.setItem('selectedElement', selectedElement); }
     catch (e) { console.error('Failed to save to localStorage:', e); }
-}
-
-// ── Share ─────────────────────────────────────────────────────────────────────
-
-function shareResult() {
-    const text = buildShareText();
-    navigator.clipboard.writeText(text).then(() => {
-        const toast = document.getElementById('shareToast');
-        toast.style.display = 'block';
-        setTimeout(() => { toast.style.display = 'none'; }, 2000);
-    }).catch(() => {
-        // Fallback for browsers that block clipboard
-        prompt("Copy this to share:", buildShareText());
-    });
-}
-
-function buildShareText() {
-    const now = new Date();
-    const dateStr = now.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
-    const won = guessHistory.length <= MAX_ATTEMPTS &&
-                guessHistory[guessHistory.length - 1] &&
-                guessHistory[guessHistory.length - 1].every(c => c === 'green');
-    const score = won ? `${guessHistory.length}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`;
-
-    const emojiMap = { green: '🟩', yellow: '🟨', grey: '⬛' };
-    const rows = guessHistory.map(colors => colors.map(c => emojiMap[c]).join('')).join('\n');
-
-    return [
-        `Elementle ${dateStr}  ${score}`,
-        '',
-        rows,
-        '',
-        '🔬 Play at: https://mlederbauer.github.io/elementle/'
-    ].join('\n');
 }
 
 // ── Stats ─────────────────────────────────────────────────────────────────────

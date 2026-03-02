@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-01",
-  "element": "Bismuth",
-  "atomicNumber": 83,
-  "symbol": "Bi",
+  "date": "2026-03-02",
+  "element": "Polonium",
+  "atomicNumber": 84,
+  "symbol": "Po",
   "quiz": [
     {
-      "question": "What is the boiling point of Bismuth?",
+      "question": "What is the atomic radius of Polonium?",
       "options": [
         {
-          "text": "1564.0 \u00b0C",
-          "element": "Bismuth"
+          "text": "190.0 pm",
+          "element": "Polonium"
         },
         {
-          "text": "3695.0 \u00b0C",
-          "element": "Rhodium"
+          "text": "145.0 pm",
+          "element": "Antimony"
         },
         {
-          "text": "-268.9 \u00b0C",
-          "element": "Helium"
+          "text": "220.0 pm",
+          "element": "Potassium"
         },
         {
-          "text": "2560.0 \u00b0C",
-          "element": "Copper"
+          "text": "185.0 pm",
+          "element": "Promethium"
         }
       ],
-      "correct": "1564.0 \u00b0C"
+      "correct": "190.0 pm"
     },
     {
-      "question": "What is the density of Bismuth?",
+      "question": "What is the melting point of Polonium?",
       "options": [
         {
-          "text": "0.000164 g/cm\u00b3",
-          "element": "Helium"
+          "text": "630.6 \u00b0C",
+          "element": "Antimony"
         },
         {
-          "text": "9.79 g/cm\u00b3",
-          "element": "Bismuth"
+          "text": "254.0 \u00b0C",
+          "element": "Polonium"
         },
         {
-          "text": "8.96 g/cm\u00b3",
-          "element": "Copper"
+          "text": "1042.0 \u00b0C",
+          "element": "Promethium"
         },
         {
-          "text": "9.9 g/cm\u00b3",
-          "element": "Nobelium"
+          "text": "302.0 \u00b0C",
+          "element": "Astatine"
         }
       ],
-      "correct": "9.79 g/cm\u00b3"
+      "correct": "254.0 \u00b0C"
     },
     {
-      "question": "What is the atomic radius of Bismuth?",
+      "question": "Who discovered Polonium?",
       "options": [
         {
-          "text": "160.0 pm",
-          "element": "Bismuth"
+          "text": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell",
+          "element": "Promethium"
         },
         {
-          "text": "135.0 pm",
-          "element": "Copper"
+          "text": "Known to the ancients.",
+          "element": "Antimony"
         },
         {
-          "text": "120.0 pm",
-          "element": "Helium"
+          "text": "Pierre and Marie Curie",
+          "element": "Polonium"
         },
         {
-          "text": "130.0 pm",
-          "element": "Gallium"
+          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
+          "element": "Astatine"
         }
       ],
-      "correct": "160.0 pm"
+      "correct": "Pierre and Marie Curie"
     }
   ]
 }

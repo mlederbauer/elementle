@@ -76,6 +76,42 @@ body {
   margin-bottom: 24px;
 }
 
+/* ── Rules ── */
+.rules {
+  text-align: left;
+  font-size: 0.82rem;
+  color: var(--grey);
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: var(--bg);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+.rules p {
+  margin-bottom: 6px;
+  color: var(--text);
+}
+.rules ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.rules li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.rule-swatch {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.green-swatch  { background: var(--green); }
+.yellow-swatch { background: var(--yellow); }
+
 /* ── Periodic table grid ── */
 #elementGrid {
   display: grid;

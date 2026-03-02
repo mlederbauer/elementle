@@ -37,3 +37,7 @@ GitHub Actions runs `.github/workflows/daily.yml` every day at 00:00 UTC:
 3. Commits and pushes the updated file
 
 The JS fallback (`getDailyElement` in `script.js`) uses the same deterministic formula (days since 2024-01-01 UTC, modulo 118) so the correct element is shown even if the JSON hasn't loaded yet.
+
+---
+
+Logo from [https://freesvg.org/prismatic-chemistry](FreeSVG). Created by Stefan P. Schmid and Magdalena Lederbauer. We hope you enjoy it as much as we do!

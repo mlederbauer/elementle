@@ -294,12 +294,13 @@ function getGreenIndices(gueArr, selArr) {
 
 function getYellowIndices(gueArr, selArr, greenIndices) {
     const yi = [];
-    const matched = new Set(greenIndices);
+    const usedGuePos = new Set(greenIndices);
+    const usedSelPos = new Set(greenIndices);
     for (let i = 0; i < gueArr.length; i++) {
-        if (matched.has(i)) continue;
+        if (usedGuePos.has(i)) continue;
         for (let j = 0; j < selArr.length; j++) {
-            if (selArr[j] === gueArr[i] && !matched.has(j)) {
-                yi.push(i); matched.add(j); break;
+            if (selArr[j] === gueArr[i] && !usedSelPos.has(j)) {
+                yi.push(i); usedGuePos.add(i); usedSelPos.add(j); break;
             }
         }
     }

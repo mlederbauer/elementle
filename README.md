@@ -40,4 +40,4 @@ The JS fallback (`getDailyElement` in `script.js`) uses the same deterministic f
 
 ---
 
-Logo from [https://freesvg.org/prismatic-chemistry](FreeSVG). Created by Stefan P. Schmid and Magdalena Lederbauer. We hope you enjoy it as much as we do!
+Logo from [FreeSVG](https://freesvg.org/prismatic-chemistry). Created by Stefan P. Schmid and Magdalena Lederbauer. We hope you enjoy it as much as we do!

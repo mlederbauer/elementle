@@ -1,0 +1,8026 @@
+{
+  "Hydrogen": [
+    {
+      "question": "When was Hydrogen first discovered?",
+      "options": [
+        {
+          "text": "1802",
+          "element": "Tantalum"
+        },
+        {
+          "text": "1817",
+          "element": "Cadmium"
+        },
+        {
+          "text": "1766",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "1790",
+          "element": "Strontium"
+        }
+      ],
+      "correct": "1766"
+    },
+    {
+      "question": "What is the atomic radius of Hydrogen?",
+      "options": [
+        {
+          "text": "100.0 pm",
+          "element": "Chlorine"
+        },
+        {
+          "text": "65.0 pm",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "25.0 pm",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "185.0 pm",
+          "element": "Samarium"
+        }
+      ],
+      "correct": "25.0 pm"
+    },
+    {
+      "question": "What is the boiling point of Hydrogen?",
+      "options": [
+        {
+          "text": "-252.9 \u00b0C",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "4639.0 \u00b0C",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "58.8 \u00b0C",
+          "element": "Bromine"
+        },
+        {
+          "text": "3520.0 \u00b0C",
+          "element": "Praseodymium"
+        }
+      ],
+      "correct": "-252.9 \u00b0C"
+    }
+  ],
+  "Helium": [
+    {
+      "question": "When was Helium first discovered?",
+      "options": [
+        {
+          "text": "1803",
+          "element": "Rhodium"
+        },
+        {
+          "text": "1824",
+          "element": "Silicon"
+        },
+        {
+          "text": "1772",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "1895",
+          "element": "Helium"
+        }
+      ],
+      "correct": "1895"
+    },
+    {
+      "question": "Who discovered Helium?",
+      "options": [
+        {
+          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
+          "element": "Helium"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Meitnerium"
+        },
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Calcium"
+        },
+        {
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Dysprosium"
+        }
+      ],
+      "correct": "Sir William Ramsey, Nils Langet, P.T.Cleve"
+    },
+    {
+      "question": "What is the boiling point of Helium?",
+      "options": [
+        {
+          "text": "2861.0 \u00b0C",
+          "element": "Iron"
+        },
+        {
+          "text": "759.0 \u00b0C",
+          "element": "Potassium"
+        },
+        {
+          "text": "4600.0 \u00b0C",
+          "element": "Hafnium"
+        },
+        {
+          "text": "-268.9 \u00b0C",
+          "element": "Helium"
+        }
+      ],
+      "correct": "-268.9 \u00b0C"
+    }
+  ],
+  "Lithium": [
+    {
+      "question": "What is the melting point of Lithium?",
+      "options": [
+        {
+          "text": "180.5 \u00b0C",
+          "element": "Lithium"
+        },
+        {
+          "text": "660.3 \u00b0C",
+          "element": "Aluminum"
+        },
+        {
+          "text": "824.0 \u00b0C",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "2477.0 \u00b0C",
+          "element": "Niobium"
+        }
+      ],
+      "correct": "180.5 \u00b0C"
+    },
+    {
+      "question": "What is the crustal abundance of Lithium?",
+      "options": [
+        {
+          "text": "20.0 mg/kg",
+          "element": "Lithium"
+        },
+        {
+          "text": "9e-07 mg/kg",
+          "element": "Radium"
+        },
+        {
+          "text": "1400.0 mg/kg",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "66.5 mg/kg",
+          "element": "Cerium"
+        }
+      ],
+      "correct": "20.0 mg/kg"
+    },
+    {
+      "question": "What is the density of Lithium?",
+      "options": [
+        {
+          "text": "6.773 g/cm\u00b3",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "0.534 g/cm\u00b3",
+          "element": "Lithium"
+        },
+        {
+          "text": "9.9 g/cm\u00b3",
+          "element": "Nobelium"
+        },
+        {
+          "text": "21.5 g/cm\u00b3",
+          "element": "Platinum"
+        }
+      ],
+      "correct": "0.534 g/cm\u00b3"
+    }
+  ],
+  "Beryllium": [
+    {
+      "question": "What is the boiling point of Beryllium?",
+      "options": [
+        {
+          "text": "-61.7 \u00b0C",
+          "element": "Radon"
+        },
+        {
+          "text": "2468.0 \u00b0C",
+          "element": "Beryllium"
+        },
+        {
+          "text": "1473.0 \u00b0C",
+          "element": "Thallium"
+        },
+        {
+          "text": "5555.0 \u00b0C",
+          "element": "Tungsten"
+        }
+      ],
+      "correct": "2468.0 \u00b0C"
+    },
+    {
+      "question": "What is the atomic radius of Beryllium?",
+      "options": [
+        {
+          "text": "105.0 pm",
+          "element": "Beryllium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Americium"
+        },
+        {
+          "text": "160.0 pm",
+          "element": "Silver"
+        },
+        {
+          "text": "235.0 pm",
+          "element": "Rubidium"
+        }
+      ],
+      "correct": "105.0 pm"
+    },
+    {
+      "question": "Who discovered Beryllium?",
+      "options": [
+        {
+          "text": "Fredrich W\u00f6hler, A.A.Bussy",
+          "element": "Beryllium"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Hassium"
+        },
+        {
+          "text": "Carl Mosander",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
+          "element": "Iridium"
+        }
+      ],
+      "correct": "Fredrich W\u00f6hler, A.A.Bussy"
+    }
+  ],
+  "Boron": [
+    {
+      "question": "What is the atomic radius of Boron?",
+      "options": [
+        {
+          "text": "85.0 pm",
+          "element": "Boron"
+        },
+        {
+          "text": "115.0 pm",
+          "element": "Selenium"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Technetium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Ytterbium"
+        }
+      ],
+      "correct": "85.0 pm"
+    },
+    {
+      "question": "When was Boron first discovered?",
+      "options": [
+        {
+          "text": "1808",
+          "element": "Boron"
+        },
+        {
+          "text": "1996",
+          "element": "Copernicium"
+        },
+        {
+          "text": "1895",
+          "element": "Helium"
+        },
+        {
+          "text": "1898",
+          "element": "Polonium"
+        }
+      ],
+      "correct": "1808"
+    },
+    {
+      "question": "What is the boiling point of Boron?",
+      "options": [
+        {
+          "text": "2560.0 \u00b0C",
+          "element": "Copper"
+        },
+        {
+          "text": "4000.0 \u00b0C",
+          "element": "Boron"
+        },
+        {
+          "text": "1342.0 \u00b0C",
+          "element": "Lithium"
+        },
+        {
+          "text": "988.0 \u00b0C",
+          "element": "Tellurium"
+        }
+      ],
+      "correct": "4000.0 \u00b0C"
+    }
+  ],
+  "Carbon": [
+    {
+      "question": "What is the crustal abundance of Carbon?",
+      "options": [
+        {
+          "text": "23600.0 mg/kg",
+          "element": "Sodium"
+        },
+        {
+          "text": "0.52 mg/kg",
+          "element": "Thulium"
+        },
+        {
+          "text": "3.5 mg/kg",
+          "element": "Argon"
+        },
+        {
+          "text": "200.0 mg/kg",
+          "element": "Carbon"
+        }
+      ],
+      "correct": "200.0 mg/kg"
+    },
+    {
+      "question": "What is the atomic radius of Carbon?",
+      "options": [
+        {
+          "text": "155.0 pm",
+          "element": "Hafnium"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Cobalt"
+        },
+        {
+          "text": "70.0 pm",
+          "element": "Carbon"
+        },
+        {
+          "text": "215.0 pm",
+          "element": "Barium"
+        }
+      ],
+      "correct": "70.0 pm"
+    },
+    {
+      "question": "Who discovered Carbon?",
+      "options": [
+        {
+          "text": "Hennig Brand",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "Martin Klaproth",
+          "element": "Zirconium"
+        },
+        {
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Gallium"
+        },
+        {
+          "text": "Known to the ancients",
+          "element": "Carbon"
+        }
+      ],
+      "correct": "Known to the ancients"
+    }
+  ],
+  "Nitrogen": [
+    {
+      "question": "What is the atomic radius of Nitrogen?",
+      "options": [
+        {
+          "text": "65.0 pm",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "71.0 pm",
+          "element": "Argon"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Neptunium"
+        },
+        {
+          "text": "180.0 pm",
+          "element": "Gadolinium"
+        }
+      ],
+      "correct": "65.0 pm"
+    },
+    {
+      "question": "What is the crustal abundance of Nitrogen?",
+      "options": [
+        {
+          "text": "282000.0 mg/kg",
+          "element": "Silicon"
+        },
+        {
+          "text": "60.0 mg/kg",
+          "element": "Copper"
+        },
+        {
+          "text": "19.0 mg/kg",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "350.0 mg/kg",
+          "element": "Sulfur"
+        }
+      ],
+      "correct": "19.0 mg/kg"
+    },
+    {
+      "question": "What is the density of Nitrogen?",
+      "options": [
+        {
+          "text": "0.001145 g/cm\u00b3",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "2.2 g/cm\u00b3",
+          "element": "Carbon"
+        },
+        {
+          "text": "7.2 g/cm\u00b3",
+          "element": "Tennessine"
+        },
+        {
+          "text": "22.5872 g/cm\u00b3",
+          "element": "Osmium"
+        }
+      ],
+      "correct": "0.001145 g/cm\u00b3"
+    }
+  ],
+  "Oxygen": [
+    {
+      "question": "What is the melting point of Oxygen?",
+      "options": [
+        {
+          "text": "860.0 \u00b0C",
+          "element": "Einsteinium"
+        },
+        {
+          "text": "-218.8 \u00b0C",
+          "element": "Oxygen"
+        },
+        {
+          "text": "-38.8 \u00b0C",
+          "element": "Mercury"
+        },
+        {
+          "text": "1495.0 \u00b0C",
+          "element": "Cobalt"
+        }
+      ],
+      "correct": "-218.8 \u00b0C"
+    },
+    {
+      "question": "What is the atomic radius of Oxygen?",
+      "options": [
+        {
+          "text": "60.0 pm",
+          "element": "Oxygen"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Vanadium"
+        },
+        {
+          "text": "140.0 pm",
+          "element": "Iodine"
+        },
+        {
+          "text": "125.0 pm",
+          "element": "Aluminum"
+        }
+      ],
+      "correct": "60.0 pm"
+    },
+    {
+      "question": "Who discovered Oxygen?",
+      "options": [
+        {
+          "text": "Nils Sefstr\u00f6m",
+          "element": "Vanadium"
+        },
+        {
+          "text": "Joseph Priestly, Carl Wilhelm Scheele",
+          "element": "Oxygen"
+        },
+        {
+          "text": "Antoine J. Balard",
+          "element": "Bromine"
+        },
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Potassium"
+        }
+      ],
+      "correct": "Joseph Priestly, Carl Wilhelm Scheele"
+    }
+  ],
+  "Fluorine": [
+    {
+      "question": "When was Fluorine first discovered?",
+      "options": [
+        {
+          "text": "1843",
+          "element": "Erbium"
+        },
+        {
+          "text": "1774",
+          "element": "Manganese"
+        },
+        {
+          "text": "1886",
+          "element": "Fluorine"
+        },
+        {
+          "text": "1939",
+          "element": "Francium"
+        }
+      ],
+      "correct": "1886"
+    },
+    {
+      "question": "What is the atomic radius of Fluorine?",
+      "options": [
+        {
+          "text": "175.0 pm",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "160.0 pm",
+          "element": "Scandium"
+        },
+        {
+          "text": "115.0 pm",
+          "element": "Selenium"
+        },
+        {
+          "text": "50.0 pm",
+          "element": "Fluorine"
+        }
+      ],
+      "correct": "50.0 pm"
+    },
+    {
+      "question": "What is the melting point of Fluorine?",
+      "options": [
+        {
+          "text": "1472.0 \u00b0C",
+          "element": "Holmium"
+        },
+        {
+          "text": "1495.0 \u00b0C",
+          "element": "Cobalt"
+        },
+        {
+          "text": "-219.7 \u00b0C",
+          "element": "Fluorine"
+        },
+        {
+          "text": "-157.4 \u00b0C",
+          "element": "Krypton"
+        }
+      ],
+      "correct": "-219.7 \u00b0C"
+    }
+  ],
+  "Neon": [
+    {
+      "question": "What is the density of Neon?",
+      "options": [
+        {
+          "text": "7.31 g/cm\u00b3",
+          "element": "Indium"
+        },
+        {
+          "text": "0.000825 g/cm\u00b3",
+          "element": "Neon"
+        },
+        {
+          "text": "0.000164 g/cm\u00b3",
+          "element": "Helium"
+        },
+        {
+          "text": "5.91 g/cm\u00b3",
+          "element": "Gallium"
+        }
+      ],
+      "correct": "0.000825 g/cm\u00b3"
+    },
+    {
+      "question": "What is the boiling point of Neon?",
+      "options": [
+        {
+          "text": "2700.0 \u00b0C",
+          "element": "Holmium"
+        },
+        {
+          "text": "2027.0 \u00b0C",
+          "element": "Indium"
+        },
+        {
+          "text": "3200.0 \u00b0C",
+          "element": "Actinium"
+        },
+        {
+          "text": "-246.0 \u00b0C",
+          "element": "Neon"
+        }
+      ],
+      "correct": "-246.0 \u00b0C"
+    },
+    {
+      "question": "What is the crustal abundance of Neon?",
+      "options": [
+        {
+          "text": "1.2 mg/kg",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "60.0 mg/kg",
+          "element": "Copper"
+        },
+        {
+          "text": "19.0 mg/kg",
+          "element": "Gallium"
+        },
+        {
+          "text": "0.005 mg/kg",
+          "element": "Neon"
+        }
+      ],
+      "correct": "0.005 mg/kg"
+    }
+  ],
+  "Sodium": [
+    {
+      "question": "What is the boiling point of Sodium?",
+      "options": [
+        {
+          "text": "907.0 \u00b0C",
+          "element": "Zinc"
+        },
+        {
+          "text": "882.9 \u00b0C",
+          "element": "Sodium"
+        },
+        {
+          "text": "2567.0 \u00b0C",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "-246.0 \u00b0C",
+          "element": "Neon"
+        }
+      ],
+      "correct": "882.9 \u00b0C"
+    },
+    {
+      "question": "What is the melting point of Sodium?",
+      "options": [
+        {
+          "text": "900.0 \u00b0C",
+          "element": "Californium"
+        },
+        {
+          "text": "-157.4 \u00b0C",
+          "element": "Krypton"
+        },
+        {
+          "text": "113.7 \u00b0C",
+          "element": "Iodine"
+        },
+        {
+          "text": "97.8 \u00b0C",
+          "element": "Sodium"
+        }
+      ],
+      "correct": "97.8 \u00b0C"
+    },
+    {
+      "question": "What is the density of Sodium?",
+      "options": [
+        {
+          "text": "34.8 g/cm\u00b3",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "0.97 g/cm\u00b3",
+          "element": "Sodium"
+        },
+        {
+          "text": "5.3234 g/cm\u00b3",
+          "element": "Germanium"
+        },
+        {
+          "text": "13.3 g/cm\u00b3",
+          "element": "Hafnium"
+        }
+      ],
+      "correct": "0.97 g/cm\u00b3"
+    }
+  ],
+  "Magnesium": [
+    {
+      "question": "When was Magnesium first discovered?",
+      "options": [
+        {
+          "text": "1952",
+          "element": "Einsteinium"
+        },
+        {
+          "text": "1839",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "1808",
+          "element": "Magnesium"
+        },
+        {
+          "text": "1789",
+          "element": "Zirconium"
+        }
+      ],
+      "correct": "1808"
+    },
+    {
+      "question": "What is the boiling point of Magnesium?",
+      "options": [
+        {
+          "text": "5455.0 \u00b0C",
+          "element": "Tantalum"
+        },
+        {
+          "text": "1090.0 \u00b0C",
+          "element": "Magnesium"
+        },
+        {
+          "text": "356.6 \u00b0C",
+          "element": "Mercury"
+        },
+        {
+          "text": "4639.0 \u00b0C",
+          "element": "Molybdenum"
+        }
+      ],
+      "correct": "1090.0 \u00b0C"
+    },
+    {
+      "question": "What is the melting point of Magnesium?",
+      "options": [
+        {
+          "text": "302.0 \u00b0C",
+          "element": "Astatine"
+        },
+        {
+          "text": "-101.5 \u00b0C",
+          "element": "Chlorine"
+        },
+        {
+          "text": "650.0 \u00b0C",
+          "element": "Magnesium"
+        },
+        {
+          "text": "180.5 \u00b0C",
+          "element": "Lithium"
+        }
+      ],
+      "correct": "650.0 \u00b0C"
+    }
+  ],
+  "Aluminum": [
+    {
+      "question": "When was Aluminum first discovered?",
+      "options": [
+        {
+          "text": "1945",
+          "element": "Promethium"
+        },
+        {
+          "text": "1898",
+          "element": "Krypton"
+        },
+        {
+          "text": "1825",
+          "element": "Aluminum"
+        },
+        {
+          "text": "1974",
+          "element": "Seaborgium"
+        }
+      ],
+      "correct": "1825"
+    },
+    {
+      "question": "What is the melting point of Aluminum?",
+      "options": [
+        {
+          "text": "63.5 \u00b0C",
+          "element": "Potassium"
+        },
+        {
+          "text": "931.0 \u00b0C",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "1627.0 \u00b0C",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "660.3 \u00b0C",
+          "element": "Aluminum"
+        }
+      ],
+      "correct": "660.3 \u00b0C"
+    },
+    {
+      "question": "What is the atomic radius of Aluminum?",
+      "options": [
+        {
+          "text": "115.0 pm",
+          "element": "Selenium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Americium"
+        },
+        {
+          "text": "160.0 pm",
+          "element": "Silver"
+        },
+        {
+          "text": "125.0 pm",
+          "element": "Aluminum"
+        }
+      ],
+      "correct": "125.0 pm"
+    }
+  ],
+  "Silicon": [
+    {
+      "question": "What is the melting point of Silicon?",
+      "options": [
+        {
+          "text": "1495.0 \u00b0C",
+          "element": "Cobalt"
+        },
+        {
+          "text": "254.0 \u00b0C",
+          "element": "Polonium"
+        },
+        {
+          "text": "1414.0 \u00b0C",
+          "element": "Silicon"
+        },
+        {
+          "text": "1359.0 \u00b0C",
+          "element": "Terbium"
+        }
+      ],
+      "correct": "1414.0 \u00b0C"
+    },
+    {
+      "question": "What is the density of Silicon?",
+      "options": [
+        {
+          "text": "14.0 g/cm\u00b3",
+          "element": "Copernicium"
+        },
+        {
+          "text": "2.3296 g/cm\u00b3",
+          "element": "Silicon"
+        },
+        {
+          "text": "0.0013080000000000001 g/cm\u00b3",
+          "element": "Oxygen"
+        },
+        {
+          "text": "13.5 g/cm\u00b3",
+          "element": "Moscovium"
+        }
+      ],
+      "correct": "2.3296 g/cm\u00b3"
+    },
+    {
+      "question": "When was Silicon first discovered?",
+      "options": [
+        {
+          "text": "1811",
+          "element": "Iodine"
+        },
+        {
+          "text": "1901",
+          "element": "Europium"
+        },
+        {
+          "text": "1824",
+          "element": "Silicon"
+        },
+        {
+          "text": "1797",
+          "element": "Chromium"
+        }
+      ],
+      "correct": "1824"
+    }
+  ],
+  "Phosphorus": [
+    {
+      "question": "What is the crustal abundance of Phosphorus?",
+      "options": [
+        {
+          "text": "0.0085 mg/kg",
+          "element": "Bismuth"
+        },
+        {
+          "text": "19.0 mg/kg",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "2.3 mg/kg",
+          "element": "Tin"
+        },
+        {
+          "text": "1050.0 mg/kg",
+          "element": "Phosphorus"
+        }
+      ],
+      "correct": "1050.0 mg/kg"
+    },
+    {
+      "question": "What is the density of Phosphorus?",
+      "options": [
+        {
+          "text": "9.7 g/cm\u00b3",
+          "element": "Fermium"
+        },
+        {
+          "text": "1.823 g/cm\u00b3",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "7.31 g/cm\u00b3",
+          "element": "Indium"
+        },
+        {
+          "text": "6.9 g/cm\u00b3",
+          "element": "Ytterbium"
+        }
+      ],
+      "correct": "1.823 g/cm\u00b3"
+    },
+    {
+      "question": "What is the atomic radius of Phosphorus?",
+      "options": [
+        {
+          "text": "195.0 pm",
+          "element": "Actinium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Uranium"
+        },
+        {
+          "text": "145.0 pm",
+          "element": "Lithium"
+        },
+        {
+          "text": "100.0 pm",
+          "element": "Phosphorus"
+        }
+      ],
+      "correct": "100.0 pm"
+    }
+  ],
+  "Sulfur": [
+    {
+      "question": "Who discovered Sulfur?",
+      "options": [
+        {
+          "text": "William Wollaston",
+          "element": "Rhodium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Sulfur"
+        },
+        {
+          "text": "W. von Hisinger, J. Berzelius, M. Klaproth",
+          "element": "Cerium"
+        },
+        {
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
+        }
+      ],
+      "correct": "Known to the ancients."
+    },
+    {
+      "question": "What is the boiling point of Sulfur?",
+      "options": [
+        {
+          "text": "444.6 \u00b0C",
+          "element": "Sulfur"
+        },
+        {
+          "text": "-268.9 \u00b0C",
+          "element": "Helium"
+        },
+        {
+          "text": "2963.0 \u00b0C",
+          "element": "Palladium"
+        },
+        {
+          "text": "3520.0 \u00b0C",
+          "element": "Praseodymium"
+        }
+      ],
+      "correct": "444.6 \u00b0C"
+    },
+    {
+      "question": "What is the crustal abundance of Sulfur?",
+      "options": [
+        {
+          "text": "6.2 mg/kg",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "2.0 mg/kg",
+          "element": "Tantalum"
+        },
+        {
+          "text": "2.7 mg/kg",
+          "element": "Uranium"
+        },
+        {
+          "text": "350.0 mg/kg",
+          "element": "Sulfur"
+        }
+      ],
+      "correct": "350.0 mg/kg"
+    }
+  ],
+  "Chlorine": [
+    {
+      "question": "When was Chlorine first discovered?",
+      "options": [
+        {
+          "text": "1824",
+          "element": "Silicon"
+        },
+        {
+          "text": "1774",
+          "element": "Chlorine"
+        },
+        {
+          "text": "1803",
+          "element": "Palladium"
+        },
+        {
+          "text": "1878",
+          "element": "Holmium"
+        }
+      ],
+      "correct": "1774"
+    },
+    {
+      "question": "What is the boiling point of Chlorine?",
+      "options": [
+        {
+          "text": "1342.0 \u00b0C",
+          "element": "Lithium"
+        },
+        {
+          "text": "4000.0 \u00b0C",
+          "element": "Boron"
+        },
+        {
+          "text": "4262.0 \u00b0C",
+          "element": "Technetium"
+        },
+        {
+          "text": "-34.0 \u00b0C",
+          "element": "Chlorine"
+        }
+      ],
+      "correct": "-34.0 \u00b0C"
+    },
+    {
+      "question": "What is the melting point of Chlorine?",
+      "options": [
+        {
+          "text": "-101.5 \u00b0C",
+          "element": "Chlorine"
+        },
+        {
+          "text": "-111.8 \u00b0C",
+          "element": "Xenon"
+        },
+        {
+          "text": "2622.0 \u00b0C",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "29.8 \u00b0C",
+          "element": "Gallium"
+        }
+      ],
+      "correct": "-101.5 \u00b0C"
+    }
+  ],
+  "Argon": [
+    {
+      "question": "What is the boiling point of Argon?",
+      "options": [
+        {
+          "text": "4741.0 \u00b0C",
+          "element": "Niobium"
+        },
+        {
+          "text": "2468.0 \u00b0C",
+          "element": "Beryllium"
+        },
+        {
+          "text": "-268.9 \u00b0C",
+          "element": "Helium"
+        },
+        {
+          "text": "-185.8 \u00b0C",
+          "element": "Argon"
+        }
+      ],
+      "correct": "-185.8 \u00b0C"
+    },
+    {
+      "question": "Who discovered Argon?",
+      "options": [
+        {
+          "text": "Franz M\u00fcller von Reichenstein",
+          "element": "Tellurium"
+        },
+        {
+          "text": "Martin Klaproth",
+          "element": "Uranium"
+        },
+        {
+          "text": "Sir William Ramsey, Baron Rayleigh",
+          "element": "Argon"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Tin"
+        }
+      ],
+      "correct": "Sir William Ramsey, Baron Rayleigh"
+    },
+    {
+      "question": "What is the atomic radius of Argon?",
+      "options": [
+        {
+          "text": "135.0 pm",
+          "element": "Rhodium"
+        },
+        {
+          "text": "130.0 pm",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "71.0 pm",
+          "element": "Argon"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Americium"
+        }
+      ],
+      "correct": "71.0 pm"
+    }
+  ],
+  "Potassium": [
+    {
+      "question": "What is the density of Potassium?",
+      "options": [
+        {
+          "text": "6.773 g/cm\u00b3",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "11.3 g/cm\u00b3",
+          "element": "Lead"
+        },
+        {
+          "text": "9.9 g/cm\u00b3",
+          "element": "Nobelium"
+        },
+        {
+          "text": "0.89 g/cm\u00b3",
+          "element": "Potassium"
+        }
+      ],
+      "correct": "0.89 g/cm\u00b3"
+    },
+    {
+      "question": "When was Potassium first discovered?",
+      "options": [
+        {
+          "text": "1974",
+          "element": "Seaborgium"
+        },
+        {
+          "text": "1811",
+          "element": "Iodine"
+        },
+        {
+          "text": "1807",
+          "element": "Potassium"
+        },
+        {
+          "text": "1984",
+          "element": "Hassium"
+        }
+      ],
+      "correct": "1807"
+    },
+    {
+      "question": "What is the boiling point of Potassium?",
+      "options": [
+        {
+          "text": "2567.0 \u00b0C",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "4428.0 \u00b0C",
+          "element": "Iridium"
+        },
+        {
+          "text": "759.0 \u00b0C",
+          "element": "Potassium"
+        },
+        {
+          "text": "1484.0 \u00b0C",
+          "element": "Calcium"
+        }
+      ],
+      "correct": "759.0 \u00b0C"
+    }
+  ],
+  "Calcium": [
+    {
+      "question": "What is the boiling point of Calcium?",
+      "options": [
+        {
+          "text": "-195.8 \u00b0C",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "1484.0 \u00b0C",
+          "element": "Calcium"
+        },
+        {
+          "text": "356.6 \u00b0C",
+          "element": "Mercury"
+        },
+        {
+          "text": "4785.0 \u00b0C",
+          "element": "Thorium"
+        }
+      ],
+      "correct": "1484.0 \u00b0C"
+    },
+    {
+      "question": "Who discovered Calcium?",
+      "options": [
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Calcium"
+        },
+        {
+          "text": "Carl Mosander",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Silver"
+        },
+        {
+          "text": "E.M. McMillan, P.H. Abelson",
+          "element": "Neptunium"
+        }
+      ],
+      "correct": "Sir Humphrey Davy"
+    },
+    {
+      "question": "When was Calcium first discovered?",
+      "options": [
+        {
+          "text": "1998",
+          "element": "Flerovium"
+        },
+        {
+          "text": "1766",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "1783",
+          "element": "Tungsten"
+        },
+        {
+          "text": "1808",
+          "element": "Calcium"
+        }
+      ],
+      "correct": "1808"
+    }
+  ],
+  "Scandium": [
+    {
+      "question": "Who discovered Scandium?",
+      "options": [
+        {
+          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
+          "element": "Iridium"
+        },
+        {
+          "text": "Louis Vauquelin",
+          "element": "Chromium"
+        },
+        {
+          "text": "Lars Nilson",
+          "element": "Scandium"
+        },
+        {
+          "text": "Andr\u00e9 Debierne",
+          "element": "Actinium"
+        }
+      ],
+      "correct": "Lars Nilson"
+    },
+    {
+      "question": "What is the melting point of Scandium?",
+      "options": [
+        {
+          "text": "961.8 \u00b0C",
+          "element": "Silver"
+        },
+        {
+          "text": "1541.0 \u00b0C",
+          "element": "Scandium"
+        },
+        {
+          "text": "1414.0 \u00b0C",
+          "element": "Silicon"
+        },
+        {
+          "text": "304.0 \u00b0C",
+          "element": "Thallium"
+        }
+      ],
+      "correct": "1541.0 \u00b0C"
+    },
+    {
+      "question": "What is the boiling point of Scandium?",
+      "options": [
+        {
+          "text": "2836.0 \u00b0C",
+          "element": "Scandium"
+        },
+        {
+          "text": "3407.0 \u00b0C",
+          "element": "Vanadium"
+        },
+        {
+          "text": "1377.0 \u00b0C",
+          "element": "Strontium"
+        },
+        {
+          "text": "-268.9 \u00b0C",
+          "element": "Helium"
+        }
+      ],
+      "correct": "2836.0 \u00b0C"
+    }
+  ],
+  "Titanium": [
+    {
+      "question": "What is the atomic radius of Titanium?",
+      "options": [
+        {
+          "text": "175.0 pm",
+          "element": "Lutetium"
+        },
+        {
+          "text": "140.0 pm",
+          "element": "Titanium"
+        },
+        {
+          "text": "110.0 pm",
+          "element": "Silicon"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Vanadium"
+        }
+      ],
+      "correct": "140.0 pm"
+    },
+    {
+      "question": "What is the crustal abundance of Titanium?",
+      "options": [
+        {
+          "text": "5650.0 mg/kg",
+          "element": "Titanium"
+        },
+        {
+          "text": "25.0 mg/kg",
+          "element": "Cobalt"
+        },
+        {
+          "text": "41500.0 mg/kg",
+          "element": "Calcium"
+        },
+        {
+          "text": "1.25 mg/kg",
+          "element": "Tungsten"
+        }
+      ],
+      "correct": "5650.0 mg/kg"
+    },
+    {
+      "question": "When was Titanium first discovered?",
+      "options": [
+        {
+          "text": "1898",
+          "element": "Krypton"
+        },
+        {
+          "text": "1791",
+          "element": "Titanium"
+        },
+        {
+          "text": "1925",
+          "element": "Neodymium"
+        },
+        {
+          "text": "1860",
+          "element": "Cesium"
+        }
+      ],
+      "correct": "1791"
+    }
+  ],
+  "Vanadium": [
+    {
+      "question": "What is the crustal abundance of Vanadium?",
+      "options": [
+        {
+          "text": "0.05 mg/kg",
+          "element": "Selenium"
+        },
+        {
+          "text": "0.2 mg/kg",
+          "element": "Antimony"
+        },
+        {
+          "text": "2.4 mg/kg",
+          "element": "Bromine"
+        },
+        {
+          "text": "120.0 mg/kg",
+          "element": "Vanadium"
+        }
+      ],
+      "correct": "120.0 mg/kg"
+    },
+    {
+      "question": "When was Vanadium first discovered?",
+      "options": [
+        {
+          "text": "1879",
+          "element": "Thulium"
+        },
+        {
+          "text": "1817",
+          "element": "Lithium"
+        },
+        {
+          "text": "1830",
+          "element": "Vanadium"
+        },
+        {
+          "text": "1940",
+          "element": "Neptunium"
+        }
+      ],
+      "correct": "1830"
+    },
+    {
+      "question": "What is the boiling point of Vanadium?",
+      "options": [
+        {
+          "text": "2868.0 \u00b0C",
+          "element": "Erbium"
+        },
+        {
+          "text": "-246.0 \u00b0C",
+          "element": "Neon"
+        },
+        {
+          "text": "3407.0 \u00b0C",
+          "element": "Vanadium"
+        },
+        {
+          "text": "2027.0 \u00b0C",
+          "element": "Indium"
+        }
+      ],
+      "correct": "3407.0 \u00b0C"
+    }
+  ],
+  "Chromium": [
+    {
+      "question": "When was Chromium first discovered?",
+      "options": [
+        {
+          "text": "1797",
+          "element": "Chromium"
+        },
+        {
+          "text": "1925",
+          "element": "Neodymium"
+        },
+        {
+          "text": "1879",
+          "element": "Thulium"
+        },
+        {
+          "text": "1885",
+          "element": "Praseodymium"
+        }
+      ],
+      "correct": "1797"
+    },
+    {
+      "question": "What is the density of Chromium?",
+      "options": [
+        {
+          "text": "12.0 g/cm\u00b3",
+          "element": "Palladium"
+        },
+        {
+          "text": "2.07 g/cm\u00b3",
+          "element": "Sulfur"
+        },
+        {
+          "text": "7.15 g/cm\u00b3",
+          "element": "Chromium"
+        },
+        {
+          "text": "8.8 g/cm\u00b3",
+          "element": "Holmium"
+        }
+      ],
+      "correct": "7.15 g/cm\u00b3"
+    },
+    {
+      "question": "What is the melting point of Chromium?",
+      "options": [
+        {
+          "text": "660.3 \u00b0C",
+          "element": "Aluminum"
+        },
+        {
+          "text": "1907.0 \u00b0C",
+          "element": "Chromium"
+        },
+        {
+          "text": "640.0 \u00b0C",
+          "element": "Plutonium"
+        },
+        {
+          "text": "180.5 \u00b0C",
+          "element": "Lithium"
+        }
+      ],
+      "correct": "1907.0 \u00b0C"
+    }
+  ],
+  "Manganese": [
+    {
+      "question": "Who discovered Manganese?",
+      "options": [
+        {
+          "text": "Johann Gahn",
+          "element": "Manganese"
+        },
+        {
+          "text": "Johann Arfwedson",
+          "element": "Lithium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Gold"
+        },
+        {
+          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
+          "element": "Seaborgium"
+        }
+      ],
+      "correct": "Johann Gahn"
+    },
+    {
+      "question": "When was Manganese first discovered?",
+      "options": [
+        {
+          "text": "1885",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "1899",
+          "element": "Actinium"
+        },
+        {
+          "text": "1739",
+          "element": "Cobalt"
+        },
+        {
+          "text": "1774",
+          "element": "Manganese"
+        }
+      ],
+      "correct": "1774"
+    },
+    {
+      "question": "What is the density of Manganese?",
+      "options": [
+        {
+          "text": "1.54 g/cm\u00b3",
+          "element": "Calcium"
+        },
+        {
+          "text": "1.53 g/cm\u00b3",
+          "element": "Rubidium"
+        },
+        {
+          "text": "0.005365999999999999 g/cm\u00b3",
+          "element": "Xenon"
+        },
+        {
+          "text": "7.3 g/cm\u00b3",
+          "element": "Manganese"
+        }
+      ],
+      "correct": "7.3 g/cm\u00b3"
+    }
+  ],
+  "Iron": [
+    {
+      "question": "What is the density of Iron?",
+      "options": [
+        {
+          "text": "10.3 g/cm\u00b3",
+          "element": "Mendelevium"
+        },
+        {
+          "text": "8.23 g/cm\u00b3",
+          "element": "Terbium"
+        },
+        {
+          "text": "7.287 g/cm\u00b3",
+          "element": "Tin"
+        },
+        {
+          "text": "7.87 g/cm\u00b3",
+          "element": "Iron"
+        }
+      ],
+      "correct": "7.87 g/cm\u00b3"
+    },
+    {
+      "question": "What is the atomic radius of Iron?",
+      "options": [
+        {
+          "text": "200.0 pm",
+          "element": "Strontium"
+        },
+        {
+          "text": "150.0 pm",
+          "element": "Magnesium"
+        },
+        {
+          "text": "215.0 pm",
+          "element": "Radium"
+        },
+        {
+          "text": "140.0 pm",
+          "element": "Iron"
+        }
+      ],
+      "correct": "140.0 pm"
+    },
+    {
+      "question": "Who discovered Iron?",
+      "options": [
+        {
+          "text": "George Brandt",
+          "element": "Cobalt"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Iron"
+        },
+        {
+          "text": "Fausto and Juan Jos\u00e9 de Elhuyar",
+          "element": "Tungsten"
+        },
+        {
+          "text": "Marguerite Derey",
+          "element": "Francium"
+        }
+      ],
+      "correct": "Known to the ancients."
+    }
+  ],
+  "Cobalt": [
+    {
+      "question": "When was Cobalt first discovered?",
+      "options": [
+        {
+          "text": "1828",
+          "element": "Thorium"
+        },
+        {
+          "text": "1878",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "1879",
+          "element": "Samarium"
+        },
+        {
+          "text": "1739",
+          "element": "Cobalt"
+        }
+      ],
+      "correct": "1739"
+    },
+    {
+      "question": "Who discovered Cobalt?",
+      "options": [
+        {
+          "text": "George Brandt",
+          "element": "Cobalt"
+        },
+        {
+          "text": "William Wollaston",
+          "element": "Rhodium"
+        },
+        {
+          "text": "A. Crawford",
+          "element": "Strontium"
+        },
+        {
+          "text": "Per Theodor Cleve",
+          "element": "Thulium"
+        }
+      ],
+      "correct": "George Brandt"
+    },
+    {
+      "question": "What is the melting point of Cobalt?",
+      "options": [
+        {
+          "text": "1495.0 \u00b0C",
+          "element": "Cobalt"
+        },
+        {
+          "text": "1472.0 \u00b0C",
+          "element": "Holmium"
+        },
+        {
+          "text": "-210.0 \u00b0C",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "1135.0 \u00b0C",
+          "element": "Uranium"
+        }
+      ],
+      "correct": "1495.0 \u00b0C"
+    }
+  ],
+  "Nickel": [
+    {
+      "question": "When was Nickel first discovered?",
+      "options": [
+        {
+          "text": "2002",
+          "element": "Oganesson"
+        },
+        {
+          "text": "1950",
+          "element": "Californium"
+        },
+        {
+          "text": "1976",
+          "element": "Bohrium"
+        },
+        {
+          "text": "1751",
+          "element": "Nickel"
+        }
+      ],
+      "correct": "1751"
+    },
+    {
+      "question": "What is the density of Nickel?",
+      "options": [
+        {
+          "text": "8.9 g/cm\u00b3",
+          "element": "Nickel"
+        },
+        {
+          "text": "14.0 g/cm\u00b3",
+          "element": "Copernicium"
+        },
+        {
+          "text": "29.3 g/cm\u00b3",
+          "element": "Dubnium"
+        },
+        {
+          "text": "3.1028 g/cm\u00b3",
+          "element": "Bromine"
+        }
+      ],
+      "correct": "8.9 g/cm\u00b3"
+    },
+    {
+      "question": "What is the melting point of Nickel?",
+      "options": [
+        {
+          "text": "1963.0 \u00b0C",
+          "element": "Rhodium"
+        },
+        {
+          "text": "321.1 \u00b0C",
+          "element": "Cadmium"
+        },
+        {
+          "text": "1455.0 \u00b0C",
+          "element": "Nickel"
+        },
+        {
+          "text": "1538.0 \u00b0C",
+          "element": "Iron"
+        }
+      ],
+      "correct": "1455.0 \u00b0C"
+    }
+  ],
+  "Copper": [
+    {
+      "question": "What is the crustal abundance of Copper?",
+      "options": [
+        {
+          "text": "350.0 mg/kg",
+          "element": "Sulfur"
+        },
+        {
+          "text": "2.7 mg/kg",
+          "element": "Uranium"
+        },
+        {
+          "text": "60.0 mg/kg",
+          "element": "Copper"
+        },
+        {
+          "text": "33.0 mg/kg",
+          "element": "Yttrium"
+        }
+      ],
+      "correct": "60.0 mg/kg"
+    },
+    {
+      "question": "What is the melting point of Copper?",
+      "options": [
+        {
+          "text": "1084.6 \u00b0C",
+          "element": "Copper"
+        },
+        {
+          "text": "1176.0 \u00b0C",
+          "element": "Americium"
+        },
+        {
+          "text": "1414.0 \u00b0C",
+          "element": "Silicon"
+        },
+        {
+          "text": "-7.2 \u00b0C",
+          "element": "Bromine"
+        }
+      ],
+      "correct": "1084.6 \u00b0C"
+    },
+    {
+      "question": "What is the atomic radius of Copper?",
+      "options": [
+        {
+          "text": "125.0 pm",
+          "element": "Germanium"
+        },
+        {
+          "text": "130.0 pm",
+          "element": "Osmium"
+        },
+        {
+          "text": "140.0 pm",
+          "element": "Chromium"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Copper"
+        }
+      ],
+      "correct": "135.0 pm"
+    }
+  ],
+  "Zinc": [
+    {
+      "question": "What is the density of Zinc?",
+      "options": [
+        {
+          "text": "10.0 g/cm\u00b3",
+          "element": "Actinium"
+        },
+        {
+          "text": "7.01 g/cm\u00b3",
+          "element": "Neodymium"
+        },
+        {
+          "text": "0.534 g/cm\u00b3",
+          "element": "Lithium"
+        },
+        {
+          "text": "7.134 g/cm\u00b3",
+          "element": "Zinc"
+        }
+      ],
+      "correct": "7.134 g/cm\u00b3"
+    },
+    {
+      "question": "What is the boiling point of Zinc?",
+      "options": [
+        {
+          "text": "3464.0 \u00b0C",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "2229.0 \u00b0C",
+          "element": "Gallium"
+        },
+        {
+          "text": "1342.0 \u00b0C",
+          "element": "Lithium"
+        },
+        {
+          "text": "907.0 \u00b0C",
+          "element": "Zinc"
+        }
+      ],
+      "correct": "907.0 \u00b0C"
+    },
+    {
+      "question": "What is the atomic radius of Zinc?",
+      "options": [
+        {
+          "text": "160.0 pm",
+          "element": "Bismuth"
+        },
+        {
+          "text": "195.0 pm",
+          "element": "Actinium"
+        },
+        {
+          "text": "140.0 pm",
+          "element": "Iodine"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Zinc"
+        }
+      ],
+      "correct": "135.0 pm"
+    }
+  ],
+  "Gallium": [
+    {
+      "question": "Who discovered Gallium?",
+      "options": [
+        {
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Gallium"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Meitnerium"
+        },
+        {
+          "text": "Nils Sefstr\u00f6m",
+          "element": "Vanadium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Mercury"
+        }
+      ],
+      "correct": "Paul \u00c9mile Lecoq de Boisbaudran"
+    },
+    {
+      "question": "What is the density of Gallium?",
+      "options": [
+        {
+          "text": "5.24 g/cm\u00b3",
+          "element": "Europium"
+        },
+        {
+          "text": "5.91 g/cm\u00b3",
+          "element": "Gallium"
+        },
+        {
+          "text": "13.5 g/cm\u00b3",
+          "element": "Moscovium"
+        },
+        {
+          "text": "8.2e-05 g/cm\u00b3",
+          "element": "Hydrogen"
+        }
+      ],
+      "correct": "5.91 g/cm\u00b3"
+    },
+    {
+      "question": "What is the boiling point of Gallium?",
+      "options": [
+        {
+          "text": "-34.0 \u00b0C",
+          "element": "Chlorine"
+        },
+        {
+          "text": "2229.0 \u00b0C",
+          "element": "Gallium"
+        },
+        {
+          "text": "3200.0 \u00b0C",
+          "element": "Actinium"
+        },
+        {
+          "text": "2963.0 \u00b0C",
+          "element": "Palladium"
+        }
+      ],
+      "correct": "2229.0 \u00b0C"
+    }
+  ],
+  "Germanium": [
+    {
+      "question": "Who discovered Germanium?",
+      "options": [
+        {
+          "text": "Sir William Ramsey, Baron Rayleigh",
+          "element": "Argon"
+        },
+        {
+          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
+          "element": "Astatine"
+        },
+        {
+          "text": "Smithson Tenant",
+          "element": "Osmium"
+        },
+        {
+          "text": "Clemens Winkler",
+          "element": "Germanium"
+        }
+      ],
+      "correct": "Clemens Winkler"
+    },
+    {
+      "question": "What is the melting point of Germanium?",
+      "options": [
+        {
+          "text": "777.0 \u00b0C",
+          "element": "Strontium"
+        },
+        {
+          "text": "938.3 \u00b0C",
+          "element": "Germanium"
+        },
+        {
+          "text": "254.0 \u00b0C",
+          "element": "Polonium"
+        },
+        {
+          "text": "-248.6 \u00b0C",
+          "element": "Neon"
+        }
+      ],
+      "correct": "938.3 \u00b0C"
+    },
+    {
+      "question": "When was Germanium first discovered?",
+      "options": [
+        {
+          "text": "1811",
+          "element": "Iodine"
+        },
+        {
+          "text": "1953",
+          "element": "Fermium"
+        },
+        {
+          "text": "1939",
+          "element": "Francium"
+        },
+        {
+          "text": "1886",
+          "element": "Germanium"
+        }
+      ],
+      "correct": "1886"
+    }
+  ],
+  "Arsenic": [
+    {
+      "question": "What is the atomic radius of Arsenic?",
+      "options": [
+        {
+          "text": "115.0 pm",
+          "element": "Arsenic"
+        },
+        {
+          "text": "185.0 pm",
+          "element": "Promethium"
+        },
+        {
+          "text": "140.0 pm",
+          "element": "Iron"
+        },
+        {
+          "text": "220.0 pm",
+          "element": "Potassium"
+        }
+      ],
+      "correct": "115.0 pm"
+    },
+    {
+      "question": "What is the melting point of Arsenic?",
+      "options": [
+        {
+          "text": "817.0 \u00b0C",
+          "element": "Arsenic"
+        },
+        {
+          "text": "1554.8 \u00b0C",
+          "element": "Palladium"
+        },
+        {
+          "text": "2622.0 \u00b0C",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "2233.0 \u00b0C",
+          "element": "Hafnium"
+        }
+      ],
+      "correct": "817.0 \u00b0C"
+    },
+    {
+      "question": "Who discovered Arsenic?",
+      "options": [
+        {
+          "text": "J.L. Soret",
+          "element": "Holmium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Arsenic"
+        },
+        {
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Californium"
+        },
+        {
+          "text": "Georges Urbain",
+          "element": "Lutetium"
+        }
+      ],
+      "correct": "Known to the ancients."
+    }
+  ],
+  "Selenium": [
+    {
+      "question": "When was Selenium first discovered?",
+      "options": [
+        {
+          "text": "1798",
+          "element": "Beryllium"
+        },
+        {
+          "text": "1818",
+          "element": "Selenium"
+        },
+        {
+          "text": "1735",
+          "element": "Platinum"
+        },
+        {
+          "text": "1939",
+          "element": "Francium"
+        }
+      ],
+      "correct": "1818"
+    },
+    {
+      "question": "What is the density of Selenium?",
+      "options": [
+        {
+          "text": "12.4 g/cm\u00b3",
+          "element": "Rhodium"
+        },
+        {
+          "text": "6.52 g/cm\u00b3",
+          "element": "Zirconium"
+        },
+        {
+          "text": "4.809 g/cm\u00b3",
+          "element": "Selenium"
+        },
+        {
+          "text": "0.001553 g/cm\u00b3",
+          "element": "Fluorine"
+        }
+      ],
+      "correct": "4.809 g/cm\u00b3"
+    },
+    {
+      "question": "What is the atomic radius of Selenium?",
+      "options": [
+        {
+          "text": "135.0 pm",
+          "element": "Platinum"
+        },
+        {
+          "text": "115.0 pm",
+          "element": "Selenium"
+        },
+        {
+          "text": "200.0 pm",
+          "element": "Strontium"
+        },
+        {
+          "text": "145.0 pm",
+          "element": "Antimony"
+        }
+      ],
+      "correct": "115.0 pm"
+    }
+  ],
+  "Bromine": [
+    {
+      "question": "What is the melting point of Bromine?",
+      "options": [
+        {
+          "text": "63.5 \u00b0C",
+          "element": "Potassium"
+        },
+        {
+          "text": "-7.2 \u00b0C",
+          "element": "Bromine"
+        },
+        {
+          "text": "1768.2 \u00b0C",
+          "element": "Platinum"
+        },
+        {
+          "text": "-157.4 \u00b0C",
+          "element": "Krypton"
+        }
+      ],
+      "correct": "-7.2 \u00b0C"
+    },
+    {
+      "question": "Who discovered Bromine?",
+      "options": [
+        {
+          "text": "Carl Mosander",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "Antoine J. Balard",
+          "element": "Bromine"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Silver"
+        },
+        {
+          "text": "William Wollaston",
+          "element": "Rhodium"
+        }
+      ],
+      "correct": "Antoine J. Balard"
+    },
+    {
+      "question": "When was Bromine first discovered?",
+      "options": [
+        {
+          "text": "1826",
+          "element": "Bromine"
+        },
+        {
+          "text": "1937",
+          "element": "Technetium"
+        },
+        {
+          "text": "1895",
+          "element": "Helium"
+        },
+        {
+          "text": "1923",
+          "element": "Hafnium"
+        }
+      ],
+      "correct": "1826"
+    }
+  ],
+  "Krypton": [
+    {
+      "question": "What is the boiling point of Krypton?",
+      "options": [
+        {
+          "text": "-153.4 \u00b0C",
+          "element": "Krypton"
+        },
+        {
+          "text": "2868.0 \u00b0C",
+          "element": "Erbium"
+        },
+        {
+          "text": "4639.0 \u00b0C",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "-183.0 \u00b0C",
+          "element": "Oxygen"
+        }
+      ],
+      "correct": "-153.4 \u00b0C"
+    },
+    {
+      "question": "Who discovered Krypton?",
+      "options": [
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Silicon"
+        },
+        {
+          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
+          "element": "Seaborgium"
+        },
+        {
+          "text": "Johann Gadolin",
+          "element": "Yttrium"
+        },
+        {
+          "text": "Sir William Ramsey, M.W. Travers",
+          "element": "Krypton"
+        }
+      ],
+      "correct": "Sir William Ramsey, M.W. Travers"
+    },
+    {
+      "question": "When was Krypton first discovered?",
+      "options": [
+        {
+          "text": "2000",
+          "element": "Livermorium"
+        },
+        {
+          "text": "1879",
+          "element": "Samarium"
+        },
+        {
+          "text": "1998",
+          "element": "Flerovium"
+        },
+        {
+          "text": "1898",
+          "element": "Krypton"
+        }
+      ],
+      "correct": "1898"
+    }
+  ],
+  "Rubidium": [
+    {
+      "question": "When was Rubidium first discovered?",
+      "options": [
+        {
+          "text": "1861",
+          "element": "Rubidium"
+        },
+        {
+          "text": "1982",
+          "element": "Meitnerium"
+        },
+        {
+          "text": "1782",
+          "element": "Tellurium"
+        },
+        {
+          "text": "1669",
+          "element": "Phosphorus"
+        }
+      ],
+      "correct": "1861"
+    },
+    {
+      "question": "What is the crustal abundance of Rubidium?",
+      "options": [
+        {
+          "text": "3.5 mg/kg",
+          "element": "Erbium"
+        },
+        {
+          "text": "3.0 mg/kg",
+          "element": "Cesium"
+        },
+        {
+          "text": "90.0 mg/kg",
+          "element": "Rubidium"
+        },
+        {
+          "text": "0.45 mg/kg",
+          "element": "Iodine"
+        }
+      ],
+      "correct": "90.0 mg/kg"
+    },
+    {
+      "question": "What is the density of Rubidium?",
+      "options": [
+        {
+          "text": "8.2e-05 g/cm\u00b3",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "40.7 g/cm\u00b3",
+          "element": "Hassium"
+        },
+        {
+          "text": "1.53 g/cm\u00b3",
+          "element": "Rubidium"
+        },
+        {
+          "text": "8.69 g/cm\u00b3",
+          "element": "Cadmium"
+        }
+      ],
+      "correct": "1.53 g/cm\u00b3"
+    }
+  ],
+  "Strontium": [
+    {
+      "question": "What is the crustal abundance of Strontium?",
+      "options": [
+        {
+          "text": "14.0 mg/kg",
+          "element": "Lead"
+        },
+        {
+          "text": "370.0 mg/kg",
+          "element": "Strontium"
+        },
+        {
+          "text": "19.0 mg/kg",
+          "element": "Gallium"
+        },
+        {
+          "text": "66.5 mg/kg",
+          "element": "Cerium"
+        }
+      ],
+      "correct": "370.0 mg/kg"
+    },
+    {
+      "question": "What is the density of Strontium?",
+      "options": [
+        {
+          "text": "13.5 g/cm\u00b3",
+          "element": "Moscovium"
+        },
+        {
+          "text": "2.64 g/cm\u00b3",
+          "element": "Strontium"
+        },
+        {
+          "text": "7.2 g/cm\u00b3",
+          "element": "Tennessine"
+        },
+        {
+          "text": "1.54 g/cm\u00b3",
+          "element": "Calcium"
+        }
+      ],
+      "correct": "2.64 g/cm\u00b3"
+    },
+    {
+      "question": "What is the boiling point of Strontium?",
+      "options": [
+        {
+          "text": "5008.0 \u00b0C",
+          "element": "Osmium"
+        },
+        {
+          "text": "988.0 \u00b0C",
+          "element": "Tellurium"
+        },
+        {
+          "text": "1529.0 \u00b0C",
+          "element": "Europium"
+        },
+        {
+          "text": "1377.0 \u00b0C",
+          "element": "Strontium"
+        }
+      ],
+      "correct": "1377.0 \u00b0C"
+    }
+  ],
+  "Yttrium": [
+    {
+      "question": "What is the atomic radius of Yttrium?",
+      "options": [
+        {
+          "text": "135.0 pm",
+          "element": "Gold"
+        },
+        {
+          "text": "150.0 pm",
+          "element": "Magnesium"
+        },
+        {
+          "text": "155.0 pm",
+          "element": "Hafnium"
+        },
+        {
+          "text": "180.0 pm",
+          "element": "Yttrium"
+        }
+      ],
+      "correct": "180.0 pm"
+    },
+    {
+      "question": "Who discovered Yttrium?",
+      "options": [
+        {
+          "text": "Johann Gadolin",
+          "element": "Yttrium"
+        },
+        {
+          "text": "Dirk Coster, Georg von Hevesy",
+          "element": "Hafnium"
+        },
+        {
+          "text": "Pierre and Marie Curie",
+          "element": "Radium"
+        },
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Silicon"
+        }
+      ],
+      "correct": "Johann Gadolin"
+    },
+    {
+      "question": "What is the boiling point of Yttrium?",
+      "options": [
+        {
+          "text": "3695.0 \u00b0C",
+          "element": "Rhodium"
+        },
+        {
+          "text": "1377.0 \u00b0C",
+          "element": "Strontium"
+        },
+        {
+          "text": "1749.0 \u00b0C",
+          "element": "Lead"
+        },
+        {
+          "text": "3345.0 \u00b0C",
+          "element": "Yttrium"
+        }
+      ],
+      "correct": "3345.0 \u00b0C"
+    }
+  ],
+  "Zirconium": [
+    {
+      "question": "What is the density of Zirconium?",
+      "options": [
+        {
+          "text": "8.69 g/cm\u00b3",
+          "element": "Cadmium"
+        },
+        {
+          "text": "37.1 g/cm\u00b3",
+          "element": "Bohrium"
+        },
+        {
+          "text": "21.5 g/cm\u00b3",
+          "element": "Platinum"
+        },
+        {
+          "text": "6.52 g/cm\u00b3",
+          "element": "Zirconium"
+        }
+      ],
+      "correct": "6.52 g/cm\u00b3"
+    },
+    {
+      "question": "When was Zirconium first discovered?",
+      "options": [
+        {
+          "text": "1886",
+          "element": "Fluorine"
+        },
+        {
+          "text": "1844",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "1843",
+          "element": "Terbium"
+        },
+        {
+          "text": "1789",
+          "element": "Zirconium"
+        }
+      ],
+      "correct": "1789"
+    },
+    {
+      "question": "What is the boiling point of Zirconium?",
+      "options": [
+        {
+          "text": "4785.0 \u00b0C",
+          "element": "Thorium"
+        },
+        {
+          "text": "4406.0 \u00b0C",
+          "element": "Zirconium"
+        },
+        {
+          "text": "616.0 \u00b0C",
+          "element": "Arsenic"
+        },
+        {
+          "text": "4147.0 \u00b0C",
+          "element": "Ruthenium"
+        }
+      ],
+      "correct": "4406.0 \u00b0C"
+    }
+  ],
+  "Niobium": [
+    {
+      "question": "What is the melting point of Niobium?",
+      "options": [
+        {
+          "text": "97.8 \u00b0C",
+          "element": "Sodium"
+        },
+        {
+          "text": "449.5 \u00b0C",
+          "element": "Tellurium"
+        },
+        {
+          "text": "2477.0 \u00b0C",
+          "element": "Niobium"
+        },
+        {
+          "text": "1529.0 \u00b0C",
+          "element": "Erbium"
+        }
+      ],
+      "correct": "2477.0 \u00b0C"
+    },
+    {
+      "question": "Who discovered Niobium?",
+      "options": [
+        {
+          "text": "Sir William Ramsey, Baron Rayleigh",
+          "element": "Argon"
+        },
+        {
+          "text": "Charles Hatchet",
+          "element": "Niobium"
+        },
+        {
+          "text": "Johann Arfwedson",
+          "element": "Lithium"
+        },
+        {
+          "text": "W. von Hisinger, J. Berzelius, M. Klaproth",
+          "element": "Cerium"
+        }
+      ],
+      "correct": "Charles Hatchet"
+    },
+    {
+      "question": "What is the crustal abundance of Niobium?",
+      "options": [
+        {
+          "text": "5650.0 mg/kg",
+          "element": "Titanium"
+        },
+        {
+          "text": "5.2 mg/kg",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "1050.0 mg/kg",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "20.0 mg/kg",
+          "element": "Niobium"
+        }
+      ],
+      "correct": "20.0 mg/kg"
+    }
+  ],
+  "Molybdenum": [
+    {
+      "question": "When was Molybdenum first discovered?",
+      "options": [
+        {
+          "text": "1778",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "1955",
+          "element": "Mendelevium"
+        },
+        {
+          "text": "1950",
+          "element": "Californium"
+        },
+        {
+          "text": "1898",
+          "element": "Neon"
+        }
+      ],
+      "correct": "1778"
+    },
+    {
+      "question": "Who discovered Molybdenum?",
+      "options": [
+        {
+          "text": "Lawrence Livermore National Laboratory",
+          "element": "Livermorium"
+        },
+        {
+          "text": "Sir William Ramsay; M. W. Travers",
+          "element": "Xenon"
+        },
+        {
+          "text": "Carl Wilhelm Scheele",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "Sir William Ramsey, M.W. Travers",
+          "element": "Neon"
+        }
+      ],
+      "correct": "Carl Wilhelm Scheele"
+    },
+    {
+      "question": "What is the atomic radius of Molybdenum?",
+      "options": [
+        {
+          "text": "175.0 pm",
+          "element": "Holmium"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Technetium"
+        },
+        {
+          "text": "50.0 pm",
+          "element": "Fluorine"
+        },
+        {
+          "text": "145.0 pm",
+          "element": "Molybdenum"
+        }
+      ],
+      "correct": "145.0 pm"
+    }
+  ],
+  "Technetium": [
+    {
+      "question": "What is the atomic radius of Technetium?",
+      "options": [
+        {
+          "text": "135.0 pm",
+          "element": "Technetium"
+        },
+        {
+          "text": "160.0 pm",
+          "element": "Silver"
+        },
+        {
+          "text": "180.0 pm",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "260.0 pm",
+          "element": "Cesium"
+        }
+      ],
+      "correct": "135.0 pm"
+    },
+    {
+      "question": "Who discovered Technetium?",
+      "options": [
+        {
+          "text": "Julius Scaliger",
+          "element": "Platinum"
+        },
+        {
+          "text": "Karl Klaus",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "Jean de Marignac",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "Carlo Perrier, \u00c9millo Segr\u00e8",
+          "element": "Technetium"
+        }
+      ],
+      "correct": "Carlo Perrier, \u00c9millo Segr\u00e8"
+    },
+    {
+      "question": "When was Technetium first discovered?",
+      "options": [
+        {
+          "text": "1898",
+          "element": "Radium"
+        },
+        {
+          "text": "1789",
+          "element": "Uranium"
+        },
+        {
+          "text": "1774",
+          "element": "Oxygen"
+        },
+        {
+          "text": "1937",
+          "element": "Technetium"
+        }
+      ],
+      "correct": "1937"
+    }
+  ],
+  "Ruthenium": [
+    {
+      "question": "What is the density of Ruthenium?",
+      "options": [
+        {
+          "text": "6.9 g/cm\u00b3",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "12.1 g/cm\u00b3",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "16.4 g/cm\u00b3",
+          "element": "Tantalum"
+        },
+        {
+          "text": "8.9 g/cm\u00b3",
+          "element": "Nickel"
+        }
+      ],
+      "correct": "12.1 g/cm\u00b3"
+    },
+    {
+      "question": "When was Ruthenium first discovered?",
+      "options": [
+        {
+          "text": "1828",
+          "element": "Thorium"
+        },
+        {
+          "text": "1751",
+          "element": "Nickel"
+        },
+        {
+          "text": "1844",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "1901",
+          "element": "Europium"
+        }
+      ],
+      "correct": "1844"
+    },
+    {
+      "question": "What is the boiling point of Ruthenium?",
+      "options": [
+        {
+          "text": "962.0 \u00b0C",
+          "element": "Polonium"
+        },
+        {
+          "text": "1749.0 \u00b0C",
+          "element": "Lead"
+        },
+        {
+          "text": "2162.0 \u00b0C",
+          "element": "Silver"
+        },
+        {
+          "text": "4147.0 \u00b0C",
+          "element": "Ruthenium"
+        }
+      ],
+      "correct": "4147.0 \u00b0C"
+    }
+  ],
+  "Rhodium": [
+    {
+      "question": "What is the crustal abundance of Rhodium?",
+      "options": [
+        {
+          "text": "0.0085 mg/kg",
+          "element": "Bismuth"
+        },
+        {
+          "text": "0.001 mg/kg",
+          "element": "Rhodium"
+        },
+        {
+          "text": "7.05 mg/kg",
+          "element": "Samarium"
+        },
+        {
+          "text": "9e-07 mg/kg",
+          "element": "Radium"
+        }
+      ],
+      "correct": "0.001 mg/kg"
+    },
+    {
+      "question": "What is the boiling point of Rhodium?",
+      "options": [
+        {
+          "text": "3695.0 \u00b0C",
+          "element": "Rhodium"
+        },
+        {
+          "text": "3407.0 \u00b0C",
+          "element": "Vanadium"
+        },
+        {
+          "text": "3228.0 \u00b0C",
+          "element": "Plutonium"
+        },
+        {
+          "text": "-268.9 \u00b0C",
+          "element": "Helium"
+        }
+      ],
+      "correct": "3695.0 \u00b0C"
+    },
+    {
+      "question": "What is the melting point of Rhodium?",
+      "options": [
+        {
+          "text": "-219.7 \u00b0C",
+          "element": "Fluorine"
+        },
+        {
+          "text": "1287.0 \u00b0C",
+          "element": "Beryllium"
+        },
+        {
+          "text": "1768.2 \u00b0C",
+          "element": "Platinum"
+        },
+        {
+          "text": "1963.0 \u00b0C",
+          "element": "Rhodium"
+        }
+      ],
+      "correct": "1963.0 \u00b0C"
+    }
+  ],
+  "Palladium": [
+    {
+      "question": "What is the atomic radius of Palladium?",
+      "options": [
+        {
+          "text": "140.0 pm",
+          "element": "Palladium"
+        },
+        {
+          "text": "180.0 pm",
+          "element": "Protactinium"
+        },
+        {
+          "text": "260.0 pm",
+          "element": "Cesium"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Vanadium"
+        }
+      ],
+      "correct": "140.0 pm"
+    },
+    {
+      "question": "What is the density of Palladium?",
+      "options": [
+        {
+          "text": "12.0 g/cm\u00b3",
+          "element": "Palladium"
+        },
+        {
+          "text": "1.53 g/cm\u00b3",
+          "element": "Rubidium"
+        },
+        {
+          "text": "2.7 g/cm\u00b3",
+          "element": "Aluminum"
+        },
+        {
+          "text": "11.7 g/cm\u00b3",
+          "element": "Thorium"
+        }
+      ],
+      "correct": "12.0 g/cm\u00b3"
+    },
+    {
+      "question": "What is the crustal abundance of Palladium?",
+      "options": [
+        {
+          "text": "1.25 mg/kg",
+          "element": "Tungsten"
+        },
+        {
+          "text": "0.015 mg/kg",
+          "element": "Palladium"
+        },
+        {
+          "text": "102.0 mg/kg",
+          "element": "Chromium"
+        },
+        {
+          "text": "9.6 mg/kg",
+          "element": "Thorium"
+        }
+      ],
+      "correct": "0.015 mg/kg"
+    }
+  ],
+  "Silver": [
+    {
+      "question": "What is the atomic radius of Silver?",
+      "options": [
+        {
+          "text": "65.0 pm",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "160.0 pm",
+          "element": "Silver"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Cobalt"
+        },
+        {
+          "text": "190.0 pm",
+          "element": "Polonium"
+        }
+      ],
+      "correct": "160.0 pm"
+    },
+    {
+      "question": "What is the boiling point of Silver?",
+      "options": [
+        {
+          "text": "4262.0 \u00b0C",
+          "element": "Technetium"
+        },
+        {
+          "text": "4741.0 \u00b0C",
+          "element": "Niobium"
+        },
+        {
+          "text": "1377.0 \u00b0C",
+          "element": "Strontium"
+        },
+        {
+          "text": "2162.0 \u00b0C",
+          "element": "Silver"
+        }
+      ],
+      "correct": "2162.0 \u00b0C"
+    },
+    {
+      "question": "What is the density of Silver?",
+      "options": [
+        {
+          "text": "2.2 g/cm\u00b3",
+          "element": "Carbon"
+        },
+        {
+          "text": "7.2 g/cm\u00b3",
+          "element": "Tennessine"
+        },
+        {
+          "text": "7.9 g/cm\u00b3",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "10.5 g/cm\u00b3",
+          "element": "Silver"
+        }
+      ],
+      "correct": "10.5 g/cm\u00b3"
+    }
+  ],
+  "Cadmium": [
+    {
+      "question": "What is the atomic radius of Cadmium?",
+      "options": [
+        {
+          "text": "65.0 pm",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Lutetium"
+        },
+        {
+          "text": "155.0 pm",
+          "element": "Cadmium"
+        },
+        {
+          "text": "150.0 pm",
+          "element": "Magnesium"
+        }
+      ],
+      "correct": "155.0 pm"
+    },
+    {
+      "question": "What is the melting point of Cadmium?",
+      "options": [
+        {
+          "text": "1072.0 \u00b0C",
+          "element": "Samarium"
+        },
+        {
+          "text": "113.7 \u00b0C",
+          "element": "Iodine"
+        },
+        {
+          "text": "321.1 \u00b0C",
+          "element": "Cadmium"
+        },
+        {
+          "text": "3017.0 \u00b0C",
+          "element": "Tantalum"
+        }
+      ],
+      "correct": "321.1 \u00b0C"
+    },
+    {
+      "question": "When was Cadmium first discovered?",
+      "options": [
+        {
+          "text": "2002",
+          "element": "Oganesson"
+        },
+        {
+          "text": "1817",
+          "element": "Cadmium"
+        },
+        {
+          "text": "1735",
+          "element": "Platinum"
+        },
+        {
+          "text": "1863",
+          "element": "Indium"
+        }
+      ],
+      "correct": "1817"
+    }
+  ],
+  "Indium": [
+    {
+      "question": "What is the crustal abundance of Indium?",
+      "options": [
+        {
+          "text": "120.0 mg/kg",
+          "element": "Vanadium"
+        },
+        {
+          "text": "0.25 mg/kg",
+          "element": "Indium"
+        },
+        {
+          "text": "0.075 mg/kg",
+          "element": "Silver"
+        },
+        {
+          "text": "20900.0 mg/kg",
+          "element": "Potassium"
+        }
+      ],
+      "correct": "0.25 mg/kg"
+    },
+    {
+      "question": "Who discovered Indium?",
+      "options": [
+        {
+          "text": "Ferdinand Reich, T. Richter",
+          "element": "Indium"
+        },
+        {
+          "text": "Gustov Kirchoff, Robert Bunsen",
+          "element": "Cesium"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Meitnerium"
+        },
+        {
+          "text": "Walter Noddack, Ida Tacke, Otto Berg",
+          "element": "Rhenium"
+        }
+      ],
+      "correct": "Ferdinand Reich, T. Richter"
+    },
+    {
+      "question": "What is the atomic radius of Indium?",
+      "options": [
+        {
+          "text": "145.0 pm",
+          "element": "Antimony"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Holmium"
+        },
+        {
+          "text": "155.0 pm",
+          "element": "Indium"
+        },
+        {
+          "text": "130.0 pm",
+          "element": "Gallium"
+        }
+      ],
+      "correct": "155.0 pm"
+    }
+  ],
+  "Tin": [
+    {
+      "question": "Who discovered Tin?",
+      "options": [
+        {
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
+        },
+        {
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
+        },
+        {
+          "text": "Gustov Kirchoff, Robert Bunsen",
+          "element": "Cesium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Tin"
+        }
+      ],
+      "correct": "Known to the ancients."
+    },
+    {
+      "question": "What is the boiling point of Tin?",
+      "options": [
+        {
+          "text": "4147.0 \u00b0C",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "1845.0 \u00b0C",
+          "element": "Barium"
+        },
+        {
+          "text": "2586.0 \u00b0C",
+          "element": "Tin"
+        },
+        {
+          "text": "5555.0 \u00b0C",
+          "element": "Tungsten"
+        }
+      ],
+      "correct": "2586.0 \u00b0C"
+    },
+    {
+      "question": "What is the density of Tin?",
+      "options": [
+        {
+          "text": "7.3 g/cm\u00b3",
+          "element": "Manganese"
+        },
+        {
+          "text": "7.287 g/cm\u00b3",
+          "element": "Tin"
+        },
+        {
+          "text": "7.9 g/cm\u00b3",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "20.8 g/cm\u00b3",
+          "element": "Rhenium"
+        }
+      ],
+      "correct": "7.287 g/cm\u00b3"
+    }
+  ],
+  "Antimony": [
+    {
+      "question": "What is the crustal abundance of Antimony?",
+      "options": [
+        {
+          "text": "0.0085 mg/kg",
+          "element": "Bismuth"
+        },
+        {
+          "text": "20.0 mg/kg",
+          "element": "Niobium"
+        },
+        {
+          "text": "0.0015 mg/kg",
+          "element": "Osmium"
+        },
+        {
+          "text": "0.2 mg/kg",
+          "element": "Antimony"
+        }
+      ],
+      "correct": "0.2 mg/kg"
+    },
+    {
+      "question": "What is the density of Antimony?",
+      "options": [
+        {
+          "text": "7.134 g/cm\u00b3",
+          "element": "Zinc"
+        },
+        {
+          "text": "6.68 g/cm\u00b3",
+          "element": "Antimony"
+        },
+        {
+          "text": "0.009074 g/cm\u00b3",
+          "element": "Radon"
+        },
+        {
+          "text": "7.0 g/cm\u00b3",
+          "element": "Oganesson"
+        }
+      ],
+      "correct": "6.68 g/cm\u00b3"
+    },
+    {
+      "question": "What is the melting point of Antimony?",
+      "options": [
+        {
+          "text": "-7.2 \u00b0C",
+          "element": "Bromine"
+        },
+        {
+          "text": "-219.7 \u00b0C",
+          "element": "Fluorine"
+        },
+        {
+          "text": "1064.2 \u00b0C",
+          "element": "Gold"
+        },
+        {
+          "text": "630.6 \u00b0C",
+          "element": "Antimony"
+        }
+      ],
+      "correct": "630.6 \u00b0C"
+    }
+  ],
+  "Tellurium": [
+    {
+      "question": "What is the atomic radius of Tellurium?",
+      "options": [
+        {
+          "text": "115.0 pm",
+          "element": "Bromine"
+        },
+        {
+          "text": "160.0 pm",
+          "element": "Bismuth"
+        },
+        {
+          "text": "140.0 pm",
+          "element": "Tellurium"
+        },
+        {
+          "text": "155.0 pm",
+          "element": "Zirconium"
+        }
+      ],
+      "correct": "140.0 pm"
+    },
+    {
+      "question": "What is the density of Tellurium?",
+      "options": [
+        {
+          "text": "7.87 g/cm\u00b3",
+          "element": "Iron"
+        },
+        {
+          "text": "7.01 g/cm\u00b3",
+          "element": "Neodymium"
+        },
+        {
+          "text": "6.232 g/cm\u00b3",
+          "element": "Tellurium"
+        },
+        {
+          "text": "6.68 g/cm\u00b3",
+          "element": "Antimony"
+        }
+      ],
+      "correct": "6.232 g/cm\u00b3"
+    },
+    {
+      "question": "What is the boiling point of Tellurium?",
+      "options": [
+        {
+          "text": "3074.0 \u00b0C",
+          "element": "Neodymium"
+        },
+        {
+          "text": "616.0 \u00b0C",
+          "element": "Arsenic"
+        },
+        {
+          "text": "2468.0 \u00b0C",
+          "element": "Beryllium"
+        },
+        {
+          "text": "988.0 \u00b0C",
+          "element": "Tellurium"
+        }
+      ],
+      "correct": "988.0 \u00b0C"
+    }
+  ],
+  "Iodine": [
+    {
+      "question": "What is the melting point of Iodine?",
+      "options": [
+        {
+          "text": "1554.8 \u00b0C",
+          "element": "Palladium"
+        },
+        {
+          "text": "113.7 \u00b0C",
+          "element": "Iodine"
+        },
+        {
+          "text": "1313.0 \u00b0C",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "3033.0 \u00b0C",
+          "element": "Osmium"
+        }
+      ],
+      "correct": "113.7 \u00b0C"
+    },
+    {
+      "question": "What is the boiling point of Iodine?",
+      "options": [
+        {
+          "text": "184.4 \u00b0C",
+          "element": "Iodine"
+        },
+        {
+          "text": "3443.0 \u00b0C",
+          "element": "Cerium"
+        },
+        {
+          "text": "3402.0 \u00b0C",
+          "element": "Lutetium"
+        },
+        {
+          "text": "5008.0 \u00b0C",
+          "element": "Osmium"
+        }
+      ],
+      "correct": "184.4 \u00b0C"
+    },
+    {
+      "question": "What is the density of Iodine?",
+      "options": [
+        {
+          "text": "7.31 g/cm\u00b3",
+          "element": "Indium"
+        },
+        {
+          "text": "7.9 g/cm\u00b3",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "6.9 g/cm\u00b3",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "4.933 g/cm\u00b3",
+          "element": "Iodine"
+        }
+      ],
+      "correct": "4.933 g/cm\u00b3"
+    }
+  ],
+  "Xenon": [
+    {
+      "question": "What is the melting point of Xenon?",
+      "options": [
+        {
+          "text": "271.4 \u00b0C",
+          "element": "Bismuth"
+        },
+        {
+          "text": "-111.8 \u00b0C",
+          "element": "Xenon"
+        },
+        {
+          "text": "302.0 \u00b0C",
+          "element": "Astatine"
+        },
+        {
+          "text": "-101.5 \u00b0C",
+          "element": "Chlorine"
+        }
+      ],
+      "correct": "-111.8 \u00b0C"
+    },
+    {
+      "question": "What is the boiling point of Xenon?",
+      "options": [
+        {
+          "text": "4406.0 \u00b0C",
+          "element": "Zirconium"
+        },
+        {
+          "text": "962.0 \u00b0C",
+          "element": "Polonium"
+        },
+        {
+          "text": "-108.1 \u00b0C",
+          "element": "Xenon"
+        },
+        {
+          "text": "988.0 \u00b0C",
+          "element": "Tellurium"
+        }
+      ],
+      "correct": "-108.1 \u00b0C"
+    },
+    {
+      "question": "What is the crustal abundance of Xenon?",
+      "options": [
+        {
+          "text": "2.9999999999999997e-05 mg/kg",
+          "element": "Xenon"
+        },
+        {
+          "text": "3.2 mg/kg",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "0.001 mg/kg",
+          "element": "Iridium"
+        },
+        {
+          "text": "0.05 mg/kg",
+          "element": "Selenium"
+        }
+      ],
+      "correct": "2.9999999999999997e-05 mg/kg"
+    }
+  ],
+  "Cesium": [
+    {
+      "question": "When was Cesium first discovered?",
+      "options": [
+        {
+          "text": "1860",
+          "element": "Cesium"
+        },
+        {
+          "text": "1880",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "1982",
+          "element": "Meitnerium"
+        },
+        {
+          "text": "1923",
+          "element": "Hafnium"
+        }
+      ],
+      "correct": "1860"
+    },
+    {
+      "question": "Who discovered Cesium?",
+      "options": [
+        {
+          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
+          "element": "Plutonium"
+        },
+        {
+          "text": "Johann Arfwedson",
+          "element": "Lithium"
+        },
+        {
+          "text": "Gustov Kirchoff, Robert Bunsen",
+          "element": "Cesium"
+        },
+        {
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
+        }
+      ],
+      "correct": "Gustov Kirchoff, Robert Bunsen"
+    },
+    {
+      "question": "What is the melting point of Cesium?",
+      "options": [
+        {
+          "text": "1176.0 \u00b0C",
+          "element": "Americium"
+        },
+        {
+          "text": "28.5 \u00b0C",
+          "element": "Cesium"
+        },
+        {
+          "text": "1670.0 \u00b0C",
+          "element": "Titanium"
+        },
+        {
+          "text": "419.5 \u00b0C",
+          "element": "Zinc"
+        }
+      ],
+      "correct": "28.5 \u00b0C"
+    }
+  ],
+  "Barium": [
+    {
+      "question": "What is the crustal abundance of Barium?",
+      "options": [
+        {
+          "text": "0.004 mg/kg",
+          "element": "Gold"
+        },
+        {
+          "text": "33.0 mg/kg",
+          "element": "Yttrium"
+        },
+        {
+          "text": "425.0 mg/kg",
+          "element": "Barium"
+        },
+        {
+          "text": "0.001 mg/kg",
+          "element": "Tellurium"
+        }
+      ],
+      "correct": "425.0 mg/kg"
+    },
+    {
+      "question": "What is the boiling point of Barium?",
+      "options": [
+        {
+          "text": "1564.0 \u00b0C",
+          "element": "Bismuth"
+        },
+        {
+          "text": "2586.0 \u00b0C",
+          "element": "Tin"
+        },
+        {
+          "text": "1845.0 \u00b0C",
+          "element": "Barium"
+        },
+        {
+          "text": "1587.0 \u00b0C",
+          "element": "Antimony"
+        }
+      ],
+      "correct": "1845.0 \u00b0C"
+    },
+    {
+      "question": "What is the atomic radius of Barium?",
+      "options": [
+        {
+          "text": "185.0 pm",
+          "element": "Promethium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Americium"
+        },
+        {
+          "text": "130.0 pm",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "215.0 pm",
+          "element": "Barium"
+        }
+      ],
+      "correct": "215.0 pm"
+    }
+  ],
+  "Lanthanum": [
+    {
+      "question": "What is the atomic radius of Lanthanum?",
+      "options": [
+        {
+          "text": "125.0 pm",
+          "element": "Germanium"
+        },
+        {
+          "text": "160.0 pm",
+          "element": "Neon"
+        },
+        {
+          "text": "195.0 pm",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "100.0 pm",
+          "element": "Phosphorus"
+        }
+      ],
+      "correct": "195.0 pm"
+    },
+    {
+      "question": "What is the boiling point of Lanthanum?",
+      "options": [
+        {
+          "text": "3200.0 \u00b0C",
+          "element": "Actinium"
+        },
+        {
+          "text": "3464.0 \u00b0C",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "2519.0 \u00b0C",
+          "element": "Aluminum"
+        },
+        {
+          "text": "-195.8 \u00b0C",
+          "element": "Nitrogen"
+        }
+      ],
+      "correct": "3464.0 \u00b0C"
+    },
+    {
+      "question": "When was Lanthanum first discovered?",
+      "options": [
+        {
+          "text": "1839",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "1843",
+          "element": "Terbium"
+        },
+        {
+          "text": "1879",
+          "element": "Samarium"
+        },
+        {
+          "text": "1945",
+          "element": "Promethium"
+        }
+      ],
+      "correct": "1839"
+    }
+  ],
+  "Cerium": [
+    {
+      "question": "What is the density of Cerium?",
+      "options": [
+        {
+          "text": "10.0 g/cm\u00b3",
+          "element": "Actinium"
+        },
+        {
+          "text": "9.2 g/cm\u00b3",
+          "element": "Polonium"
+        },
+        {
+          "text": "20.2 g/cm\u00b3",
+          "element": "Neptunium"
+        },
+        {
+          "text": "6.77 g/cm\u00b3",
+          "element": "Cerium"
+        }
+      ],
+      "correct": "6.77 g/cm\u00b3"
+    },
+    {
+      "question": "Who discovered Cerium?",
+      "options": [
+        {
+          "text": "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso",
+          "element": "Americium"
+        },
+        {
+          "text": "Carlo Perrier, \u00c9millo Segr\u00e8",
+          "element": "Technetium"
+        },
+        {
+          "text": "Charles Hatchet",
+          "element": "Niobium"
+        },
+        {
+          "text": "W. von Hisinger, J. Berzelius, M. Klaproth",
+          "element": "Cerium"
+        }
+      ],
+      "correct": "W. von Hisinger, J. Berzelius, M. Klaproth"
+    },
+    {
+      "question": "What is the crustal abundance of Cerium?",
+      "options": [
+        {
+          "text": "2.0 mg/kg",
+          "element": "Tantalum"
+        },
+        {
+          "text": "165.0 mg/kg",
+          "element": "Zirconium"
+        },
+        {
+          "text": "0.085 mg/kg",
+          "element": "Mercury"
+        },
+        {
+          "text": "66.5 mg/kg",
+          "element": "Cerium"
+        }
+      ],
+      "correct": "66.5 mg/kg"
+    }
+  ],
+  "Praseodymium": [
+    {
+      "question": "What is the density of Praseodymium?",
+      "options": [
+        {
+          "text": "12.0 g/cm\u00b3",
+          "element": "Palladium"
+        },
+        {
+          "text": "6.773 g/cm\u00b3",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "10.3 g/cm\u00b3",
+          "element": "Mendelevium"
+        },
+        {
+          "text": "11.0 g/cm\u00b3",
+          "element": "Technetium"
+        }
+      ],
+      "correct": "6.773 g/cm\u00b3"
+    },
+    {
+      "question": "What is the boiling point of Praseodymium?",
+      "options": [
+        {
+          "text": "-153.4 \u00b0C",
+          "element": "Krypton"
+        },
+        {
+          "text": "2861.0 \u00b0C",
+          "element": "Iron"
+        },
+        {
+          "text": "3520.0 \u00b0C",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "-61.7 \u00b0C",
+          "element": "Radon"
+        }
+      ],
+      "correct": "3520.0 \u00b0C"
+    },
+    {
+      "question": "Who discovered Praseodymium?",
+      "options": [
+        {
+          "text": "C.F. Aver von Welsbach",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Bismuth"
+        },
+        {
+          "text": "Known to the ancients",
+          "element": "Carbon"
+        },
+        {
+          "text": "Joseph Priestly, Carl Wilhelm Scheele",
+          "element": "Oxygen"
+        }
+      ],
+      "correct": "C.F. Aver von Welsbach"
+    }
+  ],
+  "Neodymium": [
+    {
+      "question": "When was Neodymium first discovered?",
+      "options": [
+        {
+          "text": "1940",
+          "element": "Astatine"
+        },
+        {
+          "text": "1898",
+          "element": "Polonium"
+        },
+        {
+          "text": "1925",
+          "element": "Neodymium"
+        },
+        {
+          "text": "1861",
+          "element": "Rubidium"
+        }
+      ],
+      "correct": "1925"
+    },
+    {
+      "question": "What is the melting point of Neodymium?",
+      "options": [
+        {
+          "text": "-157.4 \u00b0C",
+          "element": "Krypton"
+        },
+        {
+          "text": "1064.2 \u00b0C",
+          "element": "Gold"
+        },
+        {
+          "text": "1016.0 \u00b0C",
+          "element": "Neodymium"
+        },
+        {
+          "text": "3185.0 \u00b0C",
+          "element": "Rhenium"
+        }
+      ],
+      "correct": "1016.0 \u00b0C"
+    },
+    {
+      "question": "What is the atomic radius of Neodymium?",
+      "options": [
+        {
+          "text": "185.0 pm",
+          "element": "Neodymium"
+        },
+        {
+          "text": "140.0 pm",
+          "element": "Tellurium"
+        },
+        {
+          "text": "195.0 pm",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "180.0 pm",
+          "element": "Sodium"
+        }
+      ],
+      "correct": "185.0 pm"
+    }
+  ],
+  "Promethium": [
+    {
+      "question": "What is the melting point of Promethium?",
+      "options": [
+        {
+          "text": "1768.2 \u00b0C",
+          "element": "Platinum"
+        },
+        {
+          "text": "817.0 \u00b0C",
+          "element": "Arsenic"
+        },
+        {
+          "text": "1042.0 \u00b0C",
+          "element": "Promethium"
+        },
+        {
+          "text": "640.0 \u00b0C",
+          "element": "Plutonium"
+        }
+      ],
+      "correct": "1042.0 \u00b0C"
+    },
+    {
+      "question": "When was Promethium first discovered?",
+      "options": [
+        {
+          "text": "1945",
+          "element": "Promethium"
+        },
+        {
+          "text": "1739",
+          "element": "Cobalt"
+        },
+        {
+          "text": "1808",
+          "element": "Magnesium"
+        },
+        {
+          "text": "1955",
+          "element": "Mendelevium"
+        }
+      ],
+      "correct": "1945"
+    },
+    {
+      "question": "What is the density of Promethium?",
+      "options": [
+        {
+          "text": "7.26 g/cm\u00b3",
+          "element": "Promethium"
+        },
+        {
+          "text": "7.3 g/cm\u00b3",
+          "element": "Manganese"
+        },
+        {
+          "text": "7.2 g/cm\u00b3",
+          "element": "Tennessine"
+        },
+        {
+          "text": "16.0 g/cm\u00b3",
+          "element": "Nihonium"
+        }
+      ],
+      "correct": "7.26 g/cm\u00b3"
+    }
+  ],
+  "Samarium": [
+    {
+      "question": "What is the atomic radius of Samarium?",
+      "options": [
+        {
+          "text": "155.0 pm",
+          "element": "Cadmium"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Technetium"
+        },
+        {
+          "text": "185.0 pm",
+          "element": "Samarium"
+        },
+        {
+          "text": "180.0 pm",
+          "element": "Yttrium"
+        }
+      ],
+      "correct": "185.0 pm"
+    },
+    {
+      "question": "Who discovered Samarium?",
+      "options": [
+        {
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Samarium"
+        },
+        {
+          "text": "A. Crawford",
+          "element": "Strontium"
+        },
+        {
+          "text": "Fausto and Juan Jos\u00e9 de Elhuyar",
+          "element": "Tungsten"
+        },
+        {
+          "text": "Antoine J. Balard",
+          "element": "Bromine"
+        }
+      ],
+      "correct": "Paul \u00c9mile Lecoq de Boisbaudran"
+    },
+    {
+      "question": "What is the crustal abundance of Samarium?",
+      "options": [
+        {
+          "text": "3.0 mg/kg",
+          "element": "Cesium"
+        },
+        {
+          "text": "20.0 mg/kg",
+          "element": "Lithium"
+        },
+        {
+          "text": "7.05 mg/kg",
+          "element": "Samarium"
+        },
+        {
+          "text": "1.25 mg/kg",
+          "element": "Tungsten"
+        }
+      ],
+      "correct": "7.05 mg/kg"
+    }
+  ],
+  "Europium": [
+    {
+      "question": "What is the boiling point of Europium?",
+      "options": [
+        {
+          "text": "3074.0 \u00b0C",
+          "element": "Neodymium"
+        },
+        {
+          "text": "988.0 \u00b0C",
+          "element": "Tellurium"
+        },
+        {
+          "text": "1529.0 \u00b0C",
+          "element": "Europium"
+        },
+        {
+          "text": "3407.0 \u00b0C",
+          "element": "Vanadium"
+        }
+      ],
+      "correct": "1529.0 \u00b0C"
+    },
+    {
+      "question": "What is the melting point of Europium?",
+      "options": [
+        {
+          "text": "822.0 \u00b0C",
+          "element": "Europium"
+        },
+        {
+          "text": "827.0 \u00b0C",
+          "element": "Mendelevium"
+        },
+        {
+          "text": "271.4 \u00b0C",
+          "element": "Bismuth"
+        },
+        {
+          "text": "1050.0 \u00b0C",
+          "element": "Actinium"
+        }
+      ],
+      "correct": "822.0 \u00b0C"
+    },
+    {
+      "question": "Who discovered Europium?",
+      "options": [
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Meitnerium"
+        },
+        {
+          "text": "Nobel Institute for Physics",
+          "element": "Nobelium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Antimony"
+        },
+        {
+          "text": "Eug\u00e8ne Demar\u00e7ay",
+          "element": "Europium"
+        }
+      ],
+      "correct": "Eug\u00e8ne Demar\u00e7ay"
+    }
+  ],
+  "Gadolinium": [
+    {
+      "question": "What is the boiling point of Gadolinium?",
+      "options": [
+        {
+          "text": "3273.0 \u00b0C",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "1950.0 \u00b0C",
+          "element": "Thulium"
+        },
+        {
+          "text": "2229.0 \u00b0C",
+          "element": "Gallium"
+        },
+        {
+          "text": "1342.0 \u00b0C",
+          "element": "Lithium"
+        }
+      ],
+      "correct": "3273.0 \u00b0C"
+    },
+    {
+      "question": "What is the atomic radius of Gadolinium?",
+      "options": [
+        {
+          "text": "195.0 pm",
+          "element": "Actinium"
+        },
+        {
+          "text": "180.0 pm",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Uranium"
+        },
+        {
+          "text": "130.0 pm",
+          "element": "Ruthenium"
+        }
+      ],
+      "correct": "180.0 pm"
+    },
+    {
+      "question": "What is the density of Gadolinium?",
+      "options": [
+        {
+          "text": "19.7 g/cm\u00b3",
+          "element": "Plutonium"
+        },
+        {
+          "text": "7.9 g/cm\u00b3",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "19.3 g/cm\u00b3",
+          "element": "Tungsten"
+        },
+        {
+          "text": "6.9 g/cm\u00b3",
+          "element": "Ytterbium"
+        }
+      ],
+      "correct": "7.9 g/cm\u00b3"
+    }
+  ],
+  "Terbium": [
+    {
+      "question": "What is the melting point of Terbium?",
+      "options": [
+        {
+          "text": "1854.0 \u00b0C",
+          "element": "Zirconium"
+        },
+        {
+          "text": "1287.0 \u00b0C",
+          "element": "Beryllium"
+        },
+        {
+          "text": "1412.0 \u00b0C",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "1359.0 \u00b0C",
+          "element": "Terbium"
+        }
+      ],
+      "correct": "1359.0 \u00b0C"
+    },
+    {
+      "question": "When was Terbium first discovered?",
+      "options": [
+        {
+          "text": "1772",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "1789",
+          "element": "Uranium"
+        },
+        {
+          "text": "1996",
+          "element": "Copernicium"
+        },
+        {
+          "text": "1843",
+          "element": "Terbium"
+        }
+      ],
+      "correct": "1843"
+    },
+    {
+      "question": "What is the boiling point of Terbium?",
+      "options": [
+        {
+          "text": "4131.0 \u00b0C",
+          "element": "Uranium"
+        },
+        {
+          "text": "1090.0 \u00b0C",
+          "element": "Magnesium"
+        },
+        {
+          "text": "1196.0 \u00b0C",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "3230.0 \u00b0C",
+          "element": "Terbium"
+        }
+      ],
+      "correct": "3230.0 \u00b0C"
+    }
+  ],
+  "Dysprosium": [
+    {
+      "question": "What is the melting point of Dysprosium?",
+      "options": [
+        {
+          "text": "1412.0 \u00b0C",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "817.0 \u00b0C",
+          "element": "Arsenic"
+        },
+        {
+          "text": "640.0 \u00b0C",
+          "element": "Plutonium"
+        },
+        {
+          "text": "28.5 \u00b0C",
+          "element": "Cesium"
+        }
+      ],
+      "correct": "1412.0 \u00b0C"
+    },
+    {
+      "question": "What is the atomic radius of Dysprosium?",
+      "options": [
+        {
+          "text": "150.0 pm",
+          "element": "Magnesium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "70.0 pm",
+          "element": "Carbon"
+        },
+        {
+          "text": "65.0 pm",
+          "element": "Nitrogen"
+        }
+      ],
+      "correct": "175.0 pm"
+    },
+    {
+      "question": "Who discovered Dysprosium?",
+      "options": [
+        {
+          "text": "William Wollaston",
+          "element": "Palladium"
+        },
+        {
+          "text": "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso",
+          "element": "Americium"
+        },
+        {
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "Gustov Kirchoff, Robert Bunsen",
+          "element": "Cesium"
+        }
+      ],
+      "correct": "Paul \u00c9mile Lecoq de Boisbaudran"
+    }
+  ],
+  "Holmium": [
+    {
+      "question": "What is the atomic radius of Holmium?",
+      "options": [
+        {
+          "text": "260.0 pm",
+          "element": "Cesium"
+        },
+        {
+          "text": "100.0 pm",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Holmium"
+        },
+        {
+          "text": "110.0 pm",
+          "element": "Silicon"
+        }
+      ],
+      "correct": "175.0 pm"
+    },
+    {
+      "question": "What is the density of Holmium?",
+      "options": [
+        {
+          "text": "8.8 g/cm\u00b3",
+          "element": "Holmium"
+        },
+        {
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "7.287 g/cm\u00b3",
+          "element": "Tin"
+        },
+        {
+          "text": "8.69 g/cm\u00b3",
+          "element": "Cadmium"
+        }
+      ],
+      "correct": "8.8 g/cm\u00b3"
+    },
+    {
+      "question": "What is the crustal abundance of Holmium?",
+      "options": [
+        {
+          "text": "14.0 mg/kg",
+          "element": "Lead"
+        },
+        {
+          "text": "1.3 mg/kg",
+          "element": "Holmium"
+        },
+        {
+          "text": "1.2 mg/kg",
+          "element": "Terbium"
+        },
+        {
+          "text": "23600.0 mg/kg",
+          "element": "Sodium"
+        }
+      ],
+      "correct": "1.3 mg/kg"
+    }
+  ],
+  "Erbium": [
+    {
+      "question": "What is the boiling point of Erbium?",
+      "options": [
+        {
+          "text": "2868.0 \u00b0C",
+          "element": "Erbium"
+        },
+        {
+          "text": "2567.0 \u00b0C",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "2671.0 \u00b0C",
+          "element": "Chromium"
+        },
+        {
+          "text": "2836.0 \u00b0C",
+          "element": "Scandium"
+        }
+      ],
+      "correct": "2868.0 \u00b0C"
+    },
+    {
+      "question": "When was Erbium first discovered?",
+      "options": [
+        {
+          "text": "1898",
+          "element": "Radon"
+        },
+        {
+          "text": "1894",
+          "element": "Argon"
+        },
+        {
+          "text": "1807",
+          "element": "Potassium"
+        },
+        {
+          "text": "1843",
+          "element": "Erbium"
+        }
+      ],
+      "correct": "1843"
+    },
+    {
+      "question": "What is the density of Erbium?",
+      "options": [
+        {
+          "text": "22.5622 g/cm\u00b3",
+          "element": "Iridium"
+        },
+        {
+          "text": "7.87 g/cm\u00b3",
+          "element": "Iron"
+        },
+        {
+          "text": "9.07 g/cm\u00b3",
+          "element": "Erbium"
+        },
+        {
+          "text": "8.9 g/cm\u00b3",
+          "element": "Nickel"
+        }
+      ],
+      "correct": "9.07 g/cm\u00b3"
+    }
+  ],
+  "Thulium": [
+    {
+      "question": "Who discovered Thulium?",
+      "options": [
+        {
+          "text": "Known to the ancients.",
+          "element": "Bismuth"
+        },
+        {
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Mendelevium"
+        },
+        {
+          "text": "William Gregor",
+          "element": "Titanium"
+        },
+        {
+          "text": "Per Theodor Cleve",
+          "element": "Thulium"
+        }
+      ],
+      "correct": "Per Theodor Cleve"
+    },
+    {
+      "question": "When was Thulium first discovered?",
+      "options": [
+        {
+          "text": "1879",
+          "element": "Thulium"
+        },
+        {
+          "text": "1880",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "1735",
+          "element": "Platinum"
+        },
+        {
+          "text": "1843",
+          "element": "Erbium"
+        }
+      ],
+      "correct": "1879"
+    },
+    {
+      "question": "What is the density of Thulium?",
+      "options": [
+        {
+          "text": "34.8 g/cm\u00b3",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "22.5872 g/cm\u00b3",
+          "element": "Osmium"
+        },
+        {
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "9.321 g/cm\u00b3",
+          "element": "Thulium"
+        }
+      ],
+      "correct": "9.321 g/cm\u00b3"
+    }
+  ],
+  "Ytterbium": [
+    {
+      "question": "What is the atomic radius of Ytterbium?",
+      "options": [
+        {
+          "text": "190.0 pm",
+          "element": "Thallium"
+        },
+        {
+          "text": "145.0 pm",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "160.0 pm",
+          "element": "Scandium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Ytterbium"
+        }
+      ],
+      "correct": "175.0 pm"
+    },
+    {
+      "question": "What is the crustal abundance of Ytterbium?",
+      "options": [
+        {
+          "text": "3.2 mg/kg",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "585.0 mg/kg",
+          "element": "Fluorine"
+        },
+        {
+          "text": "25.0 mg/kg",
+          "element": "Cobalt"
+        },
+        {
+          "text": "102.0 mg/kg",
+          "element": "Chromium"
+        }
+      ],
+      "correct": "3.2 mg/kg"
+    },
+    {
+      "question": "What is the melting point of Ytterbium?",
+      "options": [
+        {
+          "text": "1345.0 \u00b0C",
+          "element": "Curium"
+        },
+        {
+          "text": "824.0 \u00b0C",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "39.3 \u00b0C",
+          "element": "Rubidium"
+        },
+        {
+          "text": "1907.0 \u00b0C",
+          "element": "Chromium"
+        }
+      ],
+      "correct": "824.0 \u00b0C"
+    }
+  ],
+  "Lutetium": [
+    {
+      "question": "What is the boiling point of Lutetium?",
+      "options": [
+        {
+          "text": "3402.0 \u00b0C",
+          "element": "Lutetium"
+        },
+        {
+          "text": "-252.9 \u00b0C",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "3464.0 \u00b0C",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "-108.1 \u00b0C",
+          "element": "Xenon"
+        }
+      ],
+      "correct": "3402.0 \u00b0C"
+    },
+    {
+      "question": "When was Lutetium first discovered?",
+      "options": [
+        {
+          "text": "1940",
+          "element": "Astatine"
+        },
+        {
+          "text": "1774",
+          "element": "Chlorine"
+        },
+        {
+          "text": "1669",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "1907",
+          "element": "Lutetium"
+        }
+      ],
+      "correct": "1907"
+    },
+    {
+      "question": "What is the crustal abundance of Lutetium?",
+      "options": [
+        {
+          "text": "0.8 mg/kg",
+          "element": "Lutetium"
+        },
+        {
+          "text": "1.4e-06 mg/kg",
+          "element": "Protactinium"
+        },
+        {
+          "text": "145.0 mg/kg",
+          "element": "Chlorine"
+        },
+        {
+          "text": "2e-10 mg/kg",
+          "element": "Polonium"
+        }
+      ],
+      "correct": "0.8 mg/kg"
+    }
+  ],
+  "Hafnium": [
+    {
+      "question": "What is the melting point of Hafnium?",
+      "options": [
+        {
+          "text": "-71.0 \u00b0C",
+          "element": "Radon"
+        },
+        {
+          "text": "2233.0 \u00b0C",
+          "element": "Hafnium"
+        },
+        {
+          "text": "302.0 \u00b0C",
+          "element": "Astatine"
+        },
+        {
+          "text": "860.0 \u00b0C",
+          "element": "Einsteinium"
+        }
+      ],
+      "correct": "2233.0 \u00b0C"
+    },
+    {
+      "question": "When was Hafnium first discovered?",
+      "options": [
+        {
+          "text": "1969",
+          "element": "Rutherfordium"
+        },
+        {
+          "text": "1945",
+          "element": "Americium"
+        },
+        {
+          "text": "1899",
+          "element": "Actinium"
+        },
+        {
+          "text": "1923",
+          "element": "Hafnium"
+        }
+      ],
+      "correct": "1923"
+    },
+    {
+      "question": "What is the density of Hafnium?",
+      "options": [
+        {
+          "text": "0.002898 g/cm\u00b3",
+          "element": "Chlorine"
+        },
+        {
+          "text": "12.9 g/cm\u00b3",
+          "element": "Livermorium"
+        },
+        {
+          "text": "13.3 g/cm\u00b3",
+          "element": "Hafnium"
+        },
+        {
+          "text": "7.3 g/cm\u00b3",
+          "element": "Manganese"
+        }
+      ],
+      "correct": "13.3 g/cm\u00b3"
+    }
+  ],
+  "Tantalum": [
+    {
+      "question": "What is the atomic radius of Tantalum?",
+      "options": [
+        {
+          "text": "85.0 pm",
+          "element": "Boron"
+        },
+        {
+          "text": "145.0 pm",
+          "element": "Tantalum"
+        },
+        {
+          "text": "215.0 pm",
+          "element": "Radium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Thulium"
+        }
+      ],
+      "correct": "145.0 pm"
+    },
+    {
+      "question": "What is the density of Tantalum?",
+      "options": [
+        {
+          "text": "0.89 g/cm\u00b3",
+          "element": "Potassium"
+        },
+        {
+          "text": "12.0 g/cm\u00b3",
+          "element": "Palladium"
+        },
+        {
+          "text": "16.4 g/cm\u00b3",
+          "element": "Tantalum"
+        },
+        {
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
+        }
+      ],
+      "correct": "16.4 g/cm\u00b3"
+    },
+    {
+      "question": "What is the boiling point of Tantalum?",
+      "options": [
+        {
+          "text": "-108.1 \u00b0C",
+          "element": "Xenon"
+        },
+        {
+          "text": "3520.0 \u00b0C",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "5455.0 \u00b0C",
+          "element": "Tantalum"
+        },
+        {
+          "text": "3825.0 \u00b0C",
+          "element": "Platinum"
+        }
+      ],
+      "correct": "5455.0 \u00b0C"
+    }
+  ],
+  "Tungsten": [
+    {
+      "question": "Who discovered Tungsten?",
+      "options": [
+        {
+          "text": "Jean de Marignac",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "Fausto and Juan Jos\u00e9 de Elhuyar",
+          "element": "Tungsten"
+        },
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Selenium"
+        },
+        {
+          "text": "Johann Gadolin",
+          "element": "Yttrium"
+        }
+      ],
+      "correct": "Fausto and Juan Jos\u00e9 de Elhuyar"
+    },
+    {
+      "question": "When was Tungsten first discovered?",
+      "options": [
+        {
+          "text": "1878",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "1803",
+          "element": "Cerium"
+        },
+        {
+          "text": "1783",
+          "element": "Tungsten"
+        },
+        {
+          "text": "1898",
+          "element": "Neon"
+        }
+      ],
+      "correct": "1783"
+    },
+    {
+      "question": "What is the crustal abundance of Tungsten?",
+      "options": [
+        {
+          "text": "1.25 mg/kg",
+          "element": "Tungsten"
+        },
+        {
+          "text": "33.0 mg/kg",
+          "element": "Yttrium"
+        },
+        {
+          "text": "0.0001 mg/kg",
+          "element": "Krypton"
+        },
+        {
+          "text": "0.0085 mg/kg",
+          "element": "Bismuth"
+        }
+      ],
+      "correct": "1.25 mg/kg"
+    }
+  ],
+  "Rhenium": [
+    {
+      "question": "What is the atomic radius of Rhenium?",
+      "options": [
+        {
+          "text": "175.0 pm",
+          "element": "Terbium"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Rhenium"
+        },
+        {
+          "text": "155.0 pm",
+          "element": "Hafnium"
+        },
+        {
+          "text": "260.0 pm",
+          "element": "Cesium"
+        }
+      ],
+      "correct": "135.0 pm"
+    },
+    {
+      "question": "What is the boiling point of Rhenium?",
+      "options": [
+        {
+          "text": "5555.0 \u00b0C",
+          "element": "Tungsten"
+        },
+        {
+          "text": "1473.0 \u00b0C",
+          "element": "Thallium"
+        },
+        {
+          "text": "5590.0 \u00b0C",
+          "element": "Rhenium"
+        },
+        {
+          "text": "4131.0 \u00b0C",
+          "element": "Uranium"
+        }
+      ],
+      "correct": "5590.0 \u00b0C"
+    },
+    {
+      "question": "What is the density of Rhenium?",
+      "options": [
+        {
+          "text": "20.8 g/cm\u00b3",
+          "element": "Rhenium"
+        },
+        {
+          "text": "12.9 g/cm\u00b3",
+          "element": "Livermorium"
+        },
+        {
+          "text": "2.99 g/cm\u00b3",
+          "element": "Scandium"
+        },
+        {
+          "text": "8.86 g/cm\u00b3",
+          "element": "Cobalt"
+        }
+      ],
+      "correct": "20.8 g/cm\u00b3"
+    }
+  ],
+  "Osmium": [
+    {
+      "question": "What is the crustal abundance of Osmium?",
+      "options": [
+        {
+          "text": "0.0015 mg/kg",
+          "element": "Osmium"
+        },
+        {
+          "text": "1.4e-06 mg/kg",
+          "element": "Protactinium"
+        },
+        {
+          "text": "2.7 mg/kg",
+          "element": "Uranium"
+        },
+        {
+          "text": "0.015 mg/kg",
+          "element": "Palladium"
+        }
+      ],
+      "correct": "0.0015 mg/kg"
+    },
+    {
+      "question": "Who discovered Osmium?",
+      "options": [
+        {
+          "text": "Sir William Ramsey, M.W. Travers",
+          "element": "Krypton"
+        },
+        {
+          "text": "Smithson Tenant",
+          "element": "Osmium"
+        },
+        {
+          "text": "George Brandt",
+          "element": "Cobalt"
+        },
+        {
+          "text": "Joseph Priestly, Carl Wilhelm Scheele",
+          "element": "Oxygen"
+        }
+      ],
+      "correct": "Smithson Tenant"
+    },
+    {
+      "question": "What is the melting point of Osmium?",
+      "options": [
+        {
+          "text": "3033.0 \u00b0C",
+          "element": "Osmium"
+        },
+        {
+          "text": "799.0 \u00b0C",
+          "element": "Cerium"
+        },
+        {
+          "text": "824.0 \u00b0C",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "-71.0 \u00b0C",
+          "element": "Radon"
+        }
+      ],
+      "correct": "3033.0 \u00b0C"
+    }
+  ],
+  "Iridium": [
+    {
+      "question": "What is the atomic radius of Iridium?",
+      "options": [
+        {
+          "text": "175.0 pm",
+          "element": "Americium"
+        },
+        {
+          "text": "70.0 pm",
+          "element": "Carbon"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Iridium"
+        },
+        {
+          "text": "160.0 pm",
+          "element": "Bismuth"
+        }
+      ],
+      "correct": "135.0 pm"
+    },
+    {
+      "question": "When was Iridium first discovered?",
+      "options": [
+        {
+          "text": "1789",
+          "element": "Yttrium"
+        },
+        {
+          "text": "2010",
+          "element": "Tennessine"
+        },
+        {
+          "text": "1804",
+          "element": "Iridium"
+        },
+        {
+          "text": "1808",
+          "element": "Barium"
+        }
+      ],
+      "correct": "1804"
+    },
+    {
+      "question": "What is the melting point of Iridium?",
+      "options": [
+        {
+          "text": "180.5 \u00b0C",
+          "element": "Lithium"
+        },
+        {
+          "text": "1345.0 \u00b0C",
+          "element": "Curium"
+        },
+        {
+          "text": "1064.2 \u00b0C",
+          "element": "Gold"
+        },
+        {
+          "text": "2446.0 \u00b0C",
+          "element": "Iridium"
+        }
+      ],
+      "correct": "2446.0 \u00b0C"
+    }
+  ],
+  "Platinum": [
+    {
+      "question": "What is the boiling point of Platinum?",
+      "options": [
+        {
+          "text": "1090.0 \u00b0C",
+          "element": "Magnesium"
+        },
+        {
+          "text": "1529.0 \u00b0C",
+          "element": "Europium"
+        },
+        {
+          "text": "2833.0 \u00b0C",
+          "element": "Germanium"
+        },
+        {
+          "text": "3825.0 \u00b0C",
+          "element": "Platinum"
+        }
+      ],
+      "correct": "3825.0 \u00b0C"
+    },
+    {
+      "question": "Who discovered Platinum?",
+      "options": [
+        {
+          "text": "Clemens Winkler",
+          "element": "Germanium"
+        },
+        {
+          "text": "R. Bunsen, G. Kirchoff",
+          "element": "Rubidium"
+        },
+        {
+          "text": "Nils Sefstr\u00f6m",
+          "element": "Vanadium"
+        },
+        {
+          "text": "Julius Scaliger",
+          "element": "Platinum"
+        }
+      ],
+      "correct": "Julius Scaliger"
+    },
+    {
+      "question": "What is the atomic radius of Platinum?",
+      "options": [
+        {
+          "text": "125.0 pm",
+          "element": "Aluminum"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Platinum"
+        },
+        {
+          "text": "155.0 pm",
+          "element": "Cadmium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Uranium"
+        }
+      ],
+      "correct": "135.0 pm"
+    }
+  ],
+  "Gold": [
+    {
+      "question": "What is the atomic radius of Gold?",
+      "options": [
+        {
+          "text": "155.0 pm",
+          "element": "Hafnium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Erbium"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Gold"
+        },
+        {
+          "text": "100.0 pm",
+          "element": "Chlorine"
+        }
+      ],
+      "correct": "135.0 pm"
+    },
+    {
+      "question": "What is the melting point of Gold?",
+      "options": [
+        {
+          "text": "1050.0 \u00b0C",
+          "element": "Actinium"
+        },
+        {
+          "text": "-111.8 \u00b0C",
+          "element": "Xenon"
+        },
+        {
+          "text": "1042.0 \u00b0C",
+          "element": "Promethium"
+        },
+        {
+          "text": "1064.2 \u00b0C",
+          "element": "Gold"
+        }
+      ],
+      "correct": "1064.2 \u00b0C"
+    },
+    {
+      "question": "What is the boiling point of Gold?",
+      "options": [
+        {
+          "text": "4000.0 \u00b0C",
+          "element": "Boron"
+        },
+        {
+          "text": "2700.0 \u00b0C",
+          "element": "Holmium"
+        },
+        {
+          "text": "-252.9 \u00b0C",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "2836.0 \u00b0C",
+          "element": "Gold"
+        }
+      ],
+      "correct": "2836.0 \u00b0C"
+    }
+  ],
+  "Mercury": [
+    {
+      "question": "What is the melting point of Mercury?",
+      "options": [
+        {
+          "text": "650.0 \u00b0C",
+          "element": "Magnesium"
+        },
+        {
+          "text": "-111.8 \u00b0C",
+          "element": "Xenon"
+        },
+        {
+          "text": "-38.8 \u00b0C",
+          "element": "Mercury"
+        },
+        {
+          "text": "156.6 \u00b0C",
+          "element": "Indium"
+        }
+      ],
+      "correct": "-38.8 \u00b0C"
+    },
+    {
+      "question": "What is the boiling point of Mercury?",
+      "options": [
+        {
+          "text": "2162.0 \u00b0C",
+          "element": "Silver"
+        },
+        {
+          "text": "3402.0 \u00b0C",
+          "element": "Lutetium"
+        },
+        {
+          "text": "3265.0 \u00b0C",
+          "element": "Silicon"
+        },
+        {
+          "text": "356.6 \u00b0C",
+          "element": "Mercury"
+        }
+      ],
+      "correct": "356.6 \u00b0C"
+    },
+    {
+      "question": "What is the density of Mercury?",
+      "options": [
+        {
+          "text": "7.0 g/cm\u00b3",
+          "element": "Astatine"
+        },
+        {
+          "text": "5.75 g/cm\u00b3",
+          "element": "Arsenic"
+        },
+        {
+          "text": "8.23 g/cm\u00b3",
+          "element": "Terbium"
+        },
+        {
+          "text": "13.5336 g/cm\u00b3",
+          "element": "Mercury"
+        }
+      ],
+      "correct": "13.5336 g/cm\u00b3"
+    }
+  ],
+  "Thallium": [
+    {
+      "question": "What is the atomic radius of Thallium?",
+      "options": [
+        {
+          "text": "145.0 pm",
+          "element": "Tantalum"
+        },
+        {
+          "text": "71.0 pm",
+          "element": "Argon"
+        },
+        {
+          "text": "115.0 pm",
+          "element": "Selenium"
+        },
+        {
+          "text": "190.0 pm",
+          "element": "Thallium"
+        }
+      ],
+      "correct": "190.0 pm"
+    },
+    {
+      "question": "What is the melting point of Thallium?",
+      "options": [
+        {
+          "text": "1529.0 \u00b0C",
+          "element": "Erbium"
+        },
+        {
+          "text": "3185.0 \u00b0C",
+          "element": "Rhenium"
+        },
+        {
+          "text": "1768.2 \u00b0C",
+          "element": "Platinum"
+        },
+        {
+          "text": "304.0 \u00b0C",
+          "element": "Thallium"
+        }
+      ],
+      "correct": "304.0 \u00b0C"
+    },
+    {
+      "question": "What is the boiling point of Thallium?",
+      "options": [
+        {
+          "text": "759.0 \u00b0C",
+          "element": "Potassium"
+        },
+        {
+          "text": "1473.0 \u00b0C",
+          "element": "Thallium"
+        },
+        {
+          "text": "4428.0 \u00b0C",
+          "element": "Iridium"
+        },
+        {
+          "text": "3407.0 \u00b0C",
+          "element": "Vanadium"
+        }
+      ],
+      "correct": "1473.0 \u00b0C"
+    }
+  ],
+  "Lead": [
+    {
+      "question": "What is the boiling point of Lead?",
+      "options": [
+        {
+          "text": "2700.0 \u00b0C",
+          "element": "Holmium"
+        },
+        {
+          "text": "1749.0 \u00b0C",
+          "element": "Lead"
+        },
+        {
+          "text": "2868.0 \u00b0C",
+          "element": "Erbium"
+        },
+        {
+          "text": "2027.0 \u00b0C",
+          "element": "Indium"
+        }
+      ],
+      "correct": "1749.0 \u00b0C"
+    },
+    {
+      "question": "What is the melting point of Lead?",
+      "options": [
+        {
+          "text": "650.0 \u00b0C",
+          "element": "Magnesium"
+        },
+        {
+          "text": "1670.0 \u00b0C",
+          "element": "Titanium"
+        },
+        {
+          "text": "-71.0 \u00b0C",
+          "element": "Radon"
+        },
+        {
+          "text": "327.5 \u00b0C",
+          "element": "Lead"
+        }
+      ],
+      "correct": "327.5 \u00b0C"
+    },
+    {
+      "question": "What is the crustal abundance of Lead?",
+      "options": [
+        {
+          "text": "25.0 mg/kg",
+          "element": "Cobalt"
+        },
+        {
+          "text": "370.0 mg/kg",
+          "element": "Strontium"
+        },
+        {
+          "text": "14.0 mg/kg",
+          "element": "Lead"
+        },
+        {
+          "text": "9.6 mg/kg",
+          "element": "Thorium"
+        }
+      ],
+      "correct": "14.0 mg/kg"
+    }
+  ],
+  "Bismuth": [
+    {
+      "question": "What is the density of Bismuth?",
+      "options": [
+        {
+          "text": "9.79 g/cm\u00b3",
+          "element": "Bismuth"
+        },
+        {
+          "text": "0.009074 g/cm\u00b3",
+          "element": "Radon"
+        },
+        {
+          "text": "0.0013080000000000001 g/cm\u00b3",
+          "element": "Oxygen"
+        },
+        {
+          "text": "5.24 g/cm\u00b3",
+          "element": "Europium"
+        }
+      ],
+      "correct": "9.79 g/cm\u00b3"
+    },
+    {
+      "question": "Who discovered Bismuth?",
+      "options": [
+        {
+          "text": "Known to the ancients.",
+          "element": "Bismuth"
+        },
+        {
+          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
+          "element": "Iridium"
+        },
+        {
+          "text": "Charles Hatchet",
+          "element": "Niobium"
+        },
+        {
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Flerovium"
+        }
+      ],
+      "correct": "Known to the ancients."
+    },
+    {
+      "question": "What is the boiling point of Bismuth?",
+      "options": [
+        {
+          "text": "1473.0 \u00b0C",
+          "element": "Thallium"
+        },
+        {
+          "text": "688.0 \u00b0C",
+          "element": "Rubidium"
+        },
+        {
+          "text": "1564.0 \u00b0C",
+          "element": "Bismuth"
+        },
+        {
+          "text": "2567.0 \u00b0C",
+          "element": "Dysprosium"
+        }
+      ],
+      "correct": "1564.0 \u00b0C"
+    }
+  ],
+  "Polonium": [
+    {
+      "question": "What is the crustal abundance of Polonium?",
+      "options": [
+        {
+          "text": "2e-10 mg/kg",
+          "element": "Polonium"
+        },
+        {
+          "text": "3.0 mg/kg",
+          "element": "Hafnium"
+        },
+        {
+          "text": "19.0 mg/kg",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "2.0 mg/kg",
+          "element": "Tantalum"
+        }
+      ],
+      "correct": "2e-10 mg/kg"
+    },
+    {
+      "question": "What is the boiling point of Polonium?",
+      "options": [
+        {
+          "text": "962.0 \u00b0C",
+          "element": "Polonium"
+        },
+        {
+          "text": "3345.0 \u00b0C",
+          "element": "Yttrium"
+        },
+        {
+          "text": "-188.1 \u00b0C",
+          "element": "Fluorine"
+        },
+        {
+          "text": "2027.0 \u00b0C",
+          "element": "Indium"
+        }
+      ],
+      "correct": "962.0 \u00b0C"
+    },
+    {
+      "question": "What is the density of Polonium?",
+      "options": [
+        {
+          "text": "0.0013080000000000001 g/cm\u00b3",
+          "element": "Oxygen"
+        },
+        {
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "9.2 g/cm\u00b3",
+          "element": "Polonium"
+        },
+        {
+          "text": "28.7 g/cm\u00b3",
+          "element": "Roentgenium"
+        }
+      ],
+      "correct": "9.2 g/cm\u00b3"
+    }
+  ],
+  "Astatine": [
+    {
+      "question": "What is the density of Astatine?",
+      "options": [
+        {
+          "text": "7.0 g/cm\u00b3",
+          "element": "Astatine"
+        },
+        {
+          "text": "8.57 g/cm\u00b3",
+          "element": "Niobium"
+        },
+        {
+          "text": "6.68 g/cm\u00b3",
+          "element": "Antimony"
+        },
+        {
+          "text": "14.78 g/cm\u00b3",
+          "element": "Berkelium"
+        }
+      ],
+      "correct": "7.0 g/cm\u00b3"
+    },
+    {
+      "question": "What is the melting point of Astatine?",
+      "options": [
+        {
+          "text": "302.0 \u00b0C",
+          "element": "Astatine"
+        },
+        {
+          "text": "1545.0 \u00b0C",
+          "element": "Thulium"
+        },
+        {
+          "text": "-7.2 \u00b0C",
+          "element": "Bromine"
+        },
+        {
+          "text": "1529.0 \u00b0C",
+          "element": "Erbium"
+        }
+      ],
+      "correct": "302.0 \u00b0C"
+    },
+    {
+      "question": "Who discovered Astatine?",
+      "options": [
+        {
+          "text": "Jean de Marignac",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory",
+          "element": "Tennessine"
+        },
+        {
+          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
+          "element": "Astatine"
+        },
+        {
+          "text": "Charles Hatchet",
+          "element": "Niobium"
+        }
+      ],
+      "correct": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9"
+    }
+  ],
+  "Radon": [
+    {
+      "question": "When was Radon first discovered?",
+      "options": [
+        {
+          "text": "1735",
+          "element": "Platinum"
+        },
+        {
+          "text": "1828",
+          "element": "Thorium"
+        },
+        {
+          "text": "1789",
+          "element": "Zirconium"
+        },
+        {
+          "text": "1898",
+          "element": "Radon"
+        }
+      ],
+      "correct": "1898"
+    },
+    {
+      "question": "What is the boiling point of Radon?",
+      "options": [
+        {
+          "text": "3695.0 \u00b0C",
+          "element": "Rhodium"
+        },
+        {
+          "text": "-252.9 \u00b0C",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "2027.0 \u00b0C",
+          "element": "Indium"
+        },
+        {
+          "text": "-61.7 \u00b0C",
+          "element": "Radon"
+        }
+      ],
+      "correct": "-61.7 \u00b0C"
+    },
+    {
+      "question": "What is the crustal abundance of Radon?",
+      "options": [
+        {
+          "text": "1050.0 mg/kg",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "4e-13 mg/kg",
+          "element": "Radon"
+        },
+        {
+          "text": "200.0 mg/kg",
+          "element": "Carbon"
+        },
+        {
+          "text": "2.4 mg/kg",
+          "element": "Bromine"
+        }
+      ],
+      "correct": "4e-13 mg/kg"
+    }
+  ],
+  "Francium": [
+    {
+      "question": "When was Francium first discovered?",
+      "options": [
+        {
+          "text": "1940",
+          "element": "Astatine"
+        },
+        {
+          "text": "1939",
+          "element": "Francium"
+        },
+        {
+          "text": "2015",
+          "element": "Nihonium"
+        },
+        {
+          "text": "1861",
+          "element": "Thallium"
+        }
+      ],
+      "correct": "1939"
+    },
+    {
+      "question": "What is the melting point of Francium?",
+      "options": [
+        {
+          "text": "113.7 \u00b0C",
+          "element": "Iodine"
+        },
+        {
+          "text": "29.8 \u00b0C",
+          "element": "Gallium"
+        },
+        {
+          "text": "21.0 \u00b0C",
+          "element": "Francium"
+        },
+        {
+          "text": "-259.2 \u00b0C",
+          "element": "Hydrogen"
+        }
+      ],
+      "correct": "21.0 \u00b0C"
+    },
+    {
+      "question": "Who discovered Francium?",
+      "options": [
+        {
+          "text": "RIKEN",
+          "element": "Nihonium"
+        },
+        {
+          "text": "Smithson Tenant",
+          "element": "Osmium"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Bohrium"
+        },
+        {
+          "text": "Marguerite Derey",
+          "element": "Francium"
+        }
+      ],
+      "correct": "Marguerite Derey"
+    }
+  ],
+  "Radium": [
+    {
+      "question": "Who discovered Radium?",
+      "options": [
+        {
+          "text": "Pierre and Marie Curie",
+          "element": "Radium"
+        },
+        {
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
+        },
+        {
+          "text": "Hans Christian Oersted",
+          "element": "Aluminum"
+        },
+        {
+          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
+          "element": "Plutonium"
+        }
+      ],
+      "correct": "Pierre and Marie Curie"
+    },
+    {
+      "question": "When was Radium first discovered?",
+      "options": [
+        {
+          "text": "1898",
+          "element": "Radium"
+        },
+        {
+          "text": "1976",
+          "element": "Bohrium"
+        },
+        {
+          "text": "1940",
+          "element": "Neptunium"
+        },
+        {
+          "text": "1982",
+          "element": "Meitnerium"
+        }
+      ],
+      "correct": "1898"
+    },
+    {
+      "question": "What is the melting point of Radium?",
+      "options": [
+        {
+          "text": "696.0 \u00b0C",
+          "element": "Radium"
+        },
+        {
+          "text": "824.0 \u00b0C",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "-210.0 \u00b0C",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "304.0 \u00b0C",
+          "element": "Thallium"
+        }
+      ],
+      "correct": "696.0 \u00b0C"
+    }
+  ],
+  "Actinium": [
+    {
+      "question": "What is the melting point of Actinium?",
+      "options": [
+        {
+          "text": "29.8 \u00b0C",
+          "element": "Gallium"
+        },
+        {
+          "text": "1412.0 \u00b0C",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "660.3 \u00b0C",
+          "element": "Aluminum"
+        },
+        {
+          "text": "1050.0 \u00b0C",
+          "element": "Actinium"
+        }
+      ],
+      "correct": "1050.0 \u00b0C"
+    },
+    {
+      "question": "When was Actinium first discovered?",
+      "options": [
+        {
+          "text": "1925",
+          "element": "Neodymium"
+        },
+        {
+          "text": "1843",
+          "element": "Terbium"
+        },
+        {
+          "text": "1899",
+          "element": "Actinium"
+        },
+        {
+          "text": "1895",
+          "element": "Helium"
+        }
+      ],
+      "correct": "1899"
+    },
+    {
+      "question": "What is the crustal abundance of Actinium?",
+      "options": [
+        {
+          "text": "20900.0 mg/kg",
+          "element": "Potassium"
+        },
+        {
+          "text": "84.0 mg/kg",
+          "element": "Nickel"
+        },
+        {
+          "text": "5.5e-10 mg/kg",
+          "element": "Actinium"
+        },
+        {
+          "text": "0.001 mg/kg",
+          "element": "Ruthenium"
+        }
+      ],
+      "correct": "5.5e-10 mg/kg"
+    }
+  ],
+  "Thorium": [
+    {
+      "question": "What is the atomic radius of Thorium?",
+      "options": [
+        {
+          "text": "180.0 pm",
+          "element": "Thorium"
+        },
+        {
+          "text": "155.0 pm",
+          "element": "Hafnium"
+        },
+        {
+          "text": "145.0 pm",
+          "element": "Lithium"
+        },
+        {
+          "text": "185.0 pm",
+          "element": "Neodymium"
+        }
+      ],
+      "correct": "180.0 pm"
+    },
+    {
+      "question": "What is the boiling point of Thorium?",
+      "options": [
+        {
+          "text": "4785.0 \u00b0C",
+          "element": "Thorium"
+        },
+        {
+          "text": "5008.0 \u00b0C",
+          "element": "Osmium"
+        },
+        {
+          "text": "356.6 \u00b0C",
+          "element": "Mercury"
+        },
+        {
+          "text": "962.0 \u00b0C",
+          "element": "Polonium"
+        }
+      ],
+      "correct": "4785.0 \u00b0C"
+    },
+    {
+      "question": "Who discovered Thorium?",
+      "options": [
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Thorium"
+        },
+        {
+          "text": "C.F. Aver von Welsbach",
+          "element": "Neodymium"
+        },
+        {
+          "text": "Jean de Marignac",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "GSI Helmholtz Centre for Heavy Ion Research",
+          "element": "Copernicium"
+        }
+      ],
+      "correct": "J\u00f6ns Berzelius"
+    }
+  ],
+  "Protactinium": [
+    {
+      "question": "What is the melting point of Protactinium?",
+      "options": [
+        {
+          "text": "-38.8 \u00b0C",
+          "element": "Mercury"
+        },
+        {
+          "text": "3185.0 \u00b0C",
+          "element": "Rhenium"
+        },
+        {
+          "text": "1572.0 \u00b0C",
+          "element": "Protactinium"
+        },
+        {
+          "text": "29.8 \u00b0C",
+          "element": "Gallium"
+        }
+      ],
+      "correct": "1572.0 \u00b0C"
+    },
+    {
+      "question": "What is the density of Protactinium?",
+      "options": [
+        {
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "6.9 g/cm\u00b3",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "15.4 g/cm\u00b3",
+          "element": "Protactinium"
+        },
+        {
+          "text": "9.79 g/cm\u00b3",
+          "element": "Bismuth"
+        }
+      ],
+      "correct": "15.4 g/cm\u00b3"
+    },
+    {
+      "question": "What is the atomic radius of Protactinium?",
+      "options": [
+        {
+          "text": "100.0 pm",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "180.0 pm",
+          "element": "Protactinium"
+        },
+        {
+          "text": "25.0 pm",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "140.0 pm",
+          "element": "Manganese"
+        }
+      ],
+      "correct": "180.0 pm"
+    }
+  ],
+  "Uranium": [
+    {
+      "question": "What is the boiling point of Uranium?",
+      "options": [
+        {
+          "text": "2586.0 \u00b0C",
+          "element": "Tin"
+        },
+        {
+          "text": "356.6 \u00b0C",
+          "element": "Mercury"
+        },
+        {
+          "text": "3273.0 \u00b0C",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "4131.0 \u00b0C",
+          "element": "Uranium"
+        }
+      ],
+      "correct": "4131.0 \u00b0C"
+    },
+    {
+      "question": "What is the melting point of Uranium?",
+      "options": [
+        {
+          "text": "97.8 \u00b0C",
+          "element": "Sodium"
+        },
+        {
+          "text": "1135.0 \u00b0C",
+          "element": "Uranium"
+        },
+        {
+          "text": "254.0 \u00b0C",
+          "element": "Polonium"
+        },
+        {
+          "text": "3185.0 \u00b0C",
+          "element": "Rhenium"
+        }
+      ],
+      "correct": "1135.0 \u00b0C"
+    },
+    {
+      "question": "When was Uranium first discovered?",
+      "options": [
+        {
+          "text": "1804",
+          "element": "Osmium"
+        },
+        {
+          "text": "1789",
+          "element": "Uranium"
+        },
+        {
+          "text": "1830",
+          "element": "Vanadium"
+        },
+        {
+          "text": "1901",
+          "element": "Europium"
+        }
+      ],
+      "correct": "1789"
+    }
+  ],
+  "Neptunium": [
+    {
+      "question": "What is the atomic radius of Neptunium?",
+      "options": [
+        {
+          "text": "130.0 pm",
+          "element": "Gallium"
+        },
+        {
+          "text": "215.0 pm",
+          "element": "Radium"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Zinc"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Neptunium"
+        }
+      ],
+      "correct": "175.0 pm"
+    },
+    {
+      "question": "When was Neptunium first discovered?",
+      "options": [
+        {
+          "text": "1844",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "1940",
+          "element": "Neptunium"
+        },
+        {
+          "text": "1895",
+          "element": "Helium"
+        },
+        {
+          "text": "1886",
+          "element": "Germanium"
+        }
+      ],
+      "correct": "1940"
+    },
+    {
+      "question": "What is the melting point of Neptunium?",
+      "options": [
+        {
+          "text": "961.8 \u00b0C",
+          "element": "Silver"
+        },
+        {
+          "text": "644.0 \u00b0C",
+          "element": "Neptunium"
+        },
+        {
+          "text": "1522.0 \u00b0C",
+          "element": "Yttrium"
+        },
+        {
+          "text": "1854.0 \u00b0C",
+          "element": "Zirconium"
+        }
+      ],
+      "correct": "644.0 \u00b0C"
+    }
+  ],
+  "Plutonium": [
+    {
+      "question": "Who discovered Plutonium?",
+      "options": [
+        {
+          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
+          "element": "Seaborgium"
+        },
+        {
+          "text": "Georges Urbain",
+          "element": "Lutetium"
+        },
+        {
+          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
+          "element": "Plutonium"
+        },
+        {
+          "text": "Joseph Priestly, Carl Wilhelm Scheele",
+          "element": "Oxygen"
+        }
+      ],
+      "correct": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
+    },
+    {
+      "question": "What is the boiling point of Plutonium?",
+      "options": [
+        {
+          "text": "3074.0 \u00b0C",
+          "element": "Neodymium"
+        },
+        {
+          "text": "962.0 \u00b0C",
+          "element": "Polonium"
+        },
+        {
+          "text": "3228.0 \u00b0C",
+          "element": "Plutonium"
+        },
+        {
+          "text": "1950.0 \u00b0C",
+          "element": "Thulium"
+        }
+      ],
+      "correct": "3228.0 \u00b0C"
+    },
+    {
+      "question": "What is the atomic radius of Plutonium?",
+      "options": [
+        {
+          "text": "140.0 pm",
+          "element": "Palladium"
+        },
+        {
+          "text": "135.0 pm",
+          "element": "Iridium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Plutonium"
+        },
+        {
+          "text": "60.0 pm",
+          "element": "Oxygen"
+        }
+      ],
+      "correct": "175.0 pm"
+    }
+  ],
+  "Americium": [
+    {
+      "question": "Who discovered Americium?",
+      "options": [
+        {
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
+        },
+        {
+          "text": "William Gregor",
+          "element": "Titanium"
+        },
+        {
+          "text": "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso",
+          "element": "Americium"
+        },
+        {
+          "text": "Carl Mosander",
+          "element": "Terbium"
+        }
+      ],
+      "correct": "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso"
+    },
+    {
+      "question": "What is the atomic radius of Americium?",
+      "options": [
+        {
+          "text": "180.0 pm",
+          "element": "Calcium"
+        },
+        {
+          "text": "125.0 pm",
+          "element": "Germanium"
+        },
+        {
+          "text": "175.0 pm",
+          "element": "Americium"
+        },
+        {
+          "text": "100.0 pm",
+          "element": "Chlorine"
+        }
+      ],
+      "correct": "175.0 pm"
+    },
+    {
+      "question": "What is the melting point of Americium?",
+      "options": [
+        {
+          "text": "-71.0 \u00b0C",
+          "element": "Radon"
+        },
+        {
+          "text": "-259.2 \u00b0C",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "29.8 \u00b0C",
+          "element": "Gallium"
+        },
+        {
+          "text": "1176.0 \u00b0C",
+          "element": "Americium"
+        }
+      ],
+      "correct": "1176.0 \u00b0C"
+    }
+  ],
+  "Curium": [
+    {
+      "question": "Who discovered Curium?",
+      "options": [
+        {
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Californium"
+        },
+        {
+          "text": "G.T.Seaborg, R.A.James, A.Ghiorso",
+          "element": "Curium"
+        },
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Silicon"
+        },
+        {
+          "text": "Ferdinand Reich, T. Richter",
+          "element": "Indium"
+        }
+      ],
+      "correct": "G.T.Seaborg, R.A.James, A.Ghiorso"
+    },
+    {
+      "question": "What is the melting point of Curium?",
+      "options": [
+        {
+          "text": "1455.0 \u00b0C",
+          "element": "Nickel"
+        },
+        {
+          "text": "3185.0 \u00b0C",
+          "element": "Rhenium"
+        },
+        {
+          "text": "1345.0 \u00b0C",
+          "element": "Curium"
+        },
+        {
+          "text": "842.0 \u00b0C",
+          "element": "Calcium"
+        }
+      ],
+      "correct": "1345.0 \u00b0C"
+    },
+    {
+      "question": "When was Curium first discovered?",
+      "options": [
+        {
+          "text": "1791",
+          "element": "Titanium"
+        },
+        {
+          "text": "1825",
+          "element": "Aluminum"
+        },
+        {
+          "text": "1944",
+          "element": "Curium"
+        },
+        {
+          "text": "1994",
+          "element": "Darmstadtium"
+        }
+      ],
+      "correct": "1944"
+    }
+  ],
+  "Berkelium": [
+    {
+      "question": "Who discovered Berkelium?",
+      "options": [
+        {
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Samarium"
+        },
+        {
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
+        },
+        {
+          "text": "Lars Nilson",
+          "element": "Scandium"
+        },
+        {
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso",
+          "element": "Berkelium"
+        }
+      ],
+      "correct": "G.T.Seaborg, S.G.Tompson, A.Ghiorso"
+    },
+    {
+      "question": "What is the melting point of Berkelium?",
+      "options": [
+        {
+          "text": "1072.0 \u00b0C",
+          "element": "Samarium"
+        },
+        {
+          "text": "180.5 \u00b0C",
+          "element": "Lithium"
+        },
+        {
+          "text": "660.3 \u00b0C",
+          "element": "Aluminum"
+        },
+        {
+          "text": "986.0 \u00b0C",
+          "element": "Berkelium"
+        }
+      ],
+      "correct": "986.0 \u00b0C"
+    },
+    {
+      "question": "What is the density of Berkelium?",
+      "options": [
+        {
+          "text": "9.7 g/cm\u00b3",
+          "element": "Fermium"
+        },
+        {
+          "text": "6.15 g/cm\u00b3",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "14.78 g/cm\u00b3",
+          "element": "Berkelium"
+        },
+        {
+          "text": "2.3296 g/cm\u00b3",
+          "element": "Silicon"
+        }
+      ],
+      "correct": "14.78 g/cm\u00b3"
+    }
+  ],
+  "Californium": [
+    {
+      "question": "When was Californium first discovered?",
+      "options": [
+        {
+          "text": "1808",
+          "element": "Barium"
+        },
+        {
+          "text": "1950",
+          "element": "Californium"
+        },
+        {
+          "text": "2010",
+          "element": "Tennessine"
+        },
+        {
+          "text": "1944",
+          "element": "Curium"
+        }
+      ],
+      "correct": "1950"
+    },
+    {
+      "question": "What is the density of Californium?",
+      "options": [
+        {
+          "text": "15.1 g/cm\u00b3",
+          "element": "Californium"
+        },
+        {
+          "text": "9.928 g/cm\u00b3",
+          "element": "Flerovium"
+        },
+        {
+          "text": "10.3 g/cm\u00b3",
+          "element": "Mendelevium"
+        },
+        {
+          "text": "12.1 g/cm\u00b3",
+          "element": "Ruthenium"
+        }
+      ],
+      "correct": "15.1 g/cm\u00b3"
+    },
+    {
+      "question": "What is the melting point of Californium?",
+      "options": [
+        {
+          "text": "21.0 \u00b0C",
+          "element": "Francium"
+        },
+        {
+          "text": "2333.0 \u00b0C",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "304.0 \u00b0C",
+          "element": "Thallium"
+        },
+        {
+          "text": "900.0 \u00b0C",
+          "element": "Californium"
+        }
+      ],
+      "correct": "900.0 \u00b0C"
+    }
+  ],
+  "Einsteinium": [
+    {
+      "question": "What is the density of Einsteinium?",
+      "options": [
+        {
+          "text": "6.773 g/cm\u00b3",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "8.84 g/cm\u00b3",
+          "element": "Einsteinium"
+        },
+        {
+          "text": "0.89 g/cm\u00b3",
+          "element": "Potassium"
+        },
+        {
+          "text": "3.62 g/cm\u00b3",
+          "element": "Barium"
+        }
+      ],
+      "correct": "8.84 g/cm\u00b3"
+    },
+    {
+      "question": "What is the melting point of Einsteinium?",
+      "options": [
+        {
+          "text": "1529.0 \u00b0C",
+          "element": "Erbium"
+        },
+        {
+          "text": "860.0 \u00b0C",
+          "element": "Einsteinium"
+        },
+        {
+          "text": "2233.0 \u00b0C",
+          "element": "Hafnium"
+        },
+        {
+          "text": "842.0 \u00b0C",
+          "element": "Calcium"
+        }
+      ],
+      "correct": "860.0 \u00b0C"
+    },
+    {
+      "question": "Who discovered Einsteinium?",
+      "options": [
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Calcium"
+        },
+        {
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Einsteinium"
+        },
+        {
+          "text": "Carl Mosander",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "William Wollaston",
+          "element": "Palladium"
+        }
+      ],
+      "correct": "Argonne, Los Alamos, U of Calif"
+    }
+  ],
+  "Fermium": [
+    {
+      "question": "What is the melting point of Fermium?",
+      "options": [
+        {
+          "text": "900.0 \u00b0C",
+          "element": "Californium"
+        },
+        {
+          "text": "2077.0 \u00b0C",
+          "element": "Boron"
+        },
+        {
+          "text": "180.5 \u00b0C",
+          "element": "Lithium"
+        },
+        {
+          "text": "1527.0 \u00b0C",
+          "element": "Fermium"
+        }
+      ],
+      "correct": "1527.0 \u00b0C"
+    },
+    {
+      "question": "Who discovered Fermium?",
+      "options": [
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Silicon"
+        },
+        {
+          "text": "Jean de Marignac",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "Carl Mosander",
+          "element": "Terbium"
+        },
+        {
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Fermium"
+        }
+      ],
+      "correct": "Argonne, Los Alamos, U of Calif"
+    },
+    {
+      "question": "When was Fermium first discovered?",
+      "options": [
+        {
+          "text": "2015",
+          "element": "Nihonium"
+        },
+        {
+          "text": "1953",
+          "element": "Fermium"
+        },
+        {
+          "text": "1950",
+          "element": "Californium"
+        },
+        {
+          "text": "2010",
+          "element": "Tennessine"
+        }
+      ],
+      "correct": "1953"
+    }
+  ],
+  "Mendelevium": [
+    {
+      "question": "What is the melting point of Mendelevium?",
+      "options": [
+        {
+          "text": "931.0 \u00b0C",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "827.0 \u00b0C",
+          "element": "Mendelevium"
+        },
+        {
+          "text": "63.5 \u00b0C",
+          "element": "Potassium"
+        },
+        {
+          "text": "-157.4 \u00b0C",
+          "element": "Krypton"
+        }
+      ],
+      "correct": "827.0 \u00b0C"
+    },
+    {
+      "question": "What is the density of Mendelevium?",
+      "options": [
+        {
+          "text": "21.5 g/cm\u00b3",
+          "element": "Platinum"
+        },
+        {
+          "text": "10.3 g/cm\u00b3",
+          "element": "Mendelevium"
+        },
+        {
+          "text": "0.000825 g/cm\u00b3",
+          "element": "Neon"
+        },
+        {
+          "text": "9.7 g/cm\u00b3",
+          "element": "Fermium"
+        }
+      ],
+      "correct": "10.3 g/cm\u00b3"
+    },
+    {
+      "question": "Who discovered Mendelevium?",
+      "options": [
+        {
+          "text": "Carl Wilhelm Scheele",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "Fredrich W\u00f6hler, A.A.Bussy",
+          "element": "Beryllium"
+        },
+        {
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Mendelevium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Iron"
+        }
+      ],
+      "correct": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr."
+    }
+  ],
+  "Nobelium": [
+    {
+      "question": "When was Nobelium first discovered?",
+      "options": [
+        {
+          "text": "1804",
+          "element": "Iridium"
+        },
+        {
+          "text": "1830",
+          "element": "Vanadium"
+        },
+        {
+          "text": "1957",
+          "element": "Nobelium"
+        },
+        {
+          "text": "1808",
+          "element": "Calcium"
+        }
+      ],
+      "correct": "1957"
+    },
+    {
+      "question": "What is the melting point of Nobelium?",
+      "options": [
+        {
+          "text": "827.0 \u00b0C",
+          "element": "Nobelium"
+        },
+        {
+          "text": "39.3 \u00b0C",
+          "element": "Rubidium"
+        },
+        {
+          "text": "1412.0 \u00b0C",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "1963.0 \u00b0C",
+          "element": "Rhodium"
+        }
+      ],
+      "correct": "827.0 \u00b0C"
+    },
+    {
+      "question": "Who discovered Nobelium?",
+      "options": [
+        {
+          "text": "Lars Nilson",
+          "element": "Scandium"
+        },
+        {
+          "text": "Charles Hatchet",
+          "element": "Niobium"
+        },
+        {
+          "text": "Nobel Institute for Physics",
+          "element": "Nobelium"
+        },
+        {
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso",
+          "element": "Berkelium"
+        }
+      ],
+      "correct": "Nobel Institute for Physics"
+    }
+  ],
+  "Lawrencium": [
+    {
+      "question": "Who discovered Lawrencium?",
+      "options": [
+        {
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
+        },
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Selenium"
+        },
+        {
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "Martin Klaproth",
+          "element": "Zirconium"
+        }
+      ],
+      "correct": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer"
+    },
+    {
+      "question": "When was Lawrencium first discovered?",
+      "options": [
+        {
+          "text": "1994",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "1825",
+          "element": "Aluminum"
+        },
+        {
+          "text": "1961",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "1789",
+          "element": "Uranium"
+        }
+      ],
+      "correct": "1961"
+    },
+    {
+      "question": "What is the density of Lawrencium?",
+      "options": [
+        {
+          "text": "37.4 g/cm\u00b3",
+          "element": "Meitnerium"
+        },
+        {
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "13.5 g/cm\u00b3",
+          "element": "Moscovium"
+        },
+        {
+          "text": "8.96 g/cm\u00b3",
+          "element": "Copper"
+        }
+      ],
+      "correct": "15.6 g/cm\u00b3"
+    }
+  ],
+  "Rutherfordium": [
+    {
+      "question": "What is the density of Rutherfordium?",
+      "options": [
+        {
+          "text": "1.823 g/cm\u00b3",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "12.9 g/cm\u00b3",
+          "element": "Livermorium"
+        },
+        {
+          "text": "0.001633 g/cm\u00b3",
+          "element": "Argon"
+        },
+        {
+          "text": "23.3 g/cm\u00b3",
+          "element": "Rutherfordium"
+        }
+      ],
+      "correct": "23.3 g/cm\u00b3"
+    },
+    {
+      "question": "Who discovered Rutherfordium?",
+      "options": [
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Potassium"
+        },
+        {
+          "text": "R. Bunsen, G. Kirchoff",
+          "element": "Rubidium"
+        },
+        {
+          "text": "A. Ghiorso, et al",
+          "element": "Rutherfordium"
+        },
+        {
+          "text": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell",
+          "element": "Promethium"
+        }
+      ],
+      "correct": "A. Ghiorso, et al"
+    },
+    {
+      "question": "When was Rutherfordium first discovered?",
+      "options": [
+        {
+          "text": "2000",
+          "element": "Livermorium"
+        },
+        {
+          "text": "1994",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "1863",
+          "element": "Indium"
+        },
+        {
+          "text": "1969",
+          "element": "Rutherfordium"
+        }
+      ],
+      "correct": "1969"
+    }
+  ],
+  "Dubnium": [
+    {
+      "question": "When was Dubnium first discovered?",
+      "options": [
+        {
+          "text": "1925",
+          "element": "Rhenium"
+        },
+        {
+          "text": "1811",
+          "element": "Iodine"
+        },
+        {
+          "text": "1970",
+          "element": "Dubnium"
+        },
+        {
+          "text": "1898",
+          "element": "Polonium"
+        }
+      ],
+      "correct": "1970"
+    },
+    {
+      "question": "What is the density of Dubnium?",
+      "options": [
+        {
+          "text": "29.3 g/cm\u00b3",
+          "element": "Dubnium"
+        },
+        {
+          "text": "0.89 g/cm\u00b3",
+          "element": "Potassium"
+        },
+        {
+          "text": "2.99 g/cm\u00b3",
+          "element": "Scandium"
+        },
+        {
+          "text": "2.7 g/cm\u00b3",
+          "element": "Aluminum"
+        }
+      ],
+      "correct": "29.3 g/cm\u00b3"
+    },
+    {
+      "question": "Who discovered Dubnium?",
+      "options": [
+        {
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
+        },
+        {
+          "text": "Carl Mosander",
+          "element": "Terbium"
+        },
+        {
+          "text": "Sir William Ramsay; M. W. Travers",
+          "element": "Xenon"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Iron"
+        }
+      ],
+      "correct": "A. Ghiorso, et al"
+    }
+  ],
+  "Seaborgium": [
+    {
+      "question": "What is the density of Seaborgium?",
+      "options": [
+        {
+          "text": "4.506 g/cm\u00b3",
+          "element": "Titanium"
+        },
+        {
+          "text": "34.8 g/cm\u00b3",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "35.0 g/cm\u00b3",
+          "element": "Seaborgium"
+        },
+        {
+          "text": "7.31 g/cm\u00b3",
+          "element": "Indium"
+        }
+      ],
+      "correct": "35.0 g/cm\u00b3"
+    },
+    {
+      "question": "When was Seaborgium first discovered?",
+      "options": [
+        {
+          "text": "1974",
+          "element": "Seaborgium"
+        },
+        {
+          "text": "1804",
+          "element": "Osmium"
+        },
+        {
+          "text": "1994",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "1907",
+          "element": "Lutetium"
+        }
+      ],
+      "correct": "1974"
+    },
+    {
+      "question": "Who discovered Seaborgium?",
+      "options": [
+        {
+          "text": "R. Bunsen, G. Kirchoff",
+          "element": "Rubidium"
+        },
+        {
+          "text": "Known to the ancients",
+          "element": "Carbon"
+        },
+        {
+          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
+          "element": "Seaborgium"
+        },
+        {
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso",
+          "element": "Berkelium"
+        }
+      ],
+      "correct": "Soviet Nuclear Research/ U. of Cal at Berkeley"
+    }
+  ],
+  "Bohrium": [
+    {
+      "question": "What is the density of Bohrium?",
+      "options": [
+        {
+          "text": "37.1 g/cm\u00b3",
+          "element": "Bohrium"
+        },
+        {
+          "text": "10.0 g/cm\u00b3",
+          "element": "Actinium"
+        },
+        {
+          "text": "7.52 g/cm\u00b3",
+          "element": "Samarium"
+        },
+        {
+          "text": "12.0 g/cm\u00b3",
+          "element": "Palladium"
+        }
+      ],
+      "correct": "37.1 g/cm\u00b3"
+    },
+    {
+      "question": "Who discovered Bohrium?",
+      "options": [
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Thorium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Tin"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Bohrium"
+        },
+        {
+          "text": "Henry Cavendish",
+          "element": "Hydrogen"
+        }
+      ],
+      "correct": "Heavy Ion Research Laboratory (HIRL)"
+    },
+    {
+      "question": "When was Bohrium first discovered?",
+      "options": [
+        {
+          "text": "1878",
+          "element": "Holmium"
+        },
+        {
+          "text": "1976",
+          "element": "Bohrium"
+        },
+        {
+          "text": "2015",
+          "element": "Nihonium"
+        },
+        {
+          "text": "1925",
+          "element": "Rhenium"
+        }
+      ],
+      "correct": "1976"
+    }
+  ],
+  "Hassium": [
+    {
+      "question": "Who discovered Hassium?",
+      "options": [
+        {
+          "text": "Smithson Tenant",
+          "element": "Osmium"
+        },
+        {
+          "text": "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso",
+          "element": "Americium"
+        },
+        {
+          "text": "C.F. Aver von Welsbach",
+          "element": "Neodymium"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Hassium"
+        }
+      ],
+      "correct": "Heavy Ion Research Laboratory (HIRL)"
+    },
+    {
+      "question": "When was Hassium first discovered?",
+      "options": [
+        {
+          "text": "1843",
+          "element": "Erbium"
+        },
+        {
+          "text": "1844",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "1886",
+          "element": "Germanium"
+        },
+        {
+          "text": "1984",
+          "element": "Hassium"
+        }
+      ],
+      "correct": "1984"
+    },
+    {
+      "question": "What is the density of Hassium?",
+      "options": [
+        {
+          "text": "40.7 g/cm\u00b3",
+          "element": "Hassium"
+        },
+        {
+          "text": "5.91 g/cm\u00b3",
+          "element": "Gallium"
+        },
+        {
+          "text": "12.1 g/cm\u00b3",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "20.8 g/cm\u00b3",
+          "element": "Rhenium"
+        }
+      ],
+      "correct": "40.7 g/cm\u00b3"
+    }
+  ],
+  "Meitnerium": [
+    {
+      "question": "What is the density of Meitnerium?",
+      "options": [
+        {
+          "text": "1.87 g/cm\u00b3",
+          "element": "Francium"
+        },
+        {
+          "text": "20.2 g/cm\u00b3",
+          "element": "Neptunium"
+        },
+        {
+          "text": "10.2 g/cm\u00b3",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "37.4 g/cm\u00b3",
+          "element": "Meitnerium"
+        }
+      ],
+      "correct": "37.4 g/cm\u00b3"
+    },
+    {
+      "question": "When was Meitnerium first discovered?",
+      "options": [
+        {
+          "text": "1949",
+          "element": "Berkelium"
+        },
+        {
+          "text": "1861",
+          "element": "Thallium"
+        },
+        {
+          "text": "1808",
+          "element": "Boron"
+        },
+        {
+          "text": "1982",
+          "element": "Meitnerium"
+        }
+      ],
+      "correct": "1982"
+    },
+    {
+      "question": "Who discovered Meitnerium?",
+      "options": [
+        {
+          "text": "Johann Gahn",
+          "element": "Manganese"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Zinc"
+        },
+        {
+          "text": "Franz M\u00fcller von Reichenstein",
+          "element": "Tellurium"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Meitnerium"
+        }
+      ],
+      "correct": "Heavy Ion Research Laboratory (HIRL)"
+    }
+  ],
+  "Darmstadtium": [
+    {
+      "question": "What is the density of Darmstadtium?",
+      "options": [
+        {
+          "text": "0.0013080000000000001 g/cm\u00b3",
+          "element": "Oxygen"
+        },
+        {
+          "text": "12.0 g/cm\u00b3",
+          "element": "Palladium"
+        },
+        {
+          "text": "7.31 g/cm\u00b3",
+          "element": "Indium"
+        },
+        {
+          "text": "34.8 g/cm\u00b3",
+          "element": "Darmstadtium"
+        }
+      ],
+      "correct": "34.8 g/cm\u00b3"
+    },
+    {
+      "question": "When was Darmstadtium first discovered?",
+      "options": [
+        {
+          "text": "1994",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "1735",
+          "element": "Platinum"
+        },
+        {
+          "text": "1801",
+          "element": "Niobium"
+        },
+        {
+          "text": "1895",
+          "element": "Helium"
+        }
+      ],
+      "correct": "1994"
+    },
+    {
+      "question": "Who discovered Darmstadtium?",
+      "options": [
+        {
+          "text": "Fredrich Stromeyer",
+          "element": "Cadmium"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "Martin Klaproth",
+          "element": "Zirconium"
+        },
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Selenium"
+        }
+      ],
+      "correct": "Heavy Ion Research Laboratory (HIRL)"
+    }
+  ],
+  "Roentgenium": [
+    {
+      "question": "Who discovered Roentgenium?",
+      "options": [
+        {
+          "text": "A. Ghiorso, et al",
+          "element": "Rutherfordium"
+        },
+        {
+          "text": "George Brandt",
+          "element": "Cobalt"
+        },
+        {
+          "text": "Known to the ancients",
+          "element": "Carbon"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Roentgenium"
+        }
+      ],
+      "correct": "Heavy Ion Research Laboratory (HIRL)"
+    },
+    {
+      "question": "What is the density of Roentgenium?",
+      "options": [
+        {
+          "text": "28.7 g/cm\u00b3",
+          "element": "Roentgenium"
+        },
+        {
+          "text": "7.01 g/cm\u00b3",
+          "element": "Neodymium"
+        },
+        {
+          "text": "7.87 g/cm\u00b3",
+          "element": "Iron"
+        },
+        {
+          "text": "6.77 g/cm\u00b3",
+          "element": "Cerium"
+        }
+      ],
+      "correct": "28.7 g/cm\u00b3"
+    },
+    {
+      "question": "When was Roentgenium first discovered?",
+      "options": [
+        {
+          "text": "1828",
+          "element": "Thorium"
+        },
+        {
+          "text": "1774",
+          "element": "Oxygen"
+        },
+        {
+          "text": "1994",
+          "element": "Roentgenium"
+        },
+        {
+          "text": "1863",
+          "element": "Indium"
+        }
+      ],
+      "correct": "1994"
+    }
+  ],
+  "Copernicium": [
+    {
+      "question": "When was Copernicium first discovered?",
+      "options": [
+        {
+          "text": "1996",
+          "element": "Copernicium"
+        },
+        {
+          "text": "1778",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "1984",
+          "element": "Hassium"
+        },
+        {
+          "text": "1961",
+          "element": "Lawrencium"
+        }
+      ],
+      "correct": "1996"
+    },
+    {
+      "question": "What is the density of Copernicium?",
+      "options": [
+        {
+          "text": "8.23 g/cm\u00b3",
+          "element": "Terbium"
+        },
+        {
+          "text": "7.287 g/cm\u00b3",
+          "element": "Tin"
+        },
+        {
+          "text": "8.8 g/cm\u00b3",
+          "element": "Holmium"
+        },
+        {
+          "text": "14.0 g/cm\u00b3",
+          "element": "Copernicium"
+        }
+      ],
+      "correct": "14.0 g/cm\u00b3"
+    },
+    {
+      "question": "Who discovered Copernicium?",
+      "options": [
+        {
+          "text": "Sir William Crookes",
+          "element": "Thallium"
+        },
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Potassium"
+        },
+        {
+          "text": "GSI Helmholtz Centre for Heavy Ion Research",
+          "element": "Copernicium"
+        },
+        {
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
+        }
+      ],
+      "correct": "GSI Helmholtz Centre for Heavy Ion Research"
+    }
+  ],
+  "Nihonium": [
+    {
+      "question": "When was Nihonium first discovered?",
+      "options": [
+        {
+          "text": "1895",
+          "element": "Helium"
+        },
+        {
+          "text": "1818",
+          "element": "Selenium"
+        },
+        {
+          "text": "2015",
+          "element": "Nihonium"
+        },
+        {
+          "text": "1974",
+          "element": "Seaborgium"
+        }
+      ],
+      "correct": "2015"
+    },
+    {
+      "question": "Who discovered Nihonium?",
+      "options": [
+        {
+          "text": "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso",
+          "element": "Americium"
+        },
+        {
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Moscovium"
+        },
+        {
+          "text": "E.M. McMillan, P.H. Abelson",
+          "element": "Neptunium"
+        },
+        {
+          "text": "RIKEN",
+          "element": "Nihonium"
+        }
+      ],
+      "correct": "RIKEN"
+    },
+    {
+      "question": "What is the density of Nihonium?",
+      "options": [
+        {
+          "text": "19.3 g/cm\u00b3",
+          "element": "Tungsten"
+        },
+        {
+          "text": "28.7 g/cm\u00b3",
+          "element": "Roentgenium"
+        },
+        {
+          "text": "19.7 g/cm\u00b3",
+          "element": "Plutonium"
+        },
+        {
+          "text": "16.0 g/cm\u00b3",
+          "element": "Nihonium"
+        }
+      ],
+      "correct": "16.0 g/cm\u00b3"
+    }
+  ],
+  "Flerovium": [
+    {
+      "question": "What is the density of Flerovium?",
+      "options": [
+        {
+          "text": "5.0 g/cm\u00b3",
+          "element": "Radium"
+        },
+        {
+          "text": "6.232 g/cm\u00b3",
+          "element": "Tellurium"
+        },
+        {
+          "text": "9.928 g/cm\u00b3",
+          "element": "Flerovium"
+        },
+        {
+          "text": "7.9 g/cm\u00b3",
+          "element": "Gadolinium"
+        }
+      ],
+      "correct": "9.928 g/cm\u00b3"
+    },
+    {
+      "question": "Who discovered Flerovium?",
+      "options": [
+        {
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Flerovium"
+        },
+        {
+          "text": "Martin Klaproth",
+          "element": "Zirconium"
+        },
+        {
+          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
+          "element": "Helium"
+        },
+        {
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
+        }
+      ],
+      "correct": "Joint Institute for Nuclear Research"
+    },
+    {
+      "question": "When was Flerovium first discovered?",
+      "options": [
+        {
+          "text": "1802",
+          "element": "Tantalum"
+        },
+        {
+          "text": "1940",
+          "element": "Astatine"
+        },
+        {
+          "text": "1998",
+          "element": "Flerovium"
+        },
+        {
+          "text": "1774",
+          "element": "Oxygen"
+        }
+      ],
+      "correct": "1998"
+    }
+  ],
+  "Moscovium": [
+    {
+      "question": "When was Moscovium first discovered?",
+      "options": [
+        {
+          "text": "1801",
+          "element": "Niobium"
+        },
+        {
+          "text": "2003",
+          "element": "Moscovium"
+        },
+        {
+          "text": "1818",
+          "element": "Selenium"
+        },
+        {
+          "text": "1863",
+          "element": "Indium"
+        }
+      ],
+      "correct": "2003"
+    },
+    {
+      "question": "What is the density of Moscovium?",
+      "options": [
+        {
+          "text": "0.001145 g/cm\u00b3",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "13.5 g/cm\u00b3",
+          "element": "Moscovium"
+        },
+        {
+          "text": "0.001633 g/cm\u00b3",
+          "element": "Argon"
+        },
+        {
+          "text": "13.3 g/cm\u00b3",
+          "element": "Hafnium"
+        }
+      ],
+      "correct": "13.5 g/cm\u00b3"
+    },
+    {
+      "question": "Who discovered Moscovium?",
+      "options": [
+        {
+          "text": "William Wollaston",
+          "element": "Palladium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Silver"
+        },
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Silicon"
+        },
+        {
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Moscovium"
+        }
+      ],
+      "correct": "Joint Institute for Nuclear Research"
+    }
+  ],
+  "Livermorium": [
+    {
+      "question": "What is the density of Livermorium?",
+      "options": [
+        {
+          "text": "9.928 g/cm\u00b3",
+          "element": "Flerovium"
+        },
+        {
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "6.0 g/cm\u00b3",
+          "element": "Vanadium"
+        },
+        {
+          "text": "12.9 g/cm\u00b3",
+          "element": "Livermorium"
+        }
+      ],
+      "correct": "12.9 g/cm\u00b3"
+    },
+    {
+      "question": "When was Livermorium first discovered?",
+      "options": [
+        {
+          "text": "1898",
+          "element": "Radon"
+        },
+        {
+          "text": "2000",
+          "element": "Livermorium"
+        },
+        {
+          "text": "1791",
+          "element": "Titanium"
+        },
+        {
+          "text": "1974",
+          "element": "Seaborgium"
+        }
+      ],
+      "correct": "2000"
+    },
+    {
+      "question": "Who discovered Livermorium?",
+      "options": [
+        {
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
+        },
+        {
+          "text": "J.L. Soret",
+          "element": "Holmium"
+        },
+        {
+          "text": "Pierre and Marie Curie",
+          "element": "Polonium"
+        },
+        {
+          "text": "Lawrence Livermore National Laboratory",
+          "element": "Livermorium"
+        }
+      ],
+      "correct": "Lawrence Livermore National Laboratory"
+    }
+  ],
+  "Tennessine": [
+    {
+      "question": "What is the density of Tennessine?",
+      "options": [
+        {
+          "text": "8.55 g/cm\u00b3",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "7.2 g/cm\u00b3",
+          "element": "Tennessine"
+        },
+        {
+          "text": "0.0034249999999999997 g/cm\u00b3",
+          "element": "Krypton"
+        },
+        {
+          "text": "37.1 g/cm\u00b3",
+          "element": "Bohrium"
+        }
+      ],
+      "correct": "7.2 g/cm\u00b3"
+    },
+    {
+      "question": "Who discovered Tennessine?",
+      "options": [
+        {
+          "text": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory",
+          "element": "Tennessine"
+        },
+        {
+          "text": "J.L. Soret",
+          "element": "Holmium"
+        },
+        {
+          "text": "Jean de Marignac",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Meitnerium"
+        }
+      ],
+      "correct": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory"
+    },
+    {
+      "question": "When was Tennessine first discovered?",
+      "options": [
+        {
+          "text": "2010",
+          "element": "Tennessine"
+        },
+        {
+          "text": "1844",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "1925",
+          "element": "Neodymium"
+        },
+        {
+          "text": "1826",
+          "element": "Bromine"
+        }
+      ],
+      "correct": "2010"
+    }
+  ],
+  "Oganesson": [
+    {
+      "question": "When was Oganesson first discovered?",
+      "options": [
+        {
+          "text": "1860",
+          "element": "Cesium"
+        },
+        {
+          "text": "1789",
+          "element": "Zirconium"
+        },
+        {
+          "text": "2002",
+          "element": "Oganesson"
+        },
+        {
+          "text": "1843",
+          "element": "Erbium"
+        }
+      ],
+      "correct": "2002"
+    },
+    {
+      "question": "Who discovered Oganesson?",
+      "options": [
+        {
+          "text": "Johann Gadolin",
+          "element": "Yttrium"
+        },
+        {
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Oganesson"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Hassium"
+        },
+        {
+          "text": "Known to the ancients",
+          "element": "Carbon"
+        }
+      ],
+      "correct": "Joint Institute for Nuclear Research"
+    },
+    {
+      "question": "What is the density of Oganesson?",
+      "options": [
+        {
+          "text": "1.823 g/cm\u00b3",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "0.000164 g/cm\u00b3",
+          "element": "Helium"
+        },
+        {
+          "text": "8.2e-05 g/cm\u00b3",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "7.0 g/cm\u00b3",
+          "element": "Oganesson"
+        }
+      ],
+      "correct": "7.0 g/cm\u00b3"
+    }
+  ]
+}

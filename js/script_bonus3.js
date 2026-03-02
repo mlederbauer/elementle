@@ -11,19 +11,19 @@ async function main() {
     let targetElement = null;
 
     try {
-        const [elemResp, dailyResp] = await Promise.all([
+        const [elemResp, quizzesResp] = await Promise.all([
             fetch('../data/elements_simple.json'),
-            fetch('../data/daily_element.json'),
+            fetch('../data/element_quizzes.json'),
         ]);
-        const elemData  = await elemResp.json();
-        const dailyData = await dailyResp.json();
+        const elemData    = await elemResp.json();
+        const quizzesData = await quizzesResp.json();
 
         targetElement = elemData.find(
             el => el.Element.toLowerCase() === storedName.toLowerCase()
         );
-        quiz = (dailyData.element && dailyData.element.toLowerCase() === storedName.toLowerCase())
-            ? (dailyData.quiz || [])
-            : [];
+        if (targetElement) {
+            quiz = quizzesData[targetElement.Element] || [];
+        }
     } catch (e) {
         console.error('Failed to load data:', e);
     }
@@ -36,7 +36,7 @@ async function main() {
 
     if (quiz.length === 0) {
         document.getElementById('quiz').innerHTML =
-            '<p class="no-quiz">Quiz not available yet — check back after the daily update.</p>';
+            '<p class="no-quiz">Quiz not available for this element.</p>';
         return;
     }
 

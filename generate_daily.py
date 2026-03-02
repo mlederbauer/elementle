@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """Generate today's daily element and write to data/daily_element.json.
 
-Uses the same deterministic algorithm as the client-side JS fallback:
-  index = (days_since_2024-01-01) % num_elements
+Uses a seeded-random algorithm so the element is chosen pseudo-randomly
+(not sequentially) but deterministically for all users on the same day:
+  rng = Random(days_since_2024-01-01)
+  index = rng.randint(0, num_elements - 1)
 """
 import json
+import random
 from datetime import datetime, timezone
 
 START_DATE = datetime(2024, 1, 1, tzinfo=timezone.utc).date()
@@ -14,7 +17,8 @@ with open('data/elements_simple.json', 'r') as f:
 
 today = datetime.now(timezone.utc).date()
 day_index = (today - START_DATE).days
-index = day_index % len(elements)
+rng = random.Random(day_index)
+index = rng.randint(0, len(elements) - 1)
 
 element = elements[index]
 
@@ -26,7 +30,6 @@ daily = {
 }
 
 try:
-    import random
     from mendeleev import element as mendeleev_element
 
     el = mendeleev_element(element["AtomicNumber"])

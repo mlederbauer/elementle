@@ -55,7 +55,12 @@ function getDailyElement() {
     const now = new Date();
     const todayUtc = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
     const dayIndex = Math.floor((todayUtc - startDate) / 86400000);
-    return elements[((dayIndex % elements.length) + elements.length) % elements.length];
+    // Mulberry32 seeded PRNG: non-sequential but deterministic per day
+    let state = (dayIndex + 0x6D2B79F5) | 0;
+    state = Math.imul(state ^ (state >>> 15), state | 1);
+    state ^= state + Math.imul(state ^ (state >>> 7), state | 61);
+    const rand = ((state ^ (state >>> 14)) >>> 0) / 4294967296;
+    return elements[Math.floor(rand * elements.length)];
 }
 
 // ── Grid ──────────────────────────────────────────────────────────────────────

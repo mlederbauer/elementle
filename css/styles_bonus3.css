@@ -237,3 +237,27 @@ body {
   transition: background 0.15s;
 }
 .btn-home:hover { background: #3d3d3d; }
+
+/* ── Share button (hidden until quiz ends) ── */
+#shareBtn {
+  display: none;
+  margin: 18px auto 0;
+  background: var(--green);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 10px 22px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+#shareBtn:hover { background: #406e3c; }
+#shareToast {
+  display: none;
+  font-size: 0.8rem;
+  color: var(--green);
+  font-weight: 600;
+  margin-top: 6px;
+}

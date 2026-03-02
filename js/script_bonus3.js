@@ -21,7 +21,9 @@ async function main() {
         targetElement = elemData.find(
             el => el.Element.toLowerCase() === storedName.toLowerCase()
         );
-        quiz = dailyData.quiz || [];
+        quiz = (dailyData.element && dailyData.element.toLowerCase() === storedName.toLowerCase())
+            ? (dailyData.quiz || [])
+            : [];
     } catch (e) {
         console.error('Failed to load data:', e);
     }

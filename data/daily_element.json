@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-02",
-  "element": "Francium",
-  "atomicNumber": 87,
-  "symbol": "Fr",
+  "date": "2026-03-03",
+  "element": "Tungsten",
+  "atomicNumber": 74,
+  "symbol": "W",
   "quiz": [
     {
-      "question": "Who discovered Francium?",
+      "question": "What is the atomic radius of Tungsten?",
       "options": [
         {
-          "text": "Marguerite Derey",
-          "element": "Francium"
+          "text": "100.0 pm",
+          "element": "Phosphorus"
         },
         {
-          "text": "Fredrich Stromeyer",
-          "element": "Cadmium"
+          "text": "135.0 pm",
+          "element": "Tungsten"
         },
         {
-          "text": "Nobel Institute for Physics",
-          "element": "Nobelium"
+          "text": "185.0 pm",
+          "element": "Cerium"
         },
         {
-          "text": "William Gregor",
-          "element": "Titanium"
+          "text": "150.0 pm",
+          "element": "Magnesium"
         }
       ],
-      "correct": "Marguerite Derey"
+      "correct": "135.0 pm"
     },
     {
-      "question": "What is the melting point of Francium?",
+      "question": "What is the melting point of Tungsten?",
       "options": [
         {
-          "text": "321.1 \u00b0C",
-          "element": "Cadmium"
+          "text": "799.0 \u00b0C",
+          "element": "Cerium"
         },
         {
-          "text": "21.0 \u00b0C",
-          "element": "Francium"
+          "text": "650.0 \u00b0C",
+          "element": "Magnesium"
         },
         {
-          "text": "1670.0 \u00b0C",
-          "element": "Titanium"
+          "text": "3414.0 \u00b0C",
+          "element": "Tungsten"
         },
         {
-          "text": "827.0 \u00b0C",
-          "element": "Nobelium"
+          "text": "28.5 \u00b0C",
+          "element": "Cesium"
         }
       ],
-      "correct": "21.0 \u00b0C"
+      "correct": "3414.0 \u00b0C"
     },
     {
-      "question": "When was Francium first discovered?",
+      "question": "When was Tungsten first discovered?",
       "options": [
         {
-          "text": "1957",
-          "element": "Nobelium"
+          "text": "1974",
+          "element": "Seaborgium"
         },
         {
-          "text": "1791",
-          "element": "Titanium"
+          "text": "1803",
+          "element": "Cerium"
         },
         {
-          "text": "1939",
-          "element": "Francium"
+          "text": "1783",
+          "element": "Tungsten"
         },
         {
-          "text": "1817",
-          "element": "Cadmium"
+          "text": "1669",
+          "element": "Phosphorus"
         }
       ],
-      "correct": "1939"
+      "correct": "1783"
     }
   ]
 }

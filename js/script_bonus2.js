@@ -110,6 +110,47 @@ function endGame(won) {
             <p class="result-sub">Want to learn a fun fact about today's element?</p>
             <a href="bonuspage_3.html" class="btn-home">Bonus Round 3 →</a>`;
     }
+
+    document.getElementById('shareBtn').style.display = 'inline-block';
+}
+
+// ── Share ─────────────────────────────────────────────────────────────────────
+
+function shareResult() {
+    const text = buildShareText();
+    navigator.clipboard.writeText(text).then(() => {
+        const toast = document.getElementById('shareToast');
+        toast.style.display = 'block';
+        setTimeout(() => { toast.style.display = 'none'; }, 2000);
+    }).catch(() => {
+        prompt('Copy this to share:', text);
+    });
+}
+
+function buildShareText() {
+    const now = new Date();
+    const fallbackDate = now.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+
+    let guessHistory = [];
+    let won = false;
+    let dateStr = fallbackDate;
+    try {
+        guessHistory = JSON.parse(localStorage.getItem('elementle-guessHistory')) || [];
+        won = JSON.parse(localStorage.getItem('elementle-won')) || false;
+        dateStr = localStorage.getItem('elementle-gameDate') || fallbackDate;
+    } catch (e) { /* ignore */ }
+
+    const scoreStr = won ? `${guessHistory.length}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`;
+    const emojiMap = { green: '🟩', yellow: '🟨', grey: '⬛' };
+    const rows = guessHistory.map(colors => colors.map(c => emojiMap[c]).join('')).join('\n');
+
+    return [
+        `Elementle ${dateStr}  ${scoreStr}`,
+        '',
+        rows,
+        '',
+        '🔬 Play at: https://mlederbauer.github.io/elementle/'
+    ].join('\n');
 }
 
 function setError(msg) {

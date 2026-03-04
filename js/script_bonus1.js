@@ -164,7 +164,8 @@ function checkGameEnd() {
 
 function populateDatalist(elements) {
     const datalist = document.getElementById('elementsList');
-    elements.forEach(el => {
+    const sorted = [...elements].sort((a, b) => a.Element.localeCompare(b.Element));
+    sorted.forEach(el => {
         const option = document.createElement('option');
         option.value = el.Element;
         datalist.appendChild(option);

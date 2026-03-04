@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-03",
-  "element": "Tungsten",
-  "atomicNumber": 74,
-  "symbol": "W",
+  "date": "2026-03-04",
+  "element": "Lawrencium",
+  "atomicNumber": 103,
+  "symbol": "Lr",
   "quiz": [
     {
-      "question": "What is the atomic radius of Tungsten?",
+      "question": "Who discovered Lawrencium?",
       "options": [
         {
-          "text": "100.0 pm",
-          "element": "Phosphorus"
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
         },
         {
-          "text": "135.0 pm",
-          "element": "Tungsten"
+          "text": "Known to the ancients.",
+          "element": "Iron"
         },
         {
-          "text": "185.0 pm",
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "W. von Hisinger, J. Berzelius, M. Klaproth",
           "element": "Cerium"
-        },
-        {
-          "text": "150.0 pm",
-          "element": "Magnesium"
         }
       ],
-      "correct": "135.0 pm"
+      "correct": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer"
     },
     {
-      "question": "What is the melting point of Tungsten?",
+      "question": "What is the density of Lawrencium?",
       "options": [
         {
-          "text": "799.0 \u00b0C",
-          "element": "Cerium"
+          "text": "8.96 g/cm\u00b3",
+          "element": "Copper"
         },
         {
-          "text": "650.0 \u00b0C",
-          "element": "Magnesium"
+          "text": "34.8 g/cm\u00b3",
+          "element": "Darmstadtium"
         },
         {
-          "text": "3414.0 \u00b0C",
-          "element": "Tungsten"
+          "text": "7.87 g/cm\u00b3",
+          "element": "Iron"
         },
         {
-          "text": "28.5 \u00b0C",
-          "element": "Cesium"
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
         }
       ],
-      "correct": "3414.0 \u00b0C"
+      "correct": "15.6 g/cm\u00b3"
     },
     {
-      "question": "When was Tungsten first discovered?",
+      "question": "What is the melting point of Lawrencium?",
       "options": [
         {
-          "text": "1974",
-          "element": "Seaborgium"
+          "text": "1627.0 \u00b0C",
+          "element": "Lawrencium"
         },
         {
-          "text": "1803",
-          "element": "Cerium"
+          "text": "1538.0 \u00b0C",
+          "element": "Iron"
         },
         {
-          "text": "1783",
-          "element": "Tungsten"
+          "text": "1084.6 \u00b0C",
+          "element": "Copper"
         },
         {
-          "text": "1669",
-          "element": "Phosphorus"
+          "text": "-38.8 \u00b0C",
+          "element": "Mercury"
         }
       ],
-      "correct": "1783"
+      "correct": "1627.0 \u00b0C"
     }
   ]
 }

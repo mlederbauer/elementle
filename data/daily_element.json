@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-05",
-  "element": "Zirconium",
-  "atomicNumber": 40,
-  "symbol": "Zr",
+  "date": "2026-03-06",
+  "element": "Tellurium",
+  "atomicNumber": 52,
+  "symbol": "Te",
   "quiz": [
     {
-      "question": "What is the boiling point of Zirconium?",
+      "question": "Who discovered Tellurium?",
       "options": [
         {
-          "text": "2700.0 \u00b0C",
-          "element": "Holmium"
+          "text": "Jean de Marignac",
+          "element": "Ytterbium"
         },
         {
-          "text": "5455.0 \u00b0C",
-          "element": "Tantalum"
+          "text": "Clemens Winkler",
+          "element": "Germanium"
         },
         {
-          "text": "-108.1 \u00b0C",
-          "element": "Xenon"
+          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
+          "element": "Helium"
         },
         {
-          "text": "4406.0 \u00b0C",
-          "element": "Zirconium"
+          "text": "Franz M\u00fcller von Reichenstein",
+          "element": "Tellurium"
         }
       ],
-      "correct": "4406.0 \u00b0C"
+      "correct": "Franz M\u00fcller von Reichenstein"
     },
     {
-      "question": "What is the density of Zirconium?",
+      "question": "What is the density of Tellurium?",
       "options": [
         {
-          "text": "6.52 g/cm\u00b3",
-          "element": "Zirconium"
+          "text": "0.000164 g/cm\u00b3",
+          "element": "Helium"
         },
         {
-          "text": "8.8 g/cm\u00b3",
-          "element": "Holmium"
+          "text": "6.9 g/cm\u00b3",
+          "element": "Ytterbium"
         },
         {
-          "text": "23.3 g/cm\u00b3",
-          "element": "Rutherfordium"
+          "text": "5.3234 g/cm\u00b3",
+          "element": "Germanium"
         },
         {
-          "text": "0.005365999999999999 g/cm\u00b3",
-          "element": "Xenon"
+          "text": "6.232 g/cm\u00b3",
+          "element": "Tellurium"
         }
       ],
-      "correct": "6.52 g/cm\u00b3"
+      "correct": "6.232 g/cm\u00b3"
     },
     {
-      "question": "What is the melting point of Zirconium?",
+      "question": "What is the crustal abundance of Tellurium?",
       "options": [
         {
-          "text": "3017.0 \u00b0C",
-          "element": "Tantalum"
+          "text": "1.5 mg/kg",
+          "element": "Germanium"
         },
         {
-          "text": "1472.0 \u00b0C",
-          "element": "Holmium"
+          "text": "0.001 mg/kg",
+          "element": "Tellurium"
         },
         {
-          "text": "1854.0 \u00b0C",
-          "element": "Zirconium"
+          "text": "3.2 mg/kg",
+          "element": "Ytterbium"
         },
         {
-          "text": "-111.8 \u00b0C",
-          "element": "Xenon"
+          "text": "0.008 mg/kg",
+          "element": "Helium"
         }
       ],
-      "correct": "1854.0 \u00b0C"
+      "correct": "0.001 mg/kg"
     }
   ]
 }

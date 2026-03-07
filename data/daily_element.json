@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-06",
-  "element": "Tellurium",
-  "atomicNumber": 52,
-  "symbol": "Te",
+  "date": "2026-03-07",
+  "element": "Hafnium",
+  "atomicNumber": 72,
+  "symbol": "Hf",
   "quiz": [
     {
-      "question": "Who discovered Tellurium?",
+      "question": "What is the atomic radius of Hafnium?",
       "options": [
         {
-          "text": "Jean de Marignac",
-          "element": "Ytterbium"
+          "text": "155.0 pm",
+          "element": "Hafnium"
         },
         {
-          "text": "Clemens Winkler",
-          "element": "Germanium"
+          "text": "175.0 pm",
+          "element": "Thulium"
         },
         {
-          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
-          "element": "Helium"
+          "text": "65.0 pm",
+          "element": "Nitrogen"
         },
         {
-          "text": "Franz M\u00fcller von Reichenstein",
-          "element": "Tellurium"
+          "text": "145.0 pm",
+          "element": "Antimony"
         }
       ],
-      "correct": "Franz M\u00fcller von Reichenstein"
+      "correct": "155.0 pm"
     },
     {
-      "question": "What is the density of Tellurium?",
+      "question": "What is the melting point of Hafnium?",
       "options": [
         {
-          "text": "0.000164 g/cm\u00b3",
-          "element": "Helium"
+          "text": "-210.0 \u00b0C",
+          "element": "Nitrogen"
         },
         {
-          "text": "6.9 g/cm\u00b3",
-          "element": "Ytterbium"
+          "text": "1545.0 \u00b0C",
+          "element": "Thulium"
         },
         {
-          "text": "5.3234 g/cm\u00b3",
-          "element": "Germanium"
+          "text": "2233.0 \u00b0C",
+          "element": "Hafnium"
         },
         {
-          "text": "6.232 g/cm\u00b3",
-          "element": "Tellurium"
+          "text": "630.6 \u00b0C",
+          "element": "Antimony"
         }
       ],
-      "correct": "6.232 g/cm\u00b3"
+      "correct": "2233.0 \u00b0C"
     },
     {
-      "question": "What is the crustal abundance of Tellurium?",
+      "question": "What is the density of Hafnium?",
       "options": [
         {
-          "text": "1.5 mg/kg",
-          "element": "Germanium"
+          "text": "13.3 g/cm\u00b3",
+          "element": "Hafnium"
         },
         {
-          "text": "0.001 mg/kg",
-          "element": "Tellurium"
+          "text": "16.0 g/cm\u00b3",
+          "element": "Nihonium"
         },
         {
-          "text": "3.2 mg/kg",
-          "element": "Ytterbium"
+          "text": "9.321 g/cm\u00b3",
+          "element": "Thulium"
         },
         {
-          "text": "0.008 mg/kg",
-          "element": "Helium"
+          "text": "0.001145 g/cm\u00b3",
+          "element": "Nitrogen"
         }
       ],
-      "correct": "0.001 mg/kg"
+      "correct": "13.3 g/cm\u00b3"
     }
   ]
 }

@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-08",
-  "element": "Livermorium",
-  "atomicNumber": 116,
-  "symbol": "Lv",
+  "date": "2026-03-09",
+  "element": "Iodine",
+  "atomicNumber": 53,
+  "symbol": "I",
   "quiz": [
     {
-      "question": "When was Livermorium first discovered?",
+      "question": "What is the crustal abundance of Iodine?",
       "options": [
         {
-          "text": "2000",
-          "element": "Livermorium"
+          "text": "425.0 mg/kg",
+          "element": "Barium"
         },
         {
-          "text": "1953",
-          "element": "Fermium"
-        },
-        {
-          "text": "1766",
-          "element": "Hydrogen"
-        },
-        {
-          "text": "1830",
+          "text": "120.0 mg/kg",
           "element": "Vanadium"
+        },
+        {
+          "text": "2.3 mg/kg",
+          "element": "Tin"
+        },
+        {
+          "text": "0.45 mg/kg",
+          "element": "Iodine"
         }
       ],
-      "correct": "2000"
+      "correct": "0.45 mg/kg"
     },
     {
-      "question": "Who discovered Livermorium?",
+      "question": "What is the atomic radius of Iodine?",
       "options": [
+        {
+          "text": "135.0 pm",
+          "element": "Vanadium"
+        },
+        {
+          "text": "145.0 pm",
+          "element": "Tin"
+        },
+        {
+          "text": "140.0 pm",
+          "element": "Iodine"
+        },
+        {
+          "text": "215.0 pm",
+          "element": "Barium"
+        }
+      ],
+      "correct": "140.0 pm"
+    },
+    {
+      "question": "Who discovered Iodine?",
+      "options": [
+        {
+          "text": "Bernard Courtois",
+          "element": "Iodine"
+        },
+        {
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Californium"
+        },
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Barium"
+        },
         {
           "text": "Nils Sefstr\u00f6m",
           "element": "Vanadium"
-        },
-        {
-          "text": "Argonne, Los Alamos, U of Calif",
-          "element": "Fermium"
-        },
-        {
-          "text": "Lawrence Livermore National Laboratory",
-          "element": "Livermorium"
-        },
-        {
-          "text": "Known to the ancients.",
-          "element": "Copper"
         }
       ],
-      "correct": "Lawrence Livermore National Laboratory"
-    },
-    {
-      "question": "What is the density of Livermorium?",
-      "options": [
-        {
-          "text": "12.9 g/cm\u00b3",
-          "element": "Livermorium"
-        },
-        {
-          "text": "9.7 g/cm\u00b3",
-          "element": "Fermium"
-        },
-        {
-          "text": "8.96 g/cm\u00b3",
-          "element": "Copper"
-        },
-        {
-          "text": "6.0 g/cm\u00b3",
-          "element": "Vanadium"
-        }
-      ],
-      "correct": "12.9 g/cm\u00b3"
+      "correct": "Bernard Courtois"
     }
   ]
 }

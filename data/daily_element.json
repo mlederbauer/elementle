@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-09",
-  "element": "Iodine",
-  "atomicNumber": 53,
-  "symbol": "I",
+  "date": "2026-03-10",
+  "element": "Copernicium",
+  "atomicNumber": 112,
+  "symbol": "Cn",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Iodine?",
+      "question": "What is the density of Copernicium?",
       "options": [
         {
-          "text": "425.0 mg/kg",
-          "element": "Barium"
+          "text": "8.55 g/cm\u00b3",
+          "element": "Dysprosium"
         },
         {
-          "text": "120.0 mg/kg",
-          "element": "Vanadium"
+          "text": "8.9 g/cm\u00b3",
+          "element": "Nickel"
         },
         {
-          "text": "2.3 mg/kg",
-          "element": "Tin"
-        },
-        {
-          "text": "0.45 mg/kg",
-          "element": "Iodine"
-        }
-      ],
-      "correct": "0.45 mg/kg"
-    },
-    {
-      "question": "What is the atomic radius of Iodine?",
-      "options": [
-        {
-          "text": "135.0 pm",
-          "element": "Vanadium"
-        },
-        {
-          "text": "145.0 pm",
-          "element": "Tin"
-        },
-        {
-          "text": "140.0 pm",
+          "text": "4.933 g/cm\u00b3",
           "element": "Iodine"
         },
         {
-          "text": "215.0 pm",
-          "element": "Barium"
+          "text": "14.0 g/cm\u00b3",
+          "element": "Copernicium"
         }
       ],
-      "correct": "140.0 pm"
+      "correct": "14.0 g/cm\u00b3"
     },
     {
-      "question": "Who discovered Iodine?",
+      "question": "Who discovered Copernicium?",
       "options": [
+        {
+          "text": "GSI Helmholtz Centre for Heavy Ion Research",
+          "element": "Copernicium"
+        },
         {
           "text": "Bernard Courtois",
           "element": "Iodine"
         },
         {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
-          "element": "Californium"
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Dysprosium"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Barium"
-        },
-        {
-          "text": "Nils Sefstr\u00f6m",
-          "element": "Vanadium"
+          "text": "Axel Cronstedt",
+          "element": "Nickel"
         }
       ],
-      "correct": "Bernard Courtois"
+      "correct": "GSI Helmholtz Centre for Heavy Ion Research"
+    },
+    {
+      "question": "When was Copernicium first discovered?",
+      "options": [
+        {
+          "text": "1811",
+          "element": "Iodine"
+        },
+        {
+          "text": "1996",
+          "element": "Copernicium"
+        },
+        {
+          "text": "1751",
+          "element": "Nickel"
+        },
+        {
+          "text": "1886",
+          "element": "Dysprosium"
+        }
+      ],
+      "correct": "1996"
     }
   ]
 }

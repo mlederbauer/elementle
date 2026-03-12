@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-11",
-  "element": "Radon",
-  "atomicNumber": 86,
-  "symbol": "Rn",
+  "date": "2026-03-12",
+  "element": "Silicon",
+  "atomicNumber": 14,
+  "symbol": "Si",
   "quiz": [
     {
-      "question": "What is the melting point of Radon?",
+      "question": "What is the melting point of Silicon?",
       "options": [
         {
           "text": "-71.0 \u00b0C",
           "element": "Radon"
         },
         {
-          "text": "-7.2 \u00b0C",
-          "element": "Bromine"
+          "text": "2477.0 \u00b0C",
+          "element": "Niobium"
         },
         {
-          "text": "1545.0 \u00b0C",
-          "element": "Thulium"
+          "text": "1541.0 \u00b0C",
+          "element": "Scandium"
         },
         {
-          "text": "920.0 \u00b0C",
-          "element": "Lanthanum"
+          "text": "1414.0 \u00b0C",
+          "element": "Silicon"
         }
       ],
-      "correct": "-71.0 \u00b0C"
+      "correct": "1414.0 \u00b0C"
     },
     {
-      "question": "What is the crustal abundance of Radon?",
+      "question": "Who discovered Silicon?",
       "options": [
         {
-          "text": "39.0 mg/kg",
-          "element": "Lanthanum"
+          "text": "Charles Hatchet",
+          "element": "Niobium"
         },
         {
-          "text": "2.4 mg/kg",
-          "element": "Bromine"
+          "text": "J\u00f6ns Berzelius",
+          "element": "Silicon"
         },
         {
-          "text": "0.52 mg/kg",
-          "element": "Thulium"
-        },
-        {
-          "text": "4e-13 mg/kg",
-          "element": "Radon"
-        }
-      ],
-      "correct": "4e-13 mg/kg"
-    },
-    {
-      "question": "What is the boiling point of Radon?",
-      "options": [
-        {
-          "text": "-61.7 \u00b0C",
+          "text": "Fredrich Ernst Dorn",
           "element": "Radon"
         },
         {
-          "text": "1950.0 \u00b0C",
-          "element": "Thulium"
-        },
-        {
-          "text": "58.8 \u00b0C",
-          "element": "Bromine"
-        },
-        {
-          "text": "3464.0 \u00b0C",
-          "element": "Lanthanum"
+          "text": "Lars Nilson",
+          "element": "Scandium"
         }
       ],
-      "correct": "-61.7 \u00b0C"
+      "correct": "J\u00f6ns Berzelius"
+    },
+    {
+      "question": "What is the atomic radius of Silicon?",
+      "options": [
+        {
+          "text": "145.0 pm",
+          "element": "Niobium"
+        },
+        {
+          "text": "160.0 pm",
+          "element": "Scandium"
+        },
+        {
+          "text": "110.0 pm",
+          "element": "Silicon"
+        },
+        {
+          "text": "130.0 pm",
+          "element": "Ruthenium"
+        }
+      ],
+      "correct": "110.0 pm"
     }
   ]
 }

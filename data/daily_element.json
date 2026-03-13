@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-12",
-  "element": "Silicon",
-  "atomicNumber": 14,
-  "symbol": "Si",
+  "date": "2026-03-13",
+  "element": "Lutetium",
+  "atomicNumber": 71,
+  "symbol": "Lu",
   "quiz": [
     {
-      "question": "What is the melting point of Silicon?",
+      "question": "Who discovered Lutetium?",
       "options": [
         {
-          "text": "-71.0 \u00b0C",
-          "element": "Radon"
+          "text": "Bernard Courtois",
+          "element": "Iodine"
         },
         {
-          "text": "2477.0 \u00b0C",
-          "element": "Niobium"
+          "text": "Georges Urbain",
+          "element": "Lutetium"
         },
         {
-          "text": "1541.0 \u00b0C",
-          "element": "Scandium"
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Samarium"
         },
         {
-          "text": "1414.0 \u00b0C",
-          "element": "Silicon"
+          "text": "Known to the ancients.",
+          "element": "Bismuth"
         }
       ],
-      "correct": "1414.0 \u00b0C"
+      "correct": "Georges Urbain"
     },
     {
-      "question": "Who discovered Silicon?",
+      "question": "What is the boiling point of Lutetium?",
       "options": [
         {
-          "text": "Charles Hatchet",
-          "element": "Niobium"
+          "text": "1564.0 \u00b0C",
+          "element": "Bismuth"
         },
         {
-          "text": "J\u00f6ns Berzelius",
-          "element": "Silicon"
+          "text": "1794.0 \u00b0C",
+          "element": "Samarium"
         },
         {
-          "text": "Fredrich Ernst Dorn",
-          "element": "Radon"
+          "text": "3402.0 \u00b0C",
+          "element": "Lutetium"
         },
         {
-          "text": "Lars Nilson",
-          "element": "Scandium"
+          "text": "184.4 \u00b0C",
+          "element": "Iodine"
         }
       ],
-      "correct": "J\u00f6ns Berzelius"
+      "correct": "3402.0 \u00b0C"
     },
     {
-      "question": "What is the atomic radius of Silicon?",
+      "question": "What is the melting point of Lutetium?",
       "options": [
         {
-          "text": "145.0 pm",
-          "element": "Niobium"
+          "text": "271.4 \u00b0C",
+          "element": "Bismuth"
         },
         {
-          "text": "160.0 pm",
-          "element": "Scandium"
+          "text": "1663.0 \u00b0C",
+          "element": "Lutetium"
         },
         {
-          "text": "110.0 pm",
-          "element": "Silicon"
+          "text": "1072.0 \u00b0C",
+          "element": "Samarium"
         },
         {
-          "text": "130.0 pm",
-          "element": "Ruthenium"
+          "text": "113.7 \u00b0C",
+          "element": "Iodine"
         }
       ],
-      "correct": "110.0 pm"
+      "correct": "1663.0 \u00b0C"
     }
   ]
 }

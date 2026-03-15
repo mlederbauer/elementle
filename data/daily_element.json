@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-14",
-  "element": "Silicon",
-  "atomicNumber": 14,
-  "symbol": "Si",
+  "date": "2026-03-15",
+  "element": "Samarium",
+  "atomicNumber": 62,
+  "symbol": "Sm",
   "quiz": [
     {
-      "question": "What is the atomic radius of Silicon?",
+      "question": "What is the melting point of Samarium?",
       "options": [
         {
-          "text": "110.0 pm",
-          "element": "Silicon"
+          "text": "1854.0 \u00b0C",
+          "element": "Zirconium"
         },
         {
-          "text": "125.0 pm",
-          "element": "Germanium"
+          "text": "1750.0 \u00b0C",
+          "element": "Thorium"
         },
         {
-          "text": "140.0 pm",
-          "element": "Palladium"
+          "text": "1072.0 \u00b0C",
+          "element": "Samarium"
         },
         {
-          "text": "160.0 pm",
-          "element": "Bismuth"
+          "text": "254.0 \u00b0C",
+          "element": "Polonium"
         }
       ],
-      "correct": "110.0 pm"
+      "correct": "1072.0 \u00b0C"
     },
     {
-      "question": "What is the crustal abundance of Silicon?",
+      "question": "What is the atomic radius of Samarium?",
       "options": [
         {
-          "text": "0.015 mg/kg",
-          "element": "Palladium"
+          "text": "180.0 pm",
+          "element": "Thorium"
         },
         {
-          "text": "1.5 mg/kg",
-          "element": "Germanium"
+          "text": "185.0 pm",
+          "element": "Samarium"
         },
         {
-          "text": "0.0085 mg/kg",
-          "element": "Bismuth"
+          "text": "190.0 pm",
+          "element": "Polonium"
         },
         {
-          "text": "282000.0 mg/kg",
-          "element": "Silicon"
+          "text": "155.0 pm",
+          "element": "Zirconium"
         }
       ],
-      "correct": "282000.0 mg/kg"
+      "correct": "185.0 pm"
     },
     {
-      "question": "What is the boiling point of Silicon?",
+      "question": "What is the density of Samarium?",
       "options": [
         {
-          "text": "2963.0 \u00b0C",
-          "element": "Palladium"
+          "text": "9.2 g/cm\u00b3",
+          "element": "Polonium"
         },
         {
-          "text": "3265.0 \u00b0C",
-          "element": "Silicon"
+          "text": "6.52 g/cm\u00b3",
+          "element": "Zirconium"
         },
         {
-          "text": "1564.0 \u00b0C",
-          "element": "Bismuth"
+          "text": "7.52 g/cm\u00b3",
+          "element": "Samarium"
         },
         {
-          "text": "2833.0 \u00b0C",
-          "element": "Germanium"
+          "text": "11.7 g/cm\u00b3",
+          "element": "Thorium"
         }
       ],
-      "correct": "3265.0 \u00b0C"
+      "correct": "7.52 g/cm\u00b3"
     }
   ]
 }

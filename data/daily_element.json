@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-15",
-  "element": "Samarium",
-  "atomicNumber": 62,
-  "symbol": "Sm",
+  "date": "2026-03-16",
+  "element": "Gadolinium",
+  "atomicNumber": 64,
+  "symbol": "Gd",
   "quiz": [
     {
-      "question": "What is the melting point of Samarium?",
+      "question": "What is the boiling point of Gadolinium?",
       "options": [
         {
-          "text": "1854.0 \u00b0C",
-          "element": "Zirconium"
+          "text": "2836.0 \u00b0C",
+          "element": "Scandium"
         },
         {
-          "text": "1750.0 \u00b0C",
-          "element": "Thorium"
+          "text": "184.4 \u00b0C",
+          "element": "Iodine"
         },
         {
-          "text": "1072.0 \u00b0C",
-          "element": "Samarium"
+          "text": "1587.0 \u00b0C",
+          "element": "Antimony"
         },
         {
-          "text": "254.0 \u00b0C",
-          "element": "Polonium"
+          "text": "3273.0 \u00b0C",
+          "element": "Gadolinium"
         }
       ],
-      "correct": "1072.0 \u00b0C"
+      "correct": "3273.0 \u00b0C"
     },
     {
-      "question": "What is the atomic radius of Samarium?",
+      "question": "What is the crustal abundance of Gadolinium?",
       "options": [
         {
-          "text": "180.0 pm",
-          "element": "Thorium"
+          "text": "0.2 mg/kg",
+          "element": "Antimony"
         },
         {
-          "text": "185.0 pm",
-          "element": "Samarium"
+          "text": "6.2 mg/kg",
+          "element": "Gadolinium"
         },
         {
-          "text": "190.0 pm",
-          "element": "Polonium"
+          "text": "22.0 mg/kg",
+          "element": "Scandium"
         },
         {
-          "text": "155.0 pm",
-          "element": "Zirconium"
+          "text": "0.45 mg/kg",
+          "element": "Iodine"
         }
       ],
-      "correct": "185.0 pm"
+      "correct": "6.2 mg/kg"
     },
     {
-      "question": "What is the density of Samarium?",
+      "question": "What is the density of Gadolinium?",
       "options": [
         {
-          "text": "9.2 g/cm\u00b3",
-          "element": "Polonium"
+          "text": "7.9 g/cm\u00b3",
+          "element": "Gadolinium"
         },
         {
-          "text": "6.52 g/cm\u00b3",
-          "element": "Zirconium"
+          "text": "6.68 g/cm\u00b3",
+          "element": "Antimony"
         },
         {
-          "text": "7.52 g/cm\u00b3",
-          "element": "Samarium"
+          "text": "2.99 g/cm\u00b3",
+          "element": "Scandium"
         },
         {
-          "text": "11.7 g/cm\u00b3",
-          "element": "Thorium"
+          "text": "34.8 g/cm\u00b3",
+          "element": "Darmstadtium"
         }
       ],
-      "correct": "7.52 g/cm\u00b3"
+      "correct": "7.9 g/cm\u00b3"
     }
   ]
 }

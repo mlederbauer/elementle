@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-16",
-  "element": "Gadolinium",
-  "atomicNumber": 64,
-  "symbol": "Gd",
+  "date": "2026-03-17",
+  "element": "Praseodymium",
+  "atomicNumber": 59,
+  "symbol": "Pr",
   "quiz": [
     {
-      "question": "What is the boiling point of Gadolinium?",
+      "question": "Who discovered Praseodymium?",
       "options": [
         {
-          "text": "2836.0 \u00b0C",
-          "element": "Scandium"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Praseodymium"
         },
         {
-          "text": "184.4 \u00b0C",
-          "element": "Iodine"
+          "text": "Marguerite Derey",
+          "element": "Francium"
         },
         {
-          "text": "1587.0 \u00b0C",
-          "element": "Antimony"
+          "text": "Sir William Ramsey, Baron Rayleigh",
+          "element": "Argon"
         },
         {
-          "text": "3273.0 \u00b0C",
-          "element": "Gadolinium"
+          "text": "Sir William Ramsay; M. W. Travers",
+          "element": "Xenon"
         }
       ],
-      "correct": "3273.0 \u00b0C"
+      "correct": "C.F. Aver von Welsbach"
     },
     {
-      "question": "What is the crustal abundance of Gadolinium?",
+      "question": "What is the boiling point of Praseodymium?",
       "options": [
         {
-          "text": "0.2 mg/kg",
-          "element": "Antimony"
+          "text": "2519.0 \u00b0C",
+          "element": "Aluminum"
         },
         {
-          "text": "6.2 mg/kg",
-          "element": "Gadolinium"
+          "text": "3520.0 \u00b0C",
+          "element": "Praseodymium"
         },
         {
-          "text": "22.0 mg/kg",
-          "element": "Scandium"
+          "text": "-108.1 \u00b0C",
+          "element": "Xenon"
         },
         {
-          "text": "0.45 mg/kg",
-          "element": "Iodine"
+          "text": "-185.8 \u00b0C",
+          "element": "Argon"
         }
       ],
-      "correct": "6.2 mg/kg"
+      "correct": "3520.0 \u00b0C"
     },
     {
-      "question": "What is the density of Gadolinium?",
+      "question": "What is the atomic radius of Praseodymium?",
       "options": [
         {
-          "text": "7.9 g/cm\u00b3",
-          "element": "Gadolinium"
+          "text": "125.0 pm",
+          "element": "Aluminum"
         },
         {
-          "text": "6.68 g/cm\u00b3",
-          "element": "Antimony"
+          "text": "140.0 pm",
+          "element": "Palladium"
         },
         {
-          "text": "2.99 g/cm\u00b3",
-          "element": "Scandium"
+          "text": "185.0 pm",
+          "element": "Praseodymium"
         },
         {
-          "text": "34.8 g/cm\u00b3",
-          "element": "Darmstadtium"
+          "text": "71.0 pm",
+          "element": "Argon"
         }
       ],
-      "correct": "7.9 g/cm\u00b3"
+      "correct": "185.0 pm"
     }
   ]
 }

@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-17",
-  "element": "Praseodymium",
-  "atomicNumber": 59,
-  "symbol": "Pr",
+  "date": "2026-03-18",
+  "element": "Cadmium",
+  "atomicNumber": 48,
+  "symbol": "Cd",
   "quiz": [
     {
-      "question": "Who discovered Praseodymium?",
+      "question": "When was Cadmium first discovered?",
       "options": [
         {
-          "text": "C.F. Aver von Welsbach",
-          "element": "Praseodymium"
+          "text": "1817",
+          "element": "Cadmium"
         },
         {
-          "text": "Marguerite Derey",
-          "element": "Francium"
+          "text": "1923",
+          "element": "Hafnium"
         },
         {
-          "text": "Sir William Ramsey, Baron Rayleigh",
-          "element": "Argon"
+          "text": "1804",
+          "element": "Iridium"
         },
         {
-          "text": "Sir William Ramsay; M. W. Travers",
+          "text": "1898",
           "element": "Xenon"
         }
       ],
-      "correct": "C.F. Aver von Welsbach"
+      "correct": "1817"
     },
     {
-      "question": "What is the boiling point of Praseodymium?",
+      "question": "What is the boiling point of Cadmium?",
       "options": [
         {
-          "text": "2519.0 \u00b0C",
-          "element": "Aluminum"
+          "text": "616.0 \u00b0C",
+          "element": "Arsenic"
         },
         {
-          "text": "3520.0 \u00b0C",
-          "element": "Praseodymium"
+          "text": "4600.0 \u00b0C",
+          "element": "Hafnium"
         },
         {
-          "text": "-108.1 \u00b0C",
-          "element": "Xenon"
+          "text": "767.0 \u00b0C",
+          "element": "Cadmium"
         },
         {
-          "text": "-185.8 \u00b0C",
-          "element": "Argon"
+          "text": "4428.0 \u00b0C",
+          "element": "Iridium"
         }
       ],
-      "correct": "3520.0 \u00b0C"
+      "correct": "767.0 \u00b0C"
     },
     {
-      "question": "What is the atomic radius of Praseodymium?",
+      "question": "Who discovered Cadmium?",
       "options": [
         {
-          "text": "125.0 pm",
-          "element": "Aluminum"
+          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
+          "element": "Iridium"
         },
         {
-          "text": "140.0 pm",
-          "element": "Palladium"
+          "text": "Fredrich Stromeyer",
+          "element": "Cadmium"
         },
         {
-          "text": "185.0 pm",
-          "element": "Praseodymium"
+          "text": "Dirk Coster, Georg von Hevesy",
+          "element": "Hafnium"
         },
         {
-          "text": "71.0 pm",
-          "element": "Argon"
+          "text": "Known to the ancients.",
+          "element": "Arsenic"
         }
       ],
-      "correct": "185.0 pm"
+      "correct": "Fredrich Stromeyer"
     }
   ]
 }

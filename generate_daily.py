@@ -85,12 +85,6 @@ try:
             is_nonempty,
         ),
         (
-            "sources",
-            f"How is {name} typically obtained?",
-            lambda v: str(v).strip(),
-            is_nonempty,
-        ),
-        (
             "price_per_kg",
             f"What is the approximate price of {name} per kilogram?",
             lambda v: f"${v:,.2f}/kg",

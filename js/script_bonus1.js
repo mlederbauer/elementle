@@ -178,7 +178,20 @@ async function main() {
     await fetchData();
     populateDatalist(elementDataArray);
 
-    const storedSelectedElement = localStorage.getItem('selectedElement');
+    let storedSelectedElement = localStorage.getItem('selectedElement');
+
+    try {
+        const resp = await fetch('../data/daily_element.json');
+        const daily = await resp.json();
+        if (daily.element) {
+            storedSelectedElement = daily.element;
+        } else {
+            storedSelectedElement = null;
+        }
+    } catch (e) {
+        console.error('Failed to fetch daily element:', e);
+    }
+
     if (!storedSelectedElement) {
         document.querySelector('.container').innerHTML =
             '<p>No element found. Please play the main game first.</p>' +

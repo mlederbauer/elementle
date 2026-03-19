@@ -120,12 +120,6 @@ try:
             lambda v: str(v),
             is_nonempty,
         ),
-        (
-            "relative_supply_risk",
-            f"What is the relative supply risk index for {name}?",
-            lambda v: str(v),
-            lambda v: v is not None,
-        ),
     ]
 
     # Temperature templates: limit to at most 1 per quiz

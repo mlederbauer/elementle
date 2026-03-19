@@ -5,37 +5,11 @@
   "symbol": "Ag",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Silver?",
-      "options": [
-        {
-          "text": "0.85 mg/kg",
-          "element": "Thallium"
-        },
-        {
-          "text": "0.075 mg/kg",
-          "element": "Silver"
-        },
-        {
-          "text": "0.001 mg/kg",
-          "element": "Rhodium"
-        },
-        {
-          "text": "9e-07 mg/kg",
-          "element": "Radium"
-        }
-      ],
-      "correct": "0.075 mg/kg"
-    },
-    {
       "question": "What is the approximate price of Silver per kilogram?",
       "options": [
         {
-          "text": "$4,200.00/kg",
-          "element": "Thallium"
-        },
-        {
-          "text": "$32.80/kg",
-          "element": "Cobalt"
+          "text": "$40.10/kg",
+          "element": "Molybdenum"
         },
         {
           "text": "$521.00/kg",
@@ -44,53 +18,79 @@
         {
           "text": "$147,000.00/kg",
           "element": "Rhodium"
+        },
+        {
+          "text": "$31.40/kg",
+          "element": "Europium"
         }
       ],
       "correct": "$521.00/kg"
     },
     {
-      "question": "How is Silver typically obtained?",
+      "question": "Which countries are the top producers of Silver?",
       "options": [
         {
-          "text": "Found in ores called argentite (AgS), light ruby silver (Ag3AsS3), dark ruby silver(Ag3SbS3) and brittle silver.",
-          "element": "Silver"
-        },
-        {
-          "text": "Found in iron pyrites. Also in crookesite, hutchinsonite and lorandite. Most is recovered from the byproducts of lead and zinc refining.",
-          "element": "Thallium"
-        },
-        {
-          "text": "Obtained as a by-product of nickel production.",
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
           "element": "Rhodium"
         },
         {
-          "text": "Found in uranium ores at 1 part per 3 million parts uranium.",
-          "element": "Radium"
+          "text": "1) China  2) USA  3) Chile",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "1) Mexico  2) Peru  3) China",
+          "element": "Silver"
+        },
+        {
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Europium"
         }
       ],
-      "correct": "Found in ores called argentite (AgS), light ruby silver (Ag3AsS3), dark ruby silver(Ag3SbS3) and brittle silver."
+      "correct": "1) Mexico  2) Peru  3) China"
     },
     {
       "question": "Who discovered Silver?",
       "options": [
         {
-          "text": "Pierre and Marie Curie",
-          "element": "Radium"
-        },
-        {
-          "text": "Sir William Crookes",
-          "element": "Thallium"
-        },
-        {
-          "text": "Known to the ancients.",
-          "element": "Silver"
+          "text": "Eug\u00e8ne Demar\u00e7ay",
+          "element": "Europium"
         },
         {
           "text": "William Wollaston",
           "element": "Rhodium"
+        },
+        {
+          "text": "Carl Wilhelm Scheele",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Silver"
         }
       ],
       "correct": "Known to the ancients."
+    },
+    {
+      "question": "What is the crustal abundance of Silver?",
+      "options": [
+        {
+          "text": "2.0 mg/kg",
+          "element": "Europium"
+        },
+        {
+          "text": "0.001 mg/kg",
+          "element": "Rhodium"
+        },
+        {
+          "text": "0.075 mg/kg",
+          "element": "Silver"
+        },
+        {
+          "text": "1.2 mg/kg",
+          "element": "Molybdenum"
+        }
+      ],
+      "correct": "0.075 mg/kg"
     }
   ]
 }

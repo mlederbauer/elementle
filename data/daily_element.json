@@ -3,43 +3,69 @@
   "element": "Silver",
   "atomicNumber": 47,
   "symbol": "Ag",
+  "date": "2026-03-19",
+  "element": "Silver",
+  "atomicNumber": 47,
+  "symbol": "Ag",
   "quiz": [
     {
-      "question": "What is the atomic radius of Silver?",
+      "question": "What is the approximate price of Silver per kilogram?",
       "options": [
         {
-          "text": "130.0 pm",
-          "element": "Gallium"
+          "text": "$40.10/kg",
+          "element": "Molybdenum"
         },
         {
-          "text": "140.0 pm",
-          "element": "Tellurium"
-        },
-        {
-          "text": "160.0 pm",
+          "text": "$521.00/kg",
           "element": "Silver"
         },
         {
-          "text": "25.0 pm",
-          "element": "Hydrogen"
+          "text": "$147,000.00/kg",
+          "element": "Rhodium"
+        },
+        {
+          "text": "$31.40/kg",
+          "element": "Europium"
         }
       ],
-      "correct": "160.0 pm"
+      "correct": "$521.00/kg"
+    },
+    {
+      "question": "Which countries are the top producers of Silver?",
+      "options": [
+        {
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Rhodium"
+        },
+        {
+          "text": "1) China  2) USA  3) Chile",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "1) Mexico  2) Peru  3) China",
+          "element": "Silver"
+        },
+        {
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Europium"
+        }
+      ],
+      "correct": "1) Mexico  2) Peru  3) China"
     },
     {
       "question": "Who discovered Silver?",
       "options": [
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Rutherfordium"
+          "text": "Eug\u00e8ne Demar\u00e7ay",
+          "element": "Europium"
         },
         {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Gallium"
+          "text": "William Wollaston",
+          "element": "Rhodium"
         },
         {
-          "text": "Henry Cavendish",
-          "element": "Hydrogen"
+          "text": "Carl Wilhelm Scheele",
+          "element": "Molybdenum"
         },
         {
           "text": "Known to the ancients.",
@@ -52,20 +78,20 @@
       "question": "What is the crustal abundance of Silver?",
       "options": [
         {
-          "text": "1400.0 mg/kg",
-          "element": "Hydrogen"
+          "text": "2.0 mg/kg",
+          "element": "Europium"
         },
         {
-          "text": "0.0015 mg/kg",
-          "element": "Osmium"
+          "text": "0.001 mg/kg",
+          "element": "Rhodium"
         },
         {
           "text": "0.075 mg/kg",
           "element": "Silver"
         },
         {
-          "text": "19.0 mg/kg",
-          "element": "Gallium"
+          "text": "1.2 mg/kg",
+          "element": "Molybdenum"
         }
       ],
       "correct": "0.075 mg/kg"

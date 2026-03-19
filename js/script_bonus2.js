@@ -7,7 +7,20 @@ let attemptsLeft = MAX_ATTEMPTS;
 document.addEventListener('DOMContentLoaded', main);
 
 async function main() {
-    const storedName = localStorage.getItem('selectedElement');
+    let storedName = localStorage.getItem('selectedElement');
+
+    try {
+        const resp = await fetch('../data/daily_element.json');
+        const daily = await resp.json();
+        if (daily.element) {
+            storedName = daily.element;
+        } else {
+            storedName = null;
+        }
+    } catch (e) {
+        console.error('Failed to fetch daily element:', e);
+    }
+
     if (!storedName) { showNoElement(); return; }
 
     try {

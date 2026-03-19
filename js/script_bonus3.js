@@ -5,8 +5,7 @@ let score = 0;
 document.addEventListener('DOMContentLoaded', main);
 
 async function main() {
-    const storedName = localStorage.getItem('selectedElement');
-    if (!storedName) { showNoElement(); return; }
+    let storedName = localStorage.getItem('selectedElement');
 
     let targetElement = null;
 
@@ -18,10 +17,19 @@ async function main() {
         const elemData  = await elemResp.json();
         const dailyData = await dailyResp.json();
 
-        targetElement = elemData.find(
-            el => el.Element.toLowerCase() === storedName.toLowerCase()
-        );
-        quiz = dailyData.quiz || [];
+        // Always use daily_element.json as the authoritative source
+        if (dailyData.element) {
+            storedName = dailyData.element;
+            quiz = dailyData.quiz || [];
+        } else {
+            storedName = null;
+        }
+
+        if (storedName) {
+            targetElement = elemData.find(
+                el => el.Element.toLowerCase() === storedName.toLowerCase()
+            );
+        }
     } catch (e) {
         console.error('Failed to load data:', e);
     }

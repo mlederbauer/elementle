@@ -5,13 +5,7 @@ let score = 0;
 document.addEventListener('DOMContentLoaded', main);
 
 async function main() {
-    const now = new Date();
-    const todayStr = now.getUTCFullYear() + '-' +
-        String(now.getUTCMonth() + 1).padStart(2, '0') + '-' +
-        String(now.getUTCDate()).padStart(2, '0');
-
     let storedName = localStorage.getItem('selectedElement');
-    const storedDate = localStorage.getItem('selectedElementDate');
 
     let targetElement = null;
 
@@ -23,15 +17,13 @@ async function main() {
         const elemData  = await elemResp.json();
         const dailyData = await dailyResp.json();
 
-        // Always use today's element from daily_element.json when dates match
-        if (dailyData.date === todayStr && dailyData.element) {
+        // Always use daily_element.json as the authoritative source
+        if (dailyData.element) {
             storedName = dailyData.element;
             quiz = dailyData.quiz || [];
-        } else if (storedDate && storedDate !== todayStr) {
-            // localStorage has an explicit stale date — clear it so quiz is not mismatched
+        } else {
             storedName = null;
         }
-        // When daily_element.json is stale, quiz stays empty → "not available" message shown
 
         if (storedName) {
             targetElement = elemData.find(

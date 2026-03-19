@@ -57,13 +57,7 @@ function fetchData() {
         })
         .then(response => response.json())
         .then(daily => {
-            const now = new Date();
-            const todayStr = now.getUTCFullYear() + '-' +
-                String(now.getUTCMonth() + 1).padStart(2, '0') + '-' +
-                String(now.getUTCDate()).padStart(2, '0');
-            selectedElement = (daily.date === todayStr && elements.includes(daily.element))
-                ? daily.element
-                : getDailyElement();
+            selectedElement = daily.element || getDailyElement();
             saveSelectedElementToLocalStorage();
         })
         .catch(() => {
@@ -381,11 +375,6 @@ function showBonusPageIcon() {
 function saveSelectedElementToLocalStorage() {
     try {
         localStorage.setItem('selectedElement', selectedElement);
-        const now = new Date();
-        const todayStr = now.getUTCFullYear() + '-' +
-            String(now.getUTCMonth() + 1).padStart(2, '0') + '-' +
-            String(now.getUTCDate()).padStart(2, '0');
-        localStorage.setItem('selectedElementDate', todayStr);
     }
     catch (e) { console.error('Failed to save to localStorage:', e); }
 }

@@ -178,7 +178,26 @@ async function main() {
     await fetchData();
     populateDatalist(elementDataArray);
 
-    const storedSelectedElement = localStorage.getItem('selectedElement');
+    const now = new Date();
+    const todayStr = now.getUTCFullYear() + '-' +
+        String(now.getUTCMonth() + 1).padStart(2, '0') + '-' +
+        String(now.getUTCDate()).padStart(2, '0');
+
+    let storedSelectedElement = localStorage.getItem('selectedElement');
+    const storedDate = localStorage.getItem('selectedElementDate');
+
+    if (storedDate !== todayStr) {
+        try {
+            const resp = await fetch('../data/daily_element.json');
+            const daily = await resp.json();
+            if (daily.date === todayStr && daily.element) {
+                storedSelectedElement = daily.element;
+            }
+        } catch (e) {
+            console.error('Failed to fetch daily element:', e);
+        }
+    }
+
     if (!storedSelectedElement) {
         document.querySelector('.container').innerHTML =
             '<p>No element found. Please play the main game first.</p>' +

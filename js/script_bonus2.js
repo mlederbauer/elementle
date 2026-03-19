@@ -7,7 +7,26 @@ let attemptsLeft = MAX_ATTEMPTS;
 document.addEventListener('DOMContentLoaded', main);
 
 async function main() {
-    const storedName = localStorage.getItem('selectedElement');
+    const now = new Date();
+    const todayStr = now.getUTCFullYear() + '-' +
+        String(now.getUTCMonth() + 1).padStart(2, '0') + '-' +
+        String(now.getUTCDate()).padStart(2, '0');
+
+    let storedName = localStorage.getItem('selectedElement');
+    const storedDate = localStorage.getItem('selectedElementDate');
+
+    if (storedDate !== todayStr) {
+        try {
+            const resp = await fetch('../data/daily_element.json');
+            const daily = await resp.json();
+            if (daily.date === todayStr && daily.element) {
+                storedName = daily.element;
+            }
+        } catch (e) {
+            console.error('Failed to fetch daily element:', e);
+        }
+    }
+
     if (!storedName) { showNoElement(); return; }
 
     try {

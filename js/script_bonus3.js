@@ -26,17 +26,18 @@ async function main() {
         // Always use today's element from daily_element.json when dates match
         if (dailyData.date === todayStr && dailyData.element) {
             storedName = dailyData.element;
+            quiz = dailyData.quiz || [];
         } else if (storedDate && storedDate !== todayStr) {
             // localStorage has an explicit stale date — clear it so quiz is not mismatched
             storedName = null;
         }
+        // When daily_element.json is stale, quiz stays empty → "not available" message shown
 
         if (storedName) {
             targetElement = elemData.find(
                 el => el.Element.toLowerCase() === storedName.toLowerCase()
             );
         }
-        quiz = dailyData.quiz || [];
     } catch (e) {
         console.error('Failed to load data:', e);
     }

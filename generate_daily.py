@@ -72,7 +72,76 @@ try:
         random.shuffle(options)
         return {"question": question, "options": options, "correct": correct_str}
 
-    templates = [
+    def is_nonempty(v):
+        """Return True when v is non-None and not blank after stripping."""
+        return v is not None and len(str(v).strip()) > 0
+
+    # Priority templates: interesting/non-temperature questions, preferred first
+    priority_templates = [
+        (
+            "recycling_rate",
+            f"What is the recycling rate of {name}?",
+            lambda v: str(v),
+            is_nonempty,
+        ),
+        (
+            "sources",
+            f"How is {name} typically obtained?",
+            lambda v: str(v).strip(),
+            is_nonempty,
+        ),
+        (
+            "price_per_kg",
+            f"What is the approximate price of {name} per kilogram?",
+            lambda v: f"${v:,.2f}/kg",
+            lambda v: v is not None,
+        ),
+        (
+            "discovery_year",
+            f"When was {name} first discovered?",
+            lambda v: str(v),
+            is_nonempty,
+        ),
+        (
+            "abundance_crust",
+            f"What is the crustal abundance of {name}?",
+            lambda v: f"{v} mg/kg",
+            lambda v: v is not None,
+        ),
+        (
+            "discoverers",
+            f"Who discovered {name}?",
+            lambda v: str(v).strip(),
+            is_nonempty,
+        ),
+        (
+            "goldschmidt_class",
+            f"What is the Goldschmidt classification of {name}?",
+            lambda v: str(v),
+            is_nonempty,
+        ),
+        (
+            "geochemical_class",
+            f"What is the geochemical class of {name}?",
+            lambda v: str(v),
+            is_nonempty,
+        ),
+        (
+            "top_3_producers",
+            f"Which countries are the top producers of {name}?",
+            lambda v: str(v),
+            is_nonempty,
+        ),
+        (
+            "relative_supply_risk",
+            f"What is the relative supply risk index for {name}?",
+            lambda v: str(v),
+            lambda v: v is not None,
+        ),
+    ]
+
+    # Temperature templates: limit to at most 1 per quiz
+    temperature_templates = [
         (
             "melting_point",
             f"What is the melting point of {name}?",
@@ -85,23 +154,15 @@ try:
             lambda v: f"{v - 273.15:.1f} °C",
             lambda v: v is not None,
         ),
+    ]
+
+    # Numeric fallback templates
+    numeric_templates = [
         (
             "density",
             f"What is the density of {name}?",
             lambda v: f"{v} g/cm³",
             lambda v: v is not None,
-        ),
-        (
-            "discovery_year",
-            f"When was {name} first discovered?",
-            lambda v: str(v),
-            lambda v: v is not None,
-        ),
-        (
-            "discoverers",
-            f"Who discovered {name}?",
-            lambda v: str(v),
-            lambda v: v is not None and len(str(v)) > 0,
         ),
         (
             "electronegativity_pauling",
@@ -115,17 +176,32 @@ try:
             lambda v: f"{v} pm",
             lambda v: v is not None,
         ),
-        (
-            "abundance_crust",
-            f"What is the crustal abundance of {name}?",
-            lambda v: f"{v} mg/kg",
-            lambda v: v is not None,
-        ),
     ]
 
-    random.shuffle(templates)
+    random.shuffle(priority_templates)
+    random.shuffle(temperature_templates)
+    random.shuffle(numeric_templates)
+
     quiz = []
-    for attr, question, fmt_fn, valid_fn in templates:
+
+    # Fill from priority templates first
+    for attr, question, fmt_fn, valid_fn in priority_templates:
+        if len(quiz) == 3:
+            break
+        q = make_question(attr, question, fmt_fn, valid_fn)
+        if q:
+            quiz.append(q)
+
+    # Add at most 1 temperature question if we still need more
+    if len(quiz) < 3:
+        for attr, question, fmt_fn, valid_fn in temperature_templates:
+            q = make_question(attr, question, fmt_fn, valid_fn)
+            if q:
+                quiz.append(q)
+                break  # Only 1 temperature question allowed
+
+    # Fill any remaining slots with numeric fallback questions
+    for attr, question, fmt_fn, valid_fn in numeric_templates:
         if len(quiz) == 3:
             break
         q = make_question(attr, question, fmt_fn, valid_fn)

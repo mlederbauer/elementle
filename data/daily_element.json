@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-18",
-  "element": "Cadmium",
-  "atomicNumber": 48,
-  "symbol": "Cd",
+  "date": "2026-03-19",
+  "element": "Silver",
+  "atomicNumber": 47,
+  "symbol": "Ag",
   "quiz": [
     {
-      "question": "When was Cadmium first discovered?",
+      "question": "Who discovered Silver?",
       "options": [
         {
-          "text": "1817",
-          "element": "Cadmium"
+          "text": "Carlo Perrier, \u00c9millo Segr\u00e8",
+          "element": "Technetium"
         },
         {
-          "text": "1923",
-          "element": "Hafnium"
+          "text": "A. Ghiorso, et al",
+          "element": "Rutherfordium"
         },
         {
-          "text": "1804",
-          "element": "Iridium"
-        },
-        {
-          "text": "1898",
-          "element": "Xenon"
-        }
-      ],
-      "correct": "1817"
-    },
-    {
-      "question": "What is the boiling point of Cadmium?",
-      "options": [
-        {
-          "text": "616.0 \u00b0C",
-          "element": "Arsenic"
-        },
-        {
-          "text": "4600.0 \u00b0C",
-          "element": "Hafnium"
-        },
-        {
-          "text": "767.0 \u00b0C",
-          "element": "Cadmium"
-        },
-        {
-          "text": "4428.0 \u00b0C",
-          "element": "Iridium"
-        }
-      ],
-      "correct": "767.0 \u00b0C"
-    },
-    {
-      "question": "Who discovered Cadmium?",
-      "options": [
-        {
-          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
-          "element": "Iridium"
-        },
-        {
-          "text": "Fredrich Stromeyer",
-          "element": "Cadmium"
-        },
-        {
-          "text": "Dirk Coster, Georg von Hevesy",
-          "element": "Hafnium"
+          "text": "William Wollaston",
+          "element": "Palladium"
         },
         {
           "text": "Known to the ancients.",
-          "element": "Arsenic"
+          "element": "Silver"
         }
       ],
-      "correct": "Fredrich Stromeyer"
+      "correct": "Known to the ancients."
+    },
+    {
+      "question": "Which countries are the top producers of Silver?",
+      "options": [
+        {
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Palladium"
+        },
+        {
+          "text": "1) China  2) Australia  3) USA",
+          "element": "Gold"
+        },
+        {
+          "text": "1) Mexico  2) Peru  3) China",
+          "element": "Silver"
+        },
+        {
+          "text": "1) China  2) USA  3) India",
+          "element": "Carbon"
+        }
+      ],
+      "correct": "1) Mexico  2) Peru  3) China"
+    },
+    {
+      "question": "What is the Goldschmidt classification of Silver?",
+      "options": [
+        {
+          "text": "chalcophile",
+          "element": "Silver"
+        },
+        {
+          "text": "atmophile",
+          "element": "Carbon"
+        },
+        {
+          "text": "synthetic",
+          "element": "Rutherfordium"
+        },
+        {
+          "text": "siderophile",
+          "element": "Palladium"
+        }
+      ],
+      "correct": "chalcophile"
     }
   ]
 }

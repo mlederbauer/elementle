@@ -115,12 +115,6 @@ try:
             is_nonempty,
         ),
         (
-            "goldschmidt_class",
-            f"What is the Goldschmidt classification of {name}?",
-            lambda v: str(v),
-            is_nonempty,
-        ),
-        (
             "geochemical_class",
             f"What is the geochemical class of {name}?",
             lambda v: str(v),
@@ -186,14 +180,14 @@ try:
 
     # Fill from priority templates first
     for attr, question, fmt_fn, valid_fn in priority_templates:
-        if len(quiz) == 3:
+        if len(quiz) == 4:
             break
         q = make_question(attr, question, fmt_fn, valid_fn)
         if q:
             quiz.append(q)
 
     # Add at most 1 temperature question if we still need more
-    if len(quiz) < 3:
+    if len(quiz) < 4:
         for attr, question, fmt_fn, valid_fn in temperature_templates:
             q = make_question(attr, question, fmt_fn, valid_fn)
             if q:
@@ -202,7 +196,7 @@ try:
 
     # Fill any remaining slots with numeric fallback questions
     for attr, question, fmt_fn, valid_fn in numeric_templates:
-        if len(quiz) == 3:
+        if len(quiz) == 4:
             break
         q = make_question(attr, question, fmt_fn, valid_fn)
         if q:

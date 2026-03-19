@@ -5,70 +5,92 @@
   "symbol": "Ag",
   "quiz": [
     {
+      "question": "What is the crustal abundance of Silver?",
+      "options": [
+        {
+          "text": "0.85 mg/kg",
+          "element": "Thallium"
+        },
+        {
+          "text": "0.075 mg/kg",
+          "element": "Silver"
+        },
+        {
+          "text": "0.001 mg/kg",
+          "element": "Rhodium"
+        },
+        {
+          "text": "9e-07 mg/kg",
+          "element": "Radium"
+        }
+      ],
+      "correct": "0.075 mg/kg"
+    },
+    {
+      "question": "What is the approximate price of Silver per kilogram?",
+      "options": [
+        {
+          "text": "$4,200.00/kg",
+          "element": "Thallium"
+        },
+        {
+          "text": "$32.80/kg",
+          "element": "Cobalt"
+        },
+        {
+          "text": "$521.00/kg",
+          "element": "Silver"
+        },
+        {
+          "text": "$147,000.00/kg",
+          "element": "Rhodium"
+        }
+      ],
+      "correct": "$521.00/kg"
+    },
+    {
+      "question": "How is Silver typically obtained?",
+      "options": [
+        {
+          "text": "Found in ores called argentite (AgS), light ruby silver (Ag3AsS3), dark ruby silver(Ag3SbS3) and brittle silver.",
+          "element": "Silver"
+        },
+        {
+          "text": "Found in iron pyrites. Also in crookesite, hutchinsonite and lorandite. Most is recovered from the byproducts of lead and zinc refining.",
+          "element": "Thallium"
+        },
+        {
+          "text": "Obtained as a by-product of nickel production.",
+          "element": "Rhodium"
+        },
+        {
+          "text": "Found in uranium ores at 1 part per 3 million parts uranium.",
+          "element": "Radium"
+        }
+      ],
+      "correct": "Found in ores called argentite (AgS), light ruby silver (Ag3AsS3), dark ruby silver(Ag3SbS3) and brittle silver."
+    },
+    {
       "question": "Who discovered Silver?",
       "options": [
         {
-          "text": "Carlo Perrier, \u00c9millo Segr\u00e8",
-          "element": "Technetium"
+          "text": "Pierre and Marie Curie",
+          "element": "Radium"
         },
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Rutherfordium"
-        },
-        {
-          "text": "William Wollaston",
-          "element": "Palladium"
+          "text": "Sir William Crookes",
+          "element": "Thallium"
         },
         {
           "text": "Known to the ancients.",
           "element": "Silver"
+        },
+        {
+          "text": "William Wollaston",
+          "element": "Rhodium"
         }
       ],
       "correct": "Known to the ancients."
-    },
-    {
-      "question": "Which countries are the top producers of Silver?",
-      "options": [
-        {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Palladium"
-        },
-        {
-          "text": "1) China  2) Australia  3) USA",
-          "element": "Gold"
-        },
-        {
-          "text": "1) Mexico  2) Peru  3) China",
-          "element": "Silver"
-        },
-        {
-          "text": "1) China  2) USA  3) India",
-          "element": "Carbon"
-        }
-      ],
-      "correct": "1) Mexico  2) Peru  3) China"
-    },
-    {
-      "question": "What is the Goldschmidt classification of Silver?",
-      "options": [
-        {
-          "text": "chalcophile",
-          "element": "Silver"
-        },
-        {
-          "text": "atmophile",
-          "element": "Carbon"
-        },
-        {
-          "text": "synthetic",
-          "element": "Rutherfordium"
-        },
-        {
-          "text": "siderophile",
-          "element": "Palladium"
-        }
-      ],
-      "correct": "chalcophile"
     }
   ]
 }

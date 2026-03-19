@@ -1,74 +1,74 @@
 {
-  "date": "2026-03-18",
-  "element": "Cadmium",
-  "atomicNumber": 48,
-  "symbol": "Cd",
+  "date": "2026-03-19",
+  "element": "Silver",
+  "atomicNumber": 47,
+  "symbol": "Ag",
   "quiz": [
     {
-      "question": "When was Cadmium first discovered?",
+      "question": "What is the atomic radius of Silver?",
       "options": [
         {
-          "text": "1817",
-          "element": "Cadmium"
+          "text": "130.0 pm",
+          "element": "Gallium"
         },
         {
-          "text": "1923",
-          "element": "Hafnium"
+          "text": "140.0 pm",
+          "element": "Tellurium"
         },
         {
-          "text": "1804",
-          "element": "Iridium"
+          "text": "160.0 pm",
+          "element": "Silver"
         },
         {
-          "text": "1898",
-          "element": "Xenon"
+          "text": "25.0 pm",
+          "element": "Hydrogen"
         }
       ],
-      "correct": "1817"
+      "correct": "160.0 pm"
     },
     {
-      "question": "What is the boiling point of Cadmium?",
+      "question": "Who discovered Silver?",
       "options": [
         {
-          "text": "616.0 \u00b0C",
-          "element": "Arsenic"
+          "text": "A. Ghiorso, et al",
+          "element": "Rutherfordium"
         },
         {
-          "text": "4600.0 \u00b0C",
-          "element": "Hafnium"
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Gallium"
         },
         {
-          "text": "767.0 \u00b0C",
-          "element": "Cadmium"
-        },
-        {
-          "text": "4428.0 \u00b0C",
-          "element": "Iridium"
-        }
-      ],
-      "correct": "767.0 \u00b0C"
-    },
-    {
-      "question": "Who discovered Cadmium?",
-      "options": [
-        {
-          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
-          "element": "Iridium"
-        },
-        {
-          "text": "Fredrich Stromeyer",
-          "element": "Cadmium"
-        },
-        {
-          "text": "Dirk Coster, Georg von Hevesy",
-          "element": "Hafnium"
+          "text": "Henry Cavendish",
+          "element": "Hydrogen"
         },
         {
           "text": "Known to the ancients.",
-          "element": "Arsenic"
+          "element": "Silver"
         }
       ],
-      "correct": "Fredrich Stromeyer"
+      "correct": "Known to the ancients."
+    },
+    {
+      "question": "What is the crustal abundance of Silver?",
+      "options": [
+        {
+          "text": "1400.0 mg/kg",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "0.0015 mg/kg",
+          "element": "Osmium"
+        },
+        {
+          "text": "0.075 mg/kg",
+          "element": "Silver"
+        },
+        {
+          "text": "19.0 mg/kg",
+          "element": "Gallium"
+        }
+      ],
+      "correct": "0.075 mg/kg"
     }
   ]
 }

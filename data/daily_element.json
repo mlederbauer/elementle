@@ -1,100 +1,96 @@
 {
-  "date": "2026-03-19",
-  "element": "Silver",
-  "atomicNumber": 47,
-  "symbol": "Ag",
-  "date": "2026-03-19",
-  "element": "Silver",
-  "atomicNumber": 47,
-  "symbol": "Ag",
+  "date": "2026-03-20",
+  "element": "Nitrogen",
+  "atomicNumber": 7,
+  "symbol": "N",
   "quiz": [
     {
-      "question": "What is the approximate price of Silver per kilogram?",
+      "question": "What is the geochemical class of Nitrogen?",
       "options": [
         {
-          "text": "$40.10/kg",
-          "element": "Molybdenum"
+          "text": "semi-volatile",
+          "element": "Sulfur"
         },
         {
-          "text": "$521.00/kg",
-          "element": "Silver"
+          "text": "volatile",
+          "element": "Nitrogen"
         },
         {
-          "text": "$147,000.00/kg",
-          "element": "Rhodium"
+          "text": "noble metal",
+          "element": "Palladium"
         },
         {
-          "text": "$31.40/kg",
-          "element": "Europium"
+          "text": "rare earth & related",
+          "element": "Lanthanum"
         }
       ],
-      "correct": "$521.00/kg"
+      "correct": "volatile"
     },
     {
-      "question": "Which countries are the top producers of Silver?",
+      "question": "What is the approximate price of Nitrogen per kilogram?",
       "options": [
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Rhodium"
+          "text": "$0.14/kg",
+          "element": "Nitrogen"
         },
         {
-          "text": "1) China  2) USA  3) Chile",
-          "element": "Molybdenum"
+          "text": "$0.09/kg",
+          "element": "Sulfur"
         },
         {
-          "text": "1) Mexico  2) Peru  3) China",
-          "element": "Silver"
+          "text": "$49,500.00/kg",
+          "element": "Palladium"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Europium"
+          "text": "$4.78/kg",
+          "element": "Lanthanum"
         }
       ],
-      "correct": "1) Mexico  2) Peru  3) China"
+      "correct": "$0.14/kg"
     },
     {
-      "question": "Who discovered Silver?",
+      "question": "What is the crustal abundance of Nitrogen?",
       "options": [
         {
-          "text": "Eug\u00e8ne Demar\u00e7ay",
-          "element": "Europium"
+          "text": "0.015 mg/kg",
+          "element": "Palladium"
+        },
+        {
+          "text": "39.0 mg/kg",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "19.0 mg/kg",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "350.0 mg/kg",
+          "element": "Sulfur"
+        }
+      ],
+      "correct": "19.0 mg/kg"
+    },
+    {
+      "question": "Who discovered Nitrogen?",
+      "options": [
+        {
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Oganesson"
+        },
+        {
+          "text": "Daniel Rutherford",
+          "element": "Nitrogen"
         },
         {
           "text": "William Wollaston",
-          "element": "Rhodium"
+          "element": "Palladium"
         },
         {
-          "text": "Carl Wilhelm Scheele",
-          "element": "Molybdenum"
-        },
-        {
-          "text": "Known to the ancients.",
-          "element": "Silver"
+          "text": "Carl Mosander",
+          "element": "Lanthanum"
         }
       ],
-      "correct": "Known to the ancients."
-    },
-    {
-      "question": "What is the crustal abundance of Silver?",
-      "options": [
-        {
-          "text": "2.0 mg/kg",
-          "element": "Europium"
-        },
-        {
-          "text": "0.001 mg/kg",
-          "element": "Rhodium"
-        },
-        {
-          "text": "0.075 mg/kg",
-          "element": "Silver"
-        },
-        {
-          "text": "1.2 mg/kg",
-          "element": "Molybdenum"
-        }
-      ],
-      "correct": "0.075 mg/kg"
+      "correct": "Daniel Rutherford"
     }
   ]
 }

@@ -1,96 +1,96 @@
 {
-  "date": "2026-03-20",
-  "element": "Nitrogen",
-  "atomicNumber": 7,
-  "symbol": "N",
+  "date": "2026-03-21",
+  "element": "Uranium",
+  "atomicNumber": 92,
+  "symbol": "U",
   "quiz": [
     {
-      "question": "What is the geochemical class of Nitrogen?",
+      "question": "Who discovered Uranium?",
       "options": [
         {
-          "text": "semi-volatile",
-          "element": "Sulfur"
+          "text": "Martin Klaproth",
+          "element": "Uranium"
         },
         {
-          "text": "volatile",
-          "element": "Nitrogen"
+          "text": "Known to the ancients",
+          "element": "Carbon"
         },
         {
-          "text": "noble metal",
-          "element": "Palladium"
+          "text": "Julius Scaliger",
+          "element": "Platinum"
         },
         {
-          "text": "rare earth & related",
-          "element": "Lanthanum"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Neodymium"
         }
       ],
-      "correct": "volatile"
+      "correct": "Martin Klaproth"
     },
     {
-      "question": "What is the approximate price of Nitrogen per kilogram?",
+      "question": "When was Uranium first discovered?",
       "options": [
         {
-          "text": "$0.14/kg",
-          "element": "Nitrogen"
+          "text": "1735",
+          "element": "Platinum"
         },
         {
-          "text": "$0.09/kg",
-          "element": "Sulfur"
+          "text": "1789",
+          "element": "Uranium"
         },
         {
-          "text": "$49,500.00/kg",
-          "element": "Palladium"
+          "text": "1950",
+          "element": "Californium"
         },
         {
-          "text": "$4.78/kg",
-          "element": "Lanthanum"
+          "text": "1925",
+          "element": "Neodymium"
         }
       ],
-      "correct": "$0.14/kg"
+      "correct": "1789"
     },
     {
-      "question": "What is the crustal abundance of Nitrogen?",
+      "question": "What is the approximate price of Uranium per kilogram?",
       "options": [
         {
-          "text": "0.015 mg/kg",
-          "element": "Palladium"
+          "text": "$0.12/kg",
+          "element": "Carbon"
         },
         {
-          "text": "39.0 mg/kg",
-          "element": "Lanthanum"
+          "text": "$101.00/kg",
+          "element": "Uranium"
         },
         {
-          "text": "19.0 mg/kg",
-          "element": "Nitrogen"
+          "text": "$57.50/kg",
+          "element": "Neodymium"
         },
         {
-          "text": "350.0 mg/kg",
-          "element": "Sulfur"
+          "text": "$27,800.00/kg",
+          "element": "Platinum"
         }
       ],
-      "correct": "19.0 mg/kg"
+      "correct": "$101.00/kg"
     },
     {
-      "question": "Who discovered Nitrogen?",
+      "question": "What is the crustal abundance of Uranium?",
       "options": [
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Oganesson"
+          "text": "2.7 mg/kg",
+          "element": "Uranium"
         },
         {
-          "text": "Daniel Rutherford",
-          "element": "Nitrogen"
+          "text": "41.5 mg/kg",
+          "element": "Neodymium"
         },
         {
-          "text": "William Wollaston",
-          "element": "Palladium"
+          "text": "0.005 mg/kg",
+          "element": "Platinum"
         },
         {
-          "text": "Carl Mosander",
-          "element": "Lanthanum"
+          "text": "200.0 mg/kg",
+          "element": "Carbon"
         }
       ],
-      "correct": "Daniel Rutherford"
+      "correct": "2.7 mg/kg"
     }
   ]
 }

@@ -1,96 +1,96 @@
 {
-  "date": "2026-03-22",
-  "element": "Magnesium",
-  "atomicNumber": 12,
-  "symbol": "Mg",
+  "date": "2026-03-23",
+  "element": "Boron",
+  "atomicNumber": 5,
+  "symbol": "B",
   "quiz": [
     {
-      "question": "Who discovered Magnesium?",
+      "question": "Who discovered Boron?",
       "options": [
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Moscovium"
+          "text": "Per Theodor Cleve",
+          "element": "Thulium"
         },
         {
-          "text": "Marguerite Derey",
-          "element": "Francium"
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Magnesium"
+          "text": "RIKEN",
+          "element": "Nihonium"
         },
         {
-          "text": "Carl Wilhelm Scheele",
-          "element": "Chlorine"
+          "text": "W. von Hisinger, J. Berzelius, M. Klaproth",
+          "element": "Cerium"
         }
       ],
-      "correct": "Sir Humphrey Davy"
+      "correct": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard"
     },
     {
-      "question": "What is the geochemical class of Magnesium?",
+      "question": "When was Boron first discovered?",
       "options": [
         {
-          "text": "major",
-          "element": "Magnesium"
-        },
-        {
-          "text": "U/Th decay series",
-          "element": "Francium"
-        },
-        {
-          "text": "alkali metal",
-          "element": "Rubidium"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Chlorine"
-        }
-      ],
-      "correct": "major"
-    },
-    {
-      "question": "When was Magnesium first discovered?",
-      "options": [
-        {
-          "text": "1939",
-          "element": "Francium"
-        },
-        {
-          "text": "1774",
-          "element": "Chlorine"
+          "text": "2015",
+          "element": "Nihonium"
         },
         {
           "text": "1808",
-          "element": "Magnesium"
+          "element": "Boron"
         },
         {
-          "text": "2003",
-          "element": "Moscovium"
+          "text": "1803",
+          "element": "Cerium"
+        },
+        {
+          "text": "1879",
+          "element": "Thulium"
         }
       ],
       "correct": "1808"
     },
     {
-      "question": "What is the crustal abundance of Magnesium?",
+      "question": "What is the crustal abundance of Boron?",
       "options": [
         {
-          "text": "23300.0 mg/kg",
-          "element": "Magnesium"
+          "text": "0.52 mg/kg",
+          "element": "Thulium"
         },
         {
-          "text": "950.0 mg/kg",
-          "element": "Manganese"
+          "text": "10.0 mg/kg",
+          "element": "Boron"
         },
         {
-          "text": "90.0 mg/kg",
-          "element": "Rubidium"
+          "text": "66.5 mg/kg",
+          "element": "Cerium"
         },
         {
-          "text": "145.0 mg/kg",
-          "element": "Chlorine"
+          "text": "19.0 mg/kg",
+          "element": "Nitrogen"
         }
       ],
-      "correct": "23300.0 mg/kg"
+      "correct": "10.0 mg/kg"
+    },
+    {
+      "question": "What is the approximate price of Boron per kilogram?",
+      "options": [
+        {
+          "text": "$4.57/kg",
+          "element": "Cerium"
+        },
+        {
+          "text": "$3,000.00/kg",
+          "element": "Thulium"
+        },
+        {
+          "text": "$0.14/kg",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "$3.68/kg",
+          "element": "Boron"
+        }
+      ],
+      "correct": "$3.68/kg"
     }
   ]
 }

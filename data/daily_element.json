@@ -1,96 +1,74 @@
 {
-  "date": "2026-03-23",
-  "element": "Boron",
-  "atomicNumber": 5,
-  "symbol": "B",
+  "date": "2026-03-24",
+  "element": "Moscovium",
+  "atomicNumber": 115,
+  "symbol": "Mc",
   "quiz": [
     {
-      "question": "Who discovered Boron?",
+      "question": "When was Moscovium first discovered?",
       "options": [
         {
-          "text": "Per Theodor Cleve",
-          "element": "Thulium"
+          "text": "1901",
+          "element": "Europium"
         },
         {
-          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
-          "element": "Boron"
+          "text": "1802",
+          "element": "Tantalum"
         },
         {
-          "text": "RIKEN",
-          "element": "Nihonium"
+          "text": "1789",
+          "element": "Yttrium"
         },
         {
-          "text": "W. von Hisinger, J. Berzelius, M. Klaproth",
-          "element": "Cerium"
+          "text": "2003",
+          "element": "Moscovium"
         }
       ],
-      "correct": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard"
+      "correct": "2003"
     },
     {
-      "question": "When was Boron first discovered?",
+      "question": "Who discovered Moscovium?",
       "options": [
         {
-          "text": "2015",
-          "element": "Nihonium"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Moscovium"
         },
         {
-          "text": "1808",
-          "element": "Boron"
+          "text": "Anders Ekeberg",
+          "element": "Tantalum"
         },
         {
-          "text": "1803",
-          "element": "Cerium"
+          "text": "Eug\u00e8ne Demar\u00e7ay",
+          "element": "Europium"
         },
         {
-          "text": "1879",
-          "element": "Thulium"
+          "text": "Known to the ancients.",
+          "element": "Mercury"
         }
       ],
-      "correct": "1808"
+      "correct": "Joint Institute for Nuclear Research"
     },
     {
-      "question": "What is the crustal abundance of Boron?",
+      "question": "What is the density of Moscovium?",
       "options": [
         {
-          "text": "0.52 mg/kg",
-          "element": "Thulium"
+          "text": "16.4 g/cm\u00b3",
+          "element": "Tantalum"
         },
         {
-          "text": "10.0 mg/kg",
-          "element": "Boron"
+          "text": "13.5 g/cm\u00b3",
+          "element": "Moscovium"
         },
         {
-          "text": "66.5 mg/kg",
-          "element": "Cerium"
+          "text": "13.5336 g/cm\u00b3",
+          "element": "Mercury"
         },
         {
-          "text": "19.0 mg/kg",
-          "element": "Nitrogen"
+          "text": "5.24 g/cm\u00b3",
+          "element": "Europium"
         }
       ],
-      "correct": "10.0 mg/kg"
-    },
-    {
-      "question": "What is the approximate price of Boron per kilogram?",
-      "options": [
-        {
-          "text": "$4.57/kg",
-          "element": "Cerium"
-        },
-        {
-          "text": "$3,000.00/kg",
-          "element": "Thulium"
-        },
-        {
-          "text": "$0.14/kg",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "$3.68/kg",
-          "element": "Boron"
-        }
-      ],
-      "correct": "$3.68/kg"
+      "correct": "13.5 g/cm\u00b3"
     }
   ]
 }

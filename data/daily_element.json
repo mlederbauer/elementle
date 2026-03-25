@@ -1,74 +1,96 @@
 {
-  "date": "2026-03-24",
-  "element": "Moscovium",
-  "atomicNumber": 115,
-  "symbol": "Mc",
+  "date": "2026-03-25",
+  "element": "Iridium",
+  "atomicNumber": 77,
+  "symbol": "Ir",
   "quiz": [
     {
-      "question": "When was Moscovium first discovered?",
+      "question": "Who discovered Iridium?",
       "options": [
         {
-          "text": "1901",
-          "element": "Europium"
+          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
+          "element": "Astatine"
         },
         {
-          "text": "1802",
-          "element": "Tantalum"
+          "text": "A. Ghiorso, et al",
+          "element": "Rutherfordium"
         },
         {
-          "text": "1789",
-          "element": "Yttrium"
+          "text": "J\u00f6ns Berzelius",
+          "element": "Thorium"
         },
         {
-          "text": "2003",
-          "element": "Moscovium"
+          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
+          "element": "Iridium"
         }
       ],
-      "correct": "2003"
+      "correct": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils"
     },
     {
-      "question": "Who discovered Moscovium?",
+      "question": "What is the crustal abundance of Iridium?",
       "options": [
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Moscovium"
+          "text": "90.0 mg/kg",
+          "element": "Rubidium"
         },
         {
-          "text": "Anders Ekeberg",
-          "element": "Tantalum"
+          "text": "23300.0 mg/kg",
+          "element": "Magnesium"
         },
         {
-          "text": "Eug\u00e8ne Demar\u00e7ay",
-          "element": "Europium"
+          "text": "9.6 mg/kg",
+          "element": "Thorium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Mercury"
+          "text": "0.001 mg/kg",
+          "element": "Iridium"
         }
       ],
-      "correct": "Joint Institute for Nuclear Research"
+      "correct": "0.001 mg/kg"
     },
     {
-      "question": "What is the density of Moscovium?",
+      "question": "What is the approximate price of Iridium per kilogram?",
       "options": [
         {
-          "text": "16.4 g/cm\u00b3",
-          "element": "Tantalum"
+          "text": "$55,500.00/kg",
+          "element": "Iridium"
         },
         {
-          "text": "13.5 g/cm\u00b3",
-          "element": "Moscovium"
+          "text": "$15,500.00/kg",
+          "element": "Rubidium"
         },
         {
-          "text": "13.5336 g/cm\u00b3",
-          "element": "Mercury"
+          "text": "$2.32/kg",
+          "element": "Magnesium"
         },
         {
-          "text": "5.24 g/cm\u00b3",
-          "element": "Europium"
+          "text": "$287.00/kg",
+          "element": "Thorium"
         }
       ],
-      "correct": "13.5 g/cm\u00b3"
+      "correct": "$55,500.00/kg"
+    },
+    {
+      "question": "What is the geochemical class of Iridium?",
+      "options": [
+        {
+          "text": "noble metal",
+          "element": "Iridium"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Astatine"
+        },
+        {
+          "text": "major",
+          "element": "Magnesium"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Thorium"
+        }
+      ],
+      "correct": "noble metal"
     }
   ]
 }

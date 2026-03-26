@@ -1,96 +1,74 @@
 {
-  "date": "2026-03-25",
-  "element": "Iridium",
-  "atomicNumber": 77,
-  "symbol": "Ir",
+  "date": "2026-03-26",
+  "element": "Moscovium",
+  "atomicNumber": 115,
+  "symbol": "Mc",
   "quiz": [
     {
-      "question": "Who discovered Iridium?",
+      "question": "When was Moscovium first discovered?",
       "options": [
         {
-          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
-          "element": "Astatine"
+          "text": "1895",
+          "element": "Helium"
         },
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Rutherfordium"
+          "text": "1878",
+          "element": "Holmium"
         },
         {
-          "text": "J\u00f6ns Berzelius",
-          "element": "Thorium"
+          "text": "1669",
+          "element": "Phosphorus"
         },
         {
-          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
-          "element": "Iridium"
+          "text": "2003",
+          "element": "Moscovium"
         }
       ],
-      "correct": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils"
+      "correct": "2003"
     },
     {
-      "question": "What is the crustal abundance of Iridium?",
+      "question": "Who discovered Moscovium?",
       "options": [
         {
-          "text": "90.0 mg/kg",
-          "element": "Rubidium"
+          "text": "Hennig Brand",
+          "element": "Phosphorus"
         },
         {
-          "text": "23300.0 mg/kg",
-          "element": "Magnesium"
+          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
+          "element": "Helium"
         },
         {
-          "text": "9.6 mg/kg",
-          "element": "Thorium"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Moscovium"
         },
         {
-          "text": "0.001 mg/kg",
-          "element": "Iridium"
+          "text": "J.L. Soret",
+          "element": "Holmium"
         }
       ],
-      "correct": "0.001 mg/kg"
+      "correct": "Joint Institute for Nuclear Research"
     },
     {
-      "question": "What is the approximate price of Iridium per kilogram?",
+      "question": "What is the density of Moscovium?",
       "options": [
         {
-          "text": "$55,500.00/kg",
-          "element": "Iridium"
+          "text": "8.8 g/cm\u00b3",
+          "element": "Holmium"
         },
         {
-          "text": "$15,500.00/kg",
-          "element": "Rubidium"
+          "text": "0.000164 g/cm\u00b3",
+          "element": "Helium"
         },
         {
-          "text": "$2.32/kg",
-          "element": "Magnesium"
+          "text": "1.823 g/cm\u00b3",
+          "element": "Phosphorus"
         },
         {
-          "text": "$287.00/kg",
-          "element": "Thorium"
+          "text": "13.5 g/cm\u00b3",
+          "element": "Moscovium"
         }
       ],
-      "correct": "$55,500.00/kg"
-    },
-    {
-      "question": "What is the geochemical class of Iridium?",
-      "options": [
-        {
-          "text": "noble metal",
-          "element": "Iridium"
-        },
-        {
-          "text": "U/Th decay series",
-          "element": "Astatine"
-        },
-        {
-          "text": "major",
-          "element": "Magnesium"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Thorium"
-        }
-      ],
-      "correct": "noble metal"
+      "correct": "13.5 g/cm\u00b3"
     }
   ]
 }

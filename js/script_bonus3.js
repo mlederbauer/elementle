@@ -110,15 +110,18 @@ function handleAnswer(qi, chosen, grid, q) {
 
 function showResult() {
     const result = document.getElementById('result');
-    const msgs = [
+    const partialMsgs = [
         'Better luck tomorrow!',
         'One right — keep going!',
         'Two out of three — not bad!',
-        'Perfect score! You know your elements.',
+        'So close!',
     ];
+    const msg = score === quiz.length
+        ? 'Perfect score! You know your elements.'
+        : (partialMsgs[score] ?? `${score} right — keep going!`);
     const colorClass = score === quiz.length ? 'result-win' : score >= 1 ? 'result-mid' : 'result-lose';
     result.innerHTML = `
-        <p class="${colorClass}">${score}/${quiz.length} correct — ${msgs[score]}</p>
+        <p class="${colorClass}">${score}/${quiz.length} correct — ${msg}</p>
         <p class="result-sub">Come back tomorrow for a new element.</p>
         <a href="../index.html" class="btn-home">Back to main game</a>`;
 

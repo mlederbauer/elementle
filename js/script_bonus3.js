@@ -110,15 +110,16 @@ function handleAnswer(qi, chosen, grid, q) {
 
 function showResult() {
     const result = document.getElementById('result');
-    const partialMsgs = [
-        'Better luck tomorrow!',
-        'One right — keep going!',
-        'Two out of three — not bad!',
-        'So close!',
-    ];
-    const msg = score === quiz.length
-        ? 'Perfect score! You know your elements.'
-        : (partialMsgs[score] ?? `${score} right — keep going!`);
+    let msg;
+    if (score === quiz.length) {
+        msg = 'Perfect score! You know your elements.';
+    } else if (score === 0) {
+        msg = 'Better luck tomorrow!';
+    } else if (score === quiz.length - 1) {
+        msg = 'So close!';
+    } else {
+        msg = `${score} right — keep going!`;
+    }
     const colorClass = score === quiz.length ? 'result-win' : score >= 1 ? 'result-mid' : 'result-lose';
     result.innerHTML = `
         <p class="${colorClass}">${score}/${quiz.length} correct — ${msg}</p>

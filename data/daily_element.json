@@ -1,74 +1,96 @@
 {
-  "date": "2026-03-26",
-  "element": "Moscovium",
-  "atomicNumber": 115,
-  "symbol": "Mc",
+  "date": "2026-03-27",
+  "element": "Scandium",
+  "atomicNumber": 21,
+  "symbol": "Sc",
   "quiz": [
     {
-      "question": "When was Moscovium first discovered?",
+      "question": "What is the crustal abundance of Scandium?",
       "options": [
         {
-          "text": "1895",
-          "element": "Helium"
+          "text": "120.0 mg/kg",
+          "element": "Vanadium"
         },
         {
-          "text": "1878",
-          "element": "Holmium"
+          "text": "0.0085 mg/kg",
+          "element": "Bismuth"
         },
         {
-          "text": "1669",
-          "element": "Phosphorus"
+          "text": "0.001 mg/kg",
+          "element": "Iridium"
         },
         {
-          "text": "2003",
-          "element": "Moscovium"
+          "text": "22.0 mg/kg",
+          "element": "Scandium"
         }
       ],
-      "correct": "2003"
+      "correct": "22.0 mg/kg"
     },
     {
-      "question": "Who discovered Moscovium?",
+      "question": "Who discovered Scandium?",
       "options": [
         {
-          "text": "Hennig Brand",
-          "element": "Phosphorus"
+          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
+          "element": "Iridium"
         },
         {
-          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
-          "element": "Helium"
+          "text": "Lars Nilson",
+          "element": "Scandium"
         },
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Moscovium"
+          "text": "Known to the ancients.",
+          "element": "Bismuth"
         },
         {
-          "text": "J.L. Soret",
-          "element": "Holmium"
+          "text": "Nils Sefstr\u00f6m",
+          "element": "Vanadium"
         }
       ],
-      "correct": "Joint Institute for Nuclear Research"
+      "correct": "Lars Nilson"
     },
     {
-      "question": "What is the density of Moscovium?",
+      "question": "What is the geochemical class of Scandium?",
       "options": [
         {
-          "text": "8.8 g/cm\u00b3",
-          "element": "Holmium"
+          "text": "first series transition metal",
+          "element": "Scandium"
         },
         {
-          "text": "0.000164 g/cm\u00b3",
-          "element": "Helium"
+          "text": "major",
+          "element": "Sodium"
         },
         {
-          "text": "1.823 g/cm\u00b3",
-          "element": "Phosphorus"
+          "text": "noble metal",
+          "element": "Iridium"
         },
         {
-          "text": "13.5 g/cm\u00b3",
-          "element": "Moscovium"
+          "text": "U/Th decay series",
+          "element": "Radon"
         }
       ],
-      "correct": "13.5 g/cm\u00b3"
+      "correct": "first series transition metal"
+    },
+    {
+      "question": "Which countries are the top producers of Scandium?",
+      "options": [
+        {
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Iridium"
+        },
+        {
+          "text": "1) South Africa  2) China  3) Russia",
+          "element": "Vanadium"
+        },
+        {
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Scandium"
+        },
+        {
+          "text": "1) China  2) Mexico  3) Japan",
+          "element": "Bismuth"
+        }
+      ],
+      "correct": "1) China  2) Russia  3) Malaysia"
     }
   ]
 }

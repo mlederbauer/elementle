@@ -1,96 +1,96 @@
 {
-  "date": "2026-03-27",
-  "element": "Scandium",
-  "atomicNumber": 21,
-  "symbol": "Sc",
+  "date": "2026-03-28",
+  "element": "Chlorine",
+  "atomicNumber": 17,
+  "symbol": "Cl",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Scandium?",
+      "question": "What is the geochemical class of Chlorine?",
       "options": [
-        {
-          "text": "120.0 mg/kg",
-          "element": "Vanadium"
-        },
-        {
-          "text": "0.0085 mg/kg",
-          "element": "Bismuth"
-        },
-        {
-          "text": "0.001 mg/kg",
-          "element": "Iridium"
-        },
-        {
-          "text": "22.0 mg/kg",
-          "element": "Scandium"
-        }
-      ],
-      "correct": "22.0 mg/kg"
-    },
-    {
-      "question": "Who discovered Scandium?",
-      "options": [
-        {
-          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
-          "element": "Iridium"
-        },
-        {
-          "text": "Lars Nilson",
-          "element": "Scandium"
-        },
-        {
-          "text": "Known to the ancients.",
-          "element": "Bismuth"
-        },
-        {
-          "text": "Nils Sefstr\u00f6m",
-          "element": "Vanadium"
-        }
-      ],
-      "correct": "Lars Nilson"
-    },
-    {
-      "question": "What is the geochemical class of Scandium?",
-      "options": [
-        {
-          "text": "first series transition metal",
-          "element": "Scandium"
-        },
-        {
-          "text": "major",
-          "element": "Sodium"
-        },
         {
           "text": "noble metal",
-          "element": "Iridium"
+          "element": "Platinum"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Chlorine"
         },
         {
           "text": "U/Th decay series",
-          "element": "Radon"
+          "element": "Protactinium"
+        },
+        {
+          "text": "volatile",
+          "element": "Xenon"
         }
       ],
-      "correct": "first series transition metal"
+      "correct": "semi-volatile"
     },
     {
-      "question": "Which countries are the top producers of Scandium?",
+      "question": "When was Chlorine first discovered?",
       "options": [
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Iridium"
+          "text": "1774",
+          "element": "Chlorine"
         },
         {
-          "text": "1) South Africa  2) China  3) Russia",
-          "element": "Vanadium"
+          "text": "1917",
+          "element": "Protactinium"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Scandium"
+          "text": "1898",
+          "element": "Xenon"
         },
         {
-          "text": "1) China  2) Mexico  3) Japan",
-          "element": "Bismuth"
+          "text": "1818",
+          "element": "Selenium"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia"
+      "correct": "1774"
+    },
+    {
+      "question": "What is the crustal abundance of Chlorine?",
+      "options": [
+        {
+          "text": "0.05 mg/kg",
+          "element": "Selenium"
+        },
+        {
+          "text": "1.4e-06 mg/kg",
+          "element": "Protactinium"
+        },
+        {
+          "text": "0.2 mg/kg",
+          "element": "Antimony"
+        },
+        {
+          "text": "145.0 mg/kg",
+          "element": "Chlorine"
+        }
+      ],
+      "correct": "145.0 mg/kg"
+    },
+    {
+      "question": "What is the approximate price of Chlorine per kilogram?",
+      "options": [
+        {
+          "text": "$21.40/kg",
+          "element": "Selenium"
+        },
+        {
+          "text": "$1,800.00/kg",
+          "element": "Xenon"
+        },
+        {
+          "text": "$0.08/kg",
+          "element": "Chlorine"
+        },
+        {
+          "text": "$5.79/kg",
+          "element": "Antimony"
+        }
+      ],
+      "correct": "$0.08/kg"
     }
   ]
 }

@@ -1,96 +1,96 @@
 {
-  "date": "2026-03-28",
-  "element": "Chlorine",
-  "atomicNumber": 17,
-  "symbol": "Cl",
+  "date": "2026-03-29",
+  "element": "Promethium",
+  "atomicNumber": 61,
+  "symbol": "Pm",
   "quiz": [
     {
-      "question": "What is the geochemical class of Chlorine?",
+      "question": "When was Promethium first discovered?",
       "options": [
         {
-          "text": "noble metal",
-          "element": "Platinum"
+          "text": "1974",
+          "element": "Seaborgium"
         },
         {
-          "text": "semi-volatile",
-          "element": "Chlorine"
+          "text": "1739",
+          "element": "Cobalt"
         },
+        {
+          "text": "1861",
+          "element": "Thallium"
+        },
+        {
+          "text": "1945",
+          "element": "Promethium"
+        }
+      ],
+      "correct": "1945"
+    },
+    {
+      "question": "What is the approximate price of Promethium per kilogram?",
+      "options": [
+        {
+          "text": "$460,000.00/kg",
+          "element": "Promethium"
+        },
+        {
+          "text": "$57.50/kg",
+          "element": "Neodymium"
+        },
+        {
+          "text": "$32.80/kg",
+          "element": "Cobalt"
+        },
+        {
+          "text": "$4,200.00/kg",
+          "element": "Thallium"
+        }
+      ],
+      "correct": "$460,000.00/kg"
+    },
+    {
+      "question": "Who discovered Promethium?",
+      "options": [
+        {
+          "text": "Sir William Crookes",
+          "element": "Thallium"
+        },
+        {
+          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
+          "element": "Seaborgium"
+        },
+        {
+          "text": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell",
+          "element": "Promethium"
+        },
+        {
+          "text": "George Brandt",
+          "element": "Cobalt"
+        }
+      ],
+      "correct": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell"
+    },
+    {
+      "question": "What is the geochemical class of Promethium?",
+      "options": [
         {
           "text": "U/Th decay series",
-          "element": "Protactinium"
+          "element": "Radon"
         },
         {
           "text": "volatile",
-          "element": "Xenon"
+          "element": "Neon"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Promethium"
+        },
+        {
+          "text": "first series transition metal",
+          "element": "Cobalt"
         }
       ],
-      "correct": "semi-volatile"
-    },
-    {
-      "question": "When was Chlorine first discovered?",
-      "options": [
-        {
-          "text": "1774",
-          "element": "Chlorine"
-        },
-        {
-          "text": "1917",
-          "element": "Protactinium"
-        },
-        {
-          "text": "1898",
-          "element": "Xenon"
-        },
-        {
-          "text": "1818",
-          "element": "Selenium"
-        }
-      ],
-      "correct": "1774"
-    },
-    {
-      "question": "What is the crustal abundance of Chlorine?",
-      "options": [
-        {
-          "text": "0.05 mg/kg",
-          "element": "Selenium"
-        },
-        {
-          "text": "1.4e-06 mg/kg",
-          "element": "Protactinium"
-        },
-        {
-          "text": "0.2 mg/kg",
-          "element": "Antimony"
-        },
-        {
-          "text": "145.0 mg/kg",
-          "element": "Chlorine"
-        }
-      ],
-      "correct": "145.0 mg/kg"
-    },
-    {
-      "question": "What is the approximate price of Chlorine per kilogram?",
-      "options": [
-        {
-          "text": "$21.40/kg",
-          "element": "Selenium"
-        },
-        {
-          "text": "$1,800.00/kg",
-          "element": "Xenon"
-        },
-        {
-          "text": "$0.08/kg",
-          "element": "Chlorine"
-        },
-        {
-          "text": "$5.79/kg",
-          "element": "Antimony"
-        }
-      ],
-      "correct": "$0.08/kg"
+      "correct": "rare earth & related"
     }
   ]
 }

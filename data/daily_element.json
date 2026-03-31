@@ -1,96 +1,96 @@
 {
-  "date": "2026-03-30",
-  "element": "Silver",
-  "atomicNumber": 47,
-  "symbol": "Ag",
+  "date": "2026-03-31",
+  "element": "Nickel",
+  "atomicNumber": 28,
+  "symbol": "Ni",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Silver?",
+      "question": "Who discovered Nickel?",
       "options": [
         {
-          "text": "0.075 mg/kg",
-          "element": "Silver"
+          "text": "E.M. McMillan, P.H. Abelson",
+          "element": "Neptunium"
         },
         {
-          "text": "84.0 mg/kg",
-          "element": "Nickel"
-        },
-        {
-          "text": "20.0 mg/kg",
-          "element": "Lithium"
-        },
-        {
-          "text": "2.4 mg/kg",
-          "element": "Bromine"
-        }
-      ],
-      "correct": "0.075 mg/kg"
-    },
-    {
-      "question": "Who discovered Silver?",
-      "options": [
-        {
-          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
-          "element": "Astatine"
-        },
-        {
-          "text": "Johann Arfwedson",
-          "element": "Lithium"
-        },
-        {
-          "text": "Known to the ancients.",
-          "element": "Silver"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Darmstadtium"
         },
         {
           "text": "Axel Cronstedt",
           "element": "Nickel"
+        },
+        {
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Moscovium"
         }
       ],
-      "correct": "Known to the ancients."
+      "correct": "Axel Cronstedt"
     },
     {
-      "question": "Which countries are the top producers of Silver?",
+      "question": "What is the approximate price of Nickel per kilogram?",
       "options": [
         {
-          "text": "1) Russia  2) Indonesia  3) Philippines",
-          "element": "Nickel"
+          "text": "$658.00/kg",
+          "element": "Terbium"
         },
         {
-          "text": "1) Australia  2) Chile  3) China",
-          "element": "Lithium"
-        },
-        {
-          "text": "1) USA  2) China  3) Israel",
-          "element": "Bromine"
-        },
-        {
-          "text": "1) Mexico  2) Peru  3) China",
-          "element": "Silver"
-        }
-      ],
-      "correct": "1) Mexico  2) Peru  3) China"
-    },
-    {
-      "question": "What is the approximate price of Silver per kilogram?",
-      "options": [
-        {
-          "text": "$521.00/kg",
-          "element": "Silver"
-        },
-        {
-          "text": "$81.40/kg",
-          "element": "Lithium"
-        },
-        {
-          "text": "$60,000,000,000.00/kg",
-          "element": "Californium"
+          "text": "$6,490,000.00/kg",
+          "element": "Plutonium"
         },
         {
           "text": "$13.90/kg",
           "element": "Nickel"
+        },
+        {
+          "text": "$660,000.00/kg",
+          "element": "Neptunium"
         }
       ],
-      "correct": "$521.00/kg"
+      "correct": "$13.90/kg"
+    },
+    {
+      "question": "When was Nickel first discovered?",
+      "options": [
+        {
+          "text": "1994",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "1751",
+          "element": "Nickel"
+        },
+        {
+          "text": "1940",
+          "element": "Neptunium"
+        },
+        {
+          "text": "2003",
+          "element": "Moscovium"
+        }
+      ],
+      "correct": "1751"
+    },
+    {
+      "question": "What is the geochemical class of Nickel?",
+      "options": [
+        {
+          "text": "first series transition metal",
+          "element": "Nickel"
+        },
+        {
+          "text": "alkali metal",
+          "element": "Rubidium"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Terbium"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Polonium"
+        }
+      ],
+      "correct": "first series transition metal"
     }
   ]
 }

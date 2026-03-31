@@ -207,6 +207,8 @@ function endGame(won, usedAttempts) {
     saveGameResultToLocalStorage(won);
     if (won) showBonusPageIcon();
     document.getElementById('shareBtn').style.display = 'inline-block';
+    const username = getUsername();
+    if (username) submitTodayScore(username, won, won ? usedAttempts : 0);
 }
 
 function saveGameResultToLocalStorage(won) {
@@ -534,6 +536,7 @@ function openStats() {
     });
 
     renderLeaderboard();
+    loadDailyLeaderboard();
     document.getElementById('statsModal').classList.add('open');
 }
 
@@ -582,4 +585,230 @@ function buildShareText() {
         '',
         '🔬 Play at: https://mlederbauer.github.io/elementle/'
     ].join('\n');
+}
+
+// ── Local leaderboard ─────────────────────────────────────────────────────────
+
+function renderLeaderboard() {
+    const users = getStoredUsers();
+    const currentUser = getUsername();
+    const container = document.getElementById('leaderboardTable');
+    if (!container) return;
+    container.innerHTML = '';
+
+    if (users.length === 0) {
+        const p = document.createElement('p');
+        p.className = 'lb-empty';
+        p.textContent = 'Set a username and share your stats code with friends to compare scores!';
+        container.appendChild(p);
+        return;
+    }
+
+    const rows = users.map(username => {
+        const s = loadStats(username);
+        return {
+            username,
+            played: s.played,
+            winPct: s.played ? Math.round((s.won / s.played) * 100) : 0,
+            maxStreak: s.maxStreak,
+        };
+    }).sort((a, b) => b.winPct - a.winPct || b.maxStreak - a.maxStreak);
+
+    const table = document.createElement('table');
+    table.className = 'lb-table';
+    const thead = document.createElement('thead');
+    thead.innerHTML = '<tr><th>#</th><th>Player</th><th>Played</th><th>Win %</th><th>Best 🔥</th></tr>';
+    table.appendChild(thead);
+
+    const tbody = document.createElement('tbody');
+    rows.forEach((row, i) => {
+        const tr = document.createElement('tr');
+        if (row.username === currentUser) tr.className = 'lb-me';
+        [String(i + 1), row.username, String(row.played), `${row.winPct}%`, String(row.maxStreak)].forEach(text => {
+            tr.appendChild(Object.assign(document.createElement('td'), { textContent: text }));
+        });
+        tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    container.appendChild(table);
+}
+
+// ── Export / Import stats ─────────────────────────────────────────────────────
+
+function encodePayload(str) {
+    // UTF-8 safe base64 encoding
+    try {
+        return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, (_, p1) =>
+            String.fromCharCode(parseInt(p1, 16))));
+    } catch { return ''; }
+}
+
+function decodePayload(code) {
+    // Throws on invalid base64 — callers must catch
+    return decodeURIComponent(
+        Array.from(atob(code), c => '%' + c.charCodeAt(0).toString(16).padStart(2, '0')).join(''));
+}
+
+function exportStats() {
+    const username = getUsername();
+    if (!username) { openUsernameModal(); return; }
+    const stats = loadStats();
+    const code = encodePayload(JSON.stringify({ v: 1, u: username, s: stats }));
+    if (!code) { alert('Could not generate stats code. Please try again.'); return; }
+    navigator.clipboard.writeText(code).then(() => {
+        showToast('exportToast');
+    }).catch(() => {
+        prompt('Copy this code and share it with friends:', code);
+    });
+}
+
+function importStats() {
+    const input = document.getElementById('importInput');
+    const code = (input?.value || '').trim();
+    if (!code) return;
+    try {
+        const data = JSON.parse(decodePayload(code));
+        if (!data || data.v !== 1 || !isValidUsername(data.u) || !isValidStats(data.s)) {
+            throw new Error('invalid');
+        }
+        localStorage.setItem(getUserStatsKey(data.u), JSON.stringify(data.s));
+        addUserToList(data.u);
+        if (input) input.value = '';
+        renderLeaderboard();
+        showToast('importToast');
+    } catch {
+        alert('Invalid stats code. Please check the code and try again.');
+    }
+}
+
+function showToast(id) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.style.display = 'block';
+    setTimeout(() => { el.style.display = 'none'; }, 2000);
+}
+
+function isValidUsername(name) {
+    return typeof name === 'string' && name.length >= 1 && name.length <= 20;
+}
+
+function isValidStats(s) {
+    return s &&
+        typeof s.played === 'number' && s.played >= 0 &&
+        typeof s.won === 'number' && s.won >= 0 &&
+        typeof s.currentStreak === 'number' && s.currentStreak >= 0 &&
+        typeof s.maxStreak === 'number' && s.maxStreak >= 0 &&
+        Array.isArray(s.distribution) && s.distribution.length === 6 &&
+        s.distribution.every(n => typeof n === 'number' && n >= 0);
+}
+
+// ── Supabase daily leaderboard ────────────────────────────────────────────────
+
+function getTodayISODate() {
+    return new Date().toISOString().split('T')[0];
+}
+
+async function submitTodayScore(username, won, attempts) {
+    if (!SUPABASE_URL || !SUPABASE_ANON_KEY) return;
+    try {
+        await fetch(`${SUPABASE_URL}/rest/v1/daily_scores`, {
+            method: 'POST',
+            headers: {
+                'apikey': SUPABASE_ANON_KEY,
+                'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+                'Content-Type': 'application/json',
+                'Prefer': 'resolution=merge-duplicates',
+            },
+            body: JSON.stringify({ username, game_date: getTodayISODate(), attempts, won }),
+        });
+    } catch (e) {
+        console.warn('Could not submit score to leaderboard:', e);
+    }
+}
+
+async function loadDailyLeaderboard() {
+    const section = document.getElementById('dailySection');
+    if (!section) return;
+
+    if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+        section.style.display = 'none';
+        return;
+    }
+    section.style.display = '';
+
+    const container = document.getElementById('dailyLeaderboard');
+    container.innerHTML = '<p class="lb-empty">Loading…</p>';
+
+    try {
+        const resp = await fetch(
+            `${SUPABASE_URL}/rest/v1/daily_scores?game_date=eq.${getTodayISODate()}&select=username,attempts,won&order=won.desc,attempts.asc,created_at.asc`,
+            {
+                headers: {
+                    'apikey': SUPABASE_ANON_KEY,
+                    'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+                },
+            }
+        );
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        renderDailyLeaderboard(container, await resp.json());
+    } catch {
+        container.innerHTML = '<p class="lb-empty">Could not load today\'s scores.</p>';
+    }
+}
+
+function renderDailyLeaderboard(container, scores) {
+    container.innerHTML = '';
+    if (!scores.length) {
+        const p = document.createElement('p');
+        p.className = 'lb-empty';
+        p.textContent = 'No scores yet today — be the first!';
+        container.appendChild(p);
+        return;
+    }
+
+    // Distribution chart (indices 0-5 = guesses 1-6, index 6 = loss)
+    const dist = new Array(7).fill(0);
+    scores.forEach(s => {
+        if (!s.won) { dist[6]++; }
+        else { dist[Math.min(s.attempts, 6) - 1]++; }
+    });
+    const maxVal = Math.max(1, ...dist);
+    const distDiv = document.createElement('div');
+    distDiv.className = 'daily-dist';
+    ['1', '2', '3', '4', '5', '6', '✗'].forEach((label, i) => {
+        const row = document.createElement('div');
+        row.classList.add('dist-row');
+        row.appendChild(Object.assign(document.createElement('span'),
+            { className: 'dist-num', textContent: label }));
+        const wrap = document.createElement('div');
+        wrap.classList.add('dist-bar-wrap');
+        const bar = document.createElement('div');
+        bar.classList.add('dist-bar');
+        if (i === 6) bar.classList.add('dist-bar-loss');
+        bar.style.width = `${Math.max(6, Math.round((dist[i] / maxVal) * 100))}%`;
+        bar.textContent = dist[i];
+        wrap.appendChild(bar);
+        row.appendChild(wrap);
+        distDiv.appendChild(row);
+    });
+    container.appendChild(distDiv);
+
+    // Ranked table
+    const currentUser = getUsername();
+    const table = document.createElement('table');
+    table.className = 'lb-table';
+    const thead = document.createElement('thead');
+    thead.innerHTML = '<tr><th>#</th><th>Player</th><th>Guesses</th></tr>';
+    table.appendChild(thead);
+    const tbody = document.createElement('tbody');
+    scores.forEach((s, i) => {
+        const tr = document.createElement('tr');
+        if (s.username === currentUser) tr.className = 'lb-me';
+        [String(i + 1), s.username, s.won ? String(s.attempts) : '✗'].forEach(text => {
+            tr.appendChild(Object.assign(document.createElement('td'), { textContent: text }));
+        });
+        tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    container.appendChild(table);
 }

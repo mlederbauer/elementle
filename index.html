@@ -14,6 +14,7 @@
     <header class="game-header">
         <h1>Elementle</h1>
         <div class="header-actions">
+            <button class="icon-btn" id="usernameBtn" onclick="openUsernameModal()" title="Set username">👤</button>
             <button class="icon-btn" onclick="openStats()">Stats</button>
         </div>
     </header>
@@ -62,6 +63,31 @@
             </div>
             <h3>Guess Distribution</h3>
             <div id="statsBars"></div>
+            <hr class="modal-divider">
+            <h3>Leaderboard</h3>
+            <div id="leaderboardTable"></div>
+            <div class="lb-actions">
+                <button onclick="exportStats()">📋 Copy My Stats Code</button>
+                <p id="exportToast" class="lb-toast">Stats code copied to clipboard!</p>
+                <div class="lb-import-row">
+                    <input type="text" id="importInput" placeholder="Paste a friend's stats code…" autocomplete="off">
+                    <button onclick="importStats()">Import</button>
+                </div>
+                <p id="importToast" class="lb-toast">Friend's stats imported!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Username modal -->
+    <div id="usernameModal" class="modal-overlay" onclick="closeUsernameModalOnOverlay(event)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeUsernameModal()">✕</button>
+            <h2>Your Username</h2>
+            <p class="modal-subtitle">Choose a name to track your stats and compare with friends.</p>
+            <div class="username-row">
+                <input type="text" id="usernameInput" placeholder="Enter username…" maxlength="20" autocomplete="off">
+                <button onclick="saveUsernameFromModal()">Save</button>
+            </div>
         </div>
     </div>
 

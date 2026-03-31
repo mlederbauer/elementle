@@ -33,6 +33,22 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener("click", function (e) {
         if (!e.target.closest('.autocomplete-wrapper')) closeAutocomplete();
     });
+
+    // Username setup
+    updateUsernameDisplay();
+    const usernameInput = document.getElementById('usernameInput');
+    if (usernameInput) {
+        usernameInput.addEventListener('keydown', e => { if (e.key === 'Enter') saveUsernameFromModal(); });
+    }
+    const importInput = document.getElementById('importInput');
+    if (importInput) {
+        importInput.addEventListener('keydown', e => { if (e.key === 'Enter') importStats(); });
+    }
+    // Prompt for username once on first visit
+    if (!getUsername() && !localStorage.getItem('elementle-name-asked')) {
+        try { localStorage.setItem('elementle-name-asked', '1'); } catch {}
+        setTimeout(openUsernameModal, 600);
+    }
 });
 
 // ── Normalisation ─────────────────────────────────────────────────────────────
@@ -383,9 +399,84 @@ function saveSelectedElementToLocalStorage() {
 
 const STATS_KEY = 'elementle-stats';
 
-function loadStats() {
+// ── Username ──────────────────────────────────────────────────────────────────
+
+const USERNAME_KEY = 'elementle-username';
+const USERS_KEY    = 'elementle-users';
+
+function getUsername() {
+    return localStorage.getItem(USERNAME_KEY) || null;
+}
+
+function saveUsername(name) {
+    try { localStorage.setItem(USERNAME_KEY, name); } catch {}
+    addUserToList(name);
+    updateUsernameDisplay();
+}
+
+function addUserToList(username) {
+    const users = getStoredUsers();
+    if (!users.includes(username)) {
+        users.push(username);
+        try { localStorage.setItem(USERS_KEY, JSON.stringify(users)); } catch {}
+    }
+}
+
+function getStoredUsers() {
+    try { return JSON.parse(localStorage.getItem(USERS_KEY)) || []; }
+    catch { return []; }
+}
+
+function getUserStatsKey(username) {
+    return `${STATS_KEY}-${username}`;
+}
+
+function updateUsernameDisplay() {
+    const btn = document.getElementById('usernameBtn');
+    if (!btn) return;
+    const name = getUsername();
+    btn.textContent = name ? `👤 ${name}` : '👤';
+    btn.title = name ? `Signed in as ${name}` : 'Set username';
+}
+
+function openUsernameModal() {
+    const input = document.getElementById('usernameInput');
+    if (input) { input.value = getUsername() || ''; }
+    document.getElementById('usernameModal').classList.add('open');
+    if (input) input.focus();
+}
+
+function closeUsernameModal() {
+    document.getElementById('usernameModal').classList.remove('open');
+}
+
+function closeUsernameModalOnOverlay(e) {
+    if (e.target === document.getElementById('usernameModal')) closeUsernameModal();
+}
+
+function saveUsernameFromModal() {
+    const input = document.getElementById('usernameInput');
+    const newName = (input?.value || '').trim().slice(0, 20);
+    if (!newName) return;
+    const oldName = getUsername();
+    // Migrate anonymous stats to the new named user on first-time setup
+    if (!oldName) {
+        try {
+            const anonStats = localStorage.getItem(STATS_KEY);
+            if (anonStats && !localStorage.getItem(getUserStatsKey(newName))) {
+                localStorage.setItem(getUserStatsKey(newName), anonStats);
+            }
+        } catch {}
+    }
+    saveUsername(newName);
+    closeUsernameModal();
+}
+
+function loadStats(username) {
+    const user = (username !== undefined) ? username : getUsername();
+    const key = user ? getUserStatsKey(user) : STATS_KEY;
     try {
-        const stored = JSON.parse(localStorage.getItem(STATS_KEY));
+        const stored = JSON.parse(localStorage.getItem(key));
         if (!stored) return defaultStats();
         if (!Array.isArray(stored.distribution)) stored.distribution = [0,0,0,0,0,0];
         return stored;
@@ -397,6 +488,8 @@ function defaultStats() {
 }
 
 function updateStats(won, usedAttempts) {
+    const user = getUsername();
+    const key = user ? getUserStatsKey(user) : STATS_KEY;
     const stats = loadStats();
     stats.played++;
     if (won) {
@@ -408,7 +501,7 @@ function updateStats(won, usedAttempts) {
     } else {
         stats.currentStreak = 0;
     }
-    try { localStorage.setItem(STATS_KEY, JSON.stringify(stats)); } catch {}
+    try { localStorage.setItem(key, JSON.stringify(stats)); } catch {}
 }
 
 function openStats() {
@@ -440,6 +533,7 @@ function openStats() {
         barsDiv.appendChild(row);
     });
 
+    renderLeaderboard();
     document.getElementById('statsModal').classList.add('open');
 }
 

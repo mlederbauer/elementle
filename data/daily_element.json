@@ -1,96 +1,96 @@
 {
-  "date": "2026-03-31",
-  "element": "Nickel",
-  "atomicNumber": 28,
-  "symbol": "Ni",
+  "date": "2026-04-01",
+  "element": "Tantalum",
+  "atomicNumber": 73,
+  "symbol": "Ta",
   "quiz": [
     {
-      "question": "Who discovered Nickel?",
+      "question": "Who discovered Tantalum?",
       "options": [
         {
-          "text": "E.M. McMillan, P.H. Abelson",
-          "element": "Neptunium"
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
+        },
+        {
+          "text": "Anders Ekeberg",
+          "element": "Tantalum"
+        },
+        {
+          "text": "C.F. Aver von Welsbach",
+          "element": "Neodymium"
         },
         {
           "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Darmstadtium"
-        },
-        {
-          "text": "Axel Cronstedt",
-          "element": "Nickel"
-        },
-        {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Moscovium"
+          "element": "Meitnerium"
         }
       ],
-      "correct": "Axel Cronstedt"
+      "correct": "Anders Ekeberg"
     },
     {
-      "question": "What is the approximate price of Nickel per kilogram?",
+      "question": "What is the geochemical class of Tantalum?",
       "options": [
         {
-          "text": "$658.00/kg",
-          "element": "Terbium"
-        },
-        {
-          "text": "$6,490,000.00/kg",
-          "element": "Plutonium"
-        },
-        {
-          "text": "$13.90/kg",
-          "element": "Nickel"
-        },
-        {
-          "text": "$660,000.00/kg",
-          "element": "Neptunium"
-        }
-      ],
-      "correct": "$13.90/kg"
-    },
-    {
-      "question": "When was Nickel first discovered?",
-      "options": [
-        {
-          "text": "1994",
-          "element": "Darmstadtium"
-        },
-        {
-          "text": "1751",
-          "element": "Nickel"
-        },
-        {
-          "text": "1940",
-          "element": "Neptunium"
-        },
-        {
-          "text": "2003",
-          "element": "Moscovium"
-        }
-      ],
-      "correct": "1751"
-    },
-    {
-      "question": "What is the geochemical class of Nickel?",
-      "options": [
-        {
-          "text": "first series transition metal",
-          "element": "Nickel"
-        },
-        {
-          "text": "alkali metal",
-          "element": "Rubidium"
+          "text": "high field strength",
+          "element": "Tantalum"
         },
         {
           "text": "rare earth & related",
-          "element": "Terbium"
+          "element": "Neodymium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Polonium"
+          "text": "major",
+          "element": "Iron"
+        },
+        {
+          "text": "alkali metal",
+          "element": "Potassium"
         }
       ],
-      "correct": "first series transition metal"
+      "correct": "high field strength"
+    },
+    {
+      "question": "What is the crustal abundance of Tantalum?",
+      "options": [
+        {
+          "text": "56300.0 mg/kg",
+          "element": "Iron"
+        },
+        {
+          "text": "41.5 mg/kg",
+          "element": "Neodymium"
+        },
+        {
+          "text": "2.0 mg/kg",
+          "element": "Tantalum"
+        },
+        {
+          "text": "20900.0 mg/kg",
+          "element": "Potassium"
+        }
+      ],
+      "correct": "2.0 mg/kg"
+    },
+    {
+      "question": "When was Tantalum first discovered?",
+      "options": [
+        {
+          "text": "1925",
+          "element": "Neodymium"
+        },
+        {
+          "text": "1970",
+          "element": "Dubnium"
+        },
+        {
+          "text": "1982",
+          "element": "Meitnerium"
+        },
+        {
+          "text": "1802",
+          "element": "Tantalum"
+        }
+      ],
+      "correct": "1802"
     }
   ]
 }

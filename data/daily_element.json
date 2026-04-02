@@ -1,96 +1,74 @@
 {
-  "date": "2026-04-01",
-  "element": "Tantalum",
-  "atomicNumber": 73,
-  "symbol": "Ta",
+  "date": "2026-04-02",
+  "element": "Oganesson",
+  "atomicNumber": 118,
+  "symbol": "Og",
   "quiz": [
     {
-      "question": "Who discovered Tantalum?",
+      "question": "Who discovered Oganesson?",
       "options": [
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Dubnium"
+          "text": "Nils Sefstr\u00f6m",
+          "element": "Vanadium"
         },
         {
-          "text": "Anders Ekeberg",
-          "element": "Tantalum"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Oganesson"
         },
         {
-          "text": "C.F. Aver von Welsbach",
-          "element": "Neodymium"
+          "text": "W. von Hisinger, J. Berzelius, M. Klaproth",
+          "element": "Cerium"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Meitnerium"
+          "text": "Known to the ancients.",
+          "element": "Silver"
         }
       ],
-      "correct": "Anders Ekeberg"
+      "correct": "Joint Institute for Nuclear Research"
     },
     {
-      "question": "What is the geochemical class of Tantalum?",
+      "question": "When was Oganesson first discovered?",
       "options": [
         {
-          "text": "high field strength",
-          "element": "Tantalum"
+          "text": "1803",
+          "element": "Cerium"
         },
         {
-          "text": "rare earth & related",
-          "element": "Neodymium"
+          "text": "1830",
+          "element": "Vanadium"
         },
         {
-          "text": "major",
-          "element": "Iron"
+          "text": "1996",
+          "element": "Copernicium"
         },
         {
-          "text": "alkali metal",
-          "element": "Potassium"
+          "text": "2002",
+          "element": "Oganesson"
         }
       ],
-      "correct": "high field strength"
+      "correct": "2002"
     },
     {
-      "question": "What is the crustal abundance of Tantalum?",
+      "question": "What is the density of Oganesson?",
       "options": [
         {
-          "text": "56300.0 mg/kg",
-          "element": "Iron"
+          "text": "6.0 g/cm\u00b3",
+          "element": "Vanadium"
         },
         {
-          "text": "41.5 mg/kg",
-          "element": "Neodymium"
+          "text": "10.5 g/cm\u00b3",
+          "element": "Silver"
         },
         {
-          "text": "2.0 mg/kg",
-          "element": "Tantalum"
+          "text": "7.0 g/cm\u00b3",
+          "element": "Oganesson"
         },
         {
-          "text": "20900.0 mg/kg",
-          "element": "Potassium"
+          "text": "6.77 g/cm\u00b3",
+          "element": "Cerium"
         }
       ],
-      "correct": "2.0 mg/kg"
-    },
-    {
-      "question": "When was Tantalum first discovered?",
-      "options": [
-        {
-          "text": "1925",
-          "element": "Neodymium"
-        },
-        {
-          "text": "1970",
-          "element": "Dubnium"
-        },
-        {
-          "text": "1982",
-          "element": "Meitnerium"
-        },
-        {
-          "text": "1802",
-          "element": "Tantalum"
-        }
-      ],
-      "correct": "1802"
+      "correct": "7.0 g/cm\u00b3"
     }
   ]
 }

@@ -1,74 +1,96 @@
 {
-  "date": "2026-04-02",
-  "element": "Oganesson",
-  "atomicNumber": 118,
-  "symbol": "Og",
+  "date": "2026-04-03",
+  "element": "Ruthenium",
+  "atomicNumber": 44,
+  "symbol": "Ru",
   "quiz": [
     {
-      "question": "Who discovered Oganesson?",
+      "question": "Which countries are the top producers of Ruthenium?",
       "options": [
         {
-          "text": "Nils Sefstr\u00f6m",
-          "element": "Vanadium"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Ruthenium"
         },
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Oganesson"
+          "text": "1) China  2) Mexico  3) Japan",
+          "element": "Bismuth"
         },
         {
-          "text": "W. von Hisinger, J. Berzelius, M. Klaproth",
-          "element": "Cerium"
+          "text": "1) China  2) Australia  3) Peru",
+          "element": "Zinc"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Silver"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Europium"
         }
       ],
-      "correct": "Joint Institute for Nuclear Research"
+      "correct": "1) South Africa  2) Russia  3) Zimbabwe"
     },
     {
-      "question": "When was Oganesson first discovered?",
+      "question": "What is the approximate price of Ruthenium per kilogram?",
       "options": [
         {
-          "text": "1803",
-          "element": "Cerium"
+          "text": "$6.36/kg",
+          "element": "Bismuth"
         },
         {
-          "text": "1830",
-          "element": "Vanadium"
+          "text": "$31.40/kg",
+          "element": "Europium"
         },
         {
-          "text": "1996",
-          "element": "Copernicium"
+          "text": "$1,800.00/kg",
+          "element": "Xenon"
         },
         {
-          "text": "2002",
-          "element": "Oganesson"
+          "text": "$10,400.00/kg",
+          "element": "Ruthenium"
         }
       ],
-      "correct": "2002"
+      "correct": "$10,400.00/kg"
     },
     {
-      "question": "What is the density of Oganesson?",
+      "question": "What is the geochemical class of Ruthenium?",
       "options": [
         {
-          "text": "6.0 g/cm\u00b3",
-          "element": "Vanadium"
+          "text": "noble metal",
+          "element": "Ruthenium"
         },
         {
-          "text": "10.5 g/cm\u00b3",
-          "element": "Silver"
+          "text": "first series transition metal",
+          "element": "Zinc"
         },
         {
-          "text": "7.0 g/cm\u00b3",
-          "element": "Oganesson"
+          "text": "volatile",
+          "element": "Xenon"
         },
         {
-          "text": "6.77 g/cm\u00b3",
-          "element": "Cerium"
+          "text": "rare earth & related",
+          "element": "Europium"
         }
       ],
-      "correct": "7.0 g/cm\u00b3"
+      "correct": "noble metal"
+    },
+    {
+      "question": "When was Ruthenium first discovered?",
+      "options": [
+        {
+          "text": "1945",
+          "element": "Promethium"
+        },
+        {
+          "text": "1898",
+          "element": "Xenon"
+        },
+        {
+          "text": "1901",
+          "element": "Europium"
+        },
+        {
+          "text": "1844",
+          "element": "Ruthenium"
+        }
+      ],
+      "correct": "1844"
     }
   ]
 }

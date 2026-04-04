@@ -1,96 +1,96 @@
 {
-  "date": "2026-04-03",
-  "element": "Ruthenium",
-  "atomicNumber": 44,
-  "symbol": "Ru",
+  "date": "2026-04-04",
+  "element": "Bismuth",
+  "atomicNumber": 83,
+  "symbol": "Bi",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Ruthenium?",
+      "question": "What is the crustal abundance of Bismuth?",
       "options": [
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Ruthenium"
-        },
-        {
-          "text": "1) China  2) Mexico  3) Japan",
+          "text": "0.0085 mg/kg",
           "element": "Bismuth"
         },
         {
-          "text": "1) China  2) Australia  3) Peru",
-          "element": "Zinc"
+          "text": "0.015 mg/kg",
+          "element": "Palladium"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Europium"
+          "text": "20.0 mg/kg",
+          "element": "Niobium"
+        },
+        {
+          "text": "56300.0 mg/kg",
+          "element": "Iron"
         }
       ],
-      "correct": "1) South Africa  2) Russia  3) Zimbabwe"
+      "correct": "0.0085 mg/kg"
     },
     {
-      "question": "What is the approximate price of Ruthenium per kilogram?",
+      "question": "Who discovered Bismuth?",
+      "options": [
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Meitnerium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Bismuth"
+        },
+        {
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Einsteinium"
+        },
+        {
+          "text": "William Wollaston",
+          "element": "Palladium"
+        }
+      ],
+      "correct": "Known to the ancients."
+    },
+    {
+      "question": "What is the approximate price of Bismuth per kilogram?",
       "options": [
         {
           "text": "$6.36/kg",
           "element": "Bismuth"
         },
         {
-          "text": "$31.40/kg",
-          "element": "Europium"
+          "text": "$0.42/kg",
+          "element": "Iron"
         },
         {
-          "text": "$1,800.00/kg",
-          "element": "Xenon"
+          "text": "$61.40/kg",
+          "element": "Niobium"
         },
         {
-          "text": "$10,400.00/kg",
-          "element": "Ruthenium"
+          "text": "$49,500.00/kg",
+          "element": "Palladium"
         }
       ],
-      "correct": "$10,400.00/kg"
+      "correct": "$6.36/kg"
     },
     {
-      "question": "What is the geochemical class of Ruthenium?",
+      "question": "Which countries are the top producers of Bismuth?",
       "options": [
         {
-          "text": "noble metal",
-          "element": "Ruthenium"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Palladium"
         },
         {
-          "text": "first series transition metal",
-          "element": "Zinc"
+          "text": "1) China  2) Australia  3) Brazil",
+          "element": "Iron"
         },
         {
-          "text": "volatile",
-          "element": "Xenon"
+          "text": "1) Brazil  2) Canada",
+          "element": "Niobium"
         },
         {
-          "text": "rare earth & related",
-          "element": "Europium"
+          "text": "1) China  2) Mexico  3) Japan",
+          "element": "Bismuth"
         }
       ],
-      "correct": "noble metal"
-    },
-    {
-      "question": "When was Ruthenium first discovered?",
-      "options": [
-        {
-          "text": "1945",
-          "element": "Promethium"
-        },
-        {
-          "text": "1898",
-          "element": "Xenon"
-        },
-        {
-          "text": "1901",
-          "element": "Europium"
-        },
-        {
-          "text": "1844",
-          "element": "Ruthenium"
-        }
-      ],
-      "correct": "1844"
+      "correct": "1) China  2) Mexico  3) Japan"
     }
   ]
 }

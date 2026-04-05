@@ -1,96 +1,96 @@
 {
-  "date": "2026-04-04",
-  "element": "Bismuth",
-  "atomicNumber": 83,
-  "symbol": "Bi",
+  "date": "2026-04-05",
+  "element": "Bromine",
+  "atomicNumber": 35,
+  "symbol": "Br",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Bismuth?",
+      "question": "Which countries are the top producers of Bromine?",
       "options": [
         {
-          "text": "0.0085 mg/kg",
-          "element": "Bismuth"
+          "text": "1) China  2) USA  3) India",
+          "element": "Carbon"
         },
         {
-          "text": "0.015 mg/kg",
-          "element": "Palladium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Ytterbium"
         },
         {
-          "text": "20.0 mg/kg",
-          "element": "Niobium"
+          "text": "1) USA  2) China  3) Israel",
+          "element": "Bromine"
         },
         {
-          "text": "56300.0 mg/kg",
-          "element": "Iron"
+          "text": "1) China  2) Australia  3) USA",
+          "element": "Gold"
         }
       ],
-      "correct": "0.0085 mg/kg"
+      "correct": "1) USA  2) China  3) Israel"
     },
     {
-      "question": "Who discovered Bismuth?",
+      "question": "When was Bromine first discovered?",
       "options": [
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Meitnerium"
+          "text": "2003",
+          "element": "Moscovium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Bismuth"
+          "text": "1996",
+          "element": "Copernicium"
         },
         {
-          "text": "Argonne, Los Alamos, U of Calif",
-          "element": "Einsteinium"
+          "text": "1878",
+          "element": "Ytterbium"
         },
         {
-          "text": "William Wollaston",
-          "element": "Palladium"
+          "text": "1826",
+          "element": "Bromine"
         }
       ],
-      "correct": "Known to the ancients."
+      "correct": "1826"
     },
     {
-      "question": "What is the approximate price of Bismuth per kilogram?",
+      "question": "What is the crustal abundance of Bromine?",
       "options": [
         {
-          "text": "$6.36/kg",
-          "element": "Bismuth"
+          "text": "3.2 mg/kg",
+          "element": "Ytterbium"
         },
         {
-          "text": "$0.42/kg",
-          "element": "Iron"
+          "text": "0.004 mg/kg",
+          "element": "Gold"
         },
         {
-          "text": "$61.40/kg",
-          "element": "Niobium"
+          "text": "2.4 mg/kg",
+          "element": "Bromine"
         },
         {
-          "text": "$49,500.00/kg",
-          "element": "Palladium"
+          "text": "200.0 mg/kg",
+          "element": "Carbon"
         }
       ],
-      "correct": "$6.36/kg"
+      "correct": "2.4 mg/kg"
     },
     {
-      "question": "Which countries are the top producers of Bismuth?",
+      "question": "Who discovered Bromine?",
       "options": [
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Palladium"
+          "text": "Jean de Marignac",
+          "element": "Ytterbium"
         },
         {
-          "text": "1) China  2) Australia  3) Brazil",
-          "element": "Iron"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Moscovium"
         },
         {
-          "text": "1) Brazil  2) Canada",
-          "element": "Niobium"
+          "text": "Antoine J. Balard",
+          "element": "Bromine"
         },
         {
-          "text": "1) China  2) Mexico  3) Japan",
-          "element": "Bismuth"
+          "text": "Known to the ancients",
+          "element": "Carbon"
         }
       ],
-      "correct": "1) China  2) Mexico  3) Japan"
+      "correct": "Antoine J. Balard"
     }
   ]
 }

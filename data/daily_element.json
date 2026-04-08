@@ -1,96 +1,96 @@
 {
-  "date": "2026-04-07",
-  "element": "Palladium",
-  "atomicNumber": 46,
-  "symbol": "Pd",
+  "date": "2026-04-08",
+  "element": "Iron",
+  "atomicNumber": 26,
+  "symbol": "Fe",
   "quiz": [
     {
-      "question": "What is the geochemical class of Palladium?",
+      "question": "What is the geochemical class of Iron?",
       "options": [
-        {
-          "text": "U/Th decay series",
-          "element": "Protactinium"
-        },
-        {
-          "text": "high field strength",
-          "element": "Niobium"
-        },
-        {
-          "text": "noble metal",
-          "element": "Palladium"
-        },
         {
           "text": "semi-volatile",
-          "element": "Iodine"
+          "element": "Bromine"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Yttrium"
+        },
+        {
+          "text": "first series transition metal",
+          "element": "Titanium"
+        },
+        {
+          "text": "major",
+          "element": "Iron"
         }
       ],
-      "correct": "noble metal"
+      "correct": "major"
     },
     {
-      "question": "What is the crustal abundance of Palladium?",
+      "question": "What is the crustal abundance of Iron?",
       "options": [
         {
-          "text": "20.0 mg/kg",
-          "element": "Niobium"
+          "text": "2.4 mg/kg",
+          "element": "Bromine"
         },
         {
-          "text": "0.015 mg/kg",
-          "element": "Palladium"
+          "text": "5650.0 mg/kg",
+          "element": "Titanium"
         },
         {
-          "text": "1.4e-06 mg/kg",
-          "element": "Protactinium"
+          "text": "56300.0 mg/kg",
+          "element": "Iron"
         },
         {
-          "text": "0.45 mg/kg",
-          "element": "Iodine"
+          "text": "0.085 mg/kg",
+          "element": "Mercury"
         }
       ],
-      "correct": "0.015 mg/kg"
+      "correct": "56300.0 mg/kg"
     },
     {
-      "question": "Who discovered Palladium?",
+      "question": "Who discovered Iron?",
       "options": [
         {
-          "text": "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner",
-          "element": "Protactinium"
+          "text": "William Gregor",
+          "element": "Titanium"
         },
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Flerovium"
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Californium"
         },
         {
-          "text": "Bernard Courtois",
-          "element": "Iodine"
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
         },
         {
-          "text": "William Wollaston",
-          "element": "Palladium"
+          "text": "Known to the ancients.",
+          "element": "Iron"
         }
       ],
-      "correct": "William Wollaston"
+      "correct": "Known to the ancients."
     },
     {
-      "question": "When was Palladium first discovered?",
+      "question": "What is the approximate price of Iron per kilogram?",
       "options": [
         {
-          "text": "1803",
-          "element": "Palladium"
+          "text": "$11.10/kg",
+          "element": "Titanium"
         },
         {
-          "text": "1917",
-          "element": "Protactinium"
+          "text": "$0.42/kg",
+          "element": "Iron"
         },
         {
-          "text": "1811",
-          "element": "Iodine"
+          "text": "$60,000,000,000.00/kg",
+          "element": "Californium"
         },
         {
-          "text": "1998",
-          "element": "Flerovium"
+          "text": "$30.20/kg",
+          "element": "Mercury"
         }
       ],
-      "correct": "1803"
+      "correct": "$0.42/kg"
     }
   ]
 }

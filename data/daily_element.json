@@ -1,96 +1,96 @@
 {
-  "date": "2026-04-09",
-  "element": "Cobalt",
-  "atomicNumber": 27,
-  "symbol": "Co",
+  "date": "2026-04-10",
+  "element": "Silicon",
+  "atomicNumber": 14,
+  "symbol": "Si",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Cobalt?",
+      "question": "Who discovered Silicon?",
       "options": [
         {
-          "text": "1) Chile  2) USA  3) Poland",
-          "element": "Rhenium"
+          "text": "Axel Cronstedt",
+          "element": "Nickel"
         },
         {
-          "text": "1) China  2) India  3) USA",
-          "element": "Barium"
-        },
-        {
-          "text": "1) DRC  2) China  3) Zambia",
-          "element": "Cobalt"
-        },
-        {
-          "text": "1) USA  2) Algeria  3) Russia",
+          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
           "element": "Helium"
+        },
+        {
+          "text": "Sir William Crookes",
+          "element": "Thallium"
+        },
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Silicon"
         }
       ],
-      "correct": "1) DRC  2) China  3) Zambia"
+      "correct": "J\u00f6ns Berzelius"
     },
     {
-      "question": "What is the approximate price of Cobalt per kilogram?",
+      "question": "What is the crustal abundance of Silicon?",
       "options": [
         {
-          "text": "$32.80/kg",
-          "element": "Cobalt"
+          "text": "282000.0 mg/kg",
+          "element": "Silicon"
         },
         {
-          "text": "$0.25/kg",
-          "element": "Barium"
+          "text": "0.85 mg/kg",
+          "element": "Thallium"
+        },
+        {
+          "text": "0.008 mg/kg",
+          "element": "Helium"
+        },
+        {
+          "text": "84.0 mg/kg",
+          "element": "Nickel"
+        }
+      ],
+      "correct": "282000.0 mg/kg"
+    },
+    {
+      "question": "What is the approximate price of Silicon per kilogram?",
+      "options": [
+        {
+          "text": "$13.90/kg",
+          "element": "Nickel"
+        },
+        {
+          "text": "$4,200.00/kg",
+          "element": "Thallium"
+        },
+        {
+          "text": "$1.70/kg",
+          "element": "Silicon"
         },
         {
           "text": "$24.00/kg",
           "element": "Helium"
-        },
-        {
-          "text": "$29,000,000,000,000.00/kg",
-          "element": "Actinium"
         }
       ],
-      "correct": "$32.80/kg"
+      "correct": "$1.70/kg"
     },
     {
-      "question": "Who discovered Cobalt?",
+      "question": "When was Silicon first discovered?",
       "options": [
         {
-          "text": "Argonne, Los Alamos, U of Calif",
-          "element": "Einsteinium"
+          "text": "1895",
+          "element": "Helium"
         },
         {
-          "text": "George Brandt",
-          "element": "Cobalt"
+          "text": "1824",
+          "element": "Silicon"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Barium"
+          "text": "1861",
+          "element": "Thallium"
         },
         {
-          "text": "Andr\u00e9 Debierne",
-          "element": "Actinium"
+          "text": "1751",
+          "element": "Nickel"
         }
       ],
-      "correct": "George Brandt"
-    },
-    {
-      "question": "When was Cobalt first discovered?",
-      "options": [
-        {
-          "text": "1739",
-          "element": "Cobalt"
-        },
-        {
-          "text": "1952",
-          "element": "Einsteinium"
-        },
-        {
-          "text": "1808",
-          "element": "Barium"
-        },
-        {
-          "text": "1899",
-          "element": "Actinium"
-        }
-      ],
-      "correct": "1739"
+      "correct": "1824"
     }
   ]
 }

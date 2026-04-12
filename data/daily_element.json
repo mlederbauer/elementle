@@ -1,96 +1,96 @@
 {
-  "date": "2026-04-11",
-  "element": "Scandium",
-  "atomicNumber": 21,
-  "symbol": "Sc",
+  "date": "2026-04-12",
+  "element": "Plutonium",
+  "atomicNumber": 94,
+  "symbol": "Pu",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Scandium?",
+      "question": "When was Plutonium first discovered?",
       "options": [
         {
-          "text": "22.0 mg/kg",
-          "element": "Scandium"
+          "text": "1940",
+          "element": "Plutonium"
         },
         {
-          "text": "3.5 mg/kg",
-          "element": "Argon"
+          "text": "1843",
+          "element": "Erbium"
         },
         {
-          "text": "20900.0 mg/kg",
-          "element": "Potassium"
+          "text": "1774",
+          "element": "Chlorine"
         },
         {
-          "text": "0.001 mg/kg",
-          "element": "Ruthenium"
+          "text": "1789",
+          "element": "Zirconium"
         }
       ],
-      "correct": "22.0 mg/kg"
+      "correct": "1940"
     },
     {
-      "question": "What is the approximate price of Scandium per kilogram?",
+      "question": "Who discovered Plutonium?",
       "options": [
         {
-          "text": "$728,000.00/kg",
-          "element": "Americium"
+          "text": "Martin Klaproth",
+          "element": "Zirconium"
         },
         {
-          "text": "$10,400.00/kg",
-          "element": "Ruthenium"
+          "text": "Carl Mosander",
+          "element": "Erbium"
         },
         {
-          "text": "$3,460.00/kg",
-          "element": "Scandium"
+          "text": "Carl Wilhelm Scheele",
+          "element": "Chlorine"
         },
         {
-          "text": "$0.93/kg",
-          "element": "Argon"
+          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
+          "element": "Plutonium"
         }
       ],
-      "correct": "$3,460.00/kg"
+      "correct": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
     },
     {
-      "question": "When was Scandium first discovered?",
+      "question": "What is the approximate price of Plutonium per kilogram?",
       "options": [
         {
-          "text": "1844",
-          "element": "Ruthenium"
+          "text": "$6,490,000.00/kg",
+          "element": "Plutonium"
         },
         {
-          "text": "1894",
-          "element": "Argon"
+          "text": "$26.40/kg",
+          "element": "Erbium"
         },
         {
-          "text": "1879",
-          "element": "Scandium"
+          "text": "$0.08/kg",
+          "element": "Chlorine"
         },
         {
-          "text": "1945",
-          "element": "Americium"
+          "text": "$35.70/kg",
+          "element": "Zirconium"
         }
       ],
-      "correct": "1879"
+      "correct": "$6,490,000.00/kg"
     },
     {
-      "question": "What is the geochemical class of Scandium?",
+      "question": "What is the boiling point of Plutonium?",
       "options": [
         {
-          "text": "noble metal",
-          "element": "Ruthenium"
+          "text": "2868.0 \u00b0C",
+          "element": "Erbium"
         },
         {
-          "text": "volatile",
-          "element": "Argon"
+          "text": "-34.0 \u00b0C",
+          "element": "Chlorine"
         },
         {
-          "text": "first series transition metal",
-          "element": "Scandium"
+          "text": "4406.0 \u00b0C",
+          "element": "Zirconium"
         },
         {
-          "text": "alkali metal",
-          "element": "Potassium"
+          "text": "3228.0 \u00b0C",
+          "element": "Plutonium"
         }
       ],
-      "correct": "first series transition metal"
+      "correct": "3228.0 \u00b0C"
     }
   ]
 }

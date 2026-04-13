@@ -1,96 +1,96 @@
 {
-  "date": "2026-04-12",
-  "element": "Plutonium",
-  "atomicNumber": 94,
-  "symbol": "Pu",
+  "date": "2026-04-13",
+  "element": "Tantalum",
+  "atomicNumber": 73,
+  "symbol": "Ta",
   "quiz": [
     {
-      "question": "When was Plutonium first discovered?",
+      "question": "Which countries are the top producers of Tantalum?",
       "options": [
         {
-          "text": "1940",
-          "element": "Plutonium"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Iridium"
         },
         {
-          "text": "1843",
-          "element": "Erbium"
+          "text": "1) Brazil  2) Rwanda  3) China",
+          "element": "Tantalum"
         },
         {
-          "text": "1774",
-          "element": "Chlorine"
+          "text": "1) USA  2) China  3) Mozambique",
+          "element": "Beryllium"
         },
         {
-          "text": "1789",
-          "element": "Zirconium"
+          "text": "1) China  2) Spain  3) Mexico",
+          "element": "Strontium"
         }
       ],
-      "correct": "1940"
+      "correct": "1) Brazil  2) Rwanda  3) China"
     },
     {
-      "question": "Who discovered Plutonium?",
+      "question": "What is the crustal abundance of Tantalum?",
       "options": [
         {
-          "text": "Martin Klaproth",
-          "element": "Zirconium"
+          "text": "2.8 mg/kg",
+          "element": "Beryllium"
         },
         {
-          "text": "Carl Mosander",
-          "element": "Erbium"
+          "text": "2.0 mg/kg",
+          "element": "Tantalum"
         },
         {
-          "text": "Carl Wilhelm Scheele",
-          "element": "Chlorine"
+          "text": "2.9999999999999997e-05 mg/kg",
+          "element": "Xenon"
         },
         {
-          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
-          "element": "Plutonium"
+          "text": "370.0 mg/kg",
+          "element": "Strontium"
         }
       ],
-      "correct": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
+      "correct": "2.0 mg/kg"
     },
     {
-      "question": "What is the approximate price of Plutonium per kilogram?",
+      "question": "What is the approximate price of Tantalum per kilogram?",
       "options": [
         {
           "text": "$6,490,000.00/kg",
           "element": "Plutonium"
         },
         {
-          "text": "$26.40/kg",
-          "element": "Erbium"
+          "text": "$857.00/kg",
+          "element": "Beryllium"
         },
         {
-          "text": "$0.08/kg",
-          "element": "Chlorine"
+          "text": "$298.00/kg",
+          "element": "Tantalum"
         },
         {
-          "text": "$35.70/kg",
-          "element": "Zirconium"
+          "text": "$1,800.00/kg",
+          "element": "Xenon"
         }
       ],
-      "correct": "$6,490,000.00/kg"
+      "correct": "$298.00/kg"
     },
     {
-      "question": "What is the boiling point of Plutonium?",
+      "question": "What is the geochemical class of Tantalum?",
       "options": [
         {
-          "text": "2868.0 \u00b0C",
-          "element": "Erbium"
+          "text": "noble metal",
+          "element": "Iridium"
         },
         {
-          "text": "-34.0 \u00b0C",
-          "element": "Chlorine"
+          "text": "volatile",
+          "element": "Xenon"
         },
         {
-          "text": "4406.0 \u00b0C",
-          "element": "Zirconium"
+          "text": "high field strength",
+          "element": "Tantalum"
         },
         {
-          "text": "3228.0 \u00b0C",
-          "element": "Plutonium"
+          "text": "alkaline earth metal",
+          "element": "Beryllium"
         }
       ],
-      "correct": "3228.0 \u00b0C"
+      "correct": "high field strength"
     }
   ]
 }

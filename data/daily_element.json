@@ -1,96 +1,96 @@
 {
-  "date": "2026-04-15",
-  "element": "Gold",
-  "atomicNumber": 79,
-  "symbol": "Au",
+  "date": "2026-04-16",
+  "element": "Iodine",
+  "atomicNumber": 53,
+  "symbol": "I",
   "quiz": [
     {
-      "question": "What is the geochemical class of Gold?",
+      "question": "Who discovered Iodine?",
       "options": [
         {
-          "text": "major",
-          "element": "Aluminum"
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
         },
         {
-          "text": "alkaline earth metal",
-          "element": "Beryllium"
+          "text": "Gustov Kirchoff, Robert Bunsen",
+          "element": "Cesium"
         },
         {
-          "text": "noble metal",
-          "element": "Gold"
+          "text": "Pierre and Marie Curie",
+          "element": "Polonium"
+        },
+        {
+          "text": "Bernard Courtois",
+          "element": "Iodine"
+        }
+      ],
+      "correct": "Bernard Courtois"
+    },
+    {
+      "question": "What is the crustal abundance of Iodine?",
+      "options": [
+        {
+          "text": "3.0 mg/kg",
+          "element": "Cesium"
+        },
+        {
+          "text": "0.45 mg/kg",
+          "element": "Iodine"
+        },
+        {
+          "text": "2e-10 mg/kg",
+          "element": "Polonium"
+        },
+        {
+          "text": "6.2 mg/kg",
+          "element": "Gadolinium"
+        }
+      ],
+      "correct": "0.45 mg/kg"
+    },
+    {
+      "question": "When was Iodine first discovered?",
+      "options": [
+        {
+          "text": "1811",
+          "element": "Iodine"
+        },
+        {
+          "text": "1860",
+          "element": "Cesium"
+        },
+        {
+          "text": "1961",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "1898",
+          "element": "Polonium"
+        }
+      ],
+      "correct": "1811"
+    },
+    {
+      "question": "What is the geochemical class of Iodine?",
+      "options": [
+        {
+          "text": "alkali metal",
+          "element": "Cesium"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Iodine"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Gadolinium"
         },
         {
           "text": "U/Th decay series",
-          "element": "Radium"
+          "element": "Polonium"
         }
       ],
-      "correct": "noble metal"
-    },
-    {
-      "question": "What is the approximate price of Gold per kilogram?",
-      "options": [
-        {
-          "text": "$75,430.00/kg",
-          "element": "Gold"
-        },
-        {
-          "text": "$27,800.00/kg",
-          "element": "Platinum"
-        },
-        {
-          "text": "$2.73/kg",
-          "element": "Cadmium"
-        },
-        {
-          "text": "$857.00/kg",
-          "element": "Beryllium"
-        }
-      ],
-      "correct": "$75,430.00/kg"
-    },
-    {
-      "question": "What is the crustal abundance of Gold?",
-      "options": [
-        {
-          "text": "2.8 mg/kg",
-          "element": "Beryllium"
-        },
-        {
-          "text": "0.005 mg/kg",
-          "element": "Platinum"
-        },
-        {
-          "text": "0.004 mg/kg",
-          "element": "Gold"
-        },
-        {
-          "text": "0.15 mg/kg",
-          "element": "Cadmium"
-        }
-      ],
-      "correct": "0.004 mg/kg"
-    },
-    {
-      "question": "Which countries are the top producers of Gold?",
-      "options": [
-        {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Cadmium"
-        },
-        {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Platinum"
-        },
-        {
-          "text": "1) USA  2) China  3) Mozambique",
-          "element": "Beryllium"
-        },
-        {
-          "text": "1) China  2) Australia  3) USA",
-          "element": "Gold"
-        }
-      ],
-      "correct": "1) China  2) Australia  3) USA"
+      "correct": "semi-volatile"
     }
   ]
 }

@@ -1,96 +1,96 @@
 {
-  "date": "2026-04-18",
-  "element": "Dysprosium",
-  "atomicNumber": 66,
-  "symbol": "Dy",
+  "date": "2026-04-19",
+  "element": "Mercury",
+  "atomicNumber": 80,
+  "symbol": "Hg",
   "quiz": [
     {
-      "question": "Who discovered Dysprosium?",
+      "question": "Which countries are the top producers of Mercury?",
       "options": [
         {
-          "text": "Johann Gahn",
-          "element": "Manganese"
+          "text": "1) Australia  2) South Africa  3) China",
+          "element": "Zirconium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Zinc"
-        },
-        {
-          "text": "G.T.Seaborg, R.A.James, A.Ghiorso",
-          "element": "Curium"
-        },
-        {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Dysprosium"
-        }
-      ],
-      "correct": "Paul \u00c9mile Lecoq de Boisbaudran"
-    },
-    {
-      "question": "What is the geochemical class of Dysprosium?",
-      "options": [
-        {
-          "text": "major",
-          "element": "Oxygen"
-        },
-        {
-          "text": "first series transition metal",
-          "element": "Zinc"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Dysprosium"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Antimony"
-        }
-      ],
-      "correct": "rare earth & related"
-    },
-    {
-      "question": "What is the approximate price of Dysprosium per kilogram?",
-      "options": [
-        {
-          "text": "$185,000,000.00/kg",
-          "element": "Curium"
-        },
-        {
-          "text": "$2.55/kg",
-          "element": "Zinc"
-        },
-        {
-          "text": "$307.00/kg",
-          "element": "Dysprosium"
-        },
-        {
-          "text": "$1.82/kg",
-          "element": "Manganese"
-        }
-      ],
-      "correct": "$307.00/kg"
-    },
-    {
-      "question": "Which countries are the top producers of Dysprosium?",
-      "options": [
-        {
-          "text": "1) China  2) Bolivia  3) Tajikistan",
-          "element": "Antimony"
-        },
-        {
-          "text": "1) China  2) South Africa  3) Australia",
-          "element": "Manganese"
+          "text": "1) China  2) Mexico  3) Mongolia",
+          "element": "Fluorine"
         },
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Dysprosium"
+          "element": "Thulium"
         },
         {
-          "text": "1) China  2) Australia  3) Peru",
-          "element": "Zinc"
+          "text": "1) China  2) Kyrgzstan  3) Chile",
+          "element": "Mercury"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia"
+      "correct": "1) China  2) Kyrgzstan  3) Chile"
+    },
+    {
+      "question": "What is the crustal abundance of Mercury?",
+      "options": [
+        {
+          "text": "585.0 mg/kg",
+          "element": "Fluorine"
+        },
+        {
+          "text": "2.9999999999999997e-05 mg/kg",
+          "element": "Xenon"
+        },
+        {
+          "text": "0.085 mg/kg",
+          "element": "Mercury"
+        },
+        {
+          "text": "0.52 mg/kg",
+          "element": "Thulium"
+        }
+      ],
+      "correct": "0.085 mg/kg"
+    },
+    {
+      "question": "What is the approximate price of Mercury per kilogram?",
+      "options": [
+        {
+          "text": "$30.20/kg",
+          "element": "Mercury"
+        },
+        {
+          "text": "$1,800.00/kg",
+          "element": "Xenon"
+        },
+        {
+          "text": "$3,000.00/kg",
+          "element": "Thulium"
+        },
+        {
+          "text": "$1.84/kg",
+          "element": "Fluorine"
+        }
+      ],
+      "correct": "$30.20/kg"
+    },
+    {
+      "question": "Who discovered Mercury?",
+      "options": [
+        {
+          "text": "Known to the ancients.",
+          "element": "Mercury"
+        },
+        {
+          "text": "Per Theodor Cleve",
+          "element": "Thulium"
+        },
+        {
+          "text": "Henri Moissan",
+          "element": "Fluorine"
+        },
+        {
+          "text": "Sir William Ramsay; M. W. Travers",
+          "element": "Xenon"
+        }
+      ],
+      "correct": "Known to the ancients."
     }
   ]
 }

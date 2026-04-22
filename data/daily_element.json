@@ -1,96 +1,74 @@
 {
-  "date": "2026-04-21",
-  "element": "Tungsten",
-  "atomicNumber": 74,
-  "symbol": "W",
+  "date": "2026-04-22",
+  "element": "Nihonium",
+  "atomicNumber": 113,
+  "symbol": "Nh",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Tungsten?",
+      "question": "Who discovered Nihonium?",
       "options": [
         {
-          "text": "1) China  2) Russia  3) Turkey",
-          "element": "Magnesium"
+          "text": "RIKEN",
+          "element": "Nihonium"
         },
         {
-          "text": "1) China  2) Australia  3) Brazil",
-          "element": "Iron"
-        },
-        {
-          "text": "1) China  2) India  3) USA",
-          "element": "Chlorine"
-        },
-        {
-          "text": "1) China  2) Russia  3) Bolivia",
-          "element": "Tungsten"
-        }
-      ],
-      "correct": "1) China  2) Russia  3) Bolivia"
-    },
-    {
-      "question": "Who discovered Tungsten?",
-      "options": [
-        {
-          "text": "Sir Humphrey Davy",
-          "element": "Magnesium"
+          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
+          "element": "Helium"
         },
         {
           "text": "Known to the ancients.",
-          "element": "Iron"
+          "element": "Sulfur"
         },
         {
-          "text": "Carl Wilhelm Scheele",
-          "element": "Chlorine"
-        },
-        {
-          "text": "Fausto and Juan Jos\u00e9 de Elhuyar",
-          "element": "Tungsten"
+          "text": "R. Bunsen, G. Kirchoff",
+          "element": "Rubidium"
         }
       ],
-      "correct": "Fausto and Juan Jos\u00e9 de Elhuyar"
+      "correct": "RIKEN"
     },
     {
-      "question": "What is the approximate price of Tungsten per kilogram?",
+      "question": "When was Nihonium first discovered?",
       "options": [
         {
-          "text": "$35.30/kg",
-          "element": "Tungsten"
+          "text": "1861",
+          "element": "Rubidium"
         },
         {
-          "text": "$0.42/kg",
-          "element": "Iron"
+          "text": "1895",
+          "element": "Helium"
         },
         {
-          "text": "$0.08/kg",
-          "element": "Chlorine"
+          "text": "2015",
+          "element": "Nihonium"
         },
         {
-          "text": "$2.32/kg",
-          "element": "Magnesium"
+          "text": "2010",
+          "element": "Tennessine"
         }
       ],
-      "correct": "$35.30/kg"
+      "correct": "2015"
     },
     {
-      "question": "When was Tungsten first discovered?",
+      "question": "What is the density of Nihonium?",
       "options": [
         {
-          "text": "1939",
-          "element": "Francium"
+          "text": "16.0 g/cm\u00b3",
+          "element": "Nihonium"
         },
         {
-          "text": "1774",
-          "element": "Chlorine"
+          "text": "1.53 g/cm\u00b3",
+          "element": "Rubidium"
         },
         {
-          "text": "1783",
-          "element": "Tungsten"
+          "text": "0.000164 g/cm\u00b3",
+          "element": "Helium"
         },
         {
-          "text": "1808",
-          "element": "Magnesium"
+          "text": "2.07 g/cm\u00b3",
+          "element": "Sulfur"
         }
       ],
-      "correct": "1783"
+      "correct": "16.0 g/cm\u00b3"
     }
   ]
 }

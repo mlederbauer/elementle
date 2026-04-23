@@ -446,6 +446,81 @@ button:disabled { background: var(--grey); cursor: not-allowed; }
 }
 .dist-bar.highlight { background: var(--green); }
 
+/* ── Username modal ── */
+.modal-subtitle { font-size: 0.85rem; color: var(--grey); margin-bottom: 16px; }
+.username-row { display: flex; gap: 8px; }
+.username-row input {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  outline: none;
+  background: var(--surface);
+  color: var(--text);
+}
+.username-row input:focus { border-color: var(--text); }
+
+/* ── Stats modal scrollable box ── */
+.modal-box { max-height: 85vh; overflow-y: auto; }
+
+/* ── Leaderboard (local & daily) shared styles ── */
+.modal-divider { border: none; border-top: 1px solid var(--border); margin: 20px 0 16px; }
+.lb-empty { font-size: 0.82rem; color: var(--grey); text-align: center; padding: 10px 0; }
+.lb-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  margin-bottom: 12px;
+}
+.lb-table th,
+.lb-table td {
+  padding: 6px 8px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+.lb-table th {
+  font-weight: 700;
+  font-size: 0.72rem;
+  color: var(--grey);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.lb-table td:nth-child(2) {
+  text-align: left;
+  font-weight: 600;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.lb-me { background: #edf7ed; }
+.lb-me td { font-weight: 700; }
+
+/* ── Local leaderboard actions (export / import) ── */
+.lb-actions { margin-top: 14px; display: flex; flex-direction: column; gap: 8px; }
+.lb-actions > button { font-size: 0.82rem; padding: 8px 14px; }
+.lb-import-row { display: flex; gap: 8px; }
+.lb-import-row input {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  outline: none;
+  background: var(--surface);
+  color: var(--text);
+}
+.lb-import-row input:focus { border-color: var(--text); }
+.lb-import-row button { font-size: 0.82rem; padding: 8px 14px; }
+.lb-toast { display: none; font-size: 0.78rem; color: var(--green); font-weight: 600; margin-top: 2px; }
+
+/* ── Daily distribution chart (loss bar) ── */
+.daily-dist { margin-bottom: 12px; }
+.dist-bar-loss { background: var(--grey) !important; }
+
 /* ── Responsive tweaks ── */
 @media (max-width: 600px) {
   .game-header h1 { font-size: 1.4rem; }

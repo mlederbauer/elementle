@@ -1,74 +1,96 @@
 {
-  "date": "2026-04-22",
-  "element": "Nihonium",
-  "atomicNumber": 113,
-  "symbol": "Nh",
+  "date": "2026-04-23",
+  "element": "Radon",
+  "atomicNumber": 86,
+  "symbol": "Rn",
   "quiz": [
     {
-      "question": "Who discovered Nihonium?",
+      "question": "What is the geochemical class of Radon?",
       "options": [
         {
-          "text": "RIKEN",
-          "element": "Nihonium"
-        },
-        {
-          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
-          "element": "Helium"
-        },
-        {
-          "text": "Known to the ancients.",
-          "element": "Sulfur"
-        },
-        {
-          "text": "R. Bunsen, G. Kirchoff",
+          "text": "alkali metal",
           "element": "Rubidium"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Radon"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Chlorine"
         }
       ],
-      "correct": "RIKEN"
+      "correct": "U/Th decay series"
     },
     {
-      "question": "When was Nihonium first discovered?",
+      "question": "Who discovered Radon?",
       "options": [
+        {
+          "text": "Known to the ancients.",
+          "element": "Bismuth"
+        },
+        {
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "Fredrich Ernst Dorn",
+          "element": "Radon"
+        },
+        {
+          "text": "Carl Wilhelm Scheele",
+          "element": "Chlorine"
+        }
+      ],
+      "correct": "Fredrich Ernst Dorn"
+    },
+    {
+      "question": "What is the crustal abundance of Radon?",
+      "options": [
+        {
+          "text": "0.0085 mg/kg",
+          "element": "Bismuth"
+        },
+        {
+          "text": "5.2 mg/kg",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "4e-13 mg/kg",
+          "element": "Radon"
+        },
+        {
+          "text": "145.0 mg/kg",
+          "element": "Chlorine"
+        }
+      ],
+      "correct": "4e-13 mg/kg"
+    },
+    {
+      "question": "When was Radon first discovered?",
+      "options": [
+        {
+          "text": "1886",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "1774",
+          "element": "Chlorine"
+        },
         {
           "text": "1861",
           "element": "Rubidium"
         },
         {
-          "text": "1895",
-          "element": "Helium"
-        },
-        {
-          "text": "2015",
-          "element": "Nihonium"
-        },
-        {
-          "text": "2010",
-          "element": "Tennessine"
+          "text": "1898",
+          "element": "Radon"
         }
       ],
-      "correct": "2015"
-    },
-    {
-      "question": "What is the density of Nihonium?",
-      "options": [
-        {
-          "text": "16.0 g/cm\u00b3",
-          "element": "Nihonium"
-        },
-        {
-          "text": "1.53 g/cm\u00b3",
-          "element": "Rubidium"
-        },
-        {
-          "text": "0.000164 g/cm\u00b3",
-          "element": "Helium"
-        },
-        {
-          "text": "2.07 g/cm\u00b3",
-          "element": "Sulfur"
-        }
-      ],
-      "correct": "16.0 g/cm\u00b3"
+      "correct": "1898"
     }
   ]
 }

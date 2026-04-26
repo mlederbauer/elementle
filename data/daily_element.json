@@ -1,96 +1,96 @@
 {
-  "date": "2026-04-25",
-  "element": "Oxygen",
-  "atomicNumber": 8,
-  "symbol": "O",
+  "date": "2026-04-26",
+  "element": "Silicon",
+  "atomicNumber": 14,
+  "symbol": "Si",
   "quiz": [
     {
-      "question": "What is the approximate price of Oxygen per kilogram?",
+      "question": "When was Silicon first discovered?",
       "options": [
         {
-          "text": "$0.15/kg",
-          "element": "Oxygen"
+          "text": "2003",
+          "element": "Moscovium"
         },
         {
-          "text": "$1.79/kg",
-          "element": "Aluminum"
+          "text": "1807",
+          "element": "Sodium"
         },
         {
-          "text": "$1.70/kg",
-          "element": "Silicon"
-        },
-        {
-          "text": "$1,800.00/kg",
-          "element": "Xenon"
-        }
-      ],
-      "correct": "$0.15/kg"
-    },
-    {
-      "question": "What is the geochemical class of Oxygen?",
-      "options": [
-        {
-          "text": "major",
-          "element": "Oxygen"
-        },
-        {
-          "text": "high field strength",
-          "element": "Hafnium"
-        },
-        {
-          "text": "first series transition metal",
-          "element": "Vanadium"
-        },
-        {
-          "text": "volatile",
-          "element": "Xenon"
-        }
-      ],
-      "correct": "major"
-    },
-    {
-      "question": "When was Oxygen first discovered?",
-      "options": [
-        {
-          "text": "1774",
-          "element": "Oxygen"
-        },
-        {
-          "text": "1825",
-          "element": "Aluminum"
+          "text": "1940",
+          "element": "Astatine"
         },
         {
           "text": "1824",
           "element": "Silicon"
-        },
-        {
-          "text": "1898",
-          "element": "Xenon"
         }
       ],
-      "correct": "1774"
+      "correct": "1824"
     },
     {
-      "question": "Who discovered Oxygen?",
+      "question": "What is the crustal abundance of Silicon?",
       "options": [
         {
-          "text": "Hans Christian Oersted",
-          "element": "Aluminum"
+          "text": "282000.0 mg/kg",
+          "element": "Silicon"
         },
         {
-          "text": "Joseph Priestly, Carl Wilhelm Scheele",
-          "element": "Oxygen"
+          "text": "5.5e-10 mg/kg",
+          "element": "Actinium"
         },
         {
-          "text": "Sir William Ramsay; M. W. Travers",
-          "element": "Xenon"
+          "text": "0.001 mg/kg",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "23600.0 mg/kg",
+          "element": "Sodium"
+        }
+      ],
+      "correct": "282000.0 mg/kg"
+    },
+    {
+      "question": "Who discovered Silicon?",
+      "options": [
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Sodium"
         },
         {
           "text": "J\u00f6ns Berzelius",
           "element": "Silicon"
+        },
+        {
+          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
+          "element": "Astatine"
+        },
+        {
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Moscovium"
         }
       ],
-      "correct": "Joseph Priestly, Carl Wilhelm Scheele"
+      "correct": "J\u00f6ns Berzelius"
+    },
+    {
+      "question": "What is the geochemical class of Silicon?",
+      "options": [
+        {
+          "text": "U/Th decay series",
+          "element": "Astatine"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Uranium"
+        },
+        {
+          "text": "major",
+          "element": "Silicon"
+        },
+        {
+          "text": "noble metal",
+          "element": "Ruthenium"
+        }
+      ],
+      "correct": "major"
     }
   ]
 }

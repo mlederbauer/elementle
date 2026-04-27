@@ -1,96 +1,96 @@
 {
-  "date": "2026-04-26",
-  "element": "Silicon",
-  "atomicNumber": 14,
-  "symbol": "Si",
+  "date": "2026-04-27",
+  "element": "Tin",
+  "atomicNumber": 50,
+  "symbol": "Sn",
   "quiz": [
     {
-      "question": "When was Silicon first discovered?",
+      "question": "What is the approximate price of Tin per kilogram?",
       "options": [
         {
-          "text": "2003",
-          "element": "Moscovium"
+          "text": "$57.50/kg",
+          "element": "Neodymium"
         },
         {
-          "text": "1807",
-          "element": "Sodium"
+          "text": "$460,000.00/kg",
+          "element": "Promethium"
         },
         {
-          "text": "1940",
-          "element": "Astatine"
+          "text": "$0.12/kg",
+          "element": "Carbon"
         },
         {
-          "text": "1824",
-          "element": "Silicon"
+          "text": "$18.70/kg",
+          "element": "Tin"
         }
       ],
-      "correct": "1824"
+      "correct": "$18.70/kg"
     },
     {
-      "question": "What is the crustal abundance of Silicon?",
+      "question": "Which countries are the top producers of Tin?",
       "options": [
         {
-          "text": "282000.0 mg/kg",
-          "element": "Silicon"
+          "text": "1) China  2) Indonesia  3) Peru",
+          "element": "Tin"
         },
         {
-          "text": "5.5e-10 mg/kg",
-          "element": "Actinium"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Platinum"
         },
         {
-          "text": "0.001 mg/kg",
-          "element": "Ruthenium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Neodymium"
         },
         {
-          "text": "23600.0 mg/kg",
-          "element": "Sodium"
+          "text": "1) China  2) USA  3) India",
+          "element": "Carbon"
         }
       ],
-      "correct": "282000.0 mg/kg"
+      "correct": "1) China  2) Indonesia  3) Peru"
     },
     {
-      "question": "Who discovered Silicon?",
+      "question": "Who discovered Tin?",
       "options": [
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Sodium"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Neodymium"
         },
         {
-          "text": "J\u00f6ns Berzelius",
-          "element": "Silicon"
+          "text": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell",
+          "element": "Promethium"
         },
         {
-          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
-          "element": "Astatine"
+          "text": "Known to the ancients.",
+          "element": "Tin"
         },
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Moscovium"
+          "text": "Known to the ancients",
+          "element": "Carbon"
         }
       ],
-      "correct": "J\u00f6ns Berzelius"
+      "correct": "Known to the ancients."
     },
     {
-      "question": "What is the geochemical class of Silicon?",
+      "question": "What is the crustal abundance of Tin?",
       "options": [
         {
-          "text": "U/Th decay series",
-          "element": "Astatine"
+          "text": "200.0 mg/kg",
+          "element": "Carbon"
         },
         {
-          "text": "rare earth & related",
-          "element": "Uranium"
+          "text": "2.3 mg/kg",
+          "element": "Tin"
         },
         {
-          "text": "major",
-          "element": "Silicon"
+          "text": "3.2 mg/kg",
+          "element": "Ytterbium"
         },
         {
-          "text": "noble metal",
-          "element": "Ruthenium"
+          "text": "41.5 mg/kg",
+          "element": "Neodymium"
         }
       ],
-      "correct": "major"
+      "correct": "2.3 mg/kg"
     }
   ]
 }

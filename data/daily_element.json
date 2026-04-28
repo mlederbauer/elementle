@@ -1,96 +1,74 @@
 {
-  "date": "2026-04-27",
-  "element": "Tin",
-  "atomicNumber": 50,
-  "symbol": "Sn",
+  "date": "2026-04-28",
+  "element": "Hassium",
+  "atomicNumber": 108,
+  "symbol": "Hs",
   "quiz": [
     {
-      "question": "What is the approximate price of Tin per kilogram?",
+      "question": "When was Hassium first discovered?",
       "options": [
         {
-          "text": "$57.50/kg",
-          "element": "Neodymium"
+          "text": "1860",
+          "element": "Cesium"
         },
         {
-          "text": "$460,000.00/kg",
-          "element": "Promethium"
+          "text": "1790",
+          "element": "Strontium"
         },
         {
-          "text": "$0.12/kg",
-          "element": "Carbon"
+          "text": "1984",
+          "element": "Hassium"
         },
         {
-          "text": "$18.70/kg",
-          "element": "Tin"
+          "text": "1739",
+          "element": "Cobalt"
         }
       ],
-      "correct": "$18.70/kg"
+      "correct": "1984"
     },
     {
-      "question": "Which countries are the top producers of Tin?",
+      "question": "Who discovered Hassium?",
       "options": [
         {
-          "text": "1) China  2) Indonesia  3) Peru",
-          "element": "Tin"
+          "text": "Gustov Kirchoff, Robert Bunsen",
+          "element": "Cesium"
         },
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Platinum"
+          "text": "A. Crawford",
+          "element": "Strontium"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Neodymium"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Hassium"
         },
         {
-          "text": "1) China  2) USA  3) India",
-          "element": "Carbon"
+          "text": "George Brandt",
+          "element": "Cobalt"
         }
       ],
-      "correct": "1) China  2) Indonesia  3) Peru"
+      "correct": "Heavy Ion Research Laboratory (HIRL)"
     },
     {
-      "question": "Who discovered Tin?",
+      "question": "What is the density of Hassium?",
       "options": [
         {
-          "text": "C.F. Aver von Welsbach",
-          "element": "Neodymium"
+          "text": "1.873 g/cm\u00b3",
+          "element": "Cesium"
         },
         {
-          "text": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell",
-          "element": "Promethium"
+          "text": "40.7 g/cm\u00b3",
+          "element": "Hassium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Tin"
+          "text": "2.64 g/cm\u00b3",
+          "element": "Strontium"
         },
         {
-          "text": "Known to the ancients",
-          "element": "Carbon"
+          "text": "8.86 g/cm\u00b3",
+          "element": "Cobalt"
         }
       ],
-      "correct": "Known to the ancients."
-    },
-    {
-      "question": "What is the crustal abundance of Tin?",
-      "options": [
-        {
-          "text": "200.0 mg/kg",
-          "element": "Carbon"
-        },
-        {
-          "text": "2.3 mg/kg",
-          "element": "Tin"
-        },
-        {
-          "text": "3.2 mg/kg",
-          "element": "Ytterbium"
-        },
-        {
-          "text": "41.5 mg/kg",
-          "element": "Neodymium"
-        }
-      ],
-      "correct": "2.3 mg/kg"
+      "correct": "40.7 g/cm\u00b3"
     }
   ]
 }

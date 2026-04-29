@@ -1,74 +1,96 @@
 {
-  "date": "2026-04-28",
-  "element": "Hassium",
-  "atomicNumber": 108,
-  "symbol": "Hs",
+  "date": "2026-04-29",
+  "element": "Hydrogen",
+  "atomicNumber": 1,
+  "symbol": "H",
   "quiz": [
     {
-      "question": "When was Hassium first discovered?",
+      "question": "What is the approximate price of Hydrogen per kilogram?",
       "options": [
         {
-          "text": "1860",
-          "element": "Cesium"
+          "text": "$2.69/kg",
+          "element": "Phosphorus"
         },
         {
-          "text": "1790",
-          "element": "Strontium"
+          "text": "$4,200.00/kg",
+          "element": "Thallium"
         },
         {
-          "text": "1984",
-          "element": "Hassium"
+          "text": "$24.00/kg",
+          "element": "Helium"
         },
         {
-          "text": "1739",
-          "element": "Cobalt"
+          "text": "$1.39/kg",
+          "element": "Hydrogen"
         }
       ],
-      "correct": "1984"
+      "correct": "$1.39/kg"
     },
     {
-      "question": "Who discovered Hassium?",
+      "question": "What is the crustal abundance of Hydrogen?",
       "options": [
         {
-          "text": "Gustov Kirchoff, Robert Bunsen",
-          "element": "Cesium"
+          "text": "1050.0 mg/kg",
+          "element": "Phosphorus"
         },
         {
-          "text": "A. Crawford",
-          "element": "Strontium"
+          "text": "1400.0 mg/kg",
+          "element": "Hydrogen"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Hassium"
+          "text": "0.008 mg/kg",
+          "element": "Helium"
         },
         {
-          "text": "George Brandt",
-          "element": "Cobalt"
+          "text": "0.85 mg/kg",
+          "element": "Thallium"
         }
       ],
-      "correct": "Heavy Ion Research Laboratory (HIRL)"
+      "correct": "1400.0 mg/kg"
     },
     {
-      "question": "What is the density of Hassium?",
+      "question": "Who discovered Hydrogen?",
       "options": [
         {
-          "text": "1.873 g/cm\u00b3",
-          "element": "Cesium"
+          "text": "Sir William Crookes",
+          "element": "Thallium"
         },
         {
-          "text": "40.7 g/cm\u00b3",
-          "element": "Hassium"
+          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
+          "element": "Helium"
         },
         {
-          "text": "2.64 g/cm\u00b3",
-          "element": "Strontium"
+          "text": "Hennig Brand",
+          "element": "Phosphorus"
         },
         {
-          "text": "8.86 g/cm\u00b3",
-          "element": "Cobalt"
+          "text": "Henry Cavendish",
+          "element": "Hydrogen"
         }
       ],
-      "correct": "40.7 g/cm\u00b3"
+      "correct": "Henry Cavendish"
+    },
+    {
+      "question": "When was Hydrogen first discovered?",
+      "options": [
+        {
+          "text": "1766",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "1669",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "1895",
+          "element": "Helium"
+        },
+        {
+          "text": "1861",
+          "element": "Thallium"
+        }
+      ],
+      "correct": "1766"
     }
   ]
 }

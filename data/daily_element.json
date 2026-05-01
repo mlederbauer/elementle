@@ -1,74 +1,96 @@
 {
-  "date": "2026-04-30",
-  "element": "Seaborgium",
-  "atomicNumber": 106,
-  "symbol": "Sg",
+  "date": "2026-05-01",
+  "element": "Rhenium",
+  "atomicNumber": 75,
+  "symbol": "Re",
   "quiz": [
     {
-      "question": "When was Seaborgium first discovered?",
+      "question": "When was Rhenium first discovered?",
       "options": [
         {
-          "text": "1808",
-          "element": "Barium"
+          "text": "1925",
+          "element": "Rhenium"
         },
         {
-          "text": "1974",
-          "element": "Seaborgium"
+          "text": "1898",
+          "element": "Krypton"
         },
         {
-          "text": "1772",
-          "element": "Nitrogen"
+          "text": "1961",
+          "element": "Lawrencium"
         },
         {
-          "text": "1901",
-          "element": "Europium"
+          "text": "1879",
+          "element": "Thulium"
         }
       ],
-      "correct": "1974"
+      "correct": "1925"
     },
     {
-      "question": "Who discovered Seaborgium?",
+      "question": "Which countries are the top producers of Rhenium?",
       "options": [
         {
-          "text": "Eug\u00e8ne Demar\u00e7ay",
-          "element": "Europium"
+          "text": "1) China  2) Russia  3) Turkey",
+          "element": "Magnesium"
         },
         {
-          "text": "Daniel Rutherford",
-          "element": "Nitrogen"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Thulium"
         },
         {
-          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
-          "element": "Seaborgium"
+          "text": "1) Chile  2) USA  3) Poland",
+          "element": "Rhenium"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Barium"
+          "text": "1) China  2) India  3) USA",
+          "element": "Sodium"
         }
       ],
-      "correct": "Soviet Nuclear Research/ U. of Cal at Berkeley"
+      "correct": "1) Chile  2) USA  3) Poland"
     },
     {
-      "question": "What is the density of Seaborgium?",
+      "question": "What is the crustal abundance of Rhenium?",
       "options": [
         {
-          "text": "5.24 g/cm\u00b3",
-          "element": "Europium"
+          "text": "7.05 mg/kg",
+          "element": "Samarium"
         },
         {
-          "text": "3.62 g/cm\u00b3",
-          "element": "Barium"
+          "text": "0.0001 mg/kg",
+          "element": "Krypton"
         },
         {
-          "text": "0.001145 g/cm\u00b3",
-          "element": "Nitrogen"
+          "text": "0.0007 mg/kg",
+          "element": "Rhenium"
         },
         {
-          "text": "35.0 g/cm\u00b3",
-          "element": "Seaborgium"
+          "text": "0.52 mg/kg",
+          "element": "Thulium"
         }
       ],
-      "correct": "35.0 g/cm\u00b3"
+      "correct": "0.0007 mg/kg"
+    },
+    {
+      "question": "Who discovered Rhenium?",
+      "options": [
+        {
+          "text": "Per Theodor Cleve",
+          "element": "Thulium"
+        },
+        {
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Samarium"
+        },
+        {
+          "text": "Walter Noddack, Ida Tacke, Otto Berg",
+          "element": "Rhenium"
+        },
+        {
+          "text": "Sir William Ramsey, M.W. Travers",
+          "element": "Krypton"
+        }
+      ],
+      "correct": "Walter Noddack, Ida Tacke, Otto Berg"
     }
   ]
 }

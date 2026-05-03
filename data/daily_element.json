@@ -1,74 +1,96 @@
 {
-  "date": "2026-05-02",
-  "element": "Dubnium",
-  "atomicNumber": 105,
-  "symbol": "Db",
+  "date": "2026-05-03",
+  "element": "Tellurium",
+  "atomicNumber": 52,
+  "symbol": "Te",
   "quiz": [
     {
-      "question": "When was Dubnium first discovered?",
+      "question": "What is the crustal abundance of Tellurium?",
       "options": [
         {
-          "text": "1970",
-          "element": "Dubnium"
+          "text": "9.2 mg/kg",
+          "element": "Praseodymium"
         },
         {
-          "text": "1880",
-          "element": "Gadolinium"
+          "text": "2.0 mg/kg",
+          "element": "Tantalum"
         },
         {
-          "text": "1778",
-          "element": "Molybdenum"
+          "text": "23300.0 mg/kg",
+          "element": "Magnesium"
         },
         {
-          "text": "1860",
-          "element": "Cesium"
+          "text": "0.001 mg/kg",
+          "element": "Tellurium"
         }
       ],
-      "correct": "1970"
+      "correct": "0.001 mg/kg"
     },
     {
-      "question": "Who discovered Dubnium?",
+      "question": "Who discovered Tellurium?",
       "options": [
         {
-          "text": "Carl Wilhelm Scheele",
-          "element": "Molybdenum"
+          "text": "Franz M\u00fcller von Reichenstein",
+          "element": "Tellurium"
         },
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Dubnium"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Praseodymium"
         },
         {
-          "text": "Gustov Kirchoff, Robert Bunsen",
-          "element": "Cesium"
+          "text": "Sir Humphrey Davy",
+          "element": "Magnesium"
         },
         {
-          "text": "Jean de Marignac",
-          "element": "Gadolinium"
+          "text": "Anders Ekeberg",
+          "element": "Tantalum"
         }
       ],
-      "correct": "A. Ghiorso, et al"
+      "correct": "Franz M\u00fcller von Reichenstein"
     },
     {
-      "question": "What is the density of Dubnium?",
+      "question": "What is the geochemical class of Tellurium?",
       "options": [
         {
-          "text": "29.3 g/cm\u00b3",
-          "element": "Dubnium"
+          "text": "rare earth & related",
+          "element": "Praseodymium"
         },
         {
-          "text": "7.9 g/cm\u00b3",
-          "element": "Gadolinium"
+          "text": "major",
+          "element": "Magnesium"
         },
         {
-          "text": "1.873 g/cm\u00b3",
-          "element": "Cesium"
+          "text": "high field strength",
+          "element": "Tantalum"
         },
         {
-          "text": "10.2 g/cm\u00b3",
-          "element": "Molybdenum"
+          "text": "semi-volatile",
+          "element": "Tellurium"
         }
       ],
-      "correct": "29.3 g/cm\u00b3"
+      "correct": "semi-volatile"
+    },
+    {
+      "question": "What is the approximate price of Tellurium per kilogram?",
+      "options": [
+        {
+          "text": "$103.00/kg",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "$2.32/kg",
+          "element": "Magnesium"
+        },
+        {
+          "text": "$63.50/kg",
+          "element": "Tellurium"
+        },
+        {
+          "text": "$298.00/kg",
+          "element": "Tantalum"
+        }
+      ],
+      "correct": "$63.50/kg"
     }
   ]
 }

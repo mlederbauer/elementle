@@ -1,74 +1,96 @@
 {
-  "date": "2026-05-04",
-  "element": "Oganesson",
-  "atomicNumber": 118,
-  "symbol": "Og",
+  "date": "2026-05-05",
+  "element": "Germanium",
+  "atomicNumber": 32,
+  "symbol": "Ge",
   "quiz": [
     {
-      "question": "Who discovered Oganesson?",
+      "question": "When was Germanium first discovered?",
       "options": [
         {
-          "text": "C.F. Aver von Welsbach",
-          "element": "Neodymium"
+          "text": "1789",
+          "element": "Yttrium"
         },
         {
-          "text": "Carl Mosander",
-          "element": "Erbium"
+          "text": "1886",
+          "element": "Germanium"
         },
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Oganesson"
+          "text": "1984",
+          "element": "Hassium"
         },
         {
-          "text": "Carlo Perrier, \u00c9millo Segr\u00e8",
-          "element": "Technetium"
+          "text": "1878",
+          "element": "Holmium"
         }
       ],
-      "correct": "Joint Institute for Nuclear Research"
+      "correct": "1886"
     },
     {
-      "question": "When was Oganesson first discovered?",
+      "question": "Who discovered Germanium?",
       "options": [
         {
-          "text": "2002",
-          "element": "Oganesson"
+          "text": "Johann Gadolin",
+          "element": "Yttrium"
         },
         {
-          "text": "1843",
-          "element": "Erbium"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Hassium"
         },
         {
-          "text": "1937",
-          "element": "Technetium"
+          "text": "J.L. Soret",
+          "element": "Holmium"
         },
         {
-          "text": "1925",
-          "element": "Neodymium"
+          "text": "Clemens Winkler",
+          "element": "Germanium"
         }
       ],
-      "correct": "2002"
+      "correct": "Clemens Winkler"
     },
     {
-      "question": "What is the density of Oganesson?",
+      "question": "What is the approximate price of Germanium per kilogram?",
       "options": [
         {
-          "text": "9.07 g/cm\u00b3",
-          "element": "Erbium"
+          "text": "$914.00/kg",
+          "element": "Germanium"
         },
         {
-          "text": "7.0 g/cm\u00b3",
-          "element": "Oganesson"
+          "text": "$31.00/kg",
+          "element": "Yttrium"
         },
         {
-          "text": "11.0 g/cm\u00b3",
-          "element": "Technetium"
+          "text": "$57.10/kg",
+          "element": "Holmium"
         },
         {
-          "text": "7.01 g/cm\u00b3",
-          "element": "Neodymium"
+          "text": "$148.00/kg",
+          "element": "Gallium"
         }
       ],
-      "correct": "7.0 g/cm\u00b3"
+      "correct": "$914.00/kg"
+    },
+    {
+      "question": "Which countries are the top producers of Germanium?",
+      "options": [
+        {
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Yttrium"
+        },
+        {
+          "text": "1) China  2) Germany  3) Kazakhstan",
+          "element": "Gallium"
+        },
+        {
+          "text": "1) China  2) Russia  3) Germany (likely)",
+          "element": "Germanium"
+        },
+        {
+          "text": "1) Japan  2) Germany  3) Belgium",
+          "element": "Selenium"
+        }
+      ],
+      "correct": "1) China  2) Russia  3) Germany (likely)"
     }
   ]
 }

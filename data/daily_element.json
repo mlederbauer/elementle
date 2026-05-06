@@ -1,96 +1,96 @@
 {
-  "date": "2026-05-05",
-  "element": "Germanium",
-  "atomicNumber": 32,
-  "symbol": "Ge",
+  "date": "2026-05-06",
+  "element": "Nickel",
+  "atomicNumber": 28,
+  "symbol": "Ni",
   "quiz": [
     {
-      "question": "When was Germanium first discovered?",
+      "question": "What is the approximate price of Nickel per kilogram?",
       "options": [
         {
-          "text": "1789",
-          "element": "Yttrium"
+          "text": "$13.90/kg",
+          "element": "Nickel"
         },
         {
-          "text": "1886",
-          "element": "Germanium"
+          "text": "$103.00/kg",
+          "element": "Praseodymium"
         },
         {
-          "text": "1984",
-          "element": "Hassium"
+          "text": "$21.40/kg",
+          "element": "Selenium"
         },
         {
-          "text": "1878",
-          "element": "Holmium"
+          "text": "$1,800.00/kg",
+          "element": "Xenon"
         }
       ],
-      "correct": "1886"
+      "correct": "$13.90/kg"
     },
     {
-      "question": "Who discovered Germanium?",
+      "question": "Who discovered Nickel?",
       "options": [
         {
-          "text": "Johann Gadolin",
-          "element": "Yttrium"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Selenium"
         },
         {
           "text": "Heavy Ion Research Laboratory (HIRL)",
           "element": "Hassium"
         },
         {
-          "text": "J.L. Soret",
-          "element": "Holmium"
-        },
-        {
-          "text": "Clemens Winkler",
-          "element": "Germanium"
+          "text": "Axel Cronstedt",
+          "element": "Nickel"
         }
       ],
-      "correct": "Clemens Winkler"
+      "correct": "Axel Cronstedt"
     },
     {
-      "question": "What is the approximate price of Germanium per kilogram?",
+      "question": "Which countries are the top producers of Nickel?",
       "options": [
         {
-          "text": "$914.00/kg",
-          "element": "Germanium"
+          "text": "1) Russia  2) Indonesia  3) Philippines",
+          "element": "Nickel"
         },
-        {
-          "text": "$31.00/kg",
-          "element": "Yttrium"
-        },
-        {
-          "text": "$57.10/kg",
-          "element": "Holmium"
-        },
-        {
-          "text": "$148.00/kg",
-          "element": "Gallium"
-        }
-      ],
-      "correct": "$914.00/kg"
-    },
-    {
-      "question": "Which countries are the top producers of Germanium?",
-      "options": [
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Yttrium"
+          "element": "Praseodymium"
         },
         {
-          "text": "1) China  2) Germany  3) Kazakhstan",
-          "element": "Gallium"
-        },
-        {
-          "text": "1) China  2) Russia  3) Germany (likely)",
-          "element": "Germanium"
+          "text": "1) DRC  2) China  3) Zambia",
+          "element": "Cobalt"
         },
         {
           "text": "1) Japan  2) Germany  3) Belgium",
           "element": "Selenium"
         }
       ],
-      "correct": "1) China  2) Russia  3) Germany (likely)"
+      "correct": "1) Russia  2) Indonesia  3) Philippines"
+    },
+    {
+      "question": "When was Nickel first discovered?",
+      "options": [
+        {
+          "text": "1818",
+          "element": "Selenium"
+        },
+        {
+          "text": "1984",
+          "element": "Hassium"
+        },
+        {
+          "text": "1751",
+          "element": "Nickel"
+        },
+        {
+          "text": "1885",
+          "element": "Praseodymium"
+        }
+      ],
+      "correct": "1751"
     }
   ]
 }

@@ -1,96 +1,96 @@
 {
-  "date": "2026-05-08",
-  "element": "Erbium",
-  "atomicNumber": 68,
-  "symbol": "Er",
+  "date": "2026-05-09",
+  "element": "Tungsten",
+  "atomicNumber": 74,
+  "symbol": "W",
   "quiz": [
     {
-      "question": "When was Erbium first discovered?",
+      "question": "When was Tungsten first discovered?",
       "options": [
         {
-          "text": "1804",
-          "element": "Osmium"
+          "text": "1783",
+          "element": "Tungsten"
         },
         {
-          "text": "1843",
-          "element": "Erbium"
+          "text": "1803",
+          "element": "Cerium"
         },
         {
-          "text": "1811",
-          "element": "Iodine"
+          "text": "1982",
+          "element": "Meitnerium"
         },
         {
-          "text": "1898",
-          "element": "Radium"
+          "text": "1961",
+          "element": "Lawrencium"
         }
       ],
-      "correct": "1843"
+      "correct": "1783"
     },
     {
-      "question": "What is the geochemical class of Erbium?",
+      "question": "What is the crustal abundance of Tungsten?",
       "options": [
         {
-          "text": "semi-volatile",
-          "element": "Iodine"
+          "text": "1.25 mg/kg",
+          "element": "Tungsten"
         },
         {
-          "text": "rare earth & related",
-          "element": "Erbium"
+          "text": "66.5 mg/kg",
+          "element": "Cerium"
         },
         {
-          "text": "noble metal",
-          "element": "Osmium"
+          "text": "14.0 mg/kg",
+          "element": "Lead"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Radium"
+          "text": "0.004 mg/kg",
+          "element": "Gold"
         }
       ],
-      "correct": "rare earth & related"
+      "correct": "1.25 mg/kg"
     },
     {
-      "question": "Which countries are the top producers of Erbium?",
+      "question": "Who discovered Tungsten?",
       "options": [
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Osmium"
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
         },
         {
-          "text": "1) Chile  2) Japan  3) USA",
-          "element": "Iodine"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Meitnerium"
         },
         {
-          "text": "1) China  2) Australia  3) Brazil",
-          "element": "Iron"
+          "text": "Fausto and Juan Jos\u00e9 de Elhuyar",
+          "element": "Tungsten"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Lead"
+        }
+      ],
+      "correct": "Fausto and Juan Jos\u00e9 de Elhuyar"
+    },
+    {
+      "question": "Which countries are the top producers of Tungsten?",
+      "options": [
+        {
+          "text": "1) China  2) Australia  3) USA",
+          "element": "Lead"
         },
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Erbium"
+          "element": "Cerium"
+        },
+        {
+          "text": "1) China  2) Russia  3) Bolivia",
+          "element": "Tungsten"
+        },
+        {
+          "text": "1) Australia  2) South Africa  3) China",
+          "element": "Zirconium"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia"
-    },
-    {
-      "question": "Who discovered Erbium?",
-      "options": [
-        {
-          "text": "Smithson Tenant",
-          "element": "Osmium"
-        },
-        {
-          "text": "Pierre and Marie Curie",
-          "element": "Radium"
-        },
-        {
-          "text": "Carl Mosander",
-          "element": "Erbium"
-        },
-        {
-          "text": "Bernard Courtois",
-          "element": "Iodine"
-        }
-      ],
-      "correct": "Carl Mosander"
+      "correct": "1) China  2) Russia  3) Bolivia"
     }
   ]
 }

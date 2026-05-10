@@ -1,96 +1,96 @@
 {
-  "date": "2026-05-09",
-  "element": "Tungsten",
-  "atomicNumber": 74,
-  "symbol": "W",
+  "date": "2026-05-10",
+  "element": "Argon",
+  "atomicNumber": 18,
+  "symbol": "Ar",
   "quiz": [
     {
-      "question": "When was Tungsten first discovered?",
+      "question": "When was Argon first discovered?",
       "options": [
         {
-          "text": "1783",
-          "element": "Tungsten"
+          "text": "1735",
+          "element": "Platinum"
         },
         {
-          "text": "1803",
-          "element": "Cerium"
+          "text": "1879",
+          "element": "Scandium"
         },
         {
-          "text": "1982",
-          "element": "Meitnerium"
+          "text": "1669",
+          "element": "Phosphorus"
         },
         {
-          "text": "1961",
-          "element": "Lawrencium"
+          "text": "1894",
+          "element": "Argon"
         }
       ],
-      "correct": "1783"
+      "correct": "1894"
     },
     {
-      "question": "What is the crustal abundance of Tungsten?",
+      "question": "Who discovered Argon?",
       "options": [
         {
-          "text": "1.25 mg/kg",
-          "element": "Tungsten"
+          "text": "Hennig Brand",
+          "element": "Phosphorus"
         },
         {
-          "text": "66.5 mg/kg",
-          "element": "Cerium"
+          "text": "Sir William Ramsey, Baron Rayleigh",
+          "element": "Argon"
         },
         {
-          "text": "14.0 mg/kg",
-          "element": "Lead"
+          "text": "Julius Scaliger",
+          "element": "Platinum"
         },
         {
-          "text": "0.004 mg/kg",
-          "element": "Gold"
+          "text": "Lars Nilson",
+          "element": "Scandium"
         }
       ],
-      "correct": "1.25 mg/kg"
+      "correct": "Sir William Ramsey, Baron Rayleigh"
     },
     {
-      "question": "Who discovered Tungsten?",
+      "question": "What is the crustal abundance of Argon?",
       "options": [
         {
-          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
-          "element": "Lawrencium"
+          "text": "3.5 mg/kg",
+          "element": "Argon"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Meitnerium"
+          "text": "0.005 mg/kg",
+          "element": "Platinum"
         },
         {
-          "text": "Fausto and Juan Jos\u00e9 de Elhuyar",
-          "element": "Tungsten"
+          "text": "22.0 mg/kg",
+          "element": "Scandium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Lead"
+          "text": "1050.0 mg/kg",
+          "element": "Phosphorus"
         }
       ],
-      "correct": "Fausto and Juan Jos\u00e9 de Elhuyar"
+      "correct": "3.5 mg/kg"
     },
     {
-      "question": "Which countries are the top producers of Tungsten?",
+      "question": "What is the geochemical class of Argon?",
       "options": [
         {
-          "text": "1) China  2) Australia  3) USA",
-          "element": "Lead"
+          "text": "noble metal",
+          "element": "Platinum"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Cerium"
+          "text": "first series transition metal",
+          "element": "Scandium"
         },
         {
-          "text": "1) China  2) Russia  3) Bolivia",
-          "element": "Tungsten"
+          "text": "rare earth & related",
+          "element": "Terbium"
         },
         {
-          "text": "1) Australia  2) South Africa  3) China",
-          "element": "Zirconium"
+          "text": "volatile",
+          "element": "Argon"
         }
       ],
-      "correct": "1) China  2) Russia  3) Bolivia"
+      "correct": "volatile"
     }
   ]
 }

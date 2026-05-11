@@ -1,96 +1,74 @@
 {
-  "date": "2026-05-10",
-  "element": "Argon",
-  "atomicNumber": 18,
-  "symbol": "Ar",
+  "date": "2026-05-11",
+  "element": "Darmstadtium",
+  "atomicNumber": 110,
+  "symbol": "Ds",
   "quiz": [
     {
-      "question": "When was Argon first discovered?",
+      "question": "When was Darmstadtium first discovered?",
       "options": [
         {
-          "text": "1735",
-          "element": "Platinum"
+          "text": "1885",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "1994",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "1861",
+          "element": "Rubidium"
         },
         {
           "text": "1879",
-          "element": "Scandium"
-        },
-        {
-          "text": "1669",
-          "element": "Phosphorus"
-        },
-        {
-          "text": "1894",
-          "element": "Argon"
+          "element": "Thulium"
         }
       ],
-      "correct": "1894"
+      "correct": "1994"
     },
     {
-      "question": "Who discovered Argon?",
+      "question": "Who discovered Darmstadtium?",
       "options": [
         {
-          "text": "Hennig Brand",
-          "element": "Phosphorus"
+          "text": "R. Bunsen, G. Kirchoff",
+          "element": "Rubidium"
         },
         {
-          "text": "Sir William Ramsey, Baron Rayleigh",
-          "element": "Argon"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Darmstadtium"
         },
         {
-          "text": "Julius Scaliger",
-          "element": "Platinum"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Praseodymium"
         },
         {
-          "text": "Lars Nilson",
-          "element": "Scandium"
+          "text": "Per Theodor Cleve",
+          "element": "Thulium"
         }
       ],
-      "correct": "Sir William Ramsey, Baron Rayleigh"
+      "correct": "Heavy Ion Research Laboratory (HIRL)"
     },
     {
-      "question": "What is the crustal abundance of Argon?",
+      "question": "What is the density of Darmstadtium?",
       "options": [
         {
-          "text": "3.5 mg/kg",
-          "element": "Argon"
+          "text": "34.8 g/cm\u00b3",
+          "element": "Darmstadtium"
         },
         {
-          "text": "0.005 mg/kg",
-          "element": "Platinum"
+          "text": "6.773 g/cm\u00b3",
+          "element": "Praseodymium"
         },
         {
-          "text": "22.0 mg/kg",
-          "element": "Scandium"
+          "text": "9.321 g/cm\u00b3",
+          "element": "Thulium"
         },
         {
-          "text": "1050.0 mg/kg",
-          "element": "Phosphorus"
+          "text": "1.53 g/cm\u00b3",
+          "element": "Rubidium"
         }
       ],
-      "correct": "3.5 mg/kg"
-    },
-    {
-      "question": "What is the geochemical class of Argon?",
-      "options": [
-        {
-          "text": "noble metal",
-          "element": "Platinum"
-        },
-        {
-          "text": "first series transition metal",
-          "element": "Scandium"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Terbium"
-        },
-        {
-          "text": "volatile",
-          "element": "Argon"
-        }
-      ],
-      "correct": "volatile"
+      "correct": "34.8 g/cm\u00b3"
     }
   ]
 }

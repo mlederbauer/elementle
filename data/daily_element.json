@@ -1,74 +1,96 @@
 {
-  "date": "2026-05-11",
-  "element": "Darmstadtium",
-  "atomicNumber": 110,
-  "symbol": "Ds",
+  "date": "2026-05-12",
+  "element": "Tantalum",
+  "atomicNumber": 73,
+  "symbol": "Ta",
   "quiz": [
     {
-      "question": "When was Darmstadtium first discovered?",
-      "options": [
-        {
-          "text": "1885",
-          "element": "Praseodymium"
-        },
-        {
-          "text": "1994",
-          "element": "Darmstadtium"
-        },
-        {
-          "text": "1861",
-          "element": "Rubidium"
-        },
-        {
-          "text": "1879",
-          "element": "Thulium"
-        }
-      ],
-      "correct": "1994"
-    },
-    {
-      "question": "Who discovered Darmstadtium?",
+      "question": "Who discovered Tantalum?",
       "options": [
         {
           "text": "R. Bunsen, G. Kirchoff",
           "element": "Rubidium"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Darmstadtium"
+          "text": "Anders Ekeberg",
+          "element": "Tantalum"
         },
         {
-          "text": "C.F. Aver von Welsbach",
-          "element": "Praseodymium"
+          "text": "Fausto and Juan Jos\u00e9 de Elhuyar",
+          "element": "Tungsten"
         },
         {
-          "text": "Per Theodor Cleve",
-          "element": "Thulium"
+          "text": "Known to the ancients",
+          "element": "Carbon"
         }
       ],
-      "correct": "Heavy Ion Research Laboratory (HIRL)"
+      "correct": "Anders Ekeberg"
     },
     {
-      "question": "What is the density of Darmstadtium?",
+      "question": "What is the geochemical class of Tantalum?",
       "options": [
         {
-          "text": "34.8 g/cm\u00b3",
-          "element": "Darmstadtium"
+          "text": "alkali metal",
+          "element": "Rubidium"
         },
         {
-          "text": "6.773 g/cm\u00b3",
-          "element": "Praseodymium"
+          "text": "semi-volatile",
+          "element": "Carbon"
         },
         {
-          "text": "9.321 g/cm\u00b3",
-          "element": "Thulium"
+          "text": "volatile",
+          "element": "Nitrogen"
         },
         {
-          "text": "1.53 g/cm\u00b3",
+          "text": "high field strength",
+          "element": "Tantalum"
+        }
+      ],
+      "correct": "high field strength"
+    },
+    {
+      "question": "What is the crustal abundance of Tantalum?",
+      "options": [
+        {
+          "text": "200.0 mg/kg",
+          "element": "Carbon"
+        },
+        {
+          "text": "1.25 mg/kg",
+          "element": "Tungsten"
+        },
+        {
+          "text": "2.0 mg/kg",
+          "element": "Tantalum"
+        },
+        {
+          "text": "90.0 mg/kg",
           "element": "Rubidium"
         }
       ],
-      "correct": "34.8 g/cm\u00b3"
+      "correct": "2.0 mg/kg"
+    },
+    {
+      "question": "Which countries are the top producers of Tantalum?",
+      "options": [
+        {
+          "text": "1) China  2) Russia  3) Bolivia",
+          "element": "Tungsten"
+        },
+        {
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Lutetium"
+        },
+        {
+          "text": "1) Brazil  2) Rwanda  3) China",
+          "element": "Tantalum"
+        },
+        {
+          "text": "1) China  2) USA  3) India",
+          "element": "Carbon"
+        }
+      ],
+      "correct": "1) Brazil  2) Rwanda  3) China"
     }
   ]
 }

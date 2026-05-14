@@ -1,96 +1,96 @@
 {
-  "date": "2026-05-13",
-  "element": "Rhenium",
-  "atomicNumber": 75,
-  "symbol": "Re",
+  "date": "2026-05-14",
+  "element": "Zirconium",
+  "atomicNumber": 40,
+  "symbol": "Zr",
   "quiz": [
     {
-      "question": "When was Rhenium first discovered?",
-      "options": [
-        {
-          "text": "1879",
-          "element": "Scandium"
-        },
-        {
-          "text": "1898",
-          "element": "Neon"
-        },
-        {
-          "text": "1783",
-          "element": "Tungsten"
-        },
-        {
-          "text": "1925",
-          "element": "Rhenium"
-        }
-      ],
-      "correct": "1925"
-    },
-    {
-      "question": "Which countries are the top producers of Rhenium?",
+      "question": "Which countries are the top producers of Zirconium?",
       "options": [
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Scandium"
+          "element": "Dysprosium"
         },
         {
-          "text": "1) China  2) Australia  3) Brazil",
-          "element": "Iron"
-        },
-        {
-          "text": "1) China  2) Russia  3) Bolivia",
-          "element": "Tungsten"
+          "text": "1) Australia  2) South Africa  3) China",
+          "element": "Zirconium"
         },
         {
           "text": "1) Chile  2) USA  3) Poland",
           "element": "Rhenium"
-        }
-      ],
-      "correct": "1) Chile  2) USA  3) Poland"
-    },
-    {
-      "question": "Who discovered Rhenium?",
-      "options": [
-        {
-          "text": "Fausto and Juan Jos\u00e9 de Elhuyar",
-          "element": "Tungsten"
         },
         {
-          "text": "Sir William Ramsey, M.W. Travers",
-          "element": "Neon"
+          "text": "1) China  2) Mexico  3) Japan",
+          "element": "Bismuth"
+        }
+      ],
+      "correct": "1) Australia  2) South Africa  3) China"
+    },
+    {
+      "question": "What is the geochemical class of Zirconium?",
+      "options": [
+        {
+          "text": "volatile",
+          "element": "Krypton"
+        },
+        {
+          "text": "noble metal",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "high field strength",
+          "element": "Zirconium"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Dysprosium"
+        }
+      ],
+      "correct": "high field strength"
+    },
+    {
+      "question": "Who discovered Zirconium?",
+      "options": [
+        {
+          "text": "Martin Klaproth",
+          "element": "Zirconium"
+        },
+        {
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Dysprosium"
         },
         {
           "text": "Walter Noddack, Ida Tacke, Otto Berg",
           "element": "Rhenium"
         },
         {
-          "text": "Lars Nilson",
-          "element": "Scandium"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Oganesson"
         }
       ],
-      "correct": "Walter Noddack, Ida Tacke, Otto Berg"
+      "correct": "Martin Klaproth"
     },
     {
-      "question": "What is the crustal abundance of Rhenium?",
+      "question": "When was Zirconium first discovered?",
       "options": [
         {
-          "text": "0.005 mg/kg",
-          "element": "Neon"
+          "text": "1886",
+          "element": "Dysprosium"
         },
         {
-          "text": "1.25 mg/kg",
-          "element": "Tungsten"
+          "text": "1789",
+          "element": "Zirconium"
         },
         {
-          "text": "0.0007 mg/kg",
+          "text": "2002",
+          "element": "Oganesson"
+        },
+        {
+          "text": "1925",
           "element": "Rhenium"
-        },
-        {
-          "text": "22.0 mg/kg",
-          "element": "Scandium"
         }
       ],
-      "correct": "0.0007 mg/kg"
+      "correct": "1789"
     }
   ]
 }

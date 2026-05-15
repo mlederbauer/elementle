@@ -1,96 +1,96 @@
 {
-  "date": "2026-05-14",
-  "element": "Zirconium",
-  "atomicNumber": 40,
-  "symbol": "Zr",
+  "date": "2026-05-15",
+  "element": "Tellurium",
+  "atomicNumber": 52,
+  "symbol": "Te",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Zirconium?",
+      "question": "What is the crustal abundance of Tellurium?",
       "options": [
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Dysprosium"
+          "text": "2.3 mg/kg",
+          "element": "Tin"
         },
         {
-          "text": "1) Australia  2) South Africa  3) China",
-          "element": "Zirconium"
+          "text": "19.0 mg/kg",
+          "element": "Gallium"
         },
         {
-          "text": "1) Chile  2) USA  3) Poland",
-          "element": "Rhenium"
+          "text": "585.0 mg/kg",
+          "element": "Fluorine"
         },
         {
-          "text": "1) China  2) Mexico  3) Japan",
-          "element": "Bismuth"
+          "text": "0.001 mg/kg",
+          "element": "Tellurium"
         }
       ],
-      "correct": "1) Australia  2) South Africa  3) China"
+      "correct": "0.001 mg/kg"
     },
     {
-      "question": "What is the geochemical class of Zirconium?",
+      "question": "What is the geochemical class of Tellurium?",
       "options": [
         {
-          "text": "volatile",
-          "element": "Krypton"
+          "text": "major",
+          "element": "Oxygen"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Astatine"
         },
         {
           "text": "noble metal",
           "element": "Ruthenium"
         },
         {
-          "text": "high field strength",
-          "element": "Zirconium"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Dysprosium"
+          "text": "semi-volatile",
+          "element": "Tellurium"
         }
       ],
-      "correct": "high field strength"
+      "correct": "semi-volatile"
     },
     {
-      "question": "Who discovered Zirconium?",
+      "question": "What is the approximate price of Tellurium per kilogram?",
       "options": [
         {
-          "text": "Martin Klaproth",
-          "element": "Zirconium"
+          "text": "$10,400.00/kg",
+          "element": "Ruthenium"
         },
+        {
+          "text": "$63.50/kg",
+          "element": "Tellurium"
+        },
+        {
+          "text": "$1.84/kg",
+          "element": "Fluorine"
+        },
+        {
+          "text": "$148.00/kg",
+          "element": "Gallium"
+        }
+      ],
+      "correct": "$63.50/kg"
+    },
+    {
+      "question": "Who discovered Tellurium?",
+      "options": [
         {
           "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Dysprosium"
+          "element": "Gallium"
         },
         {
-          "text": "Walter Noddack, Ida Tacke, Otto Berg",
-          "element": "Rhenium"
+          "text": "Franz M\u00fcller von Reichenstein",
+          "element": "Tellurium"
         },
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Oganesson"
+          "text": "Karl Klaus",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "Henri Moissan",
+          "element": "Fluorine"
         }
       ],
-      "correct": "Martin Klaproth"
-    },
-    {
-      "question": "When was Zirconium first discovered?",
-      "options": [
-        {
-          "text": "1886",
-          "element": "Dysprosium"
-        },
-        {
-          "text": "1789",
-          "element": "Zirconium"
-        },
-        {
-          "text": "2002",
-          "element": "Oganesson"
-        },
-        {
-          "text": "1925",
-          "element": "Rhenium"
-        }
-      ],
-      "correct": "1789"
+      "correct": "Franz M\u00fcller von Reichenstein"
     }
   ]
 }

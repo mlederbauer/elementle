@@ -1,96 +1,74 @@
 {
-  "date": "2026-05-16",
-  "element": "Sulfur",
-  "atomicNumber": 16,
-  "symbol": "S",
+  "date": "2026-05-17",
+  "element": "Seaborgium",
+  "atomicNumber": 106,
+  "symbol": "Sg",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Sulfur?",
+      "question": "Who discovered Seaborgium?",
       "options": [
         {
-          "text": "10.0 mg/kg",
-          "element": "Boron"
-        },
-        {
-          "text": "350.0 mg/kg",
-          "element": "Sulfur"
-        },
-        {
-          "text": "2.0 mg/kg",
-          "element": "Europium"
-        },
-        {
-          "text": "0.85 mg/kg",
-          "element": "Thallium"
-        }
-      ],
-      "correct": "350.0 mg/kg"
-    },
-    {
-      "question": "Which countries are the top producers of Sulfur?",
-      "options": [
-        {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Europium"
-        },
-        {
-          "text": "1) Turkey  2) USA  3) Chile",
-          "element": "Boron"
-        },
-        {
-          "text": "1) China  2) USA  3) Canada",
-          "element": "Sulfur"
-        },
-        {
-          "text": "1) China  2) India  3) USA",
-          "element": "Chlorine"
-        }
-      ],
-      "correct": "1) China  2) USA  3) Canada"
-    },
-    {
-      "question": "What is the geochemical class of Sulfur?",
-      "options": [
-        {
-          "text": "noble metal",
-          "element": "Ruthenium"
-        },
-        {
-          "text": "U/Th decay series",
-          "element": "Francium"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Europium"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Sulfur"
-        }
-      ],
-      "correct": "semi-volatile"
-    },
-    {
-      "question": "Who discovered Sulfur?",
-      "options": [
-        {
-          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
-          "element": "Boron"
+          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
+          "element": "Iridium"
         },
         {
           "text": "Known to the ancients.",
-          "element": "Sulfur"
+          "element": "Lead"
         },
         {
-          "text": "Eug\u00e8ne Demar\u00e7ay",
-          "element": "Europium"
+          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
+          "element": "Seaborgium"
         },
         {
-          "text": "Sir William Crookes",
-          "element": "Thallium"
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
         }
       ],
-      "correct": "Known to the ancients."
+      "correct": "Soviet Nuclear Research/ U. of Cal at Berkeley"
+    },
+    {
+      "question": "When was Seaborgium first discovered?",
+      "options": [
+        {
+          "text": "1804",
+          "element": "Iridium"
+        },
+        {
+          "text": "1961",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "1974",
+          "element": "Seaborgium"
+        },
+        {
+          "text": "1940",
+          "element": "Neptunium"
+        }
+      ],
+      "correct": "1974"
+    },
+    {
+      "question": "What is the density of Seaborgium?",
+      "options": [
+        {
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "11.3 g/cm\u00b3",
+          "element": "Lead"
+        },
+        {
+          "text": "22.5622 g/cm\u00b3",
+          "element": "Iridium"
+        },
+        {
+          "text": "35.0 g/cm\u00b3",
+          "element": "Seaborgium"
+        }
+      ],
+      "correct": "35.0 g/cm\u00b3"
     }
   ]
 }

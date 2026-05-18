@@ -1,74 +1,96 @@
 {
-  "date": "2026-05-17",
-  "element": "Seaborgium",
-  "atomicNumber": 106,
-  "symbol": "Sg",
+  "date": "2026-05-18",
+  "element": "Tellurium",
+  "atomicNumber": 52,
+  "symbol": "Te",
   "quiz": [
     {
-      "question": "Who discovered Seaborgium?",
+      "question": "When was Tellurium first discovered?",
       "options": [
         {
-          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
-          "element": "Iridium"
+          "text": "1898",
+          "element": "Xenon"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Lead"
+          "text": "1772",
+          "element": "Nitrogen"
         },
         {
-          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
-          "element": "Seaborgium"
+          "text": "1797",
+          "element": "Chromium"
         },
         {
-          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
-          "element": "Lawrencium"
+          "text": "1782",
+          "element": "Tellurium"
         }
       ],
-      "correct": "Soviet Nuclear Research/ U. of Cal at Berkeley"
+      "correct": "1782"
     },
     {
-      "question": "When was Seaborgium first discovered?",
+      "question": "What is the geochemical class of Tellurium?",
       "options": [
         {
-          "text": "1804",
-          "element": "Iridium"
+          "text": "volatile",
+          "element": "Nitrogen"
         },
         {
-          "text": "1961",
-          "element": "Lawrencium"
+          "text": "first series transition metal",
+          "element": "Chromium"
         },
         {
-          "text": "1974",
-          "element": "Seaborgium"
+          "text": "semi-volatile",
+          "element": "Tellurium"
         },
         {
-          "text": "1940",
-          "element": "Neptunium"
+          "text": "high field strength",
+          "element": "Hafnium"
         }
       ],
-      "correct": "1974"
+      "correct": "semi-volatile"
     },
     {
-      "question": "What is the density of Seaborgium?",
+      "question": "Who discovered Tellurium?",
       "options": [
         {
-          "text": "15.6 g/cm\u00b3",
-          "element": "Lawrencium"
+          "text": "Sir William Ramsay; M. W. Travers",
+          "element": "Xenon"
         },
         {
-          "text": "11.3 g/cm\u00b3",
-          "element": "Lead"
+          "text": "Louis Vauquelin",
+          "element": "Chromium"
         },
         {
-          "text": "22.5622 g/cm\u00b3",
-          "element": "Iridium"
+          "text": "Daniel Rutherford",
+          "element": "Nitrogen"
         },
         {
-          "text": "35.0 g/cm\u00b3",
-          "element": "Seaborgium"
+          "text": "Franz M\u00fcller von Reichenstein",
+          "element": "Tellurium"
         }
       ],
-      "correct": "35.0 g/cm\u00b3"
+      "correct": "Franz M\u00fcller von Reichenstein"
+    },
+    {
+      "question": "What is the crustal abundance of Tellurium?",
+      "options": [
+        {
+          "text": "102.0 mg/kg",
+          "element": "Chromium"
+        },
+        {
+          "text": "0.001 mg/kg",
+          "element": "Tellurium"
+        },
+        {
+          "text": "2.9999999999999997e-05 mg/kg",
+          "element": "Xenon"
+        },
+        {
+          "text": "19.0 mg/kg",
+          "element": "Nitrogen"
+        }
+      ],
+      "correct": "0.001 mg/kg"
     }
   ]
 }

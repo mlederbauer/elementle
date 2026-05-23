@@ -1,6 +1,7 @@
 let quiz = [];
 let answered = 0;
 let score = 0;
+let questionResults = [];
 
 document.addEventListener('DOMContentLoaded', main);
 
@@ -51,6 +52,8 @@ async function main() {
 
 function renderQuiz() {
     const container = document.getElementById('quiz');
+    questionResults = quiz.map(() => null);
+    updateBonus3ShareProgress();
     quiz.forEach((q, qi) => {
         const block = document.createElement('div');
         block.className = 'question-block';
@@ -103,7 +106,9 @@ function handleAnswer(qi, chosen, grid, q) {
     });
 
     if (chosen === q.correct) score++;
+    questionResults[qi] = chosen === q.correct;
     answered++;
+    updateBonus3ShareProgress();
 
     if (answered === quiz.length) showResult();
 }
@@ -157,15 +162,95 @@ function buildShareText() {
     const emojiMap = { green: '🟩', yellow: '🟨', grey: '⬛' };
     const rows = guessHistory.map(colors => colors.map(c => emojiMap[c]).join('')).join('\n');
 
-    const bonusScore = `Bonus: ${score}/${quiz.length}`;
+    const progress = getShareProgress(dateStr);
+    const bonusLines = buildBonusProgressLines(progress);
 
     return [
-        `Elementle ${dateStr}  ${scoreStr}  ${bonusScore}`,
+        `Elementle ${dateStr}  ${scoreStr}`,
         '',
         rows,
         '',
-        '🔬 Play at: https://mlederbauer.github.io/elementle/'
+        ...bonusLines,
+        '',
+        '🔬 Play at: https://elementle.ch'
     ].join('\n');
+}
+
+function updateBonus3ShareProgress() {
+    const dateStr = getShareDate();
+    const progress = loadShareProgress(dateStr);
+    progress.bonus3 = {
+        answered,
+        total: quiz.length,
+        score,
+        completed: answered === quiz.length && quiz.length > 0,
+        questions: quiz.map(q => q.question),
+        results: questionResults
+    };
+    saveShareProgress(progress);
+}
+
+function getShareDate() {
+    const now = new Date();
+    const fallbackDate = now.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+    return localStorage.getItem('elementle-gameDate') || fallbackDate;
+}
+
+function loadShareProgress(dateStr) {
+    try {
+        const stored = JSON.parse(localStorage.getItem('elementle-share-progress'));
+        if (!stored || stored.date !== dateStr) return { date: dateStr };
+        return stored;
+    } catch (e) {
+        return { date: dateStr };
+    }
+}
+
+function saveShareProgress(progress) {
+    localStorage.setItem('elementle-share-progress', JSON.stringify(progress));
+}
+
+function getShareProgress(dateStr) {
+    return loadShareProgress(dateStr);
+}
+
+function buildBonusProgressLines(progress) {
+    const lines = ['🧪 Bonus progress'];
+
+    const bonus1 = progress.bonus1;
+    if (bonus1 && typeof bonus1.guessed === 'number' && typeof bonus1.total === 'number') {
+        const status = bonus1.completed ? '✅' : '🧭';
+        lines.push(`${status} Neighbors: ${bonus1.guessed}/${bonus1.total} found (${bonus1.attemptsUsed}/${bonus1.maxAttempts} guesses)`);
+    } else {
+        lines.push('🧭 Neighbors: not started');
+    }
+
+    const bonus2 = progress.bonus2;
+    if (bonus2 && typeof bonus2.attemptsUsed === 'number') {
+        const status = bonus2.completed ? (bonus2.won ? '✅' : '❌') : '⚖️';
+        const warmth = bonus2.lastWarmth || '▫️▫️▫️▫️▫️';
+        const hint = bonus2.lastDirection ? ` ${bonus2.lastDirection}` : '';
+        lines.push(`${status} Atomic mass: ${bonus2.attemptsUsed}/${bonus2.maxAttempts} guesses${hint} ${warmth}`.trim());
+    } else {
+        lines.push('⚖️ Atomic mass: not started');
+    }
+
+    const bonus3 = progress.bonus3;
+    if (bonus3 && Array.isArray(bonus3.questions) && Array.isArray(bonus3.results)) {
+        const total = bonus3.total || bonus3.questions.length;
+        const answeredCount = bonus3.answered || bonus3.results.filter(r => r !== null).length;
+        const scoreCount = bonus3.score || 0;
+        lines.push(`❓ Quiz: ${scoreCount}/${total} (${answeredCount}/${total} answered)`);
+        bonus3.questions.forEach((question, i) => {
+            const result = bonus3.results[i];
+            const icon = result === true ? '✅' : result === false ? '❌' : '⬜';
+            lines.push(`${icon} Q${i + 1}: ${question}`);
+        });
+    } else {
+        lines.push('❓ Quiz: not started');
+    }
+
+    return lines;
 }
 
 function showNoElement() {

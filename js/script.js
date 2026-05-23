@@ -200,6 +200,7 @@ function saveGameResultToLocalStorage(won) {
         localStorage.setItem('elementle-guessHistory', JSON.stringify(guessHistory));
         localStorage.setItem('elementle-won', JSON.stringify(won));
         localStorage.setItem('elementle-gameDate', dateStr);
+        ensureShareProgressDate(dateStr);
     } catch (e) { console.error('Failed to save game result:', e); }
 }
 
@@ -481,11 +482,76 @@ function buildShareText() {
     const emojiMap = { green: '🟩', yellow: '🟨', grey: '⬛' };
     const rows = history.map(colors => colors.map(c => emojiMap[c]).join('')).join('\n');
 
+    const progress = getShareProgress(dateStr);
+    const bonusLines = buildBonusProgressLines(progress);
+
     return [
         `Elementle ${dateStr}  ${scoreStr}`,
         '',
         rows,
         '',
-        '🔬 Play at: https://mlederbauer.github.io/elementle/'
+        ...bonusLines,
+        '',
+        '🔬 Play at: https://elementle.ch'
     ].join('\n');
+}
+
+function ensureShareProgressDate(dateStr) {
+    try {
+        const stored = JSON.parse(localStorage.getItem('elementle-share-progress'));
+        if (!stored || stored.date !== dateStr) {
+            localStorage.setItem('elementle-share-progress', JSON.stringify({ date: dateStr }));
+        }
+    } catch (e) {
+        localStorage.setItem('elementle-share-progress', JSON.stringify({ date: dateStr }));
+    }
+}
+
+function getShareProgress(dateStr) {
+    try {
+        const stored = JSON.parse(localStorage.getItem('elementle-share-progress'));
+        if (!stored || stored.date !== dateStr) return { date: dateStr };
+        return stored;
+    } catch (e) {
+        return { date: dateStr };
+    }
+}
+
+function buildBonusProgressLines(progress) {
+    const lines = ['🧪 Bonus progress'];
+
+    const bonus1 = progress.bonus1;
+    if (bonus1 && typeof bonus1.guessed === 'number' && typeof bonus1.total === 'number') {
+        const status = bonus1.completed ? '✅' : '🧭';
+        lines.push(`${status} Neighbors: ${bonus1.guessed}/${bonus1.total} found (${bonus1.attemptsUsed}/${bonus1.maxAttempts} guesses)`);
+    } else {
+        lines.push('🧭 Neighbors: not started');
+    }
+
+    const bonus2 = progress.bonus2;
+    if (bonus2 && typeof bonus2.attemptsUsed === 'number') {
+        const status = bonus2.completed ? (bonus2.won ? '✅' : '❌') : '⚖️';
+        const warmth = bonus2.lastWarmth || '▫️▫️▫️▫️▫️';
+        const hint = bonus2.lastDirection ? ` ${bonus2.lastDirection}` : '';
+        lines.push(`${status} Atomic mass: ${bonus2.attemptsUsed}/${bonus2.maxAttempts} guesses${hint} ${warmth}`.trim());
+    } else {
+        lines.push('⚖️ Atomic mass: not started');
+    }
+
+    const bonus3 = progress.bonus3;
+    if (bonus3 && Array.isArray(bonus3.questions) && Array.isArray(bonus3.results)) {
+        const total = bonus3.total || bonus3.questions.length;
+        const answered = bonus3.answered || bonus3.results.filter(r => r !== null).length;
+        const score = bonus3.score || 0;
+        lines.push(`❓ Quiz: ${score}/${total} (${answered}/${total} answered)`);
+        bonus3.questions.forEach((question, i) => {
+            const result = bonus3.results[i];
+            const icon = result === true ? '✅' : result === false ? '❌' : '⬜';
+            lines.push(`${icon} Q${i + 1}: ${question}`);
+        });
+    } else {
+        lines.push('❓ Quiz: not started');
+    }
+
+    return lines;
 }

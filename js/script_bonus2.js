@@ -151,13 +151,43 @@ function updateBonus2ShareProgress(won, completed) {
 
 function shareResult() {
     const text = buildShareText();
-    navigator.clipboard.writeText(text).then(() => {
+    copyTextToClipboard(text).then(() => {
         const toast = document.getElementById('shareToast');
         toast.style.display = 'block';
         setTimeout(() => { toast.style.display = 'none'; }, 2000);
     }).catch(() => {
         prompt('Copy this to share:', text);
     });
+}
+
+function copyTextToClipboard(text) {
+    if (window.isSecureContext && navigator.clipboard?.writeText) {
+        return navigator.clipboard.writeText(text);
+    }
+    return fallbackCopyTextToClipboard(text)
+        ? Promise.resolve()
+        : Promise.reject(new Error('Copy command was unsuccessful'));
+}
+
+function fallbackCopyTextToClipboard(text) {
+    const textArea = document.createElement('textarea');
+    textArea.value = text;
+    textArea.setAttribute('readonly', '');
+    textArea.style.position = 'fixed';
+    textArea.style.left = '-9999px';
+    document.body.appendChild(textArea);
+    textArea.select();
+    textArea.setSelectionRange(0, textArea.value.length);
+
+    let copied = false;
+    try {
+        copied = document.execCommand('copy');
+    } catch (e) {
+        copied = false;
+    }
+
+    document.body.removeChild(textArea);
+    return copied;
 }
 
 function buildShareText() {

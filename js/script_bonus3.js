@@ -3,6 +3,32 @@ let answered = 0;
 let score = 0;
 let questionResults = [];
 
+function formatDailyDate(isoDate) {
+    if (typeof isoDate !== 'string') return '';
+    const parts = isoDate.split('-');
+    if (parts.length !== 3) return '';
+    const [year, month, day] = parts;
+    if (!year || !month || !day) return '';
+    return `${day}/${month}/${year}`;
+}
+
+function getTodayShareDate() {
+    return new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+function syncShareDate(dateStr) {
+    if (!dateStr) return;
+    localStorage.setItem('elementle-gameDate', dateStr);
+    try {
+        const stored = JSON.parse(localStorage.getItem('elementle-share-progress'));
+        if (!stored || stored.date !== dateStr) {
+            localStorage.setItem('elementle-share-progress', JSON.stringify({ date: dateStr }));
+        }
+    } catch (e) {
+        localStorage.setItem('elementle-share-progress', JSON.stringify({ date: dateStr }));
+    }
+}
+
 document.addEventListener('DOMContentLoaded', main);
 
 async function main() {
@@ -17,6 +43,7 @@ async function main() {
         ]);
         const elemData  = await elemResp.json();
         const dailyData = await dailyResp.json();
+        syncShareDate(formatDailyDate(dailyData.date) || getTodayShareDate());
 
         // Always use daily_element.json as the authoritative source
         if (dailyData.element) {
@@ -176,8 +203,7 @@ function fallbackCopyTextToClipboard(text) {
 
 function buildShareText() {
     const MAX_ATTEMPTS = 6;
-    const now = new Date();
-    const fallbackDate = now.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+    const fallbackDate = getTodayShareDate();
 
     let guessHistory = [];
     let won = false;
@@ -202,7 +228,7 @@ function buildShareText() {
         '',
         ...bonusLines,
         '',
-        '🔬 Play at: https://elementle.ch'
+        '🧪 Play at: https://elementle.ch'
     ].join('\n');
 }
 
@@ -221,8 +247,7 @@ function updateBonus3ShareProgress() {
 }
 
 function getShareDate() {
-    const now = new Date();
-    const fallbackDate = now.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+    const fallbackDate = getTodayShareDate();
     return localStorage.getItem('elementle-gameDate') || fallbackDate;
 }
 
@@ -245,40 +270,21 @@ function getShareProgress(dateStr) {
 }
 
 function buildBonusProgressLines(progress) {
-    const lines = ['🧪 Bonus progress'];
+    const lines = [];
 
-    const bonus1 = progress.bonus1;
-    if (bonus1 && typeof bonus1.guessed === 'number' && typeof bonus1.total === 'number') {
-        const status = bonus1.completed ? '✅' : '🧭';
-        lines.push(`${status} Neighbors: ${bonus1.guessed}/${bonus1.total} found (${bonus1.attemptsUsed}/${bonus1.maxAttempts} guesses)`);
-    } else {
-        lines.push('🧭 Neighbors: not started');
-    }
+    const neighborGuesses = typeof progress?.bonus1?.attemptsUsed === 'number' ? progress.bonus1.attemptsUsed : 0;
+    lines.push(neighborGuesses > 0 ? '🏘️'.repeat(neighborGuesses) : '🏘️0');
 
-    const bonus2 = progress.bonus2;
-    if (bonus2 && typeof bonus2.attemptsUsed === 'number') {
-        const status = bonus2.completed ? (bonus2.won ? '✅' : '❌') : '⚖️';
-        const warmth = bonus2.lastWarmth || '▫️▫️▫️▫️▫️';
-        const hint = bonus2.lastDirection ? ` ${bonus2.lastDirection}` : '';
-        lines.push(`${status} Atomic mass: ${bonus2.attemptsUsed}/${bonus2.maxAttempts} guesses${hint} ${warmth}`.trim());
-    } else {
-        lines.push('⚖️ Atomic mass: not started');
-    }
+    const massGuesses = typeof progress?.bonus2?.attemptsUsed === 'number' ? progress.bonus2.attemptsUsed : 0;
+    lines.push(massGuesses > 0 ? '⚖️'.repeat(massGuesses) : '⚖️0');
 
-    const bonus3 = progress.bonus3;
-    if (bonus3 && Array.isArray(bonus3.questions) && Array.isArray(bonus3.results)) {
-        const total = bonus3.total || bonus3.questions.length;
-        const answeredCount = bonus3.answered || bonus3.results.filter(r => r !== null).length;
-        const scoreCount = bonus3.score || 0;
-        lines.push(`❓ Quiz: ${scoreCount}/${total} (${answeredCount}/${total} answered)`);
-        bonus3.questions.forEach((question, i) => {
-            const result = bonus3.results[i];
-            const icon = result === true ? '✅' : result === false ? '❌' : '⬜';
-            lines.push(`${icon} Q${i + 1}: ${question}`);
-        });
-    } else {
-        lines.push('❓ Quiz: not started');
+    let quizSummary = '❓';
+    if (Array.isArray(progress?.bonus3?.results) && progress.bonus3.results.length > 0) {
+        quizSummary = progress.bonus3.results
+            .map(result => (result === true ? '✅' : result === false ? '❌' : '❓'))
+            .join('');
     }
+    lines.push(`Quiz: ${quizSummary}`);
 
     return lines;
 }

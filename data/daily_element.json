@@ -1,96 +1,96 @@
 {
-  "date": "2026-05-24",
-  "element": "Holmium",
-  "atomicNumber": 67,
-  "symbol": "Ho",
+  "date": "2026-05-25",
+  "element": "Terbium",
+  "atomicNumber": 65,
+  "symbol": "Tb",
   "quiz": [
     {
-      "question": "Who discovered Holmium?",
+      "question": "Who discovered Terbium?",
       "options": [
+        {
+          "text": "Lawrence Livermore National Laboratory",
+          "element": "Livermorium"
+        },
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Potassium"
+        },
+        {
+          "text": "Carl Mosander",
+          "element": "Terbium"
+        },
         {
           "text": "J.L. Soret",
           "element": "Holmium"
-        },
-        {
-          "text": "William Gregor",
-          "element": "Titanium"
-        },
-        {
-          "text": "Henri Moissan",
-          "element": "Fluorine"
-        },
-        {
-          "text": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell",
-          "element": "Promethium"
         }
       ],
-      "correct": "J.L. Soret"
+      "correct": "Carl Mosander"
     },
     {
-      "question": "Which countries are the top producers of Holmium?",
+      "question": "What is the crustal abundance of Terbium?",
       "options": [
         {
-          "text": "1) China  2) Russia  3) Bolivia",
-          "element": "Tungsten"
-        },
-        {
-          "text": "1) China  2) Mexico  3) Mongolia",
-          "element": "Fluorine"
-        },
-        {
-          "text": "1) Canada  2) Australia  3) South Africa",
-          "element": "Titanium"
-        },
-        {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Holmium"
-        }
-      ],
-      "correct": "1) China  2) Russia  3) Malaysia"
-    },
-    {
-      "question": "What is the crustal abundance of Holmium?",
-      "options": [
-        {
-          "text": "5650.0 mg/kg",
-          "element": "Titanium"
-        },
-        {
-          "text": "0.0001 mg/kg",
-          "element": "Krypton"
+          "text": "20900.0 mg/kg",
+          "element": "Potassium"
         },
         {
           "text": "1.3 mg/kg",
           "element": "Holmium"
         },
         {
-          "text": "585.0 mg/kg",
-          "element": "Fluorine"
+          "text": "1.2 mg/kg",
+          "element": "Terbium"
+        },
+        {
+          "text": "0.008 mg/kg",
+          "element": "Helium"
         }
       ],
-      "correct": "1.3 mg/kg"
+      "correct": "1.2 mg/kg"
     },
     {
-      "question": "When was Holmium first discovered?",
+      "question": "What is the approximate price of Terbium per kilogram?",
       "options": [
         {
-          "text": "1945",
-          "element": "Promethium"
+          "text": "$658.00/kg",
+          "element": "Terbium"
         },
         {
-          "text": "1791",
-          "element": "Titanium"
+          "text": "$12.10/kg",
+          "element": "Potassium"
         },
         {
-          "text": "1878",
+          "text": "$57.10/kg",
           "element": "Holmium"
         },
         {
-          "text": "1886",
-          "element": "Fluorine"
+          "text": "$24.00/kg",
+          "element": "Helium"
         }
       ],
-      "correct": "1878"
+      "correct": "$658.00/kg"
+    },
+    {
+      "question": "Which countries are the top producers of Terbium?",
+      "options": [
+        {
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Terbium"
+        },
+        {
+          "text": "1) China  2) Germany  3) Kazakhstan",
+          "element": "Gallium"
+        },
+        {
+          "text": "1) Canada  2) Russia  3) Belarus",
+          "element": "Potassium"
+        },
+        {
+          "text": "1) USA  2) Algeria  3) Russia",
+          "element": "Helium"
+        }
+      ],
+      "correct": "1) China  2) Russia  3) Malaysia"
     }
   ]
 }

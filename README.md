@@ -22,7 +22,7 @@ Open `index.html` directly in a browser, or serve the repo root with any static 
 
 ```bash
 python3 -m http.server 8080
-# then visit http://localhost:8080
+# then visit https://localhost:8080
 ```
 
 > Note: `fetch()` calls require a server (won't work with `file://` URLs in most browsers).

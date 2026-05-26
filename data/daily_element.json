@@ -1,96 +1,96 @@
 {
-  "date": "2026-05-25",
-  "element": "Terbium",
-  "atomicNumber": 65,
-  "symbol": "Tb",
+  "date": "2026-05-26",
+  "element": "Uranium",
+  "atomicNumber": 92,
+  "symbol": "U",
   "quiz": [
     {
-      "question": "Who discovered Terbium?",
+      "question": "What is the geochemical class of Uranium?",
       "options": [
         {
-          "text": "Lawrence Livermore National Laboratory",
-          "element": "Livermorium"
+          "text": "noble metal",
+          "element": "Iridium"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Potassium"
+          "text": "major",
+          "element": "Iron"
         },
         {
-          "text": "Carl Mosander",
-          "element": "Terbium"
+          "text": "rare earth & related",
+          "element": "Uranium"
         },
         {
-          "text": "J.L. Soret",
-          "element": "Holmium"
+          "text": "U/Th decay series",
+          "element": "Astatine"
         }
       ],
-      "correct": "Carl Mosander"
+      "correct": "rare earth & related"
     },
     {
-      "question": "What is the crustal abundance of Terbium?",
+      "question": "Which countries are the top producers of Uranium?",
       "options": [
         {
-          "text": "20900.0 mg/kg",
-          "element": "Potassium"
+          "text": "1) China  2) Australia  3) Brazil",
+          "element": "Iron"
         },
         {
-          "text": "1.3 mg/kg",
-          "element": "Holmium"
+          "text": "1) China  2) Kyrgzstan  3) Chile",
+          "element": "Mercury"
         },
         {
-          "text": "1.2 mg/kg",
-          "element": "Terbium"
+          "text": "1) Kazakhstan  2) Canada  3) Australia",
+          "element": "Uranium"
         },
         {
-          "text": "0.008 mg/kg",
-          "element": "Helium"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Iridium"
         }
       ],
-      "correct": "1.2 mg/kg"
+      "correct": "1) Kazakhstan  2) Canada  3) Australia"
     },
     {
-      "question": "What is the approximate price of Terbium per kilogram?",
+      "question": "What is the crustal abundance of Uranium?",
       "options": [
         {
-          "text": "$658.00/kg",
-          "element": "Terbium"
+          "text": "0.085 mg/kg",
+          "element": "Mercury"
         },
         {
-          "text": "$12.10/kg",
-          "element": "Potassium"
+          "text": "56300.0 mg/kg",
+          "element": "Iron"
         },
         {
-          "text": "$57.10/kg",
-          "element": "Holmium"
+          "text": "0.001 mg/kg",
+          "element": "Iridium"
         },
         {
-          "text": "$24.00/kg",
-          "element": "Helium"
+          "text": "2.7 mg/kg",
+          "element": "Uranium"
         }
       ],
-      "correct": "$658.00/kg"
+      "correct": "2.7 mg/kg"
     },
     {
-      "question": "Which countries are the top producers of Terbium?",
+      "question": "Who discovered Uranium?",
       "options": [
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Terbium"
+          "text": "Known to the ancients.",
+          "element": "Mercury"
         },
         {
-          "text": "1) China  2) Germany  3) Kazakhstan",
-          "element": "Gallium"
+          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
+          "element": "Astatine"
         },
         {
-          "text": "1) Canada  2) Russia  3) Belarus",
-          "element": "Potassium"
+          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
+          "element": "Iridium"
         },
         {
-          "text": "1) USA  2) Algeria  3) Russia",
-          "element": "Helium"
+          "text": "Martin Klaproth",
+          "element": "Uranium"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia"
+      "correct": "Martin Klaproth"
     }
   ]
 }

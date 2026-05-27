@@ -1,96 +1,96 @@
 {
-  "date": "2026-05-26",
-  "element": "Uranium",
-  "atomicNumber": 92,
-  "symbol": "U",
+  "date": "2026-05-27",
+  "element": "Copper",
+  "atomicNumber": 29,
+  "symbol": "Cu",
   "quiz": [
     {
-      "question": "What is the geochemical class of Uranium?",
+      "question": "Who discovered Copper?",
       "options": [
         {
-          "text": "noble metal",
-          "element": "Iridium"
+          "text": "Andr\u00e9 Debierne",
+          "element": "Actinium"
         },
         {
-          "text": "major",
-          "element": "Iron"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Praseodymium"
         },
+        {
+          "text": "Known to the ancients.",
+          "element": "Copper"
+        },
+        {
+          "text": "GSI Helmholtz Centre for Heavy Ion Research",
+          "element": "Copernicium"
+        }
+      ],
+      "correct": "Known to the ancients."
+    },
+    {
+      "question": "What is the approximate price of Copper per kilogram?",
+      "options": [
+        {
+          "text": "$103.00/kg",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "$6.00/kg",
+          "element": "Copper"
+        },
+        {
+          "text": "$521.00/kg",
+          "element": "Silver"
+        },
+        {
+          "text": "$29,000,000,000,000.00/kg",
+          "element": "Actinium"
+        }
+      ],
+      "correct": "$6.00/kg"
+    },
+    {
+      "question": "Which countries are the top producers of Copper?",
+      "options": [
+        {
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "1) Chile  2) Peru  3) China",
+          "element": "Copper"
+        },
+        {
+          "text": "1) Brazil  2) Rwanda  3) China",
+          "element": "Tantalum"
+        },
+        {
+          "text": "1) Mexico  2) Peru  3) China",
+          "element": "Silver"
+        }
+      ],
+      "correct": "1) Chile  2) Peru  3) China"
+    },
+    {
+      "question": "What is the geochemical class of Copper?",
+      "options": [
         {
           "text": "rare earth & related",
-          "element": "Uranium"
+          "element": "Praseodymium"
         },
         {
           "text": "U/Th decay series",
-          "element": "Astatine"
+          "element": "Actinium"
+        },
+        {
+          "text": "high field strength",
+          "element": "Tantalum"
+        },
+        {
+          "text": "first series transition metal",
+          "element": "Copper"
         }
       ],
-      "correct": "rare earth & related"
-    },
-    {
-      "question": "Which countries are the top producers of Uranium?",
-      "options": [
-        {
-          "text": "1) China  2) Australia  3) Brazil",
-          "element": "Iron"
-        },
-        {
-          "text": "1) China  2) Kyrgzstan  3) Chile",
-          "element": "Mercury"
-        },
-        {
-          "text": "1) Kazakhstan  2) Canada  3) Australia",
-          "element": "Uranium"
-        },
-        {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Iridium"
-        }
-      ],
-      "correct": "1) Kazakhstan  2) Canada  3) Australia"
-    },
-    {
-      "question": "What is the crustal abundance of Uranium?",
-      "options": [
-        {
-          "text": "0.085 mg/kg",
-          "element": "Mercury"
-        },
-        {
-          "text": "56300.0 mg/kg",
-          "element": "Iron"
-        },
-        {
-          "text": "0.001 mg/kg",
-          "element": "Iridium"
-        },
-        {
-          "text": "2.7 mg/kg",
-          "element": "Uranium"
-        }
-      ],
-      "correct": "2.7 mg/kg"
-    },
-    {
-      "question": "Who discovered Uranium?",
-      "options": [
-        {
-          "text": "Known to the ancients.",
-          "element": "Mercury"
-        },
-        {
-          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
-          "element": "Astatine"
-        },
-        {
-          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
-          "element": "Iridium"
-        },
-        {
-          "text": "Martin Klaproth",
-          "element": "Uranium"
-        }
-      ],
-      "correct": "Martin Klaproth"
+      "correct": "first series transition metal"
     }
   ]
 }

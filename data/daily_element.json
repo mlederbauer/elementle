@@ -1,96 +1,96 @@
 {
-  "date": "2026-05-28",
-  "element": "Lawrencium",
-  "atomicNumber": 103,
-  "symbol": "Lr",
+  "date": "2026-05-29",
+  "element": "Neon",
+  "atomicNumber": 10,
+  "symbol": "Ne",
   "quiz": [
     {
-      "question": "When was Lawrencium first discovered?",
+      "question": "What is the geochemical class of Neon?",
       "options": [
         {
-          "text": "1898",
+          "text": "semi-volatile",
+          "element": "Sulfur"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Terbium"
+        },
+        {
+          "text": "volatile",
           "element": "Neon"
         },
         {
-          "text": "1817",
-          "element": "Lithium"
-        },
-        {
-          "text": "1961",
-          "element": "Lawrencium"
-        },
-        {
-          "text": "1949",
-          "element": "Berkelium"
+          "text": "first series transition metal",
+          "element": "Titanium"
         }
       ],
-      "correct": "1961"
+      "correct": "volatile"
     },
     {
-      "question": "Who discovered Lawrencium?",
+      "question": "What is the crustal abundance of Neon?",
       "options": [
+        {
+          "text": "1.2 mg/kg",
+          "element": "Terbium"
+        },
+        {
+          "text": "0.005 mg/kg",
+          "element": "Neon"
+        },
+        {
+          "text": "350.0 mg/kg",
+          "element": "Sulfur"
+        },
+        {
+          "text": "1.5 mg/kg",
+          "element": "Germanium"
+        }
+      ],
+      "correct": "0.005 mg/kg"
+    },
+    {
+      "question": "Who discovered Neon?",
+      "options": [
+        {
+          "text": "A. Ghiorso, et al",
+          "element": "Rutherfordium"
+        },
         {
           "text": "Sir William Ramsey, M.W. Travers",
           "element": "Neon"
         },
         {
-          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
-          "element": "Lawrencium"
+          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
+          "element": "Seaborgium"
         },
         {
-          "text": "Johann Arfwedson",
-          "element": "Lithium"
-        },
-        {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso",
-          "element": "Berkelium"
+          "text": "Known to the ancients.",
+          "element": "Sulfur"
         }
       ],
-      "correct": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer"
+      "correct": "Sir William Ramsey, M.W. Travers"
     },
     {
-      "question": "What is the melting point of Lawrencium?",
+      "question": "What is the approximate price of Neon per kilogram?",
       "options": [
         {
-          "text": "-248.6 \u00b0C",
+          "text": "$60,000,000,000.00/kg",
+          "element": "Californium"
+        },
+        {
+          "text": "$914.00/kg",
+          "element": "Germanium"
+        },
+        {
+          "text": "$240.00/kg",
           "element": "Neon"
         },
         {
-          "text": "1627.0 \u00b0C",
-          "element": "Lawrencium"
-        },
-        {
-          "text": "180.5 \u00b0C",
-          "element": "Lithium"
-        },
-        {
-          "text": "986.0 \u00b0C",
-          "element": "Berkelium"
+          "text": "$0.09/kg",
+          "element": "Sulfur"
         }
       ],
-      "correct": "1627.0 \u00b0C"
-    },
-    {
-      "question": "What is the density of Lawrencium?",
-      "options": [
-        {
-          "text": "0.534 g/cm\u00b3",
-          "element": "Lithium"
-        },
-        {
-          "text": "0.000825 g/cm\u00b3",
-          "element": "Neon"
-        },
-        {
-          "text": "14.78 g/cm\u00b3",
-          "element": "Berkelium"
-        },
-        {
-          "text": "15.6 g/cm\u00b3",
-          "element": "Lawrencium"
-        }
-      ],
-      "correct": "15.6 g/cm\u00b3"
+      "correct": "$240.00/kg"
     }
   ]
 }

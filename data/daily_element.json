@@ -1,96 +1,96 @@
 {
-  "date": "2026-05-31",
-  "element": "Radon",
-  "atomicNumber": 86,
-  "symbol": "Rn",
+  "date": "2026-06-01",
+  "element": "Helium",
+  "atomicNumber": 2,
+  "symbol": "He",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Radon?",
+      "question": "What is the geochemical class of Helium?",
       "options": [
         {
-          "text": "0.005 mg/kg",
-          "element": "Platinum"
+          "text": "alkaline earth metal",
+          "element": "Beryllium"
         },
         {
-          "text": "3.5 mg/kg",
-          "element": "Erbium"
+          "text": "volatile",
+          "element": "Helium"
         },
         {
-          "text": "0.25 mg/kg",
-          "element": "Indium"
+          "text": "high field strength",
+          "element": "Tantalum"
         },
         {
-          "text": "4e-13 mg/kg",
-          "element": "Radon"
+          "text": "semi-volatile",
+          "element": "Iodine"
         }
       ],
-      "correct": "4e-13 mg/kg"
+      "correct": "volatile"
     },
     {
-      "question": "When was Radon first discovered?",
+      "question": "What is the crustal abundance of Helium?",
       "options": [
         {
-          "text": "1863",
-          "element": "Indium"
+          "text": "2.0 mg/kg",
+          "element": "Tantalum"
         },
         {
-          "text": "1982",
-          "element": "Meitnerium"
+          "text": "2.8 mg/kg",
+          "element": "Beryllium"
         },
         {
-          "text": "1940",
-          "element": "Plutonium"
+          "text": "0.15 mg/kg",
+          "element": "Cadmium"
         },
         {
-          "text": "1898",
-          "element": "Radon"
+          "text": "0.008 mg/kg",
+          "element": "Helium"
         }
       ],
-      "correct": "1898"
+      "correct": "0.008 mg/kg"
     },
     {
-      "question": "What is the geochemical class of Radon?",
+      "question": "What is the approximate price of Helium per kilogram?",
       "options": [
         {
-          "text": "noble metal",
-          "element": "Platinum"
+          "text": "$298.00/kg",
+          "element": "Tantalum"
         },
         {
-          "text": "first series transition metal",
-          "element": "Nickel"
+          "text": "$857.00/kg",
+          "element": "Beryllium"
         },
         {
-          "text": "rare earth & related",
-          "element": "Erbium"
+          "text": "$2.73/kg",
+          "element": "Cadmium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Radon"
+          "text": "$24.00/kg",
+          "element": "Helium"
         }
       ],
-      "correct": "U/Th decay series"
+      "correct": "$24.00/kg"
     },
     {
-      "question": "Who discovered Radon?",
+      "question": "Who discovered Helium?",
       "options": [
         {
-          "text": "Ferdinand Reich, T. Richter",
-          "element": "Indium"
-        },
-        {
-          "text": "Fredrich Ernst Dorn",
-          "element": "Radon"
-        },
-        {
-          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
-          "element": "Plutonium"
+          "text": "Anders Ekeberg",
+          "element": "Tantalum"
         },
         {
           "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Meitnerium"
+          "element": "Roentgenium"
+        },
+        {
+          "text": "Fredrich W\u00f6hler, A.A.Bussy",
+          "element": "Beryllium"
+        },
+        {
+          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
+          "element": "Helium"
         }
       ],
-      "correct": "Fredrich Ernst Dorn"
+      "correct": "Sir William Ramsey, Nils Langet, P.T.Cleve"
     }
   ]
 }

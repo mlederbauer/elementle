@@ -1,74 +1,96 @@
 {
-  "date": "2026-06-03",
-  "element": "Bohrium",
-  "atomicNumber": 107,
-  "symbol": "Bh",
+  "date": "2026-06-04",
+  "element": "Cadmium",
+  "atomicNumber": 48,
+  "symbol": "Cd",
   "quiz": [
     {
-      "question": "When was Bohrium first discovered?",
+      "question": "Which countries are the top producers of Cadmium?",
       "options": [
         {
-          "text": "1925",
-          "element": "Rhenium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Thulium"
+        },
+        {
+          "text": "1) Turkey  2) USA  3) Chile",
+          "element": "Boron"
+        },
+        {
+          "text": "1) China  2) Republic of Korea  3) Japan",
+          "element": "Cadmium"
+        },
+        {
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Ruthenium"
+        }
+      ],
+      "correct": "1) China  2) Republic of Korea  3) Japan"
+    },
+    {
+      "question": "When was Cadmium first discovered?",
+      "options": [
+        {
+          "text": "1817",
+          "element": "Cadmium"
+        },
+        {
+          "text": "2015",
+          "element": "Nihonium"
         },
         {
           "text": "1808",
-          "element": "Calcium"
+          "element": "Boron"
         },
         {
-          "text": "1976",
-          "element": "Bohrium"
-        },
-        {
-          "text": "1886",
-          "element": "Germanium"
+          "text": "1879",
+          "element": "Thulium"
         }
       ],
-      "correct": "1976"
+      "correct": "1817"
     },
     {
-      "question": "Who discovered Bohrium?",
+      "question": "Who discovered Cadmium?",
       "options": [
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Calcium"
+          "text": "Per Theodor Cleve",
+          "element": "Thulium"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Bohrium"
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
         },
         {
-          "text": "Walter Noddack, Ida Tacke, Otto Berg",
-          "element": "Rhenium"
+          "text": "RIKEN",
+          "element": "Nihonium"
         },
         {
-          "text": "Clemens Winkler",
-          "element": "Germanium"
+          "text": "Fredrich Stromeyer",
+          "element": "Cadmium"
         }
       ],
-      "correct": "Heavy Ion Research Laboratory (HIRL)"
+      "correct": "Fredrich Stromeyer"
     },
     {
-      "question": "What is the density of Bohrium?",
+      "question": "What is the approximate price of Cadmium per kilogram?",
       "options": [
         {
-          "text": "20.8 g/cm\u00b3",
-          "element": "Rhenium"
+          "text": "$3.68/kg",
+          "element": "Boron"
         },
         {
-          "text": "5.3234 g/cm\u00b3",
-          "element": "Germanium"
+          "text": "$2.73/kg",
+          "element": "Cadmium"
         },
         {
-          "text": "1.54 g/cm\u00b3",
-          "element": "Calcium"
+          "text": "$3,000.00/kg",
+          "element": "Thulium"
         },
         {
-          "text": "37.1 g/cm\u00b3",
-          "element": "Bohrium"
+          "text": "$10,400.00/kg",
+          "element": "Ruthenium"
         }
       ],
-      "correct": "37.1 g/cm\u00b3"
+      "correct": "$2.73/kg"
     }
   ]
 }

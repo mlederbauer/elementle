@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-04",
-  "element": "Cadmium",
-  "atomicNumber": 48,
-  "symbol": "Cd",
+  "date": "2026-06-05",
+  "element": "Manganese",
+  "atomicNumber": 25,
+  "symbol": "Mn",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Cadmium?",
+      "question": "When was Manganese first discovered?",
       "options": [
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Thulium"
-        },
-        {
-          "text": "1) Turkey  2) USA  3) Chile",
-          "element": "Boron"
-        },
-        {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Cadmium"
-        },
-        {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Ruthenium"
-        }
-      ],
-      "correct": "1) China  2) Republic of Korea  3) Japan"
-    },
-    {
-      "question": "When was Cadmium first discovered?",
-      "options": [
-        {
-          "text": "1817",
-          "element": "Cadmium"
+          "text": "1940",
+          "element": "Plutonium"
         },
         {
           "text": "2015",
           "element": "Nihonium"
         },
         {
-          "text": "1808",
-          "element": "Boron"
+          "text": "2003",
+          "element": "Moscovium"
         },
         {
-          "text": "1879",
-          "element": "Thulium"
+          "text": "1774",
+          "element": "Manganese"
         }
       ],
-      "correct": "1817"
+      "correct": "1774"
     },
     {
-      "question": "Who discovered Cadmium?",
+      "question": "What is the geochemical class of Manganese?",
       "options": [
         {
-          "text": "Per Theodor Cleve",
-          "element": "Thulium"
+          "text": "first series transition metal",
+          "element": "Manganese"
         },
         {
-          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
-          "element": "Boron"
+          "text": "high field strength",
+          "element": "Hafnium"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Carbon"
+        },
+        {
+          "text": "major",
+          "element": "Oxygen"
+        }
+      ],
+      "correct": "first series transition metal"
+    },
+    {
+      "question": "What is the crustal abundance of Manganese?",
+      "options": [
+        {
+          "text": "461000.0 mg/kg",
+          "element": "Oxygen"
+        },
+        {
+          "text": "950.0 mg/kg",
+          "element": "Manganese"
+        },
+        {
+          "text": "3.0 mg/kg",
+          "element": "Hafnium"
+        },
+        {
+          "text": "200.0 mg/kg",
+          "element": "Carbon"
+        }
+      ],
+      "correct": "950.0 mg/kg"
+    },
+    {
+      "question": "Who discovered Manganese?",
+      "options": [
+        {
+          "text": "Johann Gahn",
+          "element": "Manganese"
         },
         {
           "text": "RIKEN",
           "element": "Nihonium"
         },
         {
-          "text": "Fredrich Stromeyer",
-          "element": "Cadmium"
+          "text": "Known to the ancients",
+          "element": "Carbon"
+        },
+        {
+          "text": "Joseph Priestly, Carl Wilhelm Scheele",
+          "element": "Oxygen"
         }
       ],
-      "correct": "Fredrich Stromeyer"
-    },
-    {
-      "question": "What is the approximate price of Cadmium per kilogram?",
-      "options": [
-        {
-          "text": "$3.68/kg",
-          "element": "Boron"
-        },
-        {
-          "text": "$2.73/kg",
-          "element": "Cadmium"
-        },
-        {
-          "text": "$3,000.00/kg",
-          "element": "Thulium"
-        },
-        {
-          "text": "$10,400.00/kg",
-          "element": "Ruthenium"
-        }
-      ],
-      "correct": "$2.73/kg"
+      "correct": "Johann Gahn"
     }
   ]
 }

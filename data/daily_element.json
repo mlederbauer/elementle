@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-05",
-  "element": "Manganese",
-  "atomicNumber": 25,
-  "symbol": "Mn",
+  "date": "2026-06-06",
+  "element": "Gadolinium",
+  "atomicNumber": 64,
+  "symbol": "Gd",
   "quiz": [
     {
-      "question": "When was Manganese first discovered?",
+      "question": "What is the geochemical class of Gadolinium?",
       "options": [
         {
-          "text": "1940",
-          "element": "Plutonium"
-        },
-        {
-          "text": "2015",
-          "element": "Nihonium"
-        },
-        {
-          "text": "2003",
-          "element": "Moscovium"
-        },
-        {
-          "text": "1774",
-          "element": "Manganese"
-        }
-      ],
-      "correct": "1774"
-    },
-    {
-      "question": "What is the geochemical class of Manganese?",
-      "options": [
-        {
-          "text": "first series transition metal",
-          "element": "Manganese"
-        },
-        {
-          "text": "high field strength",
-          "element": "Hafnium"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Carbon"
+          "text": "rare earth & related",
+          "element": "Gadolinium"
         },
         {
           "text": "major",
-          "element": "Oxygen"
+          "element": "Sodium"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Radium"
+        },
+        {
+          "text": "noble metal",
+          "element": "Platinum"
         }
       ],
-      "correct": "first series transition metal"
+      "correct": "rare earth & related"
     },
     {
-      "question": "What is the crustal abundance of Manganese?",
+      "question": "Which countries are the top producers of Gadolinium?",
       "options": [
         {
-          "text": "461000.0 mg/kg",
-          "element": "Oxygen"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Gadolinium"
         },
         {
-          "text": "950.0 mg/kg",
-          "element": "Manganese"
+          "text": "1) Chile  2) USA  3) Poland",
+          "element": "Rhenium"
         },
         {
-          "text": "3.0 mg/kg",
-          "element": "Hafnium"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Platinum"
         },
         {
-          "text": "200.0 mg/kg",
-          "element": "Carbon"
+          "text": "1) China  2) Indonesia  3) Peru",
+          "element": "Tin"
         }
       ],
-      "correct": "950.0 mg/kg"
+      "correct": "1) China  2) Russia  3) Malaysia"
     },
     {
-      "question": "Who discovered Manganese?",
+      "question": "What is the approximate price of Gadolinium per kilogram?",
       "options": [
         {
-          "text": "Johann Gahn",
-          "element": "Manganese"
+          "text": "$28.60/kg",
+          "element": "Gadolinium"
         },
         {
-          "text": "RIKEN",
-          "element": "Nihonium"
+          "text": "$13.90/kg",
+          "element": "Samarium"
         },
         {
-          "text": "Known to the ancients",
-          "element": "Carbon"
+          "text": "$27,800.00/kg",
+          "element": "Platinum"
         },
         {
-          "text": "Joseph Priestly, Carl Wilhelm Scheele",
-          "element": "Oxygen"
+          "text": "$18.70/kg",
+          "element": "Tin"
         }
       ],
-      "correct": "Johann Gahn"
+      "correct": "$28.60/kg"
+    },
+    {
+      "question": "What is the crustal abundance of Gadolinium?",
+      "options": [
+        {
+          "text": "6.2 mg/kg",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "2.3 mg/kg",
+          "element": "Tin"
+        },
+        {
+          "text": "0.005 mg/kg",
+          "element": "Platinum"
+        },
+        {
+          "text": "7.05 mg/kg",
+          "element": "Samarium"
+        }
+      ],
+      "correct": "6.2 mg/kg"
     }
   ]
 }

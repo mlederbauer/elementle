@@ -1,15 +1,37 @@
 {
-  "date": "2026-06-06",
-  "element": "Gadolinium",
-  "atomicNumber": 64,
-  "symbol": "Gd",
+  "date": "2026-06-07",
+  "element": "Sodium",
+  "atomicNumber": 11,
+  "symbol": "Na",
   "quiz": [
     {
-      "question": "What is the geochemical class of Gadolinium?",
+      "question": "What is the crustal abundance of Sodium?",
       "options": [
         {
-          "text": "rare earth & related",
-          "element": "Gadolinium"
+          "text": "23600.0 mg/kg",
+          "element": "Sodium"
+        },
+        {
+          "text": "0.0015 mg/kg",
+          "element": "Osmium"
+        },
+        {
+          "text": "22.0 mg/kg",
+          "element": "Scandium"
+        },
+        {
+          "text": "0.075 mg/kg",
+          "element": "Silver"
+        }
+      ],
+      "correct": "23600.0 mg/kg"
+    },
+    {
+      "question": "What is the geochemical class of Sodium?",
+      "options": [
+        {
+          "text": "noble metal",
+          "element": "Osmium"
         },
         {
           "text": "major",
@@ -17,80 +39,58 @@
         },
         {
           "text": "U/Th decay series",
-          "element": "Radium"
+          "element": "Francium"
         },
         {
-          "text": "noble metal",
-          "element": "Platinum"
+          "text": "first series transition metal",
+          "element": "Scandium"
         }
       ],
-      "correct": "rare earth & related"
+      "correct": "major"
     },
     {
-      "question": "Which countries are the top producers of Gadolinium?",
+      "question": "When was Sodium first discovered?",
+      "options": [
+        {
+          "text": "1939",
+          "element": "Francium"
+        },
+        {
+          "text": "1804",
+          "element": "Osmium"
+        },
+        {
+          "text": "1879",
+          "element": "Scandium"
+        },
+        {
+          "text": "1807",
+          "element": "Sodium"
+        }
+      ],
+      "correct": "1807"
+    },
+    {
+      "question": "Which countries are the top producers of Sodium?",
       "options": [
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Gadolinium"
+          "element": "Scandium"
         },
         {
-          "text": "1) Chile  2) USA  3) Poland",
-          "element": "Rhenium"
+          "text": "1) Mexico  2) Peru  3) China",
+          "element": "Silver"
         },
         {
           "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Platinum"
+          "element": "Osmium"
         },
         {
-          "text": "1) China  2) Indonesia  3) Peru",
-          "element": "Tin"
+          "text": "1) China  2) India  3) USA",
+          "element": "Sodium"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia"
-    },
-    {
-      "question": "What is the approximate price of Gadolinium per kilogram?",
-      "options": [
-        {
-          "text": "$28.60/kg",
-          "element": "Gadolinium"
-        },
-        {
-          "text": "$13.90/kg",
-          "element": "Samarium"
-        },
-        {
-          "text": "$27,800.00/kg",
-          "element": "Platinum"
-        },
-        {
-          "text": "$18.70/kg",
-          "element": "Tin"
-        }
-      ],
-      "correct": "$28.60/kg"
-    },
-    {
-      "question": "What is the crustal abundance of Gadolinium?",
-      "options": [
-        {
-          "text": "6.2 mg/kg",
-          "element": "Gadolinium"
-        },
-        {
-          "text": "2.3 mg/kg",
-          "element": "Tin"
-        },
-        {
-          "text": "0.005 mg/kg",
-          "element": "Platinum"
-        },
-        {
-          "text": "7.05 mg/kg",
-          "element": "Samarium"
-        }
-      ],
-      "correct": "6.2 mg/kg"
+      "correct": "1) China  2) India  3) USA"
     }
   ]
 }

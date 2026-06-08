@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-07",
-  "element": "Sodium",
-  "atomicNumber": 11,
-  "symbol": "Na",
+  "date": "2026-06-08",
+  "element": "Lead",
+  "atomicNumber": 82,
+  "symbol": "Pb",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Sodium?",
+      "question": "What is the approximate price of Lead per kilogram?",
       "options": [
         {
-          "text": "23600.0 mg/kg",
-          "element": "Sodium"
+          "text": "$81.40/kg",
+          "element": "Lithium"
         },
         {
-          "text": "0.0015 mg/kg",
-          "element": "Osmium"
+          "text": "$2.00/kg",
+          "element": "Lead"
         },
         {
-          "text": "22.0 mg/kg",
-          "element": "Scandium"
+          "text": "$2.73/kg",
+          "element": "Cadmium"
         },
         {
-          "text": "0.075 mg/kg",
-          "element": "Silver"
+          "text": "$914.00/kg",
+          "element": "Germanium"
         }
       ],
-      "correct": "23600.0 mg/kg"
+      "correct": "$2.00/kg"
     },
     {
-      "question": "What is the geochemical class of Sodium?",
+      "question": "What is the crustal abundance of Lead?",
       "options": [
         {
-          "text": "noble metal",
-          "element": "Osmium"
+          "text": "14.0 mg/kg",
+          "element": "Lead"
         },
         {
-          "text": "major",
-          "element": "Sodium"
+          "text": "20.0 mg/kg",
+          "element": "Lithium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Francium"
+          "text": "1.5 mg/kg",
+          "element": "Germanium"
         },
         {
-          "text": "first series transition metal",
-          "element": "Scandium"
+          "text": "0.15 mg/kg",
+          "element": "Cadmium"
         }
       ],
-      "correct": "major"
+      "correct": "14.0 mg/kg"
     },
     {
-      "question": "When was Sodium first discovered?",
+      "question": "Which countries are the top producers of Lead?",
       "options": [
         {
-          "text": "1939",
-          "element": "Francium"
+          "text": "1) China  2) Russia  3) Germany (likely)",
+          "element": "Germanium"
         },
         {
-          "text": "1804",
-          "element": "Osmium"
+          "text": "1) China  2) Australia  3) USA",
+          "element": "Lead"
         },
         {
-          "text": "1879",
-          "element": "Scandium"
+          "text": "1) China  2) Republic of Korea  3) Japan",
+          "element": "Cadmium"
         },
         {
-          "text": "1807",
-          "element": "Sodium"
+          "text": "1) Australia  2) Chile  3) China",
+          "element": "Lithium"
         }
       ],
-      "correct": "1807"
+      "correct": "1) China  2) Australia  3) USA"
     },
     {
-      "question": "Which countries are the top producers of Sodium?",
+      "question": "Who discovered Lead?",
       "options": [
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Scandium"
+          "text": "Johann Arfwedson",
+          "element": "Lithium"
         },
         {
-          "text": "1) Mexico  2) Peru  3) China",
-          "element": "Silver"
+          "text": "Known to the ancients.",
+          "element": "Lead"
         },
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Osmium"
+          "text": "Clemens Winkler",
+          "element": "Germanium"
         },
         {
-          "text": "1) China  2) India  3) USA",
-          "element": "Sodium"
+          "text": "Fredrich Stromeyer",
+          "element": "Cadmium"
         }
       ],
-      "correct": "1) China  2) India  3) USA"
+      "correct": "Known to the ancients."
     }
   ]
 }

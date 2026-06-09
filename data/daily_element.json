@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-08",
-  "element": "Lead",
-  "atomicNumber": 82,
-  "symbol": "Pb",
+  "date": "2026-06-09",
+  "element": "Nitrogen",
+  "atomicNumber": 7,
+  "symbol": "N",
   "quiz": [
     {
-      "question": "What is the approximate price of Lead per kilogram?",
+      "question": "What is the crustal abundance of Nitrogen?",
       "options": [
         {
-          "text": "$81.40/kg",
-          "element": "Lithium"
+          "text": "19.0 mg/kg",
+          "element": "Nitrogen"
         },
         {
-          "text": "$2.00/kg",
-          "element": "Lead"
+          "text": "5650.0 mg/kg",
+          "element": "Titanium"
         },
         {
-          "text": "$2.73/kg",
-          "element": "Cadmium"
+          "text": "66.5 mg/kg",
+          "element": "Cerium"
         },
         {
-          "text": "$914.00/kg",
-          "element": "Germanium"
+          "text": "1400.0 mg/kg",
+          "element": "Hydrogen"
         }
       ],
-      "correct": "$2.00/kg"
+      "correct": "19.0 mg/kg"
     },
     {
-      "question": "What is the crustal abundance of Lead?",
+      "question": "Who discovered Nitrogen?",
       "options": [
         {
-          "text": "14.0 mg/kg",
-          "element": "Lead"
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
         },
         {
-          "text": "20.0 mg/kg",
-          "element": "Lithium"
+          "text": "Daniel Rutherford",
+          "element": "Nitrogen"
         },
         {
-          "text": "1.5 mg/kg",
-          "element": "Germanium"
+          "text": "William Gregor",
+          "element": "Titanium"
         },
         {
-          "text": "0.15 mg/kg",
-          "element": "Cadmium"
+          "text": "Henry Cavendish",
+          "element": "Hydrogen"
         }
       ],
-      "correct": "14.0 mg/kg"
+      "correct": "Daniel Rutherford"
     },
     {
-      "question": "Which countries are the top producers of Lead?",
+      "question": "What is the geochemical class of Nitrogen?",
       "options": [
         {
-          "text": "1) China  2) Russia  3) Germany (likely)",
-          "element": "Germanium"
+          "text": "rare earth & related",
+          "element": "Cerium"
         },
         {
-          "text": "1) China  2) Australia  3) USA",
-          "element": "Lead"
+          "text": "noble metal",
+          "element": "Platinum"
         },
         {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Cadmium"
+          "text": "first series transition metal",
+          "element": "Titanium"
         },
         {
-          "text": "1) Australia  2) Chile  3) China",
-          "element": "Lithium"
+          "text": "volatile",
+          "element": "Nitrogen"
         }
       ],
-      "correct": "1) China  2) Australia  3) USA"
+      "correct": "volatile"
     },
     {
-      "question": "Who discovered Lead?",
+      "question": "What is the approximate price of Nitrogen per kilogram?",
       "options": [
         {
-          "text": "Johann Arfwedson",
-          "element": "Lithium"
+          "text": "$4.57/kg",
+          "element": "Cerium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Lead"
+          "text": "$11.10/kg",
+          "element": "Titanium"
         },
         {
-          "text": "Clemens Winkler",
-          "element": "Germanium"
+          "text": "$1.39/kg",
+          "element": "Hydrogen"
         },
         {
-          "text": "Fredrich Stromeyer",
-          "element": "Cadmium"
+          "text": "$0.14/kg",
+          "element": "Nitrogen"
         }
       ],
-      "correct": "Known to the ancients."
+      "correct": "$0.14/kg"
     }
   ]
 }

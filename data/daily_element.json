@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-12",
-  "element": "Terbium",
-  "atomicNumber": 65,
-  "symbol": "Tb",
+  "date": "2026-06-13",
+  "element": "Lanthanum",
+  "atomicNumber": 57,
+  "symbol": "La",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Terbium?",
+      "question": "Which countries are the top producers of Lanthanum?",
       "options": [
         {
-          "text": "0.0001 mg/kg",
-          "element": "Krypton"
+          "text": "1) China  2) India  3) USA",
+          "element": "Barium"
         },
         {
-          "text": "1.8 mg/kg",
-          "element": "Arsenic"
+          "text": "1) Canada  2) Australia  3) South Africa",
+          "element": "Titanium"
         },
         {
-          "text": "41.5 mg/kg",
-          "element": "Neodymium"
-        },
-        {
-          "text": "1.2 mg/kg",
-          "element": "Terbium"
-        }
-      ],
-      "correct": "1.2 mg/kg"
-    },
-    {
-      "question": "What is the approximate price of Terbium per kilogram?",
-      "options": [
-        {
-          "text": "$290.00/kg",
-          "element": "Krypton"
-        },
-        {
-          "text": "$658.00/kg",
-          "element": "Terbium"
-        },
-        {
-          "text": "$1.00/kg",
-          "element": "Arsenic"
-        },
-        {
-          "text": "$57.50/kg",
-          "element": "Neodymium"
-        }
-      ],
-      "correct": "$658.00/kg"
-    },
-    {
-      "question": "When was Terbium first discovered?",
-      "options": [
-        {
-          "text": "1843",
-          "element": "Terbium"
-        },
-        {
-          "text": "1996",
-          "element": "Copernicium"
-        },
-        {
-          "text": "1898",
-          "element": "Krypton"
-        },
-        {
-          "text": "1925",
-          "element": "Neodymium"
-        }
-      ],
-      "correct": "1843"
-    },
-    {
-      "question": "Which countries are the top producers of Terbium?",
-      "options": [
-        {
-          "text": "1) Canada  2) Russia  3) Belarus",
-          "element": "Potassium"
-        },
-        {
-          "text": "1) China  2) Chile  3) Kazakhstan",
-          "element": "Arsenic"
+          "text": "1) China  2) Republic of Korea  3) Japan",
+          "element": "Indium"
         },
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Terbium"
-        },
-        {
-          "text": "1) China  2) Australia  3) USA",
-          "element": "Gold"
+          "element": "Lanthanum"
         }
       ],
       "correct": "1) China  2) Russia  3) Malaysia"
+    },
+    {
+      "question": "When was Lanthanum first discovered?",
+      "options": [
+        {
+          "text": "1974",
+          "element": "Seaborgium"
+        },
+        {
+          "text": "1970",
+          "element": "Dubnium"
+        },
+        {
+          "text": "1994",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "1839",
+          "element": "Lanthanum"
+        }
+      ],
+      "correct": "1839"
+    },
+    {
+      "question": "What is the crustal abundance of Lanthanum?",
+      "options": [
+        {
+          "text": "0.25 mg/kg",
+          "element": "Indium"
+        },
+        {
+          "text": "5650.0 mg/kg",
+          "element": "Titanium"
+        },
+        {
+          "text": "425.0 mg/kg",
+          "element": "Barium"
+        },
+        {
+          "text": "39.0 mg/kg",
+          "element": "Lanthanum"
+        }
+      ],
+      "correct": "39.0 mg/kg"
+    },
+    {
+      "question": "What is the approximate price of Lanthanum per kilogram?",
+      "options": [
+        {
+          "text": "$11.10/kg",
+          "element": "Titanium"
+        },
+        {
+          "text": "$0.25/kg",
+          "element": "Barium"
+        },
+        {
+          "text": "$4.78/kg",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "$167.00/kg",
+          "element": "Indium"
+        }
+      ],
+      "correct": "$4.78/kg"
     }
   ]
 }

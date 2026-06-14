@@ -1,16 +1,56 @@
 {
-  "date": "2026-06-13",
-  "element": "Lanthanum",
-  "atomicNumber": 57,
-  "symbol": "La",
+  "date": "2026-06-14",
+  "element": "Bismuth",
+  "atomicNumber": 83,
+  "symbol": "Bi",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Lanthanum?",
+      "question": "What is the approximate price of Bismuth per kilogram?",
       "options": [
         {
-          "text": "1) China  2) India  3) USA",
-          "element": "Barium"
+          "text": "$6.36/kg",
+          "element": "Bismuth"
         },
+        {
+          "text": "$240.00/kg",
+          "element": "Neon"
+        },
+        {
+          "text": "$11.10/kg",
+          "element": "Titanium"
+        },
+        {
+          "text": "$4,200.00/kg",
+          "element": "Thallium"
+        }
+      ],
+      "correct": "$6.36/kg"
+    },
+    {
+      "question": "Who discovered Bismuth?",
+      "options": [
+        {
+          "text": "Sir William Ramsey, M.W. Travers",
+          "element": "Neon"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Bismuth"
+        },
+        {
+          "text": "Sir William Crookes",
+          "element": "Thallium"
+        },
+        {
+          "text": "William Gregor",
+          "element": "Titanium"
+        }
+      ],
+      "correct": "Known to the ancients."
+    },
+    {
+      "question": "Which countries are the top producers of Bismuth?",
+      "options": [
         {
           "text": "1) Canada  2) Australia  3) South Africa",
           "element": "Titanium"
@@ -20,77 +60,37 @@
           "element": "Indium"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Lanthanum"
+          "text": "1) China  2) Mexico  3) Japan",
+          "element": "Bismuth"
+        },
+        {
+          "text": "1) Turkey  2) USA  3) Chile",
+          "element": "Boron"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia"
+      "correct": "1) China  2) Mexico  3) Japan"
     },
     {
-      "question": "When was Lanthanum first discovered?",
+      "question": "What is the crustal abundance of Bismuth?",
       "options": [
-        {
-          "text": "1974",
-          "element": "Seaborgium"
-        },
-        {
-          "text": "1970",
-          "element": "Dubnium"
-        },
-        {
-          "text": "1994",
-          "element": "Darmstadtium"
-        },
-        {
-          "text": "1839",
-          "element": "Lanthanum"
-        }
-      ],
-      "correct": "1839"
-    },
-    {
-      "question": "What is the crustal abundance of Lanthanum?",
-      "options": [
-        {
-          "text": "0.25 mg/kg",
-          "element": "Indium"
-        },
         {
           "text": "5650.0 mg/kg",
           "element": "Titanium"
         },
         {
-          "text": "425.0 mg/kg",
-          "element": "Barium"
+          "text": "0.005 mg/kg",
+          "element": "Neon"
         },
         {
-          "text": "39.0 mg/kg",
-          "element": "Lanthanum"
+          "text": "0.0085 mg/kg",
+          "element": "Bismuth"
+        },
+        {
+          "text": "0.85 mg/kg",
+          "element": "Thallium"
         }
       ],
-      "correct": "39.0 mg/kg"
-    },
-    {
-      "question": "What is the approximate price of Lanthanum per kilogram?",
-      "options": [
-        {
-          "text": "$11.10/kg",
-          "element": "Titanium"
-        },
-        {
-          "text": "$0.25/kg",
-          "element": "Barium"
-        },
-        {
-          "text": "$4.78/kg",
-          "element": "Lanthanum"
-        },
-        {
-          "text": "$167.00/kg",
-          "element": "Indium"
-        }
-      ],
-      "correct": "$4.78/kg"
+      "correct": "0.0085 mg/kg"
     }
   ]
 }

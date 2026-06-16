@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-15",
-  "element": "Iron",
-  "atomicNumber": 26,
-  "symbol": "Fe",
+  "date": "2026-06-16",
+  "element": "Nitrogen",
+  "atomicNumber": 7,
+  "symbol": "N",
   "quiz": [
     {
-      "question": "What is the approximate price of Iron per kilogram?",
+      "question": "Who discovered Nitrogen?",
       "options": [
         {
-          "text": "$0.42/kg",
-          "element": "Iron"
+          "text": "William Wollaston",
+          "element": "Palladium"
         },
         {
-          "text": "$10,400.00/kg",
-          "element": "Ruthenium"
+          "text": "Daniel Rutherford",
+          "element": "Nitrogen"
         },
         {
-          "text": "$148.00/kg",
-          "element": "Gallium"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Moscovium"
         },
         {
-          "text": "$6.53/kg",
-          "element": "Strontium"
+          "text": "E.M. McMillan, P.H. Abelson",
+          "element": "Neptunium"
         }
       ],
-      "correct": "$0.42/kg"
+      "correct": "Daniel Rutherford"
     },
     {
-      "question": "Who discovered Iron?",
+      "question": "When was Nitrogen first discovered?",
       "options": [
         {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Gallium"
+          "text": "2003",
+          "element": "Moscovium"
         },
         {
-          "text": "Karl Klaus",
-          "element": "Ruthenium"
+          "text": "1940",
+          "element": "Neptunium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Iron"
+          "text": "1772",
+          "element": "Nitrogen"
         },
         {
-          "text": "A. Crawford",
-          "element": "Strontium"
+          "text": "1803",
+          "element": "Palladium"
         }
       ],
-      "correct": "Known to the ancients."
+      "correct": "1772"
     },
     {
-      "question": "What is the crustal abundance of Iron?",
+      "question": "What is the crustal abundance of Nitrogen?",
       "options": [
+        {
+          "text": "0.015 mg/kg",
+          "element": "Palladium"
+        },
+        {
+          "text": "461000.0 mg/kg",
+          "element": "Oxygen"
+        },
+        {
+          "text": "9e-07 mg/kg",
+          "element": "Radium"
+        },
         {
           "text": "19.0 mg/kg",
-          "element": "Gallium"
-        },
-        {
-          "text": "56300.0 mg/kg",
-          "element": "Iron"
-        },
-        {
-          "text": "370.0 mg/kg",
-          "element": "Strontium"
-        },
-        {
-          "text": "0.001 mg/kg",
-          "element": "Ruthenium"
+          "element": "Nitrogen"
         }
       ],
-      "correct": "56300.0 mg/kg"
+      "correct": "19.0 mg/kg"
     },
     {
-      "question": "What is the geochemical class of Iron?",
+      "question": "What is the geochemical class of Nitrogen?",
       "options": [
         {
-          "text": "rare earth & related",
-          "element": "Holmium"
+          "text": "U/Th decay series",
+          "element": "Radium"
         },
         {
-          "text": "alkaline earth metal",
-          "element": "Strontium"
-        },
-        {
-          "text": "noble metal",
-          "element": "Ruthenium"
+          "text": "volatile",
+          "element": "Nitrogen"
         },
         {
           "text": "major",
-          "element": "Iron"
+          "element": "Oxygen"
+        },
+        {
+          "text": "noble metal",
+          "element": "Palladium"
         }
       ],
-      "correct": "major"
+      "correct": "volatile"
     }
   ]
 }

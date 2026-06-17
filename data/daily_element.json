@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-16",
-  "element": "Nitrogen",
-  "atomicNumber": 7,
-  "symbol": "N",
+  "date": "2026-06-17",
+  "element": "Xenon",
+  "atomicNumber": 54,
+  "symbol": "Xe",
   "quiz": [
     {
-      "question": "Who discovered Nitrogen?",
+      "question": "What is the geochemical class of Xenon?",
       "options": [
         {
-          "text": "William Wollaston",
+          "text": "noble metal",
           "element": "Palladium"
         },
         {
-          "text": "Daniel Rutherford",
-          "element": "Nitrogen"
+          "text": "rare earth & related",
+          "element": "Erbium"
         },
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Moscovium"
+          "text": "volatile",
+          "element": "Xenon"
         },
         {
-          "text": "E.M. McMillan, P.H. Abelson",
-          "element": "Neptunium"
+          "text": "semi-volatile",
+          "element": "Selenium"
         }
       ],
-      "correct": "Daniel Rutherford"
+      "correct": "volatile"
     },
     {
-      "question": "When was Nitrogen first discovered?",
+      "question": "When was Xenon first discovered?",
       "options": [
         {
-          "text": "2003",
-          "element": "Moscovium"
+          "text": "1898",
+          "element": "Xenon"
         },
         {
-          "text": "1940",
-          "element": "Neptunium"
+          "text": "1843",
+          "element": "Erbium"
         },
         {
           "text": "1772",
           "element": "Nitrogen"
         },
         {
-          "text": "1803",
-          "element": "Palladium"
+          "text": "1952",
+          "element": "Einsteinium"
         }
       ],
-      "correct": "1772"
+      "correct": "1898"
     },
     {
-      "question": "What is the crustal abundance of Nitrogen?",
+      "question": "Who discovered Xenon?",
       "options": [
         {
-          "text": "0.015 mg/kg",
-          "element": "Palladium"
+          "text": "Sir William Ramsay; M. W. Travers",
+          "element": "Xenon"
         },
         {
-          "text": "461000.0 mg/kg",
-          "element": "Oxygen"
+          "text": "Daniel Rutherford",
+          "element": "Nitrogen"
         },
         {
-          "text": "9e-07 mg/kg",
-          "element": "Radium"
+          "text": "Carl Mosander",
+          "element": "Erbium"
+        },
+        {
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Einsteinium"
+        }
+      ],
+      "correct": "Sir William Ramsay; M. W. Travers"
+    },
+    {
+      "question": "What is the crustal abundance of Xenon?",
+      "options": [
+        {
+          "text": "3.5 mg/kg",
+          "element": "Erbium"
+        },
+        {
+          "text": "6.2 mg/kg",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "2.9999999999999997e-05 mg/kg",
+          "element": "Xenon"
         },
         {
           "text": "19.0 mg/kg",
           "element": "Nitrogen"
         }
       ],
-      "correct": "19.0 mg/kg"
-    },
-    {
-      "question": "What is the geochemical class of Nitrogen?",
-      "options": [
-        {
-          "text": "U/Th decay series",
-          "element": "Radium"
-        },
-        {
-          "text": "volatile",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "major",
-          "element": "Oxygen"
-        },
-        {
-          "text": "noble metal",
-          "element": "Palladium"
-        }
-      ],
-      "correct": "volatile"
+      "correct": "2.9999999999999997e-05 mg/kg"
     }
   ]
 }

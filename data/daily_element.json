@@ -1,96 +1,74 @@
 {
-  "date": "2026-06-17",
-  "element": "Xenon",
-  "atomicNumber": 54,
-  "symbol": "Xe",
+  "date": "2026-06-18",
+  "element": "Rutherfordium",
+  "atomicNumber": 104,
+  "symbol": "Rf",
   "quiz": [
     {
-      "question": "What is the geochemical class of Xenon?",
+      "question": "When was Rutherfordium first discovered?",
       "options": [
         {
-          "text": "noble metal",
-          "element": "Palladium"
+          "text": "1969",
+          "element": "Rutherfordium"
         },
         {
-          "text": "rare earth & related",
-          "element": "Erbium"
-        },
-        {
-          "text": "volatile",
-          "element": "Xenon"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Selenium"
-        }
-      ],
-      "correct": "volatile"
-    },
-    {
-      "question": "When was Xenon first discovered?",
-      "options": [
-        {
-          "text": "1898",
-          "element": "Xenon"
-        },
-        {
-          "text": "1843",
-          "element": "Erbium"
-        },
-        {
-          "text": "1772",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "1952",
-          "element": "Einsteinium"
-        }
-      ],
-      "correct": "1898"
-    },
-    {
-      "question": "Who discovered Xenon?",
-      "options": [
-        {
-          "text": "Sir William Ramsay; M. W. Travers",
-          "element": "Xenon"
-        },
-        {
-          "text": "Daniel Rutherford",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "Carl Mosander",
-          "element": "Erbium"
-        },
-        {
-          "text": "Argonne, Los Alamos, U of Calif",
-          "element": "Einsteinium"
-        }
-      ],
-      "correct": "Sir William Ramsay; M. W. Travers"
-    },
-    {
-      "question": "What is the crustal abundance of Xenon?",
-      "options": [
-        {
-          "text": "3.5 mg/kg",
-          "element": "Erbium"
-        },
-        {
-          "text": "6.2 mg/kg",
+          "text": "1880",
           "element": "Gadolinium"
         },
         {
-          "text": "2.9999999999999997e-05 mg/kg",
-          "element": "Xenon"
+          "text": "1789",
+          "element": "Zirconium"
         },
         {
-          "text": "19.0 mg/kg",
-          "element": "Nitrogen"
+          "text": "1817",
+          "element": "Lithium"
         }
       ],
-      "correct": "2.9999999999999997e-05 mg/kg"
+      "correct": "1969"
+    },
+    {
+      "question": "Who discovered Rutherfordium?",
+      "options": [
+        {
+          "text": "A. Ghiorso, et al",
+          "element": "Rutherfordium"
+        },
+        {
+          "text": "Martin Klaproth",
+          "element": "Zirconium"
+        },
+        {
+          "text": "Johann Arfwedson",
+          "element": "Lithium"
+        },
+        {
+          "text": "Jean de Marignac",
+          "element": "Gadolinium"
+        }
+      ],
+      "correct": "A. Ghiorso, et al"
+    },
+    {
+      "question": "What is the density of Rutherfordium?",
+      "options": [
+        {
+          "text": "23.3 g/cm\u00b3",
+          "element": "Rutherfordium"
+        },
+        {
+          "text": "7.9 g/cm\u00b3",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "6.52 g/cm\u00b3",
+          "element": "Zirconium"
+        },
+        {
+          "text": "0.534 g/cm\u00b3",
+          "element": "Lithium"
+        }
+      ],
+      "correct": "23.3 g/cm\u00b3"
     }
   ]
 }

@@ -1,74 +1,96 @@
 {
-  "date": "2026-06-18",
-  "element": "Rutherfordium",
-  "atomicNumber": 104,
-  "symbol": "Rf",
+  "date": "2026-06-19",
+  "element": "Mercury",
+  "atomicNumber": 80,
+  "symbol": "Hg",
   "quiz": [
     {
-      "question": "When was Rutherfordium first discovered?",
+      "question": "Who discovered Mercury?",
       "options": [
         {
-          "text": "1969",
-          "element": "Rutherfordium"
+          "text": "Clemens Winkler",
+          "element": "Germanium"
         },
         {
-          "text": "1880",
-          "element": "Gadolinium"
+          "text": "RIKEN",
+          "element": "Nihonium"
         },
         {
-          "text": "1789",
-          "element": "Zirconium"
+          "text": "Known to the ancients.",
+          "element": "Mercury"
         },
         {
-          "text": "1817",
-          "element": "Lithium"
+          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
+          "element": "Astatine"
         }
       ],
-      "correct": "1969"
+      "correct": "Known to the ancients."
     },
     {
-      "question": "Who discovered Rutherfordium?",
+      "question": "Which countries are the top producers of Mercury?",
       "options": [
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Rutherfordium"
+          "text": "1) USA  2) China  3) Israel",
+          "element": "Bromine"
         },
         {
-          "text": "Martin Klaproth",
-          "element": "Zirconium"
+          "text": "1) China  2) Russia  3) Germany (likely)",
+          "element": "Germanium"
         },
         {
-          "text": "Johann Arfwedson",
-          "element": "Lithium"
+          "text": "1) China  2) Kyrgzstan  3) Chile",
+          "element": "Mercury"
         },
         {
-          "text": "Jean de Marignac",
-          "element": "Gadolinium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Lutetium"
         }
       ],
-      "correct": "A. Ghiorso, et al"
+      "correct": "1) China  2) Kyrgzstan  3) Chile"
     },
     {
-      "question": "What is the density of Rutherfordium?",
+      "question": "What is the approximate price of Mercury per kilogram?",
       "options": [
         {
-          "text": "23.3 g/cm\u00b3",
-          "element": "Rutherfordium"
+          "text": "$4.39/kg",
+          "element": "Bromine"
         },
         {
-          "text": "7.9 g/cm\u00b3",
-          "element": "Gadolinium"
+          "text": "$914.00/kg",
+          "element": "Germanium"
         },
         {
-          "text": "6.52 g/cm\u00b3",
-          "element": "Zirconium"
+          "text": "$643.00/kg",
+          "element": "Lutetium"
         },
         {
-          "text": "0.534 g/cm\u00b3",
-          "element": "Lithium"
+          "text": "$30.20/kg",
+          "element": "Mercury"
         }
       ],
-      "correct": "23.3 g/cm\u00b3"
+      "correct": "$30.20/kg"
+    },
+    {
+      "question": "What is the crustal abundance of Mercury?",
+      "options": [
+        {
+          "text": "1.5 mg/kg",
+          "element": "Germanium"
+        },
+        {
+          "text": "2.4 mg/kg",
+          "element": "Bromine"
+        },
+        {
+          "text": "9e-07 mg/kg",
+          "element": "Radium"
+        },
+        {
+          "text": "0.085 mg/kg",
+          "element": "Mercury"
+        }
+      ],
+      "correct": "0.085 mg/kg"
     }
   ]
 }

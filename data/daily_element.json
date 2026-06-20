@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-19",
-  "element": "Mercury",
-  "atomicNumber": 80,
-  "symbol": "Hg",
+  "date": "2026-06-20",
+  "element": "Barium",
+  "atomicNumber": 56,
+  "symbol": "Ba",
   "quiz": [
     {
-      "question": "Who discovered Mercury?",
+      "question": "What is the approximate price of Barium per kilogram?",
       "options": [
         {
-          "text": "Clemens Winkler",
-          "element": "Germanium"
+          "text": "$658.00/kg",
+          "element": "Terbium"
         },
         {
-          "text": "RIKEN",
-          "element": "Nihonium"
+          "text": "$0.25/kg",
+          "element": "Barium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Mercury"
+          "text": "$57.10/kg",
+          "element": "Holmium"
         },
         {
-          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
-          "element": "Astatine"
+          "text": "$81.40/kg",
+          "element": "Lithium"
         }
       ],
-      "correct": "Known to the ancients."
+      "correct": "$0.25/kg"
     },
     {
-      "question": "Which countries are the top producers of Mercury?",
+      "question": "When was Barium first discovered?",
       "options": [
         {
-          "text": "1) USA  2) China  3) Israel",
-          "element": "Bromine"
+          "text": "1808",
+          "element": "Barium"
         },
         {
-          "text": "1) China  2) Russia  3) Germany (likely)",
-          "element": "Germanium"
+          "text": "1878",
+          "element": "Holmium"
         },
         {
-          "text": "1) China  2) Kyrgzstan  3) Chile",
-          "element": "Mercury"
+          "text": "1994",
+          "element": "Roentgenium"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Lutetium"
+          "text": "1843",
+          "element": "Terbium"
         }
       ],
-      "correct": "1) China  2) Kyrgzstan  3) Chile"
+      "correct": "1808"
     },
     {
-      "question": "What is the approximate price of Mercury per kilogram?",
+      "question": "Who discovered Barium?",
       "options": [
         {
-          "text": "$4.39/kg",
-          "element": "Bromine"
+          "text": "Carl Mosander",
+          "element": "Terbium"
         },
         {
-          "text": "$914.00/kg",
-          "element": "Germanium"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Roentgenium"
         },
         {
-          "text": "$643.00/kg",
-          "element": "Lutetium"
+          "text": "J.L. Soret",
+          "element": "Holmium"
         },
         {
-          "text": "$30.20/kg",
-          "element": "Mercury"
+          "text": "Sir Humphrey Davy",
+          "element": "Barium"
         }
       ],
-      "correct": "$30.20/kg"
+      "correct": "Sir Humphrey Davy"
     },
     {
-      "question": "What is the crustal abundance of Mercury?",
+      "question": "What is the geochemical class of Barium?",
       "options": [
         {
-          "text": "1.5 mg/kg",
-          "element": "Germanium"
+          "text": "rare earth & related",
+          "element": "Holmium"
         },
         {
-          "text": "2.4 mg/kg",
-          "element": "Bromine"
+          "text": "alkaline earth metal",
+          "element": "Barium"
         },
         {
-          "text": "9e-07 mg/kg",
-          "element": "Radium"
+          "text": "first series transition metal",
+          "element": "Vanadium"
         },
         {
-          "text": "0.085 mg/kg",
-          "element": "Mercury"
+          "text": "alkali metal",
+          "element": "Lithium"
         }
       ],
-      "correct": "0.085 mg/kg"
+      "correct": "alkaline earth metal"
     }
   ]
 }

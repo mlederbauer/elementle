@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-20",
-  "element": "Barium",
-  "atomicNumber": 56,
-  "symbol": "Ba",
+  "date": "2026-06-21",
+  "element": "Bromine",
+  "atomicNumber": 35,
+  "symbol": "Br",
   "quiz": [
     {
-      "question": "What is the approximate price of Barium per kilogram?",
+      "question": "What is the crustal abundance of Bromine?",
       "options": [
         {
-          "text": "$658.00/kg",
-          "element": "Terbium"
+          "text": "2.4 mg/kg",
+          "element": "Bromine"
         },
         {
-          "text": "$0.25/kg",
-          "element": "Barium"
+          "text": "4e-13 mg/kg",
+          "element": "Radon"
         },
         {
-          "text": "$57.10/kg",
-          "element": "Holmium"
+          "text": "950.0 mg/kg",
+          "element": "Manganese"
         },
         {
-          "text": "$81.40/kg",
-          "element": "Lithium"
+          "text": "5650.0 mg/kg",
+          "element": "Titanium"
         }
       ],
-      "correct": "$0.25/kg"
+      "correct": "2.4 mg/kg"
     },
     {
-      "question": "When was Barium first discovered?",
+      "question": "Which countries are the top producers of Bromine?",
       "options": [
         {
-          "text": "1808",
-          "element": "Barium"
+          "text": "1) USA  2) China  3) Israel",
+          "element": "Bromine"
         },
         {
-          "text": "1878",
-          "element": "Holmium"
+          "text": "1) India  2) Brazil  3) Malaysia",
+          "element": "Thorium"
         },
         {
-          "text": "1994",
-          "element": "Roentgenium"
+          "text": "1) China  2) South Africa  3) Australia",
+          "element": "Manganese"
         },
         {
-          "text": "1843",
-          "element": "Terbium"
+          "text": "1) Canada  2) Australia  3) South Africa",
+          "element": "Titanium"
         }
       ],
-      "correct": "1808"
+      "correct": "1) USA  2) China  3) Israel"
     },
     {
-      "question": "Who discovered Barium?",
+      "question": "What is the approximate price of Bromine per kilogram?",
       "options": [
         {
-          "text": "Carl Mosander",
-          "element": "Terbium"
+          "text": "$287.00/kg",
+          "element": "Thorium"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Roentgenium"
+          "text": "$11.10/kg",
+          "element": "Titanium"
         },
         {
-          "text": "J.L. Soret",
-          "element": "Holmium"
+          "text": "$1.82/kg",
+          "element": "Manganese"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Barium"
+          "text": "$4.39/kg",
+          "element": "Bromine"
         }
       ],
-      "correct": "Sir Humphrey Davy"
+      "correct": "$4.39/kg"
     },
     {
-      "question": "What is the geochemical class of Barium?",
+      "question": "Who discovered Bromine?",
       "options": [
         {
-          "text": "rare earth & related",
-          "element": "Holmium"
+          "text": "Fredrich Ernst Dorn",
+          "element": "Radon"
         },
         {
-          "text": "alkaline earth metal",
-          "element": "Barium"
+          "text": "Antoine J. Balard",
+          "element": "Bromine"
         },
         {
-          "text": "first series transition metal",
-          "element": "Vanadium"
+          "text": "Johann Gahn",
+          "element": "Manganese"
         },
         {
-          "text": "alkali metal",
-          "element": "Lithium"
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Fermium"
         }
       ],
-      "correct": "alkaline earth metal"
+      "correct": "Antoine J. Balard"
     }
   ]
 }

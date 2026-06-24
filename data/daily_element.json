@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-23",
-  "element": "Uranium",
-  "atomicNumber": 92,
-  "symbol": "U",
+  "date": "2026-06-24",
+  "element": "Radium",
+  "atomicNumber": 88,
+  "symbol": "Ra",
   "quiz": [
     {
-      "question": "What is the geochemical class of Uranium?",
+      "question": "Who discovered Radium?",
       "options": [
         {
-          "text": "rare earth & related",
-          "element": "Uranium"
+          "text": "Pierre and Marie Curie",
+          "element": "Radium"
         },
         {
-          "text": "high field strength",
-          "element": "Zirconium"
+          "text": "GSI Helmholtz Centre for Heavy Ion Research",
+          "element": "Copernicium"
         },
         {
-          "text": "volatile",
-          "element": "Neon"
+          "text": "Sir Humphrey Davy",
+          "element": "Calcium"
+        },
+        {
+          "text": "Julius Scaliger",
+          "element": "Platinum"
+        }
+      ],
+      "correct": "Pierre and Marie Curie"
+    },
+    {
+      "question": "What is the geochemical class of Radium?",
+      "options": [
+        {
+          "text": "noble metal",
+          "element": "Platinum"
+        },
+        {
+          "text": "major",
+          "element": "Calcium"
         },
         {
           "text": "semi-volatile",
-          "element": "Fluorine"
+          "element": "Tellurium"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Radium"
         }
       ],
-      "correct": "rare earth & related"
+      "correct": "U/Th decay series"
     },
     {
-      "question": "What is the crustal abundance of Uranium?",
+      "question": "What is the crustal abundance of Radium?",
       "options": [
         {
-          "text": "39.0 mg/kg",
-          "element": "Lanthanum"
+          "text": "1.5 mg/kg",
+          "element": "Germanium"
         },
         {
-          "text": "2.7 mg/kg",
-          "element": "Uranium"
-        },
-        {
-          "text": "165.0 mg/kg",
-          "element": "Zirconium"
+          "text": "41500.0 mg/kg",
+          "element": "Calcium"
         },
         {
           "text": "0.005 mg/kg",
-          "element": "Neon"
+          "element": "Platinum"
+        },
+        {
+          "text": "9e-07 mg/kg",
+          "element": "Radium"
         }
       ],
-      "correct": "2.7 mg/kg"
+      "correct": "9e-07 mg/kg"
     },
     {
-      "question": "Who discovered Uranium?",
+      "question": "When was Radium first discovered?",
       "options": [
         {
-          "text": "Sir William Ramsey, M.W. Travers",
-          "element": "Neon"
+          "text": "1735",
+          "element": "Platinum"
         },
-        {
-          "text": "Martin Klaproth",
-          "element": "Uranium"
-        },
-        {
-          "text": "Henri Moissan",
-          "element": "Fluorine"
-        },
-        {
-          "text": "Carl Mosander",
-          "element": "Lanthanum"
-        }
-      ],
-      "correct": "Martin Klaproth"
-    },
-    {
-      "question": "When was Uranium first discovered?",
-      "options": [
         {
           "text": "1898",
-          "element": "Neon"
+          "element": "Radium"
         },
         {
-          "text": "1839",
-          "element": "Lanthanum"
+          "text": "1808",
+          "element": "Calcium"
         },
         {
-          "text": "1789",
-          "element": "Uranium"
-        },
-        {
-          "text": "1886",
-          "element": "Fluorine"
+          "text": "1996",
+          "element": "Copernicium"
         }
       ],
-      "correct": "1789"
+      "correct": "1898"
     }
   ]
 }

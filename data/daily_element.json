@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-24",
-  "element": "Radium",
-  "atomicNumber": 88,
-  "symbol": "Ra",
+  "date": "2026-06-25",
+  "element": "Hydrogen",
+  "atomicNumber": 1,
+  "symbol": "H",
   "quiz": [
     {
-      "question": "Who discovered Radium?",
+      "question": "What is the crustal abundance of Hydrogen?",
+      "options": [
+        {
+          "text": "9e-07 mg/kg",
+          "element": "Radium"
+        },
+        {
+          "text": "84.0 mg/kg",
+          "element": "Nickel"
+        },
+        {
+          "text": "1400.0 mg/kg",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "0.25 mg/kg",
+          "element": "Indium"
+        }
+      ],
+      "correct": "1400.0 mg/kg"
+    },
+    {
+      "question": "When was Hydrogen first discovered?",
+      "options": [
+        {
+          "text": "1863",
+          "element": "Indium"
+        },
+        {
+          "text": "1751",
+          "element": "Nickel"
+        },
+        {
+          "text": "1766",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "1898",
+          "element": "Radium"
+        }
+      ],
+      "correct": "1766"
+    },
+    {
+      "question": "What is the geochemical class of Hydrogen?",
+      "options": [
+        {
+          "text": "U/Th decay series",
+          "element": "Radium"
+        },
+        {
+          "text": "high field strength",
+          "element": "Zirconium"
+        },
+        {
+          "text": "first series transition metal",
+          "element": "Nickel"
+        },
+        {
+          "text": "volatile",
+          "element": "Hydrogen"
+        }
+      ],
+      "correct": "volatile"
+    },
+    {
+      "question": "Who discovered Hydrogen?",
       "options": [
         {
           "text": "Pierre and Marie Curie",
           "element": "Radium"
         },
         {
-          "text": "GSI Helmholtz Centre for Heavy Ion Research",
-          "element": "Copernicium"
+          "text": "Henry Cavendish",
+          "element": "Hydrogen"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Calcium"
+          "text": "Ferdinand Reich, T. Richter",
+          "element": "Indium"
         },
         {
-          "text": "Julius Scaliger",
-          "element": "Platinum"
+          "text": "Axel Cronstedt",
+          "element": "Nickel"
         }
       ],
-      "correct": "Pierre and Marie Curie"
-    },
-    {
-      "question": "What is the geochemical class of Radium?",
-      "options": [
-        {
-          "text": "noble metal",
-          "element": "Platinum"
-        },
-        {
-          "text": "major",
-          "element": "Calcium"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Tellurium"
-        },
-        {
-          "text": "U/Th decay series",
-          "element": "Radium"
-        }
-      ],
-      "correct": "U/Th decay series"
-    },
-    {
-      "question": "What is the crustal abundance of Radium?",
-      "options": [
-        {
-          "text": "1.5 mg/kg",
-          "element": "Germanium"
-        },
-        {
-          "text": "41500.0 mg/kg",
-          "element": "Calcium"
-        },
-        {
-          "text": "0.005 mg/kg",
-          "element": "Platinum"
-        },
-        {
-          "text": "9e-07 mg/kg",
-          "element": "Radium"
-        }
-      ],
-      "correct": "9e-07 mg/kg"
-    },
-    {
-      "question": "When was Radium first discovered?",
-      "options": [
-        {
-          "text": "1735",
-          "element": "Platinum"
-        },
-        {
-          "text": "1898",
-          "element": "Radium"
-        },
-        {
-          "text": "1808",
-          "element": "Calcium"
-        },
-        {
-          "text": "1996",
-          "element": "Copernicium"
-        }
-      ],
-      "correct": "1898"
+      "correct": "Henry Cavendish"
     }
   ]
 }

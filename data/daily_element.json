@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-25",
-  "element": "Hydrogen",
-  "atomicNumber": 1,
-  "symbol": "H",
+  "date": "2026-06-26",
+  "element": "Thorium",
+  "atomicNumber": 90,
+  "symbol": "Th",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Hydrogen?",
+      "question": "Who discovered Thorium?",
       "options": [
         {
-          "text": "9e-07 mg/kg",
-          "element": "Radium"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Flerovium"
         },
         {
-          "text": "84.0 mg/kg",
-          "element": "Nickel"
+          "text": "Johann Gahn",
+          "element": "Manganese"
         },
         {
-          "text": "1400.0 mg/kg",
-          "element": "Hydrogen"
+          "text": "Fredrich W\u00f6hler, A.A.Bussy",
+          "element": "Beryllium"
         },
         {
-          "text": "0.25 mg/kg",
-          "element": "Indium"
+          "text": "J\u00f6ns Berzelius",
+          "element": "Thorium"
         }
       ],
-      "correct": "1400.0 mg/kg"
+      "correct": "J\u00f6ns Berzelius"
     },
     {
-      "question": "When was Hydrogen first discovered?",
+      "question": "When was Thorium first discovered?",
       "options": [
         {
-          "text": "1863",
-          "element": "Indium"
+          "text": "1998",
+          "element": "Flerovium"
         },
         {
-          "text": "1751",
-          "element": "Nickel"
+          "text": "1798",
+          "element": "Beryllium"
         },
         {
-          "text": "1766",
-          "element": "Hydrogen"
+          "text": "1828",
+          "element": "Thorium"
         },
         {
-          "text": "1898",
-          "element": "Radium"
+          "text": "1774",
+          "element": "Manganese"
         }
       ],
-      "correct": "1766"
+      "correct": "1828"
     },
     {
-      "question": "What is the geochemical class of Hydrogen?",
+      "question": "What is the approximate price of Thorium per kilogram?",
       "options": [
         {
-          "text": "U/Th decay series",
-          "element": "Radium"
+          "text": "$857.00/kg",
+          "element": "Beryllium"
         },
         {
-          "text": "high field strength",
-          "element": "Zirconium"
+          "text": "$287.00/kg",
+          "element": "Thorium"
         },
         {
-          "text": "first series transition metal",
-          "element": "Nickel"
+          "text": "$1.82/kg",
+          "element": "Manganese"
+        },
+        {
+          "text": "$185,000,000.00/kg",
+          "element": "Curium"
+        }
+      ],
+      "correct": "$287.00/kg"
+    },
+    {
+      "question": "What is the geochemical class of Thorium?",
+      "options": [
+        {
+          "text": "rare earth & related",
+          "element": "Thorium"
         },
         {
           "text": "volatile",
-          "element": "Hydrogen"
+          "element": "Krypton"
+        },
+        {
+          "text": "alkaline earth metal",
+          "element": "Beryllium"
+        },
+        {
+          "text": "first series transition metal",
+          "element": "Manganese"
         }
       ],
-      "correct": "volatile"
-    },
-    {
-      "question": "Who discovered Hydrogen?",
-      "options": [
-        {
-          "text": "Pierre and Marie Curie",
-          "element": "Radium"
-        },
-        {
-          "text": "Henry Cavendish",
-          "element": "Hydrogen"
-        },
-        {
-          "text": "Ferdinand Reich, T. Richter",
-          "element": "Indium"
-        },
-        {
-          "text": "Axel Cronstedt",
-          "element": "Nickel"
-        }
-      ],
-      "correct": "Henry Cavendish"
+      "correct": "rare earth & related"
     }
   ]
 }

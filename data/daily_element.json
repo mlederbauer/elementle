@@ -1,96 +1,96 @@
 {
-  "date": "2026-06-27",
-  "element": "Bismuth",
-  "atomicNumber": 83,
-  "symbol": "Bi",
+  "date": "2026-06-28",
+  "element": "Cobalt",
+  "atomicNumber": 27,
+  "symbol": "Co",
   "quiz": [
     {
-      "question": "Who discovered Bismuth?",
+      "question": "What is the crustal abundance of Cobalt?",
       "options": [
         {
-          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
-          "element": "Helium"
+          "text": "10.0 mg/kg",
+          "element": "Boron"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Bismuth"
+          "text": "2.9999999999999997e-05 mg/kg",
+          "element": "Xenon"
         },
         {
-          "text": "Smithson Tenant",
-          "element": "Osmium"
+          "text": "20900.0 mg/kg",
+          "element": "Potassium"
         },
         {
-          "text": "Hennig Brand",
-          "element": "Phosphorus"
+          "text": "25.0 mg/kg",
+          "element": "Cobalt"
         }
       ],
-      "correct": "Known to the ancients."
+      "correct": "25.0 mg/kg"
     },
     {
-      "question": "What is the crustal abundance of Bismuth?",
+      "question": "What is the approximate price of Cobalt per kilogram?",
       "options": [
         {
-          "text": "0.0015 mg/kg",
-          "element": "Osmium"
+          "text": "$32.80/kg",
+          "element": "Cobalt"
         },
         {
-          "text": "1050.0 mg/kg",
-          "element": "Phosphorus"
+          "text": "$3.68/kg",
+          "element": "Boron"
         },
         {
-          "text": "0.008 mg/kg",
-          "element": "Helium"
+          "text": "$12.10/kg",
+          "element": "Potassium"
         },
         {
-          "text": "0.0085 mg/kg",
-          "element": "Bismuth"
+          "text": "$1,800.00/kg",
+          "element": "Xenon"
         }
       ],
-      "correct": "0.0085 mg/kg"
+      "correct": "$32.80/kg"
     },
     {
-      "question": "Which countries are the top producers of Bismuth?",
+      "question": "Which countries are the top producers of Cobalt?",
       "options": [
         {
-          "text": "1) China  2) Mexico  3) Japan",
-          "element": "Bismuth"
+          "text": "1) Canada  2) Russia  3) Belarus",
+          "element": "Potassium"
         },
         {
-          "text": "1) China  2) Mexico  3) Morocco",
-          "element": "Phosphorus"
+          "text": "1) Turkey  2) USA  3) Chile",
+          "element": "Boron"
         },
         {
-          "text": "1) USA  2) Algeria  3) Russia",
-          "element": "Helium"
+          "text": "1) China  2) Mexico  3) Mongolia",
+          "element": "Fluorine"
         },
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Osmium"
+          "text": "1) DRC  2) China  3) Zambia",
+          "element": "Cobalt"
         }
       ],
-      "correct": "1) China  2) Mexico  3) Japan"
+      "correct": "1) DRC  2) China  3) Zambia"
     },
     {
-      "question": "What is the approximate price of Bismuth per kilogram?",
+      "question": "Who discovered Cobalt?",
       "options": [
         {
-          "text": "$6.36/kg",
-          "element": "Bismuth"
+          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
+          "element": "Astatine"
         },
         {
-          "text": "$12,000.00/kg",
-          "element": "Osmium"
+          "text": "George Brandt",
+          "element": "Cobalt"
         },
         {
-          "text": "$24.00/kg",
-          "element": "Helium"
+          "text": "Sir William Ramsay; M. W. Travers",
+          "element": "Xenon"
         },
         {
-          "text": "$2.69/kg",
-          "element": "Phosphorus"
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
         }
       ],
-      "correct": "$6.36/kg"
+      "correct": "George Brandt"
     }
   ]
 }

@@ -1,93 +1,93 @@
 {
-  "date": "2026-06-30",
-  "element": "Praseodymium",
-  "atomicNumber": 59,
-  "symbol": "Pr",
+  "date": "2026-07-01",
+  "element": "Erbium",
+  "atomicNumber": 68,
+  "symbol": "Er",
   "quiz": [
     {
-      "question": "Who discovered Praseodymium?",
+      "question": "What is the approximate price of Erbium per kilogram?",
       "options": [
         {
-          "text": "C.F. Aver von Welsbach",
-          "element": "Praseodymium"
+          "text": "$26.40/kg",
+          "element": "Erbium"
         },
         {
-          "text": "J\u00f6ns Berzelius",
-          "element": "Silicon"
+          "text": "$29,000,000,000,000.00/kg",
+          "element": "Actinium"
         },
         {
-          "text": "Joseph Priestly, Carl Wilhelm Scheele",
-          "element": "Oxygen"
+          "text": "$6.36/kg",
+          "element": "Bismuth"
         },
         {
-          "text": "Johann Gadolin",
-          "element": "Yttrium"
+          "text": "$148.00/kg",
+          "element": "Gallium"
         }
       ],
-      "correct": "C.F. Aver von Welsbach"
+      "correct": "$26.40/kg"
     },
     {
-      "question": "When was Praseodymium first discovered?",
+      "question": "What is the crustal abundance of Erbium?",
       "options": [
         {
-          "text": "1824",
-          "element": "Silicon"
+          "text": "19.0 mg/kg",
+          "element": "Gallium"
         },
         {
-          "text": "1885",
-          "element": "Praseodymium"
+          "text": "0.0085 mg/kg",
+          "element": "Bismuth"
         },
         {
-          "text": "1828",
-          "element": "Thorium"
+          "text": "3.5 mg/kg",
+          "element": "Erbium"
         },
         {
-          "text": "1789",
-          "element": "Yttrium"
+          "text": "5.5e-10 mg/kg",
+          "element": "Actinium"
         }
       ],
-      "correct": "1885"
+      "correct": "3.5 mg/kg"
     },
     {
-      "question": "What is the crustal abundance of Praseodymium?",
+      "question": "When was Erbium first discovered?",
       "options": [
         {
-          "text": "9.6 mg/kg",
-          "element": "Thorium"
+          "text": "1875",
+          "element": "Gallium"
         },
         {
-          "text": "282000.0 mg/kg",
-          "element": "Silicon"
+          "text": "1811",
+          "element": "Iodine"
         },
         {
-          "text": "9.2 mg/kg",
-          "element": "Praseodymium"
+          "text": "1899",
+          "element": "Actinium"
         },
         {
-          "text": "33.0 mg/kg",
-          "element": "Yttrium"
+          "text": "1843",
+          "element": "Erbium"
         }
       ],
-      "correct": "9.2 mg/kg"
+      "correct": "1843"
     },
     {
-      "question": "What is the geochemical class of Praseodymium?",
+      "question": "What is the geochemical class of Erbium?",
       "options": [
-        {
-          "text": "major",
-          "element": "Silicon"
-        },
         {
           "text": "rare earth & related",
-          "element": "Praseodymium"
+          "element": "Erbium"
         },
         {
-          "text": "volatile",
-          "element": "Hydrogen"
+          "text": "U/Th decay series",
+          "element": "Actinium"
         },
         {
-          "text": "first series transition metal",
-          "element": "Scandium"
+          "text": "high field strength",
+          "element": "Niobium"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Iodine"
         }
       ],
       "correct": "rare earth & related"

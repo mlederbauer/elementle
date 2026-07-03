@@ -1,96 +1,96 @@
 {
-  "date": "2026-07-02",
-  "element": "Aluminum",
-  "atomicNumber": 13,
-  "symbol": "Al",
+  "date": "2026-07-03",
+  "element": "Oxygen",
+  "atomicNumber": 8,
+  "symbol": "O",
   "quiz": [
     {
-      "question": "Who discovered Aluminum?",
+      "question": "What is the approximate price of Oxygen per kilogram?",
       "options": [
         {
-          "text": "Hans Christian Oersted",
-          "element": "Aluminum"
+          "text": "$287.00/kg",
+          "element": "Thorium"
+        },
+        {
+          "text": "$0.15/kg",
+          "element": "Oxygen"
+        },
+        {
+          "text": "$307.00/kg",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "$1.70/kg",
+          "element": "Silicon"
+        }
+      ],
+      "correct": "$0.15/kg"
+    },
+    {
+      "question": "When was Oxygen first discovered?",
+      "options": [
+        {
+          "text": "1824",
+          "element": "Silicon"
+        },
+        {
+          "text": "1774",
+          "element": "Oxygen"
+        },
+        {
+          "text": "1886",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "1828",
+          "element": "Thorium"
+        }
+      ],
+      "correct": "1774"
+    },
+    {
+      "question": "Who discovered Oxygen?",
+      "options": [
+        {
+          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
+          "element": "Seaborgium"
+        },
+        {
+          "text": "Joseph Priestly, Carl Wilhelm Scheele",
+          "element": "Oxygen"
         },
         {
           "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Gallium"
+          "element": "Dysprosium"
         },
         {
-          "text": "Per Theodor Cleve",
-          "element": "Thulium"
-        },
-        {
-          "text": "Sir William Crookes",
-          "element": "Thallium"
+          "text": "J\u00f6ns Berzelius",
+          "element": "Silicon"
         }
       ],
-      "correct": "Hans Christian Oersted"
+      "correct": "Joseph Priestly, Carl Wilhelm Scheele"
     },
     {
-      "question": "When was Aluminum first discovered?",
+      "question": "What is the crustal abundance of Oxygen?",
       "options": [
         {
-          "text": "1861",
-          "element": "Thallium"
+          "text": "461000.0 mg/kg",
+          "element": "Oxygen"
         },
         {
-          "text": "1825",
-          "element": "Aluminum"
+          "text": "282000.0 mg/kg",
+          "element": "Silicon"
         },
         {
-          "text": "1875",
-          "element": "Gallium"
+          "text": "9.6 mg/kg",
+          "element": "Thorium"
         },
         {
-          "text": "1879",
-          "element": "Thulium"
+          "text": "5.2 mg/kg",
+          "element": "Dysprosium"
         }
       ],
-      "correct": "1825"
-    },
-    {
-      "question": "What is the geochemical class of Aluminum?",
-      "options": [
-        {
-          "text": "noble metal",
-          "element": "Platinum"
-        },
-        {
-          "text": "major",
-          "element": "Aluminum"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Thulium"
-        },
-        {
-          "text": "alkali metal",
-          "element": "Rubidium"
-        }
-      ],
-      "correct": "major"
-    },
-    {
-      "question": "What is the approximate price of Aluminum per kilogram?",
-      "options": [
-        {
-          "text": "$148.00/kg",
-          "element": "Gallium"
-        },
-        {
-          "text": "$3,000.00/kg",
-          "element": "Thulium"
-        },
-        {
-          "text": "$4,200.00/kg",
-          "element": "Thallium"
-        },
-        {
-          "text": "$1.79/kg",
-          "element": "Aluminum"
-        }
-      ],
-      "correct": "$1.79/kg"
+      "correct": "461000.0 mg/kg"
     }
   ]
 }

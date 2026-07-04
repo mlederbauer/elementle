@@ -1,96 +1,96 @@
 {
-  "date": "2026-07-03",
-  "element": "Oxygen",
-  "atomicNumber": 8,
-  "symbol": "O",
+  "date": "2026-07-04",
+  "element": "Vanadium",
+  "atomicNumber": 23,
+  "symbol": "V",
   "quiz": [
     {
-      "question": "What is the approximate price of Oxygen per kilogram?",
+      "question": "Who discovered Vanadium?",
       "options": [
         {
-          "text": "$287.00/kg",
-          "element": "Thorium"
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
         },
         {
-          "text": "$0.15/kg",
-          "element": "Oxygen"
+          "text": "Lawrence Livermore National Laboratory",
+          "element": "Livermorium"
         },
         {
-          "text": "$307.00/kg",
-          "element": "Dysprosium"
+          "text": "Nils Sefstr\u00f6m",
+          "element": "Vanadium"
         },
         {
-          "text": "$1.70/kg",
-          "element": "Silicon"
+          "text": "Nobel Institute for Physics",
+          "element": "Nobelium"
         }
       ],
-      "correct": "$0.15/kg"
+      "correct": "Nils Sefstr\u00f6m"
     },
     {
-      "question": "When was Oxygen first discovered?",
+      "question": "Which countries are the top producers of Vanadium?",
       "options": [
         {
-          "text": "1824",
-          "element": "Silicon"
+          "text": "1) Australia  2) Chile  3) China",
+          "element": "Lithium"
         },
         {
-          "text": "1774",
-          "element": "Oxygen"
+          "text": "1) DRC  2) China  3) Zambia",
+          "element": "Cobalt"
         },
         {
-          "text": "1886",
-          "element": "Dysprosium"
+          "text": "1) China  2) Australia  3) USA",
+          "element": "Gold"
         },
         {
-          "text": "1828",
-          "element": "Thorium"
+          "text": "1) South Africa  2) China  3) Russia",
+          "element": "Vanadium"
         }
       ],
-      "correct": "1774"
+      "correct": "1) South Africa  2) China  3) Russia"
     },
     {
-      "question": "Who discovered Oxygen?",
+      "question": "What is the approximate price of Vanadium per kilogram?",
       "options": [
         {
-          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
-          "element": "Seaborgium"
+          "text": "$357.00/kg",
+          "element": "Vanadium"
         },
         {
-          "text": "Joseph Priestly, Carl Wilhelm Scheele",
-          "element": "Oxygen"
+          "text": "$32.80/kg",
+          "element": "Cobalt"
         },
         {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Dysprosium"
+          "text": "$81.40/kg",
+          "element": "Lithium"
         },
         {
-          "text": "J\u00f6ns Berzelius",
-          "element": "Silicon"
+          "text": "$75,430.00/kg",
+          "element": "Gold"
         }
       ],
-      "correct": "Joseph Priestly, Carl Wilhelm Scheele"
+      "correct": "$357.00/kg"
     },
     {
-      "question": "What is the crustal abundance of Oxygen?",
+      "question": "What is the geochemical class of Vanadium?",
       "options": [
         {
-          "text": "461000.0 mg/kg",
-          "element": "Oxygen"
+          "text": "first series transition metal",
+          "element": "Vanadium"
         },
         {
-          "text": "282000.0 mg/kg",
-          "element": "Silicon"
+          "text": "alkali metal",
+          "element": "Lithium"
         },
         {
-          "text": "9.6 mg/kg",
-          "element": "Thorium"
+          "text": "U/Th decay series",
+          "element": "Radium"
         },
         {
-          "text": "5.2 mg/kg",
-          "element": "Dysprosium"
+          "text": "noble metal",
+          "element": "Gold"
         }
       ],
-      "correct": "461000.0 mg/kg"
+      "correct": "first series transition metal"
     }
   ]
 }

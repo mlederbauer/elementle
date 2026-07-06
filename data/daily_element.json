@@ -1,96 +1,74 @@
 {
-  "date": "2026-07-05",
-  "element": "Radium",
-  "atomicNumber": 88,
-  "symbol": "Ra",
+  "date": "2026-07-06",
+  "element": "Darmstadtium",
+  "atomicNumber": 110,
+  "symbol": "Ds",
   "quiz": [
     {
-      "question": "When was Radium first discovered?",
+      "question": "Who discovered Darmstadtium?",
       "options": [
+        {
+          "text": "Known to the ancients.",
+          "element": "Bismuth"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "Clemens Winkler",
+          "element": "Germanium"
+        },
+        {
+          "text": "Hennig Brand",
+          "element": "Phosphorus"
+        }
+      ],
+      "correct": "Heavy Ion Research Laboratory (HIRL)"
+    },
+    {
+      "question": "When was Darmstadtium first discovered?",
+      "options": [
+        {
+          "text": "1669",
+          "element": "Phosphorus"
+        },
         {
           "text": "1886",
-          "element": "Dysprosium"
+          "element": "Germanium"
         },
         {
-          "text": "1898",
-          "element": "Radium"
+          "text": "2015",
+          "element": "Nihonium"
         },
         {
-          "text": "1899",
-          "element": "Actinium"
-        },
-        {
-          "text": "1885",
-          "element": "Praseodymium"
+          "text": "1994",
+          "element": "Darmstadtium"
         }
       ],
-      "correct": "1898"
+      "correct": "1994"
     },
     {
-      "question": "What is the crustal abundance of Radium?",
+      "question": "What is the density of Darmstadtium?",
       "options": [
         {
-          "text": "5.2 mg/kg",
-          "element": "Dysprosium"
+          "text": "34.8 g/cm\u00b3",
+          "element": "Darmstadtium"
         },
         {
-          "text": "9.2 mg/kg",
-          "element": "Praseodymium"
+          "text": "5.3234 g/cm\u00b3",
+          "element": "Germanium"
         },
         {
-          "text": "9e-07 mg/kg",
-          "element": "Radium"
+          "text": "9.79 g/cm\u00b3",
+          "element": "Bismuth"
         },
         {
-          "text": "5.5e-10 mg/kg",
-          "element": "Actinium"
+          "text": "1.823 g/cm\u00b3",
+          "element": "Phosphorus"
         }
       ],
-      "correct": "9e-07 mg/kg"
-    },
-    {
-      "question": "What is the geochemical class of Radium?",
-      "options": [
-        {
-          "text": "rare earth & related",
-          "element": "Dysprosium"
-        },
-        {
-          "text": "noble metal",
-          "element": "Gold"
-        },
-        {
-          "text": "U/Th decay series",
-          "element": "Radium"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Bromine"
-        }
-      ],
-      "correct": "U/Th decay series"
-    },
-    {
-      "question": "Who discovered Radium?",
-      "options": [
-        {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Dysprosium"
-        },
-        {
-          "text": "Andr\u00e9 Debierne",
-          "element": "Actinium"
-        },
-        {
-          "text": "C.F. Aver von Welsbach",
-          "element": "Praseodymium"
-        },
-        {
-          "text": "Pierre and Marie Curie",
-          "element": "Radium"
-        }
-      ],
-      "correct": "Pierre and Marie Curie"
+      "correct": "34.8 g/cm\u00b3"
     }
   ]
 }

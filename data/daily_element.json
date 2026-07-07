@@ -1,74 +1,74 @@
 {
-  "date": "2026-07-06",
-  "element": "Darmstadtium",
-  "atomicNumber": 110,
-  "symbol": "Ds",
+  "date": "2026-07-07",
+  "element": "Copernicium",
+  "atomicNumber": 112,
+  "symbol": "Cn",
   "quiz": [
     {
-      "question": "Who discovered Darmstadtium?",
+      "question": "Who discovered Copernicium?",
       "options": [
         {
-          "text": "Known to the ancients.",
-          "element": "Bismuth"
+          "text": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory",
+          "element": "Tennessine"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Darmstadtium"
+          "text": "Gustov Kirchoff, Robert Bunsen",
+          "element": "Cesium"
         },
         {
-          "text": "Clemens Winkler",
-          "element": "Germanium"
+          "text": "Fredrich Stromeyer",
+          "element": "Cadmium"
         },
         {
-          "text": "Hennig Brand",
-          "element": "Phosphorus"
+          "text": "GSI Helmholtz Centre for Heavy Ion Research",
+          "element": "Copernicium"
         }
       ],
-      "correct": "Heavy Ion Research Laboratory (HIRL)"
+      "correct": "GSI Helmholtz Centre for Heavy Ion Research"
     },
     {
-      "question": "When was Darmstadtium first discovered?",
+      "question": "When was Copernicium first discovered?",
       "options": [
         {
-          "text": "1669",
-          "element": "Phosphorus"
+          "text": "1996",
+          "element": "Copernicium"
         },
         {
-          "text": "1886",
-          "element": "Germanium"
+          "text": "1817",
+          "element": "Cadmium"
         },
         {
-          "text": "2015",
-          "element": "Nihonium"
+          "text": "1860",
+          "element": "Cesium"
         },
         {
-          "text": "1994",
-          "element": "Darmstadtium"
+          "text": "2010",
+          "element": "Tennessine"
         }
       ],
-      "correct": "1994"
+      "correct": "1996"
     },
     {
-      "question": "What is the density of Darmstadtium?",
+      "question": "What is the density of Copernicium?",
       "options": [
         {
-          "text": "34.8 g/cm\u00b3",
-          "element": "Darmstadtium"
+          "text": "14.0 g/cm\u00b3",
+          "element": "Copernicium"
         },
         {
-          "text": "5.3234 g/cm\u00b3",
-          "element": "Germanium"
+          "text": "8.69 g/cm\u00b3",
+          "element": "Cadmium"
         },
         {
-          "text": "9.79 g/cm\u00b3",
-          "element": "Bismuth"
+          "text": "1.873 g/cm\u00b3",
+          "element": "Cesium"
         },
         {
-          "text": "1.823 g/cm\u00b3",
-          "element": "Phosphorus"
+          "text": "7.2 g/cm\u00b3",
+          "element": "Tennessine"
         }
       ],
-      "correct": "34.8 g/cm\u00b3"
+      "correct": "14.0 g/cm\u00b3"
     }
   ]
 }

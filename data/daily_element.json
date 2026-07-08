@@ -1,74 +1,96 @@
 {
-  "date": "2026-07-07",
-  "element": "Copernicium",
-  "atomicNumber": 112,
-  "symbol": "Cn",
+  "date": "2026-07-08",
+  "element": "Francium",
+  "atomicNumber": 87,
+  "symbol": "Fr",
   "quiz": [
     {
-      "question": "Who discovered Copernicium?",
+      "question": "What is the geochemical class of Francium?",
       "options": [
         {
-          "text": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory",
-          "element": "Tennessine"
+          "text": "noble metal",
+          "element": "Ruthenium"
         },
         {
-          "text": "Gustov Kirchoff, Robert Bunsen",
-          "element": "Cesium"
+          "text": "semi-volatile",
+          "element": "Antimony"
         },
         {
-          "text": "Fredrich Stromeyer",
-          "element": "Cadmium"
+          "text": "volatile",
+          "element": "Krypton"
         },
         {
-          "text": "GSI Helmholtz Centre for Heavy Ion Research",
-          "element": "Copernicium"
+          "text": "U/Th decay series",
+          "element": "Francium"
         }
       ],
-      "correct": "GSI Helmholtz Centre for Heavy Ion Research"
+      "correct": "U/Th decay series"
     },
     {
-      "question": "When was Copernicium first discovered?",
+      "question": "When was Francium first discovered?",
       "options": [
         {
-          "text": "1996",
-          "element": "Copernicium"
+          "text": "1772",
+          "element": "Nitrogen"
         },
         {
-          "text": "1817",
-          "element": "Cadmium"
+          "text": "1898",
+          "element": "Krypton"
         },
         {
-          "text": "1860",
-          "element": "Cesium"
+          "text": "1939",
+          "element": "Francium"
         },
         {
-          "text": "2010",
-          "element": "Tennessine"
+          "text": "1844",
+          "element": "Ruthenium"
         }
       ],
-      "correct": "1996"
+      "correct": "1939"
     },
     {
-      "question": "What is the density of Copernicium?",
+      "question": "Who discovered Francium?",
       "options": [
         {
-          "text": "14.0 g/cm\u00b3",
-          "element": "Copernicium"
+          "text": "Karl Klaus",
+          "element": "Ruthenium"
         },
         {
-          "text": "8.69 g/cm\u00b3",
-          "element": "Cadmium"
+          "text": "Daniel Rutherford",
+          "element": "Nitrogen"
         },
         {
-          "text": "1.873 g/cm\u00b3",
-          "element": "Cesium"
+          "text": "Sir William Ramsey, M.W. Travers",
+          "element": "Krypton"
         },
         {
-          "text": "7.2 g/cm\u00b3",
-          "element": "Tennessine"
+          "text": "Marguerite Derey",
+          "element": "Francium"
         }
       ],
-      "correct": "14.0 g/cm\u00b3"
+      "correct": "Marguerite Derey"
+    },
+    {
+      "question": "What is the melting point of Francium?",
+      "options": [
+        {
+          "text": "-157.4 \u00b0C",
+          "element": "Krypton"
+        },
+        {
+          "text": "-210.0 \u00b0C",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "21.0 \u00b0C",
+          "element": "Francium"
+        },
+        {
+          "text": "2333.0 \u00b0C",
+          "element": "Ruthenium"
+        }
+      ],
+      "correct": "21.0 \u00b0C"
     }
   ]
 }

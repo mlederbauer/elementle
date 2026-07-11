@@ -1,74 +1,96 @@
 {
-  "date": "2026-07-10",
-  "element": "Tennessine",
-  "atomicNumber": 117,
-  "symbol": "Ts",
+  "date": "2026-07-11",
+  "element": "Nitrogen",
+  "atomicNumber": 7,
+  "symbol": "N",
   "quiz": [
     {
-      "question": "When was Tennessine first discovered?",
+      "question": "What is the geochemical class of Nitrogen?",
       "options": [
         {
-          "text": "1939",
-          "element": "Francium"
+          "text": "rare earth & related",
+          "element": "Praseodymium"
         },
         {
-          "text": "2010",
-          "element": "Tennessine"
+          "text": "major",
+          "element": "Aluminum"
         },
         {
-          "text": "1807",
-          "element": "Potassium"
+          "text": "volatile",
+          "element": "Nitrogen"
         },
         {
-          "text": "1878",
-          "element": "Holmium"
+          "text": "U/Th decay series",
+          "element": "Polonium"
         }
       ],
-      "correct": "2010"
+      "correct": "volatile"
     },
     {
-      "question": "Who discovered Tennessine?",
+      "question": "When was Nitrogen first discovered?",
       "options": [
         {
-          "text": "Marguerite Derey",
-          "element": "Francium"
+          "text": "1825",
+          "element": "Aluminum"
         },
         {
-          "text": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory",
-          "element": "Tennessine"
+          "text": "1957",
+          "element": "Nobelium"
         },
         {
-          "text": "J.L. Soret",
-          "element": "Holmium"
+          "text": "1898",
+          "element": "Polonium"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Potassium"
+          "text": "1772",
+          "element": "Nitrogen"
         }
       ],
-      "correct": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory"
+      "correct": "1772"
     },
     {
-      "question": "What is the density of Tennessine?",
+      "question": "Who discovered Nitrogen?",
       "options": [
         {
-          "text": "8.8 g/cm\u00b3",
-          "element": "Holmium"
+          "text": "Known to the ancients.",
+          "element": "Lead"
         },
         {
-          "text": "1.87 g/cm\u00b3",
-          "element": "Francium"
+          "text": "Nobel Institute for Physics",
+          "element": "Nobelium"
         },
         {
-          "text": "7.2 g/cm\u00b3",
-          "element": "Tennessine"
+          "text": "Daniel Rutherford",
+          "element": "Nitrogen"
         },
         {
-          "text": "0.89 g/cm\u00b3",
-          "element": "Potassium"
+          "text": "Pierre and Marie Curie",
+          "element": "Polonium"
         }
       ],
-      "correct": "7.2 g/cm\u00b3"
+      "correct": "Daniel Rutherford"
+    },
+    {
+      "question": "What is the crustal abundance of Nitrogen?",
+      "options": [
+        {
+          "text": "14.0 mg/kg",
+          "element": "Lead"
+        },
+        {
+          "text": "19.0 mg/kg",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "2e-10 mg/kg",
+          "element": "Polonium"
+        },
+        {
+          "text": "82300.0 mg/kg",
+          "element": "Aluminum"
+        }
+      ],
+      "correct": "19.0 mg/kg"
     }
   ]
 }

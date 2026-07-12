@@ -1,96 +1,74 @@
 {
-  "date": "2026-07-11",
-  "element": "Nitrogen",
-  "atomicNumber": 7,
-  "symbol": "N",
+  "date": "2026-07-12",
+  "element": "Dubnium",
+  "atomicNumber": 105,
+  "symbol": "Db",
   "quiz": [
     {
-      "question": "What is the geochemical class of Nitrogen?",
+      "question": "Who discovered Dubnium?",
       "options": [
         {
-          "text": "rare earth & related",
-          "element": "Praseodymium"
+          "text": "Smithson Tenant",
+          "element": "Osmium"
         },
         {
-          "text": "major",
-          "element": "Aluminum"
+          "text": "Henry Cavendish",
+          "element": "Hydrogen"
         },
         {
-          "text": "volatile",
-          "element": "Nitrogen"
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Polonium"
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
         }
       ],
-      "correct": "volatile"
+      "correct": "A. Ghiorso, et al"
     },
     {
-      "question": "When was Nitrogen first discovered?",
+      "question": "When was Dubnium first discovered?",
       "options": [
         {
-          "text": "1825",
-          "element": "Aluminum"
+          "text": "1808",
+          "element": "Boron"
         },
         {
-          "text": "1957",
-          "element": "Nobelium"
+          "text": "1766",
+          "element": "Hydrogen"
         },
         {
-          "text": "1898",
-          "element": "Polonium"
+          "text": "1970",
+          "element": "Dubnium"
         },
         {
-          "text": "1772",
-          "element": "Nitrogen"
+          "text": "1804",
+          "element": "Osmium"
         }
       ],
-      "correct": "1772"
+      "correct": "1970"
     },
     {
-      "question": "Who discovered Nitrogen?",
+      "question": "What is the density of Dubnium?",
       "options": [
         {
-          "text": "Known to the ancients.",
-          "element": "Lead"
+          "text": "8.2e-05 g/cm\u00b3",
+          "element": "Hydrogen"
         },
         {
-          "text": "Nobel Institute for Physics",
-          "element": "Nobelium"
+          "text": "2.34 g/cm\u00b3",
+          "element": "Boron"
         },
         {
-          "text": "Daniel Rutherford",
-          "element": "Nitrogen"
+          "text": "29.3 g/cm\u00b3",
+          "element": "Dubnium"
         },
         {
-          "text": "Pierre and Marie Curie",
-          "element": "Polonium"
+          "text": "22.5872 g/cm\u00b3",
+          "element": "Osmium"
         }
       ],
-      "correct": "Daniel Rutherford"
-    },
-    {
-      "question": "What is the crustal abundance of Nitrogen?",
-      "options": [
-        {
-          "text": "14.0 mg/kg",
-          "element": "Lead"
-        },
-        {
-          "text": "19.0 mg/kg",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "2e-10 mg/kg",
-          "element": "Polonium"
-        },
-        {
-          "text": "82300.0 mg/kg",
-          "element": "Aluminum"
-        }
-      ],
-      "correct": "19.0 mg/kg"
+      "correct": "29.3 g/cm\u00b3"
     }
   ]
 }

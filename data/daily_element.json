@@ -1,74 +1,96 @@
 {
-  "date": "2026-07-12",
-  "element": "Dubnium",
-  "atomicNumber": 105,
-  "symbol": "Db",
+  "date": "2026-07-13",
+  "element": "Tantalum",
+  "atomicNumber": 73,
+  "symbol": "Ta",
   "quiz": [
     {
-      "question": "Who discovered Dubnium?",
+      "question": "What is the geochemical class of Tantalum?",
       "options": [
         {
-          "text": "Smithson Tenant",
-          "element": "Osmium"
+          "text": "high field strength",
+          "element": "Tantalum"
         },
         {
-          "text": "Henry Cavendish",
-          "element": "Hydrogen"
+          "text": "U/Th decay series",
+          "element": "Actinium"
         },
         {
-          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
-          "element": "Boron"
+          "text": "semi-volatile",
+          "element": "Sulfur"
         },
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Dubnium"
+          "text": "major",
+          "element": "Oxygen"
         }
       ],
-      "correct": "A. Ghiorso, et al"
+      "correct": "high field strength"
     },
     {
-      "question": "When was Dubnium first discovered?",
+      "question": "Who discovered Tantalum?",
       "options": [
         {
-          "text": "1808",
-          "element": "Boron"
+          "text": "Andr\u00e9 Debierne",
+          "element": "Actinium"
         },
         {
-          "text": "1766",
-          "element": "Hydrogen"
+          "text": "Anders Ekeberg",
+          "element": "Tantalum"
         },
         {
-          "text": "1970",
-          "element": "Dubnium"
+          "text": "Known to the ancients.",
+          "element": "Tin"
         },
         {
-          "text": "1804",
-          "element": "Osmium"
+          "text": "E.M. McMillan, P.H. Abelson",
+          "element": "Neptunium"
         }
       ],
-      "correct": "1970"
+      "correct": "Anders Ekeberg"
     },
     {
-      "question": "What is the density of Dubnium?",
+      "question": "Which countries are the top producers of Tantalum?",
       "options": [
         {
-          "text": "8.2e-05 g/cm\u00b3",
-          "element": "Hydrogen"
+          "text": "1) China  2) USA  3) India",
+          "element": "Carbon"
         },
         {
-          "text": "2.34 g/cm\u00b3",
-          "element": "Boron"
+          "text": "1) China  2) Indonesia  3) Peru",
+          "element": "Tin"
         },
         {
-          "text": "29.3 g/cm\u00b3",
-          "element": "Dubnium"
+          "text": "1) Brazil  2) Rwanda  3) China",
+          "element": "Tantalum"
         },
         {
-          "text": "22.5872 g/cm\u00b3",
-          "element": "Osmium"
+          "text": "1) China  2) USA  3) Canada",
+          "element": "Sulfur"
         }
       ],
-      "correct": "29.3 g/cm\u00b3"
+      "correct": "1) Brazil  2) Rwanda  3) China"
+    },
+    {
+      "question": "What is the approximate price of Tantalum per kilogram?",
+      "options": [
+        {
+          "text": "$298.00/kg",
+          "element": "Tantalum"
+        },
+        {
+          "text": "$18.70/kg",
+          "element": "Tin"
+        },
+        {
+          "text": "$0.09/kg",
+          "element": "Sulfur"
+        },
+        {
+          "text": "$660,000.00/kg",
+          "element": "Neptunium"
+        }
+      ],
+      "correct": "$298.00/kg"
     }
   ]
 }

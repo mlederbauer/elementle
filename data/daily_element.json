@@ -1,74 +1,96 @@
 {
-  "date": "2026-07-14",
-  "element": "Moscovium",
-  "atomicNumber": 115,
-  "symbol": "Mc",
+  "date": "2026-07-15",
+  "element": "Bismuth",
+  "atomicNumber": 83,
+  "symbol": "Bi",
   "quiz": [
     {
-      "question": "When was Moscovium first discovered?",
+      "question": "Which countries are the top producers of Bismuth?",
       "options": [
         {
-          "text": "1945",
-          "element": "Promethium"
+          "text": "1) China  2) Mexico  3) Mongolia",
+          "element": "Fluorine"
         },
         {
-          "text": "1802",
-          "element": "Tantalum"
+          "text": "1) USA  2) China  3) Israel",
+          "element": "Bromine"
         },
         {
-          "text": "2003",
-          "element": "Moscovium"
+          "text": "1) Mexico  2) Peru  3) China",
+          "element": "Silver"
         },
         {
-          "text": "1774",
-          "element": "Oxygen"
+          "text": "1) China  2) Mexico  3) Japan",
+          "element": "Bismuth"
         }
       ],
-      "correct": "2003"
+      "correct": "1) China  2) Mexico  3) Japan"
     },
     {
-      "question": "Who discovered Moscovium?",
+      "question": "What is the crustal abundance of Bismuth?",
       "options": [
         {
-          "text": "Anders Ekeberg",
-          "element": "Tantalum"
+          "text": "2.4 mg/kg",
+          "element": "Bromine"
+        },
+        {
+          "text": "585.0 mg/kg",
+          "element": "Fluorine"
+        },
+        {
+          "text": "0.075 mg/kg",
+          "element": "Silver"
+        },
+        {
+          "text": "0.0085 mg/kg",
+          "element": "Bismuth"
+        }
+      ],
+      "correct": "0.0085 mg/kg"
+    },
+    {
+      "question": "What is the approximate price of Bismuth per kilogram?",
+      "options": [
+        {
+          "text": "$1.84/kg",
+          "element": "Fluorine"
+        },
+        {
+          "text": "$4.39/kg",
+          "element": "Bromine"
+        },
+        {
+          "text": "$521.00/kg",
+          "element": "Silver"
+        },
+        {
+          "text": "$6.36/kg",
+          "element": "Bismuth"
+        }
+      ],
+      "correct": "$6.36/kg"
+    },
+    {
+      "question": "Who discovered Bismuth?",
+      "options": [
+        {
+          "text": "Antoine J. Balard",
+          "element": "Bromine"
+        },
+        {
+          "text": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory",
+          "element": "Tennessine"
+        },
+        {
+          "text": "Henri Moissan",
+          "element": "Fluorine"
         },
         {
           "text": "Known to the ancients.",
-          "element": "Sulfur"
-        },
-        {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Moscovium"
-        },
-        {
-          "text": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell",
-          "element": "Promethium"
+          "element": "Bismuth"
         }
       ],
-      "correct": "Joint Institute for Nuclear Research"
-    },
-    {
-      "question": "What is the density of Moscovium?",
-      "options": [
-        {
-          "text": "16.4 g/cm\u00b3",
-          "element": "Tantalum"
-        },
-        {
-          "text": "13.5 g/cm\u00b3",
-          "element": "Moscovium"
-        },
-        {
-          "text": "7.26 g/cm\u00b3",
-          "element": "Promethium"
-        },
-        {
-          "text": "2.07 g/cm\u00b3",
-          "element": "Sulfur"
-        }
-      ],
-      "correct": "13.5 g/cm\u00b3"
+      "correct": "Known to the ancients."
     }
   ]
 }

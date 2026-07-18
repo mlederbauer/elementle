@@ -1,96 +1,96 @@
 {
-  "date": "2026-07-17",
-  "element": "Zirconium",
-  "atomicNumber": 40,
-  "symbol": "Zr",
+  "date": "2026-07-18",
+  "element": "Manganese",
+  "atomicNumber": 25,
+  "symbol": "Mn",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Zirconium?",
+      "question": "Who discovered Manganese?",
       "options": [
         {
-          "text": "1) Australia  2) Brazil  3) China",
-          "element": "Aluminum"
-        },
-        {
-          "text": "1) China  2) Bolivia  3) Tajikistan",
-          "element": "Antimony"
-        },
-        {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Ytterbium"
-        },
-        {
-          "text": "1) Australia  2) South Africa  3) China",
-          "element": "Zirconium"
-        }
-      ],
-      "correct": "1) Australia  2) South Africa  3) China"
-    },
-    {
-      "question": "When was Zirconium first discovered?",
-      "options": [
-        {
-          "text": "1974",
-          "element": "Seaborgium"
-        },
-        {
-          "text": "1789",
-          "element": "Zirconium"
-        },
-        {
-          "text": "2010",
-          "element": "Tennessine"
-        },
-        {
-          "text": "1825",
-          "element": "Aluminum"
-        }
-      ],
-      "correct": "1789"
-    },
-    {
-      "question": "What is the approximate price of Zirconium per kilogram?",
-      "options": [
-        {
-          "text": "$35.70/kg",
-          "element": "Zirconium"
-        },
-        {
-          "text": "$17.10/kg",
-          "element": "Ytterbium"
-        },
-        {
-          "text": "$1.79/kg",
-          "element": "Aluminum"
-        },
-        {
-          "text": "$5.79/kg",
-          "element": "Antimony"
-        }
-      ],
-      "correct": "$35.70/kg"
-    },
-    {
-      "question": "Who discovered Zirconium?",
-      "options": [
-        {
-          "text": "Martin Klaproth",
-          "element": "Zirconium"
-        },
-        {
-          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
-          "element": "Seaborgium"
+          "text": "Known to the ancients.",
+          "element": "Mercury"
         },
         {
           "text": "Hans Christian Oersted",
           "element": "Aluminum"
         },
         {
-          "text": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory",
-          "element": "Tennessine"
+          "text": "Johann Gahn",
+          "element": "Manganese"
+        },
+        {
+          "text": "Dirk Coster, Georg von Hevesy",
+          "element": "Hafnium"
         }
       ],
-      "correct": "Martin Klaproth"
+      "correct": "Johann Gahn"
+    },
+    {
+      "question": "When was Manganese first discovered?",
+      "options": [
+        {
+          "text": "1923",
+          "element": "Hafnium"
+        },
+        {
+          "text": "1804",
+          "element": "Osmium"
+        },
+        {
+          "text": "1825",
+          "element": "Aluminum"
+        },
+        {
+          "text": "1774",
+          "element": "Manganese"
+        }
+      ],
+      "correct": "1774"
+    },
+    {
+      "question": "Which countries are the top producers of Manganese?",
+      "options": [
+        {
+          "text": "1) China  2) South Africa  3) Australia",
+          "element": "Manganese"
+        },
+        {
+          "text": "1) China  2) Kyrgzstan  3) Chile",
+          "element": "Mercury"
+        },
+        {
+          "text": "1) Australia  2) Brazil  3) China",
+          "element": "Aluminum"
+        },
+        {
+          "text": "1) China  2) Australia  3) Peru",
+          "element": "Zinc"
+        }
+      ],
+      "correct": "1) China  2) South Africa  3) Australia"
+    },
+    {
+      "question": "What is the approximate price of Manganese per kilogram?",
+      "options": [
+        {
+          "text": "$30.20/kg",
+          "element": "Mercury"
+        },
+        {
+          "text": "$900.00/kg",
+          "element": "Hafnium"
+        },
+        {
+          "text": "$1.79/kg",
+          "element": "Aluminum"
+        },
+        {
+          "text": "$1.82/kg",
+          "element": "Manganese"
+        }
+      ],
+      "correct": "$1.82/kg"
     }
   ]
 }

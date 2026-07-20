@@ -1,96 +1,74 @@
 {
-  "date": "2026-07-19",
-  "element": "Holmium",
-  "atomicNumber": 67,
-  "symbol": "Ho",
+  "date": "2026-07-20",
+  "element": "Rutherfordium",
+  "atomicNumber": 104,
+  "symbol": "Rf",
   "quiz": [
     {
-      "question": "What is the approximate price of Holmium per kilogram?",
+      "question": "When was Rutherfordium first discovered?",
       "options": [
         {
-          "text": "$18.70/kg",
-          "element": "Tin"
+          "text": "1969",
+          "element": "Rutherfordium"
         },
         {
-          "text": "$1.84/kg",
-          "element": "Fluorine"
+          "text": "1807",
+          "element": "Sodium"
         },
         {
-          "text": "$57.10/kg",
-          "element": "Holmium"
+          "text": "1998",
+          "element": "Flerovium"
         },
         {
-          "text": "$0.14/kg",
-          "element": "Nitrogen"
+          "text": "1953",
+          "element": "Fermium"
         }
       ],
-      "correct": "$57.10/kg"
+      "correct": "1969"
     },
     {
-      "question": "What is the crustal abundance of Holmium?",
+      "question": "Who discovered Rutherfordium?",
       "options": [
         {
-          "text": "19.0 mg/kg",
-          "element": "Nitrogen"
+          "text": "A. Ghiorso, et al",
+          "element": "Rutherfordium"
         },
         {
-          "text": "1.3 mg/kg",
-          "element": "Holmium"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Flerovium"
         },
         {
-          "text": "585.0 mg/kg",
-          "element": "Fluorine"
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Fermium"
         },
         {
-          "text": "2.3 mg/kg",
-          "element": "Tin"
+          "text": "Sir Humphrey Davy",
+          "element": "Sodium"
         }
       ],
-      "correct": "1.3 mg/kg"
+      "correct": "A. Ghiorso, et al"
     },
     {
-      "question": "Who discovered Holmium?",
+      "question": "What is the density of Rutherfordium?",
       "options": [
         {
-          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
-          "element": "Astatine"
+          "text": "9.928 g/cm\u00b3",
+          "element": "Flerovium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Tin"
+          "text": "9.7 g/cm\u00b3",
+          "element": "Fermium"
         },
         {
-          "text": "J.L. Soret",
-          "element": "Holmium"
+          "text": "23.3 g/cm\u00b3",
+          "element": "Rutherfordium"
         },
         {
-          "text": "Daniel Rutherford",
-          "element": "Nitrogen"
+          "text": "0.97 g/cm\u00b3",
+          "element": "Sodium"
         }
       ],
-      "correct": "J.L. Soret"
-    },
-    {
-      "question": "When was Holmium first discovered?",
-      "options": [
-        {
-          "text": "2000",
-          "element": "Livermorium"
-        },
-        {
-          "text": "1772",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "1940",
-          "element": "Astatine"
-        },
-        {
-          "text": "1878",
-          "element": "Holmium"
-        }
-      ],
-      "correct": "1878"
+      "correct": "23.3 g/cm\u00b3"
     }
   ]
 }

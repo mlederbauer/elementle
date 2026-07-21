@@ -1,74 +1,96 @@
 {
-  "date": "2026-07-20",
-  "element": "Rutherfordium",
-  "atomicNumber": 104,
-  "symbol": "Rf",
+  "date": "2026-07-21",
+  "element": "Holmium",
+  "atomicNumber": 67,
+  "symbol": "Ho",
   "quiz": [
     {
-      "question": "When was Rutherfordium first discovered?",
+      "question": "What is the approximate price of Holmium per kilogram?",
       "options": [
         {
-          "text": "1969",
-          "element": "Rutherfordium"
+          "text": "$24.00/kg",
+          "element": "Helium"
         },
         {
-          "text": "1807",
-          "element": "Sodium"
+          "text": "$167.00/kg",
+          "element": "Indium"
         },
         {
-          "text": "1998",
-          "element": "Flerovium"
+          "text": "$63.50/kg",
+          "element": "Tellurium"
         },
         {
-          "text": "1953",
-          "element": "Fermium"
+          "text": "$57.10/kg",
+          "element": "Holmium"
         }
       ],
-      "correct": "1969"
+      "correct": "$57.10/kg"
     },
     {
-      "question": "Who discovered Rutherfordium?",
+      "question": "What is the crustal abundance of Holmium?",
       "options": [
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Rutherfordium"
+          "text": "0.25 mg/kg",
+          "element": "Indium"
         },
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Flerovium"
+          "text": "1.3 mg/kg",
+          "element": "Holmium"
         },
         {
-          "text": "Argonne, Los Alamos, U of Calif",
-          "element": "Fermium"
+          "text": "0.008 mg/kg",
+          "element": "Helium"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Sodium"
+          "text": "0.001 mg/kg",
+          "element": "Tellurium"
         }
       ],
-      "correct": "A. Ghiorso, et al"
+      "correct": "1.3 mg/kg"
     },
     {
-      "question": "What is the density of Rutherfordium?",
+      "question": "When was Holmium first discovered?",
       "options": [
         {
-          "text": "9.928 g/cm\u00b3",
-          "element": "Flerovium"
+          "text": "1782",
+          "element": "Tellurium"
         },
         {
-          "text": "9.7 g/cm\u00b3",
-          "element": "Fermium"
+          "text": "1994",
+          "element": "Darmstadtium"
         },
         {
-          "text": "23.3 g/cm\u00b3",
-          "element": "Rutherfordium"
+          "text": "1878",
+          "element": "Holmium"
         },
         {
-          "text": "0.97 g/cm\u00b3",
-          "element": "Sodium"
+          "text": "1863",
+          "element": "Indium"
         }
       ],
-      "correct": "23.3 g/cm\u00b3"
+      "correct": "1878"
+    },
+    {
+      "question": "Which countries are the top producers of Holmium?",
+      "options": [
+        {
+          "text": "1) China  2) Russia  3) Turkey",
+          "element": "Magnesium"
+        },
+        {
+          "text": "1) China  2) Republic of Korea  3) Japan",
+          "element": "Indium"
+        },
+        {
+          "text": "1) USA  2) Algeria  3) Russia",
+          "element": "Helium"
+        },
+        {
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Holmium"
+        }
+      ],
+      "correct": "1) China  2) Russia  3) Malaysia"
     }
   ]
 }

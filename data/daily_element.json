@@ -1,96 +1,96 @@
 {
-  "date": "2026-07-22",
-  "element": "Erbium",
-  "atomicNumber": 68,
-  "symbol": "Er",
+  "date": "2026-07-23",
+  "element": "Neodymium",
+  "atomicNumber": 60,
+  "symbol": "Nd",
   "quiz": [
     {
-      "question": "What is the geochemical class of Erbium?",
+      "question": "When was Neodymium first discovered?",
       "options": [
         {
-          "text": "semi-volatile",
-          "element": "Antimony"
+          "text": "1925",
+          "element": "Neodymium"
         },
         {
-          "text": "volatile",
-          "element": "Helium"
+          "text": "1957",
+          "element": "Nobelium"
         },
         {
-          "text": "major",
-          "element": "Sodium"
+          "text": "1801",
+          "element": "Niobium"
+        },
+        {
+          "text": "1811",
+          "element": "Iodine"
+        }
+      ],
+      "correct": "1925"
+    },
+    {
+      "question": "What is the approximate price of Neodymium per kilogram?",
+      "options": [
+        {
+          "text": "$57.10/kg",
+          "element": "Holmium"
+        },
+        {
+          "text": "$61.40/kg",
+          "element": "Niobium"
+        },
+        {
+          "text": "$35.00/kg",
+          "element": "Iodine"
+        },
+        {
+          "text": "$57.50/kg",
+          "element": "Neodymium"
+        }
+      ],
+      "correct": "$57.50/kg"
+    },
+    {
+      "question": "What is the geochemical class of Neodymium?",
+      "options": [
+        {
+          "text": "high field strength",
+          "element": "Niobium"
         },
         {
           "text": "rare earth & related",
-          "element": "Erbium"
+          "element": "Neodymium"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Iodine"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Actinium"
         }
       ],
       "correct": "rare earth & related"
     },
     {
-      "question": "Who discovered Erbium?",
+      "question": "Who discovered Neodymium?",
       "options": [
         {
-          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
-          "element": "Helium"
+          "text": "Nobel Institute for Physics",
+          "element": "Nobelium"
         },
         {
-          "text": "Carl Mosander",
-          "element": "Erbium"
+          "text": "Charles Hatchet",
+          "element": "Niobium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Antimony"
+          "text": "Bernard Courtois",
+          "element": "Iodine"
         },
         {
-          "text": "Known to the ancients",
-          "element": "Carbon"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Neodymium"
         }
       ],
-      "correct": "Carl Mosander"
-    },
-    {
-      "question": "What is the approximate price of Erbium per kilogram?",
-      "options": [
-        {
-          "text": "$0.12/kg",
-          "element": "Carbon"
-        },
-        {
-          "text": "$5.79/kg",
-          "element": "Antimony"
-        },
-        {
-          "text": "$26.40/kg",
-          "element": "Erbium"
-        },
-        {
-          "text": "$24.00/kg",
-          "element": "Helium"
-        }
-      ],
-      "correct": "$26.40/kg"
-    },
-    {
-      "question": "When was Erbium first discovered?",
-      "options": [
-        {
-          "text": "1940",
-          "element": "Neptunium"
-        },
-        {
-          "text": "1843",
-          "element": "Erbium"
-        },
-        {
-          "text": "1895",
-          "element": "Helium"
-        },
-        {
-          "text": "1807",
-          "element": "Sodium"
-        }
-      ],
-      "correct": "1843"
+      "correct": "C.F. Aver von Welsbach"
     }
   ]
 }

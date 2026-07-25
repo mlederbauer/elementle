@@ -1,74 +1,96 @@
 {
-  "date": "2026-07-24",
-  "element": "Seaborgium",
-  "atomicNumber": 106,
-  "symbol": "Sg",
+  "date": "2026-07-25",
+  "element": "Calcium",
+  "atomicNumber": 20,
+  "symbol": "Ca",
   "quiz": [
     {
-      "question": "When was Seaborgium first discovered?",
+      "question": "What is the crustal abundance of Calcium?",
       "options": [
         {
-          "text": "1878",
-          "element": "Ytterbium"
+          "text": "10.0 mg/kg",
+          "element": "Boron"
         },
         {
-          "text": "1798",
-          "element": "Beryllium"
+          "text": "120.0 mg/kg",
+          "element": "Vanadium"
         },
         {
-          "text": "1974",
-          "element": "Seaborgium"
+          "text": "0.001 mg/kg",
+          "element": "Iridium"
         },
         {
-          "text": "1774",
-          "element": "Oxygen"
+          "text": "41500.0 mg/kg",
+          "element": "Calcium"
         }
       ],
-      "correct": "1974"
+      "correct": "41500.0 mg/kg"
     },
     {
-      "question": "Who discovered Seaborgium?",
+      "question": "Which countries are the top producers of Calcium?",
       "options": [
         {
-          "text": "Joseph Priestly, Carl Wilhelm Scheele",
-          "element": "Oxygen"
+          "text": "1) South Africa  2) China  3) Russia",
+          "element": "Vanadium"
         },
         {
-          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
-          "element": "Seaborgium"
+          "text": "1) Turkey  2) USA  3) Chile",
+          "element": "Boron"
         },
         {
-          "text": "Jean de Marignac",
-          "element": "Ytterbium"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Iridium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Mercury"
+          "text": "1) China  2) USA  3) India",
+          "element": "Calcium"
         }
       ],
-      "correct": "Soviet Nuclear Research/ U. of Cal at Berkeley"
+      "correct": "1) China  2) USA  3) India"
     },
     {
-      "question": "What is the density of Seaborgium?",
+      "question": "What is the approximate price of Calcium per kilogram?",
       "options": [
         {
-          "text": "35.0 g/cm\u00b3",
-          "element": "Seaborgium"
+          "text": "$3.68/kg",
+          "element": "Boron"
         },
         {
-          "text": "6.9 g/cm\u00b3",
-          "element": "Ytterbium"
+          "text": "$357.00/kg",
+          "element": "Vanadium"
         },
         {
-          "text": "13.5336 g/cm\u00b3",
-          "element": "Mercury"
+          "text": "$55,500.00/kg",
+          "element": "Iridium"
         },
         {
-          "text": "0.0013080000000000001 g/cm\u00b3",
-          "element": "Oxygen"
+          "text": "$2.21/kg",
+          "element": "Calcium"
         }
       ],
-      "correct": "35.0 g/cm\u00b3"
+      "correct": "$2.21/kg"
+    },
+    {
+      "question": "Who discovered Calcium?",
+      "options": [
+        {
+          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
+          "element": "Iridium"
+        },
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Calcium"
+        },
+        {
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
+        },
+        {
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Einsteinium"
+        }
+      ],
+      "correct": "Sir Humphrey Davy"
     }
   ]
 }

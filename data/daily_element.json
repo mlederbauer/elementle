@@ -1,96 +1,96 @@
 {
-  "date": "2026-07-25",
-  "element": "Calcium",
-  "atomicNumber": 20,
-  "symbol": "Ca",
+  "date": "2026-07-26",
+  "element": "Thulium",
+  "atomicNumber": 69,
+  "symbol": "Tm",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Calcium?",
+      "question": "What is the crustal abundance of Thulium?",
       "options": [
         {
-          "text": "10.0 mg/kg",
-          "element": "Boron"
+          "text": "7.05 mg/kg",
+          "element": "Samarium"
         },
         {
-          "text": "120.0 mg/kg",
-          "element": "Vanadium"
+          "text": "39.0 mg/kg",
+          "element": "Lanthanum"
         },
         {
           "text": "0.001 mg/kg",
-          "element": "Iridium"
+          "element": "Ruthenium"
         },
         {
-          "text": "41500.0 mg/kg",
-          "element": "Calcium"
+          "text": "0.52 mg/kg",
+          "element": "Thulium"
         }
       ],
-      "correct": "41500.0 mg/kg"
+      "correct": "0.52 mg/kg"
     },
     {
-      "question": "Which countries are the top producers of Calcium?",
+      "question": "What is the geochemical class of Thulium?",
       "options": [
         {
-          "text": "1) South Africa  2) China  3) Russia",
-          "element": "Vanadium"
+          "text": "first series transition metal",
+          "element": "Copper"
         },
         {
-          "text": "1) Turkey  2) USA  3) Chile",
-          "element": "Boron"
+          "text": "U/Th decay series",
+          "element": "Radium"
+        },
+        {
+          "text": "noble metal",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Thulium"
+        }
+      ],
+      "correct": "rare earth & related"
+    },
+    {
+      "question": "Which countries are the top producers of Thulium?",
+      "options": [
+        {
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Thulium"
+        },
+        {
+          "text": "1) Australia  2) South Africa  3) China",
+          "element": "Zirconium"
+        },
+        {
+          "text": "1) Chile  2) Peru  3) China",
+          "element": "Copper"
         },
         {
           "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Iridium"
-        },
-        {
-          "text": "1) China  2) USA  3) India",
-          "element": "Calcium"
+          "element": "Ruthenium"
         }
       ],
-      "correct": "1) China  2) USA  3) India"
+      "correct": "1) China  2) Russia  3) Malaysia"
     },
     {
-      "question": "What is the approximate price of Calcium per kilogram?",
+      "question": "What is the approximate price of Thulium per kilogram?",
       "options": [
         {
-          "text": "$3.68/kg",
-          "element": "Boron"
+          "text": "$13.90/kg",
+          "element": "Samarium"
         },
         {
-          "text": "$357.00/kg",
-          "element": "Vanadium"
+          "text": "$3,000.00/kg",
+          "element": "Thulium"
         },
         {
-          "text": "$55,500.00/kg",
-          "element": "Iridium"
+          "text": "$4.78/kg",
+          "element": "Lanthanum"
         },
         {
-          "text": "$2.21/kg",
-          "element": "Calcium"
+          "text": "$185,000,000,000.00/kg",
+          "element": "Berkelium"
         }
       ],
-      "correct": "$2.21/kg"
-    },
-    {
-      "question": "Who discovered Calcium?",
-      "options": [
-        {
-          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
-          "element": "Iridium"
-        },
-        {
-          "text": "Sir Humphrey Davy",
-          "element": "Calcium"
-        },
-        {
-          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
-          "element": "Boron"
-        },
-        {
-          "text": "Argonne, Los Alamos, U of Calif",
-          "element": "Einsteinium"
-        }
-      ],
-      "correct": "Sir Humphrey Davy"
+      "correct": "$3,000.00/kg"
     }
   ]
 }

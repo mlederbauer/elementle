@@ -1,96 +1,96 @@
 {
-  "date": "2026-07-26",
-  "element": "Thulium",
-  "atomicNumber": 69,
-  "symbol": "Tm",
+  "date": "2026-07-27",
+  "element": "Cerium",
+  "atomicNumber": 58,
+  "symbol": "Ce",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Thulium?",
+      "question": "What is the approximate price of Cerium per kilogram?",
       "options": [
         {
-          "text": "7.05 mg/kg",
-          "element": "Samarium"
+          "text": "$5.79/kg",
+          "element": "Antimony"
         },
         {
-          "text": "39.0 mg/kg",
-          "element": "Lanthanum"
+          "text": "$4.57/kg",
+          "element": "Cerium"
         },
         {
-          "text": "0.001 mg/kg",
-          "element": "Ruthenium"
+          "text": "$9.40/kg",
+          "element": "Chromium"
         },
         {
-          "text": "0.52 mg/kg",
-          "element": "Thulium"
+          "text": "$3,010.00/kg",
+          "element": "Rhenium"
         }
       ],
-      "correct": "0.52 mg/kg"
+      "correct": "$4.57/kg"
     },
     {
-      "question": "What is the geochemical class of Thulium?",
+      "question": "What is the crustal abundance of Cerium?",
       "options": [
         {
-          "text": "first series transition metal",
-          "element": "Copper"
+          "text": "66.5 mg/kg",
+          "element": "Cerium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Radium"
+          "text": "0.2 mg/kg",
+          "element": "Antimony"
         },
         {
-          "text": "noble metal",
-          "element": "Ruthenium"
+          "text": "102.0 mg/kg",
+          "element": "Chromium"
         },
         {
-          "text": "rare earth & related",
-          "element": "Thulium"
+          "text": "0.0007 mg/kg",
+          "element": "Rhenium"
         }
       ],
-      "correct": "rare earth & related"
+      "correct": "66.5 mg/kg"
     },
     {
-      "question": "Which countries are the top producers of Thulium?",
+      "question": "Who discovered Cerium?",
       "options": [
+        {
+          "text": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory",
+          "element": "Tennessine"
+        },
+        {
+          "text": "W. von Hisinger, J. Berzelius, M. Klaproth",
+          "element": "Cerium"
+        },
+        {
+          "text": "Louis Vauquelin",
+          "element": "Chromium"
+        },
+        {
+          "text": "Walter Noddack, Ida Tacke, Otto Berg",
+          "element": "Rhenium"
+        }
+      ],
+      "correct": "W. von Hisinger, J. Berzelius, M. Klaproth"
+    },
+    {
+      "question": "Which countries are the top producers of Cerium?",
+      "options": [
+        {
+          "text": "1) Chile  2) USA  3) Poland",
+          "element": "Rhenium"
+        },
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Thulium"
+          "element": "Cerium"
         },
         {
-          "text": "1) Australia  2) South Africa  3) China",
-          "element": "Zirconium"
+          "text": "1) South Africa  2) Kazakhstan  3) India",
+          "element": "Chromium"
         },
         {
-          "text": "1) Chile  2) Peru  3) China",
-          "element": "Copper"
-        },
-        {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Ruthenium"
+          "text": "1) China  2) Bolivia  3) Tajikistan",
+          "element": "Antimony"
         }
       ],
       "correct": "1) China  2) Russia  3) Malaysia"
-    },
-    {
-      "question": "What is the approximate price of Thulium per kilogram?",
-      "options": [
-        {
-          "text": "$13.90/kg",
-          "element": "Samarium"
-        },
-        {
-          "text": "$3,000.00/kg",
-          "element": "Thulium"
-        },
-        {
-          "text": "$4.78/kg",
-          "element": "Lanthanum"
-        },
-        {
-          "text": "$185,000,000,000.00/kg",
-          "element": "Berkelium"
-        }
-      ],
-      "correct": "$3,000.00/kg"
     }
   ]
 }

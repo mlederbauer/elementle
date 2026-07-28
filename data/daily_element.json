@@ -1,96 +1,74 @@
 {
-  "date": "2026-07-27",
-  "element": "Cerium",
-  "atomicNumber": 58,
-  "symbol": "Ce",
+  "date": "2026-07-28",
+  "element": "Oganesson",
+  "atomicNumber": 118,
+  "symbol": "Og",
   "quiz": [
     {
-      "question": "What is the approximate price of Cerium per kilogram?",
+      "question": "Who discovered Oganesson?",
       "options": [
         {
-          "text": "$5.79/kg",
-          "element": "Antimony"
+          "text": "William Gregor",
+          "element": "Titanium"
         },
         {
-          "text": "$4.57/kg",
-          "element": "Cerium"
+          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
+          "element": "Plutonium"
         },
         {
-          "text": "$9.40/kg",
-          "element": "Chromium"
+          "text": "Marguerite Derey",
+          "element": "Francium"
         },
         {
-          "text": "$3,010.00/kg",
-          "element": "Rhenium"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Oganesson"
         }
       ],
-      "correct": "$4.57/kg"
+      "correct": "Joint Institute for Nuclear Research"
     },
     {
-      "question": "What is the crustal abundance of Cerium?",
+      "question": "When was Oganesson first discovered?",
       "options": [
         {
-          "text": "66.5 mg/kg",
-          "element": "Cerium"
+          "text": "1940",
+          "element": "Plutonium"
         },
         {
-          "text": "0.2 mg/kg",
-          "element": "Antimony"
+          "text": "1791",
+          "element": "Titanium"
         },
         {
-          "text": "102.0 mg/kg",
-          "element": "Chromium"
+          "text": "1939",
+          "element": "Francium"
         },
         {
-          "text": "0.0007 mg/kg",
-          "element": "Rhenium"
+          "text": "2002",
+          "element": "Oganesson"
         }
       ],
-      "correct": "66.5 mg/kg"
+      "correct": "2002"
     },
     {
-      "question": "Who discovered Cerium?",
+      "question": "What is the density of Oganesson?",
       "options": [
         {
-          "text": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory",
-          "element": "Tennessine"
+          "text": "1.87 g/cm\u00b3",
+          "element": "Francium"
         },
         {
-          "text": "W. von Hisinger, J. Berzelius, M. Klaproth",
-          "element": "Cerium"
+          "text": "19.7 g/cm\u00b3",
+          "element": "Plutonium"
         },
         {
-          "text": "Louis Vauquelin",
-          "element": "Chromium"
+          "text": "7.0 g/cm\u00b3",
+          "element": "Oganesson"
         },
         {
-          "text": "Walter Noddack, Ida Tacke, Otto Berg",
-          "element": "Rhenium"
+          "text": "4.506 g/cm\u00b3",
+          "element": "Titanium"
         }
       ],
-      "correct": "W. von Hisinger, J. Berzelius, M. Klaproth"
-    },
-    {
-      "question": "Which countries are the top producers of Cerium?",
-      "options": [
-        {
-          "text": "1) Chile  2) USA  3) Poland",
-          "element": "Rhenium"
-        },
-        {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Cerium"
-        },
-        {
-          "text": "1) South Africa  2) Kazakhstan  3) India",
-          "element": "Chromium"
-        },
-        {
-          "text": "1) China  2) Bolivia  3) Tajikistan",
-          "element": "Antimony"
-        }
-      ],
-      "correct": "1) China  2) Russia  3) Malaysia"
+      "correct": "7.0 g/cm\u00b3"
     }
   ]
 }

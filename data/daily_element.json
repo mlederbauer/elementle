@@ -1,27 +1,49 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "element": "Palladium",
   "atomicNumber": 46,
   "symbol": "Pd",
   "quiz": [
     {
-      "question": "Who discovered Palladium?",
+      "question": "What is the geochemical class of Palladium?",
       "options": [
         {
-          "text": "William Wollaston",
+          "text": "semi-volatile",
+          "element": "Selenium"
+        },
+        {
+          "text": "noble metal",
           "element": "Palladium"
         },
         {
-          "text": "Eug\u00e8ne Demar\u00e7ay",
-          "element": "Europium"
+          "text": "U/Th decay series",
+          "element": "Radium"
         },
         {
-          "text": "Sir William Ramsey, M.W. Travers",
-          "element": "Krypton"
+          "text": "rare earth & related",
+          "element": "Cerium"
+        }
+      ],
+      "correct": "noble metal"
+    },
+    {
+      "question": "Who discovered Palladium?",
+      "options": [
+        {
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Einsteinium"
         },
         {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
-          "element": "Mendelevium"
+          "text": "Jean de Marignac",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "W. von Hisinger, J. Berzelius, M. Klaproth",
+          "element": "Cerium"
+        },
+        {
+          "text": "William Wollaston",
+          "element": "Palladium"
         }
       ],
       "correct": "William Wollaston"
@@ -30,12 +52,12 @@
       "question": "Which countries are the top producers of Palladium?",
       "options": [
         {
-          "text": "1) China  2) Germany  3) Kazakhstan",
-          "element": "Gallium"
+          "text": "1) China  2) USA  3) Chile",
+          "element": "Molybdenum"
         },
         {
-          "text": "1) China  2) Indonesia  3) Peru",
-          "element": "Tin"
+          "text": "1) Japan  2) Germany  3) Belgium",
+          "element": "Selenium"
         },
         {
           "text": "1) South Africa  2) Russia  3) Zimbabwe",
@@ -43,51 +65,29 @@
         },
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Europium"
+          "element": "Cerium"
         }
       ],
       "correct": "1) South Africa  2) Russia  3) Zimbabwe"
     },
     {
-      "question": "What is the geochemical class of Palladium?",
-      "options": [
-        {
-          "text": "alkali metal",
-          "element": "Cesium"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Europium"
-        },
-        {
-          "text": "volatile",
-          "element": "Krypton"
-        },
-        {
-          "text": "noble metal",
-          "element": "Palladium"
-        }
-      ],
-      "correct": "noble metal"
-    },
-    {
       "question": "What is the approximate price of Palladium per kilogram?",
       "options": [
         {
+          "text": "$4.57/kg",
+          "element": "Cerium"
+        },
+        {
+          "text": "$40.10/kg",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "$17.10/kg",
+          "element": "Ytterbium"
+        },
+        {
           "text": "$49,500.00/kg",
           "element": "Palladium"
-        },
-        {
-          "text": "$31.40/kg",
-          "element": "Europium"
-        },
-        {
-          "text": "$290.00/kg",
-          "element": "Krypton"
-        },
-        {
-          "text": "$31.00/kg",
-          "element": "Yttrium"
         }
       ],
       "correct": "$49,500.00/kg"

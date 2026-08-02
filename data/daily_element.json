@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-01",
-  "element": "Ytterbium",
-  "atomicNumber": 70,
-  "symbol": "Yb",
+  "date": "2026-08-02",
+  "element": "Helium",
+  "atomicNumber": 2,
+  "symbol": "He",
   "quiz": [
     {
-      "question": "When was Ytterbium first discovered?",
+      "question": "What is the geochemical class of Helium?",
       "options": [
         {
-          "text": "1880",
-          "element": "Gadolinium"
+          "text": "volatile",
+          "element": "Helium"
         },
         {
-          "text": "1807",
-          "element": "Potassium"
+          "text": "U/Th decay series",
+          "element": "Astatine"
         },
         {
-          "text": "1878",
-          "element": "Ytterbium"
+          "text": "first series transition metal",
+          "element": "Nickel"
         },
-        {
-          "text": "1949",
-          "element": "Berkelium"
-        }
-      ],
-      "correct": "1878"
-    },
-    {
-      "question": "What is the approximate price of Ytterbium per kilogram?",
-      "options": [
-        {
-          "text": "$185,000,000,000.00/kg",
-          "element": "Berkelium"
-        },
-        {
-          "text": "$12.10/kg",
-          "element": "Potassium"
-        },
-        {
-          "text": "$28.60/kg",
-          "element": "Gadolinium"
-        },
-        {
-          "text": "$17.10/kg",
-          "element": "Ytterbium"
-        }
-      ],
-      "correct": "$17.10/kg"
-    },
-    {
-      "question": "What is the geochemical class of Ytterbium?",
-      "options": [
         {
           "text": "rare earth & related",
-          "element": "Ytterbium"
-        },
-        {
-          "text": "alkaline earth metal",
-          "element": "Strontium"
-        },
-        {
-          "text": "high field strength",
-          "element": "Niobium"
-        },
-        {
-          "text": "alkali metal",
-          "element": "Potassium"
+          "element": "Lutetium"
         }
       ],
-      "correct": "rare earth & related"
+      "correct": "volatile"
     },
     {
-      "question": "Which countries are the top producers of Ytterbium?",
+      "question": "Which countries are the top producers of Helium?",
       "options": [
         {
-          "text": "1) Canada  2) Russia  3) Belarus",
-          "element": "Potassium"
-        },
-        {
-          "text": "1) China  2) Spain  3) Mexico",
-          "element": "Strontium"
+          "text": "1) Russia  2) Indonesia  3) Philippines",
+          "element": "Nickel"
         },
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Ytterbium"
+          "element": "Lutetium"
         },
         {
           "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Indium"
+          "element": "Cadmium"
+        },
+        {
+          "text": "1) USA  2) Algeria  3) Russia",
+          "element": "Helium"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia"
+      "correct": "1) USA  2) Algeria  3) Russia"
+    },
+    {
+      "question": "What is the crustal abundance of Helium?",
+      "options": [
+        {
+          "text": "0.8 mg/kg",
+          "element": "Lutetium"
+        },
+        {
+          "text": "0.15 mg/kg",
+          "element": "Cadmium"
+        },
+        {
+          "text": "84.0 mg/kg",
+          "element": "Nickel"
+        },
+        {
+          "text": "0.008 mg/kg",
+          "element": "Helium"
+        }
+      ],
+      "correct": "0.008 mg/kg"
+    },
+    {
+      "question": "Who discovered Helium?",
+      "options": [
+        {
+          "text": "Axel Cronstedt",
+          "element": "Nickel"
+        },
+        {
+          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
+          "element": "Helium"
+        },
+        {
+          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
+          "element": "Astatine"
+        },
+        {
+          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
+          "element": "Seaborgium"
+        }
+      ],
+      "correct": "Sir William Ramsey, Nils Langet, P.T.Cleve"
     }
   ]
 }

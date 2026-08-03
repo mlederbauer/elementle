@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-02",
-  "element": "Helium",
-  "atomicNumber": 2,
-  "symbol": "He",
+  "date": "2026-08-03",
+  "element": "Barium",
+  "atomicNumber": 56,
+  "symbol": "Ba",
   "quiz": [
     {
-      "question": "What is the geochemical class of Helium?",
+      "question": "Which countries are the top producers of Barium?",
       "options": [
         {
-          "text": "volatile",
-          "element": "Helium"
+          "text": "1) Chile  2) USA  3) Poland",
+          "element": "Rhenium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Astatine"
-        },
-        {
-          "text": "first series transition metal",
-          "element": "Nickel"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Lutetium"
-        }
-      ],
-      "correct": "volatile"
-    },
-    {
-      "question": "Which countries are the top producers of Helium?",
-      "options": [
-        {
-          "text": "1) Russia  2) Indonesia  3) Philippines",
-          "element": "Nickel"
+          "text": "1) Canada  2) Russia  3) Belarus",
+          "element": "Potassium"
         },
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Lutetium"
+          "element": "Dysprosium"
         },
         {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Cadmium"
-        },
-        {
-          "text": "1) USA  2) Algeria  3) Russia",
-          "element": "Helium"
+          "text": "1) China  2) India  3) USA",
+          "element": "Barium"
         }
       ],
-      "correct": "1) USA  2) Algeria  3) Russia"
+      "correct": "1) China  2) India  3) USA"
     },
     {
-      "question": "What is the crustal abundance of Helium?",
+      "question": "When was Barium first discovered?",
       "options": [
         {
-          "text": "0.8 mg/kg",
-          "element": "Lutetium"
+          "text": "1886",
+          "element": "Dysprosium"
         },
         {
-          "text": "0.15 mg/kg",
-          "element": "Cadmium"
+          "text": "1940",
+          "element": "Astatine"
         },
         {
-          "text": "84.0 mg/kg",
-          "element": "Nickel"
+          "text": "1808",
+          "element": "Barium"
         },
         {
-          "text": "0.008 mg/kg",
-          "element": "Helium"
+          "text": "1925",
+          "element": "Rhenium"
         }
       ],
-      "correct": "0.008 mg/kg"
+      "correct": "1808"
     },
     {
-      "question": "Who discovered Helium?",
+      "question": "Who discovered Barium?",
       "options": [
         {
-          "text": "Axel Cronstedt",
-          "element": "Nickel"
+          "text": "Walter Noddack, Ida Tacke, Otto Berg",
+          "element": "Rhenium"
         },
         {
-          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
-          "element": "Helium"
+          "text": "Sir Humphrey Davy",
+          "element": "Barium"
         },
         {
           "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
           "element": "Astatine"
         },
         {
-          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
-          "element": "Seaborgium"
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Dysprosium"
         }
       ],
-      "correct": "Sir William Ramsey, Nils Langet, P.T.Cleve"
+      "correct": "Sir Humphrey Davy"
+    },
+    {
+      "question": "What is the geochemical class of Barium?",
+      "options": [
+        {
+          "text": "rare earth & related",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Astatine"
+        },
+        {
+          "text": "alkaline earth metal",
+          "element": "Barium"
+        },
+        {
+          "text": "alkali metal",
+          "element": "Potassium"
+        }
+      ],
+      "correct": "alkaline earth metal"
     }
   ]
 }

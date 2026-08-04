@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-03",
-  "element": "Barium",
-  "atomicNumber": 56,
-  "symbol": "Ba",
+  "date": "2026-08-04",
+  "element": "Boron",
+  "atomicNumber": 5,
+  "symbol": "B",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Barium?",
+      "question": "Who discovered Boron?",
       "options": [
         {
-          "text": "1) Chile  2) USA  3) Poland",
-          "element": "Rhenium"
+          "text": "Martin Klaproth",
+          "element": "Zirconium"
         },
         {
-          "text": "1) Canada  2) Russia  3) Belarus",
-          "element": "Potassium"
+          "text": "Known to the ancients.",
+          "element": "Sulfur"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Dysprosium"
+          "text": "Johann Arfwedson",
+          "element": "Lithium"
         },
         {
-          "text": "1) China  2) India  3) USA",
-          "element": "Barium"
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
         }
       ],
-      "correct": "1) China  2) India  3) USA"
+      "correct": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard"
     },
     {
-      "question": "When was Barium first discovered?",
+      "question": "When was Boron first discovered?",
       "options": [
         {
-          "text": "1886",
-          "element": "Dysprosium"
+          "text": "1790",
+          "element": "Strontium"
         },
         {
-          "text": "1940",
-          "element": "Astatine"
+          "text": "1817",
+          "element": "Lithium"
         },
         {
           "text": "1808",
-          "element": "Barium"
+          "element": "Boron"
         },
         {
-          "text": "1925",
-          "element": "Rhenium"
+          "text": "1789",
+          "element": "Zirconium"
         }
       ],
       "correct": "1808"
     },
     {
-      "question": "Who discovered Barium?",
+      "question": "Which countries are the top producers of Boron?",
       "options": [
         {
-          "text": "Walter Noddack, Ida Tacke, Otto Berg",
-          "element": "Rhenium"
+          "text": "1) Turkey  2) USA  3) Chile",
+          "element": "Boron"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Barium"
+          "text": "1) Australia  2) South Africa  3) China",
+          "element": "Zirconium"
         },
         {
-          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
-          "element": "Astatine"
+          "text": "1) Australia  2) Chile  3) China",
+          "element": "Lithium"
         },
         {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Dysprosium"
+          "text": "1) China  2) USA  3) Canada",
+          "element": "Sulfur"
         }
       ],
-      "correct": "Sir Humphrey Davy"
+      "correct": "1) Turkey  2) USA  3) Chile"
     },
     {
-      "question": "What is the geochemical class of Barium?",
+      "question": "What is the approximate price of Boron per kilogram?",
       "options": [
         {
-          "text": "rare earth & related",
-          "element": "Dysprosium"
+          "text": "$0.09/kg",
+          "element": "Sulfur"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Astatine"
+          "text": "$35.70/kg",
+          "element": "Zirconium"
         },
         {
-          "text": "alkaline earth metal",
-          "element": "Barium"
+          "text": "$3.68/kg",
+          "element": "Boron"
         },
         {
-          "text": "alkali metal",
-          "element": "Potassium"
+          "text": "$81.40/kg",
+          "element": "Lithium"
         }
       ],
-      "correct": "alkaline earth metal"
+      "correct": "$3.68/kg"
     }
   ]
 }

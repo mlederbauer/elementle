@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-04",
-  "element": "Boron",
-  "atomicNumber": 5,
-  "symbol": "B",
+  "date": "2026-08-05",
+  "element": "Iron",
+  "atomicNumber": 26,
+  "symbol": "Fe",
   "quiz": [
     {
-      "question": "Who discovered Boron?",
+      "question": "Who discovered Iron?",
       "options": [
         {
-          "text": "Martin Klaproth",
-          "element": "Zirconium"
+          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
+          "element": "Plutonium"
         },
         {
           "text": "Known to the ancients.",
-          "element": "Sulfur"
+          "element": "Iron"
         },
         {
-          "text": "Johann Arfwedson",
-          "element": "Lithium"
+          "text": "Fredrich Ernst Dorn",
+          "element": "Radon"
         },
         {
-          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
-          "element": "Boron"
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Mendelevium"
         }
       ],
-      "correct": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard"
+      "correct": "Known to the ancients."
     },
     {
-      "question": "When was Boron first discovered?",
+      "question": "What is the approximate price of Iron per kilogram?",
       "options": [
         {
-          "text": "1790",
-          "element": "Strontium"
+          "text": "$6,490,000.00/kg",
+          "element": "Plutonium"
         },
         {
-          "text": "1817",
-          "element": "Lithium"
+          "text": "$0.42/kg",
+          "element": "Iron"
         },
         {
-          "text": "1808",
-          "element": "Boron"
+          "text": "$55,500.00/kg",
+          "element": "Iridium"
         },
         {
-          "text": "1789",
-          "element": "Zirconium"
+          "text": "$728,000.00/kg",
+          "element": "Americium"
         }
       ],
-      "correct": "1808"
+      "correct": "$0.42/kg"
     },
     {
-      "question": "Which countries are the top producers of Boron?",
+      "question": "Which countries are the top producers of Iron?",
       "options": [
         {
-          "text": "1) Turkey  2) USA  3) Chile",
-          "element": "Boron"
+          "text": "1) China  2) Australia  3) Brazil",
+          "element": "Iron"
         },
         {
-          "text": "1) Australia  2) South Africa  3) China",
-          "element": "Zirconium"
+          "text": "1) China  2) Mexico  3) Morocco",
+          "element": "Phosphorus"
         },
         {
-          "text": "1) Australia  2) Chile  3) China",
-          "element": "Lithium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Yttrium"
         },
         {
-          "text": "1) China  2) USA  3) Canada",
-          "element": "Sulfur"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Iridium"
         }
       ],
-      "correct": "1) Turkey  2) USA  3) Chile"
+      "correct": "1) China  2) Australia  3) Brazil"
     },
     {
-      "question": "What is the approximate price of Boron per kilogram?",
+      "question": "What is the geochemical class of Iron?",
       "options": [
         {
-          "text": "$0.09/kg",
-          "element": "Sulfur"
+          "text": "U/Th decay series",
+          "element": "Radon"
         },
         {
-          "text": "$35.70/kg",
-          "element": "Zirconium"
+          "text": "major",
+          "element": "Iron"
         },
         {
-          "text": "$3.68/kg",
-          "element": "Boron"
+          "text": "noble metal",
+          "element": "Iridium"
         },
         {
-          "text": "$81.40/kg",
-          "element": "Lithium"
+          "text": "rare earth & related",
+          "element": "Yttrium"
         }
       ],
-      "correct": "$3.68/kg"
+      "correct": "major"
     }
   ]
 }

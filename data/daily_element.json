@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-05",
-  "element": "Iron",
-  "atomicNumber": 26,
-  "symbol": "Fe",
+  "date": "2026-08-06",
+  "element": "Holmium",
+  "atomicNumber": 67,
+  "symbol": "Ho",
   "quiz": [
     {
-      "question": "Who discovered Iron?",
+      "question": "Which countries are the top producers of Holmium?",
       "options": [
         {
-          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
-          "element": "Plutonium"
-        },
-        {
-          "text": "Known to the ancients.",
-          "element": "Iron"
-        },
-        {
-          "text": "Fredrich Ernst Dorn",
-          "element": "Radon"
-        },
-        {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
-          "element": "Mendelevium"
-        }
-      ],
-      "correct": "Known to the ancients."
-    },
-    {
-      "question": "What is the approximate price of Iron per kilogram?",
-      "options": [
-        {
-          "text": "$6,490,000.00/kg",
-          "element": "Plutonium"
-        },
-        {
-          "text": "$0.42/kg",
-          "element": "Iron"
-        },
-        {
-          "text": "$55,500.00/kg",
-          "element": "Iridium"
-        },
-        {
-          "text": "$728,000.00/kg",
-          "element": "Americium"
-        }
-      ],
-      "correct": "$0.42/kg"
-    },
-    {
-      "question": "Which countries are the top producers of Iron?",
-      "options": [
-        {
-          "text": "1) China  2) Australia  3) Brazil",
-          "element": "Iron"
-        },
-        {
-          "text": "1) China  2) Mexico  3) Morocco",
-          "element": "Phosphorus"
+          "text": "1) China  2) Russia  3) Bolivia",
+          "element": "Tungsten"
         },
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Yttrium"
+          "element": "Holmium"
         },
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Iridium"
+          "text": "1) China  2) USA  3) Canada",
+          "element": "Sulfur"
+        },
+        {
+          "text": "1) Russia  2) Indonesia  3) Philippines",
+          "element": "Nickel"
         }
       ],
-      "correct": "1) China  2) Australia  3) Brazil"
+      "correct": "1) China  2) Russia  3) Malaysia"
     },
     {
-      "question": "What is the geochemical class of Iron?",
+      "question": "What is the geochemical class of Holmium?",
       "options": [
         {
-          "text": "U/Th decay series",
-          "element": "Radon"
-        },
-        {
-          "text": "major",
-          "element": "Iron"
-        },
-        {
-          "text": "noble metal",
-          "element": "Iridium"
+          "text": "first series transition metal",
+          "element": "Nickel"
         },
         {
           "text": "rare earth & related",
-          "element": "Yttrium"
+          "element": "Holmium"
+        },
+        {
+          "text": "alkaline earth metal",
+          "element": "Strontium"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Sulfur"
         }
       ],
-      "correct": "major"
+      "correct": "rare earth & related"
+    },
+    {
+      "question": "Who discovered Holmium?",
+      "options": [
+        {
+          "text": "J.L. Soret",
+          "element": "Holmium"
+        },
+        {
+          "text": "Axel Cronstedt",
+          "element": "Nickel"
+        },
+        {
+          "text": "A. Ghiorso, et al",
+          "element": "Rutherfordium"
+        },
+        {
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Fermium"
+        }
+      ],
+      "correct": "J.L. Soret"
+    },
+    {
+      "question": "What is the crustal abundance of Holmium?",
+      "options": [
+        {
+          "text": "1.25 mg/kg",
+          "element": "Tungsten"
+        },
+        {
+          "text": "1.3 mg/kg",
+          "element": "Holmium"
+        },
+        {
+          "text": "84.0 mg/kg",
+          "element": "Nickel"
+        },
+        {
+          "text": "350.0 mg/kg",
+          "element": "Sulfur"
+        }
+      ],
+      "correct": "1.3 mg/kg"
     }
   ]
 }

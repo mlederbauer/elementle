@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-06",
-  "element": "Holmium",
-  "atomicNumber": 67,
-  "symbol": "Ho",
+  "date": "2026-08-07",
+  "element": "Ruthenium",
+  "atomicNumber": 44,
+  "symbol": "Ru",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Holmium?",
+      "question": "When was Ruthenium first discovered?",
       "options": [
         {
-          "text": "1) China  2) Russia  3) Bolivia",
-          "element": "Tungsten"
+          "text": "1895",
+          "element": "Helium"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Holmium"
+          "text": "1955",
+          "element": "Mendelevium"
         },
         {
-          "text": "1) China  2) USA  3) Canada",
-          "element": "Sulfur"
+          "text": "1940",
+          "element": "Plutonium"
         },
         {
-          "text": "1) Russia  2) Indonesia  3) Philippines",
-          "element": "Nickel"
+          "text": "1844",
+          "element": "Ruthenium"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia"
+      "correct": "1844"
     },
     {
-      "question": "What is the geochemical class of Holmium?",
+      "question": "Who discovered Ruthenium?",
       "options": [
         {
-          "text": "first series transition metal",
-          "element": "Nickel"
+          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
+          "element": "Plutonium"
         },
         {
-          "text": "rare earth & related",
-          "element": "Holmium"
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Mendelevium"
         },
         {
-          "text": "alkaline earth metal",
-          "element": "Strontium"
+          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
+          "element": "Helium"
         },
         {
-          "text": "semi-volatile",
-          "element": "Sulfur"
+          "text": "Karl Klaus",
+          "element": "Ruthenium"
         }
       ],
-      "correct": "rare earth & related"
+      "correct": "Karl Klaus"
     },
     {
-      "question": "Who discovered Holmium?",
+      "question": "What is the crustal abundance of Ruthenium?",
       "options": [
         {
-          "text": "J.L. Soret",
-          "element": "Holmium"
+          "text": "165.0 mg/kg",
+          "element": "Zirconium"
         },
         {
-          "text": "Axel Cronstedt",
-          "element": "Nickel"
+          "text": "41500.0 mg/kg",
+          "element": "Calcium"
         },
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Rutherfordium"
+          "text": "0.001 mg/kg",
+          "element": "Ruthenium"
         },
         {
-          "text": "Argonne, Los Alamos, U of Calif",
-          "element": "Fermium"
+          "text": "0.008 mg/kg",
+          "element": "Helium"
         }
       ],
-      "correct": "J.L. Soret"
+      "correct": "0.001 mg/kg"
     },
     {
-      "question": "What is the crustal abundance of Holmium?",
+      "question": "What is the approximate price of Ruthenium per kilogram?",
       "options": [
         {
-          "text": "1.25 mg/kg",
-          "element": "Tungsten"
+          "text": "$6,490,000.00/kg",
+          "element": "Plutonium"
         },
         {
-          "text": "1.3 mg/kg",
-          "element": "Holmium"
+          "text": "$35.70/kg",
+          "element": "Zirconium"
         },
         {
-          "text": "84.0 mg/kg",
-          "element": "Nickel"
+          "text": "$10,400.00/kg",
+          "element": "Ruthenium"
         },
         {
-          "text": "350.0 mg/kg",
-          "element": "Sulfur"
+          "text": "$24.00/kg",
+          "element": "Helium"
         }
       ],
-      "correct": "1.3 mg/kg"
+      "correct": "$10,400.00/kg"
     }
   ]
 }

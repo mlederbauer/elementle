@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-09",
-  "element": "Berkelium",
-  "atomicNumber": 97,
-  "symbol": "Bk",
+  "date": "2026-08-10",
+  "element": "Phosphorus",
+  "atomicNumber": 15,
+  "symbol": "P",
   "quiz": [
     {
-      "question": "What is the approximate price of Berkelium per kilogram?",
+      "question": "What is the approximate price of Phosphorus per kilogram?",
       "options": [
         {
-          "text": "$185,000,000,000.00/kg",
-          "element": "Berkelium"
+          "text": "$3,010.00/kg",
+          "element": "Rhenium"
         },
         {
-          "text": "$298.00/kg",
-          "element": "Tantalum"
+          "text": "$1.39/kg",
+          "element": "Hydrogen"
         },
         {
-          "text": "$660,000.00/kg",
-          "element": "Neptunium"
+          "text": "$240.00/kg",
+          "element": "Neon"
         },
         {
-          "text": "$857.00/kg",
-          "element": "Beryllium"
+          "text": "$2.69/kg",
+          "element": "Phosphorus"
         }
       ],
-      "correct": "$185,000,000,000.00/kg"
+      "correct": "$2.69/kg"
     },
     {
-      "question": "When was Berkelium first discovered?",
+      "question": "When was Phosphorus first discovered?",
       "options": [
+        {
+          "text": "1669",
+          "element": "Phosphorus"
+        },
         {
           "text": "1898",
-          "element": "Radon"
+          "element": "Neon"
         },
         {
-          "text": "1802",
-          "element": "Tantalum"
+          "text": "1925",
+          "element": "Rhenium"
         },
         {
-          "text": "1798",
-          "element": "Beryllium"
-        },
-        {
-          "text": "1949",
-          "element": "Berkelium"
+          "text": "1996",
+          "element": "Copernicium"
         }
       ],
-      "correct": "1949"
+      "correct": "1669"
     },
     {
-      "question": "Who discovered Berkelium?",
+      "question": "What is the crustal abundance of Phosphorus?",
       "options": [
         {
-          "text": "Fredrich W\u00f6hler, A.A.Bussy",
-          "element": "Beryllium"
+          "text": "1050.0 mg/kg",
+          "element": "Phosphorus"
         },
         {
-          "text": "Fredrich Ernst Dorn",
-          "element": "Radon"
+          "text": "1400.0 mg/kg",
+          "element": "Hydrogen"
         },
         {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso",
-          "element": "Berkelium"
+          "text": "0.0007 mg/kg",
+          "element": "Rhenium"
         },
         {
-          "text": "Anders Ekeberg",
-          "element": "Tantalum"
+          "text": "0.005 mg/kg",
+          "element": "Neon"
         }
       ],
-      "correct": "G.T.Seaborg, S.G.Tompson, A.Ghiorso"
+      "correct": "1050.0 mg/kg"
     },
     {
-      "question": "What is the melting point of Berkelium?",
+      "question": "Who discovered Phosphorus?",
       "options": [
         {
-          "text": "986.0 \u00b0C",
-          "element": "Berkelium"
+          "text": "GSI Helmholtz Centre for Heavy Ion Research",
+          "element": "Copernicium"
         },
         {
-          "text": "-71.0 \u00b0C",
-          "element": "Radon"
+          "text": "Sir William Ramsey, M.W. Travers",
+          "element": "Neon"
         },
         {
-          "text": "1287.0 \u00b0C",
-          "element": "Beryllium"
+          "text": "Hennig Brand",
+          "element": "Phosphorus"
         },
         {
-          "text": "3017.0 \u00b0C",
-          "element": "Tantalum"
+          "text": "Walter Noddack, Ida Tacke, Otto Berg",
+          "element": "Rhenium"
         }
       ],
-      "correct": "986.0 \u00b0C"
+      "correct": "Hennig Brand"
     }
   ]
 }

@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-10",
-  "element": "Phosphorus",
-  "atomicNumber": 15,
-  "symbol": "P",
+  "date": "2026-08-11",
+  "element": "Hydrogen",
+  "atomicNumber": 1,
+  "symbol": "H",
   "quiz": [
     {
-      "question": "What is the approximate price of Phosphorus per kilogram?",
+      "question": "When was Hydrogen first discovered?",
       "options": [
         {
-          "text": "$3,010.00/kg",
-          "element": "Rhenium"
+          "text": "1939",
+          "element": "Francium"
+        },
+        {
+          "text": "1783",
+          "element": "Tungsten"
+        },
+        {
+          "text": "1766",
+          "element": "Hydrogen"
+        },
+        {
+          "text": "1950",
+          "element": "Californium"
+        }
+      ],
+      "correct": "1766"
+    },
+    {
+      "question": "What is the approximate price of Hydrogen per kilogram?",
+      "options": [
+        {
+          "text": "$60,000,000,000.00/kg",
+          "element": "Californium"
         },
         {
           "text": "$1.39/kg",
           "element": "Hydrogen"
         },
         {
-          "text": "$240.00/kg",
-          "element": "Neon"
+          "text": "$147,000.00/kg",
+          "element": "Rhodium"
         },
         {
-          "text": "$2.69/kg",
-          "element": "Phosphorus"
+          "text": "$35.30/kg",
+          "element": "Tungsten"
         }
       ],
-      "correct": "$2.69/kg"
+      "correct": "$1.39/kg"
     },
     {
-      "question": "When was Phosphorus first discovered?",
+      "question": "Who discovered Hydrogen?",
       "options": [
         {
-          "text": "1669",
-          "element": "Phosphorus"
+          "text": "Fausto and Juan Jos\u00e9 de Elhuyar",
+          "element": "Tungsten"
         },
         {
-          "text": "1898",
-          "element": "Neon"
+          "text": "Henry Cavendish",
+          "element": "Hydrogen"
         },
         {
-          "text": "1925",
-          "element": "Rhenium"
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Californium"
         },
         {
-          "text": "1996",
-          "element": "Copernicium"
+          "text": "Marguerite Derey",
+          "element": "Francium"
         }
       ],
-      "correct": "1669"
+      "correct": "Henry Cavendish"
     },
     {
-      "question": "What is the crustal abundance of Phosphorus?",
+      "question": "What is the crustal abundance of Hydrogen?",
       "options": [
         {
-          "text": "1050.0 mg/kg",
-          "element": "Phosphorus"
+          "text": "1.25 mg/kg",
+          "element": "Tungsten"
+        },
+        {
+          "text": "6.2 mg/kg",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "0.001 mg/kg",
+          "element": "Rhodium"
         },
         {
           "text": "1400.0 mg/kg",
           "element": "Hydrogen"
-        },
-        {
-          "text": "0.0007 mg/kg",
-          "element": "Rhenium"
-        },
-        {
-          "text": "0.005 mg/kg",
-          "element": "Neon"
         }
       ],
-      "correct": "1050.0 mg/kg"
-    },
-    {
-      "question": "Who discovered Phosphorus?",
-      "options": [
-        {
-          "text": "GSI Helmholtz Centre for Heavy Ion Research",
-          "element": "Copernicium"
-        },
-        {
-          "text": "Sir William Ramsey, M.W. Travers",
-          "element": "Neon"
-        },
-        {
-          "text": "Hennig Brand",
-          "element": "Phosphorus"
-        },
-        {
-          "text": "Walter Noddack, Ida Tacke, Otto Berg",
-          "element": "Rhenium"
-        }
-      ],
-      "correct": "Hennig Brand"
+      "correct": "1400.0 mg/kg"
     }
   ]
 }

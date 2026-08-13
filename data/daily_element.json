@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-12",
-  "element": "Vanadium",
-  "atomicNumber": 23,
-  "symbol": "V",
+  "date": "2026-08-13",
+  "element": "Radon",
+  "atomicNumber": 86,
+  "symbol": "Rn",
   "quiz": [
     {
-      "question": "What is the geochemical class of Vanadium?",
+      "question": "What is the geochemical class of Radon?",
       "options": [
         {
-          "text": "rare earth & related",
-          "element": "Terbium"
+          "text": "major",
+          "element": "Sodium"
         },
         {
           "text": "semi-volatile",
-          "element": "Antimony"
+          "element": "Carbon"
         },
         {
-          "text": "first series transition metal",
-          "element": "Vanadium"
+          "text": "U/Th decay series",
+          "element": "Radon"
         },
         {
-          "text": "volatile",
-          "element": "Argon"
+          "text": "noble metal",
+          "element": "Palladium"
         }
       ],
-      "correct": "first series transition metal"
+      "correct": "U/Th decay series"
     },
     {
-      "question": "When was Vanadium first discovered?",
+      "question": "When was Radon first discovered?",
       "options": [
         {
-          "text": "1778",
-          "element": "Molybdenum"
+          "text": "1898",
+          "element": "Radon"
         },
         {
-          "text": "1830",
-          "element": "Vanadium"
+          "text": "1807",
+          "element": "Sodium"
         },
         {
-          "text": "1894",
-          "element": "Argon"
+          "text": "1803",
+          "element": "Palladium"
         },
         {
-          "text": "1817",
-          "element": "Cadmium"
+          "text": "2003",
+          "element": "Moscovium"
         }
       ],
-      "correct": "1830"
+      "correct": "1898"
     },
     {
-      "question": "Who discovered Vanadium?",
+      "question": "What is the crustal abundance of Radon?",
       "options": [
         {
-          "text": "Carl Wilhelm Scheele",
-          "element": "Molybdenum"
+          "text": "0.015 mg/kg",
+          "element": "Palladium"
         },
         {
-          "text": "Sir William Ramsey, Baron Rayleigh",
-          "element": "Argon"
+          "text": "4e-13 mg/kg",
+          "element": "Radon"
         },
         {
-          "text": "Fredrich Stromeyer",
-          "element": "Cadmium"
+          "text": "23600.0 mg/kg",
+          "element": "Sodium"
         },
         {
-          "text": "Nils Sefstr\u00f6m",
-          "element": "Vanadium"
+          "text": "200.0 mg/kg",
+          "element": "Carbon"
         }
       ],
-      "correct": "Nils Sefstr\u00f6m"
+      "correct": "4e-13 mg/kg"
     },
     {
-      "question": "Which countries are the top producers of Vanadium?",
+      "question": "Who discovered Radon?",
       "options": [
         {
-          "text": "1) USA  2) Algeria  3) Russia",
-          "element": "Helium"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Moscovium"
         },
         {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Cadmium"
+          "text": "William Wollaston",
+          "element": "Palladium"
         },
         {
-          "text": "1) South Africa  2) China  3) Russia",
-          "element": "Vanadium"
+          "text": "Fredrich Ernst Dorn",
+          "element": "Radon"
         },
         {
-          "text": "1) China  2) USA  3) Chile",
-          "element": "Molybdenum"
+          "text": "Sir Humphrey Davy",
+          "element": "Sodium"
         }
       ],
-      "correct": "1) South Africa  2) China  3) Russia"
+      "correct": "Fredrich Ernst Dorn"
     }
   ]
 }

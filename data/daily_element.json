@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-13",
-  "element": "Radon",
-  "atomicNumber": 86,
-  "symbol": "Rn",
+  "date": "2026-08-14",
+  "element": "Radium",
+  "atomicNumber": 88,
+  "symbol": "Ra",
   "quiz": [
     {
-      "question": "What is the geochemical class of Radon?",
+      "question": "What is the geochemical class of Radium?",
       "options": [
         {
           "text": "major",
-          "element": "Sodium"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Carbon"
+          "element": "Calcium"
         },
         {
           "text": "U/Th decay series",
-          "element": "Radon"
+          "element": "Radium"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Selenium"
         },
         {
           "text": "noble metal",
-          "element": "Palladium"
+          "element": "Ruthenium"
         }
       ],
       "correct": "U/Th decay series"
     },
     {
-      "question": "When was Radon first discovered?",
+      "question": "What is the crustal abundance of Radium?",
       "options": [
         {
-          "text": "1898",
-          "element": "Radon"
+          "text": "0.05 mg/kg",
+          "element": "Selenium"
         },
         {
-          "text": "1807",
-          "element": "Sodium"
+          "text": "0.001 mg/kg",
+          "element": "Ruthenium"
         },
         {
-          "text": "1803",
-          "element": "Palladium"
+          "text": "9e-07 mg/kg",
+          "element": "Radium"
         },
         {
-          "text": "2003",
-          "element": "Moscovium"
+          "text": "41500.0 mg/kg",
+          "element": "Calcium"
         }
       ],
-      "correct": "1898"
+      "correct": "9e-07 mg/kg"
     },
     {
-      "question": "What is the crustal abundance of Radon?",
+      "question": "Who discovered Radium?",
       "options": [
         {
-          "text": "0.015 mg/kg",
-          "element": "Palladium"
+          "text": "Karl Klaus",
+          "element": "Ruthenium"
         },
         {
-          "text": "4e-13 mg/kg",
-          "element": "Radon"
-        },
-        {
-          "text": "23600.0 mg/kg",
-          "element": "Sodium"
-        },
-        {
-          "text": "200.0 mg/kg",
-          "element": "Carbon"
-        }
-      ],
-      "correct": "4e-13 mg/kg"
-    },
-    {
-      "question": "Who discovered Radon?",
-      "options": [
-        {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Moscovium"
-        },
-        {
-          "text": "William Wollaston",
-          "element": "Palladium"
-        },
-        {
-          "text": "Fredrich Ernst Dorn",
-          "element": "Radon"
+          "text": "Pierre and Marie Curie",
+          "element": "Radium"
         },
         {
           "text": "Sir Humphrey Davy",
-          "element": "Sodium"
+          "element": "Calcium"
+        },
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Selenium"
         }
       ],
-      "correct": "Fredrich Ernst Dorn"
+      "correct": "Pierre and Marie Curie"
+    },
+    {
+      "question": "When was Radium first discovered?",
+      "options": [
+        {
+          "text": "1844",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "1808",
+          "element": "Calcium"
+        },
+        {
+          "text": "1898",
+          "element": "Radium"
+        },
+        {
+          "text": "1818",
+          "element": "Selenium"
+        }
+      ],
+      "correct": "1898"
     }
   ]
 }

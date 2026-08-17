@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-16",
-  "element": "Molybdenum",
-  "atomicNumber": 42,
-  "symbol": "Mo",
+  "date": "2026-08-17",
+  "element": "Promethium",
+  "atomicNumber": 61,
+  "symbol": "Pm",
   "quiz": [
     {
-      "question": "Who discovered Molybdenum?",
+      "question": "What is the geochemical class of Promethium?",
       "options": [
         {
-          "text": "Julius Scaliger",
-          "element": "Platinum"
+          "text": "rare earth & related",
+          "element": "Promethium"
         },
         {
-          "text": "Carl Wilhelm Scheele",
-          "element": "Molybdenum"
+          "text": "semi-volatile",
+          "element": "Selenium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Zinc"
+          "text": "first series transition metal",
+          "element": "Titanium"
         },
         {
-          "text": "C.F. Aver von Welsbach",
-          "element": "Neodymium"
+          "text": "U/Th decay series",
+          "element": "Radon"
         }
       ],
-      "correct": "Carl Wilhelm Scheele"
+      "correct": "rare earth & related"
     },
     {
-      "question": "When was Molybdenum first discovered?",
+      "question": "What is the approximate price of Promethium per kilogram?",
       "options": [
         {
-          "text": "1824",
-          "element": "Silicon"
+          "text": "$6.00/kg",
+          "element": "Copper"
         },
         {
-          "text": "1735",
-          "element": "Platinum"
+          "text": "$11.10/kg",
+          "element": "Titanium"
         },
         {
-          "text": "1925",
-          "element": "Neodymium"
+          "text": "$460,000.00/kg",
+          "element": "Promethium"
         },
         {
-          "text": "1778",
-          "element": "Molybdenum"
+          "text": "$3,000.00/kg",
+          "element": "Thulium"
         }
       ],
-      "correct": "1778"
+      "correct": "$460,000.00/kg"
     },
     {
-      "question": "What is the crustal abundance of Molybdenum?",
+      "question": "Who discovered Promethium?",
       "options": [
         {
-          "text": "0.005 mg/kg",
-          "element": "Platinum"
+          "text": "Fredrich Ernst Dorn",
+          "element": "Radon"
         },
         {
-          "text": "70.0 mg/kg",
-          "element": "Zinc"
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Fermium"
         },
         {
-          "text": "1.2 mg/kg",
-          "element": "Molybdenum"
+          "text": "Nobel Institute for Physics",
+          "element": "Nobelium"
         },
         {
-          "text": "41.5 mg/kg",
-          "element": "Neodymium"
+          "text": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell",
+          "element": "Promethium"
         }
       ],
-      "correct": "1.2 mg/kg"
+      "correct": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell"
     },
     {
-      "question": "Which countries are the top producers of Molybdenum?",
+      "question": "When was Promethium first discovered?",
       "options": [
         {
-          "text": "1) China  2) Australia  3) Peru",
-          "element": "Zinc"
+          "text": "1945",
+          "element": "Promethium"
         },
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Platinum"
+          "text": "1953",
+          "element": "Fermium"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Neodymium"
+          "text": "1957",
+          "element": "Nobelium"
         },
         {
-          "text": "1) China  2) USA  3) Chile",
-          "element": "Molybdenum"
+          "text": "1898",
+          "element": "Radon"
         }
       ],
-      "correct": "1) China  2) USA  3) Chile"
+      "correct": "1945"
     }
   ]
 }

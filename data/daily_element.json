@@ -1,74 +1,96 @@
 {
-  "date": "2026-08-22",
-  "element": "Bohrium",
-  "atomicNumber": 107,
-  "symbol": "Bh",
+  "date": "2026-08-23",
+  "element": "Zinc",
+  "atomicNumber": 30,
+  "symbol": "Zn",
   "quiz": [
     {
-      "question": "Who discovered Bohrium?",
+      "question": "What is the geochemical class of Zinc?",
       "options": [
         {
-          "text": "Carl Mosander",
-          "element": "Erbium"
+          "text": "first series transition metal",
+          "element": "Zinc"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Bohrium"
+          "text": "volatile",
+          "element": "Helium"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Antimony"
+        },
+        {
+          "text": "alkaline earth metal",
+          "element": "Beryllium"
+        }
+      ],
+      "correct": "first series transition metal"
+    },
+    {
+      "question": "Who discovered Zinc?",
+      "options": [
+        {
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Mendelevium"
+        },
+        {
+          "text": "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso",
+          "element": "Americium"
         },
         {
           "text": "Known to the ancients.",
-          "element": "Tin"
+          "element": "Zinc"
         },
         {
-          "text": "Johann Arfwedson",
-          "element": "Lithium"
+          "text": "Fredrich W\u00f6hler, A.A.Bussy",
+          "element": "Beryllium"
         }
       ],
-      "correct": "Heavy Ion Research Laboratory (HIRL)"
+      "correct": "Known to the ancients."
     },
     {
-      "question": "When was Bohrium first discovered?",
+      "question": "What is the crustal abundance of Zinc?",
       "options": [
         {
-          "text": "1901",
-          "element": "Europium"
+          "text": "0.2 mg/kg",
+          "element": "Antimony"
         },
         {
-          "text": "1817",
-          "element": "Lithium"
+          "text": "2.8 mg/kg",
+          "element": "Beryllium"
         },
         {
-          "text": "1976",
-          "element": "Bohrium"
+          "text": "70.0 mg/kg",
+          "element": "Zinc"
         },
         {
-          "text": "1843",
-          "element": "Erbium"
+          "text": "0.008 mg/kg",
+          "element": "Helium"
         }
       ],
-      "correct": "1976"
+      "correct": "70.0 mg/kg"
     },
     {
-      "question": "What is the density of Bohrium?",
+      "question": "What is the approximate price of Zinc per kilogram?",
       "options": [
         {
-          "text": "0.534 g/cm\u00b3",
-          "element": "Lithium"
+          "text": "$857.00/kg",
+          "element": "Beryllium"
         },
         {
-          "text": "37.1 g/cm\u00b3",
-          "element": "Bohrium"
+          "text": "$728,000.00/kg",
+          "element": "Americium"
         },
         {
-          "text": "9.07 g/cm\u00b3",
-          "element": "Erbium"
+          "text": "$2.55/kg",
+          "element": "Zinc"
         },
         {
-          "text": "7.287 g/cm\u00b3",
-          "element": "Tin"
+          "text": "$24.00/kg",
+          "element": "Helium"
         }
       ],
-      "correct": "37.1 g/cm\u00b3"
+      "correct": "$2.55/kg"
     }
   ]
 }

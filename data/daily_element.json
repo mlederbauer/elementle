@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-23",
-  "element": "Zinc",
-  "atomicNumber": 30,
-  "symbol": "Zn",
+  "date": "2026-08-24",
+  "element": "Boron",
+  "atomicNumber": 5,
+  "symbol": "B",
   "quiz": [
     {
-      "question": "What is the geochemical class of Zinc?",
+      "question": "Which countries are the top producers of Boron?",
       "options": [
         {
-          "text": "first series transition metal",
-          "element": "Zinc"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Rhodium"
         },
         {
-          "text": "volatile",
-          "element": "Helium"
+          "text": "1) China  2) Republic of Korea  3) Japan",
+          "element": "Indium"
         },
         {
-          "text": "semi-volatile",
-          "element": "Antimony"
+          "text": "1) South Africa  2) China  3) Russia",
+          "element": "Vanadium"
         },
         {
-          "text": "alkaline earth metal",
-          "element": "Beryllium"
+          "text": "1) Turkey  2) USA  3) Chile",
+          "element": "Boron"
         }
       ],
-      "correct": "first series transition metal"
+      "correct": "1) Turkey  2) USA  3) Chile"
     },
     {
-      "question": "Who discovered Zinc?",
+      "question": "Who discovered Boron?",
       "options": [
         {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
-          "element": "Mendelevium"
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
         },
         {
-          "text": "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso",
-          "element": "Americium"
+          "text": "Ferdinand Reich, T. Richter",
+          "element": "Indium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Zinc"
+          "text": "Pierre and Marie Curie",
+          "element": "Radium"
         },
         {
-          "text": "Fredrich W\u00f6hler, A.A.Bussy",
-          "element": "Beryllium"
+          "text": "Nobel Institute for Physics",
+          "element": "Nobelium"
         }
       ],
-      "correct": "Known to the ancients."
+      "correct": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard"
     },
     {
-      "question": "What is the crustal abundance of Zinc?",
+      "question": "When was Boron first discovered?",
       "options": [
         {
-          "text": "0.2 mg/kg",
-          "element": "Antimony"
+          "text": "1957",
+          "element": "Nobelium"
         },
         {
-          "text": "2.8 mg/kg",
-          "element": "Beryllium"
+          "text": "1898",
+          "element": "Radium"
         },
         {
-          "text": "70.0 mg/kg",
-          "element": "Zinc"
+          "text": "1808",
+          "element": "Boron"
         },
         {
-          "text": "0.008 mg/kg",
-          "element": "Helium"
+          "text": "1863",
+          "element": "Indium"
         }
       ],
-      "correct": "70.0 mg/kg"
+      "correct": "1808"
     },
     {
-      "question": "What is the approximate price of Zinc per kilogram?",
+      "question": "What is the crustal abundance of Boron?",
       "options": [
         {
-          "text": "$857.00/kg",
-          "element": "Beryllium"
+          "text": "0.25 mg/kg",
+          "element": "Indium"
         },
         {
-          "text": "$728,000.00/kg",
-          "element": "Americium"
+          "text": "10.0 mg/kg",
+          "element": "Boron"
         },
         {
-          "text": "$2.55/kg",
-          "element": "Zinc"
+          "text": "19.0 mg/kg",
+          "element": "Nitrogen"
         },
         {
-          "text": "$24.00/kg",
-          "element": "Helium"
+          "text": "9e-07 mg/kg",
+          "element": "Radium"
         }
       ],
-      "correct": "$2.55/kg"
+      "correct": "10.0 mg/kg"
     }
   ]
 }

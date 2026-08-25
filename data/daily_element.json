@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-24",
-  "element": "Boron",
-  "atomicNumber": 5,
-  "symbol": "B",
+  "date": "2026-08-25",
+  "element": "Erbium",
+  "atomicNumber": 68,
+  "symbol": "Er",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Boron?",
+      "question": "Who discovered Erbium?",
       "options": [
+        {
+          "text": "Anders Ekeberg",
+          "element": "Tantalum"
+        },
+        {
+          "text": "Carl Mosander",
+          "element": "Erbium"
+        },
+        {
+          "text": "William Wollaston",
+          "element": "Rhodium"
+        },
+        {
+          "text": "Fredrich W\u00f6hler, A.A.Bussy",
+          "element": "Beryllium"
+        }
+      ],
+      "correct": "Carl Mosander"
+    },
+    {
+      "question": "What is the crustal abundance of Erbium?",
+      "options": [
+        {
+          "text": "2.8 mg/kg",
+          "element": "Beryllium"
+        },
+        {
+          "text": "3.5 mg/kg",
+          "element": "Erbium"
+        },
+        {
+          "text": "2.0 mg/kg",
+          "element": "Tantalum"
+        },
+        {
+          "text": "0.001 mg/kg",
+          "element": "Rhodium"
+        }
+      ],
+      "correct": "3.5 mg/kg"
+    },
+    {
+      "question": "Which countries are the top producers of Erbium?",
+      "options": [
+        {
+          "text": "1) USA  2) China  3) Mozambique",
+          "element": "Beryllium"
+        },
         {
           "text": "1) South Africa  2) Russia  3) Zimbabwe",
           "element": "Rhodium"
         },
         {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Indium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Erbium"
         },
         {
-          "text": "1) South Africa  2) China  3) Russia",
-          "element": "Vanadium"
-        },
-        {
-          "text": "1) Turkey  2) USA  3) Chile",
-          "element": "Boron"
+          "text": "1) Brazil  2) Rwanda  3) China",
+          "element": "Tantalum"
         }
       ],
-      "correct": "1) Turkey  2) USA  3) Chile"
+      "correct": "1) China  2) Russia  3) Malaysia"
     },
     {
-      "question": "Who discovered Boron?",
+      "question": "When was Erbium first discovered?",
       "options": [
         {
-          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
-          "element": "Boron"
+          "text": "1802",
+          "element": "Tantalum"
         },
         {
-          "text": "Ferdinand Reich, T. Richter",
-          "element": "Indium"
+          "text": "1798",
+          "element": "Beryllium"
         },
         {
-          "text": "Pierre and Marie Curie",
-          "element": "Radium"
+          "text": "1843",
+          "element": "Erbium"
         },
         {
-          "text": "Nobel Institute for Physics",
-          "element": "Nobelium"
+          "text": "1803",
+          "element": "Rhodium"
         }
       ],
-      "correct": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard"
-    },
-    {
-      "question": "When was Boron first discovered?",
-      "options": [
-        {
-          "text": "1957",
-          "element": "Nobelium"
-        },
-        {
-          "text": "1898",
-          "element": "Radium"
-        },
-        {
-          "text": "1808",
-          "element": "Boron"
-        },
-        {
-          "text": "1863",
-          "element": "Indium"
-        }
-      ],
-      "correct": "1808"
-    },
-    {
-      "question": "What is the crustal abundance of Boron?",
-      "options": [
-        {
-          "text": "0.25 mg/kg",
-          "element": "Indium"
-        },
-        {
-          "text": "10.0 mg/kg",
-          "element": "Boron"
-        },
-        {
-          "text": "19.0 mg/kg",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "9e-07 mg/kg",
-          "element": "Radium"
-        }
-      ],
-      "correct": "10.0 mg/kg"
+      "correct": "1843"
     }
   ]
 }

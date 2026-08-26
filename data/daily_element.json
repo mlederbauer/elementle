@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-25",
-  "element": "Erbium",
-  "atomicNumber": 68,
-  "symbol": "Er",
+  "date": "2026-08-26",
+  "element": "Lawrencium",
+  "atomicNumber": 103,
+  "symbol": "Lr",
   "quiz": [
     {
-      "question": "Who discovered Erbium?",
+      "question": "Who discovered Lawrencium?",
       "options": [
         {
-          "text": "Anders Ekeberg",
-          "element": "Tantalum"
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
         },
         {
-          "text": "Carl Mosander",
-          "element": "Erbium"
+          "text": "Karl Klaus",
+          "element": "Ruthenium"
         },
         {
-          "text": "William Wollaston",
-          "element": "Rhodium"
+          "text": "Martin Klaproth",
+          "element": "Uranium"
         },
         {
-          "text": "Fredrich W\u00f6hler, A.A.Bussy",
-          "element": "Beryllium"
+          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
+          "element": "Astatine"
         }
       ],
-      "correct": "Carl Mosander"
+      "correct": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer"
     },
     {
-      "question": "What is the crustal abundance of Erbium?",
+      "question": "When was Lawrencium first discovered?",
       "options": [
         {
-          "text": "2.8 mg/kg",
-          "element": "Beryllium"
+          "text": "1940",
+          "element": "Astatine"
         },
         {
-          "text": "3.5 mg/kg",
-          "element": "Erbium"
+          "text": "1789",
+          "element": "Uranium"
         },
         {
-          "text": "2.0 mg/kg",
-          "element": "Tantalum"
+          "text": "1844",
+          "element": "Ruthenium"
         },
         {
-          "text": "0.001 mg/kg",
-          "element": "Rhodium"
+          "text": "1961",
+          "element": "Lawrencium"
         }
       ],
-      "correct": "3.5 mg/kg"
+      "correct": "1961"
     },
     {
-      "question": "Which countries are the top producers of Erbium?",
+      "question": "What is the melting point of Lawrencium?",
       "options": [
         {
-          "text": "1) USA  2) China  3) Mozambique",
-          "element": "Beryllium"
+          "text": "2333.0 \u00b0C",
+          "element": "Ruthenium"
         },
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Rhodium"
+          "text": "1135.0 \u00b0C",
+          "element": "Uranium"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Erbium"
+          "text": "302.0 \u00b0C",
+          "element": "Astatine"
         },
         {
-          "text": "1) Brazil  2) Rwanda  3) China",
-          "element": "Tantalum"
+          "text": "1627.0 \u00b0C",
+          "element": "Lawrencium"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia"
+      "correct": "1627.0 \u00b0C"
     },
     {
-      "question": "When was Erbium first discovered?",
+      "question": "What is the density of Lawrencium?",
       "options": [
         {
-          "text": "1802",
-          "element": "Tantalum"
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
         },
         {
-          "text": "1798",
-          "element": "Beryllium"
+          "text": "7.0 g/cm\u00b3",
+          "element": "Astatine"
         },
         {
-          "text": "1843",
-          "element": "Erbium"
+          "text": "12.1 g/cm\u00b3",
+          "element": "Ruthenium"
         },
         {
-          "text": "1803",
-          "element": "Rhodium"
+          "text": "19.1 g/cm\u00b3",
+          "element": "Uranium"
         }
       ],
-      "correct": "1843"
+      "correct": "15.6 g/cm\u00b3"
     }
   ]
 }

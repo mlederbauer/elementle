@@ -1,74 +1,96 @@
 {
-  "date": "2026-08-28",
-  "element": "Bohrium",
-  "atomicNumber": 107,
-  "symbol": "Bh",
+  "date": "2026-08-29",
+  "element": "Selenium",
+  "atomicNumber": 34,
+  "symbol": "Se",
   "quiz": [
     {
-      "question": "Who discovered Bohrium?",
+      "question": "What is the crustal abundance of Selenium?",
       "options": [
         {
-          "text": "Known to the ancients",
-          "element": "Carbon"
+          "text": "84.0 mg/kg",
+          "element": "Nickel"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Bohrium"
+          "text": "2.9999999999999997e-05 mg/kg",
+          "element": "Xenon"
         },
         {
-          "text": "C.F. Aver von Welsbach",
-          "element": "Neodymium"
+          "text": "0.05 mg/kg",
+          "element": "Selenium"
         },
         {
-          "text": "Carl Mosander",
-          "element": "Terbium"
+          "text": "0.001 mg/kg",
+          "element": "Ruthenium"
         }
       ],
-      "correct": "Heavy Ion Research Laboratory (HIRL)"
+      "correct": "0.05 mg/kg"
     },
     {
-      "question": "When was Bohrium first discovered?",
+      "question": "Who discovered Selenium?",
       "options": [
         {
-          "text": "1843",
-          "element": "Terbium"
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
         },
         {
-          "text": "1925",
-          "element": "Neodymium"
+          "text": "Axel Cronstedt",
+          "element": "Nickel"
         },
         {
-          "text": "1976",
-          "element": "Bohrium"
+          "text": "Karl Klaus",
+          "element": "Ruthenium"
         },
         {
-          "text": "1803",
-          "element": "Cerium"
+          "text": "J\u00f6ns Berzelius",
+          "element": "Selenium"
         }
       ],
-      "correct": "1976"
+      "correct": "J\u00f6ns Berzelius"
     },
     {
-      "question": "What is the density of Bohrium?",
+      "question": "What is the geochemical class of Selenium?",
       "options": [
         {
-          "text": "8.23 g/cm\u00b3",
-          "element": "Terbium"
+          "text": "semi-volatile",
+          "element": "Selenium"
         },
         {
-          "text": "2.2 g/cm\u00b3",
-          "element": "Carbon"
+          "text": "noble metal",
+          "element": "Ruthenium"
         },
         {
-          "text": "37.1 g/cm\u00b3",
-          "element": "Bohrium"
+          "text": "first series transition metal",
+          "element": "Nickel"
         },
         {
-          "text": "7.01 g/cm\u00b3",
-          "element": "Neodymium"
+          "text": "volatile",
+          "element": "Xenon"
         }
       ],
-      "correct": "37.1 g/cm\u00b3"
+      "correct": "semi-volatile"
+    },
+    {
+      "question": "What is the approximate price of Selenium per kilogram?",
+      "options": [
+        {
+          "text": "$21.40/kg",
+          "element": "Selenium"
+        },
+        {
+          "text": "$10,400.00/kg",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "$13.90/kg",
+          "element": "Nickel"
+        },
+        {
+          "text": "$185,000,000,000.00/kg",
+          "element": "Berkelium"
+        }
+      ],
+      "correct": "$21.40/kg"
     }
   ]
 }

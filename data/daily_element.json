@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-29",
-  "element": "Selenium",
-  "atomicNumber": 34,
-  "symbol": "Se",
+  "date": "2026-08-30",
+  "element": "Plutonium",
+  "atomicNumber": 94,
+  "symbol": "Pu",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Selenium?",
+      "question": "When was Plutonium first discovered?",
       "options": [
         {
-          "text": "84.0 mg/kg",
-          "element": "Nickel"
+          "text": "1944",
+          "element": "Curium"
         },
         {
-          "text": "2.9999999999999997e-05 mg/kg",
-          "element": "Xenon"
+          "text": "1803",
+          "element": "Rhodium"
         },
         {
-          "text": "0.05 mg/kg",
-          "element": "Selenium"
+          "text": "1861",
+          "element": "Rubidium"
         },
         {
-          "text": "0.001 mg/kg",
-          "element": "Ruthenium"
+          "text": "1940",
+          "element": "Plutonium"
         }
       ],
-      "correct": "0.05 mg/kg"
+      "correct": "1940"
     },
     {
-      "question": "Who discovered Selenium?",
+      "question": "Who discovered Plutonium?",
       "options": [
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Dubnium"
+          "text": "G.T.Seaborg, R.A.James, A.Ghiorso",
+          "element": "Curium"
         },
         {
-          "text": "Axel Cronstedt",
-          "element": "Nickel"
+          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
+          "element": "Plutonium"
         },
         {
-          "text": "Karl Klaus",
-          "element": "Ruthenium"
+          "text": "R. Bunsen, G. Kirchoff",
+          "element": "Rubidium"
         },
         {
-          "text": "J\u00f6ns Berzelius",
-          "element": "Selenium"
+          "text": "William Wollaston",
+          "element": "Rhodium"
         }
       ],
-      "correct": "J\u00f6ns Berzelius"
+      "correct": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
     },
     {
-      "question": "What is the geochemical class of Selenium?",
+      "question": "What is the approximate price of Plutonium per kilogram?",
       "options": [
         {
-          "text": "semi-volatile",
-          "element": "Selenium"
+          "text": "$6,490,000.00/kg",
+          "element": "Plutonium"
         },
         {
-          "text": "noble metal",
-          "element": "Ruthenium"
+          "text": "$185,000,000.00/kg",
+          "element": "Curium"
         },
         {
-          "text": "first series transition metal",
-          "element": "Nickel"
+          "text": "$15,500.00/kg",
+          "element": "Rubidium"
         },
         {
-          "text": "volatile",
-          "element": "Xenon"
+          "text": "$147,000.00/kg",
+          "element": "Rhodium"
         }
       ],
-      "correct": "semi-volatile"
+      "correct": "$6,490,000.00/kg"
     },
     {
-      "question": "What is the approximate price of Selenium per kilogram?",
+      "question": "What is the boiling point of Plutonium?",
       "options": [
         {
-          "text": "$21.40/kg",
-          "element": "Selenium"
+          "text": "688.0 \u00b0C",
+          "element": "Rubidium"
         },
         {
-          "text": "$10,400.00/kg",
-          "element": "Ruthenium"
+          "text": "3228.0 \u00b0C",
+          "element": "Plutonium"
         },
         {
-          "text": "$13.90/kg",
-          "element": "Nickel"
+          "text": "3695.0 \u00b0C",
+          "element": "Rhodium"
         },
         {
-          "text": "$185,000,000,000.00/kg",
-          "element": "Berkelium"
+          "text": "1564.0 \u00b0C",
+          "element": "Bismuth"
         }
       ],
-      "correct": "$21.40/kg"
+      "correct": "3228.0 \u00b0C"
     }
   ]
 }

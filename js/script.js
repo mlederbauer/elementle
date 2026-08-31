@@ -5,6 +5,7 @@ let selectedElement = "";
 let attempts = MAX_ATTEMPTS;
 let gameOver = false;
 let guessHistory = []; // array of color arrays per guess: ('green'|'yellow'|'grey')[]
+let guessNames = [];
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchData();
@@ -56,6 +57,11 @@ function getTodayShareDate() {
     return new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
 }
 
+function getTodayUtcShareDate() {
+    const now = new Date();
+    return `${String(now.getUTCDate()).padStart(2, '0')}/${String(now.getUTCMonth() + 1).padStart(2, '0')}/${now.getUTCFullYear()}`;
+}
+
 // ── Data loading ──────────────────────────────────────────────────────────────
 
 function fetchData() {
@@ -77,13 +83,15 @@ function fetchData() {
                 ensureShareProgressDate(shareDate);
             }
             saveSelectedElementToLocalStorage();
+            restoreMainProgress(shareDate || getTodayShareDate());
         })
         .catch(() => {
             selectedElement = getDailyElement();
-            const shareDate = getTodayShareDate();
+            const shareDate = getTodayUtcShareDate();
             localStorage.setItem('elementle-gameDate', shareDate);
             ensureShareProgressDate(shareDate);
             saveSelectedElementToLocalStorage();
+            restoreMainProgress(shareDate);
         });
 }
 
@@ -98,6 +106,54 @@ function getDailyElement() {
     state ^= state + Math.imul(state ^ (state >>> 7), state | 61);
     const rand = ((state ^ (state >>> 14)) >>> 0) / 4294967296;
     return elements[Math.floor(rand * elements.length)];
+}
+
+function getGameDate() {
+    return localStorage.getItem('elementle-gameDate') || getTodayShareDate();
+}
+
+function saveMainProgress(won = false) {
+    if (!window.GameProgress) return;
+    GameProgress.save(getGameDate(), 'main', {
+        guesses: guessNames,
+        attempts,
+        completed: gameOver,
+        won: !!won
+    });
+}
+
+function restoreMainProgress(dateStr) {
+    const saved = window.GameProgress?.get(dateStr, 'main');
+    if (!saved || !Array.isArray(saved.guesses) || saved.guesses.some(guess => !elements.includes(guess))) return;
+
+    guessHistory = [];
+    guessNames = [];
+    saved.guesses.forEach(guess => {
+        const guessedData = getElementData(guess);
+        if (!guessedData) return;
+        recordGuessColors(guess);
+        if (guess === selectedElement) colorCorrectElementGrid();
+        else {
+            colorGuessedElementGrid(guessedData);
+            displayGuessedWordFeedback(guess, guessedData, getElementData(selectedElement));
+        }
+    });
+
+    attempts = Number.isInteger(saved.attempts) && saved.attempts >= 0 && saved.attempts <= MAX_ATTEMPTS
+        ? saved.attempts : Math.max(0, MAX_ATTEMPTS - guessNames.length);
+    document.getElementById('attempts').textContent = `Attempts left: ${attempts}`;
+
+    if (!saved.completed) return;
+    gameOver = true;
+    disableGuessInput();
+    if (saved.won) {
+        displayMessage('Correct! Well done.', 'var(--green)');
+        colorCorrectElementGrid();
+        showBonusPageIcon();
+    } else {
+        displayMessage(`Out of attempts! The element was ${selectedElement}.`, '#c0392b');
+    }
+    document.getElementById('shareBtn').style.display = 'inline-block';
 }
 
 // ── Grid ──────────────────────────────────────────────────────────────────────
@@ -202,6 +258,7 @@ function checkGuess() {
     } else {
         displayMessage("Try again!", "var(--orange)");
         attemptsDisplay.textContent = `Attempts left: ${attempts}`;
+        saveMainProgress();
     }
 }
 
@@ -212,6 +269,7 @@ function endGame(won, usedAttempts) {
     saveGameResultToLocalStorage(won);
     if (won) showBonusPageIcon();
     document.getElementById('shareBtn').style.display = 'inline-block';
+    saveMainProgress(won);
 }
 
 function saveGameResultToLocalStorage(won) {
@@ -233,6 +291,7 @@ function recordGuessColors(guess) {
         greenIndices.includes(i) ? 'green' : yellowIndices.includes(i) ? 'yellow' : 'grey'
     );
     guessHistory.push(colors);
+    guessNames.push(guess);
 }
 
 function clearGuessInput() {

@@ -283,7 +283,11 @@ function saveGameResultToLocalStorage(won) {
         localStorage.setItem('elementle-won', JSON.stringify(won));
         localStorage.setItem('elementle-gameDate', dateStr);
         ensureShareProgressDate(dateStr);
-        ElementleShare.saveSecretRows(localStorage, dateStr, secretRows);
+        ElementleShare.saveMainShareState(localStorage, dateStr, {
+            history: guessHistory,
+            won,
+            secretRows
+        });
     } catch (e) { console.error('Failed to save game result:', e); }
 }
 

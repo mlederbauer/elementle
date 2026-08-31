@@ -190,6 +190,21 @@ function showResult() {
     ElementleShare.showShareControls();
 }
 
+function updateBonus3ShareProgress() {
+    const dateStr = getShareDate();
+    const progress = loadShareProgress(dateStr);
+    progress.bonus3 = {
+        answered,
+        total: quiz.length,
+        score,
+        completed: answered === quiz.length && quiz.length > 0,
+        questions: quiz.map(q => q.question),
+        types: quiz.map(q => q.type || null),
+        results: questionResults
+    };
+    saveShareProgress(progress);
+}
+
 function getShareDate() {
     const fallbackDate = getTodayShareDate();
     return localStorage.getItem('elementle-gameDate') || fallbackDate;

@@ -1,9 +1,14 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
 const {
     buildSecretRow,
     buildBonusProgressLines,
-    buildShareText
+    buildShareText,
+    getShareProgress,
+    saveMainShareState,
+    getMainShareState
 } = require('../js/share.js');
 
 const dateStr = '31/08/2026';
@@ -21,6 +26,14 @@ function shareText(overrides = {}) {
         progress: {},
         ...overrides
     });
+}
+
+function createStorage() {
+    const values = new Map();
+    return {
+        getItem(key) { return values.has(key) ? values.get(key) : null; },
+        setItem(key, value) { values.set(key, String(value)); }
+    };
 }
 
 test('secret rows use the on-screen green thresholds and always contain five squares', () => {
@@ -73,4 +86,57 @@ test('bonus progress emojis are preserved in both modes', () => {
     assert.deepEqual(buildBonusProgressLines(progress), ['🏘️🏘️', '⚖️', '🧱🌡️']);
     assert.match(shareText({ progress }), /🏘️🏘️\n⚖️\n🧱🌡️/);
     assert.match(shareText({ progress, mode: 'transparent' }), /🏘️🏘️\n⚖️\n🧱🌡️/);
+});
+
+test('main share state is available only for the date it was saved', () => {
+    const storage = createStorage();
+    saveMainShareState(storage, '30/08/2026', {
+        history,
+        won: true,
+        secretRows: ['🟩🟩⬛⬛⬛', '🟩⬛⬛⬛⬛']
+    });
+
+    assert.deepEqual(getMainShareState(getShareProgress(storage, '30/08/2026')), {
+        history,
+        won: true,
+        secretRows: ['🟩🟩⬛⬛⬛', '🟩⬛⬛⬛⬛']
+    });
+    assert.deepEqual(getMainShareState(getShareProgress(storage, '31/08/2026')), {
+        history: [],
+        won: false,
+        secretRows: []
+    });
+});
+
+test('Bonus Round 3 saves trivia progress when initializing and answering', () => {
+    const storage = createStorage();
+    storage.setItem('elementle-gameDate', dateStr);
+    const context = vm.createContext({
+        console,
+        localStorage: storage,
+        window: { GameProgress: { get() { return null; }, save() {} } },
+        document: { addEventListener() {} }
+    });
+    vm.runInContext(fs.readFileSync('js/script_bonus3.js', 'utf8'), context);
+    const progress = vm.runInContext(`
+        quiz = [
+            { question: 'Q1', type: 'density', correct: 'yes', options: [] },
+            { question: 'Q2', type: 'melting_point', correct: 'no', options: [] }
+        ];
+        answered = 2;
+        score = 1;
+        questionResults = [true, false];
+        updateBonus3ShareProgress();
+        JSON.parse(localStorage.getItem('elementle-share-progress')).bonus3;
+    `, context);
+
+    assert.deepEqual(JSON.parse(JSON.stringify(progress)), {
+        answered: 2,
+        total: 2,
+        score: 1,
+        completed: true,
+        questions: ['Q1', 'Q2'],
+        types: ['density', 'melting_point'],
+        results: [true, false]
+    });
 });

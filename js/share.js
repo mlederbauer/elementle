@@ -69,10 +69,23 @@
         }
     }
 
-    function saveSecretRows(storage, dateStr, secretRows) {
+    function saveMainShareState(storage, dateStr, main) {
         const progress = getShareProgress(storage, dateStr);
-        progress.main = { secretRows };
+        progress.main = {
+            history: Array.isArray(main.history) ? main.history : [],
+            won: !!main.won,
+            secretRows: Array.isArray(main.secretRows) ? main.secretRows : []
+        };
         storage.setItem(SHARE_PROGRESS_KEY, JSON.stringify(progress));
+    }
+
+    function getMainShareState(progress) {
+        const main = progress?.main;
+        return {
+            history: Array.isArray(main?.history) ? main.history : [],
+            won: !!main?.won,
+            secretRows: Array.isArray(main?.secretRows) ? main.secretRows : []
+        };
     }
 
     function copyTextToClipboard(text) {
@@ -103,21 +116,17 @@
         const fallbackDate = new Date().toLocaleDateString('en-GB', {
             day: '2-digit', month: '2-digit', year: 'numeric'
         });
-        let history = [];
-        let won = false;
         let dateStr = fallbackDate;
         try {
-            history = JSON.parse(storage.getItem('elementle-guessHistory')) || [];
-            won = JSON.parse(storage.getItem('elementle-won')) || false;
             dateStr = storage.getItem('elementle-gameDate') || fallbackDate;
-        } catch (e) { /* use safe empty share state */ }
-
+        } catch (e) { /* use the current date when storage is unavailable */ }
         const progress = getShareProgress(storage, dateStr);
+        const main = getMainShareState(progress);
         const text = buildShareText({
             dateStr,
-            history,
-            won,
-            secretRows: progress.main?.secretRows,
+            history: main.history,
+            won: main.won,
+            secretRows: main.secretRows,
             progress,
             mode
         });
@@ -134,5 +143,5 @@
         root.document.getElementById('shareControls').classList.add('visible');
     }
 
-    return { buildSecretRow, buildBonusProgressLines, buildShareText, saveSecretRows, shareResult, showShareControls };
+    return { buildSecretRow, buildBonusProgressLines, buildShareText, getShareProgress, saveMainShareState, getMainShareState, shareResult, showShareControls };
 });

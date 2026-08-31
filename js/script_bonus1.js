@@ -4,6 +4,7 @@ const MAX_NEIGHBOR_GUESSES = 8;
 let guessesRemaining = MAX_NEIGHBOR_GUESSES;
 let neighborsGuessed = 0;
 const revealedPositions = new Set(); // track which neighbor positions are already guessed
+let guessNames = [];
 
 function formatDailyDate(isoDate) {
     if (typeof isoDate !== 'string') return '';
@@ -16,6 +17,48 @@ function formatDailyDate(isoDate) {
 
 function getTodayShareDate() {
     return new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+function getGameDate() {
+    return localStorage.getItem('elementle-gameDate') || getTodayShareDate();
+}
+
+function saveBonus1Progress() {
+    if (!window.GameProgress) return;
+    const totalNeighbors = Object.values(neighbors || {}).filter(n => n != null).length;
+    GameProgress.save(getGameDate(), 'bonus1', {
+        guesses: guessNames,
+        guessesRemaining,
+        revealedPositions: [...revealedPositions],
+        completed: neighborsGuessed === totalNeighbors || guessesRemaining === 0,
+        won: neighborsGuessed === totalNeighbors
+    });
+}
+
+function restoreBonus1Progress() {
+    const saved = window.GameProgress?.get(getGameDate(), 'bonus1');
+    if (!saved || !Array.isArray(saved.guesses) || saved.guesses.some(guess => !findElementByName(guess, elementDataArray))) return;
+
+    saved.guesses.forEach(guess => {
+        const guessedElement = findElementByName(guess, elementDataArray);
+        let correct = false;
+        for (const position in neighbors) {
+            if (neighbors[position]?.Element === guessedElement.Element && !revealedPositions.has(position)) {
+                revealNeighborBox(position, guessedElement);
+                revealedPositions.add(position);
+                neighborsGuessed++;
+                correct = true;
+                break;
+            }
+        }
+        guessNames.push(guess);
+        updateGuessTable(guess, correct);
+    });
+    guessesRemaining = Number.isInteger(saved.guessesRemaining) && saved.guessesRemaining >= 0
+        ? saved.guessesRemaining : Math.max(0, MAX_NEIGHBOR_GUESSES - guessNames.length);
+    updateRemainingGuessesDisplay();
+    updateBonus1ShareProgress();
+    if (saved.completed) showBonus1Result(saved.won);
 }
 
 function syncShareDate(dateStr) {
@@ -152,10 +195,12 @@ function handleGuess(event) {
     }
 
     updateGuessTable(guessedElement.Element, guessCorrect);
+    guessNames.push(guessedElement.Element);
     guessesRemaining--;
     updateRemainingGuessesDisplay();
     updateBonus1ShareProgress();
     checkGameEnd();
+    saveBonus1Progress();
 
     guessInput.value = '';
 }
@@ -172,24 +217,24 @@ function updateGuessTable(guess, isCorrect) {
 }
 
 function checkGameEnd() {
-    const resultMessage = document.getElementById('resultMessage');
-    const guessForm = document.getElementById('guessForm');
     const totalNeighbors = Object.values(neighbors).filter(n => n != null).length;
+    if (neighborsGuessed === totalNeighbors) showBonus1Result(true);
+    else if (guessesRemaining === 0) showBonus1Result(false);
+}
 
-    if (neighborsGuessed === totalNeighbors) {
-        guessForm.style.display = 'none';
+function showBonus1Result(won) {
+    const resultMessage = document.getElementById('resultMessage');
+    document.getElementById('guessForm').style.display = 'none';
+    if (won) {
         resultMessage.innerHTML = "<div id='nextBonusPage'>NEXT BONUS PAGE</div>";
-        resultMessage.style.display = 'block';
         document.getElementById('nextBonusPage').addEventListener('click', () => {
             window.location.href = 'bonuspage_2.html';
         });
-        document.getElementById('shareBtn').style.display = 'inline-block';
-    } else if (guessesRemaining === 0) {
+    } else {
         resultMessage.textContent = "Out of guesses! You didn't find all neighboring elements.";
-        resultMessage.style.display = 'block';
-        guessForm.style.display = 'none';
-        document.getElementById('shareBtn').style.display = 'inline-block';
     }
+    resultMessage.style.display = 'block';
+    document.getElementById('shareBtn').style.display = 'inline-block';
 }
 
 function populateDatalist(elements) {
@@ -238,6 +283,7 @@ async function main() {
     displayElementAndNeighbors(mainElement, neighbors);
     document.getElementById('guessForm').addEventListener('submit', handleGuess);
     updateRemainingGuessesDisplay();
+    restoreBonus1Progress();
     updateBonus1ShareProgress();
 }
 

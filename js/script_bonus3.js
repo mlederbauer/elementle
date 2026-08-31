@@ -2,6 +2,7 @@ let quiz = [];
 let answered = 0;
 let score = 0;
 let questionResults = [];
+let selectedAnswers = [];
 
 function formatDailyDate(isoDate) {
     if (typeof isoDate !== 'string') return '';
@@ -14,6 +15,28 @@ function formatDailyDate(isoDate) {
 
 function getTodayShareDate() {
     return new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+function getGameDate() {
+    return localStorage.getItem('elementle-gameDate') || getTodayShareDate();
+}
+
+function saveBonus3Progress() {
+    if (!window.GameProgress) return;
+    GameProgress.save(getGameDate(), 'bonus3', {
+        answers: selectedAnswers,
+        completed: answered === quiz.length && quiz.length > 0
+    });
+}
+
+function restoreBonus3Progress() {
+    const saved = window.GameProgress?.get(getGameDate(), 'bonus3');
+    if (!saved || !Array.isArray(saved.answers) || saved.answers.length !== quiz.length) return;
+    if (saved.answers.some((answer, index) => answer !== null && !quiz[index].options.some(option => option.text === answer))) return;
+    selectedAnswers = saved.answers;
+    questionResults = selectedAnswers.map((answer, index) => answer === null ? null : answer === quiz[index].correct);
+    answered = selectedAnswers.filter(answer => answer !== null).length;
+    score = questionResults.filter(result => result === true).length;
 }
 
 function syncShareDate(dateStr) {
@@ -74,12 +97,15 @@ async function main() {
         return;
     }
 
+    restoreBonus3Progress();
     renderQuiz();
 }
 
 function renderQuiz() {
     const container = document.getElementById('quiz');
-    questionResults = quiz.map(() => null);
+    container.innerHTML = '';
+    if (selectedAnswers.length !== quiz.length) selectedAnswers = quiz.map(() => null);
+    if (questionResults.length !== quiz.length) questionResults = quiz.map(() => null);
     updateBonus3ShareProgress();
     quiz.forEach((q, qi) => {
         const block = document.createElement('div');
@@ -99,21 +125,20 @@ function renderQuiz() {
             grid.appendChild(btn);
         });
 
+        if (selectedAnswers[qi] !== null) revealAnswer(grid, selectedAnswers[qi], q);
         block.appendChild(grid);
         container.appendChild(block);
     });
+    if (answered === quiz.length) showResult();
 }
 
-function handleAnswer(qi, chosen, grid, q) {
-    // Disable all buttons in this question
+function revealAnswer(grid, chosen, q) {
     grid.querySelectorAll('.option-btn').forEach(btn => {
         btn.disabled = true;
 
         const isChosen  = btn.dataset.text === chosen;
         const isCorrect = btn.dataset.text === q.correct;
         const elemName  = btn.dataset.element;
-
-        // Add element-name label to every button on reveal
         const label = document.createElement('span');
         label.className = 'opt-element';
 
@@ -128,14 +153,19 @@ function handleAnswer(qi, chosen, grid, q) {
                 label.textContent = elemName + ' ✗';
             }
         }
-
         btn.appendChild(label);
     });
+}
 
+function handleAnswer(qi, chosen, grid, q) {
+    if (selectedAnswers[qi] !== null) return;
+    revealAnswer(grid, chosen, q);
+    selectedAnswers[qi] = chosen;
     if (chosen === q.correct) score++;
     questionResults[qi] = chosen === q.correct;
     answered++;
     updateBonus3ShareProgress();
+    saveBonus3Progress();
 
     if (answered === quiz.length) showResult();
 }

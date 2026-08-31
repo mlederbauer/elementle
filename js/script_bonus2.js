@@ -5,6 +5,7 @@ let targetElement = null;
 let attemptsLeft = MAX_ATTEMPTS;
 let lastDirection = '';
 let lastWarmth = '▫️▫️▫️▫️▫️';
+let massGuesses = [];
 
 function formatDailyDate(isoDate) {
     if (typeof isoDate !== 'string') return '';
@@ -17,6 +18,39 @@ function formatDailyDate(isoDate) {
 
 function getTodayShareDate() {
     return new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+function getGameDate() {
+    return localStorage.getItem('elementle-gameDate') || getTodayShareDate();
+}
+
+function saveBonus2Progress(completed = false, won = false) {
+    if (!window.GameProgress) return;
+    GameProgress.save(getGameDate(), 'bonus2', {
+        guesses: massGuesses,
+        attemptsLeft,
+        completed: !!completed,
+        won: !!won
+    });
+}
+
+function restoreBonus2Progress() {
+    const saved = window.GameProgress?.get(getGameDate(), 'bonus2');
+    if (!saved || !Array.isArray(saved.guesses) || saved.guesses.some(guess => typeof guess !== 'number' || !Number.isFinite(guess))) return;
+
+    saved.guesses.forEach(guess => {
+        const diff = Math.abs(guess - targetElement.AtomicMass);
+        const correct = diff <= CORRECT_THRESHOLD;
+        const warmCount = [100, 50, 20, 10, 3].filter(t => diff < t).length;
+        lastWarmth = '🔥'.repeat(warmCount) + '▫️'.repeat(5 - warmCount);
+        lastDirection = correct ? '✓ correct' : (guess < targetElement.AtomicMass ? '↑ too low' : '↓ too high');
+        massGuesses.push(guess);
+        addGuessRow(guess, diff, correct);
+    });
+    attemptsLeft = Number.isInteger(saved.attemptsLeft) && saved.attemptsLeft >= 0
+        ? saved.attemptsLeft : Math.max(0, MAX_ATTEMPTS - massGuesses.length);
+    updateAttemptsDisplay();
+    if (saved.completed) endGame(saved.won, true);
 }
 
 function syncShareDate(dateStr) {
@@ -64,6 +98,7 @@ async function main() {
     if (!targetElement) { showNoElement(); return; }
 
     renderElementCard();
+    restoreBonus2Progress();
     document.getElementById('guessForm').addEventListener('submit', handleGuess);
 }
 
@@ -92,9 +127,12 @@ function handleGuess(e) {
     lastDirection = correct ? '✓ correct' : (raw < targetElement.AtomicMass ? '↑ too low' : '↓ too high');
 
     addGuessRow(raw, diff, correct);
+    massGuesses.push(raw);
     attemptsLeft--;
     updateAttemptsDisplay();
-    updateBonus2ShareProgress(correct, correct || attemptsLeft === 0);
+    const completed = correct || attemptsLeft === 0;
+    updateBonus2ShareProgress(correct, completed);
+    saveBonus2Progress(completed, correct);
     input.value = '';
 
     if (correct)              endGame(true);

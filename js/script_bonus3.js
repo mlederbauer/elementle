@@ -271,6 +271,7 @@ function updateBonus3ShareProgress() {
         score,
         completed: answered === quiz.length && quiz.length > 0,
         questions: quiz.map(q => q.question),
+        types: quiz.map(q => q.type || null),
         results: questionResults
     };
     saveShareProgress(progress);
@@ -300,23 +301,11 @@ function getShareProgress(dateStr) {
 }
 
 function buildBonusProgressLines(progress) {
-    const lines = [];
-
-    const neighborGuesses = typeof progress?.bonus1?.attemptsUsed === 'number' ? progress.bonus1.attemptsUsed : 0;
-    lines.push(neighborGuesses > 0 ? '🏘️'.repeat(neighborGuesses) : '🏘️0');
-
-    const massGuesses = typeof progress?.bonus2?.attemptsUsed === 'number' ? progress.bonus2.attemptsUsed : 0;
-    lines.push(massGuesses > 0 ? '⚖️'.repeat(massGuesses) : '⚖️0');
-
-    let quizSummary = '❓';
-    if (Array.isArray(progress?.bonus3?.results) && progress.bonus3.results.length > 0) {
-        quizSummary = progress.bonus3.results
-            .map(result => (result === true ? '✅' : result === false ? '❌' : '❓'))
-            .join('');
-    }
-    lines.push(`Quiz: ${quizSummary}`);
-
-    return lines;
+    const triviaEmoji = { recycling_rate: '♻️', price_per_kg: '💰', discovery_year: '📅', abundance_crust: '🪨', discoverers: '🧑‍🔬', geochemical_class: '🧪', top_3_producers: '🌍', melting_point: '🌡️', boiling_point: '🌡️', density: '🧱', electronegativity_pauling: '⚡', atomic_radius: '📏' };
+    const neighbors = Number(progress?.bonus1?.guessed) || 0;
+    const mass = progress?.bonus2?.won ? 1 : 0;
+    const trivia = Array.isArray(progress?.bonus3?.results) ? progress.bonus3.results.map((correct, i) => correct ? (triviaEmoji[progress.bonus3.types?.[i]] || '') : '').join('') : '';
+    return ['🏘️'.repeat(neighbors), '⚖️'.repeat(mass), trivia].filter(Boolean);
 }
 
 function showNoElement() {

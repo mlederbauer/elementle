@@ -187,79 +187,7 @@ function showResult() {
         <p class="result-sub">Come back tomorrow for a new element.</p>
         <a href="../index.html" class="btn-home">Back to main game</a>`;
 
-    document.getElementById('shareBtn').style.display = 'inline-block';
-}
-
-function shareResult() {
-    const text = buildShareText();
-    copyTextToClipboard(text).then(() => {
-        const toast = document.getElementById('shareToast');
-        toast.style.display = 'block';
-        setTimeout(() => { toast.style.display = 'none'; }, 2000);
-    }).catch(() => {
-        prompt('Copy this to share:', text);
-    });
-}
-
-function copyTextToClipboard(text) {
-    if (window.isSecureContext && navigator.clipboard?.writeText) {
-        return navigator.clipboard.writeText(text);
-    }
-    return fallbackCopyTextToClipboard(text)
-        ? Promise.resolve()
-        : Promise.reject(new Error('Copy command was unsuccessful'));
-}
-
-function fallbackCopyTextToClipboard(text) {
-    const textArea = document.createElement('textarea');
-    textArea.value = text;
-    textArea.setAttribute('readonly', '');
-    textArea.style.position = 'fixed';
-    textArea.style.left = '-9999px';
-    document.body.appendChild(textArea);
-    textArea.select();
-    textArea.setSelectionRange(0, textArea.value.length);
-
-    let copied = false;
-    try {
-        copied = document.execCommand('copy');
-    } catch (e) {
-        copied = false;
-    }
-
-    document.body.removeChild(textArea);
-    return copied;
-}
-
-function buildShareText() {
-    const MAX_ATTEMPTS = 6;
-    const fallbackDate = getTodayShareDate();
-
-    let guessHistory = [];
-    let won = false;
-    let dateStr = fallbackDate;
-    try {
-        guessHistory = JSON.parse(localStorage.getItem('elementle-guessHistory')) || [];
-        won = JSON.parse(localStorage.getItem('elementle-won')) || false;
-        dateStr = localStorage.getItem('elementle-gameDate') || fallbackDate;
-    } catch (e) { /* ignore */ }
-
-    const scoreStr = won ? `${guessHistory.length}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`;
-    const emojiMap = { green: '🟩', yellow: '🟨', grey: '⬛' };
-    const rows = guessHistory.map(colors => colors.map(c => emojiMap[c]).join('')).join('\n');
-
-    const progress = getShareProgress(dateStr);
-    const bonusLines = buildBonusProgressLines(progress);
-
-    return [
-        `Elementle ${dateStr}  ${scoreStr}`,
-        '',
-        rows,
-        '',
-        ...bonusLines,
-        '',
-        '🧪 Play at: https://elementle.ch'
-    ].join('\n');
+    ElementleShare.showShareControls();
 }
 
 function updateBonus3ShareProgress() {
@@ -296,17 +224,6 @@ function saveShareProgress(progress) {
     localStorage.setItem('elementle-share-progress', JSON.stringify(progress));
 }
 
-function getShareProgress(dateStr) {
-    return loadShareProgress(dateStr);
-}
-
-function buildBonusProgressLines(progress) {
-    const triviaEmoji = { recycling_rate: '♻️', price_per_kg: '💰', discovery_year: '📅', abundance_crust: '🪨', discoverers: '🧑‍🔬', geochemical_class: '🧪', top_3_producers: '🌍', melting_point: '🌡️', boiling_point: '🌡️', density: '🧱', electronegativity_pauling: '⚡', atomic_radius: '📏' };
-    const neighbors = Number(progress?.bonus1?.guessed) || 0;
-    const mass = progress?.bonus2?.won ? 1 : 0;
-    const trivia = Array.isArray(progress?.bonus3?.results) ? progress.bonus3.results.map((correct, i) => correct ? (triviaEmoji[progress.bonus3.types?.[i]] || '') : '').join('') : '';
-    return ['🏘️'.repeat(neighbors), '⚖️'.repeat(mass), trivia].filter(Boolean);
-}
 
 function showNoElement() {
     document.querySelector('.container').innerHTML = `

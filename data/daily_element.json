@@ -24,7 +24,8 @@
           "element": "Tantalum"
         }
       ],
-      "correct": "Sir Humphrey Davy"
+      "correct": "Sir Humphrey Davy",
+      "type": "discoverers"
     },
     {
       "question": "What is the geochemical class of Calcium?",
@@ -46,7 +47,8 @@
           "element": "Cesium"
         }
       ],
-      "correct": "major"
+      "correct": "major",
+      "type": "geochemical_class"
     },
     {
       "question": "What is the approximate price of Calcium per kilogram?",
@@ -68,7 +70,8 @@
           "element": "Tantalum"
         }
       ],
-      "correct": "$2.21/kg"
+      "correct": "$2.21/kg",
+      "type": "price_per_kg"
     },
     {
       "question": "When was Calcium first discovered?",
@@ -90,7 +93,8 @@
           "element": "Rubidium"
         }
       ],
-      "correct": "1808"
+      "correct": "1808",
+      "type": "discovery_year"
     }
   ]
 }

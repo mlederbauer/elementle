@@ -1,7 +1,7 @@
 let elementDataArray = [];
 let neighbors;
-const MAX_NEIGHBOR_GUESSES = 8;
-let guessesRemaining = MAX_NEIGHBOR_GUESSES;
+let maxNeighborGuesses = 0;
+let guessesRemaining = 0;
 let neighborsGuessed = 0;
 const revealedPositions = new Set(); // track which neighbor positions are already guessed
 let guessNames = [];
@@ -54,8 +54,7 @@ function restoreBonus1Progress() {
         guessNames.push(guess);
         updateGuessTable(guess, correct);
     });
-    guessesRemaining = Number.isInteger(saved.guessesRemaining) && saved.guessesRemaining >= 0
-        ? saved.guessesRemaining : Math.max(0, MAX_NEIGHBOR_GUESSES - guessNames.length);
+    guessesRemaining = Math.max(0, maxNeighborGuesses - guessNames.length);
     updateRemainingGuessesDisplay();
     updateBonus1ShareProgress();
     if (saved.completed) showBonus1Result(saved.won);
@@ -231,7 +230,10 @@ function showBonus1Result(won) {
             window.location.href = 'bonuspage_2.html';
         });
     } else {
-        resultMessage.textContent = "Out of guesses! You didn't find all neighboring elements.";
+        resultMessage.innerHTML = "Out of guesses! You didn't find all neighboring elements.<div id='nextBonusPage'>NEXT BONUS PAGE</div>";
+        document.getElementById('nextBonusPage').addEventListener('click', () => {
+            window.location.href = 'bonuspage_2.html';
+        });
     }
     resultMessage.style.display = 'block';
     document.getElementById('shareBtn').style.display = 'inline-block';
@@ -280,6 +282,8 @@ async function main() {
     }
 
     neighbors = getNeighboringElements(mainElement, elementDataArray);
+    maxNeighborGuesses = Object.values(neighbors).filter(n => n != null).length * 2;
+    guessesRemaining = maxNeighborGuesses;
     displayElementAndNeighbors(mainElement, neighbors);
     document.getElementById('guessForm').addEventListener('submit', handleGuess);
     updateRemainingGuessesDisplay();
@@ -294,8 +298,8 @@ function updateBonus1ShareProgress() {
     progress.bonus1 = {
         guessed: neighborsGuessed,
         total: totalNeighbors,
-        attemptsUsed: MAX_NEIGHBOR_GUESSES - guessesRemaining,
-        maxAttempts: MAX_NEIGHBOR_GUESSES,
+        attemptsUsed: maxNeighborGuesses - guessesRemaining,
+        maxAttempts: maxNeighborGuesses,
         completed: neighborsGuessed === totalNeighbors || guessesRemaining === 0
     };
     saveShareProgress(progress);
@@ -399,21 +403,15 @@ function getShareProgress(dateStr) {
 }
 
 function buildBonusProgressLines(progress) {
-    const lines = [];
-
-    const neighborGuesses = typeof progress?.bonus1?.attemptsUsed === 'number' ? progress.bonus1.attemptsUsed : 0;
-    lines.push(neighborGuesses > 0 ? '🏘️'.repeat(neighborGuesses) : '🏘️0');
-
-    const massGuesses = typeof progress?.bonus2?.attemptsUsed === 'number' ? progress.bonus2.attemptsUsed : 0;
-    lines.push(massGuesses > 0 ? '⚖️'.repeat(massGuesses) : '⚖️0');
-
-    let quizSummary = '❓';
-    if (Array.isArray(progress?.bonus3?.results) && progress.bonus3.results.length > 0) {
-        quizSummary = progress.bonus3.results
-            .map(result => (result === true ? '✅' : result === false ? '❌' : '❓'))
-            .join('');
-    }
-    lines.push(`Quiz: ${quizSummary}`);
-
-    return lines;
+    const triviaEmoji = {
+        recycling_rate: '♻️', price_per_kg: '💰', discovery_year: '📅', abundance_crust: '🪨',
+        discoverers: '🧑‍🔬', geochemical_class: '🧪', top_3_producers: '🌍', melting_point: '🌡️',
+        boiling_point: '🌡️', density: '🧱', electronegativity_pauling: '⚡', atomic_radius: '📏'
+    };
+    const neighbors = Number(progress?.bonus1?.guessed) || 0;
+    const mass = progress?.bonus2?.won ? 1 : 0;
+    const trivia = Array.isArray(progress?.bonus3?.results)
+        ? progress.bonus3.results.map((correct, i) => correct ? (triviaEmoji[progress.bonus3.types?.[i]] || '') : '').join('')
+        : '';
+    return ['🏘️'.repeat(neighbors), '⚖️'.repeat(mass), trivia].filter(Boolean);
 }

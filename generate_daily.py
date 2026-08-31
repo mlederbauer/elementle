@@ -70,7 +70,7 @@ try:
             return None
 
         random.shuffle(options)
-        return {"question": question, "options": options, "correct": correct_str}
+        return {"question": question, "options": options, "correct": correct_str, "type": attr}
 
     def is_nonempty(v):
         """Return True when v is non-None and not blank after stripping."""

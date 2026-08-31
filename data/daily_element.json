@@ -1,96 +1,96 @@
 {
-  "date": "2026-08-30",
-  "element": "Plutonium",
-  "atomicNumber": 94,
-  "symbol": "Pu",
+  "date": "2026-08-31",
+  "element": "Calcium",
+  "atomicNumber": 20,
+  "symbol": "Ca",
   "quiz": [
     {
-      "question": "When was Plutonium first discovered?",
+      "question": "Who discovered Calcium?",
       "options": [
         {
-          "text": "1944",
-          "element": "Curium"
-        },
-        {
-          "text": "1803",
-          "element": "Rhodium"
-        },
-        {
-          "text": "1861",
-          "element": "Rubidium"
-        },
-        {
-          "text": "1940",
-          "element": "Plutonium"
-        }
-      ],
-      "correct": "1940"
-    },
-    {
-      "question": "Who discovered Plutonium?",
-      "options": [
-        {
-          "text": "G.T.Seaborg, R.A.James, A.Ghiorso",
-          "element": "Curium"
-        },
-        {
-          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
-          "element": "Plutonium"
+          "text": "Sir Humphrey Davy",
+          "element": "Calcium"
         },
         {
           "text": "R. Bunsen, G. Kirchoff",
           "element": "Rubidium"
         },
         {
-          "text": "William Wollaston",
-          "element": "Rhodium"
+          "text": "Gustov Kirchoff, Robert Bunsen",
+          "element": "Cesium"
+        },
+        {
+          "text": "Anders Ekeberg",
+          "element": "Tantalum"
         }
       ],
-      "correct": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
+      "correct": "Sir Humphrey Davy"
     },
     {
-      "question": "What is the approximate price of Plutonium per kilogram?",
+      "question": "What is the geochemical class of Calcium?",
       "options": [
         {
-          "text": "$6,490,000.00/kg",
-          "element": "Plutonium"
+          "text": "U/Th decay series",
+          "element": "Francium"
         },
         {
-          "text": "$185,000,000.00/kg",
-          "element": "Curium"
+          "text": "major",
+          "element": "Calcium"
         },
+        {
+          "text": "high field strength",
+          "element": "Tantalum"
+        },
+        {
+          "text": "alkali metal",
+          "element": "Cesium"
+        }
+      ],
+      "correct": "major"
+    },
+    {
+      "question": "What is the approximate price of Calcium per kilogram?",
+      "options": [
         {
           "text": "$15,500.00/kg",
           "element": "Rubidium"
         },
         {
-          "text": "$147,000.00/kg",
-          "element": "Rhodium"
+          "text": "$61,800.00/kg",
+          "element": "Cesium"
+        },
+        {
+          "text": "$2.21/kg",
+          "element": "Calcium"
+        },
+        {
+          "text": "$298.00/kg",
+          "element": "Tantalum"
         }
       ],
-      "correct": "$6,490,000.00/kg"
+      "correct": "$2.21/kg"
     },
     {
-      "question": "What is the boiling point of Plutonium?",
+      "question": "When was Calcium first discovered?",
       "options": [
         {
-          "text": "688.0 \u00b0C",
+          "text": "1860",
+          "element": "Cesium"
+        },
+        {
+          "text": "1802",
+          "element": "Tantalum"
+        },
+        {
+          "text": "1808",
+          "element": "Calcium"
+        },
+        {
+          "text": "1861",
           "element": "Rubidium"
-        },
-        {
-          "text": "3228.0 \u00b0C",
-          "element": "Plutonium"
-        },
-        {
-          "text": "3695.0 \u00b0C",
-          "element": "Rhodium"
-        },
-        {
-          "text": "1564.0 \u00b0C",
-          "element": "Bismuth"
         }
       ],
-      "correct": "3228.0 \u00b0C"
+      "correct": "1808"
     }
   ]
 }

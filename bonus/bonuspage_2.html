@@ -48,11 +48,15 @@
         </table>
 
         <div id="result" class="result-area"></div>
-        <button id="shareBtn" onclick="shareResult()">Share result</button>
+        <div id="shareControls" class="share-controls">
+            <button id="shareBtn" type="button" onclick="ElementleShare.shareResult()">Share result</button>
+            <button id="transparentShareBtn" type="button" onclick="ElementleShare.shareResult('transparent')">Share transparently</button>
+        </div>
         <p id="shareToast">Copied to clipboard!</p>
     </main>
 
     <script src="../js/game_progress.js"></script>
+    <script src="../js/share.js"></script>
     <script src="../js/script_bonus2.js"></script>
 </body>
 </html>

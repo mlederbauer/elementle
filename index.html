@@ -45,7 +45,10 @@
         <p id="message"></p>
         <p id="attempts">Attempts left: 6</p>
         <div id="guessedWordsContainer"></div>
-        <button id="shareBtn" onclick="shareResult()">Share result</button>
+        <div id="shareControls" class="share-controls">
+            <button id="shareBtn" type="button" onclick="ElementleShare.shareResult()">Share result</button>
+            <button id="transparentShareBtn" type="button" onclick="ElementleShare.shareResult('transparent')">Share transparently</button>
+        </div>
         <p id="shareToast">Copied to clipboard!</p>
     </main>
 
@@ -66,6 +69,7 @@
     </div>
 
     <script src="js/game_progress.js"></script>
+    <script src="js/share.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -286,13 +286,18 @@ button:disabled { background: var(--grey); cursor: not-allowed; }
   margin-bottom: 14px;
 }
 
-/* ── Share button (hidden until game ends) ── */
-#shareBtn {
+/* ── Share controls (hidden until game ends) ── */
+.share-controls {
   display: none;
+  justify-content: center;
+  gap: 8px;
   margin: 18px auto 0;
-  background: var(--green);
 }
+.share-controls.visible { display: flex; }
+#shareBtn { background: var(--green); }
 #shareBtn:hover { background: #406e3c; }
+#transparentShareBtn { background: var(--grey); }
+#transparentShareBtn:hover { background: #555b66; }
 #shareToast {
   display: none;
   font-size: 0.8rem;

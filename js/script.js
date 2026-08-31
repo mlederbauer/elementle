@@ -57,6 +57,11 @@ function getTodayShareDate() {
     return new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
 }
 
+function getTodayUtcShareDate() {
+    const now = new Date();
+    return `${String(now.getUTCDate()).padStart(2, '0')}/${String(now.getUTCMonth() + 1).padStart(2, '0')}/${now.getUTCFullYear()}`;
+}
+
 // ── Data loading ──────────────────────────────────────────────────────────────
 
 function fetchData() {
@@ -82,7 +87,7 @@ function fetchData() {
         })
         .catch(() => {
             selectedElement = getDailyElement();
-            const shareDate = getTodayShareDate();
+            const shareDate = getTodayUtcShareDate();
             localStorage.setItem('elementle-gameDate', shareDate);
             ensureShareProgressDate(shareDate);
             saveSelectedElementToLocalStorage();

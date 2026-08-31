@@ -47,8 +47,7 @@ function restoreBonus2Progress() {
         massGuesses.push(guess);
         addGuessRow(guess, diff, correct);
     });
-    attemptsLeft = Number.isInteger(saved.attemptsLeft) && saved.attemptsLeft >= 0
-        ? saved.attemptsLeft : Math.max(0, MAX_ATTEMPTS - massGuesses.length);
+    attemptsLeft = Math.max(0, MAX_ATTEMPTS - massGuesses.length);
     updateAttemptsDisplay();
     if (saved.completed) endGame(saved.won, true);
 }

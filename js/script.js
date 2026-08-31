@@ -149,10 +149,10 @@ function restoreMainProgress(dateStr) {
     if (saved.won) {
         displayMessage('Correct! Well done.', 'var(--green)');
         colorCorrectElementGrid();
-        showBonusPageIcon();
     } else {
         displayMessage(`Out of attempts! The element was ${selectedElement}.`, '#c0392b');
     }
+    showBonusPageIcon();
     document.getElementById('shareBtn').style.display = 'inline-block';
 }
 

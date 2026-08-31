@@ -54,8 +54,7 @@ function restoreBonus1Progress() {
         guessNames.push(guess);
         updateGuessTable(guess, correct);
     });
-    guessesRemaining = Number.isInteger(saved.guessesRemaining) && saved.guessesRemaining >= 0
-        ? saved.guessesRemaining : Math.max(0, maxNeighborGuesses - guessNames.length);
+    guessesRemaining = Math.max(0, maxNeighborGuesses - guessNames.length);
     updateRemainingGuessesDisplay();
     updateBonus1ShareProgress();
     if (saved.completed) showBonus1Result(saved.won);

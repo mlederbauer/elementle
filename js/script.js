@@ -270,6 +270,7 @@ function endGame(won, usedAttempts) {
     showBonusPageIcon();
     ElementleShare.showShareControls();
     saveMainProgress(won);
+    openStats();
 }
 
 function saveGameResultToLocalStorage(won) {
@@ -470,34 +471,23 @@ function saveSelectedElementToLocalStorage() {
 
 // ── Stats ─────────────────────────────────────────────────────────────────────
 
-const STATS_KEY = 'elementle-stats';
-
 function loadStats() {
-    try {
-        const stored = JSON.parse(localStorage.getItem(STATS_KEY));
-        if (!stored) return defaultStats();
-        if (!Array.isArray(stored.distribution)) stored.distribution = [0,0,0,0,0,0];
-        return stored;
-    } catch { return defaultStats(); }
-}
-
-function defaultStats() {
-    return { played: 0, won: 0, currentStreak: 0, maxStreak: 0, distribution: [0,0,0,0,0,0] };
+    return window.ElementleStats?.load(localStorage) || {
+        played: 0,
+        won: 0,
+        currentStreak: 0,
+        maxStreak: 0,
+        distribution: [0, 0, 0, 0, 0, 0],
+        bonuses: {
+            bonus1: { correct: 0, completed: 0 },
+            bonus2: { correct: 0, completed: 0 },
+            bonus3: { correct: 0, completed: 0 }
+        }
+    };
 }
 
 function updateStats(won, usedAttempts) {
-    const stats = loadStats();
-    stats.played++;
-    if (won) {
-        stats.won++;
-        stats.currentStreak++;
-        if (stats.currentStreak > stats.maxStreak) stats.maxStreak = stats.currentStreak;
-        const bucketIdx = Math.min(usedAttempts - 1, 5);
-        stats.distribution[bucketIdx]++;
-    } else {
-        stats.currentStreak = 0;
-    }
-    try { localStorage.setItem(STATS_KEY, JSON.stringify(stats)); } catch {}
+    window.ElementleStats?.recordMain(localStorage, won, usedAttempts);
 }
 
 function openStats() {
@@ -527,6 +517,23 @@ function openStats() {
         wrap.appendChild(bar);
         row.appendChild(wrap);
         barsDiv.appendChild(row);
+    });
+
+    const bonusStats = document.getElementById('bonusStats');
+    bonusStats.innerHTML = '';
+    [
+        ['Neighbors correct', stats.bonuses.bonus1],
+        ['Mass rounds won', stats.bonuses.bonus2],
+        ['Trivia answers correct', stats.bonuses.bonus3]
+    ].forEach(([label, result]) => {
+        const row = document.createElement('div');
+        row.classList.add('bonus-stat-row');
+        const name = document.createElement('span');
+        name.textContent = label;
+        const totals = document.createElement('span');
+        totals.textContent = `${result.correct} correct · ${result.completed} completed`;
+        row.append(name, totals);
+        bonusStats.appendChild(row);
     });
 
     document.getElementById('statsModal').classList.add('open');

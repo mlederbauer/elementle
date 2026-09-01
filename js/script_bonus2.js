@@ -174,6 +174,7 @@ function updateAttemptsDisplay() {
 }
 
 function endGame(won) {
+    window.ElementleStats?.recordBonus(localStorage, getGameDate(), 'bonus2', won ? 1 : 0);
     document.getElementById('guessForm').style.display = 'none';
 
     // Reveal the atomic mass on the card

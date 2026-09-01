@@ -171,6 +171,7 @@ function handleAnswer(qi, chosen, grid, q) {
 }
 
 function showResult() {
+    window.ElementleStats?.recordBonus(localStorage, getGameDate(), 'bonus3', score);
     const result = document.getElementById('result');
     const partialMsgs = [
         'Better luck tomorrow!',

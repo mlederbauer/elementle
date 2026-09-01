@@ -127,7 +127,9 @@ body {
   justify-content: center;
   gap: 8px;
   margin-bottom: 10px;
+  position: relative;
 }
+#elementsList { width: 220px; }
 #guessInput {
   padding: 10px 14px;
   font-size: 1rem;

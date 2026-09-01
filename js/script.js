@@ -349,7 +349,6 @@ function createWordDiv(guess, guessedData, selectedData) {
     div.classList.add("wordDiv");
     appendColoredLetters(div, guess, selectedElement);
     appendPlaceholders(div, guess);
-    appendLengthSign(div, guess);
     appendArrowsOrCheckmarks(div, guessedData, selectedData);
     appendPercentage(div, guessedData, selectedData);
     return div;
@@ -398,15 +397,6 @@ function appendPlaceholders(parent, guess) {
         span.classList.add("letterRectangle", "transparentPlaceholder");
         parent.appendChild(span);
     }
-}
-
-function appendLengthSign(parent, guess) {
-    const span = document.createElement("span");
-    span.classList.add("sign");
-    if (selectedElement.length > guess.length)      span.textContent = "\u2795";
-    else if (selectedElement.length < guess.length) span.textContent = "\u2796";
-    else                                             span.textContent = "🟰";
-    parent.appendChild(span);
 }
 
 function appendArrowsOrCheckmarks(parent, gueData, selData) {

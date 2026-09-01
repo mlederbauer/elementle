@@ -519,16 +519,16 @@ function openStats() {
     const bonusStats = document.getElementById('bonusStats');
     bonusStats.innerHTML = '';
     [
-        ['Neighbors correct', stats.bonuses.bonus1],
+        ['Neighbors', stats.bonuses.bonus1],
         ['Mass rounds won', stats.bonuses.bonus2],
-        ['Trivia answers correct', stats.bonuses.bonus3]
+        ['Trivia', stats.bonuses.bonus3]
     ].forEach(([label, result]) => {
         const row = document.createElement('div');
         row.classList.add('bonus-stat-row');
         const name = document.createElement('span');
         name.textContent = label;
         const totals = document.createElement('span');
-        totals.textContent = `${result.correct} correct · ${result.completed} completed`;
+        totals.textContent = `${result.correct}/${result.total || result.completed}`;
         row.append(name, totals);
         bonusStats.appendChild(row);
     });

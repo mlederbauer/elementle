@@ -135,7 +135,7 @@ test('current streak reads browser-local stats and tolerates malformed data', ()
 
 test('bonus progress emojis are preserved in both modes', () => {
     const progress = {
-        bonus1: { guessed: 2 },
+        bonus1: { guessed: 2, total: 2, completed: true },
         bonus2: { won: true },
         bonus3: {
             types: ['density', 'discovery_year', 'melting_point'],
@@ -143,9 +143,9 @@ test('bonus progress emojis are preserved in both modes', () => {
         }
     };
 
-    assert.deepEqual(buildBonusProgressLines(progress), ['🏘️🏘️', '⚖️', '🧱🌡️']);
-    assert.match(shareText({ progress }), /🏘️🏘️\n⚖️\n🧱🌡️/);
-    assert.match(shareText({ progress, mode: 'transparent' }), /🏘️🏘️\n⚖️\n🧱🌡️/);
+    assert.deepEqual(buildBonusProgressLines(progress), ['🏘️', '⚖️', '🧱🌡️']);
+    assert.match(shareText({ progress }), /🏘️\n⚖️\n🧱🌡️/);
+    assert.match(shareText({ progress, mode: 'transparent' }), /🏘️\n⚖️\n🧱🌡️/);
 });
 
 test('main share state is available only for the date it was saved', () => {

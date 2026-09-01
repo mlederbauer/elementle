@@ -171,7 +171,7 @@ function handleAnswer(qi, chosen, grid, q) {
 }
 
 function showResult() {
-    window.ElementleStats?.recordBonus(localStorage, getGameDate(), 'bonus3', score);
+    window.ElementleStats?.recordBonus(localStorage, getGameDate(), 'bonus3', score, quiz.length);
     const result = document.getElementById('result');
     const partialMsgs = [
         'Better luck tomorrow!',
@@ -185,8 +185,9 @@ function showResult() {
     const colorClass = score === quiz.length ? 'result-win' : score >= 1 ? 'result-mid' : 'result-lose';
     result.innerHTML = `
         <p class="${colorClass}">${score}/${quiz.length} correct — ${msg}</p>
-        <p class="result-sub">Come back tomorrow for a new element.</p>
-        <a href="../index.html?stats=1" class="btn-home">View statistics</a>`;
+        <p class="result-sub">Come back tomorrow for a new element.</p>`;
+    document.getElementById('statsLink').innerHTML =
+        '<a href="../index.html?stats=1" class="btn-home">View statistics</a>';
 
     ElementleShare.showShareControls(true);
 }

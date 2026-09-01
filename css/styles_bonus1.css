@@ -194,12 +194,13 @@ button[type="submit"]:hover { background: #3d3d3d; }
   margin: 0 0 12px;
 }
 #nextBonusPage {
+  display: inline-block;
   background: var(--green);
   color: #fff;
-  padding: 12px 20px;
+  padding: 10px 22px;
   border-radius: var(--radius);
   font-weight: 700;
-  letter-spacing: 0.05em;
+  font-size: 0.9rem;
   cursor: pointer;
   transition: background 0.15s;
 }

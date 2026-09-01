@@ -241,12 +241,23 @@ function showBonus1Result(won) {
 }
 
 function populateDatalist(elements) {
-    const datalist = document.getElementById('elementsList');
+    const input = document.getElementById('guessInput');
+    const list = document.getElementById('elementsList');
     const sorted = [...elements].sort((a, b) => a.Element.localeCompare(b.Element));
-    sorted.forEach(el => {
-        const option = document.createElement('option');
-        option.value = el.Element;
-        datalist.appendChild(option);
+    input.addEventListener('input', () => {
+        const query = input.value.trim().toLowerCase();
+        list.innerHTML = '';
+        if (!query) return;
+        sorted.filter(el => el.Element.toLowerCase().startsWith(query)).forEach(el => {
+            const item = document.createElement('li');
+            item.textContent = el.Element;
+            item.addEventListener('mousedown', event => {
+                event.preventDefault();
+                input.value = el.Element;
+                list.innerHTML = '';
+            });
+            list.appendChild(item);
+        });
     });
 }
 

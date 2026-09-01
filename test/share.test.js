@@ -36,6 +36,51 @@ function createStorage() {
     };
 }
 
+function createShareWindow(overrides = {}) {
+    const storage = createStorage();
+    const toast = { style: {} };
+    const calls = { appended: 0, removed: 0, timeouts: [], prompts: [] };
+    const window = {
+        localStorage: storage,
+        navigator: {},
+        isSecureContext: true,
+        document: {
+            getElementById(id) {
+                assert.equal(id, 'shareToast');
+                return toast;
+            },
+            createElement() {
+                return {
+                    style: {},
+                    setAttribute() {},
+                    select() {},
+                    setSelectionRange() {}
+                };
+            },
+            body: {
+                appendChild() { calls.appended += 1; },
+                removeChild() { calls.removed += 1; }
+            },
+            execCommand() { return false; }
+        },
+        setTimeout(callback, delay) { calls.timeouts.push({ callback, delay }); },
+        prompt(...args) { calls.prompts.push(args); },
+        ...overrides
+    };
+    const context = vm.createContext({ window });
+    vm.runInContext(fs.readFileSync('js/share.js', 'utf8'), context);
+    return { api: window.ElementleShare, storage, toast, calls };
+}
+
+function saveShareState(api, storage) {
+    storage.setItem('elementle-gameDate', dateStr);
+    api.saveMainShareState(storage, dateStr, {
+        history,
+        won: true,
+        secretRows: ['🟩🟩⬛⬛⬛', '🟩⬛⬛⬛⬛']
+    });
+}
+
 test('secret rows use the on-screen green thresholds and always contain five squares', () => {
     const selected = { Period: 1, Group: 1 };
 
@@ -106,6 +151,84 @@ test('main share state is available only for the date it was saved', () => {
         won: false,
         secretRows: []
     });
+});
+
+test('share result opens the native share sheet with the generated text when available', async () => {
+    const shared = [];
+    const copied = [];
+    const { api, storage, toast, calls } = createShareWindow({
+        navigator: {
+            share(data) {
+                shared.push(data);
+                return Promise.resolve();
+            },
+            clipboard: {
+                writeText(text) {
+                    copied.push(text);
+                    return Promise.resolve();
+                }
+            }
+        }
+    });
+    saveShareState(api, storage);
+
+    await api.shareResult();
+
+    assert.equal(shared.length, 1);
+    assert.equal(shared[0].text, shareText());
+    assert.deepEqual(copied, []);
+    assert.equal(toast.style.display, undefined);
+    assert.deepEqual(calls.prompts, []);
+});
+
+test('cancelling the native share sheet does not show copied feedback', async () => {
+    const { api, storage, toast, calls } = createShareWindow({
+        navigator: {
+            share() {
+                return Promise.reject(Object.assign(new Error('Cancelled'), { name: 'AbortError' }));
+            }
+        }
+    });
+    saveShareState(api, storage);
+
+    await api.shareResult();
+
+    assert.equal(toast.style.display, undefined);
+    assert.deepEqual(calls.prompts, []);
+    assert.deepEqual(calls.timeouts, []);
+});
+
+test('share result keeps clipboard copying and copied feedback when native sharing is unavailable', async () => {
+    const copied = [];
+    const { api, storage, toast, calls } = createShareWindow({
+        navigator: {
+            clipboard: {
+                writeText(text) {
+                    copied.push(text);
+                    return Promise.resolve();
+                }
+            }
+        }
+    });
+    saveShareState(api, storage);
+
+    await api.shareResult();
+
+    assert.deepEqual(copied, [shareText()]);
+    assert.equal(toast.style.display, 'block');
+    assert.deepEqual(calls.timeouts.map(({ delay }) => delay), [2000]);
+    assert.deepEqual(calls.prompts, []);
+});
+
+test('share result keeps the prompt fallback when clipboard copying fails', async () => {
+    const { api, storage, calls } = createShareWindow({ isSecureContext: false });
+    saveShareState(api, storage);
+
+    await api.shareResult();
+
+    assert.equal(calls.appended, 1);
+    assert.equal(calls.removed, 1);
+    assert.deepEqual(calls.prompts, [['Copy this to share:', shareText()]]);
 });
 
 test('Bonus Round 3 saves trivia progress when initializing and answering', () => {

@@ -1,8 +1,8 @@
 (function (root, factory) {
-    const api = factory();
+    const api = factory(root);
     if (typeof module !== 'undefined' && module.exports) module.exports = api;
     if (root) root.ElementleShare = api;
-})(typeof window !== 'undefined' ? window : null, function () {
+})(typeof window !== 'undefined' ? window : null, function (root) {
     const MAX_ATTEMPTS = 6;
     const SHARE_PROGRESS_KEY = 'elementle-share-progress';
     const GREEN_SQUARE = '🟩';
@@ -130,7 +130,11 @@
             progress,
             mode
         });
-        copyTextToClipboard(text).then(() => {
+        if (typeof root.navigator?.share === 'function') {
+            return root.navigator.share({ text }).catch(() => {});
+        }
+
+        return copyTextToClipboard(text).then(() => {
             const toast = root.document.getElementById('shareToast');
             toast.style.display = 'block';
             root.setTimeout(() => { toast.style.display = 'none'; }, 2000);

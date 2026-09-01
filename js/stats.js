@@ -18,9 +18,9 @@
             maxStreak: 0,
             distribution: [0, 0, 0, 0, 0, 0],
             bonuses: {
-                bonus1: { correct: 0, completed: 0 },
-                bonus2: { correct: 0, completed: 0 },
-                bonus3: { correct: 0, completed: 0 }
+                bonus1: { correct: 0, completed: 0, total: 0 },
+                bonus2: { correct: 0, completed: 0, total: 0 },
+                bonus3: { correct: 0, completed: 0, total: 0 }
             },
             recordedBonusDays: {}
         };
@@ -43,7 +43,8 @@
             distribution: defaults.distribution.map((_, index) => nonNegativeInteger(source.distribution?.[index])),
             bonuses: Object.fromEntries(BONUS_ROUNDS.map(round => [round, {
                 correct: nonNegativeInteger(bonuses[round]?.correct),
-                completed: nonNegativeInteger(bonuses[round]?.completed)
+                completed: nonNegativeInteger(bonuses[round]?.completed),
+                total: nonNegativeInteger(bonuses[round]?.total)
             }])),
             recordedBonusDays: Object.fromEntries(
                 Object.entries(recordedBonusDays)
@@ -88,7 +89,7 @@
         return stats;
     }
 
-    function recordBonus(storage, date, round, correct) {
+    function recordBonus(storage, date, round, correct, total = 1) {
         if (!BONUS_ROUNDS.includes(round) || typeof date !== 'string' || !date) return load(storage);
 
         const stats = load(storage);
@@ -98,6 +99,7 @@
         stats.recordedBonusDays[date][round] = true;
         stats.bonuses[round].completed++;
         stats.bonuses[round].correct += nonNegativeInteger(correct);
+        stats.bonuses[round].total += nonNegativeInteger(total);
         save(storage, stats);
         return stats;
     }

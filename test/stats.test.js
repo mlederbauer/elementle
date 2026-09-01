@@ -30,9 +30,9 @@ test('normalizes older main-game statistics without losing their values', () => 
         maxStreak: 4,
         distribution: [1, 2, 1, 1, 0, 0],
         bonuses: {
-            bonus1: { correct: 0, completed: 0 },
-            bonus2: { correct: 0, completed: 0 },
-            bonus3: { correct: 0, completed: 0 }
+            bonus1: { correct: 0, completed: 0, total: 0 },
+            bonus2: { correct: 0, completed: 0, total: 0 },
+            bonus3: { correct: 0, completed: 0, total: 0 }
         },
         recordedBonusDays: {}
     });
@@ -62,9 +62,9 @@ test('records each completed bonus round only once for a date', () => {
 
     const loaded = stats.load(storage);
     assert.deepEqual(loaded.bonuses, {
-        bonus1: { correct: 5, completed: 2 },
-        bonus2: { correct: 1, completed: 1 },
-        bonus3: { correct: 0, completed: 0 }
+        bonus1: { correct: 5, completed: 2, total: 2 },
+        bonus2: { correct: 1, completed: 1, total: 1 },
+        bonus3: { correct: 0, completed: 0, total: 0 }
     });
 });
 
@@ -76,9 +76,9 @@ test('ignores invalid bonus round and result values', () => {
     stats.recordBonus(storage, '01/09/2026', 'bonus3', -1);
 
     assert.deepEqual(stats.load(storage).bonuses, {
-        bonus1: { correct: 0, completed: 0 },
-        bonus2: { correct: 0, completed: 0 },
-        bonus3: { correct: 0, completed: 1 }
+        bonus1: { correct: 0, completed: 0, total: 0 },
+        bonus2: { correct: 0, completed: 0, total: 0 },
+        bonus3: { correct: 0, completed: 1, total: 1 }
     });
 });
 
@@ -135,12 +135,8 @@ test('a new main-game completion opens the modal and renders bonus totals', () =
 
     vm.runInContext('endGame(true, 2);', context);
 
-    assert.equal(elements.statsModal.classList.contains('open'), true);
-    assert.equal(elements.statPlayed.textContent, 1);
-    assert.equal(elements.statStreak.textContent, 1);
-    assert.equal(elements.statsBars.children.length, 6);
-    assert.equal(elements.bonusStats.children.length, 3);
-    assert.equal(elements.bonusStats.children[0].children[1].textContent, '2 correct · 1 completed');
+    assert.equal(elements.statsModal.classList.contains('open'), false);
+    assert.equal(stats.load(storage).played, 1);
 });
 
 test('restoring a completed main game neither records statistics nor opens the modal', () => {

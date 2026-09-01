@@ -160,9 +160,8 @@
         });
     }
 
-    function showShareControls(finalRound = false) {
+    function showShareControls() {
         root.document.getElementById('shareControls').classList.add('visible');
-        root.document.getElementById('transparentShareBtn').style.display = finalRound ? '' : 'none';
     }
 
     return { buildSecretRow, buildBonusProgressLines, buildShareText, getShareProgress, saveMainShareState, getMainShareState, getCurrentStreak, shareResult, showShareControls };

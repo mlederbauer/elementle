@@ -187,12 +187,12 @@ function endGame(won) {
         result.innerHTML = `
             <p class="result-win">Correct! The atomic mass of ${targetElement.Element} is <strong>${targetElement.AtomicMass}&thinsp;u</strong>.</p>
             <p class="result-sub">One more round to go!</p>
-            <a href="bonuspage_3.html" class="btn-home">Bonus Round 3 →</a>`;
+            <a href="bonuspage_3.html" class="btn-home">Next round</a>`;
     } else {
         result.innerHTML = `
             <p class="result-lose">The atomic mass of ${targetElement.Element} is <strong>${targetElement.AtomicMass}&thinsp;u</strong>.</p>
             <p class="result-sub">Want to learn a fun fact about today's element?</p>
-            <a href="bonuspage_3.html" class="btn-home">Bonus Round 3 →</a>`;
+            <a href="bonuspage_3.html" class="btn-home">Next round</a>`;
     }
 
     ElementleShare.showShareControls();

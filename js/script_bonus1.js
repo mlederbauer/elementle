@@ -226,12 +226,12 @@ function showBonus1Result(won) {
     const resultMessage = document.getElementById('resultMessage');
     document.getElementById('guessForm').style.display = 'none';
     if (won) {
-        resultMessage.innerHTML = "<div id='nextBonusPage'>NEXT BONUS PAGE</div>";
+        resultMessage.innerHTML = "<div id='nextBonusPage'>Next round</div>";
         document.getElementById('nextBonusPage').addEventListener('click', () => {
             window.location.href = 'bonuspage_2.html';
         });
     } else {
-        resultMessage.innerHTML = "<p class='bonus-result-message'>Out of guesses! You didn't find all neighboring elements.</p><div id='nextBonusPage'>NEXT BONUS PAGE</div>";
+        resultMessage.innerHTML = "<p class='bonus-result-message'>Out of guesses! You didn't find all neighboring elements.</p><div id='nextBonusPage'>Next round</div>";
         document.getElementById('nextBonusPage').addEventListener('click', () => {
             window.location.href = 'bonuspage_2.html';
         });

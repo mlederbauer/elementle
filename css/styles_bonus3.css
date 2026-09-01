@@ -234,9 +234,10 @@ body {
   font-weight: 700;
   font-size: 0.9rem;
   text-decoration: none;
+  background: var(--green);
   transition: background 0.15s;
 }
-.btn-home:hover { background: #3d3d3d; }
+.btn-home:hover { background: #406e3c; }
 
 /* ── Share controls (hidden until quiz ends) ── */
 .share-controls {

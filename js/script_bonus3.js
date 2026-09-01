@@ -186,9 +186,9 @@ function showResult() {
     result.innerHTML = `
         <p class="${colorClass}">${score}/${quiz.length} correct — ${msg}</p>
         <p class="result-sub">Come back tomorrow for a new element.</p>
-        <a href="../index.html" class="btn-home">Back to main game</a>`;
+        <a href="../index.html?stats=1" class="btn-home">View statistics</a>`;
 
-    ElementleShare.showShareControls();
+    ElementleShare.showShareControls(true);
 }
 
 function updateBonus3ShareProgress() {

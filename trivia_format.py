@@ -44,6 +44,11 @@ def format_measurement(value, prefix="", suffix=""):
     return f"{prefix}{format_significant(value)}{suffix}"
 
 
+def kelvin_to_celsius(value):
+    """Convert Kelvin to Celsius using decimal arithmetic."""
+    return _decimal(value) - Decimal("273.15")
+
+
 def format_optional_numeric(value):
     """Format numeric values, preserving non-numeric text unchanged."""
-    return format_significant(value) if is_numeric(value) else str(value).strip()
+    return format_significant(value) if is_numeric(value) else str(value)

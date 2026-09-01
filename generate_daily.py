@@ -10,7 +10,12 @@ import json
 import random
 from datetime import datetime, timezone
 
-from trivia_format import format_measurement, format_optional_numeric, is_numeric
+from trivia_format import (
+    format_measurement,
+    format_optional_numeric,
+    is_numeric,
+    kelvin_to_celsius,
+)
 
 START_DATE = datetime(2024, 1, 1, tzinfo=timezone.utc).date()
 
@@ -129,13 +134,13 @@ try:
         (
             "melting_point",
             f"What is the melting point of {name}?",
-            lambda v: format_measurement(v - 273.15, suffix=" °C"),
+            lambda v: format_measurement(kelvin_to_celsius(v), suffix=" °C"),
             is_numeric,
         ),
         (
             "boiling_point",
             f"What is the boiling point of {name}?",
-            lambda v: format_measurement(v - 273.15, suffix=" °C"),
+            lambda v: format_measurement(kelvin_to_celsius(v), suffix=" °C"),
             is_numeric,
         ),
     ]

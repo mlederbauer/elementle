@@ -5,6 +5,7 @@ from trivia_format import (
     format_optional_numeric,
     format_significant,
     is_numeric,
+    kelvin_to_celsius,
 )
 
 
@@ -24,9 +25,13 @@ class TriviaFormatTests(unittest.TestCase):
         self.assertEqual(format_measurement(15500, prefix="$", suffix="/kg"), "$15,500/kg")
         self.assertEqual(format_measurement(1.234, suffix=" g/cm³"), "1.23 g/cm³")
 
+    def test_converts_kelvin_with_decimal_precision_before_rounding(self):
+        celsius = kelvin_to_celsius(4098.15)
+        self.assertEqual(format_measurement(celsius, suffix=" °C"), "3,830 °C")
+
     def test_preserves_non_numeric_optional_values(self):
         self.assertEqual(format_optional_numeric("high"), "high")
-        self.assertEqual(format_optional_numeric("  unknown  "), "unknown")
+        self.assertEqual(format_optional_numeric("  unknown  "), "  unknown  ")
         self.assertEqual(format_optional_numeric("1.2345"), "1.23")
 
     def test_rejects_non_finite_or_invalid_numeric_values(self):

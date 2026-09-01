@@ -84,6 +84,7 @@ function fetchData() {
             }
             saveSelectedElementToLocalStorage();
             restoreMainProgress(shareDate || getTodayShareDate());
+            openRequestedStats();
         })
         .catch(() => {
             selectedElement = getDailyElement();
@@ -92,6 +93,7 @@ function fetchData() {
             ensureShareProgressDate(shareDate);
             saveSelectedElementToLocalStorage();
             restoreMainProgress(shareDate);
+            openRequestedStats();
         });
 }
 
@@ -270,7 +272,6 @@ function endGame(won, usedAttempts) {
     showBonusPageIcon();
     ElementleShare.showShareControls();
     saveMainProgress(won);
-    openStats();
 }
 
 function saveGameResultToLocalStorage(won) {
@@ -460,6 +461,12 @@ function saveSelectedElementToLocalStorage() {
 }
 
 // ── Stats ─────────────────────────────────────────────────────────────────────
+
+function openRequestedStats() {
+    if (new URLSearchParams(window.location.search).get('stats') !== '1') return;
+    openStats();
+    window.history.replaceState({}, '', window.location.pathname);
+}
 
 function loadStats() {
     return window.ElementleStats?.load(localStorage) || {

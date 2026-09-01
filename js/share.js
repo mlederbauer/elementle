@@ -32,7 +32,8 @@
             discoverers: '🧑‍🔬', geochemical_class: '🧪', top_3_producers: '🌍', melting_point: '🌡️',
             boiling_point: '🌡️', density: '🧱', electronegativity_pauling: '⚡', atomic_radius: '📏'
         };
-        const neighbors = Number(progress?.bonus1?.guessed) || 0;
+        const neighbors = progress?.bonus1?.completed
+            && progress.bonus1.guessed === progress.bonus1.total ? 1 : 0;
         const mass = progress?.bonus2?.won ? 1 : 0;
         const trivia = Array.isArray(progress?.bonus3?.results)
             ? progress.bonus3.results.map((correct, index) =>
@@ -51,12 +52,12 @@
             : guessHistory.map((_, index) => normalizeSecretRow(secretRows?.[index])).join('\n');
 
         return [
+            `🔥 ${currentStreak}`,
             `Elementle ${dateStr}  ${score}`,
             '',
             rows,
             '',
             ...buildBonusProgressLines(progress),
-            `🔥 ${currentStreak}`,
             '',
             '🧪 Play at: https://elementle.ch'
         ].join('\n');
@@ -159,8 +160,9 @@
         });
     }
 
-    function showShareControls() {
+    function showShareControls(finalRound = false) {
         root.document.getElementById('shareControls').classList.add('visible');
+        root.document.getElementById('transparentShareBtn').style.display = finalRound ? '' : 'none';
     }
 
     return { buildSecretRow, buildBonusProgressLines, buildShareText, getShareProgress, saveMainShareState, getMainShareState, getCurrentStreak, shareResult, showShareControls };

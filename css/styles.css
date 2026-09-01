@@ -350,15 +350,6 @@ button:disabled { background: var(--grey); cursor: not-allowed; }
 .green  { background: var(--green);  color: #fff; }
 .yellow { background: var(--yellow); color: #fff; }
 
-.sign {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 26px;
-  height: 26px;
-  font-size: 0.82rem;
-  margin-left: 4px;
-}
 .percentageBox {
   display: inline-block;
   width: 11px;

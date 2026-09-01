@@ -21,8 +21,10 @@
         <p class="round-desc">Guess the elements neighboring today's element in the periodic table.</p>
         <div id="elementContainer"></div>
         <form id="guessForm">
-            <input type="text" id="guessInput" placeholder="Type a neighboring element" list="elementsList" autocomplete="off">
-            <datalist id="elementsList"></datalist>
+            <div class="neighbor-autocomplete">
+                <input type="text" id="guessInput" placeholder="Type a neighboring element" autocomplete="off">
+                <ul id="elementsList" class="elements-list" role="listbox"></ul>
+            </div>
             <button type="submit">Guess</button>
         </form>
         <p id="remainingGuesses">Remaining Guesses: 8</p>

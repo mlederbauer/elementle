@@ -10,6 +10,13 @@ import json
 import random
 from datetime import datetime, timezone
 
+from trivia_format import (
+    format_measurement,
+    format_optional_numeric,
+    is_numeric,
+    kelvin_to_celsius,
+)
+
 START_DATE = datetime(2024, 1, 1, tzinfo=timezone.utc).date()
 
 with open('data/elements_simple.json', 'r') as f:
@@ -81,14 +88,14 @@ try:
         (
             "recycling_rate",
             f"What is the recycling rate of {name}?",
-            lambda v: str(v),
+            format_optional_numeric,
             is_nonempty,
         ),
         (
             "price_per_kg",
             f"What is the approximate price of {name} per kilogram?",
-            lambda v: f"${v:,.2f}/kg",
-            lambda v: v is not None,
+            lambda v: format_measurement(v, prefix="$", suffix="/kg"),
+            is_numeric,
         ),
         (
             "discovery_year",
@@ -99,8 +106,8 @@ try:
         (
             "abundance_crust",
             f"What is the crustal abundance of {name}?",
-            lambda v: f"{v} mg/kg",
-            lambda v: v is not None,
+            lambda v: format_measurement(v, suffix=" mg/kg"),
+            is_numeric,
         ),
         (
             "discoverers",
@@ -127,14 +134,14 @@ try:
         (
             "melting_point",
             f"What is the melting point of {name}?",
-            lambda v: f"{v - 273.15:.1f} °C",
-            lambda v: v is not None,
+            lambda v: format_measurement(kelvin_to_celsius(v), suffix=" °C"),
+            is_numeric,
         ),
         (
             "boiling_point",
             f"What is the boiling point of {name}?",
-            lambda v: f"{v - 273.15:.1f} °C",
-            lambda v: v is not None,
+            lambda v: format_measurement(kelvin_to_celsius(v), suffix=" °C"),
+            is_numeric,
         ),
     ]
 
@@ -143,20 +150,20 @@ try:
         (
             "density",
             f"What is the density of {name}?",
-            lambda v: f"{v} g/cm³",
-            lambda v: v is not None,
+            lambda v: format_measurement(v, suffix=" g/cm³"),
+            is_numeric,
         ),
         (
             "electronegativity_pauling",
             f"What is the Pauling electronegativity of {name}?",
-            lambda v: f"{v:.2f}",
-            lambda v: v is not None,
+            format_measurement,
+            is_numeric,
         ),
         (
             "atomic_radius",
             f"What is the atomic radius of {name}?",
-            lambda v: f"{v} pm",
-            lambda v: v is not None,
+            lambda v: format_measurement(v, suffix=" pm"),
+            is_numeric,
         ),
     ]
 

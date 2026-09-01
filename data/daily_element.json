@@ -1,100 +1,77 @@
 {
-  "date": "2026-08-31",
-  "element": "Calcium",
-  "atomicNumber": 20,
-  "symbol": "Ca",
+  "date": "2026-09-01",
+  "element": "Livermorium",
+  "atomicNumber": 116,
+  "symbol": "Lv",
   "quiz": [
     {
-      "question": "Who discovered Calcium?",
+      "question": "When was Livermorium first discovered?",
       "options": [
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Calcium"
+          "text": "1886",
+          "element": "Dysprosium"
         },
         {
-          "text": "R. Bunsen, G. Kirchoff",
-          "element": "Rubidium"
+          "text": "2000",
+          "element": "Livermorium"
         },
         {
-          "text": "Gustov Kirchoff, Robert Bunsen",
-          "element": "Cesium"
+          "text": "1899",
+          "element": "Actinium"
         },
         {
-          "text": "Anders Ekeberg",
-          "element": "Tantalum"
+          "text": "1735",
+          "element": "Platinum"
         }
       ],
-      "correct": "Sir Humphrey Davy",
+      "correct": "2000",
+      "type": "discovery_year"
+    },
+    {
+      "question": "Who discovered Livermorium?",
+      "options": [
+        {
+          "text": "Andr\u00e9 Debierne",
+          "element": "Actinium"
+        },
+        {
+          "text": "Lawrence Livermore National Laboratory",
+          "element": "Livermorium"
+        },
+        {
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "Julius Scaliger",
+          "element": "Platinum"
+        }
+      ],
+      "correct": "Lawrence Livermore National Laboratory",
       "type": "discoverers"
     },
     {
-      "question": "What is the geochemical class of Calcium?",
+      "question": "What is the density of Livermorium?",
       "options": [
         {
-          "text": "U/Th decay series",
-          "element": "Francium"
+          "text": "21.5 g/cm\u00b3",
+          "element": "Platinum"
         },
         {
-          "text": "major",
-          "element": "Calcium"
+          "text": "10 g/cm\u00b3",
+          "element": "Actinium"
         },
         {
-          "text": "high field strength",
-          "element": "Tantalum"
+          "text": "12.9 g/cm\u00b3",
+          "element": "Livermorium"
         },
         {
-          "text": "alkali metal",
-          "element": "Cesium"
+          "text": "8.55 g/cm\u00b3",
+          "element": "Dysprosium"
         }
       ],
-      "correct": "major",
-      "type": "geochemical_class"
-    },
-    {
-      "question": "What is the approximate price of Calcium per kilogram?",
-      "options": [
-        {
-          "text": "$15,500.00/kg",
-          "element": "Rubidium"
-        },
-        {
-          "text": "$61,800.00/kg",
-          "element": "Cesium"
-        },
-        {
-          "text": "$2.21/kg",
-          "element": "Calcium"
-        },
-        {
-          "text": "$298.00/kg",
-          "element": "Tantalum"
-        }
-      ],
-      "correct": "$2.21/kg",
-      "type": "price_per_kg"
-    },
-    {
-      "question": "When was Calcium first discovered?",
-      "options": [
-        {
-          "text": "1860",
-          "element": "Cesium"
-        },
-        {
-          "text": "1802",
-          "element": "Tantalum"
-        },
-        {
-          "text": "1808",
-          "element": "Calcium"
-        },
-        {
-          "text": "1861",
-          "element": "Rubidium"
-        }
-      ],
-      "correct": "1808",
-      "type": "discovery_year"
+      "correct": "12.9 g/cm\u00b3",
+      "type": "density"
     }
   ]
 }

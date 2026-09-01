@@ -1,3 +1,4 @@
 .vscode
 .dreb/
+__pycache__/
 csv-to-json.py

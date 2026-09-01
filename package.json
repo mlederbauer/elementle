@@ -1,6 +1,6 @@
 {
   "private": true,
   "scripts": {
-    "test": "node --test"
+    "test": "python3 -m unittest discover -s test -p 'test_*.py' && node --test"
   }
 }

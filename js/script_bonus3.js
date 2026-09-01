@@ -189,7 +189,7 @@ function showResult() {
     document.getElementById('statsLink').innerHTML =
         '<a href="../index.html?stats=1" class="btn-home">View statistics</a>';
 
-    ElementleShare.showShareControls(true);
+    ElementleShare.showShareControls();
 }
 
 function updateBonus3ShareProgress() {

@@ -222,6 +222,7 @@ function checkGameEnd() {
 }
 
 function showBonus1Result(won) {
+    window.ElementleStats?.recordBonus(localStorage, getGameDate(), 'bonus1', neighborsGuessed);
     const resultMessage = document.getElementById('resultMessage');
     document.getElementById('guessForm').style.display = 'none';
     if (won) {

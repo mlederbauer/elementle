@@ -41,9 +41,10 @@
         return ['🏘️'.repeat(neighbors), '⚖️'.repeat(mass), trivia].filter(Boolean);
     }
 
-    function buildShareText({ dateStr, history, won, secretRows, progress, mode = 'secret' }) {
+    function buildShareText({ dateStr, history, won, secretRows, progress, streak = 0, mode = 'secret' }) {
         const guessHistory = Array.isArray(history) ? history : [];
         const score = won ? `${guessHistory.length}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`;
+        const currentStreak = Number.isInteger(streak) && streak >= 0 ? streak : 0;
         const rows = mode === 'transparent'
             ? guessHistory.map(colors => (Array.isArray(colors) ? colors : [])
                 .map(color => ({ green: '🟩', yellow: '🟨', grey: '⬛' }[color] || '⬛')).join('')).join('\n')
@@ -55,6 +56,7 @@
             rows,
             '',
             ...buildBonusProgressLines(progress),
+            `🔥 ${currentStreak}`,
             '',
             '🧪 Play at: https://elementle.ch'
         ].join('\n');
@@ -86,6 +88,19 @@
             won: !!main?.won,
             secretRows: Array.isArray(main?.secretRows) ? main.secretRows : []
         };
+    }
+
+    function getCurrentStreak(storage) {
+        try {
+            if (root?.ElementleStats?.getCurrentStreak) {
+                return root.ElementleStats.getCurrentStreak(storage);
+            }
+            const stats = JSON.parse(storage.getItem('elementle-stats'));
+            return Number.isInteger(stats?.currentStreak) && stats.currentStreak >= 0
+                ? stats.currentStreak : 0;
+        } catch (e) {
+            return 0;
+        }
     }
 
     function copyTextToClipboard(text) {
@@ -128,6 +143,7 @@
             won: main.won,
             secretRows: main.secretRows,
             progress,
+            streak: getCurrentStreak(storage),
             mode
         });
         if (typeof root.navigator?.share === 'function') {
@@ -147,5 +163,5 @@
         root.document.getElementById('shareControls').classList.add('visible');
     }
 
-    return { buildSecretRow, buildBonusProgressLines, buildShareText, getShareProgress, saveMainShareState, getMainShareState, shareResult, showShareControls };
+    return { buildSecretRow, buildBonusProgressLines, buildShareText, getShareProgress, saveMainShareState, getMainShareState, getCurrentStreak, shareResult, showShareControls };
 });

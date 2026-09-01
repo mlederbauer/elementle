@@ -8,7 +8,8 @@ const {
     buildShareText,
     getShareProgress,
     saveMainShareState,
-    getMainShareState
+    getMainShareState,
+    getCurrentStreak
 } = require('../js/share.js');
 
 const dateStr = '31/08/2026';
@@ -28,8 +29,8 @@ function shareText(overrides = {}) {
     });
 }
 
-function createStorage() {
-    const values = new Map();
+function createStorage(initial = {}) {
+    const values = new Map(Object.entries(initial));
     return {
         getItem(key) { return values.has(key) ? values.get(key) : null; },
         setItem(key, value) { values.set(key, String(value)); }
@@ -116,6 +117,20 @@ test('transparent sharing retains existing detailed letter rows', () => {
 test('lost and empty games retain their score semantics', () => {
     assert.match(shareText({ won: false }), /Elementle 31\/08\/2026  X\/6/);
     assert.match(shareText({ history: [], won: true, secretRows: [] }), /Elementle 31\/08\/2026  0\/6/);
+});
+
+test('share text includes a current streak flame and safely defaults invalid values', () => {
+    assert.match(shareText({ streak: 4 }), /🔥 4/);
+    assert.match(shareText({ streak: -1 }), /🔥 0/);
+    assert.match(shareText({ streak: 1.5 }), /🔥 0/);
+});
+
+test('current streak reads browser-local stats and tolerates malformed data', () => {
+    const storage = createStorage({ 'elementle-stats': JSON.stringify({ currentStreak: 6 }) });
+    assert.equal(getCurrentStreak(storage), 6);
+
+    storage.setItem('elementle-stats', '{bad json');
+    assert.equal(getCurrentStreak(storage), 0);
 });
 
 test('bonus progress emojis are preserved in both modes', () => {

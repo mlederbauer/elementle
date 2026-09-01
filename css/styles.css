@@ -450,6 +450,17 @@ button:disabled { background: var(--grey); cursor: not-allowed; }
   transition: width 0.4s ease;
 }
 .dist-bar.highlight { background: var(--green); }
+.bonus-stats { margin-bottom: 20px; }
+.bonus-stat-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--tile-bg);
+  font-size: 0.85rem;
+  text-align: left;
+}
+.bonus-stat-row span:last-child { color: var(--grey); white-space: nowrap; }
 
 /* ── Responsive tweaks ── */
 @media (max-width: 600px) {

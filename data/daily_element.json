@@ -1,96 +1,74 @@
 {
-  "date": "2026-08-31",
-  "element": "Calcium",
-  "atomicNumber": 20,
-  "symbol": "Ca",
+  "date": "2026-09-01",
+  "element": "Livermorium",
+  "atomicNumber": 116,
+  "symbol": "Lv",
   "quiz": [
     {
-      "question": "Who discovered Calcium?",
+      "question": "When was Livermorium first discovered?",
       "options": [
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Calcium"
+          "text": "1955",
+          "element": "Mendelevium"
         },
         {
-          "text": "R. Bunsen, G. Kirchoff",
-          "element": "Rubidium"
+          "text": "1886",
+          "element": "Fluorine"
         },
         {
-          "text": "Gustov Kirchoff, Robert Bunsen",
-          "element": "Cesium"
+          "text": "1818",
+          "element": "Selenium"
         },
         {
-          "text": "Anders Ekeberg",
-          "element": "Tantalum"
+          "text": "2000",
+          "element": "Livermorium"
         }
       ],
-      "correct": "Sir Humphrey Davy"
+      "correct": "2000"
     },
     {
-      "question": "What is the geochemical class of Calcium?",
+      "question": "Who discovered Livermorium?",
       "options": [
         {
-          "text": "U/Th decay series",
-          "element": "Francium"
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Mendelevium"
         },
         {
-          "text": "major",
-          "element": "Calcium"
+          "text": "J\u00f6ns Berzelius",
+          "element": "Selenium"
         },
         {
-          "text": "high field strength",
-          "element": "Tantalum"
+          "text": "Lawrence Livermore National Laboratory",
+          "element": "Livermorium"
         },
         {
-          "text": "alkali metal",
-          "element": "Cesium"
+          "text": "Henri Moissan",
+          "element": "Fluorine"
         }
       ],
-      "correct": "major"
+      "correct": "Lawrence Livermore National Laboratory"
     },
     {
-      "question": "What is the approximate price of Calcium per kilogram?",
+      "question": "What is the density of Livermorium?",
       "options": [
         {
-          "text": "$15,500.00/kg",
-          "element": "Rubidium"
+          "text": "10.3 g/cm\u00b3",
+          "element": "Mendelevium"
         },
         {
-          "text": "$61,800.00/kg",
-          "element": "Cesium"
+          "text": "0.001553 g/cm\u00b3",
+          "element": "Fluorine"
         },
         {
-          "text": "$2.21/kg",
-          "element": "Calcium"
+          "text": "12.9 g/cm\u00b3",
+          "element": "Livermorium"
         },
         {
-          "text": "$298.00/kg",
-          "element": "Tantalum"
+          "text": "4.809 g/cm\u00b3",
+          "element": "Selenium"
         }
       ],
-      "correct": "$2.21/kg"
-    },
-    {
-      "question": "When was Calcium first discovered?",
-      "options": [
-        {
-          "text": "1860",
-          "element": "Cesium"
-        },
-        {
-          "text": "1802",
-          "element": "Tantalum"
-        },
-        {
-          "text": "1808",
-          "element": "Calcium"
-        },
-        {
-          "text": "1861",
-          "element": "Rubidium"
-        }
-      ],
-      "correct": "1808"
+      "correct": "12.9 g/cm\u00b3"
     }
   ]
 }

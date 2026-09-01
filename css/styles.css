@@ -464,3 +464,14 @@ button:disabled { background: var(--grey); cursor: not-allowed; }
 @media (max-width: 400px) {
   .game-header h1 { font-size: 1.1rem; }
 }
+/* ── Experimental neon redesign ── */
+:root { --bg:#07111f; --surface:#0d1b2a; --text:#e7f8ff; --border:#1d4d66; --tile-bg:#123047; --green:#35d6ff; --yellow:#9be7ff; --orange:#64cfff; --grey:#88a8b8; --radius:10px; }
+body { background: radial-gradient(circle at top, #123a57 0, var(--bg) 42rem); }
+.game-header { background:rgba(7,17,31,.9); border-color:#1f7195; box-shadow:0 0 24px rgba(53,214,255,.18); }
+.game-header h1 { color:#bff5ff; text-shadow:0 0 16px rgba(53,214,255,.7); }
+.rules,.modal-box { background:rgba(13,27,42,.92); border:1px solid #1f7195; box-shadow:0 0 22px rgba(53,214,255,.12); }
+input,button { box-shadow:0 0 0 transparent; }
+input:focus { border-color:#35d6ff !important; box-shadow:0 0 0 3px rgba(53,214,255,.2); }
+button,#shareBtn,.bonus-link { background:#0d5675; color:#e7f8ff; border-color:#35d6ff; }
+button:hover,#shareBtn:hover,.bonus-link:hover { background:#117da4; box-shadow:0 0 16px rgba(53,214,255,.35); }
+.rectangle { background:#0f2940; border-color:#1d4d66; color:#dffaff; }

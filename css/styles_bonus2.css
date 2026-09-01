@@ -278,3 +278,7 @@ body {
   font-weight: 600;
   margin-top: 6px;
 }
+/* Experimental neon redesign */
+:root { --bg:#07111f; --surface:#0d1b2a; --text:#e7f8ff; --border:#1d4d66; --green:#35d6ff; }
+body { background:radial-gradient(circle at top,#123a57,var(--bg)); color:var(--text); }
+.container,.game-header,.element-card { background:rgba(13,27,42,.92); border-color:#1f7195; box-shadow:0 0 22px rgba(53,214,255,.14); }

@@ -1,74 +1,96 @@
 {
-  "date": "2026-09-01",
-  "element": "Livermorium",
-  "atomicNumber": 116,
-  "symbol": "Lv",
+  "date": "2026-09-02",
+  "element": "Gadolinium",
+  "atomicNumber": 64,
+  "symbol": "Gd",
   "quiz": [
     {
-      "question": "When was Livermorium first discovered?",
+      "question": "When was Gadolinium first discovered?",
       "options": [
         {
-          "text": "1955",
-          "element": "Mendelevium"
+          "text": "1880",
+          "element": "Gadolinium"
         },
         {
-          "text": "1886",
-          "element": "Fluorine"
+          "text": "1898",
+          "element": "Polonium"
         },
         {
-          "text": "1818",
-          "element": "Selenium"
+          "text": "1804",
+          "element": "Osmium"
         },
         {
-          "text": "2000",
-          "element": "Livermorium"
+          "text": "1861",
+          "element": "Thallium"
         }
       ],
-      "correct": "2000"
+      "correct": "1880"
     },
     {
-      "question": "Who discovered Livermorium?",
+      "question": "Which countries are the top producers of Gadolinium?",
       "options": [
         {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
-          "element": "Mendelevium"
+          "text": "1) USA  2) Algeria  3) Russia",
+          "element": "Helium"
         },
         {
-          "text": "J\u00f6ns Berzelius",
-          "element": "Selenium"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Osmium"
         },
         {
-          "text": "Lawrence Livermore National Laboratory",
-          "element": "Livermorium"
+          "text": "1) China  2) USA  3) Canada",
+          "element": "Sulfur"
         },
         {
-          "text": "Henri Moissan",
-          "element": "Fluorine"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Gadolinium"
         }
       ],
-      "correct": "Lawrence Livermore National Laboratory"
+      "correct": "1) China  2) Russia  3) Malaysia"
     },
     {
-      "question": "What is the density of Livermorium?",
+      "question": "What is the approximate price of Gadolinium per kilogram?",
       "options": [
         {
-          "text": "10.3 g/cm\u00b3",
-          "element": "Mendelevium"
+          "text": "$49,200,000,000,000.00/kg",
+          "element": "Polonium"
         },
         {
-          "text": "0.001553 g/cm\u00b3",
-          "element": "Fluorine"
+          "text": "$28.60/kg",
+          "element": "Gadolinium"
         },
         {
-          "text": "12.9 g/cm\u00b3",
-          "element": "Livermorium"
+          "text": "$4,200.00/kg",
+          "element": "Thallium"
         },
         {
-          "text": "4.809 g/cm\u00b3",
-          "element": "Selenium"
+          "text": "$12,000.00/kg",
+          "element": "Osmium"
         }
       ],
-      "correct": "12.9 g/cm\u00b3"
+      "correct": "$28.60/kg"
+    },
+    {
+      "question": "What is the geochemical class of Gadolinium?",
+      "options": [
+        {
+          "text": "rare earth & related",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Sulfur"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Polonium"
+        },
+        {
+          "text": "noble metal",
+          "element": "Osmium"
+        }
+      ],
+      "correct": "rare earth & related"
     }
   ]
 }

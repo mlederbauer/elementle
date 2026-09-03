@@ -1,96 +1,74 @@
 {
-  "date": "2026-09-02",
-  "element": "Gadolinium",
-  "atomicNumber": 64,
-  "symbol": "Gd",
+  "date": "2026-09-03",
+  "element": "Dubnium",
+  "atomicNumber": 105,
+  "symbol": "Db",
   "quiz": [
     {
-      "question": "When was Gadolinium first discovered?",
+      "question": "When was Dubnium first discovered?",
       "options": [
         {
-          "text": "1880",
-          "element": "Gadolinium"
+          "text": "1808",
+          "element": "Calcium"
         },
         {
-          "text": "1898",
-          "element": "Polonium"
+          "text": "1970",
+          "element": "Dubnium"
         },
         {
-          "text": "1804",
-          "element": "Osmium"
+          "text": "1826",
+          "element": "Bromine"
         },
         {
-          "text": "1861",
-          "element": "Thallium"
+          "text": "1774",
+          "element": "Oxygen"
         }
       ],
-      "correct": "1880"
+      "correct": "1970"
     },
     {
-      "question": "Which countries are the top producers of Gadolinium?",
+      "question": "Who discovered Dubnium?",
       "options": [
         {
-          "text": "1) USA  2) Algeria  3) Russia",
-          "element": "Helium"
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
         },
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Osmium"
+          "text": "Sir Humphrey Davy",
+          "element": "Calcium"
         },
         {
-          "text": "1) China  2) USA  3) Canada",
-          "element": "Sulfur"
+          "text": "Known to the ancients.",
+          "element": "Copper"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Gadolinium"
+          "text": "Joseph Priestly, Carl Wilhelm Scheele",
+          "element": "Oxygen"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia"
+      "correct": "A. Ghiorso, et al"
     },
     {
-      "question": "What is the approximate price of Gadolinium per kilogram?",
+      "question": "What is the density of Dubnium?",
       "options": [
         {
-          "text": "$49,200,000,000,000.00/kg",
-          "element": "Polonium"
+          "text": "0.0013080000000000001 g/cm\u00b3",
+          "element": "Oxygen"
         },
         {
-          "text": "$28.60/kg",
-          "element": "Gadolinium"
+          "text": "29.3 g/cm\u00b3",
+          "element": "Dubnium"
         },
         {
-          "text": "$4,200.00/kg",
-          "element": "Thallium"
+          "text": "1.54 g/cm\u00b3",
+          "element": "Calcium"
         },
         {
-          "text": "$12,000.00/kg",
-          "element": "Osmium"
+          "text": "8.96 g/cm\u00b3",
+          "element": "Copper"
         }
       ],
-      "correct": "$28.60/kg"
-    },
-    {
-      "question": "What is the geochemical class of Gadolinium?",
-      "options": [
-        {
-          "text": "rare earth & related",
-          "element": "Gadolinium"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Sulfur"
-        },
-        {
-          "text": "U/Th decay series",
-          "element": "Polonium"
-        },
-        {
-          "text": "noble metal",
-          "element": "Osmium"
-        }
-      ],
-      "correct": "rare earth & related"
+      "correct": "29.3 g/cm\u00b3"
     }
   ]
 }

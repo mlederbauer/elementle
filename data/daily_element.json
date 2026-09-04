@@ -1,74 +1,96 @@
 {
-  "date": "2026-09-03",
-  "element": "Dubnium",
-  "atomicNumber": 105,
-  "symbol": "Db",
+  "date": "2026-09-04",
+  "element": "Thallium",
+  "atomicNumber": 81,
+  "symbol": "Tl",
   "quiz": [
     {
-      "question": "When was Dubnium first discovered?",
+      "question": "What is the approximate price of Thallium per kilogram?",
       "options": [
         {
-          "text": "1808",
-          "element": "Calcium"
+          "text": "$27,800.00/kg",
+          "element": "Platinum"
         },
         {
-          "text": "1970",
-          "element": "Dubnium"
+          "text": "$4,200.00/kg",
+          "element": "Thallium"
         },
         {
-          "text": "1826",
-          "element": "Bromine"
+          "text": "$21.40/kg",
+          "element": "Selenium"
         },
         {
-          "text": "1774",
-          "element": "Oxygen"
+          "text": "$521.00/kg",
+          "element": "Silver"
         }
       ],
-      "correct": "1970"
+      "correct": "$4,200.00/kg"
     },
     {
-      "question": "Who discovered Dubnium?",
+      "question": "Who discovered Thallium?",
       "options": [
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Dubnium"
+          "text": "Sir William Crookes",
+          "element": "Thallium"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Calcium"
+          "text": "Julius Scaliger",
+          "element": "Platinum"
+        },
+        {
+          "text": "Marguerite Derey",
+          "element": "Francium"
         },
         {
           "text": "Known to the ancients.",
-          "element": "Copper"
-        },
-        {
-          "text": "Joseph Priestly, Carl Wilhelm Scheele",
-          "element": "Oxygen"
+          "element": "Silver"
         }
       ],
-      "correct": "A. Ghiorso, et al"
+      "correct": "Sir William Crookes"
     },
     {
-      "question": "What is the density of Dubnium?",
+      "question": "What is the crustal abundance of Thallium?",
       "options": [
         {
-          "text": "0.0013080000000000001 g/cm\u00b3",
-          "element": "Oxygen"
+          "text": "0.075 mg/kg",
+          "element": "Silver"
         },
         {
-          "text": "29.3 g/cm\u00b3",
-          "element": "Dubnium"
+          "text": "0.85 mg/kg",
+          "element": "Thallium"
         },
         {
-          "text": "1.54 g/cm\u00b3",
-          "element": "Calcium"
+          "text": "0.005 mg/kg",
+          "element": "Platinum"
         },
         {
-          "text": "8.96 g/cm\u00b3",
-          "element": "Copper"
+          "text": "0.05 mg/kg",
+          "element": "Selenium"
         }
       ],
-      "correct": "29.3 g/cm\u00b3"
+      "correct": "0.85 mg/kg"
+    },
+    {
+      "question": "When was Thallium first discovered?",
+      "options": [
+        {
+          "text": "1939",
+          "element": "Francium"
+        },
+        {
+          "text": "1818",
+          "element": "Selenium"
+        },
+        {
+          "text": "1735",
+          "element": "Platinum"
+        },
+        {
+          "text": "1861",
+          "element": "Thallium"
+        }
+      ],
+      "correct": "1861"
     }
   ]
 }

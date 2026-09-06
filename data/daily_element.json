@@ -1,96 +1,96 @@
 {
-  "date": "2026-09-05",
-  "element": "Osmium",
-  "atomicNumber": 76,
-  "symbol": "Os",
+  "date": "2026-09-06",
+  "element": "Neodymium",
+  "atomicNumber": 60,
+  "symbol": "Nd",
   "quiz": [
     {
-      "question": "When was Osmium first discovered?",
+      "question": "What is the approximate price of Neodymium per kilogram?",
       "options": [
         {
-          "text": "1994",
-          "element": "Darmstadtium"
+          "text": "$2.32/kg",
+          "element": "Magnesium"
         },
         {
-          "text": "1940",
-          "element": "Neptunium"
+          "text": "$12.10/kg",
+          "element": "Potassium"
         },
         {
-          "text": "1804",
-          "element": "Osmium"
+          "text": "$57.50/kg",
+          "element": "Neodymium"
         },
         {
-          "text": "1828",
-          "element": "Thorium"
+          "text": "$31.00/kg",
+          "element": "Yttrium"
         }
       ],
-      "correct": "1804"
+      "correct": "$57.50/kg"
     },
     {
-      "question": "Which countries are the top producers of Osmium?",
+      "question": "What is the geochemical class of Neodymium?",
       "options": [
         {
-          "text": "1) India  2) Brazil  3) Malaysia",
-          "element": "Thorium"
-        },
-        {
-          "text": "1) Mexico  2) Peru  3) China",
-          "element": "Silver"
-        },
-        {
-          "text": "1) China  2) USA  3) India",
-          "element": "Calcium"
-        },
-        {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Osmium"
-        }
-      ],
-      "correct": "1) South Africa  2) Russia  3) Zimbabwe"
-    },
-    {
-      "question": "What is the geochemical class of Osmium?",
-      "options": [
-        {
-          "text": "noble metal",
-          "element": "Osmium"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Thorium"
+          "text": "first series transition metal",
+          "element": "Scandium"
         },
         {
           "text": "alkali metal",
-          "element": "Cesium"
+          "element": "Potassium"
         },
         {
           "text": "major",
-          "element": "Calcium"
+          "element": "Magnesium"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Neodymium"
         }
       ],
-      "correct": "noble metal"
+      "correct": "rare earth & related"
     },
     {
-      "question": "What is the crustal abundance of Osmium?",
+      "question": "Which countries are the top producers of Neodymium?",
       "options": [
         {
-          "text": "0.075 mg/kg",
-          "element": "Silver"
+          "text": "1) Canada  2) Russia  3) Belarus",
+          "element": "Potassium"
         },
         {
-          "text": "9.6 mg/kg",
-          "element": "Thorium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Neodymium"
         },
         {
-          "text": "41500.0 mg/kg",
-          "element": "Calcium"
+          "text": "1) China  2) Russia  3) Turkey",
+          "element": "Magnesium"
         },
         {
-          "text": "0.0015 mg/kg",
-          "element": "Osmium"
+          "text": "1) Turkey  2) USA  3) Chile",
+          "element": "Boron"
         }
       ],
-      "correct": "0.0015 mg/kg"
+      "correct": "1) China  2) Russia  3) Malaysia"
+    },
+    {
+      "question": "What is the crustal abundance of Neodymium?",
+      "options": [
+        {
+          "text": "33.0 mg/kg",
+          "element": "Yttrium"
+        },
+        {
+          "text": "23300.0 mg/kg",
+          "element": "Magnesium"
+        },
+        {
+          "text": "20900.0 mg/kg",
+          "element": "Potassium"
+        },
+        {
+          "text": "41.5 mg/kg",
+          "element": "Neodymium"
+        }
+      ],
+      "correct": "41.5 mg/kg"
     }
   ]
 }

@@ -1,74 +1,96 @@
 {
-  "date": "2026-09-08",
-  "element": "Oganesson",
-  "atomicNumber": 118,
-  "symbol": "Og",
+  "date": "2026-09-09",
+  "element": "Terbium",
+  "atomicNumber": 65,
+  "symbol": "Tb",
   "quiz": [
     {
-      "question": "When was Oganesson first discovered?",
+      "question": "What is the geochemical class of Terbium?",
       "options": [
         {
-          "text": "1818",
-          "element": "Selenium"
+          "text": "alkali metal",
+          "element": "Potassium"
         },
         {
-          "text": "1982",
-          "element": "Meitnerium"
+          "text": "rare earth & related",
+          "element": "Terbium"
         },
         {
-          "text": "2002",
-          "element": "Oganesson"
+          "text": "major",
+          "element": "Aluminum"
         },
         {
-          "text": "1898",
-          "element": "Krypton"
+          "text": "noble metal",
+          "element": "Gold"
         }
       ],
-      "correct": "2002"
+      "correct": "rare earth & related"
     },
     {
-      "question": "Who discovered Oganesson?",
+      "question": "Which countries are the top producers of Terbium?",
       "options": [
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Oganesson"
+          "text": "1) China  2) Australia  3) USA",
+          "element": "Gold"
         },
         {
-          "text": "Sir William Ramsey, M.W. Travers",
-          "element": "Krypton"
+          "text": "1) China  2) Mexico  3) Morocco",
+          "element": "Phosphorus"
         },
         {
-          "text": "J\u00f6ns Berzelius",
-          "element": "Selenium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Terbium"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Meitnerium"
+          "text": "1) China  2) Russia  3) Bolivia",
+          "element": "Tungsten"
         }
       ],
-      "correct": "Joint Institute for Nuclear Research"
+      "correct": "1) China  2) Russia  3) Malaysia"
     },
     {
-      "question": "What is the density of Oganesson?",
+      "question": "What is the approximate price of Terbium per kilogram?",
       "options": [
         {
-          "text": "4.809 g/cm\u00b3",
-          "element": "Selenium"
+          "text": "$658.00/kg",
+          "element": "Terbium"
         },
         {
-          "text": "37.4 g/cm\u00b3",
-          "element": "Meitnerium"
+          "text": "$2.69/kg",
+          "element": "Phosphorus"
         },
         {
-          "text": "0.0034249999999999997 g/cm\u00b3",
-          "element": "Krypton"
+          "text": "$75,430.00/kg",
+          "element": "Gold"
         },
         {
-          "text": "7.0 g/cm\u00b3",
-          "element": "Oganesson"
+          "text": "$17.10/kg",
+          "element": "Ytterbium"
         }
       ],
-      "correct": "7.0 g/cm\u00b3"
+      "correct": "$658.00/kg"
+    },
+    {
+      "question": "What is the crustal abundance of Terbium?",
+      "options": [
+        {
+          "text": "0.004 mg/kg",
+          "element": "Gold"
+        },
+        {
+          "text": "1050.0 mg/kg",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "3.2 mg/kg",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "1.2 mg/kg",
+          "element": "Terbium"
+        }
+      ],
+      "correct": "1.2 mg/kg"
     }
   ]
 }

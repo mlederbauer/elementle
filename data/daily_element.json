@@ -1,96 +1,96 @@
 {
-  "date": "2026-09-09",
-  "element": "Terbium",
-  "atomicNumber": 65,
-  "symbol": "Tb",
+  "date": "2026-09-10",
+  "element": "Astatine",
+  "atomicNumber": 85,
+  "symbol": "At",
   "quiz": [
     {
-      "question": "What is the geochemical class of Terbium?",
+      "question": "When was Astatine first discovered?",
       "options": [
         {
-          "text": "alkali metal",
-          "element": "Potassium"
+          "text": "1940",
+          "element": "Astatine"
         },
         {
-          "text": "rare earth & related",
-          "element": "Terbium"
+          "text": "1808",
+          "element": "Boron"
         },
         {
-          "text": "major",
-          "element": "Aluminum"
+          "text": "1898",
+          "element": "Radon"
         },
         {
-          "text": "noble metal",
-          "element": "Gold"
+          "text": "1886",
+          "element": "Fluorine"
         }
       ],
-      "correct": "rare earth & related"
+      "correct": "1940"
     },
     {
-      "question": "Which countries are the top producers of Terbium?",
+      "question": "What is the geochemical class of Astatine?",
       "options": [
         {
-          "text": "1) China  2) Australia  3) USA",
-          "element": "Gold"
+          "text": "high field strength",
+          "element": "Hafnium"
         },
         {
-          "text": "1) China  2) Mexico  3) Morocco",
-          "element": "Phosphorus"
+          "text": "U/Th decay series",
+          "element": "Astatine"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Terbium"
+          "text": "first series transition metal",
+          "element": "Scandium"
         },
         {
-          "text": "1) China  2) Russia  3) Bolivia",
-          "element": "Tungsten"
+          "text": "semi-volatile",
+          "element": "Fluorine"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia"
+      "correct": "U/Th decay series"
     },
     {
-      "question": "What is the approximate price of Terbium per kilogram?",
+      "question": "Who discovered Astatine?",
       "options": [
         {
-          "text": "$658.00/kg",
-          "element": "Terbium"
+          "text": "Fredrich Ernst Dorn",
+          "element": "Radon"
         },
         {
-          "text": "$2.69/kg",
-          "element": "Phosphorus"
+          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
+          "element": "Astatine"
         },
         {
-          "text": "$75,430.00/kg",
-          "element": "Gold"
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
         },
         {
-          "text": "$17.10/kg",
-          "element": "Ytterbium"
+          "text": "Henri Moissan",
+          "element": "Fluorine"
         }
       ],
-      "correct": "$658.00/kg"
+      "correct": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9"
     },
     {
-      "question": "What is the crustal abundance of Terbium?",
+      "question": "What is the melting point of Astatine?",
       "options": [
         {
-          "text": "0.004 mg/kg",
-          "element": "Gold"
+          "text": "302.0 \u00b0C",
+          "element": "Astatine"
         },
         {
-          "text": "1050.0 mg/kg",
-          "element": "Phosphorus"
+          "text": "-219.7 \u00b0C",
+          "element": "Fluorine"
         },
         {
-          "text": "3.2 mg/kg",
-          "element": "Ytterbium"
+          "text": "2077.0 \u00b0C",
+          "element": "Boron"
         },
         {
-          "text": "1.2 mg/kg",
-          "element": "Terbium"
+          "text": "-71.0 \u00b0C",
+          "element": "Radon"
         }
       ],
-      "correct": "1.2 mg/kg"
+      "correct": "302.0 \u00b0C"
     }
   ]
 }

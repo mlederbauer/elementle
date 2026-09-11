@@ -1,96 +1,96 @@
 {
-  "date": "2026-09-10",
-  "element": "Astatine",
-  "atomicNumber": 85,
-  "symbol": "At",
+  "date": "2026-09-11",
+  "element": "Lawrencium",
+  "atomicNumber": 103,
+  "symbol": "Lr",
   "quiz": [
     {
-      "question": "When was Astatine first discovered?",
+      "question": "Who discovered Lawrencium?",
       "options": [
         {
-          "text": "1940",
-          "element": "Astatine"
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
         },
         {
-          "text": "1808",
-          "element": "Boron"
+          "text": "J\u00f6ns Berzelius",
+          "element": "Selenium"
         },
         {
-          "text": "1898",
-          "element": "Radon"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Neodymium"
         },
         {
-          "text": "1886",
-          "element": "Fluorine"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Darmstadtium"
         }
       ],
-      "correct": "1940"
+      "correct": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer"
     },
     {
-      "question": "What is the geochemical class of Astatine?",
+      "question": "When was Lawrencium first discovered?",
       "options": [
         {
-          "text": "high field strength",
-          "element": "Hafnium"
+          "text": "1818",
+          "element": "Selenium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Astatine"
+          "text": "1994",
+          "element": "Darmstadtium"
         },
         {
-          "text": "first series transition metal",
-          "element": "Scandium"
+          "text": "1925",
+          "element": "Neodymium"
         },
         {
-          "text": "semi-volatile",
-          "element": "Fluorine"
+          "text": "1961",
+          "element": "Lawrencium"
         }
       ],
-      "correct": "U/Th decay series"
+      "correct": "1961"
     },
     {
-      "question": "Who discovered Astatine?",
+      "question": "What is the melting point of Lawrencium?",
       "options": [
         {
-          "text": "Fredrich Ernst Dorn",
-          "element": "Radon"
+          "text": "-189.3 \u00b0C",
+          "element": "Argon"
         },
         {
-          "text": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9",
-          "element": "Astatine"
+          "text": "1627.0 \u00b0C",
+          "element": "Lawrencium"
         },
         {
-          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
-          "element": "Boron"
+          "text": "1016.0 \u00b0C",
+          "element": "Neodymium"
         },
         {
-          "text": "Henri Moissan",
-          "element": "Fluorine"
+          "text": "900.0 \u00b0C",
+          "element": "Californium"
         }
       ],
-      "correct": "D.R.Corson, K.R.MacKenzie, E.Segr\u00e9"
+      "correct": "1627.0 \u00b0C"
     },
     {
-      "question": "What is the melting point of Astatine?",
+      "question": "What is the density of Lawrencium?",
       "options": [
         {
-          "text": "302.0 \u00b0C",
-          "element": "Astatine"
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
         },
         {
-          "text": "-219.7 \u00b0C",
-          "element": "Fluorine"
+          "text": "7.01 g/cm\u00b3",
+          "element": "Neodymium"
         },
         {
-          "text": "2077.0 \u00b0C",
-          "element": "Boron"
+          "text": "34.8 g/cm\u00b3",
+          "element": "Darmstadtium"
         },
         {
-          "text": "-71.0 \u00b0C",
-          "element": "Radon"
+          "text": "4.809 g/cm\u00b3",
+          "element": "Selenium"
         }
       ],
-      "correct": "302.0 \u00b0C"
+      "correct": "15.6 g/cm\u00b3"
     }
   ]
 }

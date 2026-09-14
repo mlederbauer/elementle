@@ -1,77 +1,96 @@
 {
-  "date": "2026-09-01",
-  "element": "Livermorium",
-  "atomicNumber": 116,
-  "symbol": "Lv",
+  "date": "2026-09-13",
+  "element": "Sulfur",
+  "atomicNumber": 16,
+  "symbol": "S",
   "quiz": [
     {
-      "question": "When was Livermorium first discovered?",
+      "question": "Who discovered Sulfur?",
       "options": [
         {
-          "text": "1886",
-          "element": "Dysprosium"
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Fermium"
         },
         {
-          "text": "2000",
-          "element": "Livermorium"
+          "text": "Smithson Tenant",
+          "element": "Osmium"
         },
         {
-          "text": "1899",
-          "element": "Actinium"
+          "text": "J\u00f6ns Berzelius",
+          "element": "Silicon"
         },
         {
-          "text": "1735",
-          "element": "Platinum"
+          "text": "Known to the ancients.",
+          "element": "Sulfur"
         }
       ],
-      "correct": "2000",
-      "type": "discovery_year"
+      "correct": "Known to the ancients."
     },
     {
-      "question": "Who discovered Livermorium?",
+      "question": "What is the geochemical class of Sulfur?",
       "options": [
         {
-          "text": "Andr\u00e9 Debierne",
-          "element": "Actinium"
+          "text": "major",
+          "element": "Silicon"
         },
         {
-          "text": "Lawrence Livermore National Laboratory",
-          "element": "Livermorium"
+          "text": "semi-volatile",
+          "element": "Sulfur"
         },
         {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Dysprosium"
+          "text": "first series transition metal",
+          "element": "Titanium"
         },
         {
-          "text": "Julius Scaliger",
-          "element": "Platinum"
+          "text": "noble metal",
+          "element": "Osmium"
         }
       ],
-      "correct": "Lawrence Livermore National Laboratory",
-      "type": "discoverers"
+      "correct": "semi-volatile"
     },
     {
-      "question": "What is the density of Livermorium?",
+      "question": "Which countries are the top producers of Sulfur?",
       "options": [
         {
-          "text": "21.5 g/cm\u00b3",
-          "element": "Platinum"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Osmium"
         },
         {
-          "text": "10 g/cm\u00b3",
-          "element": "Actinium"
+          "text": "1) China  2) Indonesia  3) Peru",
+          "element": "Tin"
         },
         {
-          "text": "12.9 g/cm\u00b3",
-          "element": "Livermorium"
+          "text": "1) China  2) USA  3) Canada",
+          "element": "Sulfur"
         },
         {
-          "text": "8.55 g/cm\u00b3",
-          "element": "Dysprosium"
+          "text": "1) China  2) Australia  3) Brazil",
+          "element": "Iron"
         }
       ],
-      "correct": "12.9 g/cm\u00b3",
-      "type": "density"
+      "correct": "1) China  2) USA  3) Canada"
+    },
+    {
+      "question": "What is the approximate price of Sulfur per kilogram?",
+      "options": [
+        {
+          "text": "$1.70/kg",
+          "element": "Silicon"
+        },
+        {
+          "text": "$12,000.00/kg",
+          "element": "Osmium"
+        },
+        {
+          "text": "$0.09/kg",
+          "element": "Sulfur"
+        },
+        {
+          "text": "$0.42/kg",
+          "element": "Iron"
+        }
+      ],
+      "correct": "$0.09/kg"
     }
   ]
 }

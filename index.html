@@ -26,7 +26,6 @@
                 <li><span class="rule-swatch yellow-swatch"></span> Correct letter, wrong position</li>
                 <li>⬆ / ⬇ &nbsp;Target is in an earlier / later period</li>
                 <li>⬅ / ➡ &nbsp;Target is in an earlier / later group</li>
-                <li>➕ / ➖ &nbsp;Target name is longer / shorter than your guess</li>
             </ul>
         </div>
 
@@ -45,7 +44,9 @@
         <p id="message"></p>
         <p id="attempts">Attempts left: 6</p>
         <div id="guessedWordsContainer"></div>
-        <button id="shareBtn" onclick="shareResult()">Share result</button>
+        <div id="shareControls" class="share-controls">
+            <button id="shareBtn" type="button" onclick="ElementleShare.shareResult()">Share result</button>
+        </div>
         <p id="shareToast">Copied to clipboard!</p>
     </main>
 
@@ -62,9 +63,15 @@
             </div>
             <h3>Guess Distribution</h3>
             <div id="statsBars"></div>
+            <h3>Bonus Results</h3>
+            <div id="bonusStats" class="bonus-stats"></div>
+            <button type="button" class="stats-share-btn" onclick="ElementleShare.shareResult()">Share result</button>
         </div>
     </div>
 
+    <script src="js/game_progress.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/share.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

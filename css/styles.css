@@ -286,13 +286,18 @@ button:disabled { background: var(--grey); cursor: not-allowed; }
   margin-bottom: 14px;
 }
 
-/* ── Share button (hidden until game ends) ── */
-#shareBtn {
+/* ── Share controls (hidden until game ends) ── */
+.share-controls {
   display: none;
+  justify-content: center;
+  gap: 8px;
   margin: 18px auto 0;
-  background: var(--green);
 }
+.share-controls.visible { display: flex; }
+#shareBtn { background: var(--green); }
 #shareBtn:hover { background: #406e3c; }
+#transparentShareBtn { background: var(--grey); }
+#transparentShareBtn:hover { background: #555b66; }
 #shareToast {
   display: none;
   font-size: 0.8rem;
@@ -345,15 +350,6 @@ button:disabled { background: var(--grey); cursor: not-allowed; }
 .green  { background: var(--green);  color: #fff; }
 .yellow { background: var(--yellow); color: #fff; }
 
-.sign {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 26px;
-  height: 26px;
-  font-size: 0.82rem;
-  margin-left: 4px;
-}
 .percentageBox {
   display: inline-block;
   width: 11px;
@@ -445,6 +441,17 @@ button:disabled { background: var(--grey); cursor: not-allowed; }
   transition: width 0.4s ease;
 }
 .dist-bar.highlight { background: var(--green); }
+.bonus-stats { margin-bottom: 20px; }
+.bonus-stat-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--tile-bg);
+  font-size: 0.85rem;
+  text-align: left;
+}
+.bonus-stat-row span:last-child { color: var(--grey); white-space: nowrap; }
 
 /* ── Responsive tweaks ── */
 @media (max-width: 600px) {

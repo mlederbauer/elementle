@@ -1,9 +1,10 @@
 let elementDataArray = [];
 let neighbors;
-const MAX_NEIGHBOR_GUESSES = 8;
-let guessesRemaining = MAX_NEIGHBOR_GUESSES;
+let maxNeighborGuesses = 0;
+let guessesRemaining = 0;
 let neighborsGuessed = 0;
 const revealedPositions = new Set(); // track which neighbor positions are already guessed
+let guessNames = [];
 
 function formatDailyDate(isoDate) {
     if (typeof isoDate !== 'string') return '';
@@ -16,6 +17,47 @@ function formatDailyDate(isoDate) {
 
 function getTodayShareDate() {
     return new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+function getGameDate() {
+    return localStorage.getItem('elementle-gameDate') || getTodayShareDate();
+}
+
+function saveBonus1Progress() {
+    if (!window.GameProgress) return;
+    const totalNeighbors = Object.values(neighbors || {}).filter(n => n != null).length;
+    GameProgress.save(getGameDate(), 'bonus1', {
+        guesses: guessNames,
+        guessesRemaining,
+        revealedPositions: [...revealedPositions],
+        completed: neighborsGuessed === totalNeighbors || guessesRemaining === 0,
+        won: neighborsGuessed === totalNeighbors
+    });
+}
+
+function restoreBonus1Progress() {
+    const saved = window.GameProgress?.get(getGameDate(), 'bonus1');
+    if (!saved || !Array.isArray(saved.guesses) || saved.guesses.some(guess => !findElementByName(guess, elementDataArray))) return;
+
+    saved.guesses.forEach(guess => {
+        const guessedElement = findElementByName(guess, elementDataArray);
+        let correct = false;
+        for (const position in neighbors) {
+            if (neighbors[position]?.Element === guessedElement.Element && !revealedPositions.has(position)) {
+                revealNeighborBox(position, guessedElement);
+                revealedPositions.add(position);
+                neighborsGuessed++;
+                correct = true;
+                break;
+            }
+        }
+        guessNames.push(guess);
+        updateGuessTable(guess, correct);
+    });
+    guessesRemaining = Math.max(0, maxNeighborGuesses - guessNames.length);
+    updateRemainingGuessesDisplay();
+    updateBonus1ShareProgress();
+    if (saved.completed) showBonus1Result(saved.won);
 }
 
 function syncShareDate(dateStr) {
@@ -152,10 +194,12 @@ function handleGuess(event) {
     }
 
     updateGuessTable(guessedElement.Element, guessCorrect);
+    guessNames.push(guessedElement.Element);
     guessesRemaining--;
     updateRemainingGuessesDisplay();
     updateBonus1ShareProgress();
     checkGameEnd();
+    saveBonus1Progress();
 
     guessInput.value = '';
 }
@@ -172,33 +216,48 @@ function updateGuessTable(guess, isCorrect) {
 }
 
 function checkGameEnd() {
-    const resultMessage = document.getElementById('resultMessage');
-    const guessForm = document.getElementById('guessForm');
     const totalNeighbors = Object.values(neighbors).filter(n => n != null).length;
+    if (neighborsGuessed === totalNeighbors) showBonus1Result(true);
+    else if (guessesRemaining === 0) showBonus1Result(false);
+}
 
-    if (neighborsGuessed === totalNeighbors) {
-        guessForm.style.display = 'none';
-        resultMessage.innerHTML = "<div id='nextBonusPage'>NEXT BONUS PAGE</div>";
-        resultMessage.style.display = 'block';
+function showBonus1Result(won) {
+    window.ElementleStats?.recordBonus(localStorage, getGameDate(), 'bonus1', won ? 1 : 0);
+    const resultMessage = document.getElementById('resultMessage');
+    document.getElementById('guessForm').style.display = 'none';
+    if (won) {
+        resultMessage.innerHTML = "<div id='nextBonusPage'>Next round</div>";
         document.getElementById('nextBonusPage').addEventListener('click', () => {
             window.location.href = 'bonuspage_2.html';
         });
-        document.getElementById('shareBtn').style.display = 'inline-block';
-    } else if (guessesRemaining === 0) {
-        resultMessage.textContent = "Out of guesses! You didn't find all neighboring elements.";
-        resultMessage.style.display = 'block';
-        guessForm.style.display = 'none';
-        document.getElementById('shareBtn').style.display = 'inline-block';
+    } else {
+        resultMessage.innerHTML = "<p class='bonus-result-message'>Out of guesses! You didn't find all neighboring elements.</p><div id='nextBonusPage'>Next round</div>";
+        document.getElementById('nextBonusPage').addEventListener('click', () => {
+            window.location.href = 'bonuspage_2.html';
+        });
     }
+    resultMessage.style.display = 'block';
+    ElementleShare.showShareControls();
 }
 
 function populateDatalist(elements) {
-    const datalist = document.getElementById('elementsList');
+    const input = document.getElementById('guessInput');
+    const list = document.getElementById('elementsList');
     const sorted = [...elements].sort((a, b) => a.Element.localeCompare(b.Element));
-    sorted.forEach(el => {
-        const option = document.createElement('option');
-        option.value = el.Element;
-        datalist.appendChild(option);
+    input.addEventListener('input', () => {
+        const query = input.value.trim().toLowerCase();
+        list.innerHTML = '';
+        if (!query) return;
+        sorted.filter(el => el.Element.toLowerCase().startsWith(query)).forEach(el => {
+            const item = document.createElement('li');
+            item.textContent = el.Element;
+            item.addEventListener('mousedown', event => {
+                event.preventDefault();
+                input.value = el.Element;
+                list.innerHTML = '';
+            });
+            list.appendChild(item);
+        });
     });
 }
 
@@ -235,9 +294,12 @@ async function main() {
     }
 
     neighbors = getNeighboringElements(mainElement, elementDataArray);
+    maxNeighborGuesses = Object.values(neighbors).filter(n => n != null).length * 2;
+    guessesRemaining = maxNeighborGuesses;
     displayElementAndNeighbors(mainElement, neighbors);
     document.getElementById('guessForm').addEventListener('submit', handleGuess);
     updateRemainingGuessesDisplay();
+    restoreBonus1Progress();
     updateBonus1ShareProgress();
 }
 
@@ -248,86 +310,14 @@ function updateBonus1ShareProgress() {
     progress.bonus1 = {
         guessed: neighborsGuessed,
         total: totalNeighbors,
-        attemptsUsed: MAX_NEIGHBOR_GUESSES - guessesRemaining,
-        maxAttempts: MAX_NEIGHBOR_GUESSES,
+        attemptsUsed: maxNeighborGuesses - guessesRemaining,
+        maxAttempts: maxNeighborGuesses,
         completed: neighborsGuessed === totalNeighbors || guessesRemaining === 0
     };
     saveShareProgress(progress);
 }
 
 // ── Share ─────────────────────────────────────────────────────────────────────
-
-function shareResult() {
-    const text = buildShareText();
-    copyTextToClipboard(text).then(() => {
-        const toast = document.getElementById('shareToast');
-        toast.style.display = 'block';
-        setTimeout(() => { toast.style.display = 'none'; }, 2000);
-    }).catch(() => {
-        prompt('Copy this to share:', text);
-    });
-}
-
-function copyTextToClipboard(text) {
-    if (window.isSecureContext && navigator.clipboard?.writeText) {
-        return navigator.clipboard.writeText(text);
-    }
-    return fallbackCopyTextToClipboard(text)
-        ? Promise.resolve()
-        : Promise.reject(new Error('Copy command was unsuccessful'));
-}
-
-function fallbackCopyTextToClipboard(text) {
-    const textArea = document.createElement('textarea');
-    textArea.value = text;
-    textArea.setAttribute('readonly', '');
-    textArea.style.position = 'fixed';
-    textArea.style.left = '-9999px';
-    document.body.appendChild(textArea);
-    textArea.select();
-    textArea.setSelectionRange(0, textArea.value.length);
-
-    let copied = false;
-    try {
-        copied = document.execCommand('copy');
-    } catch (e) {
-        copied = false;
-    }
-
-    document.body.removeChild(textArea);
-    return copied;
-}
-
-function buildShareText() {
-    const MAX_ATTEMPTS = 6;
-    const fallbackDate = getTodayShareDate();
-
-    let guessHistory = [];
-    let won = false;
-    let dateStr = fallbackDate;
-    try {
-        guessHistory = JSON.parse(localStorage.getItem('elementle-guessHistory')) || [];
-        won = JSON.parse(localStorage.getItem('elementle-won')) || false;
-        dateStr = localStorage.getItem('elementle-gameDate') || fallbackDate;
-    } catch (e) { /* ignore */ }
-
-    const scoreStr = won ? `${guessHistory.length}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`;
-    const emojiMap = { green: '🟩', yellow: '🟨', grey: '⬛' };
-    const rows = guessHistory.map(colors => colors.map(c => emojiMap[c]).join('')).join('\n');
-
-    const progress = getShareProgress(dateStr);
-    const bonusLines = buildBonusProgressLines(progress);
-
-    return [
-        `Elementle ${dateStr}  ${scoreStr}`,
-        '',
-        rows,
-        '',
-        ...bonusLines,
-        '',
-        '🧪 Play at: https://elementle.ch'
-    ].join('\n');
-}
 
 function getShareDate() {
     const fallbackDate = getTodayShareDate();
@@ -346,28 +336,4 @@ function loadShareProgress(dateStr) {
 
 function saveShareProgress(progress) {
     localStorage.setItem('elementle-share-progress', JSON.stringify(progress));
-}
-
-function getShareProgress(dateStr) {
-    return loadShareProgress(dateStr);
-}
-
-function buildBonusProgressLines(progress) {
-    const lines = [];
-
-    const neighborGuesses = typeof progress?.bonus1?.attemptsUsed === 'number' ? progress.bonus1.attemptsUsed : 0;
-    lines.push(neighborGuesses > 0 ? '🏘️'.repeat(neighborGuesses) : '🏘️0');
-
-    const massGuesses = typeof progress?.bonus2?.attemptsUsed === 'number' ? progress.bonus2.attemptsUsed : 0;
-    lines.push(massGuesses > 0 ? '⚖️'.repeat(massGuesses) : '⚖️0');
-
-    let quizSummary = '❓';
-    if (Array.isArray(progress?.bonus3?.results) && progress.bonus3.results.length > 0) {
-        quizSummary = progress.bonus3.results
-            .map(result => (result === true ? '✅' : result === false ? '❌' : '❓'))
-            .join('');
-    }
-    lines.push(`Quiz: ${quizSummary}`);
-
-    return lines;
 }

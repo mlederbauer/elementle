@@ -2,6 +2,7 @@ let quiz = [];
 let answered = 0;
 let score = 0;
 let questionResults = [];
+let selectedAnswers = [];
 
 function formatDailyDate(isoDate) {
     if (typeof isoDate !== 'string') return '';
@@ -14,6 +15,28 @@ function formatDailyDate(isoDate) {
 
 function getTodayShareDate() {
     return new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+function getGameDate() {
+    return localStorage.getItem('elementle-gameDate') || getTodayShareDate();
+}
+
+function saveBonus3Progress() {
+    if (!window.GameProgress) return;
+    GameProgress.save(getGameDate(), 'bonus3', {
+        answers: selectedAnswers,
+        completed: answered === quiz.length && quiz.length > 0
+    });
+}
+
+function restoreBonus3Progress() {
+    const saved = window.GameProgress?.get(getGameDate(), 'bonus3');
+    if (!saved || !Array.isArray(saved.answers) || saved.answers.length !== quiz.length) return;
+    if (saved.answers.some((answer, index) => answer !== null && !quiz[index].options.some(option => option.text === answer))) return;
+    selectedAnswers = saved.answers;
+    questionResults = selectedAnswers.map((answer, index) => answer === null ? null : answer === quiz[index].correct);
+    answered = selectedAnswers.filter(answer => answer !== null).length;
+    score = questionResults.filter(result => result === true).length;
 }
 
 function syncShareDate(dateStr) {
@@ -74,12 +97,15 @@ async function main() {
         return;
     }
 
+    restoreBonus3Progress();
     renderQuiz();
 }
 
 function renderQuiz() {
     const container = document.getElementById('quiz');
-    questionResults = quiz.map(() => null);
+    container.innerHTML = '';
+    if (selectedAnswers.length !== quiz.length) selectedAnswers = quiz.map(() => null);
+    if (questionResults.length !== quiz.length) questionResults = quiz.map(() => null);
     updateBonus3ShareProgress();
     quiz.forEach((q, qi) => {
         const block = document.createElement('div');
@@ -99,21 +125,20 @@ function renderQuiz() {
             grid.appendChild(btn);
         });
 
+        if (selectedAnswers[qi] !== null) revealAnswer(grid, selectedAnswers[qi], q);
         block.appendChild(grid);
         container.appendChild(block);
     });
+    if (answered === quiz.length) showResult();
 }
 
-function handleAnswer(qi, chosen, grid, q) {
-    // Disable all buttons in this question
+function revealAnswer(grid, chosen, q) {
     grid.querySelectorAll('.option-btn').forEach(btn => {
         btn.disabled = true;
 
         const isChosen  = btn.dataset.text === chosen;
         const isCorrect = btn.dataset.text === q.correct;
         const elemName  = btn.dataset.element;
-
-        // Add element-name label to every button on reveal
         const label = document.createElement('span');
         label.className = 'opt-element';
 
@@ -128,19 +153,25 @@ function handleAnswer(qi, chosen, grid, q) {
                 label.textContent = elemName + ' ✗';
             }
         }
-
         btn.appendChild(label);
     });
+}
 
+function handleAnswer(qi, chosen, grid, q) {
+    if (selectedAnswers[qi] !== null) return;
+    revealAnswer(grid, chosen, q);
+    selectedAnswers[qi] = chosen;
     if (chosen === q.correct) score++;
     questionResults[qi] = chosen === q.correct;
     answered++;
     updateBonus3ShareProgress();
+    saveBonus3Progress();
 
     if (answered === quiz.length) showResult();
 }
 
 function showResult() {
+    window.ElementleStats?.recordBonus(localStorage, getGameDate(), 'bonus3', score, quiz.length);
     const result = document.getElementById('result');
     const partialMsgs = [
         'Better luck tomorrow!',
@@ -154,82 +185,11 @@ function showResult() {
     const colorClass = score === quiz.length ? 'result-win' : score >= 1 ? 'result-mid' : 'result-lose';
     result.innerHTML = `
         <p class="${colorClass}">${score}/${quiz.length} correct — ${msg}</p>
-        <p class="result-sub">Come back tomorrow for a new element.</p>
-        <a href="../index.html" class="btn-home">Back to main game</a>`;
+        <p class="result-sub">Come back tomorrow for a new element.</p>`;
+    document.getElementById('statsLink').innerHTML =
+        '<a href="../index.html?stats=1" class="btn-home">View statistics</a>';
 
-    document.getElementById('shareBtn').style.display = 'inline-block';
-}
-
-function shareResult() {
-    const text = buildShareText();
-    copyTextToClipboard(text).then(() => {
-        const toast = document.getElementById('shareToast');
-        toast.style.display = 'block';
-        setTimeout(() => { toast.style.display = 'none'; }, 2000);
-    }).catch(() => {
-        prompt('Copy this to share:', text);
-    });
-}
-
-function copyTextToClipboard(text) {
-    if (window.isSecureContext && navigator.clipboard?.writeText) {
-        return navigator.clipboard.writeText(text);
-    }
-    return fallbackCopyTextToClipboard(text)
-        ? Promise.resolve()
-        : Promise.reject(new Error('Copy command was unsuccessful'));
-}
-
-function fallbackCopyTextToClipboard(text) {
-    const textArea = document.createElement('textarea');
-    textArea.value = text;
-    textArea.setAttribute('readonly', '');
-    textArea.style.position = 'fixed';
-    textArea.style.left = '-9999px';
-    document.body.appendChild(textArea);
-    textArea.select();
-    textArea.setSelectionRange(0, textArea.value.length);
-
-    let copied = false;
-    try {
-        copied = document.execCommand('copy');
-    } catch (e) {
-        copied = false;
-    }
-
-    document.body.removeChild(textArea);
-    return copied;
-}
-
-function buildShareText() {
-    const MAX_ATTEMPTS = 6;
-    const fallbackDate = getTodayShareDate();
-
-    let guessHistory = [];
-    let won = false;
-    let dateStr = fallbackDate;
-    try {
-        guessHistory = JSON.parse(localStorage.getItem('elementle-guessHistory')) || [];
-        won = JSON.parse(localStorage.getItem('elementle-won')) || false;
-        dateStr = localStorage.getItem('elementle-gameDate') || fallbackDate;
-    } catch (e) { /* ignore */ }
-
-    const scoreStr = won ? `${guessHistory.length}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`;
-    const emojiMap = { green: '🟩', yellow: '🟨', grey: '⬛' };
-    const rows = guessHistory.map(colors => colors.map(c => emojiMap[c]).join('')).join('\n');
-
-    const progress = getShareProgress(dateStr);
-    const bonusLines = buildBonusProgressLines(progress);
-
-    return [
-        `Elementle ${dateStr}  ${scoreStr}`,
-        '',
-        rows,
-        '',
-        ...bonusLines,
-        '',
-        '🧪 Play at: https://elementle.ch'
-    ].join('\n');
+    ElementleShare.showShareControls();
 }
 
 function updateBonus3ShareProgress() {
@@ -241,6 +201,7 @@ function updateBonus3ShareProgress() {
         score,
         completed: answered === quiz.length && quiz.length > 0,
         questions: quiz.map(q => q.question),
+        types: quiz.map(q => q.type || null),
         results: questionResults
     };
     saveShareProgress(progress);
@@ -265,29 +226,6 @@ function saveShareProgress(progress) {
     localStorage.setItem('elementle-share-progress', JSON.stringify(progress));
 }
 
-function getShareProgress(dateStr) {
-    return loadShareProgress(dateStr);
-}
-
-function buildBonusProgressLines(progress) {
-    const lines = [];
-
-    const neighborGuesses = typeof progress?.bonus1?.attemptsUsed === 'number' ? progress.bonus1.attemptsUsed : 0;
-    lines.push(neighborGuesses > 0 ? '🏘️'.repeat(neighborGuesses) : '🏘️0');
-
-    const massGuesses = typeof progress?.bonus2?.attemptsUsed === 'number' ? progress.bonus2.attemptsUsed : 0;
-    lines.push(massGuesses > 0 ? '⚖️'.repeat(massGuesses) : '⚖️0');
-
-    let quizSummary = '❓';
-    if (Array.isArray(progress?.bonus3?.results) && progress.bonus3.results.length > 0) {
-        quizSummary = progress.bonus3.results
-            .map(result => (result === true ? '✅' : result === false ? '❌' : '❓'))
-            .join('');
-    }
-    lines.push(`Quiz: ${quizSummary}`);
-
-    return lines;
-}
 
 function showNoElement() {
     document.querySelector('.container').innerHTML = `

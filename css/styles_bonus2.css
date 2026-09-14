@@ -243,15 +243,20 @@ body {
   font-weight: 700;
   font-size: 0.9rem;
   text-decoration: none;
+  background: var(--green);
   transition: background 0.15s;
 }
-.btn-home:hover { background: #3d3d3d; }
+.btn-home:hover { background: #406e3c; }
 
-/* ── Share button (hidden until round ends) ── */
-#shareBtn {
+/* ── Share controls (hidden until round ends) ── */
+.share-controls {
   display: none;
+  justify-content: center;
+  gap: 8px;
   margin: 18px auto 0;
-  background: var(--green);
+}
+.share-controls.visible { display: flex; }
+#shareBtn, #transparentShareBtn {
   color: #fff;
   border: none;
   border-radius: var(--radius);
@@ -262,7 +267,10 @@ body {
   cursor: pointer;
   transition: background 0.15s;
 }
+#shareBtn { background: var(--green); }
 #shareBtn:hover { background: #406e3c; }
+#transparentShareBtn { background: var(--grey); }
+#transparentShareBtn:hover { background: #555b66; }
 #shareToast {
   display: none;
   font-size: 0.8rem;

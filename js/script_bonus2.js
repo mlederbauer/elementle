@@ -1,10 +1,11 @@
-const MAX_ATTEMPTS = 6;
+const MAX_ATTEMPTS = 4;
 const CORRECT_THRESHOLD = 1.0; // within 1 u counts as correct
 
 let targetElement = null;
 let attemptsLeft = MAX_ATTEMPTS;
 let lastDirection = '';
 let lastWarmth = '▫️▫️▫️▫️▫️';
+let massGuesses = [];
 
 function formatDailyDate(isoDate) {
     if (typeof isoDate !== 'string') return '';
@@ -17,6 +18,38 @@ function formatDailyDate(isoDate) {
 
 function getTodayShareDate() {
     return new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+function getGameDate() {
+    return localStorage.getItem('elementle-gameDate') || getTodayShareDate();
+}
+
+function saveBonus2Progress(completed = false, won = false) {
+    if (!window.GameProgress) return;
+    GameProgress.save(getGameDate(), 'bonus2', {
+        guesses: massGuesses,
+        attemptsLeft,
+        completed: !!completed,
+        won: !!won
+    });
+}
+
+function restoreBonus2Progress() {
+    const saved = window.GameProgress?.get(getGameDate(), 'bonus2');
+    if (!saved || !Array.isArray(saved.guesses) || saved.guesses.some(guess => typeof guess !== 'number' || !Number.isFinite(guess))) return;
+
+    saved.guesses.forEach(guess => {
+        const diff = Math.abs(guess - targetElement.AtomicMass);
+        const correct = diff <= CORRECT_THRESHOLD;
+        const warmCount = [100, 50, 20, 10, 3].filter(t => diff < t).length;
+        lastWarmth = '🔥'.repeat(warmCount) + '▫️'.repeat(5 - warmCount);
+        lastDirection = correct ? '✓ correct' : (guess < targetElement.AtomicMass ? '↑ too low' : '↓ too high');
+        massGuesses.push(guess);
+        addGuessRow(guess, diff, correct);
+    });
+    attemptsLeft = Math.max(0, MAX_ATTEMPTS - massGuesses.length);
+    updateAttemptsDisplay();
+    if (saved.completed) endGame(saved.won, true);
 }
 
 function syncShareDate(dateStr) {
@@ -64,6 +97,7 @@ async function main() {
     if (!targetElement) { showNoElement(); return; }
 
     renderElementCard();
+    restoreBonus2Progress();
     document.getElementById('guessForm').addEventListener('submit', handleGuess);
 }
 
@@ -92,9 +126,12 @@ function handleGuess(e) {
     lastDirection = correct ? '✓ correct' : (raw < targetElement.AtomicMass ? '↑ too low' : '↓ too high');
 
     addGuessRow(raw, diff, correct);
+    massGuesses.push(raw);
     attemptsLeft--;
     updateAttemptsDisplay();
-    updateBonus2ShareProgress(correct, correct || attemptsLeft === 0);
+    const completed = correct || attemptsLeft === 0;
+    updateBonus2ShareProgress(correct, completed);
+    saveBonus2Progress(completed, correct);
     input.value = '';
 
     if (correct)              endGame(true);
@@ -137,6 +174,7 @@ function updateAttemptsDisplay() {
 }
 
 function endGame(won) {
+    window.ElementleStats?.recordBonus(localStorage, getGameDate(), 'bonus2', won ? 1 : 0);
     document.getElementById('guessForm').style.display = 'none';
 
     // Reveal the atomic mass on the card
@@ -149,15 +187,15 @@ function endGame(won) {
         result.innerHTML = `
             <p class="result-win">Correct! The atomic mass of ${targetElement.Element} is <strong>${targetElement.AtomicMass}&thinsp;u</strong>.</p>
             <p class="result-sub">One more round to go!</p>
-            <a href="bonuspage_3.html" class="btn-home">Bonus Round 3 →</a>`;
+            <a href="bonuspage_3.html" class="btn-home">Next round</a>`;
     } else {
         result.innerHTML = `
             <p class="result-lose">The atomic mass of ${targetElement.Element} is <strong>${targetElement.AtomicMass}&thinsp;u</strong>.</p>
             <p class="result-sub">Want to learn a fun fact about today's element?</p>
-            <a href="bonuspage_3.html" class="btn-home">Bonus Round 3 →</a>`;
+            <a href="bonuspage_3.html" class="btn-home">Next round</a>`;
     }
 
-    document.getElementById('shareBtn').style.display = 'inline-block';
+    ElementleShare.showShareControls();
 }
 
 function updateBonus2ShareProgress(won, completed) {
@@ -175,77 +213,6 @@ function updateBonus2ShareProgress(won, completed) {
 }
 
 // ── Share ─────────────────────────────────────────────────────────────────────
-
-function shareResult() {
-    const text = buildShareText();
-    copyTextToClipboard(text).then(() => {
-        const toast = document.getElementById('shareToast');
-        toast.style.display = 'block';
-        setTimeout(() => { toast.style.display = 'none'; }, 2000);
-    }).catch(() => {
-        prompt('Copy this to share:', text);
-    });
-}
-
-function copyTextToClipboard(text) {
-    if (window.isSecureContext && navigator.clipboard?.writeText) {
-        return navigator.clipboard.writeText(text);
-    }
-    return fallbackCopyTextToClipboard(text)
-        ? Promise.resolve()
-        : Promise.reject(new Error('Copy command was unsuccessful'));
-}
-
-function fallbackCopyTextToClipboard(text) {
-    const textArea = document.createElement('textarea');
-    textArea.value = text;
-    textArea.setAttribute('readonly', '');
-    textArea.style.position = 'fixed';
-    textArea.style.left = '-9999px';
-    document.body.appendChild(textArea);
-    textArea.select();
-    textArea.setSelectionRange(0, textArea.value.length);
-
-    let copied = false;
-    try {
-        copied = document.execCommand('copy');
-    } catch (e) {
-        copied = false;
-    }
-
-    document.body.removeChild(textArea);
-    return copied;
-}
-
-function buildShareText() {
-    const fallbackDate = getTodayShareDate();
-
-    let guessHistory = [];
-    let won = false;
-    let dateStr = fallbackDate;
-    try {
-        guessHistory = JSON.parse(localStorage.getItem('elementle-guessHistory')) || [];
-        won = JSON.parse(localStorage.getItem('elementle-won')) || false;
-        dateStr = localStorage.getItem('elementle-gameDate') || fallbackDate;
-    } catch (e) { /* ignore */ }
-
-    const scoreStr = won ? `${guessHistory.length}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`;
-    const emojiMap = { green: '🟩', yellow: '🟨', grey: '⬛' };
-    const rows = guessHistory.map(colors => colors.map(c => emojiMap[c]).join('')).join('\n');
-
-    const progress = getShareProgress(dateStr);
-    const bonusLines = buildBonusProgressLines(progress);
-
-    return [
-        `Elementle ${dateStr}  ${scoreStr}`,
-        '',
-        rows,
-        '',
-        ...bonusLines,
-        '',
-        '🧪 Play at: https://elementle.ch'
-    ].join('\n');
-}
 
 function getShareDate() {
     const fallbackDate = getTodayShareDate();
@@ -266,29 +233,6 @@ function saveShareProgress(progress) {
     localStorage.setItem('elementle-share-progress', JSON.stringify(progress));
 }
 
-function getShareProgress(dateStr) {
-    return loadShareProgress(dateStr);
-}
-
-function buildBonusProgressLines(progress) {
-    const lines = [];
-
-    const neighborGuesses = typeof progress?.bonus1?.attemptsUsed === 'number' ? progress.bonus1.attemptsUsed : 0;
-    lines.push(neighborGuesses > 0 ? '🏘️'.repeat(neighborGuesses) : '🏘️0');
-
-    const massGuesses = typeof progress?.bonus2?.attemptsUsed === 'number' ? progress.bonus2.attemptsUsed : 0;
-    lines.push(massGuesses > 0 ? '⚖️'.repeat(massGuesses) : '⚖️0');
-
-    let quizSummary = '❓';
-    if (Array.isArray(progress?.bonus3?.results) && progress.bonus3.results.length > 0) {
-        quizSummary = progress.bonus3.results
-            .map(result => (result === true ? '✅' : result === false ? '❌' : '❓'))
-            .join('');
-    }
-    lines.push(`Quiz: ${quizSummary}`);
-
-    return lines;
-}
 
 function setError(msg) {
     document.getElementById('errorMessage').textContent = msg;

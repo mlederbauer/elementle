@@ -29,10 +29,16 @@
         <div id="quiz"></div>
 
         <div id="result" class="result-area"></div>
-        <button id="shareBtn" onclick="shareResult()">Share result</button>
+        <div id="shareControls" class="share-controls">
+            <button id="shareBtn" type="button" onclick="ElementleShare.shareResult()">Share result</button>
+        </div>
+        <div id="statsLink"></div>
         <p id="shareToast">Copied to clipboard!</p>
     </main>
 
+    <script src="../js/game_progress.js"></script>
+    <script src="../js/stats.js"></script>
+    <script src="../js/share.js"></script>
     <script src="../js/script_bonus3.js"></script>
 </body>
 </html>

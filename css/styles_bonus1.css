@@ -127,7 +127,9 @@ body {
   justify-content: center;
   gap: 8px;
   margin-bottom: 10px;
+  position: relative;
 }
+#elementsList { width: 220px; }
 #guessInput {
   padding: 10px 14px;
   font-size: 1rem;
@@ -183,28 +185,38 @@ button[type="submit"]:hover { background: #3d3d3d; }
 
 /* ── Result / next page ── */
 #resultMessage {
-  background: var(--green);
-  color: #fff;
-  padding: 12px 20px;
-  border-radius: var(--radius);
   margin-top: 20px;
+  display: none;
+  text-align: center;
+}
+.bonus-result-message {
+  color: #c0392b;
   font-size: 1rem;
   font-weight: 700;
-  display: none;
+  margin: 0 0 12px;
+}
+#nextBonusPage {
+  display: inline-block;
+  background: var(--green);
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: var(--radius);
+  font-weight: 700;
+  font-size: 0.9rem;
   cursor: pointer;
   transition: background 0.15s;
 }
-#resultMessage:hover { background: #406e3c; }
-#nextBonusPage {
-  font-weight: 700;
-  letter-spacing: 0.05em;
-}
+#nextBonusPage:hover { background: #406e3c; }
 
-/* ── Share button (hidden until round ends) ── */
-#shareBtn {
+/* ── Share controls (hidden until round ends) ── */
+.share-controls {
   display: none;
+  justify-content: center;
+  gap: 8px;
   margin: 18px auto 0;
-  background: var(--green);
+}
+.share-controls.visible { display: flex; }
+#shareBtn, #transparentShareBtn {
   color: #fff;
   border: none;
   border-radius: var(--radius);
@@ -215,7 +227,10 @@ button[type="submit"]:hover { background: #3d3d3d; }
   cursor: pointer;
   transition: background 0.15s;
 }
+#shareBtn { background: var(--green); }
 #shareBtn:hover { background: #406e3c; }
+#transparentShareBtn { background: var(--grey); }
+#transparentShareBtn:hover { background: #555b66; }
 #shareToast {
   display: none;
   font-size: 0.8rem;
@@ -223,3 +238,9 @@ button[type="submit"]:hover { background: #3d3d3d; }
   font-weight: 600;
   margin-top: 6px;
 }
+.neighbor-autocomplete { position: relative; width: 220px; }
+.neighbor-autocomplete #guessInput { width: 100%; box-sizing: border-box; }
+.elements-list { position: absolute; z-index: 10; top: calc(100% + 2px); left: 0; right: 0; margin: 0; padding: 0; list-style: none; background: #fff; border: 1px solid var(--border); border-radius: var(--radius); max-height: 180px; overflow-y: auto; text-align: left; }
+.elements-list:empty { display: none; }
+.elements-list li { padding: 8px 12px; cursor: pointer; }
+.elements-list li:hover { background: var(--tile-bg); }

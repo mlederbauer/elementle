@@ -29,6 +29,12 @@ python3 -m http.server 8080
 
 ---
 
+## Sharing results
+
+After completing a game, **Share result** copies a privacy-preserving result: the score and five-square periodic-table vicinity indicator for each guess. Choose **Share transparently** to include the detailed letter feedback instead.
+
+---
+
 ## Daily element update
 
 GitHub Actions runs `.github/workflows/daily.yml` every day at 00:00 UTC:

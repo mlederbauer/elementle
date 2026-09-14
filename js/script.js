@@ -5,6 +5,7 @@ let selectedElement = "";
 let attempts = MAX_ATTEMPTS;
 let gameOver = false;
 let guessHistory = []; // array of color arrays per guess: ('green'|'yellow'|'grey')[]
+let guessNames = [];
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchData();
@@ -56,6 +57,11 @@ function getTodayShareDate() {
     return new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
 }
 
+function getTodayUtcShareDate() {
+    const now = new Date();
+    return `${String(now.getUTCDate()).padStart(2, '0')}/${String(now.getUTCMonth() + 1).padStart(2, '0')}/${now.getUTCFullYear()}`;
+}
+
 // ── Data loading ──────────────────────────────────────────────────────────────
 
 function fetchData() {
@@ -77,13 +83,17 @@ function fetchData() {
                 ensureShareProgressDate(shareDate);
             }
             saveSelectedElementToLocalStorage();
+            restoreMainProgress(shareDate || getTodayShareDate());
+            openRequestedStats();
         })
         .catch(() => {
             selectedElement = getDailyElement();
-            const shareDate = getTodayShareDate();
+            const shareDate = getTodayUtcShareDate();
             localStorage.setItem('elementle-gameDate', shareDate);
             ensureShareProgressDate(shareDate);
             saveSelectedElementToLocalStorage();
+            restoreMainProgress(shareDate);
+            openRequestedStats();
         });
 }
 
@@ -98,6 +108,54 @@ function getDailyElement() {
     state ^= state + Math.imul(state ^ (state >>> 7), state | 61);
     const rand = ((state ^ (state >>> 14)) >>> 0) / 4294967296;
     return elements[Math.floor(rand * elements.length)];
+}
+
+function getGameDate() {
+    return localStorage.getItem('elementle-gameDate') || getTodayShareDate();
+}
+
+function saveMainProgress(won = false) {
+    if (!window.GameProgress) return;
+    GameProgress.save(getGameDate(), 'main', {
+        guesses: guessNames,
+        attempts,
+        completed: gameOver,
+        won: !!won
+    });
+}
+
+function restoreMainProgress(dateStr) {
+    const saved = window.GameProgress?.get(dateStr, 'main');
+    if (!saved || !Array.isArray(saved.guesses) || saved.guesses.some(guess => !elements.includes(guess))) return;
+
+    guessHistory = [];
+    guessNames = [];
+    saved.guesses.forEach(guess => {
+        const guessedData = getElementData(guess);
+        if (!guessedData) return;
+        recordGuessColors(guess);
+        if (guess === selectedElement) colorCorrectElementGrid();
+        else {
+            colorGuessedElementGrid(guessedData);
+            displayGuessedWordFeedback(guess, guessedData, getElementData(selectedElement));
+        }
+    });
+
+    attempts = Number.isInteger(saved.attempts) && saved.attempts >= 0 && saved.attempts <= MAX_ATTEMPTS
+        ? saved.attempts : Math.max(0, MAX_ATTEMPTS - guessNames.length);
+    document.getElementById('attempts').textContent = `Attempts left: ${attempts}`;
+
+    if (!saved.completed) return;
+    gameOver = true;
+    disableGuessInput();
+    if (saved.won) {
+        displayMessage('Correct! Well done.', 'var(--green)');
+        colorCorrectElementGrid();
+    } else {
+        displayMessage(`Out of attempts! The element was ${selectedElement}.`, '#c0392b');
+    }
+    showBonusPageIcon();
+    ElementleShare.showShareControls();
 }
 
 // ── Grid ──────────────────────────────────────────────────────────────────────
@@ -202,6 +260,7 @@ function checkGuess() {
     } else {
         displayMessage("Try again!", "var(--orange)");
         attemptsDisplay.textContent = `Attempts left: ${attempts}`;
+        saveMainProgress();
     }
 }
 
@@ -210,17 +269,27 @@ function endGame(won, usedAttempts) {
     disableGuessInput();
     updateStats(won, usedAttempts);
     saveGameResultToLocalStorage(won);
-    if (won) showBonusPageIcon();
-    document.getElementById('shareBtn').style.display = 'inline-block';
+    showBonusPageIcon();
+    ElementleShare.showShareControls();
+    saveMainProgress(won);
 }
 
 function saveGameResultToLocalStorage(won) {
     try {
         const dateStr = localStorage.getItem('elementle-gameDate') || getTodayShareDate();
+        const selectedData = getElementData(selectedElement);
+        const secretRows = guessNames.map(guess =>
+            ElementleShare.buildSecretRow(getElementData(guess), selectedData)
+        );
         localStorage.setItem('elementle-guessHistory', JSON.stringify(guessHistory));
         localStorage.setItem('elementle-won', JSON.stringify(won));
         localStorage.setItem('elementle-gameDate', dateStr);
         ensureShareProgressDate(dateStr);
+        ElementleShare.saveMainShareState(localStorage, dateStr, {
+            history: guessHistory,
+            won,
+            secretRows
+        });
     } catch (e) { console.error('Failed to save game result:', e); }
 }
 
@@ -233,6 +302,7 @@ function recordGuessColors(guess) {
         greenIndices.includes(i) ? 'green' : yellowIndices.includes(i) ? 'yellow' : 'grey'
     );
     guessHistory.push(colors);
+    guessNames.push(guess);
 }
 
 function clearGuessInput() {
@@ -280,7 +350,6 @@ function createWordDiv(guess, guessedData, selectedData) {
     div.classList.add("wordDiv");
     appendColoredLetters(div, guess, selectedElement);
     appendPlaceholders(div, guess);
-    appendLengthSign(div, guess);
     appendArrowsOrCheckmarks(div, guessedData, selectedData);
     appendPercentage(div, guessedData, selectedData);
     return div;
@@ -329,15 +398,6 @@ function appendPlaceholders(parent, guess) {
         span.classList.add("letterRectangle", "transparentPlaceholder");
         parent.appendChild(span);
     }
-}
-
-function appendLengthSign(parent, guess) {
-    const span = document.createElement("span");
-    span.classList.add("sign");
-    if (selectedElement.length > guess.length)      span.textContent = "\u2795";
-    else if (selectedElement.length < guess.length) span.textContent = "\u2796";
-    else                                             span.textContent = "🟰";
-    parent.appendChild(span);
 }
 
 function appendArrowsOrCheckmarks(parent, gueData, selData) {
@@ -402,34 +462,29 @@ function saveSelectedElementToLocalStorage() {
 
 // ── Stats ─────────────────────────────────────────────────────────────────────
 
-const STATS_KEY = 'elementle-stats';
-
-function loadStats() {
-    try {
-        const stored = JSON.parse(localStorage.getItem(STATS_KEY));
-        if (!stored) return defaultStats();
-        if (!Array.isArray(stored.distribution)) stored.distribution = [0,0,0,0,0,0];
-        return stored;
-    } catch { return defaultStats(); }
+function openRequestedStats() {
+    if (new URLSearchParams(window.location.search).get('stats') !== '1') return;
+    openStats();
+    window.history.replaceState({}, '', window.location.pathname);
 }
 
-function defaultStats() {
-    return { played: 0, won: 0, currentStreak: 0, maxStreak: 0, distribution: [0,0,0,0,0,0] };
+function loadStats() {
+    return window.ElementleStats?.load(localStorage) || {
+        played: 0,
+        won: 0,
+        currentStreak: 0,
+        maxStreak: 0,
+        distribution: [0, 0, 0, 0, 0, 0],
+        bonuses: {
+            bonus1: { correct: 0, completed: 0 },
+            bonus2: { correct: 0, completed: 0 },
+            bonus3: { correct: 0, completed: 0 }
+        }
+    };
 }
 
 function updateStats(won, usedAttempts) {
-    const stats = loadStats();
-    stats.played++;
-    if (won) {
-        stats.won++;
-        stats.currentStreak++;
-        if (stats.currentStreak > stats.maxStreak) stats.maxStreak = stats.currentStreak;
-        const bucketIdx = Math.min(usedAttempts - 1, 5);
-        stats.distribution[bucketIdx]++;
-    } else {
-        stats.currentStreak = 0;
-    }
-    try { localStorage.setItem(STATS_KEY, JSON.stringify(stats)); } catch {}
+    window.ElementleStats?.recordMain(localStorage, won, usedAttempts);
 }
 
 function openStats() {
@@ -461,6 +516,23 @@ function openStats() {
         barsDiv.appendChild(row);
     });
 
+    const bonusStats = document.getElementById('bonusStats');
+    bonusStats.innerHTML = '';
+    [
+        ['Neighbors', stats.bonuses.bonus1],
+        ['Mass rounds won', stats.bonuses.bonus2],
+        ['Trivia', stats.bonuses.bonus3]
+    ].forEach(([label, result]) => {
+        const row = document.createElement('div');
+        row.classList.add('bonus-stat-row');
+        const name = document.createElement('span');
+        name.textContent = label;
+        const totals = document.createElement('span');
+        totals.textContent = `${result.correct}/${result.total || result.completed}`;
+        row.append(name, totals);
+        bonusStats.appendChild(row);
+    });
+
     document.getElementById('statsModal').classList.add('open');
 }
 
@@ -472,78 +544,7 @@ function closeStatsOnOverlay(e) {
     if (e.target === document.getElementById('statsModal')) closeStats();
 }
 
-// ── Share ─────────────────────────────────────────────────────────────────────
-
-function shareResult() {
-    const text = buildShareText();
-    copyTextToClipboard(text).then(() => {
-        const toast = document.getElementById('shareToast');
-        toast.style.display = 'block';
-        setTimeout(() => { toast.style.display = 'none'; }, 2000);
-    }).catch(() => {
-        prompt('Copy this to share:', text);
-    });
-}
-
-function copyTextToClipboard(text) {
-    if (window.isSecureContext && navigator.clipboard?.writeText) {
-        return navigator.clipboard.writeText(text);
-    }
-    return fallbackCopyTextToClipboard(text)
-        ? Promise.resolve()
-        : Promise.reject(new Error('Copy command was unsuccessful'));
-}
-
-function fallbackCopyTextToClipboard(text) {
-    const textArea = document.createElement('textarea');
-    textArea.value = text;
-    textArea.setAttribute('readonly', '');
-    textArea.style.position = 'fixed';
-    textArea.style.left = '-9999px';
-    document.body.appendChild(textArea);
-    textArea.select();
-    textArea.setSelectionRange(0, textArea.value.length);
-
-    let copied = false;
-    try {
-        copied = document.execCommand('copy');
-    } catch (e) {
-        copied = false;
-    }
-
-    document.body.removeChild(textArea);
-    return copied;
-}
-
-function buildShareText() {
-    const fallbackDate = getTodayShareDate();
-
-    let history = [];
-    let won = false;
-    let dateStr = fallbackDate;
-    try {
-        history = JSON.parse(localStorage.getItem('elementle-guessHistory')) || [];
-        won = JSON.parse(localStorage.getItem('elementle-won')) || false;
-        dateStr = localStorage.getItem('elementle-gameDate') || fallbackDate;
-    } catch (e) { /* ignore */ }
-
-    const scoreStr = won ? `${history.length}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`;
-    const emojiMap = { green: '🟩', yellow: '🟨', grey: '⬛' };
-    const rows = history.map(colors => colors.map(c => emojiMap[c]).join('')).join('\n');
-
-    const progress = getShareProgress(dateStr);
-    const bonusLines = buildBonusProgressLines(progress);
-
-    return [
-        `Elementle ${dateStr}  ${scoreStr}`,
-        '',
-        rows,
-        '',
-        ...bonusLines,
-        '',
-        '🧪 Play at: https://elementle.ch'
-    ].join('\n');
-}
+// ── Share state ───────────────────────────────────────────────────────────────
 
 function ensureShareProgressDate(dateStr) {
     try {
@@ -554,34 +555,4 @@ function ensureShareProgressDate(dateStr) {
     } catch (e) {
         localStorage.setItem('elementle-share-progress', JSON.stringify({ date: dateStr }));
     }
-}
-
-function getShareProgress(dateStr) {
-    try {
-        const stored = JSON.parse(localStorage.getItem('elementle-share-progress'));
-        if (!stored || stored.date !== dateStr) return { date: dateStr };
-        return stored;
-    } catch (e) {
-        return { date: dateStr };
-    }
-}
-
-function buildBonusProgressLines(progress) {
-    const lines = [];
-
-    const neighborGuesses = typeof progress?.bonus1?.attemptsUsed === 'number' ? progress.bonus1.attemptsUsed : 0;
-    lines.push(neighborGuesses > 0 ? '🏘️'.repeat(neighborGuesses) : '🏘️0');
-
-    const massGuesses = typeof progress?.bonus2?.attemptsUsed === 'number' ? progress.bonus2.attemptsUsed : 0;
-    lines.push(massGuesses > 0 ? '⚖️'.repeat(massGuesses) : '⚖️0');
-
-    let quizSummary = '❓';
-    if (Array.isArray(progress?.bonus3?.results) && progress.bonus3.results.length > 0) {
-        quizSummary = progress.bonus3.results
-            .map(result => (result === true ? '✅' : result === false ? '❌' : '❓'))
-            .join('');
-    }
-    lines.push(`Quiz: ${quizSummary}`);
-
-    return lines;
 }

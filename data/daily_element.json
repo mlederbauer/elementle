@@ -1,100 +1,100 @@
 {
-  "date": "2026-09-14",
-  "element": "Thulium",
-  "atomicNumber": 69,
-  "symbol": "Tm",
+  "date": "2026-09-15",
+  "element": "Yttrium",
+  "atomicNumber": 39,
+  "symbol": "Y",
   "quiz": [
     {
-      "question": "What is the approximate price of Thulium per kilogram?",
+      "question": "When was Yttrium first discovered?",
       "options": [
         {
-          "text": "$2.57/kg",
-          "element": "Sodium"
+          "text": "1817",
+          "element": "Cadmium"
         },
         {
-          "text": "$49,200,000,000,000/kg",
-          "element": "Polonium"
+          "text": "1894",
+          "element": "Argon"
         },
         {
-          "text": "$29,000,000,000,000/kg",
-          "element": "Actinium"
+          "text": "1878",
+          "element": "Ytterbium"
         },
         {
-          "text": "$3,000/kg",
-          "element": "Thulium"
+          "text": "1789",
+          "element": "Yttrium"
         }
       ],
-      "correct": "$3,000/kg",
-      "type": "price_per_kg"
+      "correct": "1789",
+      "type": "discovery_year"
     },
     {
-      "question": "Who discovered Thulium?",
+      "question": "Which countries are the top producers of Yttrium?",
       "options": [
         {
-          "text": "Per Theodor Cleve",
-          "element": "Thulium"
+          "text": "1) China  2) Indonesia  3) Peru",
+          "element": "Tin"
         },
         {
-          "text": "Pierre and Marie Curie",
-          "element": "Polonium"
+          "text": "1) Brazil  2) Canada",
+          "element": "Niobium"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Sodium"
-        },
-        {
-          "text": "Andr\u00e9 Debierne",
-          "element": "Actinium"
-        }
-      ],
-      "correct": "Per Theodor Cleve",
-      "type": "discoverers"
-    },
-    {
-      "question": "What is the geochemical class of Thulium?",
-      "options": [
-        {
-          "text": "rare earth & related",
-          "element": "Thulium"
-        },
-        {
-          "text": "first series transition metal",
-          "element": "Scandium"
-        },
-        {
-          "text": "U/Th decay series",
-          "element": "Polonium"
-        },
-        {
-          "text": "major",
-          "element": "Sodium"
-        }
-      ],
-      "correct": "rare earth & related",
-      "type": "geochemical_class"
-    },
-    {
-      "question": "Which countries are the top producers of Thulium?",
-      "options": [
-        {
-          "text": "1) China  2) India  3) USA",
-          "element": "Sodium"
+          "text": "1) China  2) Republic of Korea  3) Japan",
+          "element": "Cadmium"
         },
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Thulium"
-        },
-        {
-          "text": "1) China  2) Australia  3) Brazil",
-          "element": "Iron"
-        },
-        {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Rhodium"
+          "element": "Yttrium"
         }
       ],
       "correct": "1) China  2) Russia  3) Malaysia",
       "type": "top_3_producers"
+    },
+    {
+      "question": "What is the approximate price of Yttrium per kilogram?",
+      "options": [
+        {
+          "text": "$2.73/kg",
+          "element": "Cadmium"
+        },
+        {
+          "text": "$0.931/kg",
+          "element": "Argon"
+        },
+        {
+          "text": "$17.1/kg",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "$31/kg",
+          "element": "Yttrium"
+        }
+      ],
+      "correct": "$31/kg",
+      "type": "price_per_kg"
+    },
+    {
+      "question": "What is the crustal abundance of Yttrium?",
+      "options": [
+        {
+          "text": "3.2 mg/kg",
+          "element": "Ytterbium"
+        },
+        {
+          "text": "3.5 mg/kg",
+          "element": "Argon"
+        },
+        {
+          "text": "33 mg/kg",
+          "element": "Yttrium"
+        },
+        {
+          "text": "0.15 mg/kg",
+          "element": "Cadmium"
+        }
+      ],
+      "correct": "33 mg/kg",
+      "type": "abundance_crust"
     }
   ]
 }

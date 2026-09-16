@@ -1,16 +1,12 @@
 {
-  "date": "2026-09-15",
-  "element": "Yttrium",
-  "atomicNumber": 39,
-  "symbol": "Y",
+  "date": "2026-09-16",
+  "element": "Copernicium",
+  "atomicNumber": 112,
+  "symbol": "Cn",
   "quiz": [
     {
-      "question": "When was Yttrium first discovered?",
+      "question": "When was Copernicium first discovered?",
       "options": [
-        {
-          "text": "1817",
-          "element": "Cadmium"
-        },
         {
           "text": "1894",
           "element": "Argon"
@@ -20,81 +16,62 @@
           "element": "Ytterbium"
         },
         {
-          "text": "1789",
-          "element": "Yttrium"
+          "text": "1944",
+          "element": "Curium"
+        },
+        {
+          "text": "1996",
+          "element": "Copernicium"
         }
       ],
-      "correct": "1789",
+      "correct": "1996",
       "type": "discovery_year"
     },
     {
-      "question": "Which countries are the top producers of Yttrium?",
+      "question": "Who discovered Copernicium?",
       "options": [
         {
-          "text": "1) China  2) Indonesia  3) Peru",
-          "element": "Tin"
+          "text": "GSI Helmholtz Centre for Heavy Ion Research",
+          "element": "Copernicium"
         },
         {
-          "text": "1) Brazil  2) Canada",
-          "element": "Niobium"
+          "text": "G.T.Seaborg, R.A.James, A.Ghiorso",
+          "element": "Curium"
         },
         {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Cadmium"
-        },
-        {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Yttrium"
-        }
-      ],
-      "correct": "1) China  2) Russia  3) Malaysia",
-      "type": "top_3_producers"
-    },
-    {
-      "question": "What is the approximate price of Yttrium per kilogram?",
-      "options": [
-        {
-          "text": "$2.73/kg",
-          "element": "Cadmium"
-        },
-        {
-          "text": "$0.931/kg",
+          "text": "Sir William Ramsey, Baron Rayleigh",
           "element": "Argon"
         },
         {
-          "text": "$17.1/kg",
+          "text": "Jean de Marignac",
           "element": "Ytterbium"
-        },
-        {
-          "text": "$31/kg",
-          "element": "Yttrium"
         }
       ],
-      "correct": "$31/kg",
-      "type": "price_per_kg"
+      "correct": "GSI Helmholtz Centre for Heavy Ion Research",
+      "type": "discoverers"
     },
     {
-      "question": "What is the crustal abundance of Yttrium?",
+      "question": "What is the density of Copernicium?",
       "options": [
         {
-          "text": "3.2 mg/kg",
+          "text": "6.9 g/cm\u00b3",
           "element": "Ytterbium"
         },
         {
-          "text": "3.5 mg/kg",
+          "text": "13.5 g/cm\u00b3",
+          "element": "Curium"
+        },
+        {
+          "text": "0.00163 g/cm\u00b3",
           "element": "Argon"
         },
         {
-          "text": "33 mg/kg",
-          "element": "Yttrium"
-        },
-        {
-          "text": "0.15 mg/kg",
-          "element": "Cadmium"
+          "text": "14 g/cm\u00b3",
+          "element": "Copernicium"
         }
       ],
-      "correct": "33 mg/kg",
-      "type": "abundance_crust"
+      "correct": "14 g/cm\u00b3",
+      "type": "density"
     }
   ]
 }

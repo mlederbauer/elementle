@@ -1,76 +1,76 @@
 {
-  "date": "2026-09-16",
-  "element": "Copernicium",
-  "atomicNumber": 112,
-  "symbol": "Cn",
+  "date": "2026-09-17",
+  "element": "Dubnium",
+  "atomicNumber": 105,
+  "symbol": "Db",
   "quiz": [
     {
-      "question": "When was Copernicium first discovered?",
+      "question": "When was Dubnium first discovered?",
       "options": [
         {
-          "text": "1894",
-          "element": "Argon"
+          "text": "1843",
+          "element": "Erbium"
         },
         {
-          "text": "1878",
-          "element": "Ytterbium"
+          "text": "1952",
+          "element": "Einsteinium"
         },
         {
-          "text": "1944",
-          "element": "Curium"
+          "text": "1970",
+          "element": "Dubnium"
         },
         {
-          "text": "1996",
-          "element": "Copernicium"
+          "text": "1774",
+          "element": "Oxygen"
         }
       ],
-      "correct": "1996",
+      "correct": "1970",
       "type": "discovery_year"
     },
     {
-      "question": "Who discovered Copernicium?",
+      "question": "Who discovered Dubnium?",
       "options": [
         {
-          "text": "GSI Helmholtz Centre for Heavy Ion Research",
-          "element": "Copernicium"
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
         },
         {
-          "text": "G.T.Seaborg, R.A.James, A.Ghiorso",
-          "element": "Curium"
+          "text": "Carl Mosander",
+          "element": "Erbium"
         },
         {
-          "text": "Sir William Ramsey, Baron Rayleigh",
-          "element": "Argon"
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Einsteinium"
         },
         {
-          "text": "Jean de Marignac",
-          "element": "Ytterbium"
+          "text": "Joseph Priestly, Carl Wilhelm Scheele",
+          "element": "Oxygen"
         }
       ],
-      "correct": "GSI Helmholtz Centre for Heavy Ion Research",
+      "correct": "A. Ghiorso, et al",
       "type": "discoverers"
     },
     {
-      "question": "What is the density of Copernicium?",
+      "question": "What is the density of Dubnium?",
       "options": [
         {
-          "text": "6.9 g/cm\u00b3",
-          "element": "Ytterbium"
+          "text": "9.07 g/cm\u00b3",
+          "element": "Erbium"
         },
         {
-          "text": "13.5 g/cm\u00b3",
-          "element": "Curium"
+          "text": "0.00131 g/cm\u00b3",
+          "element": "Oxygen"
         },
         {
-          "text": "0.00163 g/cm\u00b3",
-          "element": "Argon"
+          "text": "29.3 g/cm\u00b3",
+          "element": "Dubnium"
         },
         {
-          "text": "14 g/cm\u00b3",
-          "element": "Copernicium"
+          "text": "8.84 g/cm\u00b3",
+          "element": "Einsteinium"
         }
       ],
-      "correct": "14 g/cm\u00b3",
+      "correct": "29.3 g/cm\u00b3",
       "type": "density"
     }
   ]

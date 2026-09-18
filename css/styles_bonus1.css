@@ -14,7 +14,12 @@
 
 body {
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-  background: var(--bg);
+  background-color: #ffffff;
+  background-image: url('../assets/bg_final.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% auto;
+  background-attachment: fixed;
   color: var(--text);
   min-height: 100vh;
   display: flex;
@@ -25,8 +30,12 @@ body {
 /* ── Header ── */
 .game-header {
   width: 100%;
-  border-bottom: 1px solid var(--border);
-  background: var(--surface);
+  height: 90px;
+  background-color: transparent;
+  background-image: url('../assets/header_final_mirrored_tile.png');
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  background-size: auto 90px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,6 +44,10 @@ body {
   margin-bottom: 24px;
 }
 .game-header h1 {
+  background: var(--surface);
+  padding: 6px 18px;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
   font-size: 1.9rem;
   font-weight: 800;
   letter-spacing: 0.18rem;

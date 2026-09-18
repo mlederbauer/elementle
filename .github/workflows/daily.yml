@@ -1,8 +1,9 @@
 name: Update Daily Element
 
 on:
-  schedule:
-    - cron: '0 0 * * *'  # Every day at midnight UTC
+  # schedule disabled: element pinned, don't want cron to randomize it. Re-enable by uncommenting.
+  # schedule:
+  #   - cron: '0 0 * * *'  # Every day at midnight UTC
   workflow_dispatch:       # Allow manual trigger for testing
 
 permissions:

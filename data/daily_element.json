@@ -1,77 +1,100 @@
 {
   "date": "2026-09-17",
-  "element": "Dubnium",
-  "atomicNumber": 105,
-  "symbol": "Db",
+  "element": "Radium",
+  "atomicNumber": 88,
+  "symbol": "Ra",
   "quiz": [
     {
-      "question": "When was Dubnium first discovered?",
+      "question": "What is the crustal abundance of Radium?",
       "options": [
         {
-          "text": "1843",
-          "element": "Erbium"
+          "text": "0.001 mg/kg",
+          "element": "Tellurium"
         },
         {
-          "text": "1952",
-          "element": "Einsteinium"
+          "text": "0.0015 mg/kg",
+          "element": "Osmium"
         },
         {
-          "text": "1970",
-          "element": "Dubnium"
+          "text": "25 mg/kg",
+          "element": "Cobalt"
         },
         {
-          "text": "1774",
-          "element": "Oxygen"
+          "text": "0.0000009 mg/kg",
+          "element": "Radium"
         }
       ],
-      "correct": "1970",
+      "correct": "0.0000009 mg/kg",
+      "type": "abundance_crust"
+    },
+    {
+      "question": "When was Radium first discovered?",
+      "options": [
+        {
+          "text": "1898",
+          "element": "Radium"
+        },
+        {
+          "text": "1998",
+          "element": "Flerovium"
+        },
+        {
+          "text": "1782",
+          "element": "Tellurium"
+        },
+        {
+          "text": "1739",
+          "element": "Cobalt"
+        }
+      ],
+      "correct": "1898",
       "type": "discovery_year"
     },
     {
-      "question": "Who discovered Dubnium?",
+      "question": "Who discovered Radium?",
       "options": [
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Dubnium"
+          "text": "George Brandt",
+          "element": "Cobalt"
         },
         {
-          "text": "Carl Mosander",
-          "element": "Erbium"
+          "text": "Franz M\u00fcller von Reichenstein",
+          "element": "Tellurium"
         },
         {
-          "text": "Argonne, Los Alamos, U of Calif",
-          "element": "Einsteinium"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Flerovium"
         },
         {
-          "text": "Joseph Priestly, Carl Wilhelm Scheele",
-          "element": "Oxygen"
+          "text": "Pierre and Marie Curie",
+          "element": "Radium"
         }
       ],
-      "correct": "A. Ghiorso, et al",
+      "correct": "Pierre and Marie Curie",
       "type": "discoverers"
     },
     {
-      "question": "What is the density of Dubnium?",
+      "question": "What is the geochemical class of Radium?",
       "options": [
         {
-          "text": "9.07 g/cm\u00b3",
-          "element": "Erbium"
+          "text": "first series transition metal",
+          "element": "Cobalt"
         },
         {
-          "text": "0.00131 g/cm\u00b3",
-          "element": "Oxygen"
+          "text": "semi-volatile",
+          "element": "Tellurium"
         },
         {
-          "text": "29.3 g/cm\u00b3",
-          "element": "Dubnium"
+          "text": "U/Th decay series",
+          "element": "Radium"
         },
         {
-          "text": "8.84 g/cm\u00b3",
-          "element": "Einsteinium"
+          "text": "noble metal",
+          "element": "Osmium"
         }
       ],
-      "correct": "29.3 g/cm\u00b3",
-      "type": "density"
+      "correct": "U/Th decay series",
+      "type": "geochemical_class"
     }
   ]
 }

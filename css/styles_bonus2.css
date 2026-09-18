@@ -17,7 +17,7 @@
 body {
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   background-color: #ffffff;
-  background-image: url('../assets/bg_final.png');
+  background-image: url('../assets/bg_final_mirrored.png');
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 100% auto;

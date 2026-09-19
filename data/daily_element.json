@@ -1,99 +1,99 @@
 {
-  "date": "2026-09-17",
-  "element": "Radium",
-  "atomicNumber": 88,
-  "symbol": "Ra",
+  "date": "2026-09-19",
+  "element": "Iron",
+  "atomicNumber": 26,
+  "symbol": "Fe",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Radium?",
+      "question": "What is the approximate price of Iron per kilogram?",
       "options": [
         {
-          "text": "0.001 mg/kg",
-          "element": "Tellurium"
+          "text": "$35/kg",
+          "element": "Iodine"
         },
         {
-          "text": "0.0015 mg/kg",
-          "element": "Osmium"
+          "text": "$21.4/kg",
+          "element": "Selenium"
         },
         {
-          "text": "25 mg/kg",
-          "element": "Cobalt"
+          "text": "$660,000/kg",
+          "element": "Neptunium"
         },
         {
-          "text": "0.0000009 mg/kg",
-          "element": "Radium"
+          "text": "$0.424/kg",
+          "element": "Iron"
         }
       ],
-      "correct": "0.0000009 mg/kg",
-      "type": "abundance_crust"
+      "correct": "$0.424/kg",
+      "type": "price_per_kg"
     },
     {
-      "question": "When was Radium first discovered?",
+      "question": "Who discovered Iron?",
       "options": [
         {
-          "text": "1898",
-          "element": "Radium"
+          "text": "E.M. McMillan, P.H. Abelson",
+          "element": "Neptunium"
         },
         {
-          "text": "1998",
-          "element": "Flerovium"
+          "text": "Known to the ancients.",
+          "element": "Iron"
         },
         {
-          "text": "1782",
-          "element": "Tellurium"
+          "text": "GSI Helmholtz Centre for Heavy Ion Research",
+          "element": "Copernicium"
         },
         {
-          "text": "1739",
-          "element": "Cobalt"
+          "text": "Bernard Courtois",
+          "element": "Iodine"
         }
       ],
-      "correct": "1898",
-      "type": "discovery_year"
-    },
-    {
-      "question": "Who discovered Radium?",
-      "options": [
-        {
-          "text": "George Brandt",
-          "element": "Cobalt"
-        },
-        {
-          "text": "Franz M\u00fcller von Reichenstein",
-          "element": "Tellurium"
-        },
-        {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Flerovium"
-        },
-        {
-          "text": "Pierre and Marie Curie",
-          "element": "Radium"
-        }
-      ],
-      "correct": "Pierre and Marie Curie",
+      "correct": "Known to the ancients.",
       "type": "discoverers"
     },
     {
-      "question": "What is the geochemical class of Radium?",
+      "question": "What is the crustal abundance of Iron?",
       "options": [
         {
-          "text": "first series transition metal",
-          "element": "Cobalt"
+          "text": "56,300 mg/kg",
+          "element": "Iron"
+        },
+        {
+          "text": "5,650 mg/kg",
+          "element": "Titanium"
+        },
+        {
+          "text": "0.05 mg/kg",
+          "element": "Selenium"
+        },
+        {
+          "text": "0.45 mg/kg",
+          "element": "Iodine"
+        }
+      ],
+      "correct": "56,300 mg/kg",
+      "type": "abundance_crust"
+    },
+    {
+      "question": "What is the geochemical class of Iron?",
+      "options": [
+        {
+          "text": "rare earth & related",
+          "element": "Terbium"
+        },
+        {
+          "text": "major",
+          "element": "Iron"
         },
         {
           "text": "semi-volatile",
-          "element": "Tellurium"
+          "element": "Iodine"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Radium"
-        },
-        {
-          "text": "noble metal",
-          "element": "Osmium"
+          "text": "first series transition metal",
+          "element": "Titanium"
         }
       ],
-      "correct": "U/Th decay series",
+      "correct": "major",
       "type": "geochemical_class"
     }
   ]

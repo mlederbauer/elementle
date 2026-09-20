@@ -1,100 +1,100 @@
 {
-  "date": "2026-09-19",
-  "element": "Iron",
-  "atomicNumber": 26,
-  "symbol": "Fe",
+  "date": "2026-09-20",
+  "element": "Oxygen",
+  "atomicNumber": 8,
+  "symbol": "O",
   "quiz": [
     {
-      "question": "What is the approximate price of Iron per kilogram?",
+      "question": "Who discovered Oxygen?",
       "options": [
         {
-          "text": "$35/kg",
-          "element": "Iodine"
+          "text": "R. Bunsen, G. Kirchoff",
+          "element": "Rubidium"
         },
         {
-          "text": "$21.4/kg",
-          "element": "Selenium"
-        },
-        {
-          "text": "$660,000/kg",
-          "element": "Neptunium"
-        },
-        {
-          "text": "$0.424/kg",
-          "element": "Iron"
-        }
-      ],
-      "correct": "$0.424/kg",
-      "type": "price_per_kg"
-    },
-    {
-      "question": "Who discovered Iron?",
-      "options": [
-        {
-          "text": "E.M. McMillan, P.H. Abelson",
-          "element": "Neptunium"
+          "text": "Sir William Ramsey, M.W. Travers",
+          "element": "Krypton"
         },
         {
           "text": "Known to the ancients.",
-          "element": "Iron"
+          "element": "Copper"
         },
         {
-          "text": "GSI Helmholtz Centre for Heavy Ion Research",
-          "element": "Copernicium"
-        },
-        {
-          "text": "Bernard Courtois",
-          "element": "Iodine"
+          "text": "Joseph Priestly, Carl Wilhelm Scheele",
+          "element": "Oxygen"
         }
       ],
-      "correct": "Known to the ancients.",
+      "correct": "Joseph Priestly, Carl Wilhelm Scheele",
       "type": "discoverers"
     },
     {
-      "question": "What is the crustal abundance of Iron?",
+      "question": "What is the geochemical class of Oxygen?",
       "options": [
         {
-          "text": "56,300 mg/kg",
-          "element": "Iron"
+          "text": "volatile",
+          "element": "Krypton"
         },
         {
-          "text": "5,650 mg/kg",
-          "element": "Titanium"
-        },
-        {
-          "text": "0.05 mg/kg",
-          "element": "Selenium"
-        },
-        {
-          "text": "0.45 mg/kg",
-          "element": "Iodine"
-        }
-      ],
-      "correct": "56,300 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "What is the geochemical class of Iron?",
-      "options": [
-        {
-          "text": "rare earth & related",
-          "element": "Terbium"
+          "text": "alkali metal",
+          "element": "Rubidium"
         },
         {
           "text": "major",
-          "element": "Iron"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Iodine"
+          "element": "Oxygen"
         },
         {
           "text": "first series transition metal",
-          "element": "Titanium"
+          "element": "Copper"
         }
       ],
       "correct": "major",
       "type": "geochemical_class"
+    },
+    {
+      "question": "What is the approximate price of Oxygen per kilogram?",
+      "options": [
+        {
+          "text": "$15,500/kg",
+          "element": "Rubidium"
+        },
+        {
+          "text": "$6/kg",
+          "element": "Copper"
+        },
+        {
+          "text": "$0.154/kg",
+          "element": "Oxygen"
+        },
+        {
+          "text": "$290/kg",
+          "element": "Krypton"
+        }
+      ],
+      "correct": "$0.154/kg",
+      "type": "price_per_kg"
+    },
+    {
+      "question": "When was Oxygen first discovered?",
+      "options": [
+        {
+          "text": "1898",
+          "element": "Krypton"
+        },
+        {
+          "text": "1774",
+          "element": "Oxygen"
+        },
+        {
+          "text": "1861",
+          "element": "Rubidium"
+        },
+        {
+          "text": "1998",
+          "element": "Flerovium"
+        }
+      ],
+      "correct": "1774",
+      "type": "discovery_year"
     }
   ]
 }

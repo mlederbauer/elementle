@@ -1,100 +1,100 @@
 {
-  "date": "2026-09-20",
-  "element": "Oxygen",
-  "atomicNumber": 8,
-  "symbol": "O",
+  "date": "2026-09-21",
+  "element": "Chlorine",
+  "atomicNumber": 17,
+  "symbol": "Cl",
   "quiz": [
     {
-      "question": "Who discovered Oxygen?",
+      "question": "Who discovered Chlorine?",
       "options": [
         {
-          "text": "R. Bunsen, G. Kirchoff",
-          "element": "Rubidium"
-        },
-        {
-          "text": "Sir William Ramsey, M.W. Travers",
-          "element": "Krypton"
-        },
-        {
           "text": "Known to the ancients.",
-          "element": "Copper"
+          "element": "Antimony"
         },
         {
-          "text": "Joseph Priestly, Carl Wilhelm Scheele",
-          "element": "Oxygen"
+          "text": "Sir William Ramsey, Baron Rayleigh",
+          "element": "Argon"
+        },
+        {
+          "text": "Carl Wilhelm Scheele",
+          "element": "Chlorine"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Bohrium"
         }
       ],
-      "correct": "Joseph Priestly, Carl Wilhelm Scheele",
+      "correct": "Carl Wilhelm Scheele",
       "type": "discoverers"
     },
     {
-      "question": "What is the geochemical class of Oxygen?",
+      "question": "What is the geochemical class of Chlorine?",
       "options": [
         {
+          "text": "noble metal",
+          "element": "Gold"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Chlorine"
+        },
+        {
           "text": "volatile",
-          "element": "Krypton"
-        },
-        {
-          "text": "alkali metal",
-          "element": "Rubidium"
-        },
-        {
-          "text": "major",
-          "element": "Oxygen"
+          "element": "Argon"
         },
         {
           "text": "first series transition metal",
-          "element": "Copper"
+          "element": "Vanadium"
         }
       ],
-      "correct": "major",
+      "correct": "semi-volatile",
       "type": "geochemical_class"
     },
     {
-      "question": "What is the approximate price of Oxygen per kilogram?",
+      "question": "What is the approximate price of Chlorine per kilogram?",
       "options": [
         {
-          "text": "$15,500/kg",
-          "element": "Rubidium"
+          "text": "$75,400/kg",
+          "element": "Gold"
         },
         {
-          "text": "$6/kg",
-          "element": "Copper"
+          "text": "$0.931/kg",
+          "element": "Argon"
         },
         {
-          "text": "$0.154/kg",
-          "element": "Oxygen"
+          "text": "$5.79/kg",
+          "element": "Antimony"
         },
         {
-          "text": "$290/kg",
-          "element": "Krypton"
+          "text": "$0.082/kg",
+          "element": "Chlorine"
         }
       ],
-      "correct": "$0.154/kg",
+      "correct": "$0.082/kg",
       "type": "price_per_kg"
     },
     {
-      "question": "When was Oxygen first discovered?",
+      "question": "What is the crustal abundance of Chlorine?",
       "options": [
         {
-          "text": "1898",
-          "element": "Krypton"
+          "text": "145 mg/kg",
+          "element": "Chlorine"
         },
         {
-          "text": "1774",
-          "element": "Oxygen"
+          "text": "0.004 mg/kg",
+          "element": "Gold"
         },
         {
-          "text": "1861",
-          "element": "Rubidium"
+          "text": "3.5 mg/kg",
+          "element": "Argon"
         },
         {
-          "text": "1998",
-          "element": "Flerovium"
+          "text": "0.2 mg/kg",
+          "element": "Antimony"
         }
       ],
-      "correct": "1774",
-      "type": "discovery_year"
+      "correct": "145 mg/kg",
+      "type": "abundance_crust"
     }
   ]
 }

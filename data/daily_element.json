@@ -1,100 +1,100 @@
 {
-  "date": "2026-09-21",
-  "element": "Chlorine",
-  "atomicNumber": 17,
-  "symbol": "Cl",
+  "date": "2026-09-22",
+  "element": "Chromium",
+  "atomicNumber": 24,
+  "symbol": "Cr",
   "quiz": [
     {
-      "question": "Who discovered Chlorine?",
+      "question": "Which countries are the top producers of Chromium?",
       "options": [
         {
-          "text": "Known to the ancients.",
-          "element": "Antimony"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Erbium"
         },
         {
-          "text": "Sir William Ramsey, Baron Rayleigh",
-          "element": "Argon"
+          "text": "1) Chile  2) Japan  3) USA",
+          "element": "Iodine"
         },
         {
-          "text": "Carl Wilhelm Scheele",
-          "element": "Chlorine"
+          "text": "1) South Africa  2) Kazakhstan  3) India",
+          "element": "Chromium"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Bohrium"
+          "text": "1) China  2) Indonesia  3) Peru",
+          "element": "Tin"
         }
       ],
-      "correct": "Carl Wilhelm Scheele",
-      "type": "discoverers"
+      "correct": "1) South Africa  2) Kazakhstan  3) India",
+      "type": "top_3_producers"
     },
     {
-      "question": "What is the geochemical class of Chlorine?",
+      "question": "What is the crustal abundance of Chromium?",
       "options": [
         {
-          "text": "noble metal",
-          "element": "Gold"
+          "text": "102 mg/kg",
+          "element": "Chromium"
         },
         {
-          "text": "semi-volatile",
-          "element": "Chlorine"
-        },
-        {
-          "text": "volatile",
-          "element": "Argon"
-        },
-        {
-          "text": "first series transition metal",
-          "element": "Vanadium"
-        }
-      ],
-      "correct": "semi-volatile",
-      "type": "geochemical_class"
-    },
-    {
-      "question": "What is the approximate price of Chlorine per kilogram?",
-      "options": [
-        {
-          "text": "$75,400/kg",
-          "element": "Gold"
-        },
-        {
-          "text": "$0.931/kg",
-          "element": "Argon"
-        },
-        {
-          "text": "$5.79/kg",
-          "element": "Antimony"
-        },
-        {
-          "text": "$0.082/kg",
-          "element": "Chlorine"
-        }
-      ],
-      "correct": "$0.082/kg",
-      "type": "price_per_kg"
-    },
-    {
-      "question": "What is the crustal abundance of Chlorine?",
-      "options": [
-        {
-          "text": "145 mg/kg",
-          "element": "Chlorine"
-        },
-        {
-          "text": "0.004 mg/kg",
-          "element": "Gold"
+          "text": "0.45 mg/kg",
+          "element": "Iodine"
         },
         {
           "text": "3.5 mg/kg",
-          "element": "Argon"
+          "element": "Erbium"
         },
         {
-          "text": "0.2 mg/kg",
-          "element": "Antimony"
+          "text": "2.3 mg/kg",
+          "element": "Tin"
         }
       ],
-      "correct": "145 mg/kg",
+      "correct": "102 mg/kg",
       "type": "abundance_crust"
+    },
+    {
+      "question": "What is the geochemical class of Chromium?",
+      "options": [
+        {
+          "text": "semi-volatile",
+          "element": "Iodine"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Astatine"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Erbium"
+        },
+        {
+          "text": "first series transition metal",
+          "element": "Chromium"
+        }
+      ],
+      "correct": "first series transition metal",
+      "type": "geochemical_class"
+    },
+    {
+      "question": "Who discovered Chromium?",
+      "options": [
+        {
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Moscovium"
+        },
+        {
+          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
+          "element": "Plutonium"
+        },
+        {
+          "text": "Carl Mosander",
+          "element": "Erbium"
+        },
+        {
+          "text": "Louis Vauquelin",
+          "element": "Chromium"
+        }
+      ],
+      "correct": "Louis Vauquelin",
+      "type": "discoverers"
     }
   ]
 }

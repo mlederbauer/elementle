@@ -171,6 +171,7 @@ function handleAnswer(qi, chosen, grid, q) {
 }
 
 function showResult() {
+    window.Analytics?.trackOnce('bonus-3');
     window.ElementleStats?.recordBonus(localStorage, getGameDate(), 'bonus3', score, quiz.length);
     const result = document.getElementById('result');
     const partialMsgs = [

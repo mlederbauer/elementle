@@ -265,6 +265,7 @@ function checkGuess() {
 }
 
 function endGame(won, usedAttempts) {
+    window.Analytics?.trackOnce(won ? 'main-won' : 'main-lost');
     gameOver = true;
     disableGuessInput();
     updateStats(won, usedAttempts);

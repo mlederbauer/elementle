@@ -1,100 +1,77 @@
 {
-  "date": "2026-09-22",
-  "element": "Chromium",
-  "atomicNumber": 24,
-  "symbol": "Cr",
+  "date": "2026-09-23",
+  "element": "Oganesson",
+  "atomicNumber": 118,
+  "symbol": "Og",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Chromium?",
+      "question": "When was Oganesson first discovered?",
       "options": [
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Erbium"
+          "text": "1917",
+          "element": "Protactinium"
         },
         {
-          "text": "1) Chile  2) Japan  3) USA",
-          "element": "Iodine"
+          "text": "1860",
+          "element": "Cesium"
         },
         {
-          "text": "1) South Africa  2) Kazakhstan  3) India",
-          "element": "Chromium"
+          "text": "2002",
+          "element": "Oganesson"
         },
         {
-          "text": "1) China  2) Indonesia  3) Peru",
-          "element": "Tin"
+          "text": "1940",
+          "element": "Plutonium"
         }
       ],
-      "correct": "1) South Africa  2) Kazakhstan  3) India",
-      "type": "top_3_producers"
+      "correct": "2002",
+      "type": "discovery_year"
     },
     {
-      "question": "What is the crustal abundance of Chromium?",
+      "question": "Who discovered Oganesson?",
       "options": [
         {
-          "text": "102 mg/kg",
-          "element": "Chromium"
-        },
-        {
-          "text": "0.45 mg/kg",
-          "element": "Iodine"
-        },
-        {
-          "text": "3.5 mg/kg",
-          "element": "Erbium"
-        },
-        {
-          "text": "2.3 mg/kg",
-          "element": "Tin"
-        }
-      ],
-      "correct": "102 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "What is the geochemical class of Chromium?",
-      "options": [
-        {
-          "text": "semi-volatile",
-          "element": "Iodine"
-        },
-        {
-          "text": "U/Th decay series",
-          "element": "Astatine"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Erbium"
-        },
-        {
-          "text": "first series transition metal",
-          "element": "Chromium"
-        }
-      ],
-      "correct": "first series transition metal",
-      "type": "geochemical_class"
-    },
-    {
-      "question": "Who discovered Chromium?",
-      "options": [
-        {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Moscovium"
+          "text": "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner",
+          "element": "Protactinium"
         },
         {
           "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
           "element": "Plutonium"
         },
         {
-          "text": "Carl Mosander",
-          "element": "Erbium"
+          "text": "Gustov Kirchoff, Robert Bunsen",
+          "element": "Cesium"
         },
         {
-          "text": "Louis Vauquelin",
-          "element": "Chromium"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Oganesson"
         }
       ],
-      "correct": "Louis Vauquelin",
+      "correct": "Joint Institute for Nuclear Research",
       "type": "discoverers"
+    },
+    {
+      "question": "What is the density of Oganesson?",
+      "options": [
+        {
+          "text": "1.87 g/cm\u00b3",
+          "element": "Cesium"
+        },
+        {
+          "text": "7 g/cm\u00b3",
+          "element": "Oganesson"
+        },
+        {
+          "text": "19.7 g/cm\u00b3",
+          "element": "Plutonium"
+        },
+        {
+          "text": "15.4 g/cm\u00b3",
+          "element": "Protactinium"
+        }
+      ],
+      "correct": "7 g/cm\u00b3",
+      "type": "density"
     }
   ]
 }

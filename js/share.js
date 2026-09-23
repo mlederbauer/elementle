@@ -147,6 +147,8 @@
             streak: getCurrentStreak(storage),
             mode
         });
+        root.Analytics?.trackOnce('share');
+
         if (typeof root.navigator?.share === 'function') {
             return root.navigator.share({ text }).catch(() => {});
         }

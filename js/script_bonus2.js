@@ -174,6 +174,7 @@ function updateAttemptsDisplay() {
 }
 
 function endGame(won) {
+    window.Analytics?.trackOnce('bonus-2');
     window.ElementleStats?.recordBonus(localStorage, getGameDate(), 'bonus2', won ? 1 : 0);
     document.getElementById('guessForm').style.display = 'none';
 

@@ -1,77 +1,100 @@
 {
-  "date": "2026-09-23",
-  "element": "Oganesson",
-  "atomicNumber": 118,
-  "symbol": "Og",
+  "date": "2026-09-24",
+  "element": "Neodymium",
+  "atomicNumber": 60,
+  "symbol": "Nd",
   "quiz": [
     {
-      "question": "When was Oganesson first discovered?",
+      "question": "What is the crustal abundance of Neodymium?",
       "options": [
         {
-          "text": "1917",
-          "element": "Protactinium"
+          "text": "41.5 mg/kg",
+          "element": "Neodymium"
         },
         {
-          "text": "1860",
-          "element": "Cesium"
+          "text": "9.6 mg/kg",
+          "element": "Thorium"
         },
         {
-          "text": "2002",
-          "element": "Oganesson"
+          "text": "5.2 mg/kg",
+          "element": "Dysprosium"
         },
         {
-          "text": "1940",
-          "element": "Plutonium"
+          "text": "1.2 mg/kg",
+          "element": "Terbium"
         }
       ],
-      "correct": "2002",
-      "type": "discovery_year"
+      "correct": "41.5 mg/kg",
+      "type": "abundance_crust"
     },
     {
-      "question": "Who discovered Oganesson?",
+      "question": "Who discovered Neodymium?",
       "options": [
         {
-          "text": "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner",
-          "element": "Protactinium"
+          "text": "Carl Mosander",
+          "element": "Terbium"
         },
         {
-          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
-          "element": "Plutonium"
+          "text": "J\u00f6ns Berzelius",
+          "element": "Thorium"
         },
         {
-          "text": "Gustov Kirchoff, Robert Bunsen",
-          "element": "Cesium"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Neodymium"
         },
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Oganesson"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Darmstadtium"
         }
       ],
-      "correct": "Joint Institute for Nuclear Research",
+      "correct": "C.F. Aver von Welsbach",
       "type": "discoverers"
     },
     {
-      "question": "What is the density of Oganesson?",
+      "question": "When was Neodymium first discovered?",
       "options": [
         {
-          "text": "1.87 g/cm\u00b3",
-          "element": "Cesium"
+          "text": "1994",
+          "element": "Darmstadtium"
         },
         {
-          "text": "7 g/cm\u00b3",
-          "element": "Oganesson"
+          "text": "1843",
+          "element": "Terbium"
         },
         {
-          "text": "19.7 g/cm\u00b3",
-          "element": "Plutonium"
+          "text": "1828",
+          "element": "Thorium"
         },
         {
-          "text": "15.4 g/cm\u00b3",
-          "element": "Protactinium"
+          "text": "1925",
+          "element": "Neodymium"
         }
       ],
-      "correct": "7 g/cm\u00b3",
-      "type": "density"
+      "correct": "1925",
+      "type": "discovery_year"
+    },
+    {
+      "question": "What is the geochemical class of Neodymium?",
+      "options": [
+        {
+          "text": "semi-volatile",
+          "element": "Chlorine"
+        },
+        {
+          "text": "noble metal",
+          "element": "Rhodium"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Neodymium"
+        },
+        {
+          "text": "volatile",
+          "element": "Neon"
+        }
+      ],
+      "correct": "rare earth & related",
+      "type": "geochemical_class"
     }
   ]
 }

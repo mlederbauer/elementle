@@ -1,100 +1,100 @@
 {
-  "date": "2026-09-25",
-  "element": "Titanium",
-  "atomicNumber": 22,
-  "symbol": "Ti",
+  "date": "2026-09-26",
+  "element": "Mendelevium",
+  "atomicNumber": 101,
+  "symbol": "Md",
   "quiz": [
     {
-      "question": "When was Titanium first discovered?",
+      "question": "When was Mendelevium first discovered?",
       "options": [
         {
-          "text": "2003",
-          "element": "Moscovium"
+          "text": "1774",
+          "element": "Manganese"
         },
         {
-          "text": "1789",
-          "element": "Zirconium"
+          "text": "1879",
+          "element": "Samarium"
         },
         {
-          "text": "1907",
-          "element": "Lutetium"
+          "text": "1955",
+          "element": "Mendelevium"
         },
         {
-          "text": "1791",
-          "element": "Titanium"
+          "text": "1994",
+          "element": "Roentgenium"
         }
       ],
-      "correct": "1791",
+      "correct": "1955",
       "type": "discovery_year"
     },
     {
-      "question": "What is the geochemical class of Titanium?",
+      "question": "Who discovered Mendelevium?",
       "options": [
         {
-          "text": "first series transition metal",
-          "element": "Titanium"
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Mendelevium"
         },
         {
-          "text": "rare earth & related",
-          "element": "Lutetium"
-        },
-        {
-          "text": "high field strength",
-          "element": "Zirconium"
-        },
-        {
-          "text": "volatile",
-          "element": "Nitrogen"
-        }
-      ],
-      "correct": "first series transition metal",
-      "type": "geochemical_class"
-    },
-    {
-      "question": "What is the approximate price of Titanium per kilogram?",
-      "options": [
-        {
-          "text": "$11.1/kg",
-          "element": "Titanium"
-        },
-        {
-          "text": "$30.2/kg",
-          "element": "Mercury"
-        },
-        {
-          "text": "$643/kg",
-          "element": "Lutetium"
-        },
-        {
-          "text": "$2/kg",
-          "element": "Lead"
-        }
-      ],
-      "correct": "$11.1/kg",
-      "type": "price_per_kg"
-    },
-    {
-      "question": "Who discovered Titanium?",
-      "options": [
-        {
-          "text": "William Gregor",
-          "element": "Titanium"
-        },
-        {
-          "text": "Georges Urbain",
-          "element": "Lutetium"
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Samarium"
         },
         {
           "text": "Known to the ancients.",
-          "element": "Lead"
+          "element": "Iron"
         },
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Moscovium"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Roentgenium"
         }
       ],
-      "correct": "William Gregor",
+      "correct": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
       "type": "discoverers"
+    },
+    {
+      "question": "What is the melting point of Mendelevium?",
+      "options": [
+        {
+          "text": "1,070 \u00b0C",
+          "element": "Samarium"
+        },
+        {
+          "text": "1,250 \u00b0C",
+          "element": "Manganese"
+        },
+        {
+          "text": "1,540 \u00b0C",
+          "element": "Iron"
+        },
+        {
+          "text": "827 \u00b0C",
+          "element": "Mendelevium"
+        }
+      ],
+      "correct": "827 \u00b0C",
+      "type": "melting_point"
+    },
+    {
+      "question": "What is the density of Mendelevium?",
+      "options": [
+        {
+          "text": "7.52 g/cm\u00b3",
+          "element": "Samarium"
+        },
+        {
+          "text": "28.7 g/cm\u00b3",
+          "element": "Roentgenium"
+        },
+        {
+          "text": "7.87 g/cm\u00b3",
+          "element": "Iron"
+        },
+        {
+          "text": "10.3 g/cm\u00b3",
+          "element": "Mendelevium"
+        }
+      ],
+      "correct": "10.3 g/cm\u00b3",
+      "type": "density"
     }
   ]
 }

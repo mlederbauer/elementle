@@ -1,99 +1,99 @@
 {
-  "date": "2026-09-26",
-  "element": "Mendelevium",
-  "atomicNumber": 101,
-  "symbol": "Md",
+  "date": "2026-09-27",
+  "element": "Fermium",
+  "atomicNumber": 100,
+  "symbol": "Fm",
   "quiz": [
     {
-      "question": "When was Mendelevium first discovered?",
+      "question": "When was Fermium first discovered?",
       "options": [
         {
-          "text": "1774",
-          "element": "Manganese"
+          "text": "1772",
+          "element": "Nitrogen"
         },
         {
-          "text": "1879",
-          "element": "Samarium"
+          "text": "1824",
+          "element": "Silicon"
         },
         {
-          "text": "1955",
-          "element": "Mendelevium"
+          "text": "1789",
+          "element": "Uranium"
         },
         {
-          "text": "1994",
-          "element": "Roentgenium"
+          "text": "1953",
+          "element": "Fermium"
         }
       ],
-      "correct": "1955",
+      "correct": "1953",
       "type": "discovery_year"
     },
     {
-      "question": "Who discovered Mendelevium?",
+      "question": "Who discovered Fermium?",
       "options": [
         {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
-          "element": "Mendelevium"
+          "text": "J\u00f6ns Berzelius",
+          "element": "Silicon"
         },
         {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Samarium"
+          "text": "Daniel Rutherford",
+          "element": "Nitrogen"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Iron"
+          "text": "Martin Klaproth",
+          "element": "Uranium"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Roentgenium"
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Fermium"
         }
       ],
-      "correct": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+      "correct": "Argonne, Los Alamos, U of Calif",
       "type": "discoverers"
     },
     {
-      "question": "What is the melting point of Mendelevium?",
+      "question": "What is the melting point of Fermium?",
       "options": [
         {
-          "text": "1,070 \u00b0C",
-          "element": "Samarium"
+          "text": "1,530 \u00b0C",
+          "element": "Fermium"
         },
         {
-          "text": "1,250 \u00b0C",
-          "element": "Manganese"
+          "text": "1,410 \u00b0C",
+          "element": "Silicon"
         },
         {
-          "text": "1,540 \u00b0C",
-          "element": "Iron"
+          "text": "-210 \u00b0C",
+          "element": "Nitrogen"
         },
         {
-          "text": "827 \u00b0C",
-          "element": "Mendelevium"
+          "text": "1,140 \u00b0C",
+          "element": "Uranium"
         }
       ],
-      "correct": "827 \u00b0C",
+      "correct": "1,530 \u00b0C",
       "type": "melting_point"
     },
     {
-      "question": "What is the density of Mendelevium?",
+      "question": "What is the density of Fermium?",
       "options": [
         {
-          "text": "7.52 g/cm\u00b3",
-          "element": "Samarium"
+          "text": "2.33 g/cm\u00b3",
+          "element": "Silicon"
         },
         {
-          "text": "28.7 g/cm\u00b3",
-          "element": "Roentgenium"
+          "text": "19.1 g/cm\u00b3",
+          "element": "Uranium"
         },
         {
-          "text": "7.87 g/cm\u00b3",
-          "element": "Iron"
+          "text": "9.7 g/cm\u00b3",
+          "element": "Fermium"
         },
         {
-          "text": "10.3 g/cm\u00b3",
-          "element": "Mendelevium"
+          "text": "0.00115 g/cm\u00b3",
+          "element": "Nitrogen"
         }
       ],
-      "correct": "10.3 g/cm\u00b3",
+      "correct": "9.7 g/cm\u00b3",
       "type": "density"
     }
   ]

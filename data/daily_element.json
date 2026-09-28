@@ -1,99 +1,99 @@
 {
-  "date": "2026-09-27",
-  "element": "Fermium",
-  "atomicNumber": 100,
-  "symbol": "Fm",
+  "date": "2026-09-28",
+  "element": "Nobelium",
+  "atomicNumber": 102,
+  "symbol": "No",
   "quiz": [
     {
-      "question": "When was Fermium first discovered?",
+      "question": "Who discovered Nobelium?",
       "options": [
         {
-          "text": "1772",
-          "element": "Nitrogen"
+          "text": "Nobel Institute for Physics",
+          "element": "Nobelium"
         },
         {
-          "text": "1824",
-          "element": "Silicon"
+          "text": "Pierre and Marie Curie",
+          "element": "Radium"
         },
         {
-          "text": "1789",
-          "element": "Uranium"
+          "text": "Known to the ancients.",
+          "element": "Zinc"
         },
         {
-          "text": "1953",
-          "element": "Fermium"
+          "text": "Louis Vauquelin",
+          "element": "Chromium"
         }
       ],
-      "correct": "1953",
-      "type": "discovery_year"
-    },
-    {
-      "question": "Who discovered Fermium?",
-      "options": [
-        {
-          "text": "J\u00f6ns Berzelius",
-          "element": "Silicon"
-        },
-        {
-          "text": "Daniel Rutherford",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "Martin Klaproth",
-          "element": "Uranium"
-        },
-        {
-          "text": "Argonne, Los Alamos, U of Calif",
-          "element": "Fermium"
-        }
-      ],
-      "correct": "Argonne, Los Alamos, U of Calif",
+      "correct": "Nobel Institute for Physics",
       "type": "discoverers"
     },
     {
-      "question": "What is the melting point of Fermium?",
+      "question": "When was Nobelium first discovered?",
       "options": [
         {
-          "text": "1,530 \u00b0C",
-          "element": "Fermium"
+          "text": "1797",
+          "element": "Chromium"
         },
         {
-          "text": "1,410 \u00b0C",
-          "element": "Silicon"
+          "text": "1898",
+          "element": "Radium"
         },
         {
-          "text": "-210 \u00b0C",
-          "element": "Nitrogen"
+          "text": "1783",
+          "element": "Tungsten"
         },
         {
-          "text": "1,140 \u00b0C",
-          "element": "Uranium"
+          "text": "1957",
+          "element": "Nobelium"
         }
       ],
-      "correct": "1,530 \u00b0C",
+      "correct": "1957",
+      "type": "discovery_year"
+    },
+    {
+      "question": "What is the melting point of Nobelium?",
+      "options": [
+        {
+          "text": "1,910 \u00b0C",
+          "element": "Chromium"
+        },
+        {
+          "text": "827 \u00b0C",
+          "element": "Nobelium"
+        },
+        {
+          "text": "696 \u00b0C",
+          "element": "Radium"
+        },
+        {
+          "text": "420 \u00b0C",
+          "element": "Zinc"
+        }
+      ],
+      "correct": "827 \u00b0C",
       "type": "melting_point"
     },
     {
-      "question": "What is the density of Fermium?",
+      "question": "What is the density of Nobelium?",
       "options": [
         {
-          "text": "2.33 g/cm\u00b3",
-          "element": "Silicon"
+          "text": "7.15 g/cm\u00b3",
+          "element": "Chromium"
         },
         {
-          "text": "19.1 g/cm\u00b3",
-          "element": "Uranium"
+          "text": "9.9 g/cm\u00b3",
+          "element": "Nobelium"
         },
         {
-          "text": "9.7 g/cm\u00b3",
-          "element": "Fermium"
+          "text": "5 g/cm\u00b3",
+          "element": "Radium"
         },
         {
-          "text": "0.00115 g/cm\u00b3",
-          "element": "Nitrogen"
+          "text": "7.13 g/cm\u00b3",
+          "element": "Zinc"
         }
       ],
-      "correct": "9.7 g/cm\u00b3",
+      "correct": "9.9 g/cm\u00b3",
       "type": "density"
     }
   ]

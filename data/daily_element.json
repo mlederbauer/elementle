@@ -1,100 +1,100 @@
 {
-  "date": "2026-09-29",
-  "element": "Holmium",
-  "atomicNumber": 67,
-  "symbol": "Ho",
+  "date": "2026-09-30",
+  "element": "Gadolinium",
+  "atomicNumber": 64,
+  "symbol": "Gd",
   "quiz": [
     {
-      "question": "What is the approximate price of Holmium per kilogram?",
+      "question": "What is the approximate price of Gadolinium per kilogram?",
       "options": [
         {
-          "text": "$57.1/kg",
-          "element": "Holmium"
+          "text": "$60,000,000,000/kg",
+          "element": "Californium"
         },
         {
-          "text": "$57.5/kg",
-          "element": "Neodymium"
+          "text": "$3,000/kg",
+          "element": "Thulium"
         },
         {
-          "text": "$290/kg",
-          "element": "Krypton"
+          "text": "$31.4/kg",
+          "element": "Europium"
         },
         {
-          "text": "$2/kg",
-          "element": "Lead"
+          "text": "$28.6/kg",
+          "element": "Gadolinium"
         }
       ],
-      "correct": "$57.1/kg",
+      "correct": "$28.6/kg",
       "type": "price_per_kg"
     },
     {
-      "question": "Which countries are the top producers of Holmium?",
+      "question": "What is the crustal abundance of Gadolinium?",
       "options": [
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Holmium"
+          "text": "0.8 mg/kg",
+          "element": "Lutetium"
         },
         {
-          "text": "1) China  2) Kyrgzstan  3) Chile",
-          "element": "Mercury"
+          "text": "6.2 mg/kg",
+          "element": "Gadolinium"
         },
         {
-          "text": "1) China  2) Spain  3) Mexico",
-          "element": "Strontium"
+          "text": "2 mg/kg",
+          "element": "Europium"
         },
         {
-          "text": "1) China  2) Australia  3) USA",
-          "element": "Lead"
+          "text": "0.52 mg/kg",
+          "element": "Thulium"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia",
-      "type": "top_3_producers"
-    },
-    {
-      "question": "When was Holmium first discovered?",
-      "options": [
-        {
-          "text": "1949",
-          "element": "Berkelium"
-        },
-        {
-          "text": "1898",
-          "element": "Krypton"
-        },
-        {
-          "text": "1925",
-          "element": "Neodymium"
-        },
-        {
-          "text": "1878",
-          "element": "Holmium"
-        }
-      ],
-      "correct": "1878",
-      "type": "discovery_year"
-    },
-    {
-      "question": "What is the crustal abundance of Holmium?",
-      "options": [
-        {
-          "text": "14 mg/kg",
-          "element": "Lead"
-        },
-        {
-          "text": "41.5 mg/kg",
-          "element": "Neodymium"
-        },
-        {
-          "text": "0.0001 mg/kg",
-          "element": "Krypton"
-        },
-        {
-          "text": "1.3 mg/kg",
-          "element": "Holmium"
-        }
-      ],
-      "correct": "1.3 mg/kg",
+      "correct": "6.2 mg/kg",
       "type": "abundance_crust"
+    },
+    {
+      "question": "Who discovered Gadolinium?",
+      "options": [
+        {
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Californium"
+        },
+        {
+          "text": "Per Theodor Cleve",
+          "element": "Thulium"
+        },
+        {
+          "text": "Eug\u00e8ne Demar\u00e7ay",
+          "element": "Europium"
+        },
+        {
+          "text": "Jean de Marignac",
+          "element": "Gadolinium"
+        }
+      ],
+      "correct": "Jean de Marignac",
+      "type": "discoverers"
+    },
+    {
+      "question": "What is the geochemical class of Gadolinium?",
+      "options": [
+        {
+          "text": "rare earth & related",
+          "element": "Gadolinium"
+        },
+        {
+          "text": "noble metal",
+          "element": "Osmium"
+        },
+        {
+          "text": "alkaline earth metal",
+          "element": "Beryllium"
+        },
+        {
+          "text": "alkali metal",
+          "element": "Cesium"
+        }
+      ],
+      "correct": "rare earth & related",
+      "type": "geochemical_class"
     }
   ]
 }

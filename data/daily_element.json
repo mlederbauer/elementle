@@ -1,100 +1,100 @@
 {
-  "date": "2026-09-30",
-  "element": "Gadolinium",
-  "atomicNumber": 64,
-  "symbol": "Gd",
+  "date": "2026-10-01",
+  "element": "Xenon",
+  "atomicNumber": 54,
+  "symbol": "Xe",
   "quiz": [
     {
-      "question": "What is the approximate price of Gadolinium per kilogram?",
-      "options": [
-        {
-          "text": "$60,000,000,000/kg",
-          "element": "Californium"
-        },
-        {
-          "text": "$3,000/kg",
-          "element": "Thulium"
-        },
-        {
-          "text": "$31.4/kg",
-          "element": "Europium"
-        },
-        {
-          "text": "$28.6/kg",
-          "element": "Gadolinium"
-        }
-      ],
-      "correct": "$28.6/kg",
-      "type": "price_per_kg"
-    },
-    {
-      "question": "What is the crustal abundance of Gadolinium?",
-      "options": [
-        {
-          "text": "0.8 mg/kg",
-          "element": "Lutetium"
-        },
-        {
-          "text": "6.2 mg/kg",
-          "element": "Gadolinium"
-        },
-        {
-          "text": "2 mg/kg",
-          "element": "Europium"
-        },
-        {
-          "text": "0.52 mg/kg",
-          "element": "Thulium"
-        }
-      ],
-      "correct": "6.2 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "Who discovered Gadolinium?",
-      "options": [
-        {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
-          "element": "Californium"
-        },
-        {
-          "text": "Per Theodor Cleve",
-          "element": "Thulium"
-        },
-        {
-          "text": "Eug\u00e8ne Demar\u00e7ay",
-          "element": "Europium"
-        },
-        {
-          "text": "Jean de Marignac",
-          "element": "Gadolinium"
-        }
-      ],
-      "correct": "Jean de Marignac",
-      "type": "discoverers"
-    },
-    {
-      "question": "What is the geochemical class of Gadolinium?",
+      "question": "What is the geochemical class of Xenon?",
       "options": [
         {
           "text": "rare earth & related",
-          "element": "Gadolinium"
+          "element": "Holmium"
         },
         {
-          "text": "noble metal",
-          "element": "Osmium"
+          "text": "first series transition metal",
+          "element": "Cobalt"
         },
         {
-          "text": "alkaline earth metal",
-          "element": "Beryllium"
+          "text": "semi-volatile",
+          "element": "Iodine"
         },
         {
-          "text": "alkali metal",
-          "element": "Cesium"
+          "text": "volatile",
+          "element": "Xenon"
         }
       ],
-      "correct": "rare earth & related",
+      "correct": "volatile",
       "type": "geochemical_class"
+    },
+    {
+      "question": "When was Xenon first discovered?",
+      "options": [
+        {
+          "text": "1957",
+          "element": "Nobelium"
+        },
+        {
+          "text": "1952",
+          "element": "Einsteinium"
+        },
+        {
+          "text": "1898",
+          "element": "Xenon"
+        },
+        {
+          "text": "1739",
+          "element": "Cobalt"
+        }
+      ],
+      "correct": "1898",
+      "type": "discovery_year"
+    },
+    {
+      "question": "What is the approximate price of Xenon per kilogram?",
+      "options": [
+        {
+          "text": "$1,800/kg",
+          "element": "Xenon"
+        },
+        {
+          "text": "$32.8/kg",
+          "element": "Cobalt"
+        },
+        {
+          "text": "$521/kg",
+          "element": "Silver"
+        },
+        {
+          "text": "$13.9/kg",
+          "element": "Nickel"
+        }
+      ],
+      "correct": "$1,800/kg",
+      "type": "price_per_kg"
+    },
+    {
+      "question": "What is the crustal abundance of Xenon?",
+      "options": [
+        {
+          "text": "84 mg/kg",
+          "element": "Nickel"
+        },
+        {
+          "text": "25 mg/kg",
+          "element": "Cobalt"
+        },
+        {
+          "text": "0.075 mg/kg",
+          "element": "Silver"
+        },
+        {
+          "text": "0.00003 mg/kg",
+          "element": "Xenon"
+        }
+      ],
+      "correct": "0.00003 mg/kg",
+      "type": "abundance_crust"
     }
   ]
 }

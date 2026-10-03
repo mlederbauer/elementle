@@ -1,99 +1,99 @@
 {
-  "date": "2026-10-02",
-  "element": "Samarium",
-  "atomicNumber": 62,
-  "symbol": "Sm",
+  "date": "2026-10-03",
+  "element": "Rhodium",
+  "atomicNumber": 45,
+  "symbol": "Rh",
   "quiz": [
     {
-      "question": "Who discovered Samarium?",
+      "question": "What is the crustal abundance of Rhodium?",
       "options": [
         {
-          "text": "W. von Hisinger, J. Berzelius, M. Klaproth",
-          "element": "Cerium"
+          "text": "0.0085 mg/kg",
+          "element": "Bismuth"
         },
         {
-          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
-          "element": "Lawrencium"
+          "text": "23,300 mg/kg",
+          "element": "Magnesium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Lead"
+          "text": "60 mg/kg",
+          "element": "Copper"
         },
         {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Samarium"
+          "text": "0.001 mg/kg",
+          "element": "Rhodium"
         }
       ],
-      "correct": "Paul \u00c9mile Lecoq de Boisbaudran",
-      "type": "discoverers"
-    },
-    {
-      "question": "What is the crustal abundance of Samarium?",
-      "options": [
-        {
-          "text": "66.5 mg/kg",
-          "element": "Cerium"
-        },
-        {
-          "text": "7.05 mg/kg",
-          "element": "Samarium"
-        },
-        {
-          "text": "14 mg/kg",
-          "element": "Lead"
-        },
-        {
-          "text": "5.2 mg/kg",
-          "element": "Dysprosium"
-        }
-      ],
-      "correct": "7.05 mg/kg",
+      "correct": "0.001 mg/kg",
       "type": "abundance_crust"
     },
     {
-      "question": "When was Samarium first discovered?",
+      "question": "Who discovered Rhodium?",
       "options": [
         {
-          "text": "1803",
-          "element": "Cerium"
+          "text": "Known to the ancients.",
+          "element": "Copper"
         },
         {
-          "text": "1879",
-          "element": "Samarium"
+          "text": "William Wollaston",
+          "element": "Rhodium"
         },
         {
-          "text": "1886",
-          "element": "Dysprosium"
+          "text": "Sir Humphrey Davy",
+          "element": "Magnesium"
         },
         {
-          "text": "1961",
-          "element": "Lawrencium"
+          "text": "J.L. Soret",
+          "element": "Holmium"
         }
       ],
-      "correct": "1879",
-      "type": "discovery_year"
+      "correct": "William Wollaston",
+      "type": "discoverers"
     },
     {
-      "question": "What is the approximate price of Samarium per kilogram?",
+      "question": "What is the geochemical class of Rhodium?",
       "options": [
         {
-          "text": "$307/kg",
-          "element": "Dysprosium"
+          "text": "noble metal",
+          "element": "Rhodium"
         },
         {
-          "text": "$2/kg",
-          "element": "Lead"
+          "text": "major",
+          "element": "Magnesium"
         },
         {
-          "text": "$13.9/kg",
-          "element": "Samarium"
+          "text": "first series transition metal",
+          "element": "Copper"
         },
         {
-          "text": "$4.57/kg",
-          "element": "Cerium"
+          "text": "rare earth & related",
+          "element": "Holmium"
         }
       ],
-      "correct": "$13.9/kg",
+      "correct": "noble metal",
+      "type": "geochemical_class"
+    },
+    {
+      "question": "What is the approximate price of Rhodium per kilogram?",
+      "options": [
+        {
+          "text": "$6.36/kg",
+          "element": "Bismuth"
+        },
+        {
+          "text": "$147,000/kg",
+          "element": "Rhodium"
+        },
+        {
+          "text": "$6/kg",
+          "element": "Copper"
+        },
+        {
+          "text": "$2.32/kg",
+          "element": "Magnesium"
+        }
+      ],
+      "correct": "$147,000/kg",
       "type": "price_per_kg"
     }
   ]

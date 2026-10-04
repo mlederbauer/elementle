@@ -1,100 +1,77 @@
 {
-  "date": "2026-10-03",
-  "element": "Rhodium",
-  "atomicNumber": 45,
-  "symbol": "Rh",
+  "date": "2026-10-04",
+  "element": "Darmstadtium",
+  "atomicNumber": 110,
+  "symbol": "Ds",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Rhodium?",
+      "question": "When was Darmstadtium first discovered?",
       "options": [
         {
-          "text": "0.0085 mg/kg",
-          "element": "Bismuth"
+          "text": "1952",
+          "element": "Einsteinium"
         },
         {
-          "text": "23,300 mg/kg",
-          "element": "Magnesium"
+          "text": "1808",
+          "element": "Boron"
         },
         {
-          "text": "60 mg/kg",
-          "element": "Copper"
+          "text": "1994",
+          "element": "Darmstadtium"
         },
         {
-          "text": "0.001 mg/kg",
-          "element": "Rhodium"
+          "text": "1885",
+          "element": "Praseodymium"
         }
       ],
-      "correct": "0.001 mg/kg",
-      "type": "abundance_crust"
+      "correct": "1994",
+      "type": "discovery_year"
     },
     {
-      "question": "Who discovered Rhodium?",
+      "question": "Who discovered Darmstadtium?",
       "options": [
         {
-          "text": "Known to the ancients.",
-          "element": "Copper"
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
         },
         {
-          "text": "William Wollaston",
-          "element": "Rhodium"
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Einsteinium"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Magnesium"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Darmstadtium"
         },
         {
-          "text": "J.L. Soret",
-          "element": "Holmium"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Praseodymium"
         }
       ],
-      "correct": "William Wollaston",
+      "correct": "Heavy Ion Research Laboratory (HIRL)",
       "type": "discoverers"
     },
     {
-      "question": "What is the geochemical class of Rhodium?",
+      "question": "What is the density of Darmstadtium?",
       "options": [
         {
-          "text": "noble metal",
-          "element": "Rhodium"
+          "text": "6.77 g/cm\u00b3",
+          "element": "Praseodymium"
         },
         {
-          "text": "major",
-          "element": "Magnesium"
+          "text": "8.84 g/cm\u00b3",
+          "element": "Einsteinium"
         },
         {
-          "text": "first series transition metal",
-          "element": "Copper"
+          "text": "34.8 g/cm\u00b3",
+          "element": "Darmstadtium"
         },
         {
-          "text": "rare earth & related",
-          "element": "Holmium"
+          "text": "2.34 g/cm\u00b3",
+          "element": "Boron"
         }
       ],
-      "correct": "noble metal",
-      "type": "geochemical_class"
-    },
-    {
-      "question": "What is the approximate price of Rhodium per kilogram?",
-      "options": [
-        {
-          "text": "$6.36/kg",
-          "element": "Bismuth"
-        },
-        {
-          "text": "$147,000/kg",
-          "element": "Rhodium"
-        },
-        {
-          "text": "$6/kg",
-          "element": "Copper"
-        },
-        {
-          "text": "$2.32/kg",
-          "element": "Magnesium"
-        }
-      ],
-      "correct": "$147,000/kg",
-      "type": "price_per_kg"
+      "correct": "34.8 g/cm\u00b3",
+      "type": "density"
     }
   ]
 }

@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-06",
-  "element": "Chromium",
-  "atomicNumber": 24,
-  "symbol": "Cr",
+  "date": "2026-10-07",
+  "element": "Radon",
+  "atomicNumber": 86,
+  "symbol": "Rn",
   "quiz": [
     {
-      "question": "When was Chromium first discovered?",
+      "question": "When was Radon first discovered?",
       "options": [
         {
-          "text": "1880",
-          "element": "Gadolinium"
+          "text": "1739",
+          "element": "Cobalt"
         },
         {
-          "text": "1901",
-          "element": "Europium"
+          "text": "1898",
+          "element": "Radon"
         },
         {
-          "text": "1797",
-          "element": "Chromium"
+          "text": "1970",
+          "element": "Dubnium"
         },
         {
-          "text": "1952",
-          "element": "Einsteinium"
+          "text": "1863",
+          "element": "Indium"
         }
       ],
-      "correct": "1797",
+      "correct": "1898",
       "type": "discovery_year"
     },
     {
-      "question": "What is the approximate price of Chromium per kilogram?",
+      "question": "What is the crustal abundance of Radon?",
       "options": [
         {
-          "text": "$31.4/kg",
-          "element": "Europium"
+          "text": "0.0000000000004 mg/kg",
+          "element": "Radon"
         },
         {
-          "text": "$28.6/kg",
-          "element": "Gadolinium"
+          "text": "0.005 mg/kg",
+          "element": "Neon"
         },
         {
-          "text": "$2.69/kg",
-          "element": "Phosphorus"
+          "text": "0.25 mg/kg",
+          "element": "Indium"
         },
         {
-          "text": "$9.4/kg",
-          "element": "Chromium"
+          "text": "25 mg/kg",
+          "element": "Cobalt"
         }
       ],
-      "correct": "$9.4/kg",
-      "type": "price_per_kg"
+      "correct": "0.0000000000004 mg/kg",
+      "type": "abundance_crust"
     },
     {
-      "question": "Who discovered Chromium?",
+      "question": "Who discovered Radon?",
       "options": [
         {
-          "text": "Argonne, Los Alamos, U of Calif",
-          "element": "Einsteinium"
+          "text": "Sir William Ramsey, M.W. Travers",
+          "element": "Neon"
         },
         {
-          "text": "Louis Vauquelin",
-          "element": "Chromium"
+          "text": "Fredrich Ernst Dorn",
+          "element": "Radon"
         },
         {
-          "text": "Eug\u00e8ne Demar\u00e7ay",
-          "element": "Europium"
+          "text": "George Brandt",
+          "element": "Cobalt"
         },
         {
-          "text": "Jean de Marignac",
-          "element": "Gadolinium"
+          "text": "Ferdinand Reich, T. Richter",
+          "element": "Indium"
         }
       ],
-      "correct": "Louis Vauquelin",
+      "correct": "Fredrich Ernst Dorn",
       "type": "discoverers"
     },
     {
-      "question": "What is the crustal abundance of Chromium?",
+      "question": "What is the geochemical class of Radon?",
       "options": [
         {
-          "text": "6.2 mg/kg",
-          "element": "Gadolinium"
+          "text": "volatile",
+          "element": "Neon"
         },
         {
-          "text": "1,050 mg/kg",
-          "element": "Phosphorus"
+          "text": "U/Th decay series",
+          "element": "Radon"
         },
         {
-          "text": "2 mg/kg",
-          "element": "Europium"
+          "text": "first series transition metal",
+          "element": "Cobalt"
         },
         {
-          "text": "102 mg/kg",
-          "element": "Chromium"
+          "text": "rare earth & related",
+          "element": "Yttrium"
         }
       ],
-      "correct": "102 mg/kg",
-      "type": "abundance_crust"
+      "correct": "U/Th decay series",
+      "type": "geochemical_class"
     }
   ]
 }

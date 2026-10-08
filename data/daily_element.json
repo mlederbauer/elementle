@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-07",
-  "element": "Radon",
-  "atomicNumber": 86,
-  "symbol": "Rn",
+  "date": "2026-10-08",
+  "element": "Silver",
+  "atomicNumber": 47,
+  "symbol": "Ag",
   "quiz": [
     {
-      "question": "When was Radon first discovered?",
+      "question": "Who discovered Silver?",
       "options": [
         {
-          "text": "1739",
-          "element": "Cobalt"
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso",
+          "element": "Berkelium"
         },
         {
-          "text": "1898",
-          "element": "Radon"
+          "text": "Known to the ancients.",
+          "element": "Silver"
         },
         {
-          "text": "1970",
-          "element": "Dubnium"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Neodymium"
         },
         {
-          "text": "1863",
-          "element": "Indium"
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Fermium"
         }
       ],
-      "correct": "1898",
-      "type": "discovery_year"
-    },
-    {
-      "question": "What is the crustal abundance of Radon?",
-      "options": [
-        {
-          "text": "0.0000000000004 mg/kg",
-          "element": "Radon"
-        },
-        {
-          "text": "0.005 mg/kg",
-          "element": "Neon"
-        },
-        {
-          "text": "0.25 mg/kg",
-          "element": "Indium"
-        },
-        {
-          "text": "25 mg/kg",
-          "element": "Cobalt"
-        }
-      ],
-      "correct": "0.0000000000004 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "Who discovered Radon?",
-      "options": [
-        {
-          "text": "Sir William Ramsey, M.W. Travers",
-          "element": "Neon"
-        },
-        {
-          "text": "Fredrich Ernst Dorn",
-          "element": "Radon"
-        },
-        {
-          "text": "George Brandt",
-          "element": "Cobalt"
-        },
-        {
-          "text": "Ferdinand Reich, T. Richter",
-          "element": "Indium"
-        }
-      ],
-      "correct": "Fredrich Ernst Dorn",
+      "correct": "Known to the ancients.",
       "type": "discoverers"
     },
     {
-      "question": "What is the geochemical class of Radon?",
+      "question": "What is the crustal abundance of Silver?",
       "options": [
         {
-          "text": "volatile",
-          "element": "Neon"
+          "text": "0.001 mg/kg",
+          "element": "Iridium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Radon"
+          "text": "41.5 mg/kg",
+          "element": "Neodymium"
         },
         {
-          "text": "first series transition metal",
-          "element": "Cobalt"
+          "text": "0.075 mg/kg",
+          "element": "Silver"
         },
         {
-          "text": "rare earth & related",
-          "element": "Yttrium"
+          "text": "350 mg/kg",
+          "element": "Sulfur"
         }
       ],
-      "correct": "U/Th decay series",
-      "type": "geochemical_class"
+      "correct": "0.075 mg/kg",
+      "type": "abundance_crust"
+    },
+    {
+      "question": "Which countries are the top producers of Silver?",
+      "options": [
+        {
+          "text": "1) Mexico  2) Peru  3) China",
+          "element": "Silver"
+        },
+        {
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Neodymium"
+        },
+        {
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Iridium"
+        },
+        {
+          "text": "1) China  2) USA  3) Canada",
+          "element": "Sulfur"
+        }
+      ],
+      "correct": "1) Mexico  2) Peru  3) China",
+      "type": "top_3_producers"
+    },
+    {
+      "question": "What is the approximate price of Silver per kilogram?",
+      "options": [
+        {
+          "text": "$0.0926/kg",
+          "element": "Sulfur"
+        },
+        {
+          "text": "$521/kg",
+          "element": "Silver"
+        },
+        {
+          "text": "$185,000,000,000/kg",
+          "element": "Berkelium"
+        },
+        {
+          "text": "$57.5/kg",
+          "element": "Neodymium"
+        }
+      ],
+      "correct": "$521/kg",
+      "type": "price_per_kg"
     }
   ]
 }

@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-08",
-  "element": "Silver",
-  "atomicNumber": 47,
-  "symbol": "Ag",
+  "date": "2026-10-09",
+  "element": "Ruthenium",
+  "atomicNumber": 44,
+  "symbol": "Ru",
   "quiz": [
     {
-      "question": "Who discovered Silver?",
+      "question": "Which countries are the top producers of Ruthenium?",
       "options": [
-        {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso",
-          "element": "Berkelium"
-        },
-        {
-          "text": "Known to the ancients.",
-          "element": "Silver"
-        },
-        {
-          "text": "C.F. Aver von Welsbach",
-          "element": "Neodymium"
-        },
-        {
-          "text": "Argonne, Los Alamos, U of Calif",
-          "element": "Fermium"
-        }
-      ],
-      "correct": "Known to the ancients.",
-      "type": "discoverers"
-    },
-    {
-      "question": "What is the crustal abundance of Silver?",
-      "options": [
-        {
-          "text": "0.001 mg/kg",
-          "element": "Iridium"
-        },
-        {
-          "text": "41.5 mg/kg",
-          "element": "Neodymium"
-        },
-        {
-          "text": "0.075 mg/kg",
-          "element": "Silver"
-        },
-        {
-          "text": "350 mg/kg",
-          "element": "Sulfur"
-        }
-      ],
-      "correct": "0.075 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "Which countries are the top producers of Silver?",
-      "options": [
-        {
-          "text": "1) Mexico  2) Peru  3) China",
-          "element": "Silver"
-        },
-        {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Neodymium"
-        },
         {
           "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Iridium"
+          "element": "Ruthenium"
         },
         {
-          "text": "1) China  2) USA  3) Canada",
-          "element": "Sulfur"
+          "text": "1) China  2) Australia  3) Brazil",
+          "element": "Iron"
+        },
+        {
+          "text": "1) China  2) Republic of Korea  3) Japan",
+          "element": "Cadmium"
+        },
+        {
+          "text": "1) Chile  2) Japan  3) USA",
+          "element": "Iodine"
         }
       ],
-      "correct": "1) Mexico  2) Peru  3) China",
+      "correct": "1) South Africa  2) Russia  3) Zimbabwe",
       "type": "top_3_producers"
     },
     {
-      "question": "What is the approximate price of Silver per kilogram?",
+      "question": "What is the crustal abundance of Ruthenium?",
       "options": [
         {
-          "text": "$0.0926/kg",
-          "element": "Sulfur"
+          "text": "0.15 mg/kg",
+          "element": "Cadmium"
         },
         {
-          "text": "$521/kg",
-          "element": "Silver"
+          "text": "0.45 mg/kg",
+          "element": "Iodine"
         },
         {
-          "text": "$185,000,000,000/kg",
-          "element": "Berkelium"
+          "text": "0.0000000002 mg/kg",
+          "element": "Polonium"
         },
         {
-          "text": "$57.5/kg",
-          "element": "Neodymium"
+          "text": "0.001 mg/kg",
+          "element": "Ruthenium"
         }
       ],
-      "correct": "$521/kg",
-      "type": "price_per_kg"
+      "correct": "0.001 mg/kg",
+      "type": "abundance_crust"
+    },
+    {
+      "question": "Who discovered Ruthenium?",
+      "options": [
+        {
+          "text": "Fredrich Stromeyer",
+          "element": "Cadmium"
+        },
+        {
+          "text": "Karl Klaus",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "Pierre and Marie Curie",
+          "element": "Polonium"
+        },
+        {
+          "text": "Bernard Courtois",
+          "element": "Iodine"
+        }
+      ],
+      "correct": "Karl Klaus",
+      "type": "discoverers"
+    },
+    {
+      "question": "What is the geochemical class of Ruthenium?",
+      "options": [
+        {
+          "text": "noble metal",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "alkali metal",
+          "element": "Rubidium"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Iodine"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Polonium"
+        }
+      ],
+      "correct": "noble metal",
+      "type": "geochemical_class"
     }
   ]
 }

@@ -1,100 +1,77 @@
 {
-  "date": "2026-10-09",
-  "element": "Ruthenium",
-  "atomicNumber": 44,
-  "symbol": "Ru",
+  "date": "2026-10-10",
+  "element": "Livermorium",
+  "atomicNumber": 116,
+  "symbol": "Lv",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Ruthenium?",
+      "question": "Who discovered Livermorium?",
       "options": [
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Ruthenium"
+          "text": "Johann Arfwedson",
+          "element": "Lithium"
         },
         {
-          "text": "1) China  2) Australia  3) Brazil",
-          "element": "Iron"
+          "text": "Lawrence Livermore National Laboratory",
+          "element": "Livermorium"
         },
         {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Cadmium"
+          "text": "Charles Hatchet",
+          "element": "Niobium"
         },
         {
-          "text": "1) Chile  2) Japan  3) USA",
-          "element": "Iodine"
+          "text": "Sir William Ramsey, Baron Rayleigh",
+          "element": "Argon"
         }
       ],
-      "correct": "1) South Africa  2) Russia  3) Zimbabwe",
-      "type": "top_3_producers"
-    },
-    {
-      "question": "What is the crustal abundance of Ruthenium?",
-      "options": [
-        {
-          "text": "0.15 mg/kg",
-          "element": "Cadmium"
-        },
-        {
-          "text": "0.45 mg/kg",
-          "element": "Iodine"
-        },
-        {
-          "text": "0.0000000002 mg/kg",
-          "element": "Polonium"
-        },
-        {
-          "text": "0.001 mg/kg",
-          "element": "Ruthenium"
-        }
-      ],
-      "correct": "0.001 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "Who discovered Ruthenium?",
-      "options": [
-        {
-          "text": "Fredrich Stromeyer",
-          "element": "Cadmium"
-        },
-        {
-          "text": "Karl Klaus",
-          "element": "Ruthenium"
-        },
-        {
-          "text": "Pierre and Marie Curie",
-          "element": "Polonium"
-        },
-        {
-          "text": "Bernard Courtois",
-          "element": "Iodine"
-        }
-      ],
-      "correct": "Karl Klaus",
+      "correct": "Lawrence Livermore National Laboratory",
       "type": "discoverers"
     },
     {
-      "question": "What is the geochemical class of Ruthenium?",
+      "question": "When was Livermorium first discovered?",
       "options": [
         {
-          "text": "noble metal",
-          "element": "Ruthenium"
+          "text": "1817",
+          "element": "Lithium"
         },
         {
-          "text": "alkali metal",
-          "element": "Rubidium"
+          "text": "2000",
+          "element": "Livermorium"
         },
         {
-          "text": "semi-volatile",
-          "element": "Iodine"
+          "text": "1801",
+          "element": "Niobium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Polonium"
+          "text": "1894",
+          "element": "Argon"
         }
       ],
-      "correct": "noble metal",
-      "type": "geochemical_class"
+      "correct": "2000",
+      "type": "discovery_year"
+    },
+    {
+      "question": "What is the density of Livermorium?",
+      "options": [
+        {
+          "text": "0.00163 g/cm\u00b3",
+          "element": "Argon"
+        },
+        {
+          "text": "12.9 g/cm\u00b3",
+          "element": "Livermorium"
+        },
+        {
+          "text": "8.57 g/cm\u00b3",
+          "element": "Niobium"
+        },
+        {
+          "text": "0.534 g/cm\u00b3",
+          "element": "Lithium"
+        }
+      ],
+      "correct": "12.9 g/cm\u00b3",
+      "type": "density"
     }
   ]
 }

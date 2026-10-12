@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-11",
-  "element": "Dysprosium",
-  "atomicNumber": 66,
-  "symbol": "Dy",
+  "date": "2026-10-12",
+  "element": "Silicon",
+  "atomicNumber": 14,
+  "symbol": "Si",
   "quiz": [
     {
-      "question": "When was Dysprosium first discovered?",
+      "question": "What is the approximate price of Silicon per kilogram?",
       "options": [
         {
-          "text": "1808",
-          "element": "Barium"
+          "text": "$103/kg",
+          "element": "Praseodymium"
         },
         {
-          "text": "1886",
-          "element": "Dysprosium"
+          "text": "$0.931/kg",
+          "element": "Argon"
         },
         {
-          "text": "1817",
-          "element": "Lithium"
+          "text": "$1.7/kg",
+          "element": "Silicon"
         },
         {
-          "text": "1901",
-          "element": "Europium"
+          "text": "$55,500/kg",
+          "element": "Iridium"
         }
       ],
-      "correct": "1886",
-      "type": "discovery_year"
-    },
-    {
-      "question": "Which countries are the top producers of Dysprosium?",
-      "options": [
-        {
-          "text": "1) China  2) Russia  3) Germany (likely)",
-          "element": "Germanium"
-        },
-        {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Dysprosium"
-        },
-        {
-          "text": "1) China  2) India  3) USA",
-          "element": "Barium"
-        },
-        {
-          "text": "1) Australia  2) Chile  3) China",
-          "element": "Lithium"
-        }
-      ],
-      "correct": "1) China  2) Russia  3) Malaysia",
-      "type": "top_3_producers"
-    },
-    {
-      "question": "What is the approximate price of Dysprosium per kilogram?",
-      "options": [
-        {
-          "text": "$81.4/kg",
-          "element": "Lithium"
-        },
-        {
-          "text": "$31.4/kg",
-          "element": "Europium"
-        },
-        {
-          "text": "$307/kg",
-          "element": "Dysprosium"
-        },
-        {
-          "text": "$0.246/kg",
-          "element": "Barium"
-        }
-      ],
-      "correct": "$307/kg",
+      "correct": "$1.7/kg",
       "type": "price_per_kg"
     },
     {
-      "question": "What is the geochemical class of Dysprosium?",
+      "question": "Who discovered Silicon?",
       "options": [
         {
-          "text": "alkali metal",
-          "element": "Lithium"
+          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
+          "element": "Iridium"
         },
         {
-          "text": "alkaline earth metal",
-          "element": "Barium"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "J\u00f6ns Berzelius",
+          "element": "Silicon"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Bohrium"
+        }
+      ],
+      "correct": "J\u00f6ns Berzelius",
+      "type": "discoverers"
+    },
+    {
+      "question": "What is the geochemical class of Silicon?",
+      "options": [
+        {
+          "text": "noble metal",
+          "element": "Iridium"
         },
         {
           "text": "rare earth & related",
-          "element": "Dysprosium"
+          "element": "Praseodymium"
         },
         {
-          "text": "noble metal",
-          "element": "Osmium"
+          "text": "major",
+          "element": "Silicon"
+        },
+        {
+          "text": "volatile",
+          "element": "Argon"
         }
       ],
-      "correct": "rare earth & related",
+      "correct": "major",
       "type": "geochemical_class"
+    },
+    {
+      "question": "What is the crustal abundance of Silicon?",
+      "options": [
+        {
+          "text": "9.2 mg/kg",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "0.001 mg/kg",
+          "element": "Iridium"
+        },
+        {
+          "text": "3.5 mg/kg",
+          "element": "Argon"
+        },
+        {
+          "text": "282,000 mg/kg",
+          "element": "Silicon"
+        }
+      ],
+      "correct": "282,000 mg/kg",
+      "type": "abundance_crust"
     }
   ]
 }

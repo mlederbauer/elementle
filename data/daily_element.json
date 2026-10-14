@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-13",
-  "element": "Silver",
-  "atomicNumber": 47,
-  "symbol": "Ag",
+  "date": "2026-10-14",
+  "element": "Samarium",
+  "atomicNumber": 62,
+  "symbol": "Sm",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Silver?",
+      "question": "What is the approximate price of Samarium per kilogram?",
       "options": [
         {
-          "text": "0.00003 mg/kg",
-          "element": "Xenon"
+          "text": "$4.78/kg",
+          "element": "Lanthanum"
         },
-        {
-          "text": "0.075 mg/kg",
-          "element": "Silver"
-        },
-        {
-          "text": "20 mg/kg",
-          "element": "Niobium"
-        },
-        {
-          "text": "7.05 mg/kg",
-          "element": "Samarium"
-        }
-      ],
-      "correct": "0.075 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "What is the approximate price of Silver per kilogram?",
-      "options": [
         {
           "text": "$13.9/kg",
           "element": "Samarium"
         },
         {
-          "text": "$521/kg",
-          "element": "Silver"
+          "text": "$6,490,000/kg",
+          "element": "Plutonium"
         },
         {
-          "text": "$61.4/kg",
-          "element": "Niobium"
-        },
-        {
-          "text": "$1,800/kg",
-          "element": "Xenon"
+          "text": "$55,500/kg",
+          "element": "Iridium"
         }
       ],
-      "correct": "$521/kg",
+      "correct": "$13.9/kg",
       "type": "price_per_kg"
     },
     {
-      "question": "Who discovered Silver?",
+      "question": "Which countries are the top producers of Samarium?",
       "options": [
         {
-          "text": "Known to the ancients.",
-          "element": "Silver"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Iridium"
         },
         {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Samarium"
+          "text": "1) China  2) Australia  3) USA",
+          "element": "Gold"
         },
-        {
-          "text": "Charles Hatchet",
-          "element": "Niobium"
-        },
-        {
-          "text": "Marguerite Derey",
-          "element": "Francium"
-        }
-      ],
-      "correct": "Known to the ancients.",
-      "type": "discoverers"
-    },
-    {
-      "question": "Which countries are the top producers of Silver?",
-      "options": [
         {
           "text": "1) China  2) Russia  3) Malaysia",
           "element": "Samarium"
         },
         {
-          "text": "1) Brazil  2) Canada",
-          "element": "Niobium"
-        },
-        {
-          "text": "1) Mexico  2) Peru  3) China",
-          "element": "Silver"
-        },
-        {
-          "text": "1) China  2) Germany  3) Kazakhstan",
-          "element": "Gallium"
+          "text": "1) China  2) Indonesia  3) Peru",
+          "element": "Tin"
         }
       ],
-      "correct": "1) Mexico  2) Peru  3) China",
+      "correct": "1) China  2) Russia  3) Malaysia",
       "type": "top_3_producers"
+    },
+    {
+      "question": "What is the geochemical class of Samarium?",
+      "options": [
+        {
+          "text": "rare earth & related",
+          "element": "Samarium"
+        },
+        {
+          "text": "first series transition metal",
+          "element": "Scandium"
+        },
+        {
+          "text": "noble metal",
+          "element": "Iridium"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Radon"
+        }
+      ],
+      "correct": "rare earth & related",
+      "type": "geochemical_class"
+    },
+    {
+      "question": "Who discovered Samarium?",
+      "options": [
+        {
+          "text": "GSI Helmholtz Centre for Heavy Ion Research",
+          "element": "Copernicium"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "Carl Mosander",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Samarium"
+        }
+      ],
+      "correct": "Paul \u00c9mile Lecoq de Boisbaudran",
+      "type": "discoverers"
     }
   ]
 }

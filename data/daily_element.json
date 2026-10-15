@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-14",
-  "element": "Samarium",
-  "atomicNumber": 62,
-  "symbol": "Sm",
+  "date": "2026-10-15",
+  "element": "Antimony",
+  "atomicNumber": 51,
+  "symbol": "Sb",
   "quiz": [
     {
-      "question": "What is the approximate price of Samarium per kilogram?",
+      "question": "What is the crustal abundance of Antimony?",
       "options": [
         {
-          "text": "$4.78/kg",
-          "element": "Lanthanum"
+          "text": "2.7 mg/kg",
+          "element": "Uranium"
         },
         {
-          "text": "$13.9/kg",
-          "element": "Samarium"
+          "text": "0.2 mg/kg",
+          "element": "Antimony"
         },
         {
-          "text": "$6,490,000/kg",
-          "element": "Plutonium"
+          "text": "20 mg/kg",
+          "element": "Lithium"
         },
         {
-          "text": "$55,500/kg",
-          "element": "Iridium"
+          "text": "0.15 mg/kg",
+          "element": "Cadmium"
         }
       ],
-      "correct": "$13.9/kg",
+      "correct": "0.2 mg/kg",
+      "type": "abundance_crust"
+    },
+    {
+      "question": "Who discovered Antimony?",
+      "options": [
+        {
+          "text": "Fredrich Stromeyer",
+          "element": "Cadmium"
+        },
+        {
+          "text": "Martin Klaproth",
+          "element": "Uranium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Antimony"
+        },
+        {
+          "text": "Johann Arfwedson",
+          "element": "Lithium"
+        }
+      ],
+      "correct": "Known to the ancients.",
+      "type": "discoverers"
+    },
+    {
+      "question": "What is the approximate price of Antimony per kilogram?",
+      "options": [
+        {
+          "text": "$2.73/kg",
+          "element": "Cadmium"
+        },
+        {
+          "text": "$81.4/kg",
+          "element": "Lithium"
+        },
+        {
+          "text": "$101/kg",
+          "element": "Uranium"
+        },
+        {
+          "text": "$5.79/kg",
+          "element": "Antimony"
+        }
+      ],
+      "correct": "$5.79/kg",
       "type": "price_per_kg"
     },
     {
-      "question": "Which countries are the top producers of Samarium?",
+      "question": "Which countries are the top producers of Antimony?",
       "options": [
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Iridium"
+          "text": "1) China  2) Republic of Korea  3) Japan",
+          "element": "Cadmium"
         },
         {
-          "text": "1) China  2) Australia  3) USA",
-          "element": "Gold"
+          "text": "1) China  2) Bolivia  3) Tajikistan",
+          "element": "Antimony"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Samarium"
+          "text": "1) Australia  2) Chile  3) China",
+          "element": "Lithium"
         },
         {
-          "text": "1) China  2) Indonesia  3) Peru",
-          "element": "Tin"
+          "text": "1) Kazakhstan  2) Canada  3) Australia",
+          "element": "Uranium"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia",
+      "correct": "1) China  2) Bolivia  3) Tajikistan",
       "type": "top_3_producers"
-    },
-    {
-      "question": "What is the geochemical class of Samarium?",
-      "options": [
-        {
-          "text": "rare earth & related",
-          "element": "Samarium"
-        },
-        {
-          "text": "first series transition metal",
-          "element": "Scandium"
-        },
-        {
-          "text": "noble metal",
-          "element": "Iridium"
-        },
-        {
-          "text": "U/Th decay series",
-          "element": "Radon"
-        }
-      ],
-      "correct": "rare earth & related",
-      "type": "geochemical_class"
-    },
-    {
-      "question": "Who discovered Samarium?",
-      "options": [
-        {
-          "text": "GSI Helmholtz Centre for Heavy Ion Research",
-          "element": "Copernicium"
-        },
-        {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Darmstadtium"
-        },
-        {
-          "text": "Carl Mosander",
-          "element": "Lanthanum"
-        },
-        {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Samarium"
-        }
-      ],
-      "correct": "Paul \u00c9mile Lecoq de Boisbaudran",
-      "type": "discoverers"
     }
   ]
 }

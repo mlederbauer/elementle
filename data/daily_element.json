@@ -1,99 +1,99 @@
 {
-  "date": "2026-10-15",
-  "element": "Antimony",
-  "atomicNumber": 51,
-  "symbol": "Sb",
+  "date": "2026-10-16",
+  "element": "Boron",
+  "atomicNumber": 5,
+  "symbol": "B",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Antimony?",
+      "question": "Who discovered Boron?",
       "options": [
         {
-          "text": "2.7 mg/kg",
-          "element": "Uranium"
-        },
-        {
-          "text": "0.2 mg/kg",
-          "element": "Antimony"
-        },
-        {
-          "text": "20 mg/kg",
-          "element": "Lithium"
-        },
-        {
-          "text": "0.15 mg/kg",
-          "element": "Cadmium"
-        }
-      ],
-      "correct": "0.2 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "Who discovered Antimony?",
-      "options": [
-        {
-          "text": "Fredrich Stromeyer",
-          "element": "Cadmium"
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
         },
         {
           "text": "Martin Klaproth",
           "element": "Uranium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Antimony"
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
         },
         {
-          "text": "Johann Arfwedson",
-          "element": "Lithium"
+          "text": "RIKEN",
+          "element": "Nihonium"
         }
       ],
-      "correct": "Known to the ancients.",
+      "correct": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
       "type": "discoverers"
     },
     {
-      "question": "What is the approximate price of Antimony per kilogram?",
+      "question": "What is the approximate price of Boron per kilogram?",
       "options": [
-        {
-          "text": "$2.73/kg",
-          "element": "Cadmium"
-        },
-        {
-          "text": "$81.4/kg",
-          "element": "Lithium"
-        },
         {
           "text": "$101/kg",
           "element": "Uranium"
         },
         {
-          "text": "$5.79/kg",
-          "element": "Antimony"
+          "text": "$12,000/kg",
+          "element": "Osmium"
+        },
+        {
+          "text": "$10,400/kg",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "$3.68/kg",
+          "element": "Boron"
         }
       ],
-      "correct": "$5.79/kg",
+      "correct": "$3.68/kg",
       "type": "price_per_kg"
     },
     {
-      "question": "Which countries are the top producers of Antimony?",
+      "question": "What is the crustal abundance of Boron?",
       "options": [
         {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Cadmium"
+          "text": "2.7 mg/kg",
+          "element": "Uranium"
         },
         {
-          "text": "1) China  2) Bolivia  3) Tajikistan",
-          "element": "Antimony"
+          "text": "0.0015 mg/kg",
+          "element": "Osmium"
         },
         {
-          "text": "1) Australia  2) Chile  3) China",
-          "element": "Lithium"
+          "text": "0.001 mg/kg",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "10 mg/kg",
+          "element": "Boron"
+        }
+      ],
+      "correct": "10 mg/kg",
+      "type": "abundance_crust"
+    },
+    {
+      "question": "Which countries are the top producers of Boron?",
+      "options": [
+        {
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "1) China  2) Chile  3) Kazakhstan",
+          "element": "Arsenic"
         },
         {
           "text": "1) Kazakhstan  2) Canada  3) Australia",
           "element": "Uranium"
+        },
+        {
+          "text": "1) Turkey  2) USA  3) Chile",
+          "element": "Boron"
         }
       ],
-      "correct": "1) China  2) Bolivia  3) Tajikistan",
+      "correct": "1) Turkey  2) USA  3) Chile",
       "type": "top_3_producers"
     }
   ]

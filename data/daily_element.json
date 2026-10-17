@@ -1,57 +1,34 @@
 {
-  "date": "2026-10-16",
-  "element": "Boron",
-  "atomicNumber": 5,
-  "symbol": "B",
+  "date": "2026-10-17",
+  "element": "Phosphorus",
+  "atomicNumber": 15,
+  "symbol": "P",
   "quiz": [
     {
-      "question": "Who discovered Boron?",
+      "question": "Which countries are the top producers of Phosphorus?",
       "options": [
         {
-          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
-          "element": "Boron"
+          "text": "1) China  2) USA  3) Chile",
+          "element": "Molybdenum"
         },
         {
-          "text": "Martin Klaproth",
-          "element": "Uranium"
-        },
-        {
-          "text": "A. Ghiorso, et al",
-          "element": "Dubnium"
-        },
-        {
-          "text": "RIKEN",
-          "element": "Nihonium"
-        }
-      ],
-      "correct": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
-      "type": "discoverers"
-    },
-    {
-      "question": "What is the approximate price of Boron per kilogram?",
-      "options": [
-        {
-          "text": "$101/kg",
-          "element": "Uranium"
-        },
-        {
-          "text": "$12,000/kg",
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
           "element": "Osmium"
         },
         {
-          "text": "$10,400/kg",
-          "element": "Ruthenium"
+          "text": "1) Kazakhstan  2) Canada  3) Australia",
+          "element": "Uranium"
         },
         {
-          "text": "$3.68/kg",
-          "element": "Boron"
+          "text": "1) China  2) Mexico  3) Morocco",
+          "element": "Phosphorus"
         }
       ],
-      "correct": "$3.68/kg",
-      "type": "price_per_kg"
+      "correct": "1) China  2) Mexico  3) Morocco",
+      "type": "top_3_producers"
     },
     {
-      "question": "What is the crustal abundance of Boron?",
+      "question": "What is the crustal abundance of Phosphorus?",
       "options": [
         {
           "text": "2.7 mg/kg",
@@ -62,39 +39,62 @@
           "element": "Osmium"
         },
         {
-          "text": "0.001 mg/kg",
-          "element": "Ruthenium"
+          "text": "1.2 mg/kg",
+          "element": "Molybdenum"
         },
         {
-          "text": "10 mg/kg",
-          "element": "Boron"
+          "text": "1,050 mg/kg",
+          "element": "Phosphorus"
         }
       ],
-      "correct": "10 mg/kg",
+      "correct": "1,050 mg/kg",
       "type": "abundance_crust"
     },
     {
-      "question": "Which countries are the top producers of Boron?",
+      "question": "When was Phosphorus first discovered?",
       "options": [
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Ruthenium"
+          "text": "1804",
+          "element": "Osmium"
         },
         {
-          "text": "1) China  2) Chile  3) Kazakhstan",
-          "element": "Arsenic"
+          "text": "1778",
+          "element": "Molybdenum"
         },
         {
-          "text": "1) Kazakhstan  2) Canada  3) Australia",
+          "text": "1789",
           "element": "Uranium"
         },
         {
-          "text": "1) Turkey  2) USA  3) Chile",
-          "element": "Boron"
+          "text": "1669",
+          "element": "Phosphorus"
         }
       ],
-      "correct": "1) Turkey  2) USA  3) Chile",
-      "type": "top_3_producers"
+      "correct": "1669",
+      "type": "discovery_year"
+    },
+    {
+      "question": "Who discovered Phosphorus?",
+      "options": [
+        {
+          "text": "Martin Klaproth",
+          "element": "Uranium"
+        },
+        {
+          "text": "Hennig Brand",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "Smithson Tenant",
+          "element": "Osmium"
+        },
+        {
+          "text": "Carl Wilhelm Scheele",
+          "element": "Molybdenum"
+        }
+      ],
+      "correct": "Hennig Brand",
+      "type": "discoverers"
     }
   ]
 }

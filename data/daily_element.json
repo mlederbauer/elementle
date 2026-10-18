@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-17",
-  "element": "Phosphorus",
-  "atomicNumber": 15,
-  "symbol": "P",
+  "date": "2026-10-18",
+  "element": "Erbium",
+  "atomicNumber": 68,
+  "symbol": "Er",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Phosphorus?",
+      "question": "What is the geochemical class of Erbium?",
       "options": [
         {
-          "text": "1) China  2) USA  3) Chile",
-          "element": "Molybdenum"
+          "text": "major",
+          "element": "Magnesium"
         },
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Osmium"
+          "text": "rare earth & related",
+          "element": "Erbium"
         },
         {
-          "text": "1) Kazakhstan  2) Canada  3) Australia",
-          "element": "Uranium"
+          "text": "high field strength",
+          "element": "Niobium"
         },
         {
-          "text": "1) China  2) Mexico  3) Morocco",
-          "element": "Phosphorus"
+          "text": "alkali metal",
+          "element": "Potassium"
         }
       ],
-      "correct": "1) China  2) Mexico  3) Morocco",
-      "type": "top_3_producers"
+      "correct": "rare earth & related",
+      "type": "geochemical_class"
     },
     {
-      "question": "What is the crustal abundance of Phosphorus?",
+      "question": "What is the crustal abundance of Erbium?",
       "options": [
         {
-          "text": "2.7 mg/kg",
-          "element": "Uranium"
+          "text": "20,900 mg/kg",
+          "element": "Potassium"
         },
         {
-          "text": "0.0015 mg/kg",
-          "element": "Osmium"
+          "text": "23,300 mg/kg",
+          "element": "Magnesium"
         },
         {
-          "text": "1.2 mg/kg",
-          "element": "Molybdenum"
+          "text": "9.2 mg/kg",
+          "element": "Praseodymium"
         },
         {
-          "text": "1,050 mg/kg",
-          "element": "Phosphorus"
+          "text": "3.5 mg/kg",
+          "element": "Erbium"
         }
       ],
-      "correct": "1,050 mg/kg",
+      "correct": "3.5 mg/kg",
       "type": "abundance_crust"
     },
     {
-      "question": "When was Phosphorus first discovered?",
+      "question": "What is the approximate price of Erbium per kilogram?",
       "options": [
         {
-          "text": "1804",
-          "element": "Osmium"
+          "text": "$103/kg",
+          "element": "Praseodymium"
         },
         {
-          "text": "1778",
-          "element": "Molybdenum"
+          "text": "$26.4/kg",
+          "element": "Erbium"
         },
         {
-          "text": "1789",
-          "element": "Uranium"
+          "text": "$100,000/kg",
+          "element": "Technetium"
         },
         {
-          "text": "1669",
-          "element": "Phosphorus"
+          "text": "$12.1/kg",
+          "element": "Potassium"
         }
       ],
-      "correct": "1669",
-      "type": "discovery_year"
+      "correct": "$26.4/kg",
+      "type": "price_per_kg"
     },
     {
-      "question": "Who discovered Phosphorus?",
+      "question": "Which countries are the top producers of Erbium?",
       "options": [
         {
-          "text": "Martin Klaproth",
-          "element": "Uranium"
+          "text": "1) Canada  2) Russia  3) Belarus",
+          "element": "Potassium"
         },
         {
-          "text": "Hennig Brand",
-          "element": "Phosphorus"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Erbium"
         },
         {
-          "text": "Smithson Tenant",
-          "element": "Osmium"
+          "text": "1) China  2) Russia  3) Turkey",
+          "element": "Magnesium"
         },
         {
-          "text": "Carl Wilhelm Scheele",
-          "element": "Molybdenum"
+          "text": "1) Brazil  2) Canada",
+          "element": "Niobium"
         }
       ],
-      "correct": "Hennig Brand",
-      "type": "discoverers"
+      "correct": "1) China  2) Russia  3) Malaysia",
+      "type": "top_3_producers"
     }
   ]
 }

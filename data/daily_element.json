@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-18",
-  "element": "Erbium",
-  "atomicNumber": 68,
-  "symbol": "Er",
+  "date": "2026-10-19",
+  "element": "Chlorine",
+  "atomicNumber": 17,
+  "symbol": "Cl",
   "quiz": [
     {
-      "question": "What is the geochemical class of Erbium?",
+      "question": "What is the geochemical class of Chlorine?",
       "options": [
         {
-          "text": "major",
-          "element": "Magnesium"
+          "text": "alkali metal",
+          "element": "Lithium"
+        },
+        {
+          "text": "first series transition metal",
+          "element": "Zinc"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Chlorine"
         },
         {
           "text": "rare earth & related",
-          "element": "Erbium"
-        },
-        {
-          "text": "high field strength",
-          "element": "Niobium"
-        },
-        {
-          "text": "alkali metal",
-          "element": "Potassium"
+          "element": "Thorium"
         }
       ],
-      "correct": "rare earth & related",
+      "correct": "semi-volatile",
       "type": "geochemical_class"
     },
     {
-      "question": "What is the crustal abundance of Erbium?",
+      "question": "Which countries are the top producers of Chlorine?",
       "options": [
         {
-          "text": "20,900 mg/kg",
-          "element": "Potassium"
+          "text": "1) India  2) Brazil  3) Malaysia",
+          "element": "Thorium"
         },
         {
-          "text": "23,300 mg/kg",
-          "element": "Magnesium"
+          "text": "1) China  2) India  3) USA",
+          "element": "Chlorine"
         },
         {
-          "text": "9.2 mg/kg",
-          "element": "Praseodymium"
+          "text": "1) China  2) Australia  3) Peru",
+          "element": "Zinc"
         },
         {
-          "text": "3.5 mg/kg",
-          "element": "Erbium"
+          "text": "1) Australia  2) Chile  3) China",
+          "element": "Lithium"
         }
       ],
-      "correct": "3.5 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "What is the approximate price of Erbium per kilogram?",
-      "options": [
-        {
-          "text": "$103/kg",
-          "element": "Praseodymium"
-        },
-        {
-          "text": "$26.4/kg",
-          "element": "Erbium"
-        },
-        {
-          "text": "$100,000/kg",
-          "element": "Technetium"
-        },
-        {
-          "text": "$12.1/kg",
-          "element": "Potassium"
-        }
-      ],
-      "correct": "$26.4/kg",
-      "type": "price_per_kg"
-    },
-    {
-      "question": "Which countries are the top producers of Erbium?",
-      "options": [
-        {
-          "text": "1) Canada  2) Russia  3) Belarus",
-          "element": "Potassium"
-        },
-        {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Erbium"
-        },
-        {
-          "text": "1) China  2) Russia  3) Turkey",
-          "element": "Magnesium"
-        },
-        {
-          "text": "1) Brazil  2) Canada",
-          "element": "Niobium"
-        }
-      ],
-      "correct": "1) China  2) Russia  3) Malaysia",
+      "correct": "1) China  2) India  3) USA",
       "type": "top_3_producers"
+    },
+    {
+      "question": "When was Chlorine first discovered?",
+      "options": [
+        {
+          "text": "1774",
+          "element": "Chlorine"
+        },
+        {
+          "text": "1817",
+          "element": "Lithium"
+        },
+        {
+          "text": "1953",
+          "element": "Fermium"
+        },
+        {
+          "text": "2010",
+          "element": "Tennessine"
+        }
+      ],
+      "correct": "1774",
+      "type": "discovery_year"
+    },
+    {
+      "question": "Who discovered Chlorine?",
+      "options": [
+        {
+          "text": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory",
+          "element": "Tennessine"
+        },
+        {
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Fermium"
+        },
+        {
+          "text": "Carl Wilhelm Scheele",
+          "element": "Chlorine"
+        },
+        {
+          "text": "Johann Arfwedson",
+          "element": "Lithium"
+        }
+      ],
+      "correct": "Carl Wilhelm Scheele",
+      "type": "discoverers"
     }
   ]
 }

@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-19",
-  "element": "Chlorine",
-  "atomicNumber": 17,
-  "symbol": "Cl",
+  "date": "2026-10-20",
+  "element": "Europium",
+  "atomicNumber": 63,
+  "symbol": "Eu",
   "quiz": [
     {
-      "question": "What is the geochemical class of Chlorine?",
+      "question": "What is the approximate price of Europium per kilogram?",
       "options": [
         {
-          "text": "alkali metal",
-          "element": "Lithium"
+          "text": "$1.39/kg",
+          "element": "Hydrogen"
         },
         {
-          "text": "first series transition metal",
-          "element": "Zinc"
+          "text": "$1.79/kg",
+          "element": "Aluminum"
         },
         {
-          "text": "semi-volatile",
-          "element": "Chlorine"
+          "text": "$1.82/kg",
+          "element": "Manganese"
         },
         {
-          "text": "rare earth & related",
-          "element": "Thorium"
+          "text": "$31.4/kg",
+          "element": "Europium"
         }
       ],
-      "correct": "semi-volatile",
-      "type": "geochemical_class"
+      "correct": "$31.4/kg",
+      "type": "price_per_kg"
     },
     {
-      "question": "Which countries are the top producers of Chlorine?",
+      "question": "When was Europium first discovered?",
       "options": [
         {
-          "text": "1) India  2) Brazil  3) Malaysia",
-          "element": "Thorium"
+          "text": "1825",
+          "element": "Aluminum"
         },
         {
-          "text": "1) China  2) India  3) USA",
-          "element": "Chlorine"
+          "text": "1766",
+          "element": "Hydrogen"
         },
-        {
-          "text": "1) China  2) Australia  3) Peru",
-          "element": "Zinc"
-        },
-        {
-          "text": "1) Australia  2) Chile  3) China",
-          "element": "Lithium"
-        }
-      ],
-      "correct": "1) China  2) India  3) USA",
-      "type": "top_3_producers"
-    },
-    {
-      "question": "When was Chlorine first discovered?",
-      "options": [
         {
           "text": "1774",
-          "element": "Chlorine"
+          "element": "Manganese"
         },
         {
-          "text": "1817",
-          "element": "Lithium"
-        },
-        {
-          "text": "1953",
-          "element": "Fermium"
-        },
-        {
-          "text": "2010",
-          "element": "Tennessine"
+          "text": "1901",
+          "element": "Europium"
         }
       ],
-      "correct": "1774",
+      "correct": "1901",
       "type": "discovery_year"
     },
     {
-      "question": "Who discovered Chlorine?",
+      "question": "Who discovered Europium?",
       "options": [
         {
-          "text": "Joint Institute for Nuclear Research/Oak Ridge National Laboratory",
-          "element": "Tennessine"
+          "text": "Henry Cavendish",
+          "element": "Hydrogen"
         },
         {
-          "text": "Argonne, Los Alamos, U of Calif",
-          "element": "Fermium"
+          "text": "Eug\u00e8ne Demar\u00e7ay",
+          "element": "Europium"
         },
         {
-          "text": "Carl Wilhelm Scheele",
-          "element": "Chlorine"
+          "text": "Hans Christian Oersted",
+          "element": "Aluminum"
         },
         {
-          "text": "Johann Arfwedson",
-          "element": "Lithium"
+          "text": "Johann Gahn",
+          "element": "Manganese"
         }
       ],
-      "correct": "Carl Wilhelm Scheele",
+      "correct": "Eug\u00e8ne Demar\u00e7ay",
       "type": "discoverers"
+    },
+    {
+      "question": "What is the crustal abundance of Europium?",
+      "options": [
+        {
+          "text": "2 mg/kg",
+          "element": "Europium"
+        },
+        {
+          "text": "950 mg/kg",
+          "element": "Manganese"
+        },
+        {
+          "text": "82,300 mg/kg",
+          "element": "Aluminum"
+        },
+        {
+          "text": "1,400 mg/kg",
+          "element": "Hydrogen"
+        }
+      ],
+      "correct": "2 mg/kg",
+      "type": "abundance_crust"
     }
   ]
 }

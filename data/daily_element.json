@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-20",
-  "element": "Europium",
-  "atomicNumber": 63,
-  "symbol": "Eu",
+  "date": "2026-10-21",
+  "element": "Lawrencium",
+  "atomicNumber": 103,
+  "symbol": "Lr",
   "quiz": [
     {
-      "question": "What is the approximate price of Europium per kilogram?",
+      "question": "Who discovered Lawrencium?",
       "options": [
         {
-          "text": "$1.39/kg",
-          "element": "Hydrogen"
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
         },
         {
-          "text": "$1.79/kg",
-          "element": "Aluminum"
+          "text": "Andr\u00e9 Debierne",
+          "element": "Actinium"
         },
         {
-          "text": "$1.82/kg",
-          "element": "Manganese"
+          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
+          "element": "Iridium"
         },
         {
-          "text": "$31.4/kg",
-          "element": "Europium"
+          "text": "Daniel Rutherford",
+          "element": "Nitrogen"
         }
       ],
-      "correct": "$31.4/kg",
-      "type": "price_per_kg"
-    },
-    {
-      "question": "When was Europium first discovered?",
-      "options": [
-        {
-          "text": "1825",
-          "element": "Aluminum"
-        },
-        {
-          "text": "1766",
-          "element": "Hydrogen"
-        },
-        {
-          "text": "1774",
-          "element": "Manganese"
-        },
-        {
-          "text": "1901",
-          "element": "Europium"
-        }
-      ],
-      "correct": "1901",
-      "type": "discovery_year"
-    },
-    {
-      "question": "Who discovered Europium?",
-      "options": [
-        {
-          "text": "Henry Cavendish",
-          "element": "Hydrogen"
-        },
-        {
-          "text": "Eug\u00e8ne Demar\u00e7ay",
-          "element": "Europium"
-        },
-        {
-          "text": "Hans Christian Oersted",
-          "element": "Aluminum"
-        },
-        {
-          "text": "Johann Gahn",
-          "element": "Manganese"
-        }
-      ],
-      "correct": "Eug\u00e8ne Demar\u00e7ay",
+      "correct": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
       "type": "discoverers"
     },
     {
-      "question": "What is the crustal abundance of Europium?",
+      "question": "When was Lawrencium first discovered?",
       "options": [
         {
-          "text": "2 mg/kg",
-          "element": "Europium"
+          "text": "1899",
+          "element": "Actinium"
         },
         {
-          "text": "950 mg/kg",
-          "element": "Manganese"
+          "text": "1804",
+          "element": "Iridium"
         },
         {
-          "text": "82,300 mg/kg",
-          "element": "Aluminum"
+          "text": "1961",
+          "element": "Lawrencium"
         },
         {
-          "text": "1,400 mg/kg",
-          "element": "Hydrogen"
+          "text": "1772",
+          "element": "Nitrogen"
         }
       ],
-      "correct": "2 mg/kg",
-      "type": "abundance_crust"
+      "correct": "1961",
+      "type": "discovery_year"
+    },
+    {
+      "question": "What is the melting point of Lawrencium?",
+      "options": [
+        {
+          "text": "-210 \u00b0C",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "1,050 \u00b0C",
+          "element": "Actinium"
+        },
+        {
+          "text": "1,630 \u00b0C",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "2,450 \u00b0C",
+          "element": "Iridium"
+        }
+      ],
+      "correct": "1,630 \u00b0C",
+      "type": "melting_point"
+    },
+    {
+      "question": "What is the density of Lawrencium?",
+      "options": [
+        {
+          "text": "0.00115 g/cm\u00b3",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "22.6 g/cm\u00b3",
+          "element": "Iridium"
+        },
+        {
+          "text": "10 g/cm\u00b3",
+          "element": "Actinium"
+        },
+        {
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
+        }
+      ],
+      "correct": "15.6 g/cm\u00b3",
+      "type": "density"
     }
   ]
 }

@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-21",
-  "element": "Lawrencium",
-  "atomicNumber": 103,
-  "symbol": "Lr",
+  "date": "2026-10-22",
+  "element": "Cobalt",
+  "atomicNumber": 27,
+  "symbol": "Co",
   "quiz": [
     {
-      "question": "Who discovered Lawrencium?",
+      "question": "What is the approximate price of Cobalt per kilogram?",
       "options": [
         {
-          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
-          "element": "Lawrencium"
+          "text": "$1.39/kg",
+          "element": "Hydrogen"
         },
         {
-          "text": "Andr\u00e9 Debierne",
-          "element": "Actinium"
+          "text": "$32.8/kg",
+          "element": "Cobalt"
         },
         {
-          "text": "S.Tenant, A.F.Fourcory, L.N.Vauquelin, H.V.Collet-Descoltils",
-          "element": "Iridium"
+          "text": "$240/kg",
+          "element": "Neon"
         },
         {
-          "text": "Daniel Rutherford",
-          "element": "Nitrogen"
+          "text": "$167/kg",
+          "element": "Indium"
         }
       ],
-      "correct": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
-      "type": "discoverers"
+      "correct": "$32.8/kg",
+      "type": "price_per_kg"
     },
     {
-      "question": "When was Lawrencium first discovered?",
+      "question": "What is the crustal abundance of Cobalt?",
       "options": [
         {
-          "text": "1899",
-          "element": "Actinium"
+          "text": "25 mg/kg",
+          "element": "Cobalt"
         },
         {
-          "text": "1804",
-          "element": "Iridium"
+          "text": "0.25 mg/kg",
+          "element": "Indium"
         },
         {
-          "text": "1961",
-          "element": "Lawrencium"
+          "text": "0.005 mg/kg",
+          "element": "Neon"
         },
         {
-          "text": "1772",
-          "element": "Nitrogen"
+          "text": "1,400 mg/kg",
+          "element": "Hydrogen"
         }
       ],
-      "correct": "1961",
+      "correct": "25 mg/kg",
+      "type": "abundance_crust"
+    },
+    {
+      "question": "When was Cobalt first discovered?",
+      "options": [
+        {
+          "text": "1898",
+          "element": "Neon"
+        },
+        {
+          "text": "1863",
+          "element": "Indium"
+        },
+        {
+          "text": "1739",
+          "element": "Cobalt"
+        },
+        {
+          "text": "1766",
+          "element": "Hydrogen"
+        }
+      ],
+      "correct": "1739",
       "type": "discovery_year"
     },
     {
-      "question": "What is the melting point of Lawrencium?",
+      "question": "What is the geochemical class of Cobalt?",
       "options": [
         {
-          "text": "-210 \u00b0C",
-          "element": "Nitrogen"
+          "text": "rare earth & related",
+          "element": "Promethium"
         },
         {
-          "text": "1,050 \u00b0C",
-          "element": "Actinium"
+          "text": "U/Th decay series",
+          "element": "Astatine"
         },
         {
-          "text": "1,630 \u00b0C",
-          "element": "Lawrencium"
+          "text": "volatile",
+          "element": "Hydrogen"
         },
         {
-          "text": "2,450 \u00b0C",
-          "element": "Iridium"
+          "text": "first series transition metal",
+          "element": "Cobalt"
         }
       ],
-      "correct": "1,630 \u00b0C",
-      "type": "melting_point"
-    },
-    {
-      "question": "What is the density of Lawrencium?",
-      "options": [
-        {
-          "text": "0.00115 g/cm\u00b3",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "22.6 g/cm\u00b3",
-          "element": "Iridium"
-        },
-        {
-          "text": "10 g/cm\u00b3",
-          "element": "Actinium"
-        },
-        {
-          "text": "15.6 g/cm\u00b3",
-          "element": "Lawrencium"
-        }
-      ],
-      "correct": "15.6 g/cm\u00b3",
-      "type": "density"
+      "correct": "first series transition metal",
+      "type": "geochemical_class"
     }
   ]
 }

@@ -1,99 +1,99 @@
 {
-  "date": "2026-10-22",
-  "element": "Cobalt",
-  "atomicNumber": 27,
-  "symbol": "Co",
+  "date": "2026-10-23",
+  "element": "Beryllium",
+  "atomicNumber": 4,
+  "symbol": "Be",
   "quiz": [
     {
-      "question": "What is the approximate price of Cobalt per kilogram?",
+      "question": "What is the approximate price of Beryllium per kilogram?",
       "options": [
         {
-          "text": "$1.39/kg",
-          "element": "Hydrogen"
+          "text": "$0.0926/kg",
+          "element": "Sulfur"
         },
         {
-          "text": "$32.8/kg",
-          "element": "Cobalt"
+          "text": "$0.246/kg",
+          "element": "Barium"
         },
         {
-          "text": "$240/kg",
-          "element": "Neon"
+          "text": "$900/kg",
+          "element": "Hafnium"
         },
         {
-          "text": "$167/kg",
-          "element": "Indium"
+          "text": "$857/kg",
+          "element": "Beryllium"
         }
       ],
-      "correct": "$32.8/kg",
+      "correct": "$857/kg",
       "type": "price_per_kg"
     },
     {
-      "question": "What is the crustal abundance of Cobalt?",
+      "question": "When was Beryllium first discovered?",
       "options": [
         {
-          "text": "25 mg/kg",
-          "element": "Cobalt"
+          "text": "1798",
+          "element": "Beryllium"
         },
         {
-          "text": "0.25 mg/kg",
-          "element": "Indium"
+          "text": "1955",
+          "element": "Mendelevium"
         },
         {
-          "text": "0.005 mg/kg",
-          "element": "Neon"
+          "text": "1923",
+          "element": "Hafnium"
         },
         {
-          "text": "1,400 mg/kg",
-          "element": "Hydrogen"
+          "text": "1808",
+          "element": "Barium"
         }
       ],
-      "correct": "25 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "When was Cobalt first discovered?",
-      "options": [
-        {
-          "text": "1898",
-          "element": "Neon"
-        },
-        {
-          "text": "1863",
-          "element": "Indium"
-        },
-        {
-          "text": "1739",
-          "element": "Cobalt"
-        },
-        {
-          "text": "1766",
-          "element": "Hydrogen"
-        }
-      ],
-      "correct": "1739",
+      "correct": "1798",
       "type": "discovery_year"
     },
     {
-      "question": "What is the geochemical class of Cobalt?",
+      "question": "Which countries are the top producers of Beryllium?",
       "options": [
         {
-          "text": "rare earth & related",
-          "element": "Promethium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Holmium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Astatine"
+          "text": "1) China  2) India  3) USA",
+          "element": "Barium"
         },
         {
-          "text": "volatile",
-          "element": "Hydrogen"
+          "text": "1) China  2) USA  3) Canada",
+          "element": "Sulfur"
         },
         {
-          "text": "first series transition metal",
-          "element": "Cobalt"
+          "text": "1) USA  2) China  3) Mozambique",
+          "element": "Beryllium"
         }
       ],
-      "correct": "first series transition metal",
+      "correct": "1) USA  2) China  3) Mozambique",
+      "type": "top_3_producers"
+    },
+    {
+      "question": "What is the geochemical class of Beryllium?",
+      "options": [
+        {
+          "text": "semi-volatile",
+          "element": "Sulfur"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Holmium"
+        },
+        {
+          "text": "high field strength",
+          "element": "Hafnium"
+        },
+        {
+          "text": "alkaline earth metal",
+          "element": "Beryllium"
+        }
+      ],
+      "correct": "alkaline earth metal",
       "type": "geochemical_class"
     }
   ]

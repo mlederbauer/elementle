@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-23",
-  "element": "Beryllium",
-  "atomicNumber": 4,
-  "symbol": "Be",
+  "date": "2026-10-24",
+  "element": "Lithium",
+  "atomicNumber": 3,
+  "symbol": "Li",
   "quiz": [
     {
-      "question": "What is the approximate price of Beryllium per kilogram?",
+      "question": "What is the geochemical class of Lithium?",
       "options": [
         {
-          "text": "$0.0926/kg",
-          "element": "Sulfur"
-        },
-        {
-          "text": "$0.246/kg",
-          "element": "Barium"
-        },
-        {
-          "text": "$900/kg",
-          "element": "Hafnium"
-        },
-        {
-          "text": "$857/kg",
-          "element": "Beryllium"
-        }
-      ],
-      "correct": "$857/kg",
-      "type": "price_per_kg"
-    },
-    {
-      "question": "When was Beryllium first discovered?",
-      "options": [
-        {
-          "text": "1798",
-          "element": "Beryllium"
-        },
-        {
-          "text": "1955",
-          "element": "Mendelevium"
-        },
-        {
-          "text": "1923",
-          "element": "Hafnium"
-        },
-        {
-          "text": "1808",
-          "element": "Barium"
-        }
-      ],
-      "correct": "1798",
-      "type": "discovery_year"
-    },
-    {
-      "question": "Which countries are the top producers of Beryllium?",
-      "options": [
-        {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Holmium"
-        },
-        {
-          "text": "1) China  2) India  3) USA",
-          "element": "Barium"
-        },
-        {
-          "text": "1) China  2) USA  3) Canada",
-          "element": "Sulfur"
-        },
-        {
-          "text": "1) USA  2) China  3) Mozambique",
-          "element": "Beryllium"
-        }
-      ],
-      "correct": "1) USA  2) China  3) Mozambique",
-      "type": "top_3_producers"
-    },
-    {
-      "question": "What is the geochemical class of Beryllium?",
-      "options": [
-        {
-          "text": "semi-volatile",
-          "element": "Sulfur"
+          "text": "alkali metal",
+          "element": "Lithium"
         },
         {
           "text": "rare earth & related",
-          "element": "Holmium"
+          "element": "Lanthanum"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Protactinium"
         },
         {
           "text": "high field strength",
-          "element": "Hafnium"
-        },
-        {
-          "text": "alkaline earth metal",
-          "element": "Beryllium"
+          "element": "Zirconium"
         }
       ],
-      "correct": "alkaline earth metal",
+      "correct": "alkali metal",
       "type": "geochemical_class"
+    },
+    {
+      "question": "When was Lithium first discovered?",
+      "options": [
+        {
+          "text": "1789",
+          "element": "Zirconium"
+        },
+        {
+          "text": "1839",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "1817",
+          "element": "Lithium"
+        },
+        {
+          "text": "1994",
+          "element": "Darmstadtium"
+        }
+      ],
+      "correct": "1817",
+      "type": "discovery_year"
+    },
+    {
+      "question": "Who discovered Lithium?",
+      "options": [
+        {
+          "text": "Martin Klaproth",
+          "element": "Zirconium"
+        },
+        {
+          "text": "Carl Mosander",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Darmstadtium"
+        },
+        {
+          "text": "Johann Arfwedson",
+          "element": "Lithium"
+        }
+      ],
+      "correct": "Johann Arfwedson",
+      "type": "discoverers"
+    },
+    {
+      "question": "What is the approximate price of Lithium per kilogram?",
+      "options": [
+        {
+          "text": "$81.4/kg",
+          "element": "Lithium"
+        },
+        {
+          "text": "$55,500/kg",
+          "element": "Iridium"
+        },
+        {
+          "text": "$35.7/kg",
+          "element": "Zirconium"
+        },
+        {
+          "text": "$4.78/kg",
+          "element": "Lanthanum"
+        }
+      ],
+      "correct": "$81.4/kg",
+      "type": "price_per_kg"
     }
   ]
 }

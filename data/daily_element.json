@@ -1,99 +1,99 @@
 {
-  "date": "2026-10-24",
-  "element": "Lithium",
-  "atomicNumber": 3,
-  "symbol": "Li",
+  "date": "2026-10-25",
+  "element": "Neodymium",
+  "atomicNumber": 60,
+  "symbol": "Nd",
   "quiz": [
     {
-      "question": "What is the geochemical class of Lithium?",
+      "question": "Which countries are the top producers of Neodymium?",
       "options": [
         {
-          "text": "alkali metal",
-          "element": "Lithium"
+          "text": "1) China  2) Russia  3) Turkey",
+          "element": "Magnesium"
         },
         {
-          "text": "rare earth & related",
-          "element": "Lanthanum"
+          "text": "1) China  2) Kyrgzstan  3) Chile",
+          "element": "Mercury"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Protactinium"
+          "text": "1) South Africa  2) Kazakhstan  3) India",
+          "element": "Chromium"
         },
         {
-          "text": "high field strength",
-          "element": "Zirconium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Neodymium"
         }
       ],
-      "correct": "alkali metal",
-      "type": "geochemical_class"
+      "correct": "1) China  2) Russia  3) Malaysia",
+      "type": "top_3_producers"
     },
     {
-      "question": "When was Lithium first discovered?",
+      "question": "Who discovered Neodymium?",
       "options": [
-        {
-          "text": "1789",
-          "element": "Zirconium"
-        },
-        {
-          "text": "1839",
-          "element": "Lanthanum"
-        },
-        {
-          "text": "1817",
-          "element": "Lithium"
-        },
-        {
-          "text": "1994",
-          "element": "Darmstadtium"
-        }
-      ],
-      "correct": "1817",
-      "type": "discovery_year"
-    },
-    {
-      "question": "Who discovered Lithium?",
-      "options": [
-        {
-          "text": "Martin Klaproth",
-          "element": "Zirconium"
-        },
-        {
-          "text": "Carl Mosander",
-          "element": "Lanthanum"
-        },
         {
           "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Darmstadtium"
+          "element": "Roentgenium"
         },
         {
-          "text": "Johann Arfwedson",
-          "element": "Lithium"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Neodymium"
+        },
+        {
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
+        },
+        {
+          "text": "Louis Vauquelin",
+          "element": "Chromium"
         }
       ],
-      "correct": "Johann Arfwedson",
+      "correct": "C.F. Aver von Welsbach",
       "type": "discoverers"
     },
     {
-      "question": "What is the approximate price of Lithium per kilogram?",
+      "question": "What is the geochemical class of Neodymium?",
       "options": [
         {
-          "text": "$81.4/kg",
-          "element": "Lithium"
+          "text": "noble metal",
+          "element": "Platinum"
         },
         {
-          "text": "$55,500/kg",
-          "element": "Iridium"
+          "text": "first series transition metal",
+          "element": "Chromium"
         },
         {
-          "text": "$35.7/kg",
-          "element": "Zirconium"
+          "text": "rare earth & related",
+          "element": "Neodymium"
         },
         {
-          "text": "$4.78/kg",
-          "element": "Lanthanum"
+          "text": "major",
+          "element": "Magnesium"
         }
       ],
-      "correct": "$81.4/kg",
+      "correct": "rare earth & related",
+      "type": "geochemical_class"
+    },
+    {
+      "question": "What is the approximate price of Neodymium per kilogram?",
+      "options": [
+        {
+          "text": "$9.4/kg",
+          "element": "Chromium"
+        },
+        {
+          "text": "$57.5/kg",
+          "element": "Neodymium"
+        },
+        {
+          "text": "$30.2/kg",
+          "element": "Mercury"
+        },
+        {
+          "text": "$2.32/kg",
+          "element": "Magnesium"
+        }
+      ],
+      "correct": "$57.5/kg",
       "type": "price_per_kg"
     }
   ]

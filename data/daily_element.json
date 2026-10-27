@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-26",
-  "element": "Platinum",
-  "atomicNumber": 78,
-  "symbol": "Pt",
+  "date": "2026-10-27",
+  "element": "Oxygen",
+  "atomicNumber": 8,
+  "symbol": "O",
   "quiz": [
     {
-      "question": "What is the geochemical class of Platinum?",
+      "question": "What is the crustal abundance of Oxygen?",
       "options": [
         {
-          "text": "first series transition metal",
-          "element": "Cobalt"
-        },
-        {
-          "text": "volatile",
-          "element": "Krypton"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Selenium"
-        },
-        {
-          "text": "noble metal",
-          "element": "Platinum"
-        }
-      ],
-      "correct": "noble metal",
-      "type": "geochemical_class"
-    },
-    {
-      "question": "Which countries are the top producers of Platinum?",
-      "options": [
-        {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "text": "0.005 mg/kg",
           "element": "Platinum"
         },
         {
-          "text": "1) Japan  2) Germany  3) Belgium",
-          "element": "Selenium"
+          "text": "461,000 mg/kg",
+          "element": "Oxygen"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
+          "text": "22 mg/kg",
           "element": "Scandium"
         },
         {
-          "text": "1) DRC  2) China  3) Zambia",
-          "element": "Cobalt"
+          "text": "0.085 mg/kg",
+          "element": "Mercury"
         }
       ],
-      "correct": "1) South Africa  2) Russia  3) Zimbabwe",
-      "type": "top_3_producers"
+      "correct": "461,000 mg/kg",
+      "type": "abundance_crust"
     },
     {
-      "question": "When was Platinum first discovered?",
+      "question": "Who discovered Oxygen?",
       "options": [
         {
-          "text": "1818",
-          "element": "Selenium"
+          "text": "Lars Nilson",
+          "element": "Scandium"
         },
-        {
-          "text": "1944",
-          "element": "Curium"
-        },
-        {
-          "text": "1735",
-          "element": "Platinum"
-        },
-        {
-          "text": "1739",
-          "element": "Cobalt"
-        }
-      ],
-      "correct": "1735",
-      "type": "discovery_year"
-    },
-    {
-      "question": "Who discovered Platinum?",
-      "options": [
         {
           "text": "Julius Scaliger",
           "element": "Platinum"
         },
         {
-          "text": "G.T.Seaborg, R.A.James, A.Ghiorso",
-          "element": "Curium"
+          "text": "Joseph Priestly, Carl Wilhelm Scheele",
+          "element": "Oxygen"
         },
         {
-          "text": "J\u00f6ns Berzelius",
-          "element": "Selenium"
-        },
-        {
-          "text": "George Brandt",
-          "element": "Cobalt"
+          "text": "Known to the ancients.",
+          "element": "Mercury"
         }
       ],
-      "correct": "Julius Scaliger",
+      "correct": "Joseph Priestly, Carl Wilhelm Scheele",
       "type": "discoverers"
+    },
+    {
+      "question": "What is the approximate price of Oxygen per kilogram?",
+      "options": [
+        {
+          "text": "$27,800/kg",
+          "element": "Platinum"
+        },
+        {
+          "text": "$3,460/kg",
+          "element": "Scandium"
+        },
+        {
+          "text": "$30.2/kg",
+          "element": "Mercury"
+        },
+        {
+          "text": "$0.154/kg",
+          "element": "Oxygen"
+        }
+      ],
+      "correct": "$0.154/kg",
+      "type": "price_per_kg"
+    },
+    {
+      "question": "When was Oxygen first discovered?",
+      "options": [
+        {
+          "text": "1886",
+          "element": "Fluorine"
+        },
+        {
+          "text": "1774",
+          "element": "Oxygen"
+        },
+        {
+          "text": "1879",
+          "element": "Scandium"
+        },
+        {
+          "text": "1735",
+          "element": "Platinum"
+        }
+      ],
+      "correct": "1774",
+      "type": "discovery_year"
     }
   ]
 }

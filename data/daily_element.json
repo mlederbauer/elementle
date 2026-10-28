@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-27",
-  "element": "Oxygen",
-  "atomicNumber": 8,
-  "symbol": "O",
+  "date": "2026-10-28",
+  "element": "Thorium",
+  "atomicNumber": 90,
+  "symbol": "Th",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Oxygen?",
+      "question": "Which countries are the top producers of Thorium?",
       "options": [
         {
-          "text": "0.005 mg/kg",
-          "element": "Platinum"
+          "text": "1) China  2) Republic of Korea  3) Japan",
+          "element": "Cadmium"
         },
         {
-          "text": "461,000 mg/kg",
-          "element": "Oxygen"
+          "text": "1) India  2) Brazil  3) Malaysia",
+          "element": "Thorium"
         },
         {
-          "text": "22 mg/kg",
-          "element": "Scandium"
+          "text": "1) Brazil  2) Rwanda  3) China",
+          "element": "Tantalum"
         },
         {
-          "text": "0.085 mg/kg",
-          "element": "Mercury"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Praseodymium"
         }
       ],
-      "correct": "461,000 mg/kg",
+      "correct": "1) India  2) Brazil  3) Malaysia",
+      "type": "top_3_producers"
+    },
+    {
+      "question": "When was Thorium first discovered?",
+      "options": [
+        {
+          "text": "1885",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "1957",
+          "element": "Nobelium"
+        },
+        {
+          "text": "1898",
+          "element": "Xenon"
+        },
+        {
+          "text": "1828",
+          "element": "Thorium"
+        }
+      ],
+      "correct": "1828",
+      "type": "discovery_year"
+    },
+    {
+      "question": "What is the crustal abundance of Thorium?",
+      "options": [
+        {
+          "text": "9.6 mg/kg",
+          "element": "Thorium"
+        },
+        {
+          "text": "0.00003 mg/kg",
+          "element": "Xenon"
+        },
+        {
+          "text": "9.2 mg/kg",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "0.15 mg/kg",
+          "element": "Cadmium"
+        }
+      ],
+      "correct": "9.6 mg/kg",
       "type": "abundance_crust"
     },
     {
-      "question": "Who discovered Oxygen?",
+      "question": "What is the approximate price of Thorium per kilogram?",
       "options": [
         {
-          "text": "Lars Nilson",
-          "element": "Scandium"
+          "text": "$2.73/kg",
+          "element": "Cadmium"
         },
         {
-          "text": "Julius Scaliger",
-          "element": "Platinum"
+          "text": "$1,800/kg",
+          "element": "Xenon"
         },
         {
-          "text": "Joseph Priestly, Carl Wilhelm Scheele",
-          "element": "Oxygen"
+          "text": "$287/kg",
+          "element": "Thorium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Mercury"
+          "text": "$103/kg",
+          "element": "Praseodymium"
         }
       ],
-      "correct": "Joseph Priestly, Carl Wilhelm Scheele",
-      "type": "discoverers"
-    },
-    {
-      "question": "What is the approximate price of Oxygen per kilogram?",
-      "options": [
-        {
-          "text": "$27,800/kg",
-          "element": "Platinum"
-        },
-        {
-          "text": "$3,460/kg",
-          "element": "Scandium"
-        },
-        {
-          "text": "$30.2/kg",
-          "element": "Mercury"
-        },
-        {
-          "text": "$0.154/kg",
-          "element": "Oxygen"
-        }
-      ],
-      "correct": "$0.154/kg",
+      "correct": "$287/kg",
       "type": "price_per_kg"
-    },
-    {
-      "question": "When was Oxygen first discovered?",
-      "options": [
-        {
-          "text": "1886",
-          "element": "Fluorine"
-        },
-        {
-          "text": "1774",
-          "element": "Oxygen"
-        },
-        {
-          "text": "1879",
-          "element": "Scandium"
-        },
-        {
-          "text": "1735",
-          "element": "Platinum"
-        }
-      ],
-      "correct": "1774",
-      "type": "discovery_year"
     }
   ]
 }

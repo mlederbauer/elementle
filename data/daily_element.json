@@ -1,99 +1,99 @@
 {
-  "date": "2026-10-28",
-  "element": "Thorium",
-  "atomicNumber": 90,
-  "symbol": "Th",
+  "date": "2026-10-29",
+  "element": "Tin",
+  "atomicNumber": 50,
+  "symbol": "Sn",
   "quiz": [
     {
-      "question": "Which countries are the top producers of Thorium?",
+      "question": "What is the crustal abundance of Tin?",
       "options": [
         {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Cadmium"
+          "text": "0.05 mg/kg",
+          "element": "Selenium"
         },
         {
-          "text": "1) India  2) Brazil  3) Malaysia",
-          "element": "Thorium"
+          "text": "0.8 mg/kg",
+          "element": "Lutetium"
         },
         {
-          "text": "1) Brazil  2) Rwanda  3) China",
-          "element": "Tantalum"
+          "text": "19 mg/kg",
+          "element": "Nitrogen"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Praseodymium"
+          "text": "2.3 mg/kg",
+          "element": "Tin"
         }
       ],
-      "correct": "1) India  2) Brazil  3) Malaysia",
-      "type": "top_3_producers"
-    },
-    {
-      "question": "When was Thorium first discovered?",
-      "options": [
-        {
-          "text": "1885",
-          "element": "Praseodymium"
-        },
-        {
-          "text": "1957",
-          "element": "Nobelium"
-        },
-        {
-          "text": "1898",
-          "element": "Xenon"
-        },
-        {
-          "text": "1828",
-          "element": "Thorium"
-        }
-      ],
-      "correct": "1828",
-      "type": "discovery_year"
-    },
-    {
-      "question": "What is the crustal abundance of Thorium?",
-      "options": [
-        {
-          "text": "9.6 mg/kg",
-          "element": "Thorium"
-        },
-        {
-          "text": "0.00003 mg/kg",
-          "element": "Xenon"
-        },
-        {
-          "text": "9.2 mg/kg",
-          "element": "Praseodymium"
-        },
-        {
-          "text": "0.15 mg/kg",
-          "element": "Cadmium"
-        }
-      ],
-      "correct": "9.6 mg/kg",
+      "correct": "2.3 mg/kg",
       "type": "abundance_crust"
     },
     {
-      "question": "What is the approximate price of Thorium per kilogram?",
+      "question": "Which countries are the top producers of Tin?",
       "options": [
         {
-          "text": "$2.73/kg",
-          "element": "Cadmium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Lutetium"
         },
         {
-          "text": "$1,800/kg",
-          "element": "Xenon"
+          "text": "1) China  2) Indonesia  3) Peru",
+          "element": "Tin"
         },
         {
-          "text": "$287/kg",
-          "element": "Thorium"
+          "text": "1) Japan  2) Germany  3) Belgium",
+          "element": "Selenium"
         },
         {
-          "text": "$103/kg",
-          "element": "Praseodymium"
+          "text": "1) Canada  2) Russia  3) Belarus",
+          "element": "Potassium"
         }
       ],
-      "correct": "$287/kg",
+      "correct": "1) China  2) Indonesia  3) Peru",
+      "type": "top_3_producers"
+    },
+    {
+      "question": "Who discovered Tin?",
+      "options": [
+        {
+          "text": "G.T.Seaborg, R.A.James, A.Ghiorso",
+          "element": "Curium"
+        },
+        {
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Californium"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Tin"
+        },
+        {
+          "text": "Georges Urbain",
+          "element": "Lutetium"
+        }
+      ],
+      "correct": "Known to the ancients.",
+      "type": "discoverers"
+    },
+    {
+      "question": "What is the approximate price of Tin per kilogram?",
+      "options": [
+        {
+          "text": "$643/kg",
+          "element": "Lutetium"
+        },
+        {
+          "text": "$18.7/kg",
+          "element": "Tin"
+        },
+        {
+          "text": "$60,000,000,000/kg",
+          "element": "Californium"
+        },
+        {
+          "text": "$185,000,000/kg",
+          "element": "Curium"
+        }
+      ],
+      "correct": "$18.7/kg",
       "type": "price_per_kg"
     }
   ]

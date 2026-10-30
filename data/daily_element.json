@@ -1,100 +1,100 @@
 {
-  "date": "2026-10-29",
-  "element": "Tin",
-  "atomicNumber": 50,
-  "symbol": "Sn",
+  "date": "2026-10-30",
+  "element": "Bismuth",
+  "atomicNumber": 83,
+  "symbol": "Bi",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Tin?",
+      "question": "Who discovered Bismuth?",
       "options": [
         {
-          "text": "0.05 mg/kg",
-          "element": "Selenium"
+          "text": "Known to the ancients.",
+          "element": "Bismuth"
         },
         {
-          "text": "0.8 mg/kg",
-          "element": "Lutetium"
-        },
-        {
-          "text": "19 mg/kg",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "2.3 mg/kg",
-          "element": "Tin"
-        }
-      ],
-      "correct": "2.3 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "Which countries are the top producers of Tin?",
-      "options": [
-        {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Lutetium"
-        },
-        {
-          "text": "1) China  2) Indonesia  3) Peru",
-          "element": "Tin"
-        },
-        {
-          "text": "1) Japan  2) Germany  3) Belgium",
-          "element": "Selenium"
-        },
-        {
-          "text": "1) Canada  2) Russia  3) Belarus",
-          "element": "Potassium"
-        }
-      ],
-      "correct": "1) China  2) Indonesia  3) Peru",
-      "type": "top_3_producers"
-    },
-    {
-      "question": "Who discovered Tin?",
-      "options": [
-        {
-          "text": "G.T.Seaborg, R.A.James, A.Ghiorso",
-          "element": "Curium"
+          "text": "Louis Vauquelin",
+          "element": "Chromium"
         },
         {
           "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
-          "element": "Californium"
+          "element": "Mendelevium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Tin"
-        },
-        {
-          "text": "Georges Urbain",
-          "element": "Lutetium"
+          "text": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell",
+          "element": "Promethium"
         }
       ],
       "correct": "Known to the ancients.",
       "type": "discoverers"
     },
     {
-      "question": "What is the approximate price of Tin per kilogram?",
+      "question": "Which countries are the top producers of Bismuth?",
       "options": [
         {
-          "text": "$643/kg",
-          "element": "Lutetium"
+          "text": "1) South Africa  2) Kazakhstan  3) India",
+          "element": "Chromium"
         },
         {
-          "text": "$18.7/kg",
-          "element": "Tin"
+          "text": "1) China  2) USA  3) Chile",
+          "element": "Molybdenum"
         },
         {
-          "text": "$60,000,000,000/kg",
-          "element": "Californium"
+          "text": "1) China  2) Australia  3) USA",
+          "element": "Gold"
         },
         {
-          "text": "$185,000,000/kg",
-          "element": "Curium"
+          "text": "1) China  2) Mexico  3) Japan",
+          "element": "Bismuth"
         }
       ],
-      "correct": "$18.7/kg",
+      "correct": "1) China  2) Mexico  3) Japan",
+      "type": "top_3_producers"
+    },
+    {
+      "question": "What is the approximate price of Bismuth per kilogram?",
+      "options": [
+        {
+          "text": "$460,000/kg",
+          "element": "Promethium"
+        },
+        {
+          "text": "$9.4/kg",
+          "element": "Chromium"
+        },
+        {
+          "text": "$40.1/kg",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "$6.36/kg",
+          "element": "Bismuth"
+        }
+      ],
+      "correct": "$6.36/kg",
       "type": "price_per_kg"
+    },
+    {
+      "question": "What is the crustal abundance of Bismuth?",
+      "options": [
+        {
+          "text": "0.0085 mg/kg",
+          "element": "Bismuth"
+        },
+        {
+          "text": "1.2 mg/kg",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "461,000 mg/kg",
+          "element": "Oxygen"
+        },
+        {
+          "text": "102 mg/kg",
+          "element": "Chromium"
+        }
+      ],
+      "correct": "0.0085 mg/kg",
+      "type": "abundance_crust"
     }
   ]
 }

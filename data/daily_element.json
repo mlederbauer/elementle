@@ -1,100 +1,77 @@
 {
-  "date": "2026-10-30",
-  "element": "Bismuth",
-  "atomicNumber": 83,
-  "symbol": "Bi",
+  "date": "2026-10-31",
+  "element": "Seaborgium",
+  "atomicNumber": 106,
+  "symbol": "Sg",
   "quiz": [
     {
-      "question": "Who discovered Bismuth?",
+      "question": "When was Seaborgium first discovered?",
       "options": [
         {
-          "text": "Known to the ancients.",
-          "element": "Bismuth"
+          "text": "1894",
+          "element": "Argon"
         },
         {
-          "text": "Louis Vauquelin",
-          "element": "Chromium"
+          "text": "1885",
+          "element": "Praseodymium"
         },
         {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
-          "element": "Mendelevium"
+          "text": "1807",
+          "element": "Sodium"
         },
         {
-          "text": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell",
-          "element": "Promethium"
+          "text": "1974",
+          "element": "Seaborgium"
         }
       ],
-      "correct": "Known to the ancients.",
+      "correct": "1974",
+      "type": "discovery_year"
+    },
+    {
+      "question": "Who discovered Seaborgium?",
+      "options": [
+        {
+          "text": "C.F. Aver von Welsbach",
+          "element": "Praseodymium"
+        },
+        {
+          "text": "Sir William Ramsey, Baron Rayleigh",
+          "element": "Argon"
+        },
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Sodium"
+        },
+        {
+          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
+          "element": "Seaborgium"
+        }
+      ],
+      "correct": "Soviet Nuclear Research/ U. of Cal at Berkeley",
       "type": "discoverers"
     },
     {
-      "question": "Which countries are the top producers of Bismuth?",
+      "question": "What is the density of Seaborgium?",
       "options": [
         {
-          "text": "1) South Africa  2) Kazakhstan  3) India",
-          "element": "Chromium"
+          "text": "35 g/cm\u00b3",
+          "element": "Seaborgium"
         },
         {
-          "text": "1) China  2) USA  3) Chile",
-          "element": "Molybdenum"
+          "text": "6.77 g/cm\u00b3",
+          "element": "Praseodymium"
         },
         {
-          "text": "1) China  2) Australia  3) USA",
-          "element": "Gold"
+          "text": "0.97 g/cm\u00b3",
+          "element": "Sodium"
         },
         {
-          "text": "1) China  2) Mexico  3) Japan",
-          "element": "Bismuth"
+          "text": "0.00163 g/cm\u00b3",
+          "element": "Argon"
         }
       ],
-      "correct": "1) China  2) Mexico  3) Japan",
-      "type": "top_3_producers"
-    },
-    {
-      "question": "What is the approximate price of Bismuth per kilogram?",
-      "options": [
-        {
-          "text": "$460,000/kg",
-          "element": "Promethium"
-        },
-        {
-          "text": "$9.4/kg",
-          "element": "Chromium"
-        },
-        {
-          "text": "$40.1/kg",
-          "element": "Molybdenum"
-        },
-        {
-          "text": "$6.36/kg",
-          "element": "Bismuth"
-        }
-      ],
-      "correct": "$6.36/kg",
-      "type": "price_per_kg"
-    },
-    {
-      "question": "What is the crustal abundance of Bismuth?",
-      "options": [
-        {
-          "text": "0.0085 mg/kg",
-          "element": "Bismuth"
-        },
-        {
-          "text": "1.2 mg/kg",
-          "element": "Molybdenum"
-        },
-        {
-          "text": "461,000 mg/kg",
-          "element": "Oxygen"
-        },
-        {
-          "text": "102 mg/kg",
-          "element": "Chromium"
-        }
-      ],
-      "correct": "0.0085 mg/kg",
-      "type": "abundance_crust"
+      "correct": "35 g/cm\u00b3",
+      "type": "density"
     }
   ]
 }

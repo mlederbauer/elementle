@@ -1,77 +1,100 @@
 {
-  "date": "2026-10-31",
-  "element": "Seaborgium",
-  "atomicNumber": 106,
-  "symbol": "Sg",
+  "date": "2026-11-01",
+  "element": "Californium",
+  "atomicNumber": 98,
+  "symbol": "Cf",
   "quiz": [
     {
-      "question": "When was Seaborgium first discovered?",
+      "question": "When was Californium first discovered?",
       "options": [
         {
-          "text": "1894",
-          "element": "Argon"
+          "text": "1895",
+          "element": "Helium"
         },
         {
-          "text": "1885",
-          "element": "Praseodymium"
-        },
-        {
-          "text": "1807",
-          "element": "Sodium"
+          "text": "1844",
+          "element": "Ruthenium"
         },
         {
           "text": "1974",
           "element": "Seaborgium"
+        },
+        {
+          "text": "1950",
+          "element": "Californium"
         }
       ],
-      "correct": "1974",
+      "correct": "1950",
       "type": "discovery_year"
     },
     {
-      "question": "Who discovered Seaborgium?",
+      "question": "What is the approximate price of Californium per kilogram?",
       "options": [
         {
-          "text": "C.F. Aver von Welsbach",
-          "element": "Praseodymium"
+          "text": "$24/kg",
+          "element": "Helium"
         },
         {
-          "text": "Sir William Ramsey, Baron Rayleigh",
-          "element": "Argon"
+          "text": "$13.9/kg",
+          "element": "Nickel"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Sodium"
+          "text": "$10,400/kg",
+          "element": "Ruthenium"
         },
+        {
+          "text": "$60,000,000,000/kg",
+          "element": "Californium"
+        }
+      ],
+      "correct": "$60,000,000,000/kg",
+      "type": "price_per_kg"
+    },
+    {
+      "question": "Who discovered Californium?",
+      "options": [
         {
           "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
           "element": "Seaborgium"
+        },
+        {
+          "text": "Karl Klaus",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
+          "element": "Helium"
+        },
+        {
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Californium"
         }
       ],
-      "correct": "Soviet Nuclear Research/ U. of Cal at Berkeley",
+      "correct": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
       "type": "discoverers"
     },
     {
-      "question": "What is the density of Seaborgium?",
+      "question": "What is the melting point of Californium?",
       "options": [
         {
-          "text": "35 g/cm\u00b3",
-          "element": "Seaborgium"
+          "text": "2,330 \u00b0C",
+          "element": "Ruthenium"
         },
         {
-          "text": "6.77 g/cm\u00b3",
-          "element": "Praseodymium"
+          "text": "900 \u00b0C",
+          "element": "Californium"
         },
         {
-          "text": "0.97 g/cm\u00b3",
-          "element": "Sodium"
+          "text": "-219 \u00b0C",
+          "element": "Oxygen"
         },
         {
-          "text": "0.00163 g/cm\u00b3",
-          "element": "Argon"
+          "text": "1,460 \u00b0C",
+          "element": "Nickel"
         }
       ],
-      "correct": "35 g/cm\u00b3",
-      "type": "density"
+      "correct": "900 \u00b0C",
+      "type": "melting_point"
     }
   ]
 }

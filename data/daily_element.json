@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-01",
-  "element": "Californium",
-  "atomicNumber": 98,
-  "symbol": "Cf",
+  "date": "2026-11-02",
+  "element": "Xenon",
+  "atomicNumber": 54,
+  "symbol": "Xe",
   "quiz": [
     {
-      "question": "When was Californium first discovered?",
+      "question": "What is the crustal abundance of Xenon?",
       "options": [
         {
-          "text": "1895",
-          "element": "Helium"
+          "text": "0.00003 mg/kg",
+          "element": "Xenon"
         },
         {
-          "text": "1844",
-          "element": "Ruthenium"
+          "text": "33 mg/kg",
+          "element": "Yttrium"
         },
         {
-          "text": "1974",
-          "element": "Seaborgium"
+          "text": "425 mg/kg",
+          "element": "Barium"
         },
         {
-          "text": "1950",
-          "element": "Californium"
+          "text": "950 mg/kg",
+          "element": "Manganese"
         }
       ],
-      "correct": "1950",
-      "type": "discovery_year"
+      "correct": "0.00003 mg/kg",
+      "type": "abundance_crust"
     },
     {
-      "question": "What is the approximate price of Californium per kilogram?",
+      "question": "What is the approximate price of Xenon per kilogram?",
       "options": [
         {
-          "text": "$24/kg",
-          "element": "Helium"
+          "text": "$1.82/kg",
+          "element": "Manganese"
         },
         {
-          "text": "$13.9/kg",
-          "element": "Nickel"
+          "text": "$0.246/kg",
+          "element": "Barium"
         },
         {
-          "text": "$10,400/kg",
-          "element": "Ruthenium"
+          "text": "$31/kg",
+          "element": "Yttrium"
         },
         {
-          "text": "$60,000,000,000/kg",
-          "element": "Californium"
+          "text": "$1,800/kg",
+          "element": "Xenon"
         }
       ],
-      "correct": "$60,000,000,000/kg",
+      "correct": "$1,800/kg",
       "type": "price_per_kg"
     },
     {
-      "question": "Who discovered Californium?",
+      "question": "Who discovered Xenon?",
       "options": [
         {
-          "text": "Soviet Nuclear Research/ U. of Cal at Berkeley",
-          "element": "Seaborgium"
+          "text": "Johann Gadolin",
+          "element": "Yttrium"
         },
         {
-          "text": "Karl Klaus",
-          "element": "Ruthenium"
+          "text": "Johann Gahn",
+          "element": "Manganese"
         },
         {
-          "text": "Sir William Ramsey, Nils Langet, P.T.Cleve",
-          "element": "Helium"
+          "text": "Sir William Ramsay; M. W. Travers",
+          "element": "Xenon"
         },
         {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
-          "element": "Californium"
+          "text": "Sir Humphrey Davy",
+          "element": "Barium"
         }
       ],
-      "correct": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+      "correct": "Sir William Ramsay; M. W. Travers",
       "type": "discoverers"
     },
     {
-      "question": "What is the melting point of Californium?",
+      "question": "When was Xenon first discovered?",
       "options": [
         {
-          "text": "2,330 \u00b0C",
-          "element": "Ruthenium"
+          "text": "1898",
+          "element": "Xenon"
         },
         {
-          "text": "900 \u00b0C",
-          "element": "Californium"
+          "text": "1774",
+          "element": "Manganese"
         },
         {
-          "text": "-219 \u00b0C",
-          "element": "Oxygen"
+          "text": "1808",
+          "element": "Barium"
         },
         {
-          "text": "1,460 \u00b0C",
-          "element": "Nickel"
+          "text": "1789",
+          "element": "Yttrium"
         }
       ],
-      "correct": "900 \u00b0C",
-      "type": "melting_point"
+      "correct": "1898",
+      "type": "discovery_year"
     }
   ]
 }

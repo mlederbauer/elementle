@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-02",
-  "element": "Xenon",
-  "atomicNumber": 54,
-  "symbol": "Xe",
+  "date": "2026-11-03",
+  "element": "Sodium",
+  "atomicNumber": 11,
+  "symbol": "Na",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Xenon?",
+      "question": "What is the approximate price of Sodium per kilogram?",
       "options": [
         {
-          "text": "0.00003 mg/kg",
-          "element": "Xenon"
+          "text": "$2.57/kg",
+          "element": "Sodium"
         },
         {
-          "text": "33 mg/kg",
-          "element": "Yttrium"
+          "text": "$0.999/kg",
+          "element": "Arsenic"
         },
         {
-          "text": "425 mg/kg",
-          "element": "Barium"
+          "text": "$521/kg",
+          "element": "Silver"
         },
         {
-          "text": "950 mg/kg",
-          "element": "Manganese"
+          "text": "$1.79/kg",
+          "element": "Aluminum"
         }
       ],
-      "correct": "0.00003 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "What is the approximate price of Xenon per kilogram?",
-      "options": [
-        {
-          "text": "$1.82/kg",
-          "element": "Manganese"
-        },
-        {
-          "text": "$0.246/kg",
-          "element": "Barium"
-        },
-        {
-          "text": "$31/kg",
-          "element": "Yttrium"
-        },
-        {
-          "text": "$1,800/kg",
-          "element": "Xenon"
-        }
-      ],
-      "correct": "$1,800/kg",
+      "correct": "$2.57/kg",
       "type": "price_per_kg"
     },
     {
-      "question": "Who discovered Xenon?",
+      "question": "What is the geochemical class of Sodium?",
       "options": [
         {
-          "text": "Johann Gadolin",
-          "element": "Yttrium"
+          "text": "semi-volatile",
+          "element": "Arsenic"
         },
         {
-          "text": "Johann Gahn",
-          "element": "Manganese"
+          "text": "major",
+          "element": "Sodium"
         },
         {
-          "text": "Sir William Ramsay; M. W. Travers",
-          "element": "Xenon"
+          "text": "alkali metal",
+          "element": "Rubidium"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Cerium"
+        }
+      ],
+      "correct": "major",
+      "type": "geochemical_class"
+    },
+    {
+      "question": "Who discovered Sodium?",
+      "options": [
+        {
+          "text": "A. Ghiorso, et al",
+          "element": "Dubnium"
+        },
+        {
+          "text": "Hans Christian Oersted",
+          "element": "Aluminum"
         },
         {
           "text": "Sir Humphrey Davy",
-          "element": "Barium"
+          "element": "Sodium"
+        },
+        {
+          "text": "RIKEN",
+          "element": "Nihonium"
         }
       ],
-      "correct": "Sir William Ramsay; M. W. Travers",
+      "correct": "Sir Humphrey Davy",
       "type": "discoverers"
     },
     {
-      "question": "When was Xenon first discovered?",
+      "question": "Which countries are the top producers of Sodium?",
       "options": [
         {
-          "text": "1898",
-          "element": "Xenon"
+          "text": "1) China  2) India  3) USA",
+          "element": "Sodium"
         },
         {
-          "text": "1774",
-          "element": "Manganese"
+          "text": "1) China  2) Chile  3) Kazakhstan",
+          "element": "Arsenic"
         },
         {
-          "text": "1808",
-          "element": "Barium"
+          "text": "1) Australia  2) Brazil  3) China",
+          "element": "Aluminum"
         },
         {
-          "text": "1789",
-          "element": "Yttrium"
+          "text": "1) Mexico  2) Peru  3) China",
+          "element": "Silver"
         }
       ],
-      "correct": "1898",
-      "type": "discovery_year"
+      "correct": "1) China  2) India  3) USA",
+      "type": "top_3_producers"
     }
   ]
 }

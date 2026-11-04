@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-03",
-  "element": "Sodium",
-  "atomicNumber": 11,
-  "symbol": "Na",
+  "date": "2026-11-04",
+  "element": "Phosphorus",
+  "atomicNumber": 15,
+  "symbol": "P",
   "quiz": [
     {
-      "question": "What is the approximate price of Sodium per kilogram?",
+      "question": "What is the crustal abundance of Phosphorus?",
       "options": [
         {
-          "text": "$2.57/kg",
-          "element": "Sodium"
+          "text": "1.2 mg/kg",
+          "element": "Terbium"
         },
         {
-          "text": "$0.999/kg",
+          "text": "0.005 mg/kg",
+          "element": "Platinum"
+        },
+        {
+          "text": "1,050 mg/kg",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "1.8 mg/kg",
           "element": "Arsenic"
-        },
-        {
-          "text": "$521/kg",
-          "element": "Silver"
-        },
-        {
-          "text": "$1.79/kg",
-          "element": "Aluminum"
         }
       ],
-      "correct": "$2.57/kg",
-      "type": "price_per_kg"
+      "correct": "1,050 mg/kg",
+      "type": "abundance_crust"
     },
     {
-      "question": "What is the geochemical class of Sodium?",
+      "question": "When was Phosphorus first discovered?",
       "options": [
         {
-          "text": "semi-volatile",
-          "element": "Arsenic"
+          "text": "1669",
+          "element": "Phosphorus"
         },
         {
-          "text": "major",
-          "element": "Sodium"
+          "text": "1945",
+          "element": "Americium"
         },
         {
-          "text": "alkali metal",
-          "element": "Rubidium"
+          "text": "1940",
+          "element": "Astatine"
         },
         {
-          "text": "rare earth & related",
-          "element": "Cerium"
+          "text": "1735",
+          "element": "Platinum"
         }
       ],
-      "correct": "major",
-      "type": "geochemical_class"
+      "correct": "1669",
+      "type": "discovery_year"
     },
     {
-      "question": "Who discovered Sodium?",
+      "question": "Which countries are the top producers of Phosphorus?",
       "options": [
         {
-          "text": "A. Ghiorso, et al",
-          "element": "Dubnium"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Platinum"
         },
         {
-          "text": "Hans Christian Oersted",
-          "element": "Aluminum"
-        },
-        {
-          "text": "Sir Humphrey Davy",
-          "element": "Sodium"
-        },
-        {
-          "text": "RIKEN",
-          "element": "Nihonium"
-        }
-      ],
-      "correct": "Sir Humphrey Davy",
-      "type": "discoverers"
-    },
-    {
-      "question": "Which countries are the top producers of Sodium?",
-      "options": [
-        {
-          "text": "1) China  2) India  3) USA",
-          "element": "Sodium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Terbium"
         },
         {
           "text": "1) China  2) Chile  3) Kazakhstan",
           "element": "Arsenic"
         },
         {
-          "text": "1) Australia  2) Brazil  3) China",
-          "element": "Aluminum"
-        },
-        {
-          "text": "1) Mexico  2) Peru  3) China",
-          "element": "Silver"
+          "text": "1) China  2) Mexico  3) Morocco",
+          "element": "Phosphorus"
         }
       ],
-      "correct": "1) China  2) India  3) USA",
+      "correct": "1) China  2) Mexico  3) Morocco",
       "type": "top_3_producers"
+    },
+    {
+      "question": "What is the approximate price of Phosphorus per kilogram?",
+      "options": [
+        {
+          "text": "$0.999/kg",
+          "element": "Arsenic"
+        },
+        {
+          "text": "$2.69/kg",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "$27,800/kg",
+          "element": "Platinum"
+        },
+        {
+          "text": "$728,000/kg",
+          "element": "Americium"
+        }
+      ],
+      "correct": "$2.69/kg",
+      "type": "price_per_kg"
     }
   ]
 }

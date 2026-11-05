@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-04",
-  "element": "Phosphorus",
-  "atomicNumber": 15,
-  "symbol": "P",
+  "date": "2026-11-05",
+  "element": "Francium",
+  "atomicNumber": 87,
+  "symbol": "Fr",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Phosphorus?",
+      "question": "When was Francium first discovered?",
       "options": [
         {
-          "text": "1.2 mg/kg",
-          "element": "Terbium"
-        },
-        {
-          "text": "0.005 mg/kg",
-          "element": "Platinum"
-        },
-        {
-          "text": "1,050 mg/kg",
-          "element": "Phosphorus"
-        },
-        {
-          "text": "1.8 mg/kg",
-          "element": "Arsenic"
-        }
-      ],
-      "correct": "1,050 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "When was Phosphorus first discovered?",
-      "options": [
-        {
-          "text": "1669",
-          "element": "Phosphorus"
-        },
-        {
-          "text": "1945",
-          "element": "Americium"
+          "text": "1907",
+          "element": "Lutetium"
         },
         {
           "text": "1940",
-          "element": "Astatine"
+          "element": "Neptunium"
         },
         {
-          "text": "1735",
-          "element": "Platinum"
+          "text": "1824",
+          "element": "Silicon"
+        },
+        {
+          "text": "1939",
+          "element": "Francium"
         }
       ],
-      "correct": "1669",
+      "correct": "1939",
       "type": "discovery_year"
     },
     {
-      "question": "Which countries are the top producers of Phosphorus?",
+      "question": "What is the geochemical class of Francium?",
       "options": [
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Platinum"
+          "text": "U/Th decay series",
+          "element": "Francium"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Terbium"
+          "text": "rare earth & related",
+          "element": "Lutetium"
         },
         {
-          "text": "1) China  2) Chile  3) Kazakhstan",
+          "text": "semi-volatile",
           "element": "Arsenic"
         },
         {
-          "text": "1) China  2) Mexico  3) Morocco",
-          "element": "Phosphorus"
+          "text": "major",
+          "element": "Silicon"
         }
       ],
-      "correct": "1) China  2) Mexico  3) Morocco",
-      "type": "top_3_producers"
+      "correct": "U/Th decay series",
+      "type": "geochemical_class"
     },
     {
-      "question": "What is the approximate price of Phosphorus per kilogram?",
+      "question": "Who discovered Francium?",
       "options": [
         {
-          "text": "$0.999/kg",
+          "text": "J\u00f6ns Berzelius",
+          "element": "Silicon"
+        },
+        {
+          "text": "Known to the ancients.",
           "element": "Arsenic"
         },
         {
-          "text": "$2.69/kg",
-          "element": "Phosphorus"
+          "text": "Marguerite Derey",
+          "element": "Francium"
         },
         {
-          "text": "$27,800/kg",
-          "element": "Platinum"
-        },
-        {
-          "text": "$728,000/kg",
-          "element": "Americium"
+          "text": "E.M. McMillan, P.H. Abelson",
+          "element": "Neptunium"
         }
       ],
-      "correct": "$2.69/kg",
-      "type": "price_per_kg"
+      "correct": "Marguerite Derey",
+      "type": "discoverers"
+    },
+    {
+      "question": "What is the melting point of Francium?",
+      "options": [
+        {
+          "text": "644 \u00b0C",
+          "element": "Neptunium"
+        },
+        {
+          "text": "21 \u00b0C",
+          "element": "Francium"
+        },
+        {
+          "text": "817 \u00b0C",
+          "element": "Arsenic"
+        },
+        {
+          "text": "1,410 \u00b0C",
+          "element": "Silicon"
+        }
+      ],
+      "correct": "21 \u00b0C",
+      "type": "melting_point"
     }
   ]
 }

@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-05",
-  "element": "Francium",
-  "atomicNumber": 87,
-  "symbol": "Fr",
+  "date": "2026-11-06",
+  "element": "Zirconium",
+  "atomicNumber": 40,
+  "symbol": "Zr",
   "quiz": [
     {
-      "question": "When was Francium first discovered?",
+      "question": "What is the geochemical class of Zirconium?",
       "options": [
         {
-          "text": "1907",
-          "element": "Lutetium"
+          "text": "alkali metal",
+          "element": "Lithium"
         },
         {
-          "text": "1940",
-          "element": "Neptunium"
+          "text": "first series transition metal",
+          "element": "Vanadium"
         },
         {
-          "text": "1824",
-          "element": "Silicon"
+          "text": "high field strength",
+          "element": "Zirconium"
         },
-        {
-          "text": "1939",
-          "element": "Francium"
-        }
-      ],
-      "correct": "1939",
-      "type": "discovery_year"
-    },
-    {
-      "question": "What is the geochemical class of Francium?",
-      "options": [
         {
           "text": "U/Th decay series",
-          "element": "Francium"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Lutetium"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Arsenic"
-        },
-        {
-          "text": "major",
-          "element": "Silicon"
+          "element": "Polonium"
         }
       ],
-      "correct": "U/Th decay series",
+      "correct": "high field strength",
       "type": "geochemical_class"
     },
     {
-      "question": "Who discovered Francium?",
+      "question": "Which countries are the top producers of Zirconium?",
       "options": [
         {
-          "text": "J\u00f6ns Berzelius",
-          "element": "Silicon"
+          "text": "1) Chile  2) Japan  3) USA",
+          "element": "Iodine"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Arsenic"
+          "text": "1) South Africa  2) China  3) Russia",
+          "element": "Vanadium"
         },
         {
-          "text": "Marguerite Derey",
-          "element": "Francium"
+          "text": "1) Australia  2) South Africa  3) China",
+          "element": "Zirconium"
         },
         {
-          "text": "E.M. McMillan, P.H. Abelson",
-          "element": "Neptunium"
+          "text": "1) Australia  2) Chile  3) China",
+          "element": "Lithium"
         }
       ],
-      "correct": "Marguerite Derey",
-      "type": "discoverers"
+      "correct": "1) Australia  2) South Africa  3) China",
+      "type": "top_3_producers"
     },
     {
-      "question": "What is the melting point of Francium?",
+      "question": "When was Zirconium first discovered?",
       "options": [
         {
-          "text": "644 \u00b0C",
-          "element": "Neptunium"
+          "text": "1789",
+          "element": "Zirconium"
         },
         {
-          "text": "21 \u00b0C",
-          "element": "Francium"
+          "text": "1830",
+          "element": "Vanadium"
         },
         {
-          "text": "817 \u00b0C",
-          "element": "Arsenic"
+          "text": "1898",
+          "element": "Polonium"
         },
         {
-          "text": "1,410 \u00b0C",
-          "element": "Silicon"
+          "text": "1817",
+          "element": "Lithium"
         }
       ],
-      "correct": "21 \u00b0C",
-      "type": "melting_point"
+      "correct": "1789",
+      "type": "discovery_year"
+    },
+    {
+      "question": "Who discovered Zirconium?",
+      "options": [
+        {
+          "text": "Pierre and Marie Curie",
+          "element": "Polonium"
+        },
+        {
+          "text": "Johann Arfwedson",
+          "element": "Lithium"
+        },
+        {
+          "text": "Nils Sefstr\u00f6m",
+          "element": "Vanadium"
+        },
+        {
+          "text": "Martin Klaproth",
+          "element": "Zirconium"
+        }
+      ],
+      "correct": "Martin Klaproth",
+      "type": "discoverers"
     }
   ]
 }

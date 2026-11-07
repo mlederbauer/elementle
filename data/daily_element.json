@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-06",
-  "element": "Zirconium",
-  "atomicNumber": 40,
-  "symbol": "Zr",
+  "date": "2026-11-07",
+  "element": "Lanthanum",
+  "atomicNumber": 57,
+  "symbol": "La",
   "quiz": [
     {
-      "question": "What is the geochemical class of Zirconium?",
+      "question": "What is the approximate price of Lanthanum per kilogram?",
       "options": [
         {
-          "text": "alkali metal",
-          "element": "Lithium"
+          "text": "$4.78/kg",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "$6.36/kg",
+          "element": "Bismuth"
+        },
+        {
+          "text": "$40.1/kg",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "$17.1/kg",
+          "element": "Ytterbium"
+        }
+      ],
+      "correct": "$4.78/kg",
+      "type": "price_per_kg"
+    },
+    {
+      "question": "What is the geochemical class of Lanthanum?",
+      "options": [
+        {
+          "text": "rare earth & related",
+          "element": "Lanthanum"
         },
         {
           "text": "first series transition metal",
-          "element": "Vanadium"
+          "element": "Zinc"
         },
         {
-          "text": "high field strength",
-          "element": "Zirconium"
+          "text": "noble metal",
+          "element": "Iridium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Polonium"
+          "text": "semi-volatile",
+          "element": "Tellurium"
         }
       ],
-      "correct": "high field strength",
+      "correct": "rare earth & related",
       "type": "geochemical_class"
     },
     {
-      "question": "Which countries are the top producers of Zirconium?",
+      "question": "Which countries are the top producers of Lanthanum?",
       "options": [
         {
-          "text": "1) Chile  2) Japan  3) USA",
-          "element": "Iodine"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Lanthanum"
         },
         {
-          "text": "1) South Africa  2) China  3) Russia",
-          "element": "Vanadium"
+          "text": "1) China  2) Australia  3) Peru",
+          "element": "Zinc"
         },
         {
-          "text": "1) Australia  2) South Africa  3) China",
-          "element": "Zirconium"
+          "text": "1) China  2) Mexico  3) Japan",
+          "element": "Bismuth"
         },
         {
-          "text": "1) Australia  2) Chile  3) China",
-          "element": "Lithium"
+          "text": "1) China  2) USA  3) Chile",
+          "element": "Molybdenum"
         }
       ],
-      "correct": "1) Australia  2) South Africa  3) China",
+      "correct": "1) China  2) Russia  3) Malaysia",
       "type": "top_3_producers"
     },
     {
-      "question": "When was Zirconium first discovered?",
+      "question": "What is the crustal abundance of Lanthanum?",
       "options": [
         {
-          "text": "1789",
-          "element": "Zirconium"
+          "text": "3.2 mg/kg",
+          "element": "Ytterbium"
         },
         {
-          "text": "1830",
-          "element": "Vanadium"
+          "text": "1.2 mg/kg",
+          "element": "Molybdenum"
         },
         {
-          "text": "1898",
-          "element": "Polonium"
+          "text": "0.0085 mg/kg",
+          "element": "Bismuth"
         },
         {
-          "text": "1817",
-          "element": "Lithium"
+          "text": "39 mg/kg",
+          "element": "Lanthanum"
         }
       ],
-      "correct": "1789",
-      "type": "discovery_year"
-    },
-    {
-      "question": "Who discovered Zirconium?",
-      "options": [
-        {
-          "text": "Pierre and Marie Curie",
-          "element": "Polonium"
-        },
-        {
-          "text": "Johann Arfwedson",
-          "element": "Lithium"
-        },
-        {
-          "text": "Nils Sefstr\u00f6m",
-          "element": "Vanadium"
-        },
-        {
-          "text": "Martin Klaproth",
-          "element": "Zirconium"
-        }
-      ],
-      "correct": "Martin Klaproth",
-      "type": "discoverers"
+      "correct": "39 mg/kg",
+      "type": "abundance_crust"
     }
   ]
 }

@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-07",
-  "element": "Lanthanum",
-  "atomicNumber": 57,
-  "symbol": "La",
+  "date": "2026-11-08",
+  "element": "Germanium",
+  "atomicNumber": 32,
+  "symbol": "Ge",
   "quiz": [
     {
-      "question": "What is the approximate price of Lanthanum per kilogram?",
+      "question": "What is the crustal abundance of Germanium?",
       "options": [
         {
-          "text": "$4.78/kg",
-          "element": "Lanthanum"
+          "text": "5.2 mg/kg",
+          "element": "Dysprosium"
         },
         {
-          "text": "$6.36/kg",
-          "element": "Bismuth"
+          "text": "10 mg/kg",
+          "element": "Boron"
         },
         {
-          "text": "$40.1/kg",
-          "element": "Molybdenum"
+          "text": "145 mg/kg",
+          "element": "Chlorine"
         },
         {
-          "text": "$17.1/kg",
-          "element": "Ytterbium"
+          "text": "1.5 mg/kg",
+          "element": "Germanium"
         }
       ],
-      "correct": "$4.78/kg",
-      "type": "price_per_kg"
+      "correct": "1.5 mg/kg",
+      "type": "abundance_crust"
     },
     {
-      "question": "What is the geochemical class of Lanthanum?",
+      "question": "Which countries are the top producers of Germanium?",
       "options": [
         {
-          "text": "rare earth & related",
-          "element": "Lanthanum"
+          "text": "1) Turkey  2) USA  3) Chile",
+          "element": "Boron"
         },
         {
-          "text": "first series transition metal",
-          "element": "Zinc"
+          "text": "1) China  2) Russia  3) Germany (likely)",
+          "element": "Germanium"
         },
-        {
-          "text": "noble metal",
-          "element": "Iridium"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Tellurium"
-        }
-      ],
-      "correct": "rare earth & related",
-      "type": "geochemical_class"
-    },
-    {
-      "question": "Which countries are the top producers of Lanthanum?",
-      "options": [
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Lanthanum"
+          "element": "Dysprosium"
         },
         {
-          "text": "1) China  2) Australia  3) Peru",
-          "element": "Zinc"
-        },
-        {
-          "text": "1) China  2) Mexico  3) Japan",
-          "element": "Bismuth"
-        },
-        {
-          "text": "1) China  2) USA  3) Chile",
-          "element": "Molybdenum"
+          "text": "1) China  2) India  3) USA",
+          "element": "Chlorine"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia",
+      "correct": "1) China  2) Russia  3) Germany (likely)",
       "type": "top_3_producers"
     },
     {
-      "question": "What is the crustal abundance of Lanthanum?",
+      "question": "Who discovered Germanium?",
       "options": [
         {
-          "text": "3.2 mg/kg",
-          "element": "Ytterbium"
+          "text": "Carl Wilhelm Scheele",
+          "element": "Chlorine"
         },
         {
-          "text": "1.2 mg/kg",
-          "element": "Molybdenum"
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Dysprosium"
         },
         {
-          "text": "0.0085 mg/kg",
-          "element": "Bismuth"
+          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
+          "element": "Boron"
         },
         {
-          "text": "39 mg/kg",
-          "element": "Lanthanum"
+          "text": "Clemens Winkler",
+          "element": "Germanium"
         }
       ],
-      "correct": "39 mg/kg",
-      "type": "abundance_crust"
+      "correct": "Clemens Winkler",
+      "type": "discoverers"
+    },
+    {
+      "question": "What is the approximate price of Germanium per kilogram?",
+      "options": [
+        {
+          "text": "$0.082/kg",
+          "element": "Chlorine"
+        },
+        {
+          "text": "$3.68/kg",
+          "element": "Boron"
+        },
+        {
+          "text": "$914/kg",
+          "element": "Germanium"
+        },
+        {
+          "text": "$307/kg",
+          "element": "Dysprosium"
+        }
+      ],
+      "correct": "$914/kg",
+      "type": "price_per_kg"
     }
   ]
 }

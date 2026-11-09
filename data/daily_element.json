@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-08",
-  "element": "Germanium",
-  "atomicNumber": 32,
-  "symbol": "Ge",
+  "date": "2026-11-09",
+  "element": "Rhenium",
+  "atomicNumber": 75,
+  "symbol": "Re",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Germanium?",
+      "question": "What is the approximate price of Rhenium per kilogram?",
       "options": [
         {
-          "text": "5.2 mg/kg",
-          "element": "Dysprosium"
+          "text": "$2.32/kg",
+          "element": "Magnesium"
         },
         {
-          "text": "10 mg/kg",
-          "element": "Boron"
+          "text": "$290/kg",
+          "element": "Krypton"
         },
         {
-          "text": "145 mg/kg",
-          "element": "Chlorine"
+          "text": "$13.9/kg",
+          "element": "Nickel"
         },
         {
-          "text": "1.5 mg/kg",
-          "element": "Germanium"
+          "text": "$3,010/kg",
+          "element": "Rhenium"
         }
       ],
-      "correct": "1.5 mg/kg",
-      "type": "abundance_crust"
+      "correct": "$3,010/kg",
+      "type": "price_per_kg"
     },
     {
-      "question": "Which countries are the top producers of Germanium?",
+      "question": "When was Rhenium first discovered?",
       "options": [
         {
-          "text": "1) Turkey  2) USA  3) Chile",
-          "element": "Boron"
+          "text": "1751",
+          "element": "Nickel"
         },
         {
-          "text": "1) China  2) Russia  3) Germany (likely)",
-          "element": "Germanium"
+          "text": "1808",
+          "element": "Magnesium"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Dysprosium"
+          "text": "1925",
+          "element": "Rhenium"
         },
         {
-          "text": "1) China  2) India  3) USA",
-          "element": "Chlorine"
+          "text": "1898",
+          "element": "Krypton"
         }
       ],
-      "correct": "1) China  2) Russia  3) Germany (likely)",
+      "correct": "1925",
+      "type": "discovery_year"
+    },
+    {
+      "question": "Which countries are the top producers of Rhenium?",
+      "options": [
+        {
+          "text": "1) Russia  2) Indonesia  3) Philippines",
+          "element": "Nickel"
+        },
+        {
+          "text": "1) China  2) Russia  3) Turkey",
+          "element": "Magnesium"
+        },
+        {
+          "text": "1) Chile  2) USA  3) Poland",
+          "element": "Rhenium"
+        },
+        {
+          "text": "1) China  2) Australia  3) USA",
+          "element": "Gold"
+        }
+      ],
+      "correct": "1) Chile  2) USA  3) Poland",
       "type": "top_3_producers"
     },
     {
-      "question": "Who discovered Germanium?",
+      "question": "Who discovered Rhenium?",
       "options": [
         {
-          "text": "Carl Wilhelm Scheele",
-          "element": "Chlorine"
+          "text": "Sir William Ramsey, M.W. Travers",
+          "element": "Krypton"
         },
         {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Dysprosium"
+          "text": "Axel Cronstedt",
+          "element": "Nickel"
         },
         {
-          "text": "Sir H. Davy, J.L. Gay-Lussac, L.J. Th\u00e9nard",
-          "element": "Boron"
+          "text": "Sir Humphrey Davy",
+          "element": "Magnesium"
         },
         {
-          "text": "Clemens Winkler",
-          "element": "Germanium"
+          "text": "Walter Noddack, Ida Tacke, Otto Berg",
+          "element": "Rhenium"
         }
       ],
-      "correct": "Clemens Winkler",
+      "correct": "Walter Noddack, Ida Tacke, Otto Berg",
       "type": "discoverers"
-    },
-    {
-      "question": "What is the approximate price of Germanium per kilogram?",
-      "options": [
-        {
-          "text": "$0.082/kg",
-          "element": "Chlorine"
-        },
-        {
-          "text": "$3.68/kg",
-          "element": "Boron"
-        },
-        {
-          "text": "$914/kg",
-          "element": "Germanium"
-        },
-        {
-          "text": "$307/kg",
-          "element": "Dysprosium"
-        }
-      ],
-      "correct": "$914/kg",
-      "type": "price_per_kg"
     }
   ]
 }

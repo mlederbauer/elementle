@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-09",
-  "element": "Rhenium",
-  "atomicNumber": 75,
-  "symbol": "Re",
+  "date": "2026-11-10",
+  "element": "Lawrencium",
+  "atomicNumber": 103,
+  "symbol": "Lr",
   "quiz": [
     {
-      "question": "What is the approximate price of Rhenium per kilogram?",
+      "question": "When was Lawrencium first discovered?",
       "options": [
         {
-          "text": "$2.32/kg",
-          "element": "Magnesium"
+          "text": "1782",
+          "element": "Tellurium"
         },
         {
-          "text": "$290/kg",
-          "element": "Krypton"
+          "text": "1879",
+          "element": "Samarium"
         },
         {
-          "text": "$13.9/kg",
-          "element": "Nickel"
+          "text": "1894",
+          "element": "Argon"
         },
         {
-          "text": "$3,010/kg",
-          "element": "Rhenium"
+          "text": "1961",
+          "element": "Lawrencium"
         }
       ],
-      "correct": "$3,010/kg",
-      "type": "price_per_kg"
-    },
-    {
-      "question": "When was Rhenium first discovered?",
-      "options": [
-        {
-          "text": "1751",
-          "element": "Nickel"
-        },
-        {
-          "text": "1808",
-          "element": "Magnesium"
-        },
-        {
-          "text": "1925",
-          "element": "Rhenium"
-        },
-        {
-          "text": "1898",
-          "element": "Krypton"
-        }
-      ],
-      "correct": "1925",
+      "correct": "1961",
       "type": "discovery_year"
     },
     {
-      "question": "Which countries are the top producers of Rhenium?",
+      "question": "Who discovered Lawrencium?",
       "options": [
         {
-          "text": "1) Russia  2) Indonesia  3) Philippines",
-          "element": "Nickel"
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
         },
         {
-          "text": "1) China  2) Russia  3) Turkey",
-          "element": "Magnesium"
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Samarium"
         },
         {
-          "text": "1) Chile  2) USA  3) Poland",
-          "element": "Rhenium"
+          "text": "Sir William Ramsey, Baron Rayleigh",
+          "element": "Argon"
         },
         {
-          "text": "1) China  2) Australia  3) USA",
-          "element": "Gold"
+          "text": "Known to the ancients.",
+          "element": "Iron"
         }
       ],
-      "correct": "1) Chile  2) USA  3) Poland",
-      "type": "top_3_producers"
+      "correct": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+      "type": "discoverers"
     },
     {
-      "question": "Who discovered Rhenium?",
+      "question": "What is the melting point of Lawrencium?",
       "options": [
         {
-          "text": "Sir William Ramsey, M.W. Travers",
-          "element": "Krypton"
+          "text": "-189 \u00b0C",
+          "element": "Argon"
         },
         {
-          "text": "Axel Cronstedt",
-          "element": "Nickel"
+          "text": "1,630 \u00b0C",
+          "element": "Lawrencium"
         },
         {
-          "text": "Sir Humphrey Davy",
-          "element": "Magnesium"
+          "text": "1,540 \u00b0C",
+          "element": "Iron"
         },
         {
-          "text": "Walter Noddack, Ida Tacke, Otto Berg",
-          "element": "Rhenium"
+          "text": "1,070 \u00b0C",
+          "element": "Samarium"
         }
       ],
-      "correct": "Walter Noddack, Ida Tacke, Otto Berg",
-      "type": "discoverers"
+      "correct": "1,630 \u00b0C",
+      "type": "melting_point"
+    },
+    {
+      "question": "What is the density of Lawrencium?",
+      "options": [
+        {
+          "text": "0.00163 g/cm\u00b3",
+          "element": "Argon"
+        },
+        {
+          "text": "15.6 g/cm\u00b3",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "7.87 g/cm\u00b3",
+          "element": "Iron"
+        },
+        {
+          "text": "7.52 g/cm\u00b3",
+          "element": "Samarium"
+        }
+      ],
+      "correct": "15.6 g/cm\u00b3",
+      "type": "density"
     }
   ]
 }

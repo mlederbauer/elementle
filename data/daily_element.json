@@ -1,99 +1,76 @@
 {
-  "date": "2026-11-10",
-  "element": "Lawrencium",
-  "atomicNumber": 103,
-  "symbol": "Lr",
+  "date": "2026-11-11",
+  "element": "Oganesson",
+  "atomicNumber": 118,
+  "symbol": "Og",
   "quiz": [
     {
-      "question": "When was Lawrencium first discovered?",
+      "question": "Who discovered Oganesson?",
       "options": [
         {
-          "text": "1782",
-          "element": "Tellurium"
+          "text": "Jean de Marignac",
+          "element": "Ytterbium"
         },
         {
-          "text": "1879",
-          "element": "Samarium"
+          "text": "Fredrich W\u00f6hler, A.A.Bussy",
+          "element": "Beryllium"
         },
         {
-          "text": "1894",
-          "element": "Argon"
+          "text": "Johann Gahn",
+          "element": "Manganese"
         },
         {
-          "text": "1961",
-          "element": "Lawrencium"
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Oganesson"
         }
       ],
-      "correct": "1961",
-      "type": "discovery_year"
-    },
-    {
-      "question": "Who discovered Lawrencium?",
-      "options": [
-        {
-          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
-          "element": "Lawrencium"
-        },
-        {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Samarium"
-        },
-        {
-          "text": "Sir William Ramsey, Baron Rayleigh",
-          "element": "Argon"
-        },
-        {
-          "text": "Known to the ancients.",
-          "element": "Iron"
-        }
-      ],
-      "correct": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+      "correct": "Joint Institute for Nuclear Research",
       "type": "discoverers"
     },
     {
-      "question": "What is the melting point of Lawrencium?",
+      "question": "When was Oganesson first discovered?",
       "options": [
         {
-          "text": "-189 \u00b0C",
-          "element": "Argon"
+          "text": "2002",
+          "element": "Oganesson"
         },
         {
-          "text": "1,630 \u00b0C",
-          "element": "Lawrencium"
+          "text": "1878",
+          "element": "Ytterbium"
         },
         {
-          "text": "1,540 \u00b0C",
-          "element": "Iron"
+          "text": "1774",
+          "element": "Manganese"
         },
         {
-          "text": "1,070 \u00b0C",
-          "element": "Samarium"
+          "text": "1798",
+          "element": "Beryllium"
         }
       ],
-      "correct": "1,630 \u00b0C",
-      "type": "melting_point"
+      "correct": "2002",
+      "type": "discovery_year"
     },
     {
-      "question": "What is the density of Lawrencium?",
+      "question": "What is the density of Oganesson?",
       "options": [
         {
-          "text": "0.00163 g/cm\u00b3",
-          "element": "Argon"
+          "text": "6.9 g/cm\u00b3",
+          "element": "Ytterbium"
         },
         {
-          "text": "15.6 g/cm\u00b3",
-          "element": "Lawrencium"
+          "text": "7 g/cm\u00b3",
+          "element": "Oganesson"
         },
         {
-          "text": "7.87 g/cm\u00b3",
-          "element": "Iron"
+          "text": "1.85 g/cm\u00b3",
+          "element": "Beryllium"
         },
         {
-          "text": "7.52 g/cm\u00b3",
-          "element": "Samarium"
+          "text": "7.3 g/cm\u00b3",
+          "element": "Manganese"
         }
       ],
-      "correct": "15.6 g/cm\u00b3",
+      "correct": "7 g/cm\u00b3",
       "type": "density"
     }
   ]

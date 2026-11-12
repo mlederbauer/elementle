@@ -1,77 +1,100 @@
 {
-  "date": "2026-11-11",
-  "element": "Oganesson",
-  "atomicNumber": 118,
-  "symbol": "Og",
+  "date": "2026-11-12",
+  "element": "Neodymium",
+  "atomicNumber": 60,
+  "symbol": "Nd",
   "quiz": [
     {
-      "question": "Who discovered Oganesson?",
+      "question": "Who discovered Neodymium?",
       "options": [
         {
-          "text": "Jean de Marignac",
-          "element": "Ytterbium"
+          "text": "C.F. Aver von Welsbach",
+          "element": "Neodymium"
         },
         {
-          "text": "Fredrich W\u00f6hler, A.A.Bussy",
-          "element": "Beryllium"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Roentgenium"
         },
         {
-          "text": "Johann Gahn",
-          "element": "Manganese"
+          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
+          "element": "Lawrencium"
         },
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Oganesson"
+          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
+          "element": "Gallium"
         }
       ],
-      "correct": "Joint Institute for Nuclear Research",
+      "correct": "C.F. Aver von Welsbach",
       "type": "discoverers"
     },
     {
-      "question": "When was Oganesson first discovered?",
+      "question": "What is the crustal abundance of Neodymium?",
       "options": [
         {
-          "text": "2002",
-          "element": "Oganesson"
+          "text": "0.001 mg/kg",
+          "element": "Tellurium"
         },
         {
-          "text": "1878",
-          "element": "Ytterbium"
+          "text": "66.5 mg/kg",
+          "element": "Cerium"
         },
         {
-          "text": "1774",
-          "element": "Manganese"
+          "text": "19 mg/kg",
+          "element": "Gallium"
         },
         {
-          "text": "1798",
-          "element": "Beryllium"
+          "text": "41.5 mg/kg",
+          "element": "Neodymium"
         }
       ],
-      "correct": "2002",
-      "type": "discovery_year"
+      "correct": "41.5 mg/kg",
+      "type": "abundance_crust"
     },
     {
-      "question": "What is the density of Oganesson?",
+      "question": "Which countries are the top producers of Neodymium?",
       "options": [
         {
-          "text": "6.9 g/cm\u00b3",
-          "element": "Ytterbium"
+          "text": "1) China  2) Republic of Korea  3) Japan",
+          "element": "Indium"
         },
         {
-          "text": "7 g/cm\u00b3",
-          "element": "Oganesson"
+          "text": "1) China  2) India  3) USA",
+          "element": "Sodium"
         },
         {
-          "text": "1.85 g/cm\u00b3",
-          "element": "Beryllium"
+          "text": "1) China  2) Germany  3) Kazakhstan",
+          "element": "Gallium"
         },
         {
-          "text": "7.3 g/cm\u00b3",
-          "element": "Manganese"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Neodymium"
         }
       ],
-      "correct": "7 g/cm\u00b3",
-      "type": "density"
+      "correct": "1) China  2) Russia  3) Malaysia",
+      "type": "top_3_producers"
+    },
+    {
+      "question": "What is the geochemical class of Neodymium?",
+      "options": [
+        {
+          "text": "U/Th decay series",
+          "element": "Francium"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Tellurium"
+        },
+        {
+          "text": "major",
+          "element": "Sodium"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Neodymium"
+        }
+      ],
+      "correct": "rare earth & related",
+      "type": "geochemical_class"
     }
   ]
 }

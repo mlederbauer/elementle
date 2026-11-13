@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-12",
-  "element": "Neodymium",
-  "atomicNumber": 60,
-  "symbol": "Nd",
+  "date": "2026-11-13",
+  "element": "Sodium",
+  "atomicNumber": 11,
+  "symbol": "Na",
   "quiz": [
     {
-      "question": "Who discovered Neodymium?",
+      "question": "When was Sodium first discovered?",
       "options": [
         {
-          "text": "C.F. Aver von Welsbach",
-          "element": "Neodymium"
+          "text": "1886",
+          "element": "Dysprosium"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Roentgenium"
+          "text": "1807",
+          "element": "Sodium"
         },
         {
-          "text": "A.Ghiorso, T.Sikkeland, A.E.Larsh, R.M.Latimer",
-          "element": "Lawrencium"
+          "text": "1808",
+          "element": "Barium"
         },
         {
-          "text": "Paul \u00c9mile Lecoq de Boisbaudran",
-          "element": "Gallium"
+          "text": "1860",
+          "element": "Cesium"
         }
       ],
-      "correct": "C.F. Aver von Welsbach",
-      "type": "discoverers"
+      "correct": "1807",
+      "type": "discovery_year"
     },
     {
-      "question": "What is the crustal abundance of Neodymium?",
+      "question": "What is the approximate price of Sodium per kilogram?",
       "options": [
         {
-          "text": "0.001 mg/kg",
-          "element": "Tellurium"
+          "text": "$307/kg",
+          "element": "Dysprosium"
         },
         {
-          "text": "66.5 mg/kg",
-          "element": "Cerium"
+          "text": "$61,800/kg",
+          "element": "Cesium"
         },
         {
-          "text": "19 mg/kg",
-          "element": "Gallium"
+          "text": "$0.246/kg",
+          "element": "Barium"
         },
         {
-          "text": "41.5 mg/kg",
-          "element": "Neodymium"
+          "text": "$2.57/kg",
+          "element": "Sodium"
         }
       ],
-      "correct": "41.5 mg/kg",
+      "correct": "$2.57/kg",
+      "type": "price_per_kg"
+    },
+    {
+      "question": "What is the crustal abundance of Sodium?",
+      "options": [
+        {
+          "text": "5.2 mg/kg",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "23,600 mg/kg",
+          "element": "Sodium"
+        },
+        {
+          "text": "3 mg/kg",
+          "element": "Cesium"
+        },
+        {
+          "text": "425 mg/kg",
+          "element": "Barium"
+        }
+      ],
+      "correct": "23,600 mg/kg",
       "type": "abundance_crust"
     },
     {
-      "question": "Which countries are the top producers of Neodymium?",
+      "question": "Which countries are the top producers of Sodium?",
       "options": [
         {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Indium"
+          "text": "1) China  2) South Africa  3) Australia",
+          "element": "Manganese"
+        },
+        {
+          "text": "1) Kazakhstan  2) Canada  3) Australia",
+          "element": "Uranium"
         },
         {
           "text": "1) China  2) India  3) USA",
           "element": "Sodium"
         },
         {
-          "text": "1) China  2) Germany  3) Kazakhstan",
-          "element": "Gallium"
-        },
-        {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Neodymium"
+          "element": "Dysprosium"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia",
+      "correct": "1) China  2) India  3) USA",
       "type": "top_3_producers"
-    },
-    {
-      "question": "What is the geochemical class of Neodymium?",
-      "options": [
-        {
-          "text": "U/Th decay series",
-          "element": "Francium"
-        },
-        {
-          "text": "semi-volatile",
-          "element": "Tellurium"
-        },
-        {
-          "text": "major",
-          "element": "Sodium"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Neodymium"
-        }
-      ],
-      "correct": "rare earth & related",
-      "type": "geochemical_class"
     }
   ]
 }

@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-13",
-  "element": "Sodium",
-  "atomicNumber": 11,
-  "symbol": "Na",
+  "date": "2026-11-14",
+  "element": "Bromine",
+  "atomicNumber": 35,
+  "symbol": "Br",
   "quiz": [
     {
-      "question": "When was Sodium first discovered?",
+      "question": "What is the crustal abundance of Bromine?",
       "options": [
         {
-          "text": "1886",
-          "element": "Dysprosium"
+          "text": "0.001 mg/kg",
+          "element": "Iridium"
         },
         {
-          "text": "1807",
-          "element": "Sodium"
+          "text": "2.4 mg/kg",
+          "element": "Bromine"
         },
         {
-          "text": "1808",
-          "element": "Barium"
+          "text": "0.004 mg/kg",
+          "element": "Gold"
         },
         {
-          "text": "1860",
-          "element": "Cesium"
+          "text": "1.2 mg/kg",
+          "element": "Terbium"
         }
       ],
-      "correct": "1807",
-      "type": "discovery_year"
-    },
-    {
-      "question": "What is the approximate price of Sodium per kilogram?",
-      "options": [
-        {
-          "text": "$307/kg",
-          "element": "Dysprosium"
-        },
-        {
-          "text": "$61,800/kg",
-          "element": "Cesium"
-        },
-        {
-          "text": "$0.246/kg",
-          "element": "Barium"
-        },
-        {
-          "text": "$2.57/kg",
-          "element": "Sodium"
-        }
-      ],
-      "correct": "$2.57/kg",
-      "type": "price_per_kg"
-    },
-    {
-      "question": "What is the crustal abundance of Sodium?",
-      "options": [
-        {
-          "text": "5.2 mg/kg",
-          "element": "Dysprosium"
-        },
-        {
-          "text": "23,600 mg/kg",
-          "element": "Sodium"
-        },
-        {
-          "text": "3 mg/kg",
-          "element": "Cesium"
-        },
-        {
-          "text": "425 mg/kg",
-          "element": "Barium"
-        }
-      ],
-      "correct": "23,600 mg/kg",
+      "correct": "2.4 mg/kg",
       "type": "abundance_crust"
     },
     {
-      "question": "Which countries are the top producers of Sodium?",
+      "question": "Which countries are the top producers of Bromine?",
       "options": [
         {
-          "text": "1) China  2) South Africa  3) Australia",
-          "element": "Manganese"
+          "text": "1) China  2) Australia  3) USA",
+          "element": "Gold"
         },
         {
-          "text": "1) Kazakhstan  2) Canada  3) Australia",
-          "element": "Uranium"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Iridium"
         },
         {
-          "text": "1) China  2) India  3) USA",
-          "element": "Sodium"
+          "text": "1) USA  2) China  3) Israel",
+          "element": "Bromine"
         },
         {
           "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Dysprosium"
+          "element": "Terbium"
         }
       ],
-      "correct": "1) China  2) India  3) USA",
+      "correct": "1) USA  2) China  3) Israel",
       "type": "top_3_producers"
+    },
+    {
+      "question": "Who discovered Bromine?",
+      "options": [
+        {
+          "text": "Antoine J. Balard",
+          "element": "Bromine"
+        },
+        {
+          "text": "Known to the ancients.",
+          "element": "Gold"
+        },
+        {
+          "text": "Marguerite Derey",
+          "element": "Francium"
+        },
+        {
+          "text": "Carl Mosander",
+          "element": "Terbium"
+        }
+      ],
+      "correct": "Antoine J. Balard",
+      "type": "discoverers"
+    },
+    {
+      "question": "When was Bromine first discovered?",
+      "options": [
+        {
+          "text": "1843",
+          "element": "Terbium"
+        },
+        {
+          "text": "1982",
+          "element": "Meitnerium"
+        },
+        {
+          "text": "1939",
+          "element": "Francium"
+        },
+        {
+          "text": "1826",
+          "element": "Bromine"
+        }
+      ],
+      "correct": "1826",
+      "type": "discovery_year"
     }
   ]
 }

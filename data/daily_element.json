@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-14",
-  "element": "Bromine",
-  "atomicNumber": 35,
-  "symbol": "Br",
+  "date": "2026-11-15",
+  "element": "Radium",
+  "atomicNumber": 88,
+  "symbol": "Ra",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Bromine?",
+      "question": "What is the geochemical class of Radium?",
       "options": [
+        {
+          "text": "noble metal",
+          "element": "Iridium"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Promethium"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Radium"
+        },
+        {
+          "text": "major",
+          "element": "Magnesium"
+        }
+      ],
+      "correct": "U/Th decay series",
+      "type": "geochemical_class"
+    },
+    {
+      "question": "When was Radium first discovered?",
+      "options": [
+        {
+          "text": "1976",
+          "element": "Bohrium"
+        },
+        {
+          "text": "1945",
+          "element": "Promethium"
+        },
+        {
+          "text": "1808",
+          "element": "Magnesium"
+        },
+        {
+          "text": "1898",
+          "element": "Radium"
+        }
+      ],
+      "correct": "1898",
+      "type": "discovery_year"
+    },
+    {
+      "question": "Who discovered Radium?",
+      "options": [
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Bohrium"
+        },
+        {
+          "text": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell",
+          "element": "Promethium"
+        },
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Magnesium"
+        },
+        {
+          "text": "Pierre and Marie Curie",
+          "element": "Radium"
+        }
+      ],
+      "correct": "Pierre and Marie Curie",
+      "type": "discoverers"
+    },
+    {
+      "question": "What is the crustal abundance of Radium?",
+      "options": [
+        {
+          "text": "23,300 mg/kg",
+          "element": "Magnesium"
+        },
         {
           "text": "0.001 mg/kg",
           "element": "Iridium"
         },
         {
-          "text": "2.4 mg/kg",
-          "element": "Bromine"
+          "text": "6.2 mg/kg",
+          "element": "Gadolinium"
         },
         {
-          "text": "0.004 mg/kg",
-          "element": "Gold"
-        },
-        {
-          "text": "1.2 mg/kg",
-          "element": "Terbium"
+          "text": "0.0000009 mg/kg",
+          "element": "Radium"
         }
       ],
-      "correct": "2.4 mg/kg",
+      "correct": "0.0000009 mg/kg",
       "type": "abundance_crust"
-    },
-    {
-      "question": "Which countries are the top producers of Bromine?",
-      "options": [
-        {
-          "text": "1) China  2) Australia  3) USA",
-          "element": "Gold"
-        },
-        {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Iridium"
-        },
-        {
-          "text": "1) USA  2) China  3) Israel",
-          "element": "Bromine"
-        },
-        {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Terbium"
-        }
-      ],
-      "correct": "1) USA  2) China  3) Israel",
-      "type": "top_3_producers"
-    },
-    {
-      "question": "Who discovered Bromine?",
-      "options": [
-        {
-          "text": "Antoine J. Balard",
-          "element": "Bromine"
-        },
-        {
-          "text": "Known to the ancients.",
-          "element": "Gold"
-        },
-        {
-          "text": "Marguerite Derey",
-          "element": "Francium"
-        },
-        {
-          "text": "Carl Mosander",
-          "element": "Terbium"
-        }
-      ],
-      "correct": "Antoine J. Balard",
-      "type": "discoverers"
-    },
-    {
-      "question": "When was Bromine first discovered?",
-      "options": [
-        {
-          "text": "1843",
-          "element": "Terbium"
-        },
-        {
-          "text": "1982",
-          "element": "Meitnerium"
-        },
-        {
-          "text": "1939",
-          "element": "Francium"
-        },
-        {
-          "text": "1826",
-          "element": "Bromine"
-        }
-      ],
-      "correct": "1826",
-      "type": "discovery_year"
     }
   ]
 }

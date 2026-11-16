@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-15",
-  "element": "Radium",
-  "atomicNumber": 88,
-  "symbol": "Ra",
+  "date": "2026-11-16",
+  "element": "Molybdenum",
+  "atomicNumber": 42,
+  "symbol": "Mo",
   "quiz": [
     {
-      "question": "What is the geochemical class of Radium?",
+      "question": "What is the crustal abundance of Molybdenum?",
       "options": [
         {
-          "text": "noble metal",
-          "element": "Iridium"
+          "text": "1.2 mg/kg",
+          "element": "Molybdenum"
         },
         {
-          "text": "rare earth & related",
-          "element": "Promethium"
+          "text": "5,650 mg/kg",
+          "element": "Titanium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Radium"
+          "text": "0.0007 mg/kg",
+          "element": "Rhenium"
         },
         {
-          "text": "major",
-          "element": "Magnesium"
+          "text": "0.0001 mg/kg",
+          "element": "Krypton"
         }
       ],
-      "correct": "U/Th decay series",
-      "type": "geochemical_class"
+      "correct": "1.2 mg/kg",
+      "type": "abundance_crust"
     },
     {
-      "question": "When was Radium first discovered?",
+      "question": "Which countries are the top producers of Molybdenum?",
       "options": [
         {
-          "text": "1976",
-          "element": "Bohrium"
+          "text": "1) Chile  2) USA  3) Poland",
+          "element": "Rhenium"
         },
         {
-          "text": "1945",
-          "element": "Promethium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Terbium"
         },
         {
-          "text": "1808",
-          "element": "Magnesium"
+          "text": "1) China  2) USA  3) Chile",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "1) Canada  2) Australia  3) South Africa",
+          "element": "Titanium"
+        }
+      ],
+      "correct": "1) China  2) USA  3) Chile",
+      "type": "top_3_producers"
+    },
+    {
+      "question": "What is the approximate price of Molybdenum per kilogram?",
+      "options": [
+        {
+          "text": "$11.1/kg",
+          "element": "Titanium"
+        },
+        {
+          "text": "$40.1/kg",
+          "element": "Molybdenum"
+        },
+        {
+          "text": "$290/kg",
+          "element": "Krypton"
+        },
+        {
+          "text": "$3,010/kg",
+          "element": "Rhenium"
+        }
+      ],
+      "correct": "$40.1/kg",
+      "type": "price_per_kg"
+    },
+    {
+      "question": "When was Molybdenum first discovered?",
+      "options": [
+        {
+          "text": "1791",
+          "element": "Titanium"
+        },
+        {
+          "text": "1961",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "1778",
+          "element": "Molybdenum"
         },
         {
           "text": "1898",
-          "element": "Radium"
+          "element": "Krypton"
         }
       ],
-      "correct": "1898",
+      "correct": "1778",
       "type": "discovery_year"
-    },
-    {
-      "question": "Who discovered Radium?",
-      "options": [
-        {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Bohrium"
-        },
-        {
-          "text": "J.A. Marinsky, L.E. Glendenin, C.D. Coryell",
-          "element": "Promethium"
-        },
-        {
-          "text": "Sir Humphrey Davy",
-          "element": "Magnesium"
-        },
-        {
-          "text": "Pierre and Marie Curie",
-          "element": "Radium"
-        }
-      ],
-      "correct": "Pierre and Marie Curie",
-      "type": "discoverers"
-    },
-    {
-      "question": "What is the crustal abundance of Radium?",
-      "options": [
-        {
-          "text": "23,300 mg/kg",
-          "element": "Magnesium"
-        },
-        {
-          "text": "0.001 mg/kg",
-          "element": "Iridium"
-        },
-        {
-          "text": "6.2 mg/kg",
-          "element": "Gadolinium"
-        },
-        {
-          "text": "0.0000009 mg/kg",
-          "element": "Radium"
-        }
-      ],
-      "correct": "0.0000009 mg/kg",
-      "type": "abundance_crust"
     }
   ]
 }

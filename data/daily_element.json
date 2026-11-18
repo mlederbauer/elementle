@@ -1,99 +1,99 @@
 {
-  "date": "2026-11-17",
-  "element": "Nitrogen",
-  "atomicNumber": 7,
-  "symbol": "N",
+  "date": "2026-11-18",
+  "element": "Calcium",
+  "atomicNumber": 20,
+  "symbol": "Ca",
   "quiz": [
     {
-      "question": "Who discovered Nitrogen?",
+      "question": "Who discovered Calcium?",
       "options": [
         {
-          "text": "Daniel Rutherford",
-          "element": "Nitrogen"
+          "text": "Sir Humphrey Davy",
+          "element": "Calcium"
         },
         {
-          "text": "Sir William Ramsey, M.W. Travers",
-          "element": "Neon"
+          "text": "Julius Scaliger",
+          "element": "Platinum"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Sulfur"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Darmstadtium"
         },
         {
-          "text": "Martin Klaproth",
-          "element": "Zirconium"
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
+          "element": "Mendelevium"
         }
       ],
-      "correct": "Daniel Rutherford",
+      "correct": "Sir Humphrey Davy",
       "type": "discoverers"
     },
     {
-      "question": "What is the crustal abundance of Nitrogen?",
+      "question": "When was Calcium first discovered?",
       "options": [
         {
-          "text": "165 mg/kg",
-          "element": "Zirconium"
+          "text": "1994",
+          "element": "Darmstadtium"
         },
         {
-          "text": "0.005 mg/kg",
-          "element": "Neon"
+          "text": "1735",
+          "element": "Platinum"
         },
         {
-          "text": "350 mg/kg",
-          "element": "Sulfur"
+          "text": "1808",
+          "element": "Calcium"
         },
         {
-          "text": "19 mg/kg",
-          "element": "Nitrogen"
+          "text": "1955",
+          "element": "Mendelevium"
         }
       ],
-      "correct": "19 mg/kg",
-      "type": "abundance_crust"
+      "correct": "1808",
+      "type": "discovery_year"
     },
     {
-      "question": "What is the approximate price of Nitrogen per kilogram?",
+      "question": "What is the approximate price of Calcium per kilogram?",
       "options": [
         {
-          "text": "$240/kg",
-          "element": "Neon"
+          "text": "$307/kg",
+          "element": "Dysprosium"
         },
         {
-          "text": "$0.14/kg",
-          "element": "Nitrogen"
+          "text": "$148/kg",
+          "element": "Gallium"
         },
         {
-          "text": "$35.7/kg",
-          "element": "Zirconium"
+          "text": "$2.21/kg",
+          "element": "Calcium"
         },
         {
-          "text": "$0.0926/kg",
-          "element": "Sulfur"
+          "text": "$27,800/kg",
+          "element": "Platinum"
         }
       ],
-      "correct": "$0.14/kg",
+      "correct": "$2.21/kg",
       "type": "price_per_kg"
     },
     {
-      "question": "What is the geochemical class of Nitrogen?",
+      "question": "What is the geochemical class of Calcium?",
       "options": [
         {
-          "text": "semi-volatile",
-          "element": "Sulfur"
-        },
-        {
           "text": "major",
-          "element": "Sodium"
+          "element": "Calcium"
         },
         {
-          "text": "high field strength",
-          "element": "Zirconium"
+          "text": "noble metal",
+          "element": "Platinum"
         },
         {
-          "text": "volatile",
-          "element": "Nitrogen"
+          "text": "U/Th decay series",
+          "element": "Radon"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Dysprosium"
         }
       ],
-      "correct": "volatile",
+      "correct": "major",
       "type": "geochemical_class"
     }
   ]

@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-18",
-  "element": "Calcium",
-  "atomicNumber": 20,
-  "symbol": "Ca",
+  "date": "2026-11-19",
+  "element": "Berkelium",
+  "atomicNumber": 97,
+  "symbol": "Bk",
   "quiz": [
     {
-      "question": "Who discovered Calcium?",
-      "options": [
-        {
-          "text": "Sir Humphrey Davy",
-          "element": "Calcium"
-        },
-        {
-          "text": "Julius Scaliger",
-          "element": "Platinum"
-        },
-        {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Darmstadtium"
-        },
-        {
-          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr.",
-          "element": "Mendelevium"
-        }
-      ],
-      "correct": "Sir Humphrey Davy",
-      "type": "discoverers"
-    },
-    {
-      "question": "When was Calcium first discovered?",
+      "question": "When was Berkelium first discovered?",
       "options": [
         {
           "text": "1994",
           "element": "Darmstadtium"
         },
         {
-          "text": "1735",
-          "element": "Platinum"
+          "text": "1953",
+          "element": "Fermium"
         },
         {
-          "text": "1808",
-          "element": "Calcium"
+          "text": "1976",
+          "element": "Bohrium"
         },
         {
-          "text": "1955",
-          "element": "Mendelevium"
+          "text": "1949",
+          "element": "Berkelium"
         }
       ],
-      "correct": "1808",
+      "correct": "1949",
       "type": "discovery_year"
     },
     {
-      "question": "What is the approximate price of Calcium per kilogram?",
+      "question": "What is the approximate price of Berkelium per kilogram?",
       "options": [
         {
-          "text": "$307/kg",
-          "element": "Dysprosium"
+          "text": "$24/kg",
+          "element": "Helium"
         },
         {
-          "text": "$148/kg",
-          "element": "Gallium"
+          "text": "$4.78/kg",
+          "element": "Lanthanum"
         },
         {
-          "text": "$2.21/kg",
-          "element": "Calcium"
+          "text": "$185,000,000,000/kg",
+          "element": "Berkelium"
         },
         {
-          "text": "$27,800/kg",
-          "element": "Platinum"
+          "text": "$857/kg",
+          "element": "Beryllium"
         }
       ],
-      "correct": "$2.21/kg",
+      "correct": "$185,000,000,000/kg",
       "type": "price_per_kg"
     },
     {
-      "question": "What is the geochemical class of Calcium?",
+      "question": "Who discovered Berkelium?",
       "options": [
         {
-          "text": "major",
-          "element": "Calcium"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Darmstadtium"
         },
         {
-          "text": "noble metal",
-          "element": "Platinum"
+          "text": "G.T.Seaborg, S.G.Tompson, A.Ghiorso",
+          "element": "Berkelium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Radon"
+          "text": "Carl Mosander",
+          "element": "Lanthanum"
         },
         {
-          "text": "rare earth & related",
-          "element": "Dysprosium"
+          "text": "Argonne, Los Alamos, U of Calif",
+          "element": "Fermium"
         }
       ],
-      "correct": "major",
-      "type": "geochemical_class"
+      "correct": "G.T.Seaborg, S.G.Tompson, A.Ghiorso",
+      "type": "discoverers"
+    },
+    {
+      "question": "What is the melting point of Berkelium?",
+      "options": [
+        {
+          "text": "986 \u00b0C",
+          "element": "Berkelium"
+        },
+        {
+          "text": "920 \u00b0C",
+          "element": "Lanthanum"
+        },
+        {
+          "text": "1,290 \u00b0C",
+          "element": "Beryllium"
+        },
+        {
+          "text": "1,530 \u00b0C",
+          "element": "Fermium"
+        }
+      ],
+      "correct": "986 \u00b0C",
+      "type": "melting_point"
     }
   ]
 }

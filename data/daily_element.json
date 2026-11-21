@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-20",
-  "element": "Sulfur",
-  "atomicNumber": 16,
-  "symbol": "S",
+  "date": "2026-11-21",
+  "element": "Magnesium",
+  "atomicNumber": 12,
+  "symbol": "Mg",
   "quiz": [
     {
-      "question": "What is the geochemical class of Sulfur?",
+      "question": "What is the geochemical class of Magnesium?",
       "options": [
         {
-          "text": "alkaline earth metal",
-          "element": "Strontium"
+          "text": "rare earth & related",
+          "element": "Terbium"
         },
         {
-          "text": "semi-volatile",
-          "element": "Sulfur"
+          "text": "major",
+          "element": "Magnesium"
         },
         {
           "text": "volatile",
-          "element": "Xenon"
+          "element": "Krypton"
         },
         {
-          "text": "rare earth & related",
-          "element": "Holmium"
+          "text": "semi-volatile",
+          "element": "Iodine"
         }
       ],
-      "correct": "semi-volatile",
+      "correct": "major",
       "type": "geochemical_class"
     },
     {
-      "question": "Who discovered Sulfur?",
+      "question": "What is the crustal abundance of Magnesium?",
       "options": [
         {
-          "text": "J.L. Soret",
-          "element": "Holmium"
+          "text": "23,300 mg/kg",
+          "element": "Magnesium"
         },
         {
-          "text": "Known to the ancients.",
-          "element": "Sulfur"
+          "text": "0.0001 mg/kg",
+          "element": "Krypton"
         },
         {
-          "text": "Sir William Ramsay; M. W. Travers",
-          "element": "Xenon"
+          "text": "0.45 mg/kg",
+          "element": "Iodine"
         },
         {
-          "text": "A. Crawford",
-          "element": "Strontium"
+          "text": "1.2 mg/kg",
+          "element": "Terbium"
         }
       ],
-      "correct": "Known to the ancients.",
-      "type": "discoverers"
-    },
-    {
-      "question": "What is the crustal abundance of Sulfur?",
-      "options": [
-        {
-          "text": "0.00003 mg/kg",
-          "element": "Xenon"
-        },
-        {
-          "text": "370 mg/kg",
-          "element": "Strontium"
-        },
-        {
-          "text": "350 mg/kg",
-          "element": "Sulfur"
-        },
-        {
-          "text": "1.3 mg/kg",
-          "element": "Holmium"
-        }
-      ],
-      "correct": "350 mg/kg",
+      "correct": "23,300 mg/kg",
       "type": "abundance_crust"
     },
     {
-      "question": "Which countries are the top producers of Sulfur?",
+      "question": "Who discovered Magnesium?",
       "options": [
         {
-          "text": "1) China  2) USA  3) Canada",
-          "element": "Sulfur"
+          "text": "Sir Humphrey Davy",
+          "element": "Magnesium"
         },
         {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Indium"
+          "text": "Carl Wilhelm Scheele",
+          "element": "Molybdenum"
         },
         {
-          "text": "1) China  2) Spain  3) Mexico",
-          "element": "Strontium"
+          "text": "Sir William Ramsey, M.W. Travers",
+          "element": "Krypton"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Holmium"
+          "text": "Carl Mosander",
+          "element": "Terbium"
         }
       ],
-      "correct": "1) China  2) USA  3) Canada",
-      "type": "top_3_producers"
+      "correct": "Sir Humphrey Davy",
+      "type": "discoverers"
+    },
+    {
+      "question": "When was Magnesium first discovered?",
+      "options": [
+        {
+          "text": "1843",
+          "element": "Terbium"
+        },
+        {
+          "text": "1898",
+          "element": "Krypton"
+        },
+        {
+          "text": "1808",
+          "element": "Magnesium"
+        },
+        {
+          "text": "1778",
+          "element": "Molybdenum"
+        }
+      ],
+      "correct": "1808",
+      "type": "discovery_year"
     }
   ]
 }

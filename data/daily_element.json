@@ -1,100 +1,77 @@
 {
-  "date": "2026-11-22",
-  "element": "Phosphorus",
-  "atomicNumber": 15,
-  "symbol": "P",
+  "date": "2026-11-23",
+  "element": "Hassium",
+  "atomicNumber": 108,
+  "symbol": "Hs",
   "quiz": [
     {
-      "question": "What is the approximate price of Phosphorus per kilogram?",
+      "question": "When was Hassium first discovered?",
       "options": [
         {
-          "text": "$914/kg",
-          "element": "Germanium"
+          "text": "1984",
+          "element": "Hassium"
         },
         {
-          "text": "$32.8/kg",
-          "element": "Cobalt"
+          "text": "1907",
+          "element": "Lutetium"
         },
         {
-          "text": "$287/kg",
-          "element": "Thorium"
+          "text": "1790",
+          "element": "Strontium"
         },
         {
-          "text": "$2.69/kg",
-          "element": "Phosphorus"
+          "text": "1772",
+          "element": "Nitrogen"
         }
       ],
-      "correct": "$2.69/kg",
-      "type": "price_per_kg"
-    },
-    {
-      "question": "When was Phosphorus first discovered?",
-      "options": [
-        {
-          "text": "1739",
-          "element": "Cobalt"
-        },
-        {
-          "text": "1828",
-          "element": "Thorium"
-        },
-        {
-          "text": "1886",
-          "element": "Germanium"
-        },
-        {
-          "text": "1669",
-          "element": "Phosphorus"
-        }
-      ],
-      "correct": "1669",
+      "correct": "1984",
       "type": "discovery_year"
     },
     {
-      "question": "Which countries are the top producers of Phosphorus?",
+      "question": "Who discovered Hassium?",
       "options": [
         {
-          "text": "1) China  2) Russia  3) Germany (likely)",
-          "element": "Germanium"
+          "text": "Daniel Rutherford",
+          "element": "Nitrogen"
         },
         {
-          "text": "1) DRC  2) China  3) Zambia",
-          "element": "Cobalt"
+          "text": "A. Crawford",
+          "element": "Strontium"
         },
         {
-          "text": "1) China  2) Mexico  3) Morocco",
-          "element": "Phosphorus"
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Hassium"
         },
         {
-          "text": "1) India  2) Brazil  3) Malaysia",
-          "element": "Thorium"
+          "text": "Georges Urbain",
+          "element": "Lutetium"
         }
       ],
-      "correct": "1) China  2) Mexico  3) Morocco",
-      "type": "top_3_producers"
+      "correct": "Heavy Ion Research Laboratory (HIRL)",
+      "type": "discoverers"
     },
     {
-      "question": "Who discovered Phosphorus?",
+      "question": "What is the density of Hassium?",
       "options": [
         {
-          "text": "Clemens Winkler",
-          "element": "Germanium"
+          "text": "9.84 g/cm\u00b3",
+          "element": "Lutetium"
         },
         {
-          "text": "J\u00f6ns Berzelius",
-          "element": "Thorium"
+          "text": "0.00115 g/cm\u00b3",
+          "element": "Nitrogen"
         },
         {
-          "text": "George Brandt",
-          "element": "Cobalt"
+          "text": "40.7 g/cm\u00b3",
+          "element": "Hassium"
         },
         {
-          "text": "Hennig Brand",
-          "element": "Phosphorus"
+          "text": "2.64 g/cm\u00b3",
+          "element": "Strontium"
         }
       ],
-      "correct": "Hennig Brand",
-      "type": "discoverers"
+      "correct": "40.7 g/cm\u00b3",
+      "type": "density"
     }
   ]
 }

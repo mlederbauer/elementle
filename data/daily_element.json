@@ -1,77 +1,100 @@
 {
-  "date": "2026-11-23",
-  "element": "Hassium",
-  "atomicNumber": 108,
-  "symbol": "Hs",
+  "date": "2026-11-24",
+  "element": "Yttrium",
+  "atomicNumber": 39,
+  "symbol": "Y",
   "quiz": [
     {
-      "question": "When was Hassium first discovered?",
+      "question": "What is the crustal abundance of Yttrium?",
       "options": [
         {
-          "text": "1984",
-          "element": "Hassium"
+          "text": "200 mg/kg",
+          "element": "Carbon"
         },
         {
-          "text": "1907",
-          "element": "Lutetium"
+          "text": "19 mg/kg",
+          "element": "Nitrogen"
         },
         {
-          "text": "1790",
-          "element": "Strontium"
+          "text": "5.2 mg/kg",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "33 mg/kg",
+          "element": "Yttrium"
+        }
+      ],
+      "correct": "33 mg/kg",
+      "type": "abundance_crust"
+    },
+    {
+      "question": "What is the geochemical class of Yttrium?",
+      "options": [
+        {
+          "text": "major",
+          "element": "Oxygen"
+        },
+        {
+          "text": "volatile",
+          "element": "Nitrogen"
+        },
+        {
+          "text": "rare earth & related",
+          "element": "Yttrium"
+        },
+        {
+          "text": "semi-volatile",
+          "element": "Carbon"
+        }
+      ],
+      "correct": "rare earth & related",
+      "type": "geochemical_class"
+    },
+    {
+      "question": "When was Yttrium first discovered?",
+      "options": [
+        {
+          "text": "1961",
+          "element": "Lawrencium"
+        },
+        {
+          "text": "1886",
+          "element": "Dysprosium"
+        },
+        {
+          "text": "1789",
+          "element": "Yttrium"
         },
         {
           "text": "1772",
           "element": "Nitrogen"
         }
       ],
-      "correct": "1984",
+      "correct": "1789",
       "type": "discovery_year"
     },
     {
-      "question": "Who discovered Hassium?",
+      "question": "Which countries are the top producers of Yttrium?",
       "options": [
         {
-          "text": "Daniel Rutherford",
-          "element": "Nitrogen"
+          "text": "1) China  2) USA  3) India",
+          "element": "Carbon"
         },
         {
-          "text": "A. Crawford",
-          "element": "Strontium"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Yttrium"
         },
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Hassium"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Platinum"
         },
         {
-          "text": "Georges Urbain",
-          "element": "Lutetium"
+          "text": "1) Chile  2) Peru  3) China",
+          "element": "Copper"
         }
       ],
-      "correct": "Heavy Ion Research Laboratory (HIRL)",
-      "type": "discoverers"
-    },
-    {
-      "question": "What is the density of Hassium?",
-      "options": [
-        {
-          "text": "9.84 g/cm\u00b3",
-          "element": "Lutetium"
-        },
-        {
-          "text": "0.00115 g/cm\u00b3",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "40.7 g/cm\u00b3",
-          "element": "Hassium"
-        },
-        {
-          "text": "2.64 g/cm\u00b3",
-          "element": "Strontium"
-        }
-      ],
-      "correct": "40.7 g/cm\u00b3",
-      "type": "density"
+      "correct": "1) China  2) Russia  3) Malaysia",
+      "type": "top_3_producers"
     }
   ]
 }

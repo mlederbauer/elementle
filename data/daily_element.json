@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-24",
-  "element": "Yttrium",
-  "atomicNumber": 39,
-  "symbol": "Y",
+  "date": "2026-11-25",
+  "element": "Carbon",
+  "atomicNumber": 6,
+  "symbol": "C",
   "quiz": [
     {
-      "question": "What is the crustal abundance of Yttrium?",
+      "question": "What is the geochemical class of Carbon?",
       "options": [
         {
-          "text": "200 mg/kg",
-          "element": "Carbon"
+          "text": "noble metal",
+          "element": "Iridium"
         },
-        {
-          "text": "19 mg/kg",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "5.2 mg/kg",
-          "element": "Dysprosium"
-        },
-        {
-          "text": "33 mg/kg",
-          "element": "Yttrium"
-        }
-      ],
-      "correct": "33 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "What is the geochemical class of Yttrium?",
-      "options": [
         {
           "text": "major",
-          "element": "Oxygen"
+          "element": "Silicon"
         },
         {
           "text": "volatile",
-          "element": "Nitrogen"
-        },
-        {
-          "text": "rare earth & related",
-          "element": "Yttrium"
+          "element": "Xenon"
         },
         {
           "text": "semi-volatile",
           "element": "Carbon"
         }
       ],
-      "correct": "rare earth & related",
+      "correct": "semi-volatile",
       "type": "geochemical_class"
     },
     {
-      "question": "When was Yttrium first discovered?",
+      "question": "What is the approximate price of Carbon per kilogram?",
       "options": [
         {
-          "text": "1961",
-          "element": "Lawrencium"
+          "text": "$6,490,000/kg",
+          "element": "Plutonium"
         },
         {
-          "text": "1886",
-          "element": "Dysprosium"
-        },
-        {
-          "text": "1789",
-          "element": "Yttrium"
-        },
-        {
-          "text": "1772",
-          "element": "Nitrogen"
-        }
-      ],
-      "correct": "1789",
-      "type": "discovery_year"
-    },
-    {
-      "question": "Which countries are the top producers of Yttrium?",
-      "options": [
-        {
-          "text": "1) China  2) USA  3) India",
+          "text": "$0.122/kg",
           "element": "Carbon"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Yttrium"
+          "text": "$55,500/kg",
+          "element": "Iridium"
         },
         {
-          "text": "1) South Africa  2) Russia  3) Zimbabwe",
-          "element": "Platinum"
-        },
-        {
-          "text": "1) Chile  2) Peru  3) China",
-          "element": "Copper"
+          "text": "$5.79/kg",
+          "element": "Antimony"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia",
-      "type": "top_3_producers"
+      "correct": "$0.122/kg",
+      "type": "price_per_kg"
+    },
+    {
+      "question": "What is the crustal abundance of Carbon?",
+      "options": [
+        {
+          "text": "0.001 mg/kg",
+          "element": "Iridium"
+        },
+        {
+          "text": "0.2 mg/kg",
+          "element": "Antimony"
+        },
+        {
+          "text": "200 mg/kg",
+          "element": "Carbon"
+        },
+        {
+          "text": "1.5 mg/kg",
+          "element": "Germanium"
+        }
+      ],
+      "correct": "200 mg/kg",
+      "type": "abundance_crust"
+    },
+    {
+      "question": "Who discovered Carbon?",
+      "options": [
+        {
+          "text": "Heavy Ion Research Laboratory (HIRL)",
+          "element": "Bohrium"
+        },
+        {
+          "text": "Joint Institute for Nuclear Research",
+          "element": "Moscovium"
+        },
+        {
+          "text": "Known to the ancients",
+          "element": "Carbon"
+        },
+        {
+          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
+          "element": "Plutonium"
+        }
+      ],
+      "correct": "Known to the ancients",
+      "type": "discoverers"
     }
   ]
 }

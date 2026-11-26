@@ -1,99 +1,99 @@
 {
-  "date": "2026-11-25",
-  "element": "Carbon",
-  "atomicNumber": 6,
-  "symbol": "C",
+  "date": "2026-11-26",
+  "element": "Germanium",
+  "atomicNumber": 32,
+  "symbol": "Ge",
   "quiz": [
     {
-      "question": "What is the geochemical class of Carbon?",
+      "question": "What is the approximate price of Germanium per kilogram?",
       "options": [
         {
-          "text": "noble metal",
-          "element": "Iridium"
+          "text": "$2.73/kg",
+          "element": "Cadmium"
         },
         {
-          "text": "major",
-          "element": "Silicon"
+          "text": "$2.21/kg",
+          "element": "Calcium"
         },
         {
-          "text": "volatile",
-          "element": "Xenon"
+          "text": "$1.79/kg",
+          "element": "Aluminum"
         },
         {
-          "text": "semi-volatile",
-          "element": "Carbon"
+          "text": "$914/kg",
+          "element": "Germanium"
         }
       ],
-      "correct": "semi-volatile",
-      "type": "geochemical_class"
-    },
-    {
-      "question": "What is the approximate price of Carbon per kilogram?",
-      "options": [
-        {
-          "text": "$6,490,000/kg",
-          "element": "Plutonium"
-        },
-        {
-          "text": "$0.122/kg",
-          "element": "Carbon"
-        },
-        {
-          "text": "$55,500/kg",
-          "element": "Iridium"
-        },
-        {
-          "text": "$5.79/kg",
-          "element": "Antimony"
-        }
-      ],
-      "correct": "$0.122/kg",
+      "correct": "$914/kg",
       "type": "price_per_kg"
     },
     {
-      "question": "What is the crustal abundance of Carbon?",
+      "question": "What is the crustal abundance of Germanium?",
       "options": [
         {
-          "text": "0.001 mg/kg",
-          "element": "Iridium"
-        },
-        {
-          "text": "0.2 mg/kg",
-          "element": "Antimony"
-        },
-        {
-          "text": "200 mg/kg",
-          "element": "Carbon"
+          "text": "41,500 mg/kg",
+          "element": "Calcium"
         },
         {
           "text": "1.5 mg/kg",
           "element": "Germanium"
+        },
+        {
+          "text": "0.15 mg/kg",
+          "element": "Cadmium"
+        },
+        {
+          "text": "82,300 mg/kg",
+          "element": "Aluminum"
         }
       ],
-      "correct": "200 mg/kg",
+      "correct": "1.5 mg/kg",
       "type": "abundance_crust"
     },
     {
-      "question": "Who discovered Carbon?",
+      "question": "Which countries are the top producers of Germanium?",
       "options": [
         {
-          "text": "Heavy Ion Research Laboratory (HIRL)",
-          "element": "Bohrium"
+          "text": "1) China  2) Russia  3) Germany (likely)",
+          "element": "Germanium"
         },
         {
-          "text": "Joint Institute for Nuclear Research",
-          "element": "Moscovium"
+          "text": "1) China  2) Republic of Korea  3) Japan",
+          "element": "Cadmium"
         },
         {
-          "text": "Known to the ancients",
-          "element": "Carbon"
+          "text": "1) China  2) USA  3) India",
+          "element": "Calcium"
         },
         {
-          "text": "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl",
-          "element": "Plutonium"
+          "text": "1) Australia  2) Brazil  3) China",
+          "element": "Aluminum"
         }
       ],
-      "correct": "Known to the ancients",
+      "correct": "1) China  2) Russia  3) Germany (likely)",
+      "type": "top_3_producers"
+    },
+    {
+      "question": "Who discovered Germanium?",
+      "options": [
+        {
+          "text": "Sir Humphrey Davy",
+          "element": "Calcium"
+        },
+        {
+          "text": "Clemens Winkler",
+          "element": "Germanium"
+        },
+        {
+          "text": "Hans Christian Oersted",
+          "element": "Aluminum"
+        },
+        {
+          "text": "Fredrich Stromeyer",
+          "element": "Cadmium"
+        }
+      ],
+      "correct": "Clemens Winkler",
       "type": "discoverers"
     }
   ]

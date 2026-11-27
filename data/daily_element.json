@@ -1,99 +1,99 @@
 {
-  "date": "2026-11-26",
-  "element": "Germanium",
-  "atomicNumber": 32,
-  "symbol": "Ge",
+  "date": "2026-11-27",
+  "element": "Thulium",
+  "atomicNumber": 69,
+  "symbol": "Tm",
   "quiz": [
     {
-      "question": "What is the approximate price of Germanium per kilogram?",
+      "question": "What is the geochemical class of Thulium?",
       "options": [
         {
-          "text": "$2.73/kg",
-          "element": "Cadmium"
-        },
-        {
-          "text": "$2.21/kg",
+          "text": "major",
           "element": "Calcium"
         },
         {
-          "text": "$1.79/kg",
-          "element": "Aluminum"
+          "text": "rare earth & related",
+          "element": "Thulium"
         },
         {
-          "text": "$914/kg",
-          "element": "Germanium"
+          "text": "volatile",
+          "element": "Krypton"
+        },
+        {
+          "text": "U/Th decay series",
+          "element": "Protactinium"
         }
       ],
-      "correct": "$914/kg",
-      "type": "price_per_kg"
+      "correct": "rare earth & related",
+      "type": "geochemical_class"
     },
     {
-      "question": "What is the crustal abundance of Germanium?",
+      "question": "Which countries are the top producers of Thulium?",
       "options": [
-        {
-          "text": "41,500 mg/kg",
-          "element": "Calcium"
-        },
-        {
-          "text": "1.5 mg/kg",
-          "element": "Germanium"
-        },
-        {
-          "text": "0.15 mg/kg",
-          "element": "Cadmium"
-        },
-        {
-          "text": "82,300 mg/kg",
-          "element": "Aluminum"
-        }
-      ],
-      "correct": "1.5 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "Which countries are the top producers of Germanium?",
-      "options": [
-        {
-          "text": "1) China  2) Russia  3) Germany (likely)",
-          "element": "Germanium"
-        },
-        {
-          "text": "1) China  2) Republic of Korea  3) Japan",
-          "element": "Cadmium"
-        },
         {
           "text": "1) China  2) USA  3) India",
           "element": "Calcium"
         },
         {
-          "text": "1) Australia  2) Brazil  3) China",
-          "element": "Aluminum"
+          "text": "1) China  2) Russia  3) Malaysia",
+          "element": "Thulium"
+        },
+        {
+          "text": "1) China  2) Australia  3) USA",
+          "element": "Lead"
+        },
+        {
+          "text": "1) China  2) Mexico  3) Japan",
+          "element": "Bismuth"
         }
       ],
-      "correct": "1) China  2) Russia  3) Germany (likely)",
+      "correct": "1) China  2) Russia  3) Malaysia",
       "type": "top_3_producers"
     },
     {
-      "question": "Who discovered Germanium?",
+      "question": "What is the crustal abundance of Thulium?",
       "options": [
         {
-          "text": "Sir Humphrey Davy",
+          "text": "14 mg/kg",
+          "element": "Lead"
+        },
+        {
+          "text": "0.0001 mg/kg",
+          "element": "Krypton"
+        },
+        {
+          "text": "41,500 mg/kg",
           "element": "Calcium"
         },
         {
-          "text": "Clemens Winkler",
-          "element": "Germanium"
-        },
-        {
-          "text": "Hans Christian Oersted",
-          "element": "Aluminum"
-        },
-        {
-          "text": "Fredrich Stromeyer",
-          "element": "Cadmium"
+          "text": "0.52 mg/kg",
+          "element": "Thulium"
         }
       ],
-      "correct": "Clemens Winkler",
+      "correct": "0.52 mg/kg",
+      "type": "abundance_crust"
+    },
+    {
+      "question": "Who discovered Thulium?",
+      "options": [
+        {
+          "text": "Known to the ancients.",
+          "element": "Lead"
+        },
+        {
+          "text": "Per Theodor Cleve",
+          "element": "Thulium"
+        },
+        {
+          "text": "Sir William Ramsey, M.W. Travers",
+          "element": "Krypton"
+        },
+        {
+          "text": "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso",
+          "element": "Americium"
+        }
+      ],
+      "correct": "Per Theodor Cleve",
       "type": "discoverers"
     }
   ]

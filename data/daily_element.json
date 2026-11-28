@@ -1,100 +1,100 @@
 {
-  "date": "2026-11-27",
-  "element": "Thulium",
-  "atomicNumber": 69,
-  "symbol": "Tm",
+  "date": "2026-11-28",
+  "element": "Phosphorus",
+  "atomicNumber": 15,
+  "symbol": "P",
   "quiz": [
     {
-      "question": "What is the geochemical class of Thulium?",
+      "question": "When was Phosphorus first discovered?",
       "options": [
         {
-          "text": "major",
-          "element": "Calcium"
+          "text": "1669",
+          "element": "Phosphorus"
         },
         {
-          "text": "rare earth & related",
-          "element": "Thulium"
+          "text": "1945",
+          "element": "Americium"
         },
         {
-          "text": "volatile",
-          "element": "Krypton"
+          "text": "1844",
+          "element": "Ruthenium"
         },
         {
-          "text": "U/Th decay series",
-          "element": "Protactinium"
+          "text": "1863",
+          "element": "Indium"
         }
       ],
-      "correct": "rare earth & related",
-      "type": "geochemical_class"
+      "correct": "1669",
+      "type": "discovery_year"
     },
     {
-      "question": "Which countries are the top producers of Thulium?",
+      "question": "Which countries are the top producers of Phosphorus?",
       "options": [
         {
-          "text": "1) China  2) USA  3) India",
-          "element": "Calcium"
+          "text": "1) China  2) Mexico  3) Morocco",
+          "element": "Phosphorus"
         },
         {
-          "text": "1) China  2) Russia  3) Malaysia",
-          "element": "Thulium"
+          "text": "1) China  2) India  3) USA",
+          "element": "Chlorine"
         },
         {
-          "text": "1) China  2) Australia  3) USA",
-          "element": "Lead"
+          "text": "1) South Africa  2) Russia  3) Zimbabwe",
+          "element": "Ruthenium"
         },
         {
-          "text": "1) China  2) Mexico  3) Japan",
-          "element": "Bismuth"
+          "text": "1) China  2) Republic of Korea  3) Japan",
+          "element": "Indium"
         }
       ],
-      "correct": "1) China  2) Russia  3) Malaysia",
+      "correct": "1) China  2) Mexico  3) Morocco",
       "type": "top_3_producers"
     },
     {
-      "question": "What is the crustal abundance of Thulium?",
+      "question": "Who discovered Phosphorus?",
       "options": [
         {
-          "text": "14 mg/kg",
-          "element": "Lead"
-        },
-        {
-          "text": "0.0001 mg/kg",
-          "element": "Krypton"
-        },
-        {
-          "text": "41,500 mg/kg",
-          "element": "Calcium"
-        },
-        {
-          "text": "0.52 mg/kg",
-          "element": "Thulium"
-        }
-      ],
-      "correct": "0.52 mg/kg",
-      "type": "abundance_crust"
-    },
-    {
-      "question": "Who discovered Thulium?",
-      "options": [
-        {
-          "text": "Known to the ancients.",
-          "element": "Lead"
-        },
-        {
-          "text": "Per Theodor Cleve",
-          "element": "Thulium"
-        },
-        {
-          "text": "Sir William Ramsey, M.W. Travers",
-          "element": "Krypton"
+          "text": "Karl Klaus",
+          "element": "Ruthenium"
         },
         {
           "text": "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso",
           "element": "Americium"
+        },
+        {
+          "text": "Hennig Brand",
+          "element": "Phosphorus"
+        },
+        {
+          "text": "Ferdinand Reich, T. Richter",
+          "element": "Indium"
         }
       ],
-      "correct": "Per Theodor Cleve",
+      "correct": "Hennig Brand",
       "type": "discoverers"
+    },
+    {
+      "question": "What is the approximate price of Phosphorus per kilogram?",
+      "options": [
+        {
+          "text": "$728,000/kg",
+          "element": "Americium"
+        },
+        {
+          "text": "$167/kg",
+          "element": "Indium"
+        },
+        {
+          "text": "$10,400/kg",
+          "element": "Ruthenium"
+        },
+        {
+          "text": "$2.69/kg",
+          "element": "Phosphorus"
+        }
+      ],
+      "correct": "$2.69/kg",
+      "type": "price_per_kg"
     }
   ]
 }
